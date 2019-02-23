@@ -1,0 +1,1735 @@
+   #Recent
+   Commits to Awesome-Unicode:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 13
+     * 426
+     * 28
+
+Awesome-Unicode
+
+   Code
+   Pull requests 2
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of delightful Unicode tidbits, packages and resources.
+   [https://git.io/Awesome-Unicode]https://git.io/Awesome-Unicode
+   unicode-standard
+   awesome
+   unicode
+   utf8
+   utf16
+   40
+       commits
+     * 1 branch
+     * Fetc
+       hing contributors
+     * CC0-
+       1.0
+
+    1. Java
+       Script 100.0%
+
+   JavaScript
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/j
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * Branches
+     * Tags
+
+   master
+   Nothing to show
+   v1.0.0
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   resour
+   ces
+   [file://localhost/jagracey/Awesome-Unicode/commit/6d9fb51683e24c134fda9
+   a50937bb3a9e7ca7eb1]Create javascript-content.js Aug 1, 2016
+   [file://localhost/jagracey/Awesome-Unicode/blob/master/CODE-OF-CONDUCT.
+   md]CODE-OF-CONDUCT.md
+   [file://localhost/jagracey/Awesome-Unicode/commit/58f28d08aef7f36eb6cdc
+   a22d25e7654cd8de5ae]Added Code of Conduct, Glossary, Contribution
+   Guide, and images. Jun 1, 2016
+   
+   CONTRIBUTING.md
+   Added Code of Conduct, Glossary, Contribution
+   Guide, and images. Jun 1, 2016
+   GLOS
+   SARY.md
+   [file://localhost/jagracey/Awesome-Unicode/commit/9f4545a79a37478ecf843
+   b4ec4e7359b1f5f4c1d]Implement Glossary.md Jun 1, 2016
+   LICENSE
+   Initial commit May 30, 2016
+   README
+   .md
+   fix image rendering issue in README.md Jun 30, 2017
+
+README.md
+
+   [https://raw.githubusercontent.com/jagracey/Awesome-Unicode/58f28d08aef
+   7f36eb6cdca22d25e7654cd8de5ae/resources/banner.jpg]
+
+Awesome
+
+     A curated list of delightful Unicode tidbits, packages and
+     resources.
+
+   Please read the
+   
+   contribution guidelines before contributing. Key Unicode terminology is
+   defined in the
+   glos
+   sary.
+
+Foreword
+
+   Unicode is Awesome! Prior to Unicode, international communication was
+   grueling- everyone had defined their separate extended character set in
+   the upperhalf of ASCII (called Code Pages) that would conflict- Just
+   think, German speakers coordinating with Korean speakers over which 127
+   character Code Page to use. Thankfully the Unicode standard caught on
+   and unified communication. Unicode 8.0 standardizes over 120,000
+   characters from over 129 scripts - some modern, some ancient, and some
+   still undeciphered. Unicode handles left-to-right and right-to-left
+   text, combining marks, and includes diverse cultural, political,
+   religious characters and emojis. Unicode is awesomely human - and
+   ultimately underappreciated.
+
+Contents
+
+     * Quick Unicode Background
+          + What
+            Characters Does the Unicode Standard Include?
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#unicode-character-encodings]Unicode Character
+            Encodings
+          + Lets talk Numbers
+          + UTF-16 Surrogate Pairs
+          + Calculating Surrogate
+            Pairs
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#composing--decomposing]Composing & Decomposing
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#myths-of-unicode]Myths of Unicode
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#applied-unicode-encodings]Applied Unicode Encodings
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#source-code]Source Code
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Unico
+       de#awesome-characters-list]Awesome Characters List
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#special-characters]Special Characters
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#variable-identifiers-can-effectively-include-whitespac
+            e]Variable identifiers can effectively include whitespace!
+          + Modifiers
+          + Uppercas
+            e Transformation Collisions
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#collision-lowercase-transformation-collisions]Lowercas
+            e Transformation Collisions
+     * Quirks and Troubleshooting
+          + One-To-Many Case Mappings
+     * Awesome Packages & Libraries
+     * Emojis
+          + Diversity
+     * Creatively Naming
+       Variables and Methods
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#recursive-html-tag-renaming-script]Recursive HTML Tag
+            Renaming Script
+     * Unicode Fonts
+     * More Reading
+     * Exploring Deeper into
+       Unicode Yourself
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Unico
+       de#overview-map]Overview Map
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Unicode#a-map-of-the-basic-multilingual-plane]A map of the
+            Basic Multilingual Plane
+          + Unicode Blocks
+     * Principles of the Unicode
+       Standard
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Unico
+       de#unicode-versions]Unicode Versions
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Unico
+       de#contributing]Contributing
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Unico
+       de#code-of-conduct]Code of Conduct
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Unico
+       de#license]License
+
+Quick Unicode Background
+
+What Characters Does the Unicode Standard Include?
+
+   The Unicode Standard defines codes for characters used in all the major
+   languages written today. Scripts include the European alphabetic
+   scripts, Middle Eastern right-to-left scripts, and many scripts of
+   Asia.
+
+   The Unicode Standard further includes punctuation marks, diacritics,
+   mathematical symbols, technical symbols, arrows, dingbats, emoji, etc.
+   It provides codes for diacritics, which are modifying character marks
+   such as the tilde (~), that are used in conjunction with base
+   characters to represent accented letters (ñ, for example). In all, the
+   Unicode Standard, Version 9.0 provides codes for 128,172 characters
+   from the world's alphabets, ideograph sets, and symbol collections.
+
+   The majority of common-use characters fit into the first 64K code
+   points, an area of the codespace that is called the basic multilingual
+   plane, or BMP for short. There are sixteen other supplementary planes
+   available for encoding other characters, with currently over 850,000
+   unused code points. More characters are under consideration for
+   addition to future versions of the standard.
+
+   The Unicode Standard also reserves code points for private use. Vendors
+   or end users can assign these internally for their own characters and
+   symbols, or use them with specialized fonts. There are 6,400 private
+   use code points on the BMP and another 131,068 supplementary private
+   use code points, should 6,400 be insufficient for particular
+   applications.
+
+Unicode Character Encodings
+
+   Character encoding standards define not only the identity of each
+   character and its numeric value, or code point, but also how this value
+   is represented in bits.
+
+   The Unicode Standard defines three encoding forms that allow the same
+   data to be transmitted in a byte, word or double word oriented format
+   (i.e. in 8, 16 or 32-bits per code unit). All three encoding forms
+   encode the same common character repertoire and can be efficiently
+   transformed into one another without loss of data. The Unicode
+   Consortium fully endorses the use of any of these encoding forms as a
+   conformant way of implementing the Unicode Standard.
+
+   UTF-8 is popular for HTML and similar protocols. UTF-8 is a way of
+   transforming all Unicode characters into a variable length encoding of
+   bytes. It has the advantages that the Unicode characters corresponding
+   to the familiar ASCII set have the same byte values as ASCII, and that
+   Unicode characters transformed into UTF-8 can be used with much
+   existing software without extensive software rewrites.
+
+   UTF-16 is popular in many environments that need to balance efficient
+   access to characters with economical use of storage. It is reasonably
+   compact and all the heavily used characters fit into a single 16-bit
+   code unit, while all other characters are accessible via pairs of
+   16-bit code units.
+
+   UTF-32 is useful where memory space is no concern, but fixed width,
+   single code unit access to characters is desired. Each Unicode
+   character is encoded in a single 32-bit code unit when using UTF-32.
+
+   All three encoding forms need at most 4 bytes (or 32-bits) of data for
+   each character.
+
+Lets talk Numbers
+
+   The Unicode characterset is divided into 17 core segments called
+   "planes", which are further divided into blocks. Each plane has space
+   for 65,536 (2¹^6) codepoints, supporting a grand total of 1,114,112
+   codepoints. There are two "Private Use Area" planes (#16 & #17) that
+   are allocated to be used however one wishes. These two Private Use
+   planes account for 131,072 codepoints.
+    #                 Name                         Range
+   1.  Basic Multilingual Plane            (U+0000 to U+FFFF)
+   2.  Supplementary Multilingual Plane    (U+10000 to U+1FFFF)
+   3.  Supplementary Ideographic Plane     (U+20000 to U+2FFFF)
+   4.  Tertiary Ideographic Plane          (U+30000 to U+3FFFF)
+   5.  Plane 5 (unassigned)                (U+40000 to U+4FFFF)
+   6.  Plane 6 (unassigned)                (U+50000 to U+5FFFF)
+   7.  Plane 7 (unassigned)                (U+60000 to U+6FFFF)
+   8.  Plane 8 (unassigned)                (U+70000 to U+7FFFF)
+   9.  Plane 9 (unassigned)                (U+80000 to U+8FFFF)
+   10. Plane 10 (unassigned)               (U+90000 to U+9FFFF)
+   11. Plane 11 (unassigned)               (U+A0000 to U+AFFFF)
+   12. Plane 12 (unassigned)               (U+B0000 to U+BFFFF)
+   13. Plane 13 (unassigned)               (U+C0000 to U+CFFFF)
+   14. Plane 14 (unassigned)               (U+D0000 to U+DFFFF)
+   15. Supplementary Special-purpose Plane (U+E0000 to U+EFFFF)
+   16. Supplementary Private Use Area - A  (U+F0000 to U+FFFFF)
+   17. Supplementary Private Use Area - B  (U+100000 to U+10FFFF)
+
+   The first plane is called the Basic Multilingual Plane or BMP. It
+   contains the code points from U+0000 to U+FFFF, which are the most
+   frequently used characters. The other sixteen planes (U+010000 ->
+   U+10FFFF) are called supplementary planes or astral planes.
+
+UTF-16 Surrogate Pairs
+
+     Characters outside the BMP, e.g. U+1D306 tetragram for centre (),
+     can only be encoded in UTF-16 using two 16-bit code units: 0xD834
+     0xDF06. This is called a surrogate pair. Note that a surrogate pair
+     only represents a single character. The first code unit of a
+     surrogate pair is always in the range from 0xD800 to 0xDBFF, and is
+     called a high surrogate or a lead surrogate. The second code unit of
+     a surrogate pair is always in the range from 0xDC00 to 0xDFFF, and
+     is called a low surrogate or a trail surrogate.
+
+   --
+   [https://mathiasbynens.be/notes/javascript-encoding#surrogate-pairs]Mat
+   hias Bynens
+
+     Surrogate pair: A representation for a single abstract character
+     that consists of a sequence of two 16-bit code units, where the
+     first value of the pair is a high-surrogate code unit and the second
+     value is a low-surrogate code unit. Surrogate pairs are used only in
+     UTF-16. (See Section 3.9, Unicode Encoding Forms.) --
+     [http://unicode.org/versions/Unicode8.0.0/ch03.pdf#page=47]Unicode
+     8.0.0 Chapter 3 - Surrogates
+
+Calculating Surrogate Pairs
+
+   The Unicode character © Pile of Poo (U+1F4A9) in UTF-16 must be encoded
+   as a surrogate pair, i.e. two surrogates. To convert any code point to
+   a surrogate pair, use the following algorithm (in JavaScript). Keep in
+   mind that we're using hexidecimal notation.
+ var High_Surrogate = function(Code_Point){ return Math.floor((Code_Point - 0x10000) / 0x400) + 0xD800 };
+ var Low_Surrogate  = function(Code_Point){ return (Code_Point - 0x10000) % 0x400 + 0xDC00 };
+
+ // Reverses The Conversion
+ var Code_Point = function(High_Surrogate, Low_Surrogate){
+        return (High_Surrogate - 0xD800) * 0x400 + Low_Surrogate - 0xDC00 + 0x10000;
+ };
+
+ > var codepoint = 0x1F4A9;
+// 0x1F4A9 == 128169
+ > High_Surrogate(codepoint).toString(16)
+ "d83d"
+                        // 0xD83D == 55357
+ > Low_Surrogate(codepoint).toString(16)
+ "dca9"
+                        // 0xDCA9 == 56489
+
+ > String.fromCharCode(  High_Surrogate(codepoint) , Low_Surrogate(codepoint) );
+  "©"
+> String.fromCodePoint(0x1F4A9)
+  "©"
+ > '\ud83d\udca9'
+  "©"
+
+Composing & Decomposing
+
+   Unicode includes a mechanism for modifying character shape that greatly
+   extends the supported glyph repertoire. This covers the use of
+   combining diacritical marks. They are inserted after the main
+   character. Multiple combining diacritics may be stacked over the same
+   character. Unicode also contains precomposed versions of most
+   letter/diacritic combinations in normal use.
+
+   Certain sequences of characters can also be represented as a single
+   character, called a precomposed character (or composite or decomposible
+   character). For example, the character "ü" can be encoded as the single
+   code point U+00FC "ü" or as the base character U+0075 "u" followed by
+   the non-spacing character U+0308 "¨". The Unicode Standard encodes
+   precomposed characters for compatibility with established standards
+   such as Latin 1, which includes many precomposed characters such as "ü"
+   and "ñ".
+
+   Precomposed characters may be decomposed for consistency or analysis.
+   For example, in alphabetizing (collating) a list of names, the
+   character "ü" may be decomposed into a "u" followed by the non-spacing
+   character "¨". Once the character has been decomposed, it may be easier
+   for the collation to work with the character because it can be
+   processed as a "u" with modifications. This allows easier alphabetical
+   sorting for languages where character modifiers do not affect
+   alphabetical order. The Unicode Standard defines the
+   [http://unicode.org/versions/Unicode8.0.0/ch03.pdf#page=44]decompositio
+   ns for all precomposed characters. It also defines normalization forms
+   to provide for unique representations of characters.
+
+Myths of Unicode
+
+   From Mark Davis's [http://macchiato.com/slides/UnicodeMyths.pdf]Unicode
+   Myths slides.
+     * Unicode is simply a 16-bit code - Some people are under the
+       misconception that Unicode is simply a 16-bit code where each
+       character takes 16 bits and therefore there are 65,536 possible
+       characters. This is not, actually, correct. It is the single most
+       common myth about Unicode, so if you thought that, don't feel bad.
+     * You can use any unassigned codepoint for internal use - No.
+       Eventually that hole will be filled with a different character.
+       Instead use private use or noncharacters.
+     * Every Unicode code point represents a character - No. There are
+       lots of nonCharacters (FFFE, FFFF, 1FFFE,...) There are also
+       surrogate code points, private and unassigned codepoints, and
+       control/format "characters" (RLM, ZWNJ,...)
+     * Unicode will run out of space - If it were linear, we would run out
+       in 2140 AD. But it isn't linear. See
+       [http://www.unicode.org/roadmaps/]http://www.unicode.org/roadmaps/
+     * Case mappings are 1-1 - No. They can also be:
+          + One-to-many: (ß -> SS )
+          + Contextual: (...S <-> ...*s AND ...ST... <-> ...st... )
+          + Locale-sensitive: ( I <-> i AND I <-> i )
+
+Applied Unicode Encodings
+
+         Encoding Type                  Raw Encoding
+   HTML Entity (Decimal)
+   HTML Entity (Hexadecimal)
+   URL Escape Code           %F0%9F%96%96
+   UTF-8 (hex)               0xF0 0x9F 0x96 0x96 (f09f9696)
+   UTF-8 (binary)            11110000:10011111:10010110:10010110
+   UTF-16/UTF-16BE (hex)     0xD83D 0xDD96 (d83ddd96)
+   UTF-16LE (hex)            0x3DD8 0x96DD (3dd896dd)
+   UTF-32/UTF-32BE (hex)     0x0001F596 (0001f596)
+   UTF-32LE (hex)            0x96F50100 (96f50100)
+   Octal Escape Sequence     \360\237\226\226
+
+Source Code
+
+   Encoding Type Raw Encoding
+   JavaScript    \u1F596
+   JSON          \u1F596
+   C             \u1F596
+   C++           \u1F596
+   Java          \u1F596
+   Python        \u1F596
+   Perl          \x{1F596}
+   Ruby          \u{1F596}
+   CSS           \01F596
+
+Awesome Characters List
+
+   [![]([http://imgs.xkcd.com/comics/rtl.png]http://imgs.xkcd.com/comics/r
+   tl.png )]([https://xkcd.com/1137/]https://xkcd.com/1137/)
+
+Special Characters
+
+   The Unicode Consortium published a
+   [http://www.unicode.org/charts/PDF/U2000.pdf]general punctuation chart
+   where you can find more details.
+   Char Name Description
+   '¿' U+FEFF (Byte Order Mark - BOM) has the important property of
+   unambiguity on byte reorder. It is also zerowidth, and invisible. In
+   non-complying software (like the PHP interpreter) this leads to all
+   sorts of fun behaviour.
+   '¯' '\uFFEF' Reversed Byte Order Mark (BOM) does not equate to a legal
+   character, other than the beginning of text.
+   '' '\u200B' zero-width non-break space (a character with no appearance
+   and no effect other than preventing the formation of ligatures).
+   ' ' U+00A0 NO-BREAK SPACE force adjacent characters to stick together.
+   Well known as &nbsp;  in HTML.
+   '' U+00AD SOFT HYPHEN (in HTML: ) like ZERO WIDTH SPACE, but show a
+   hyphen if (and only if) a break occurs.
+   '' U+200D ZERO WIDTH JOINER force adjacent characters to be joined
+   together (e.g., arabic characters or supported emoji). Can be used this
+   to compose sequentially combined emoji.
+   ' ' U+2060 WORD JOINER the same as U+00A0, but completely invisible.
+   Good for writing @font-face on Twitter.
+   '' U+1680 OGHAM SPACE MARK a space that looks like a dash. Great to
+   bring programmers close to madness: 1 + 2 === 3.
+   '?%' U+037E GREEK QUESTION MARK a look-alike to the semicolon. Also a
+   fun way to annoy developers.
+   '' U+202D change the text direction to Left-to-Right.
+   '®' U+202E change the text direction to Right-to-Left:
+   '¸' U+A4F8 LISU LETTER TONE MYA TI A lookalike for the period
+   character.
+   '¹' U+A4F9 LISU LETTER TONE NA PO A lookalike for the comma character.
+   '¼' U+A4FC LISU LETTER TONE MYA NA A lookalike for the semi-colon
+   character.
+   '½' U+A4FD LISU LETTER TONE MYA JEU A lookalike for the colon
+   character.
+   '' Variation Selectors ( U+FE00 to U+FE0F & U+E0100 to U+E01EF ) a
+   block of 256 zero width characters that posess the ID_Continue
+   proprerty- meaning they can be used in variable names (not the first
+   letter). What makes these special is the fact that mouse cursors pass
+   over them as they are combining characters - unlike most other zero
+   width characters.
+   '' U+115F HANGUL CHOSEONG FILLER In general it produces a space.
+   Rendered as zero width (invisible) if not explicitly supported in
+   rendering. Designated ID_Start
+   ' ' U+1160 HANGUL JUNGSEONG FILLER Perhaps it produces a space?
+   Rendered as zero width (invisible) if not explicitly supported in
+   rendering. Designated ID_Start
+   '¤' U+3164 HANGUL FILLER In general it produces a space. Rendered as
+   zero width (invisible) if not explicitly supported in rendering.
+   Designated ID_Start
+
+Wait a second... what did I just read?
+
+Variable identifiers can effectively include whitespace!
+
+   The U+3164 HANGUL FILLER character displays as an advancing whitespace
+   character. The character is rendered as completely invisible (and non
+   advancing, i.e. "zero width"), if not explicitly
+   [http://unicode.org/faq/unsup_char.html]supported in rendering. That
+   means the ugly character replacement (½) symbol should never be
+   displayed.
+
+   I'm not yet sure why U+3164 was specified to behave this way.
+   Interestingly, U+3164 was added to Unicode in version 1.1 (1993)- so
+   the consortium must have had a lot of time to think it through. Anyway,
+   here are a few examples.
+> var  = 'foo';
+undefined
+>
+'foo'
+
+
+> var ¤= alert;
+undefined
+> var foo = 'bar'
+undefined
+> if ( foo ===¤`baz` ){}        // alert
+undefined
+
+
+> var var¤foo¤\u{A60C}¤p = 'bar';
+undefined
+> var¤foo¤¤p
+'bar'
+
+   **NOTE:** I've tested U+3164 rendering on Ubuntu and OS X with the
+   following: `node`, `php`, `ruby`, `python3.5`, `scala` ,`vim`, `cat`,
+   `chrome`+`github gist`. Atom is the only system that fails by
+   (incorrectly) displaying empty boxes. I have yet to test it out on
+   Emacs and Sublime. From what I understand, the Unicode Consortium will
+   not reassign or rename characters or codepoints, but may be convinced
+   to change character properties like ID_Start/ID_Continue.
+
+Modifiers
+
+   The zero-width joiner (ZWJ) is a non-printing character used in the
+   computerized typesetting of some complex scripts such as the Arabic
+   script or any Indic script. When placed between two characters that
+   would otherwise not be connected, a ZWJ causes them to be printed in
+   their connected forms.
+
+   The zero-width non-joiner (ZWNJ) is a non-printing character used in
+   the computerization of writing systems that make use of ligatures. When
+   placed between two characters that would otherwise be connected into a
+   ligature, a ZWNJ causes them to be printed in their final and initial
+   forms, respectively. This is also an effect of a space character, but a
+   ZWNJ is used when it is desirable to keep the words closer together or
+   to connect a word with its morpheme.
+> 'a'
+ "a"
+
+> 'a\u{0308}'
+ "a¨"
+
+> 'a\u{20DE}\u{0308}'
+ "a¨"
+
+> 'a\u{20DE}\u{0308}\u{20DD}'
+ "a¨"
+
+// Modifying Invisible Characters
+> '\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}'
+ ""
+
+> '\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}\u{200E}'.length
+ 10
+
+¥ Uppercase Transformation Collisions
+
+   Char Code Point Output Char
+   ß    0x00DF     SS
+   i    0x0131     I
+   s1   0x017F     S
+   ff   0xFB00     FF
+   fi   0xFB01     FI
+   fl   0xFB02     FL
+   ffi  0xFB03     FFI
+   ffl  0xFB04     FFL
+   St   0xFB05     ST
+   st   0xFB06     ST
+
+¥ Lowercase Transformation Collisions
+
+   Char Code Point Output Char
+   K    0x212A     k
+
+Quirks and Troubleshooting
+
+     * String length is typically determined by counting codepoints. This
+       means that surrogate pairs would count as two characters. Combining
+       multiple diacritics may be stacked over the same character. a + ¨
+       == ¨a, increasing length, while only producing a single character.
+     * Similarily, reversing strings often is a non-trivial task. Again,
+       surrogate pairs and diacritics must be reversed together.
+       [https://github.com/mathiasbynens/esrever]ES Reverser provides a
+       pretty good solution.
+     * Upper and lower case mappings are not always one-to-one. They can
+       also be:
+          + One-to-many: (ß -> SS )
+          + Contextual: (...S <-> ...*s AND ...ST... <-> ...st... )
+          + Locale-sensitive: ( I <-> i AND I <-> i )
+
+One-To-Many Case Mappings
+
+   Most of the below characters express their one-to-many case mappings
+   when uppercased- while others should be lowercased. This list should be
+   split up
+   Code Point Character Name Mapped Character Mapped Code Points
+   [https://codepoints.net/U+00DF?lang=en]U+00DF ß LATIN SMALL LETTER
+   SHARP S s, s U+0073, U+0073
+   [https://codepoints.net/U+0130?lang=en]U+0130 I LATIN CAPITAL LETTER I
+   WITH DOT ABOVE i, · U+0069, U+0307
+   [https://codepoints.net/U+0149?lang=en]U+0149 'n LATIN SMALL LETTER N
+   PRECEDED BY APOSTROPHE ', n U+02BC, U+006E
+   [https://codepoints.net/U+01F0?lang=en]U+01F0 j LATIN SMALL LETTER J
+   WITH CARON j, U+006A, U+030C
+   [https://codepoints.net/U+0390?lang=en]U+0390 i3 GREEK SMALL LETTER
+   IOTA WITH DIALYTIKA AND TONOS i, ¨, ' U+03B9, U+0308, U+0301
+   [https://codepoints.net/U+03B0?lang=en]U+03B0 u3 GREEK SMALL LETTER
+   UPSILON WITH DIALYTIKA AND TONOS u, ¨, ' U+03C5, U+0308, U+0301
+   [https://codepoints.net/U+0587?lang=en]U+0587 ARMENIAN SMALL LIGATURE
+   ECH YIWN ¥, U+0565, U+0582
+   [https://codepoints.net/U+1E96?lang=en]U+1E96 h_ LATIN SMALL LETTER H
+   WITH LINE BELOW h, ± U+0068, U+0331
+   [https://codepoints.net/U+1E97?lang=en]U+1E97 t: LATIN SMALL LETTER T
+   WITH DIAERESIS t, ¨ U+0074, U+0308
+   [https://codepoints.net/U+1E98?lang=en]U+1E98 w0 LATIN SMALL LETTER W
+   WITH RING ABOVE w, ° U+0077, U+030A
+   [https://codepoints.net/U+1E99?lang=en]U+1E99 y0 LATIN SMALL LETTER Y
+   WITH RING ABOVE y, ° U+0079, U+030A
+   [https://codepoints.net/U+1E9A?lang=en]U+1E9A LATIN SMALL LETTER A WITH
+   RIGHT HALF RING a, ¾ U+0061, U+02BE
+   [https://codepoints.net/U+1E9E?lang=en]U+1E9E LATIN CAPITAL LETTER
+   SHARP S s, s U+0073, U+0073
+   [https://codepoints.net/U+1F50?lang=en]U+1F50 GREEK SMALL LETTER
+   UPSILON WITH PSILI u, U+03C5, U+0313
+   [https://codepoints.net/U+1F52?lang=en]U+1F52 GREEK SMALL LETTER
+   UPSILON WITH PSILI AND VARIA u, , ` U+03C5, U+0313, U+0300
+   [https://codepoints.net/U+1F54?lang=en]U+1F54 GREEK SMALL LETTER
+   UPSILON WITH PSILI AND OXIA u, , ' U+03C5, U+0313, U+0301
+   [https://codepoints.net/U+1F56?lang=en]U+1F56 GREEK SMALL LETTER
+   UPSILON WITH PSILI AND PERISPOMENI u, , ~ U+03C5, U+0313, U+0342
+   [https://codepoints.net/U+1F80?lang=en]U+1F80 GREEK SMALL LETTER ALPHA
+   WITH PSILI AND YPOGEGRAMMENI a, i U+1F00, U+03B9
+   [https://codepoints.net/U+1F81?lang=en]U+1F81 GREEK SMALL LETTER ALPHA
+   WITH DASIA AND YPOGEGRAMMENI ha, i U+1F01, U+03B9
+   [https://codepoints.net/U+1F82?lang=en]U+1F82 GREEK SMALL LETTER ALPHA
+   WITH PSILI AND VARIA AND YPOGEGRAMMENI `a, i U+1F02, U+03B9
+   [https://codepoints.net/U+1F83?lang=en]U+1F83 GREEK SMALL LETTER ALPHA
+   WITH DASIA AND VARIA AND YPOGEGRAMMENI h`a, i U+1F03, U+03B9
+   [https://codepoints.net/U+1F84?lang=en]U+1F84 GREEK SMALL LETTER ALPHA
+   WITH PSILI AND OXIA AND YPOGEGRAMMENI a', i U+1F04, U+03B9
+   [https://codepoints.net/U+1F85?lang=en]U+1F85 GREEK SMALL LETTER ALPHA
+   WITH DASIA AND OXIA AND YPOGEGRAMMENI ha', i U+1F05, U+03B9
+   [https://codepoints.net/U+1F86?lang=en]U+1F86 GREEK SMALL LETTER ALPHA
+   WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI a~, i U+1F06, U+03B9
+   [https://codepoints.net/U+1F87?lang=en]U+1F87 GREEK SMALL LETTER ALPHA
+   WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI ha~, i U+1F07, U+03B9
+   [https://codepoints.net/U+1F88?lang=en]U+1F88 GREEK CAPITAL LETTER
+   ALPHA WITH PSILI AND PROSGEGRAMMENI a, i U+1F00, U+03B9
+   [https://codepoints.net/U+1F89?lang=en]U+1F89 GREEK CAPITAL LETTER
+   ALPHA WITH DASIA AND PROSGEGRAMMENI ha, i U+1F01, U+03B9
+   [https://codepoints.net/U+1F8A?lang=en]U+1F8A GREEK CAPITAL LETTER
+   ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI `a, i U+1F02, U+03B9
+   [https://codepoints.net/U+1F8B?lang=en]U+1F8B GREEK CAPITAL LETTER
+   ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI h`a, i U+1F03, U+03B9
+   [https://codepoints.net/U+1F8C?lang=en]U+1F8C GREEK CAPITAL LETTER
+   ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI a', i U+1F04, U+03B9
+   [https://codepoints.net/U+1F8D?lang=en]U+1F8D GREEK CAPITAL LETTER
+   ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI ha', i U+1F05, U+03B9
+   [https://codepoints.net/U+1F8E?lang=en]U+1F8E GREEK CAPITAL LETTER
+   ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI a~, i U+1F06,
+   U+03B9
+   [https://codepoints.net/U+1F8F?lang=en]U+1F8F GREEK CAPITAL LETTER
+   ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI ha~, i U+1F07,
+   U+03B9
+   [https://codepoints.net/U+1F90?lang=en]U+1F90 GREEK SMALL LETTER ETA
+   WITH PSILI AND YPOGEGRAMMENI  , i U+1F20, U+03B9
+   [https://codepoints.net/U+1F91?lang=en]U+1F91 GREEK SMALL LETTER ETA
+   WITH DASIA AND YPOGEGRAMMENI ¡, i U+1F21, U+03B9
+   [https://codepoints.net/U+1F92?lang=en]U+1F92 GREEK SMALL LETTER ETA
+   WITH PSILI AND VARIA AND YPOGEGRAMMENI ¢, i U+1F22, U+03B9
+   [https://codepoints.net/U+1F93?lang=en]U+1F93 GREEK SMALL LETTER ETA
+   WITH DASIA AND VARIA AND YPOGEGRAMMENI £, i U+1F23, U+03B9
+   [https://codepoints.net/U+1F94?lang=en]U+1F94 GREEK SMALL LETTER ETA
+   WITH PSILI AND OXIA AND YPOGEGRAMMENI ¤, i U+1F24, U+03B9
+   [https://codepoints.net/U+1F95?lang=en]U+1F95 GREEK SMALL LETTER ETA
+   WITH DASIA AND OXIA AND YPOGEGRAMMENI ¥, i U+1F25, U+03B9
+   [https://codepoints.net/U+1F96?lang=en]U+1F96 GREEK SMALL LETTER ETA
+   WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI ¦, i U+1F26, U+03B9
+   [https://codepoints.net/U+1F97?lang=en]U+1F97 GREEK SMALL LETTER ETA
+   WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI §, i U+1F27, U+03B9
+   [https://codepoints.net/U+1F98?lang=en]U+1F98 GREEK CAPITAL LETTER ETA
+   WITH PSILI AND PROSGEGRAMMENI  , i U+1F20, U+03B9
+   [https://codepoints.net/U+1F99?lang=en]U+1F99 GREEK CAPITAL LETTER ETA
+   WITH DASIA AND PROSGEGRAMMENI ¡, i U+1F21, U+03B9
+   [https://codepoints.net/U+1F9A?lang=en]U+1F9A GREEK CAPITAL LETTER ETA
+   WITH PSILI AND VARIA AND PROSGEGRAMMENI ¢, i U+1F22, U+03B9
+   [https://codepoints.net/U+1F9B?lang=en]U+1F9B GREEK CAPITAL LETTER ETA
+   WITH DASIA AND VARIA AND PROSGEGRAMMENI £, i U+1F23, U+03B9
+   [https://codepoints.net/U+1F9C?lang=en]U+1F9C GREEK CAPITAL LETTER ETA
+   WITH PSILI AND OXIA AND PROSGEGRAMMENI ¤, i U+1F24, U+03B9
+   [https://codepoints.net/U+1F9D?lang=en]U+1F9D GREEK CAPITAL LETTER ETA
+   WITH DASIA AND OXIA AND PROSGEGRAMMENI ¥, i U+1F25, U+03B9
+   [https://codepoints.net/U+1F9E?lang=en]U+1F9E GREEK CAPITAL LETTER ETA
+   WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI ¦, i U+1F26, U+03B9
+   [https://codepoints.net/U+1F9F?lang=en]U+1F9F GREEK CAPITAL LETTER ETA
+   WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI §, i U+1F27, U+03B9
+   [https://codepoints.net/U+1FA0?lang=en]U+1FA0   GREEK SMALL LETTER
+   OMEGA WITH PSILI AND YPOGEGRAMMENI  , i U+1F60, U+03B9
+   [https://codepoints.net/U+1FA1?lang=en]U+1FA1 ¡ GREEK SMALL LETTER
+   OMEGA WITH DASIA AND YPOGEGRAMMENI ¡, i U+1F61, U+03B9
+   [https://codepoints.net/U+1FA2?lang=en]U+1FA2 ¢ GREEK SMALL LETTER
+   OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI ¢, i U+1F62, U+03B9
+   [https://codepoints.net/U+1FA3?lang=en]U+1FA3 £ GREEK SMALL LETTER
+   OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI £, i U+1F63, U+03B9
+   [https://codepoints.net/U+1FA4?lang=en]U+1FA4 ¤ GREEK SMALL LETTER
+   OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI ¤, i U+1F64, U+03B9
+   [https://codepoints.net/U+1FA5?lang=en]U+1FA5 ¥ GREEK SMALL LETTER
+   OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI ¥, i U+1F65, U+03B9
+   [https://codepoints.net/U+1FA6?lang=en]U+1FA6 ¦ GREEK SMALL LETTER
+   OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI ¦, i U+1F66, U+03B9
+   [https://codepoints.net/U+1FA7?lang=en]U+1FA7 § GREEK SMALL LETTER
+   OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI §, i U+1F67, U+03B9
+   [https://codepoints.net/U+1FA8?lang=en]U+1FA8 ¨ GREEK CAPITAL LETTER
+   OMEGA WITH PSILI AND PROSGEGRAMMENI  , i U+1F60, U+03B9
+   [https://codepoints.net/U+1FA9?lang=en]U+1FA9 © GREEK CAPITAL LETTER
+   OMEGA WITH DASIA AND PROSGEGRAMMENI ¡, i U+1F61, U+03B9
+   [https://codepoints.net/U+1FAA?lang=en]U+1FAA ª GREEK CAPITAL LETTER
+   OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI ¢, i U+1F62, U+03B9
+   [https://codepoints.net/U+1FAB?lang=en]U+1FAB « GREEK CAPITAL LETTER
+   OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI £, i U+1F63, U+03B9
+   [https://codepoints.net/U+1FAC?lang=en]U+1FAC ¬ GREEK CAPITAL LETTER
+   OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI ¤, i U+1F64, U+03B9
+   [https://codepoints.net/U+1FAD?lang=en]U+1FAD ­ GREEK CAPITAL LETTER
+   OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI ¥, i U+1F65, U+03B9
+   [https://codepoints.net/U+1FAE?lang=en]U+1FAE ® GREEK CAPITAL LETTER
+   OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI ¦, i U+1F66, U+03B9
+   [https://codepoints.net/U+1FAF?lang=en]U+1FAF ¯ GREEK CAPITAL LETTER
+   OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI §, i U+1F67, U+03B9
+   [https://codepoints.net/U+1FB2?lang=en]U+1FB2 ² GREEK SMALL LETTER
+   ALPHA WITH VARIA AND YPOGEGRAMMENI °, i U+1F70, U+03B9
+   [https://codepoints.net/U+1FB3?lang=en]U+1FB3 ³ GREEK SMALL LETTER
+   ALPHA WITH YPOGEGRAMMENI a, i U+03B1, U+03B9
+   [https://codepoints.net/U+1FB4?lang=en]U+1FB4 ´ GREEK SMALL LETTER
+   ALPHA WITH OXIA AND YPOGEGRAMMENI a', i U+03AC, U+03B9
+   [https://codepoints.net/U+1FB6?lang=en]U+1FB6 ¶ GREEK SMALL LETTER
+   ALPHA WITH PERISPOMENI a, ~ U+03B1, U+0342
+   [https://codepoints.net/U+1FB7?lang=en]U+1FB7 · GREEK SMALL LETTER
+   ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI a, ~, i U+03B1, U+0342, U+03B9
+   [https://codepoints.net/U+1FBC?lang=en]U+1FBC ¼ GREEK CAPITAL LETTER
+   ALPHA WITH PROSGEGRAMMENI a, i U+03B1, U+03B9
+   [https://codepoints.net/U+1FC2?lang=en]U+1FC2 GREEK SMALL LETTER ETA
+   WITH VARIA AND YPOGEGRAMMENI ´, i U+1F74, U+03B9
+   [https://codepoints.net/U+1FC3?lang=en]U+1FC3 GREEK SMALL LETTER ETA
+   WITH YPOGEGRAMMENI y, i U+03B7, U+03B9
+   [https://codepoints.net/U+1FC4?lang=en]U+1FC4 GREEK SMALL LETTER ETA
+   WITH OXIA AND YPOGEGRAMMENI y%, i U+03AE, U+03B9
+   [https://codepoints.net/U+1FC6?lang=en]U+1FC6 GREEK SMALL LETTER ETA
+   WITH PERISPOMENI y, ~ U+03B7, U+0342
+   [https://codepoints.net/U+1FC7?lang=en]U+1FC7 GREEK SMALL LETTER ETA
+   WITH PERISPOMENI AND YPOGEGRAMMENI y, ~, i U+03B7, U+0342, U+03B9
+   [https://codepoints.net/U+1FCC?lang=en]U+1FCC GREEK CAPITAL LETTER ETA
+   WITH PROSGEGRAMMENI y, i U+03B7, U+03B9
+   [https://codepoints.net/U+1FD2?lang=en]U+1FD2 GREEK SMALL LETTER IOTA
+   WITH DIALYTIKA AND VARIA i, ¨, ` U+03B9, U+0308, U+0300
+   [https://codepoints.net/U+1FD3?lang=en]U+1FD3 GREEK SMALL LETTER IOTA
+   WITH DIALYTIKA AND OXIA i, ¨, ' U+03B9, U+0308, U+0301
+   [https://codepoints.net/U+1FD6?lang=en]U+1FD6 GREEK SMALL LETTER IOTA
+   WITH PERISPOMENI i, ~ U+03B9, U+0342
+   [https://codepoints.net/U+1FD7?lang=en]U+1FD7 GREEK SMALL LETTER IOTA
+   WITH DIALYTIKA AND PERISPOMENI i, ¨, ~ U+03B9, U+0308, U+0342
+   [https://codepoints.net/U+1FE2?lang=en]U+1FE2 ¢ GREEK SMALL LETTER
+   UPSILON WITH DIALYTIKA AND VARIA u, ¨, ` U+03C5, U+0308, U+0300
+   [https://codepoints.net/U+1FE3?lang=en]U+1FE3 £ GREEK SMALL LETTER
+   UPSILON WITH DIALYTIKA AND OXIA u, ¨, ' U+03C5, U+0308, U+0301
+   [https://codepoints.net/U+1FE4?lang=en]U+1FE4 ¤ GREEK SMALL LETTER RHO
+   WITH PSILI r, U+03C1, U+0313
+   [https://codepoints.net/U+1FE6?lang=en]U+1FE6 ¦ GREEK SMALL LETTER
+   UPSILON WITH PERISPOMENI u, ~ U+03C5, U+0342
+   [https://codepoints.net/U+1FE7?lang=en]U+1FE7 § GREEK SMALL LETTER
+   UPSILON WITH DIALYTIKA AND PERISPOMENI u, ¨, ~ U+03C5, U+0308, U+0342
+   [https://codepoints.net/U+1FF2?lang=en]U+1FF2 ² GREEK SMALL LETTER
+   OMEGA WITH VARIA AND YPOGEGRAMMENI ¼, i U+1F7C, U+03B9
+   [https://codepoints.net/U+1FF3?lang=en]U+1FF3 ³ GREEK SMALL LETTER
+   OMEGA WITH YPOGEGRAMMENI w, i U+03C9, U+03B9
+   [https://codepoints.net/U+1FF4?lang=en]U+1FF4 ´ GREEK SMALL LETTER
+   OMEGA WITH OXIA AND YPOGEGRAMMENI w%, i U+03CE, U+03B9
+   [https://codepoints.net/U+1FF6?lang=en]U+1FF6 ¶ GREEK SMALL LETTER
+   OMEGA WITH PERISPOMENI w, ~ U+03C9, U+0342
+   [https://codepoints.net/U+1FF7?lang=en]U+1FF7 · GREEK SMALL LETTER
+   OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI w, ~, i U+03C9, U+0342, U+03B9
+   [https://codepoints.net/U+1FFC?lang=en]U+1FFC ¼ GREEK CAPITAL LETTER
+   OMEGA WITH PROSGEGRAMMENI w, i U+03C9, U+03B9
+   [https://codepoints.net/U+FB00?lang=en]U+FB00 ff LATIN SMALL LIGATURE
+   FF f, f U+0066, U+0066
+   [https://codepoints.net/U+FB01?lang=en]U+FB01 fi LATIN SMALL LIGATURE
+   FI f, i U+0066, U+0069
+   [https://codepoints.net/U+FB02?lang=en]U+FB02 fl LATIN SMALL LIGATURE
+   FL f, l U+0066, U+006C
+   [https://codepoints.net/U+FB03?lang=en]U+FB03 ffi LATIN SMALL LIGATURE
+   FFI f, f, i U+0066, U+0066, U+0069
+   [https://codepoints.net/U+FB04?lang=en]U+FB04 ffl LATIN SMALL LIGATURE
+   FFL f, f, l U+0066, U+0066, U+006C
+   [https://codepoints.net/U+FB05?lang=en]U+FB05 St LATIN SMALL LIGATURE
+   LONG S T s, t U+0073, U+0074
+   [https://codepoints.net/U+FB06?lang=en]U+FB06 st LATIN SMALL LIGATURE
+   ST s, t U+0073, U+0074
+   [https://codepoints.net/U+FB13?lang=en]U+FB13 ARMENIAN SMALL LIGATURE
+   MEN NOW ´, ¶ U+0574, U+0576
+   [https://codepoints.net/U+FB14?lang=en]U+FB14 ARMENIAN SMALL LIGATURE
+   MEN ECH ´, ¥ U+0574, U+0565
+   [https://codepoints.net/U+FB15?lang=en]U+FB15 ARMENIAN SMALL LIGATURE
+   MEN INI ´, « U+0574, U+056B
+   [https://codepoints.net/U+FB16?lang=en]U+FB16 ARMENIAN SMALL LIGATURE
+   VEW NOW ¾, ¶ U+057E, U+0576
+   [https://codepoints.net/U+FB17?lang=en]U+FB17 ARMENIAN SMALL LIGATURE
+   MEN XEH ´, ­ U+0574, U+056D
+
+Awesome Packages & Libraries
+
+     * [https://github.com/jagracey/PhantomScript]PhantomScript - » ¦
+       Invisible JavaScript code execution & social engineering
+     * [https://github.com/mathiasbynens/esrever]ESReverser - A
+       Unicode-aware string reverser written in JavaScript.
+     * [https://github.com/reinderien/mimic]mimic - [ab]using Unicode to
+       create tragedy
+     * [https://github.com/LuminosoInsight/python-ftfy]python-ftfy - Given
+       Unicode text, make its representation consistent and possibly less
+       broken.
+     * [https://github.com/vim-utils/vim-troll-stopper]vim-troll-stopper -
+       Stop Unicode trolls from messing with your code.
+
+Emojis
+
+     * [http://www.unicode.org/emoji/charts/full-emoji-list.html]Unicode
+       Consortium's Emoji Chart
+     * [http://emojipedia.org/]Emojipedia - Information about specific
+       emoji, news blog.
+     * [http://emojitracker.com/]emojitracker - Realtime emoji use on
+       Twitter.
+     * [http://www.emojifoundation.com/]World Translation Foundation - A
+       way to promote, explore, and translate the written word into the
+       pictorial alphabet of Emoji.
+     * [http://caniemoji.com/android-2/]Can I Emoji? - Displays the
+       current status of native Emoji support across iOS, Android and
+       Windows.
+     * [http://www.name.com/blog/how-tos/2015/12/want-an-emoji-url-this-is
+       -how-you-register-one/]How to register an emoji URL
+
+Diversity
+
+   The Unicode Consortium has made a huge effort better reflect and
+   incorporate human diversity, including cultural practices. Here is the
+   Consortium's [http://unicode.org/reports/tr51/#Diversity]diversity
+   report.
+
+   Emojis of mixed gender situations are now available, such as same sex
+   families, holding hands, and kissing. The real kicker are
+   [http://www.unicode.org/emoji/charts/emoji-zwj-sequences.html]Emoji
+   combined sequences. Basically:
+   Code Points Recipe Combined
+   U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469
+   [https://camo.githubusercontent.com/1223ebd12b5d40533551f5eda101de8749b
+   491f8/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6170706c652f6170706c655f31663436392e706e67]ðU9FU91©
+   [https://camo.githubusercontent.com/8ebc7df862421ad1a99c707d228ae988b3f
+   cf605/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6f746865722f7a776a2e706e67]âU9D¤ï¸U8F
+   [https://camo.githubusercontent.com/45f8f7ef15603ebe520681e690fc904c126
+   ee390/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6170706c652f6170706c655f323736342e706e67]âU9D¤ï¸U8F
+   [https://camo.githubusercontent.com/8ebc7df862421ad1a99c707d228ae988b3f
+   cf605/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6f746865722f7a776a2e706e67]âU9D¤ï¸U8F
+   [https://camo.githubusercontent.com/1223ebd12b5d40533551f5eda101de8749b
+   491f8/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6170706c652f6170706c655f31663436392e706e67]ðU9FU91©
+   [https://camo.githubusercontent.com/d93c703704edd862c9312ebda320ae0eddc
+   7d7b2/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6170706c652f6170706c655f31663436395f323030645f323736345f66
+   6530665f323030645f31663436392e706e67]couple with heart: woman, woman
+   U+1F468 U+200D U+1F468 U+200D U+1F467 U+200D U+1F466
+   [https://raw.githubusercontent.com/jagracey/Awesome-Unicode/c575db618a8
+   9c88624a8c3bdfe57eada064cbf14/resources/family%3B%20man%2C%20man%2C%20g
+   irl%2C%20boy%20-%20fallback%20-%20ZWJ.jpg][family%3B%20man%2C%20man%2C%
+   20girl%2C%20boy%20-%20fallback%20-%20ZWJ.jpg]
+   [https://raw.githubusercontent.com/jagracey/Awesome-Unicode/58f28d08aef
+   7f36eb6cdca22d25e7654cd8de5ae/resources/family%3B%20man%2C%20man%2C%20g
+   irl%2C%20boy.png][family%3B%20man%2C%20man%2C%20girl%2C%20boy.png]
+
+   Further, emojis now support skin color modifiers.
+
+     Five symbol modifier characters that provide for a range of skin
+     tones for human emoji were released in Unicode Version 8.0
+     (mid-2015). These characters are based on the six tones of the
+     Fitzpatrick scale, a recognized standard for dermatology (there are
+     many examples of this scale online, such as
+     FitzpatrickSkinType.pdf). The exact shades may vary between
+     implementations. --
+     [http://unicode.org/reports/tr51/#Diversity]Unicode Consortium's
+     Diversity report
+
+   Code Name Samples
+   U+1F3FB EMOJI MODIFIER FITZPATRICK TYPE-1-2
+   [https://camo.githubusercontent.com/5a58691a30960763d98beec0cade08a1411
+   05767/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d312d322e706e67
+   ][687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f7472353
+   12f696d616765732f6f746865722f7377617463682d747970652d312d322e706e67]
+   [https://camo.githubusercontent.com/04e028773d038563af7428b93e2b985000a
+   dd2e0/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d312d322d62772e
+   706e67][687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f7
+   47235312f696d616765732f6f746865722f7377617463682d747970652d312d322d6277
+   2e706e67]
+   U+1F3FC EMOJI MODIFIER FITZPATRICK TYPE-3
+   [https://camo.githubusercontent.com/88b0a7e2e73a4c3bb0ea9dbf92979dd267f
+   1619d/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d332e706e67][68
+   7474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6f746865722f7377617463682d747970652d332e706e67]
+   [https://camo.githubusercontent.com/d438b1f3d5f8d04b4637452e733954a7a01
+   28a0a/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d332d62772e706e
+   67][687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f74723
+   5312f696d616765732f6f746865722f7377617463682d747970652d332d62772e706e67
+   ]
+   U+1F3FD EMOJI MODIFIER FITZPATRICK TYPE-4
+   [https://camo.githubusercontent.com/b988fb81b20cbbd083919a1f6b31da7e9b6
+   d2e22/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d342e706e67][68
+   7474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6f746865722f7377617463682d747970652d342e706e67]
+   [https://camo.githubusercontent.com/4e7301f8981e36284417a394ddcc34d2ae0
+   c978b/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d342d62772e706e
+   67][687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f74723
+   5312f696d616765732f6f746865722f7377617463682d747970652d342d62772e706e67
+   ]
+   U+1F3FE EMOJI MODIFIER FITZPATRICK TYPE-5
+   [https://camo.githubusercontent.com/3afc375aa30a75e81e63ac1199a19e946c8
+   841ea/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d352e706e67][68
+   7474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6f746865722f7377617463682d747970652d352e706e67]
+   [https://camo.githubusercontent.com/34d82d2da9850adb278f4f539f53f6e2505
+   92144/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d352d62772e706e
+   67][687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f74723
+   5312f696d616765732f6f746865722f7377617463682d747970652d352d62772e706e67
+   ]
+   U+1F3FF EMOJI MODIFIER FITZPATRICK TYPE-6
+   [https://camo.githubusercontent.com/13ebe0fee8673569b75fec1987441646ec1
+   8bc94/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d362e706e67][68
+   7474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747235312f6
+   96d616765732f6f746865722f7377617463682d747970652d362e706e67]
+   [https://camo.githubusercontent.com/5f9d92e1e87291a440bddd0d6ca9412f731
+   0b7c3/687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f747
+   235312f696d616765732f6f746865722f7377617463682d747970652d362d62772e706e
+   67][687474703a2f2f7777772e756e69636f64652e6f72672f7265706f7274732f74723
+   5312f696d616765732f6f746865722f7377617463682d747970652d362d62772e706e67
+   ]
+
+   Just follow the desired Emoji with one of the skin color modifiers
+   \u{1F466}\u{1F3FE}.
+
+   [https://camo.githubusercontent.com/6c6e5ee33e43cdd32d8c66eaba316d908fe
+   bc36c/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+               96d616765732f6f746865722f706572736f6e2e706e67]+
+   [https://camo.githubusercontent.com/e86f5b7509dae6ffdd46cd0cdba5f84f069
+   fa88e/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+       96d616765732f6f746865722f7377617463682d747970652d352e706e67] ->
+   [https://camo.githubusercontent.com/abadab4ee31251e81805f7ee5b19ff963fd
+   f7c39/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+             96d616765732f6f746865722f706572736f6e2d352e706e67]
+
+   [https://camo.githubusercontent.com/36c3d7f08d673f3d1240fd7ba5452ef54ab
+   1bbe6/687474703a2f2f756e69636f64652e6f72672f7265706f7274732f747235312f6
+    96d616765732f6f746865722f70616c657474652d776974682d677261792e706e67]
+
+Creatively Naming Variables and Methods
+
+   Examples are written in JavaScript (ES6)
+
+   In general, characters designated the
+   [https://codepoints.net/search?IDS=1]ID_START property may be used at
+   the beggining of a variable name. Characters designated with the
+   [https://codepoints.net/search?IDC=1]ID_CONTINUE property may be used
+   after the first character of a variable.
+function rand(µ,s){ ... };
+
+String.prototype.reverse = function(){..};
+
+Number.prototype.isTrue = function(){..};
+
+var WhatDoesThisDo = 42
+
+   Here are some really creative variable names from
+   [https://mathiasbynens.be/notes/javascript-identifiers#examples]Mathias
+   Bynes
+// How convenient!
+var p = Math.PI;
+
+// Sometimes, you just have to use the Bad Parts of JavaScript:
+var  _  = eval;
+
+// Code, Y U NO WORK?!
+var _  _ = 42;
+
+// How about a JavaScript library for functional programming?
+var l = function() {};
+
+// Obfuscate boring variable names for great justice
+var \u006C\u006F\u006C\u0077\u0061\u0074 = 'heh';
+
+// ...or just make up random ones
+var ¬½± = 'huh';
+
+// While perfectly valid, this doesn't work in most browsers:
+var foo\u200Cbar = 42;
+
+// This is *not* a bitwise left shift (`<<`):
+var ±± = 2;
+// This is, though:
+±± << ±±; // 8
+
+// Give yourself a discount:
+var price_9¶9¶_89 = 'cheap';
+
+// Fun with Roman numerals
+var IV = 4;
+var V = 5;
+IV + V; // 9
+
+// Cthulhu was here
+var H«£°¯¯µ»° ¬j3E~/¬±=¾¦_<w> ±-­<?>||''®©¾Ç³¯­±². |O~,¯¹¼­¨°¨~~M¶ ­­<?>»°£¤||~~E.®¹³.£ª¨T;¯³­ ¨'½¿¤¿H:±±º°³¹°'``ª^½~`~~ = 'Zalgo';
+
+   And here's some [https://davidwalsh.name/unicode-css-classes]Unicode
+   CSS Classes from David Walsh
+<!-- place this within the document head -->
+<meta charset="UTF-8" />
+
+<!-- error message -->
+<div class=" _ ">You do not have access to this page.</div>
+
+<!-- success message -->
+<div class="¤">Your changes have been saved successfully!</div>
+
+. _  {
+        border: 1px solid #f00;
+}
+
+.¤ {
+        background: lightgreen;
+}
+
+Recursive HTML Tag Renaming Script
+
+   If you want to rename all your HTML tags to what appears as nothing,
+   the following script is just what your looking for.
+
+   Do note however that HTML does not support all unicode characters.
+// U+1160 HANGUL JUNGSEONG FILLER
+transformAllTags(' ');
+
+// An actual HTML element node designed to look like a comment node, using the U+01C3 LATIN LETTER RETROFLEX CLICK
+//      <-- name="viewport" content="width=device-width"></-->
+transformAllTags('--');
+
+// or even <
+transformAllTags('\u{1160}\u{20dd}');
+
+// and for a bonus, all existing tag names will have each character ensquared. html
+transformAllTags();
+
+
+function transformAllTags (newName){
+   // querySelectorAll doesn't actually return an array.
+   Array.from(document.querySelectorAll('*'))
+     .forEach(function(x){
+         transformTag(x, newName);
+   });
+}
+
+function wonky(str){
+  return str.split('').join('\u{20de}') + '\u{20de}';
+}
+
+function transformTag(tagIdOrElem, tagType){
+    var elem = (tagIdOrElem instanceof HTMLElement) ? tagIdOrElem : document.getElementById(tagIdOrElem);
+    if(!elem || !(elem instanceof HTMLElement))return;
+    var children = elem.childNodes;
+    var parent = elem.parentNode;
+    var newNode = document.createElement(tagType||wonky(elem.tagName));
+    for(var a=0;a<elem.attributes.length;a++){
+        newNode.setAttribute(elem.attributes[a].nodeName, elem.attributes[a].value);
+    }
+    for(var i= 0,clen=children.length;i<clen;i++){
+        newNode.appendChild(children[0]); //0...always point to the first non-moved element
+    }
+    newNode.style.cssText = elem.style.cssText;
+    parent.replaceChild(newNode,elem);
+}
+
+   Here is what it does support:
+function testBegin(str){
+ try{
+    eval(`document.createElement( '${str}' );`)
+    return true;
+ }
+ catch(e){ return false; }
+}
+
+function testContinue(str){
+ try{
+    eval(`document.createElement( 'a${str}' );`)
+    return true;
+ }
+ catch(e){ return false; }
+}
+
+   And heres some basic results
+// Test if dashes can start an HTML Tag
+> testBegin('-')
+< false
+
+> testContinue('-')
+< true
+
+> testBegin(' -')       // Prepend dash with U+1160 HANGUL JUNGSEONG FILLER
+< true
+
+Unicode Fonts
+
+   A single TrueType / OpenType font format cannot cover all UTF-8
+   characters as there is a hard limit of 65535 glyphs in a font. Since
+   there are over 1.1 million UTF-8 glphys, you will need to use a
+   font-family to cover them all.
+     * [https://en.wikipedia.org/wiki/Unicode_font#List_of_Unicode_fonts]h
+       ttps://en.wikipedia.org/wiki/Unicode_font#List_of_Unicode_fonts
+     * [http://www.unifont.org/fontguide/]http://www.unifont.org/fontguide
+       /
+
+More Reading
+
+     * [http://www.joelonsoftware.com/articles/Unicode.html]The Absolute
+       Minimum Every Software Developer Absolutely, Positively Must Know
+       About Unicode and Character Sets - By Joel Spolsky
+     * [http://kunststube.net/encoding/]What Every Programmer Absolutely,
+       Positively Needs To Know About Encodings And Character Sets To Work
+       With Text
+     * [http://www.unicode.org/resources/readinglist.html]The Unicode
+       Consortium's Recommended Reading List
+     * [https://www.smashingmagazine.com/2015/10/space-yourself/]Space
+       Yourself - Smashing Magazine's Spacing Guide
+     * [https://mathiasbynens.be/notes/javascript-unicode]JavaScript has a
+       Unicode Problem
+     * [https://labs.spotify.com/2013/06/18/creative-usernames/]Creative
+       usernames and Spotify account hijacking
+
+Exploring Deeper into Unicode Yourself
+
+     * [http://shapecatcher.com/]Shapecatcher - Draw the character you're
+       looking for.
+     * [http://unicode.org/cldr/utility/confusables.jsp?r=None]Confusable
+       Unicode Characters
+     * [http://www.unicode.org/ucd/]Unicode Character Database
+     * [https://dumps.codepoints.net/]Database Dumps of Codepoints.net
+     * [http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt]Unicode
+       Blocks List
+     * [http://www.unicode.org/charts/index.html]Unicode Character Code
+       Charts
+     * [http://www.unicode.org/charts/case/]Unicode Case Charts
+     * [http://www.unicode.org/charts/normalization/]Unicode Normalization
+       Chart
+     * [http://www.unicode.org/faq/]Unicode FAQ
+
+Overview Map
+
+A map of the Basic Multilingual Plane
+
+   Each numbered box represents 256 code points.
+
+   [https://camo.githubusercontent.com/91d247b466590ef5b385d391d8b31ac3a6d
+   3f470/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6
+   970656469612f636f6d6d6f6e732f7468756d622f382f38652f526f61646d61705f746f
+   5f556e69636f64655f424d502e7376672f37353070782d526f61646d61705f746f5f556
+     e69636f64655f424d502e7376672e706e67]A map of the Basic Multilingual
+            Plane. Each numbered box represents 256 code points.
+
+   The Chinese, Japanese and Korean (CJK) scripts share a common
+   background, collectively known as CJK characters. In the process called
+   Han unification, the common (shared) characters were identified and
+   named "CJK Unified Ideographs".
+
+Unicode Blocks
+
+   The Unicode standard arranges groups of characters together in blocks.
+   This is the complete list of blocks across all 17 planes.
+   Name From To # Codepoints
+   [https://wikipedia.org/wiki/Basic_Latin]Basic Latin U+0000 U+007F (128)
+   [https://wikipedia.org/wiki/Latin-1_Supplement]Latin-1 Supplement
+   U+0080 U+00FF (128)
+   [https://wikipedia.org/wiki/Latin_Extended-A]Latin Extended-A U+0100
+   U+017F (128)
+   [https://wikipedia.org/wiki/Latin_Extended-B]Latin Extended-B U+0180
+   U+024F (208)
+   [https://wikipedia.org/wiki/IPA_Extensions]IPA Extensions U+0250 U+02AF
+   (96)
+   [https://wikipedia.org/wiki/Spacing_Modifier_Letters]Spacing Modifier
+   Letters U+02B0 U+02FF (80)
+   [https://wikipedia.org/wiki/Combining_Diacritical_Marks]Combining
+   Diacritical Marks U+0300 U+036F (112)
+   [https://wikipedia.org/wiki/Greek_and_Coptic]Greek and Coptic U+0370
+   U+03FF (135)
+   [https://wikipedia.org/wiki/Cyrillic]Cyrillic U+0400 U+04FF (256)
+   [https://wikipedia.org/wiki/Cyrillic_Supplement]Cyrillic Supplement
+   U+0500 U+052F (48)
+   [https://wikipedia.org/wiki/Armenian]Armenian U+0530 U+058F (89)
+   [https://wikipedia.org/wiki/Hebrew]Hebrew U+0590 U+05FF (87)
+   [https://wikipedia.org/wiki/Arabic]Arabic U+0600 U+06FF (255)
+   [https://wikipedia.org/wiki/Syriac]Syriac U+0700 U+074F (77)
+   [https://wikipedia.org/wiki/Arabic_Supplement]Arabic Supplement U+0750
+   U+077F (48)
+   [https://wikipedia.org/wiki/Thaana]Thaana U+0780 U+07BF (50)
+   [https://wikipedia.org/wiki/NKo]NKo U+07C0 U+07FF (59)
+   [https://wikipedia.org/wiki/Samaritan]Samaritan U+0800 U+083F (61)
+   [https://wikipedia.org/wiki/Mandaic]Mandaic U+0840 U+085F (29)
+   [https://wikipedia.org/wiki/Arabic_Extended-A]Arabic Extended-A U+08A0
+   U+08FF (50)
+   [https://wikipedia.org/wiki/Devanagari]Devanagari U+0900 U+097F (128)
+   [https://wikipedia.org/wiki/Bengali]Bengali U+0980 U+09FF (93)
+   [https://wikipedia.org/wiki/Gurmukhi]Gurmukhi U+0A00 U+0A7F (79)
+   [https://wikipedia.org/wiki/Gujarati]Gujarati U+0A80 U+0AFF (85)
+   [https://wikipedia.org/wiki/Oriya]Oriya U+0B00 U+0B7F (90)
+   [https://wikipedia.org/wiki/Tamil]Tamil U+0B80 U+0BFF (72)
+   [https://wikipedia.org/wiki/Telugu]Telugu U+0C00 U+0C7F (96)
+   [https://wikipedia.org/wiki/Kannada]Kannada U+0C80 U+0CFF (87)
+   [https://wikipedia.org/wiki/Malayalam]Malayalam U+0D00 U+0D7F (100)
+   [https://wikipedia.org/wiki/Sinhala]Sinhala U+0D80 U+0DFF (90)
+   [https://wikipedia.org/wiki/Thai]Thai U+0E00 U+0E7F (87)
+   [https://wikipedia.org/wiki/Lao]Lao U+0E80 U+0EFF (67)
+   [https://wikipedia.org/wiki/Tibetan]Tibetan U+0F00 U+0FFF (211)
+   [https://wikipedia.org/wiki/Myanmar]Myanmar U+1000 U+109F (160)
+   [https://wikipedia.org/wiki/Georgian]Georgian U+10A0 U+10FF (88)
+   [https://wikipedia.org/wiki/Hangul_Jamo]Hangul Jamo U+1100 U+11FF (256)
+   [https://wikipedia.org/wiki/Ethiopic]Ethiopic U+1200 U+137F (358)
+   [https://wikipedia.org/wiki/Ethiopic_Supplement]Ethiopic Supplement
+   U+1380 U+139F (26)
+   [https://wikipedia.org/wiki/Cherokee]Cherokee U+13A0 U+13FF (92)
+   [https://wikipedia.org/wiki/Unified_Canadian_Aboriginal_Syllabics]Unifi
+   ed Canadian Aboriginal Syllabics U+1400 U+167F (640)
+   [https://wikipedia.org/wiki/Ogham]Ogham U+1680 U+169F (29)
+   [https://wikipedia.org/wiki/Runic]Runic U+16A0 U+16FF (89)
+   [https://wikipedia.org/wiki/Tagalog]Tagalog U+1700 U+171F (20)
+   [https://wikipedia.org/wiki/Hanunoo]Hanunoo U+1720 U+173F (23)
+   [https://wikipedia.org/wiki/Buhid]Buhid U+1740 U+175F (20)
+   [https://wikipedia.org/wiki/Tagbanwa]Tagbanwa U+1760 U+177F (18)
+   [https://wikipedia.org/wiki/Khmer]Khmer U+1780 U+17FF (114)
+   [https://wikipedia.org/wiki/Mongolian]Mongolian U+1800 U+18AF (156)
+   [https://wikipedia.org/wiki/Unified_Canadian_Aboriginal_Syllabics_Exten
+   ded]Unified Canadian Aboriginal Syllabics Extended U+18B0 U+18FF (70)
+   [https://wikipedia.org/wiki/Limbu]Limbu U+1900 U+194F (68)
+   [https://wikipedia.org/wiki/Tai_Le]Tai Le U+1950 U+197F (35)
+   [https://wikipedia.org/wiki/New_Tai_Lue]New Tai Lue U+1980 U+19DF (83)
+   [https://wikipedia.org/wiki/Khmer_Symbols]Khmer Symbols U+19E0 U+19FF
+   (32)
+   [https://wikipedia.org/wiki/Buginese]Buginese U+1A00 U+1A1F (30)
+   [https://wikipedia.org/wiki/Tai_Tham]Tai Tham U+1A20 U+1AAF (127)
+   [https://wikipedia.org/wiki/Combining_Diacritical_Marks_Extended]Combin
+   ing Diacritical Marks Extended U+1AB0 U+1AFF (15)
+   [https://wikipedia.org/wiki/Balinese]Balinese U+1B00 U+1B7F (121)
+   [https://wikipedia.org/wiki/Sundanese]Sundanese U+1B80 U+1BBF (64)
+   [https://wikipedia.org/wiki/Batak]Batak U+1BC0 U+1BFF (56)
+   [https://wikipedia.org/wiki/Lepcha]Lepcha U+1C00 U+1C4F (74)
+   [https://wikipedia.org/wiki/Ol_Chiki]Ol Chiki U+1C50 U+1C7F (48)
+   [https://wikipedia.org/wiki/Sundanese_Supplement]Sundanese Supplement
+   U+1CC0 U+1CCF (8)
+   [https://wikipedia.org/wiki/Vedic_Extensions]Vedic Extensions U+1CD0
+   U+1CFF (41)
+   [https://wikipedia.org/wiki/Phonetic_Extensions]Phonetic Extensions
+   U+1D00 U+1D7F (128)
+   [https://wikipedia.org/wiki/Phonetic_Extensions_Supplement]Phonetic
+   Extensions Supplement U+1D80 U+1DBF (64)
+   [https://wikipedia.org/wiki/Combining_Diacritical_Marks_Supplement]Comb
+   ining Diacritical Marks Supplement U+1DC0 U+1DFF (58)
+   [https://wikipedia.org/wiki/Latin_Extended_Additional]Latin Extended
+   Additional U+1E00 U+1EFF (256)
+   [https://wikipedia.org/wiki/Greek_Extended]Greek Extended U+1F00 U+1FFF
+   (233)
+   [https://wikipedia.org/wiki/General_Punctuation]General Punctuation
+   U+2000 U+206F (111)
+   [https://wikipedia.org/wiki/Superscripts_and_Subscripts]Superscripts
+   and Subscripts U+2070 U+209F (42)
+   [https://wikipedia.org/wiki/Currency_Symbols]Currency Symbols U+20A0
+   U+20CF (31)
+   [https://wikipedia.org/wiki/Combining_Diacritical_Marks_for_Symbols]Com
+   bining Diacritical Marks for Symbols U+20D0 U+20FF (33)
+   [https://wikipedia.org/wiki/Letterlike_Symbols]Letterlike Symbols
+   U+2100 U+214F (80)
+   [https://wikipedia.org/wiki/Number_Forms]Number Forms U+2150 U+218F
+   (60)
+   [https://wikipedia.org/wiki/Arrows]Arrows U+2190 U+21FF (112)
+   [https://wikipedia.org/wiki/Mathematical_Operators]Mathematical
+   Operators U+2200 U+22FF (256)
+   [https://wikipedia.org/wiki/Miscellaneous_Technical]Miscellaneous
+   Technical U+2300 U+23FF (251)
+   [https://wikipedia.org/wiki/Control_Pictures]Control Pictures U+2400
+   U+243F (39)
+   [https://wikipedia.org/wiki/Optical_Character_Recognition]Optical
+   Character Recognition U+2440 U+245F (11)
+   [https://wikipedia.org/wiki/Enclosed_Alphanumerics]Enclosed
+   Alphanumerics U+2460 U+24FF (160)
+   [https://wikipedia.org/wiki/Box_Drawing]Box Drawing U+2500 U+257F (128)
+   [https://wikipedia.org/wiki/Block_Elements]Block Elements U+2580 U+259F
+   (32)
+   [https://wikipedia.org/wiki/Geometric_Shapes]Geometric Shapes U+25A0
+   U+25FF (96)
+   [https://wikipedia.org/wiki/Miscellaneous_Symbols]Miscellaneous Symbols
+   U+2600 U+26FF (256)
+   [https://wikipedia.org/wiki/Dingbats]Dingbats U+2700 U+27BF (192)
+   [https://wikipedia.org/wiki/Miscellaneous_Mathematical_Symbols-A]Miscel
+   laneous Mathematical Symbols-A U+27C0 U+27EF (48)
+   [https://wikipedia.org/wiki/Supplemental_Arrows-A]Supplemental Arrows-A
+   U+27F0 U+27FF (16)
+   [https://wikipedia.org/wiki/Braille_Patterns]Braille Patterns U+2800
+   U+28FF (256)
+   [https://wikipedia.org/wiki/Supplemental_Arrows-B]Supplemental Arrows-B
+   U+2900 U+297F (128)
+   [https://wikipedia.org/wiki/Miscellaneous_Mathematical_Symbols-B]Miscel
+   laneous Mathematical Symbols-B U+2980 U+29FF (128)
+   [https://wikipedia.org/wiki/Supplemental_Mathematical_Operators]Supplem
+   ental Mathematical Operators U+2A00 U+2AFF (256)
+   [https://wikipedia.org/wiki/Miscellaneous_Symbols_and_Arrows]Miscellane
+   ous Symbols and Arrows U+2B00 U+2BFF (206)
+   [https://wikipedia.org/wiki/Glagolitic]Glagolitic U+2C00 U+2C5F (94)
+   [https://wikipedia.org/wiki/Latin_Extended-C]Latin Extended-C U+2C60
+   U+2C7F (32)
+   [https://wikipedia.org/wiki/Coptic]Coptic U+2C80 U+2CFF (123)
+   [https://wikipedia.org/wiki/Georgian_Supplement]Georgian Supplement
+   U+2D00 U+2D2F (40)
+   [https://wikipedia.org/wiki/Tifinagh]Tifinagh U+2D30 U+2D7F (59)
+   [https://wikipedia.org/wiki/Ethiopic_Extended]Ethiopic Extended U+2D80
+   U+2DDF (79)
+   [https://wikipedia.org/wiki/Cyrillic_Extended-A]Cyrillic Extended-A
+   U+2DE0 U+2DFF (32)
+   [https://wikipedia.org/wiki/Supplemental_Punctuation]Supplemental
+   Punctuation U+2E00 U+2E7F (67)
+   [https://wikipedia.org/wiki/CJK_Radicals_Supplement]CJK Radicals
+   Supplement U+2E80 U+2EFF (115)
+   [https://wikipedia.org/wiki/Kangxi_Radicals]Kangxi Radicals U+2F00
+   U+2FDF (214)
+   [https://wikipedia.org/wiki/Ideographic_Description_Characters]Ideograp
+   hic Description Characters U+2FF0 U+2FFF (12)
+   [https://wikipedia.org/wiki/CJK_Symbols_and_Punctuation]CJK Symbols and
+   Punctuation U+3000 U+303F (64)
+   [https://wikipedia.org/wiki/Hiragana]Hiragana U+3040 U+309F (93)
+   [https://wikipedia.org/wiki/Katakana]Katakana U+30A0 U+30FF (96)
+   [https://wikipedia.org/wiki/Bopomofo]Bopomofo U+3100 U+312F (41)
+   [https://wikipedia.org/wiki/Hangul_Compatibility_Jamo]Hangul
+   Compatibility Jamo U+3130 U+318F (94)
+   [https://wikipedia.org/wiki/Kanbun]Kanbun U+3190 U+319F (16)
+   [https://wikipedia.org/wiki/Bopomofo_Extended]Bopomofo Extended U+31A0
+   U+31BF (27)
+   [https://wikipedia.org/wiki/CJK_Strokes]CJK Strokes U+31C0 U+31EF (36)
+   [https://wikipedia.org/wiki/Katakana_Phonetic_Extensions]Katakana
+   Phonetic Extensions U+31F0 U+31FF (16)
+   [https://wikipedia.org/wiki/Enclosed_CJK_Letters_and_Months]Enclosed
+   CJK Letters and Months U+3200 U+32FF (254)
+   [https://wikipedia.org/wiki/CJK_Compatibility]CJK Compatibility U+3300
+   U+33FF (256)
+   [https://wikipedia.org/wiki/CJK_Unified_Ideographs_Extension_A]CJK
+   Unified Ideographs Extension A U+3400 U+4DBF (6191)
+   [https://wikipedia.org/wiki/Yijing_Hexagram_Symbols]Yijing Hexagram
+   Symbols U+4DC0 U+4DFF (64)
+   [https://wikipedia.org/wiki/CJK_Unified_Ideographs]CJK Unified
+   Ideographs U+4E00 U+9FFF (20941)
+   [https://wikipedia.org/wiki/Yi_Syllables]Yi Syllables U+A000 U+A48F
+   (1165)
+   [https://wikipedia.org/wiki/Yi_Radicals]Yi Radicals U+A490 U+A4CF (55)
+   [https://wikipedia.org/wiki/Lisu]Lisu U+A4D0 U+A4FF (48)
+   [https://wikipedia.org/wiki/Vai]Vai U+A500 U+A63F (300)
+   [https://wikipedia.org/wiki/Cyrillic_Extended-B]Cyrillic Extended-B
+   U+A640 U+A69F (96)
+   [https://wikipedia.org/wiki/Bamum]Bamum U+A6A0 U+A6FF (88)
+   [https://wikipedia.org/wiki/Modifier_Tone_Letters]Modifier Tone Letters
+   U+A700 U+A71F (32)
+   [https://wikipedia.org/wiki/Latin_Extended-D]Latin Extended-D U+A720
+   U+A7FF (159)
+   [https://wikipedia.org/wiki/Syloti_Nagri]Syloti Nagri U+A800 U+A82F
+   (44)
+   [https://wikipedia.org/wiki/Common_Indic_Number_Forms]Common Indic
+   Number Forms U+A830 U+A83F (10)
+   [https://wikipedia.org/wiki/Phags-pa]Phags-pa U+A840 U+A87F (56)
+   [https://wikipedia.org/wiki/Saurashtra]Saurashtra U+A880 U+A8DF (81)
+   [https://wikipedia.org/wiki/Devanagari_Extended]Devanagari Extended
+   U+A8E0 U+A8FF (30)
+   [https://wikipedia.org/wiki/Kayah_Li]Kayah Li U+A900 U+A92F (48)
+   [https://wikipedia.org/wiki/Rejang]Rejang U+A930 U+A95F (37)
+   [https://wikipedia.org/wiki/Hangul_Jamo_Extended-A]Hangul Jamo
+   Extended-A U+A960 U+A97F (29)
+   [https://wikipedia.org/wiki/Javanese]Javanese U+A980 U+A9DF (91)
+   [https://wikipedia.org/wiki/Myanmar_Extended-B]Myanmar Extended-B
+   U+A9E0 U+A9FF (31)
+   [https://wikipedia.org/wiki/Cham]Cham U+AA00 U+AA5F (83)
+   [https://wikipedia.org/wiki/Myanmar_Extended-A]Myanmar Extended-A
+   U+AA60 U+AA7F (32)
+   [https://wikipedia.org/wiki/Tai_Viet]Tai Viet U+AA80 U+AADF (72)
+   [https://wikipedia.org/wiki/Meetei_Mayek_Extensions]Meetei Mayek
+   Extensions U+AAE0 U+AAFF (23)
+   [https://wikipedia.org/wiki/Ethiopic_Extended-A]Ethiopic Extended-A
+   U+AB00 U+AB2F (32)
+   [https://wikipedia.org/wiki/Latin_Extended-E]Latin Extended-E U+AB30
+   U+AB6F (54)
+   [https://wikipedia.org/wiki/Cherokee_Supplement]Cherokee Supplement
+   U+AB70 U+ABBF (80)
+   [https://wikipedia.org/wiki/Meetei_Mayek]Meetei Mayek U+ABC0 U+ABFF
+   (56)
+   [https://wikipedia.org/wiki/Hangul_Syllables]Hangul Syllables U+AC00
+   U+D7AF (2)
+   [https://wikipedia.org/wiki/Hangul_Jamo_Extended-B]Hangul Jamo
+   Extended-B U+D7B0 U+D7FF (72)
+   [https://wikipedia.org/wiki/High_Surrogates]High Surrogates U+D800
+   U+DB7F (2)
+   [https://wikipedia.org/wiki/High_Private_Use_Surrogates]High Private
+   Use Surrogates U+DB80 U+DBFF (2)
+   [https://wikipedia.org/wiki/Low_Surrogates]Low Surrogates U+DC00 U+DFFF
+   (2)
+   [https://wikipedia.org/wiki/Private_Use_Area]Private Use Area U+E000
+   U+F8FF (2)
+   [https://wikipedia.org/wiki/CJK_Compatibility_Ideographs]CJK
+   Compatibility Ideographs U+F900 U+FAFF (472)
+   [https://wikipedia.org/wiki/Alphabetic_Presentation_Forms]Alphabetic
+   Presentation Forms U+FB00 U+FB4F (58)
+   [https://wikipedia.org/wiki/Arabic_Presentation_Forms-A]Arabic
+   Presentation Forms-A U+FB50 U+FDFF (643)
+   [https://wikipedia.org/wiki/Variation_Selectors]Variation Selectors
+   U+FE00 U+FE0F (16)
+   [https://wikipedia.org/wiki/Vertical_Forms]Vertical Forms U+FE10 U+FE1F
+   (10)
+   [https://wikipedia.org/wiki/Combining_Half_Marks]Combining Half Marks
+   U+FE20 U+FE2F (16)
+   [https://wikipedia.org/wiki/CJK_Compatibility_Forms]CJK Compatibility
+   Forms U+FE30 U+FE4F (32)
+   [https://wikipedia.org/wiki/Small_Form_Variants]Small Form Variants
+   U+FE50 U+FE6F (26)
+   [https://wikipedia.org/wiki/Arabic_Presentation_Forms-B]Arabic
+   Presentation Forms-B U+FE70 U+FEFF (141)
+   [https://wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms]Halfwidth and
+   Fullwidth Forms U+FF00 U+FFEF (225)
+   [https://wikipedia.org/wiki/Specials]Specials U+FFF0 U+FFFF (7)
+   [https://wikipedia.org/wiki/Linear_B_Syllabary]Linear B Syllabary
+   U+10000 U+1007F (88)
+   [https://wikipedia.org/wiki/Linear_B_Ideograms]Linear B Ideograms
+   U+10080 U+100FF (123)
+   [https://wikipedia.org/wiki/Aegean_Numbers]Aegean Numbers U+10100
+   U+1013F (57)
+   [https://wikipedia.org/wiki/Ancient_Greek_Numbers]Ancient Greek Numbers
+   U+10140 U+1018F (77)
+   [https://wikipedia.org/wiki/Ancient_Symbols]Ancient Symbols U+10190
+   U+101CF (13)
+   [https://wikipedia.org/wiki/Phaistos_Disc]Phaistos Disc U+101D0 U+101FF
+   (46)
+   [https://wikipedia.org/wiki/Lycian]Lycian U+10280 U+1029F (29)
+   [https://wikipedia.org/wiki/Carian]Carian U+102A0 U+102DF (49)
+   [https://wikipedia.org/wiki/Coptic_Epact_Numbers]Coptic Epact Numbers
+   U+102E0 U+102FF (28)
+   [https://wikipedia.org/wiki/Old_Italic]Old Italic U+10300 U+1032F (36)
+   [https://wikipedia.org/wiki/Gothic]Gothic U+10330 U+1034F (27)
+   [https://wikipedia.org/wiki/Old_Permic]Old Permic U+10350 U+1037F (43)
+   [https://wikipedia.org/wiki/Ugaritic]Ugaritic U+10380 U+1039F (31)
+   [https://wikipedia.org/wiki/Old_Persian]Old Persian U+103A0 U+103DF
+   (50)
+   [https://wikipedia.org/wiki/Deseret]Deseret U+10400 U+1044F (80)
+   [https://wikipedia.org/wiki/Shavian]Shavian U+10450 U+1047F (48)
+   [https://wikipedia.org/wiki/Osmanya]Osmanya U+10480 U+104AF (40)
+   [https://wikipedia.org/wiki/Elbasan]Elbasan U+10500 U+1052F (40)
+   [https://wikipedia.org/wiki/Caucasian_Albanian]Caucasian Albanian
+   U+10530 U+1056F (53)
+   [https://wikipedia.org/wiki/Linear_A]Linear A U+10600 U+1077F (341)
+   [https://wikipedia.org/wiki/Cypriot_Syllabary]Cypriot Syllabary U+10800
+   U+1083F (55)
+   [https://wikipedia.org/wiki/Imperial_Aramaic]Imperial Aramaic U+10840
+   U+1085F (31)
+   [https://wikipedia.org/wiki/Palmyrene]Palmyrene U+10860 U+1087F (32)
+   [https://wikipedia.org/wiki/Nabataean]Nabataean U+10880 U+108AF (40)
+   [https://wikipedia.org/wiki/Hatran]Hatran U+108E0 U+108FF (26)
+   [https://wikipedia.org/wiki/Phoenician]Phoenician U+10900 U+1091F (29)
+   [https://wikipedia.org/wiki/Lydian]Lydian U+10920 U+1093F (27)
+   [https://wikipedia.org/wiki/Meroitic_Hieroglyphs]Meroitic Hieroglyphs
+   U+10980 U+1099F (32)
+   [https://wikipedia.org/wiki/Meroitic_Cursive]Meroitic Cursive U+109A0
+   U+109FF (90)
+   [https://wikipedia.org/wiki/Kharoshthi]Kharoshthi U+10A00 U+10A5F (65)
+   [https://wikipedia.org/wiki/Old_South_Arabian]Old South Arabian U+10A60
+   U+10A7F (32)
+   [https://wikipedia.org/wiki/Old_North_Arabian]Old North Arabian U+10A80
+   U+10A9F (32)
+   [https://wikipedia.org/wiki/Manichaean]Manichaean U+10AC0 U+10AFF (51)
+   [https://wikipedia.org/wiki/Avestan]Avestan U+10B00 U+10B3F (61)
+   [https://wikipedia.org/wiki/Inscriptional_Parthian]Inscriptional
+   Parthian U+10B40 U+10B5F (30)
+   [https://wikipedia.org/wiki/Inscriptional_Pahlavi]Inscriptional Pahlavi
+   U+10B60 U+10B7F (27)
+   [https://wikipedia.org/wiki/Psalter_Pahlavi]Psalter Pahlavi U+10B80
+   U+10BAF (29)
+   [https://wikipedia.org/wiki/Old_Turkic]Old Turkic U+10C00 U+10C4F (73)
+   [https://wikipedia.org/wiki/Old_Hungarian]Old Hungarian U+10C80 U+10CFF
+   (108)
+   [https://wikipedia.org/wiki/Rumi_Numeral_Symbols]Rumi Numeral Symbols
+   U+10E60 U+10E7F (31)
+   [https://wikipedia.org/wiki/Brahmi]Brahmi U+11000 U+1107F (109)
+   [https://wikipedia.org/wiki/Kaithi]Kaithi U+11080 U+110CF (66)
+   [https://wikipedia.org/wiki/Sora_Sompeng]Sora Sompeng U+110D0 U+110FF
+   (35)
+   [https://wikipedia.org/wiki/Chakma]Chakma U+11100 U+1114F (67)
+   [https://wikipedia.org/wiki/Mahajani]Mahajani U+11150 U+1117F (39)
+   [https://wikipedia.org/wiki/Sharada]Sharada U+11180 U+111DF (94)
+   [https://wikipedia.org/wiki/Sinhala_Archaic_Numbers]Sinhala Archaic
+   Numbers U+111E0 U+111FF (20)
+   [https://wikipedia.org/wiki/Khojki]Khojki U+11200 U+1124F (61)
+   [https://wikipedia.org/wiki/Multani]Multani U+11280 U+112AF (38)
+   [https://wikipedia.org/wiki/Khudawadi]Khudawadi U+112B0 U+112FF (69)
+   [https://wikipedia.org/wiki/Grantha]Grantha U+11300 U+1137F (85)
+   [https://wikipedia.org/wiki/Tirhuta]Tirhuta U+11480 U+114DF (82)
+   [https://wikipedia.org/wiki/Siddham]Siddham U+11580 U+115FF (92)
+   [https://wikipedia.org/wiki/Modi]Modi U+11600 U+1165F (79)
+   [https://wikipedia.org/wiki/Takri]Takri U+11680 U+116CF (66)
+   [https://wikipedia.org/wiki/Ahom]Ahom U+11700 U+1173F (57)
+   [https://wikipedia.org/wiki/Warang_Citi]Warang Citi U+118A0 U+118FF
+   (84)
+   [https://wikipedia.org/wiki/Pau_Cin_Hau]Pau Cin Hau U+11AC0 U+11AFF
+   (57)
+   [https://wikipedia.org/wiki/Cuneiform]Cuneiform U+12000 U+123FF (922)
+   [https://wikipedia.org/wiki/Cuneiform_Numbers_and_Punctuation]Cuneiform
+   Numbers and Punctuation U+12400 U+1247F (116)
+   [https://wikipedia.org/wiki/Early_Dynastic_Cuneiform]Early Dynastic
+   Cuneiform U+12480 U+1254F (196)
+   [https://wikipedia.org/wiki/Egyptian_Hieroglyphs]Egyptian Hieroglyphs
+   U+13000 U+1342F (1071)
+   [https://wikipedia.org/wiki/Anatolian_Hieroglyphs]Anatolian Hieroglyphs
+   U+14400 U+1467F (583)
+   [https://wikipedia.org/wiki/Bamum_Supplement]Bamum Supplement U+16800
+   U+16A3F (569)
+   [https://wikipedia.org/wiki/Mro]Mro U+16A40 U+16A6F (43)
+   [https://wikipedia.org/wiki/Bassa_Vah]Bassa Vah U+16AD0 U+16AFF (36)
+   [https://wikipedia.org/wiki/Pahawh_Hmong]Pahawh Hmong U+16B00 U+16B8F
+   (127)
+   [https://wikipedia.org/wiki/Miao]Miao U+16F00 U+16F9F (133)
+   [https://wikipedia.org/wiki/Kana_Supplement]Kana Supplement U+1B000
+   U+1B0FF (2)
+   [https://wikipedia.org/wiki/Duployan]Duployan U+1BC00 U+1BC9F (143)
+   [https://wikipedia.org/wiki/Shorthand_Format_Controls]Shorthand Format
+   Controls U+1BCA0 U+1BCAF (4)
+   [https://wikipedia.org/wiki/Byzantine_Musical_Symbols]Byzantine Musical
+   Symbols U+1D000 U+1D0FF (246)
+   [https://wikipedia.org/wiki/Musical_Symbols]Musical Symbols U+1D100
+   U+1D1FF (231)
+   [https://wikipedia.org/wiki/Ancient_Greek_Musical_Notation]Ancient
+   Greek Musical Notation U+1D200 U+1D24F (70)
+   [https://wikipedia.org/wiki/Tai_Xuan_Jing_Symbols]Tai Xuan Jing Symbols
+   U+1D300 U+1D35F (87)
+   [https://wikipedia.org/wiki/Counting_Rod_Numerals]Counting Rod Numerals
+   U+1D360 U+1D37F (18)
+   [https://wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols]Mathemati
+   cal Alphanumeric Symbols U+1D400 U+1D7FF (996)
+   [https://wikipedia.org/wiki/Sutton_SignWriting]Sutton SignWriting
+   U+1D800 U+1DAAF (672)
+   [https://wikipedia.org/wiki/Mende_Kikakui]Mende Kikakui U+1E800 U+1E8DF
+   (213)
+   [https://wikipedia.org/wiki/Arabic_Mathematical_Alphabetic_Symbols]Arab
+   ic Mathematical Alphabetic Symbols U+1EE00 U+1EEFF (143)
+   [https://wikipedia.org/wiki/Mahjong_Tiles]Mahjong Tiles U+1F000 U+1F02F
+   (44)
+   [https://wikipedia.org/wiki/Domino_Tiles]Domino Tiles U+1F030 U+1F09F
+   (100)
+   [https://wikipedia.org/wiki/Playing_Cards]Playing Cards U+1F0A0 U+1F0FF
+   (82)
+   [https://wikipedia.org/wiki/Enclosed_Alphanumeric_Supplement]Enclosed
+   Alphanumeric Supplement U+1F100 U+1F1FF (173)
+   [https://wikipedia.org/wiki/Enclosed_Ideographic_Supplement]Enclosed
+   Ideographic Supplement U+1F200 U+1F2FF (57)
+   [https://wikipedia.org/wiki/Miscellaneous_Symbols_and_Pictographs]Misce
+   llaneous Symbols and Pictographs U+1F300 U+1F5FF (766)
+   [https://wikipedia.org/wiki/Emoticons]Emoticons U+1F600 U+1F64F (80)
+   [https://wikipedia.org/wiki/Ornamental_Dingbats]Ornamental Dingbats
+   U+1F650 U+1F67F (48)
+   [https://wikipedia.org/wiki/Transport_and_Map_Symbols]Transport and Map
+   Symbols U+1F680 U+1F6FF (98)
+   [https://wikipedia.org/wiki/Alchemical_Symbols]Alchemical Symbols
+   U+1F700 U+1F77F (116)
+   [https://wikipedia.org/wiki/Geometric_Shapes_Extended]Geometric Shapes
+   Extended U+1F780 U+1F7FF (85)
+   [https://wikipedia.org/wiki/Supplemental_Arrows-C]Supplemental Arrows-C
+   U+1F800 U+1F8FF (148)
+   [https://wikipedia.org/wiki/Supplemental_Symbols_and_Pictographs]Supple
+   mental Symbols and Pictographs U+1F900 U+1F9FF (15)
+   [https://wikipedia.org/wiki/CJK_Unified_Ideographs_Extension_B]CJK
+   Unified Ideographs Extension B U+20000 U+2A6DF (42676)
+   [https://wikipedia.org/wiki/CJK_Unified_Ideographs_Extension_C]CJK
+   Unified Ideographs Extension C U+2A700 U+2B73F (60)
+   [https://wikipedia.org/wiki/CJK_Unified_Ideographs_Extension_D]CJK
+   Unified Ideographs Extension D U+2B740 U+2B81F (27)
+   [https://wikipedia.org/wiki/CJK_Unified_Ideographs_Extension_E]CJK
+   Unified Ideographs Extension E U+2B820 U+2CEAF (2)
+   [https://wikipedia.org/wiki/CJK_Compatibility_Ideographs_Supplement]CJK
+   Compatibility Ideographs Supplement U+2F800 U+2FA1F (542)
+   [https://wikipedia.org/wiki/Tags]Tags U+E0000 U+E007F (97)
+   [https://wikipedia.org/wiki/Variation_Selectors_Supplement]Variation
+   Selectors Supplement U+E0100 U+E01EF (240)
+   [https://wikipedia.org/wiki/Supplementary_Private_Use_Area-A]Supplement
+   ary Private Use Area-A U+F0000 U+FFFFF (4)
+   [https://wikipedia.org/wiki/Supplementary_Private_Use_Area-B]Supplement
+   ary Private Use Area-B U+100000 U+10FFFF (4)
+
+Principles of the Unicode Standard
+
+   The Unicode Standard set forth the following fundamental principles:
+     * Universal repertoire - Every writing system ever used shall be
+       respected and represented in the standard
+     * Logical order - In bidirectional text are the characters stored in
+       logical order, not in a way that the representaion
+     * Efficiency - The documentation must be efficient and complete.
+     * Unification - Where different cultures or languages use the same
+       character, it shall be only included once. This point is
+     * Characters, not glyphs - Only characters, not glyphs shall be
+       encoded. In a nutshell, glyphs are the actual graphical
+     * Dynamic composition - New characters can be composed of other,
+       already standardized characters. For example, the character "Ä" can
+       be composed of an "A" and a dieresis sign (" ¨ ").
+     * Semantics - Included characters must be well defined and
+       distinguished from others.
+     * Stability - Once defined characters shall never be removed or their
+       codepoints reassigned. In the case of an error, a codepoint shall
+       be deprecated.
+     * Plain Text - Characters in the standard are text and never mark-up
+       or metacharacters.
+     * Convertibility - Every other used encoding shall be representable
+       in terms of a Unicode encoding.
+
+   Note: Principle descriptions are from
+   [https://codepoints.net/about#unicode]codepoints.net
+
+Unicode Versions
+
+     * [http://www.unicode.org/versions/Unicode9.0.0/]Version 9.0.0
+       (Latest Version, August 2016 - adds exactly 7,500 characters)
+     * [http://www.unicode.org/versions/Unicode8.0.0/]Version 8.0.0
+     * [http://www.unicode.org/versions/Unicode7.0.0/]Version 7.0.0
+     * [http://www.unicode.org/versions/Unicode6.3.0/]Version 6.3.0
+     * [http://www.unicode.org/versions/Unicode6.2.0/]Version 6.2.0
+     * [http://www.unicode.org/versions/Unicode6.1.0/]Version 6.1.0
+     * [http://www.unicode.org/versions/Unicode6.0.0/]Version 6.0.0
+     * [http://www.unicode.org/versions/Unicode5.2.0/]Version 5.2.0
+     * [http://www.unicode.org/versions/Unicode5.1.0/]Version 5.1.0
+     * Version 5.0.0 (unavailable)
+     * [http://www.unicode.org/versions/Unicode4.0.1/]Version 4.0.1
+     * [http://www.unicode.org/versions/corrigendum5.html]Version 4.0.0
+
+Contributing
+
+   See the Awesome Unicode
+   
+   contribution guide for details on how to contribute.
+
+Code of Conduct
+
+   See the
+   [file://localhost/jagracey/Awesome-Unicode/blob/master/CODE-OF-CONDUCT.
+   md]Code of Conduct for details. Basically it comes down to:
+
+     In the interest of fostering an open and welcoming environment, we
+     as contributors and maintainers pledge to making participation in
+     our project and our community a harassment-free experience for
+     everyone, regardless of age, body size, disability, ethnicity,
+     gender identity and expression, level of experience, nationality,
+     personal appearance, race, religion, or sexual identity and
+     orientation.
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+   To the extent possible under law,
+   [https://github.com/jagracey/Awesome-Unicode/graphs/contributors]the
+   contributors have waived all copyright and related or neighboring
+   rights to this work. See the
+   license
+   file for details.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   R
+   eload to refresh your session. You signed out in another tab or window.
+   R
+   eload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

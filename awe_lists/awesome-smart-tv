@@ -1,0 +1,385 @@
+   #Recen
+   t Commits to awesome-smart-tv:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign
+   in or Sign up
+
+     * 10
+     * 89
+     * 11
+
+awesome-smart-tv
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   !V!A curated list of awesome resources for building Smart TV apps
+   smart-tv
+   tizen
+   samsung-smart-tv
+   android-tv
+   awesome
+   54
+       commits
+     * 1 branch
+     * 4
+       contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/v
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * Branches
+     * Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/vitalets/awesome-smart-tv/tree/794b3c0cfb4e169a5b0a99
+   85c039dbc63ea4a62b]Permalink
+   Failed to load latest commit information.
+   .
+   editorconfig
+   init Oct 13, 2016
+   .git
+   ignore
+   init Oct 13, 2016
+   CODE-OF-CONDUCT.md
+   uppercase Jul 6, 2017
+   CONTRIBUTING.md
+   Update CONTRIBUTING.md Jul 7, 2017
+   READM
+   E.md
+   Merge pull request
+   [https://github.com/vitalets/awesome-smart-tv/pull/4]#4
+   [file://localhost/vitalets/awesome-smart-tv/commit/794b3c0cfb4e169a5b0a
+   9985c039dbc63ea4a62b]from JayAndCatchFire/patch-1 Mar 20, 2018
+
+README.md
+
+Awesome
+
+     A curated list of awesome resources for building
+     [https://en.wikipedia.org/wiki/Smart_TV]Smart TV apps
+
+   [https://github.com/vitalets/awesome-smart-tv][27913047-7c3a5e60-6267-1
+   1e7-8bd1-bef2bf3cd753.png]
+
+   [https://en.wikipedia.org/wiki/Smart_TV]Smart TV is a growing platform
+   of TVs having access to internet and allowing to serf web-sites and
+   install applications. It has own ecosystem with main players like
+   Samsung, LG, Android TV and Apple TV. In this list you will find
+   official and third-party resources for developing Smart TV apps and
+   communicating with TV from remote devices.
+
+Contents
+
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-smart
+       -tv#platforms]Platforms
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            smart-tv#samsung-tizen]Samsung Tizen
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            smart-tv#lg-webos]LG webOS
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            smart-tv#android-tv]Android TV
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            smart-tv#apple-tvos]Apple tvOS
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            smart-tv#chromecast]Chromecast
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-smart
+       -tv#cross-platform-tools]Cross-platform tools
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-smart
+       -tv#remote-control-protocols]Remote control protocols
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-smart
+       -tv#misc]Misc
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-smart
+       -tv#community]Community
+
+Platforms
+
+   Below are the most popular platforms for Smart TV. The full list is
+   [https://en.wikipedia.org/wiki/List_of_smart_TV_platforms_and_middlewar
+   e_software]here.
+
+Samsung Tizen
+
+Official resources
+
+     * [http://developer.samsung.com/tv]Samsung TV Developers site - News,
+       documentation and SDK downloads.
+     * [https://developer.tizen.org/tizen/tv]Tizen TV Developers site -
+       Full API documentation and guides for developing Tizen TV apps.
+     * [https://developer.tizen.org/development/tizen-studio/download]Tize
+       n Studio - IDE for TV apps development including Tizen TV Emulator.
+     * [http://developer.samsung.com/tv/develop/extension-libraries/smart-
+       view-sdk/download/]Smart View SDK - Official Android, IOS and
+       JavaScript SDK for communication between remote device and Samsung
+       Smart TV.
+     * [http://developer.samsung.com/forum/?topCtgy=06]Samsung TV
+       Developers Forum - Ask questions and share tips when developing
+       apps with Samsung SDKs.
+     * [https://samsungtvbounty.com/]Samsung Smart TV Bug Bounty - If you
+       find bug in Samsung TV, submit it here and get a reward $1000+.
+     * [https://marketplace.visualstudio.com/items?itemName=tizensdk.tizen
+       tv]vscode-extension-tizentv - A Visual Studio Code extension that
+       provides a lightweight IDE for Tizen application developers.
+
+Third-party remote control libraries
+
+     * [https://github.com/Ape/samsungctl]samsungctl - Library and command
+       line tool for remote controlling Samsung televisions via a TCP/IP
+       connection. It currently supports both pre-2016 TVs as well most of
+       the modern Tizen-OS TVs with Ethernet or Wi-Fi connectivity
+       (Python).
+     * [https://github.com/Badisi/samsung-tv-remote]samsung-tv-remote -
+       Node.js module to remotely control Samsung Smart TV starting from
+       2016 (JavaScript).
+     * [https://github.com/kyleaa/homebridge-samsungtv2016]homebridge-sams
+       ungtv2016 - Plugin for
+       [https://github.com/nfarina/homebridge]Homebridge that allows you
+       to control your 2016 Samsung TV with HomeKit and Siri (JavaScript).
+
+Other
+
+     * [http://en.tab-tv.com/?page_id=7123]Identification of Samsung TV
+       models 2008-2017 - How to get screen size, matrix type, year of
+       development, series and ohter parameters from Samsung TV model
+       name.
+
+LG webOS
+
+Official resources
+
+     * [http://webostv.developer.lge.com/]webOS TV Developers Site - WebOS
+       TV apps development principles, tutorials, API documentation and
+       packaging tools.
+     * [http://webostv.developer.lge.com/sdk/download/download-sdk/]webOS
+       TV IDE + SDK - IDE for apps development including a Command Line
+       Interface and emulator.
+     * [http://www.svlconnectsdk.com/]Connect SDK - Open source framework
+       developed by LG that connects your mobile apps with multiple media
+       device platforms. Currently supports 8 platforms. But seems
+       [https://github.com/ConnectSDK/Connect-SDK-Android/issues/364]aband
+       oned.
+     * [http://developer.lge.com/community/forums/RetrieveForumList.dev?pr
+       odTypeCode=TV]webOS TV Developers Forum - Ask questions, share
+       information and learn about Smart TV app development with other
+       developers.
+
+Third-party remote control libraries
+
+     * [https://github.com/hobbyquaker/lgtv2]lgtv2 - Node.js module for
+       remote control of LG webOS TV via WebSocket messages (JavaScript).
+     * [https://github.com/hobbyquaker/node-red-contrib-lgtv]node-red-cont
+       rib-lgtv - Module for [https://nodered.org/]Node-RED allowing
+       remote control of LG webOS Smart TVs (JavaScript).
+     * [https://github.com/WeeJeWel/node-webos]node-webos - Node.js module
+       to discover and control webOS TVs (JavaScript).
+     * [https://github.com/hobbyquaker/lgtv2mqtt]lgtv2mqtt - Interface
+       between LG WebOS Smart TVs and MQTT (JavaScript).
+     * [https://github.com/stevenvong/ares-webos-sdk]ares-webos-sdk -
+       webOS [http://webostv.developer.lge.com/sdk/using-webos-tv-cli/]CLI
+       as separate NPM module (JavaScript).
+     * [https://github.com/TheRealLink/pylgtv]pylgtv - Library to control
+       webOS based LG Tv devices (Python).
+     * [https://github.com/klattimer/LGWebOSRemote]LGWebOSRemote - Command
+       line tool for webOS remote control of LG TVs (Python).
+
+Articles
+
+     * [https://mym.hackpad.com/ep/pad/static/rLlshKkzdNj]LG webOS
+       communication protocol - Unofficial but detailed description of
+       communication endpoints of webOS TV.
+
+Videos
+
+     * [https://youtu.be/yxu0G7jM_us]LG Magic Motion Remote - Point,
+       Click, and Control - Operate TV like a computer mouse.
+
+Other
+
+     * [http://openlgtv.org.ru/]openlgtv.org.ru - A non-commercial project
+       for legal reverse engineering and research on LG Television
+       firmware. Seems a bit outdated but contains a lot of information.
+     * [http://en.tab-tv.com/?page_id=7111]Identification of LG TV models
+       2011-2017 - How to get screen size, matrix type, year of
+       development, series and ohter parameters from LG TV model name.
+
+Android TV
+
+Official resources
+
+     * [https://developer.android.com/training/tv/start/start.html]Android
+       TV Developers site - Documentation, tutorials and best practises
+       for building Android TV apps.
+
+Apple tvOS
+
+Official resources
+
+     * [https://developer.apple.com/tvos/]tvOS Developers Site - SDK,
+       documentation and tutorials for developing tvOS apps.
+
+Chromecast
+
+Official resources
+
+     * [https://developers.google.com/cast/]Google Cast SDK - Official
+       Google Cast SDK documentation and tutorials.
+     * [https://www.google.com/chromecast/built-in/tv/]TVs with Chromecast
+       built-in - List of vendors supporting built-in Chromecast and
+       advantages over traditional TV remote controller.
+
+Cross-platform tools
+
+     * [https://github.com/raphamorim/react-tv]react-tv - React
+       development for TV: renderer for low memory applications and
+       Packager for WebOS, Tizen, Orsay.
+     * [http://developer.samsung.com/tv/develop/extension-libraries/toast/
+       ]TOAST - Samsung open-source framework for multi-platform TV apps
+       developemnt.
+     * [http://enyojs.com/]Enyo - LG framework for development apps for
+       all major platforms, from phones and tablets to PCs and TVs.
+     * [https://github.com/immosmart/smartbox]Smartbox - Smart TV
+       universal library for Samsung, LG, Philips, SmartTV Aliance, STB
+       Mag app development.
+     * [https://github.com/mautilus/sdk]Mautilus Smart TV SDK - A
+       platform-agnostic framework for developing TV Apps. Supports
+       Samsung, LG, Philips, Sony, Panasonic and VESTEL Smart TVs.
+
+Remote control protocols
+
+     * [https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance]DLNA
+       - Industry-wide standard for sharing data over a home network.
+       Depending on the DLNA-compatible devices you own, you might be able
+       to stream films from your laptop to your TV, play an MP3 stored on
+       your phone over your hi-fi system, or print a photo from your
+       tablet on your home printer.
+     * [http://www.dial-multiscreen.org/]DIAL - Developed by Netflix and
+       Google, this protocol alows client devices (like smartphone,
+       tablet, or computer) to discover apps on server devices (like a
+       smart TV or streaming box) and launch content on them.
+     * [https://en.wikipedia.org/wiki/Wi-Fi_Direct]Wi-Fi Direct - Standard
+       enabling devices to easily connect with each other without
+       requiring a wireless access point.
+     * [https://en.wikipedia.org/wiki/Miracast]Miracast - Standard for
+       wireless connections from devices (such as laptops, tablets, or
+       smartphones) to displays (such as TVs, monitors or projectors).
+       Works over Wi-Fi Direct.
+
+Misc
+
+     * [http://lirc.org/]LIRC - A package that allows you to decode and
+       send infra-red signals of many (but not all) commonly used remote
+       controls.
+     * [https://github.com/ruiposse/smart-tv-app-dev-guidelines]smart-tv-a
+       pp-dev-guidelines - A Smart TV App Development examples, tutorials,
+       best-practices and documentation. Last updated on 2015.
+     * [https://github.com/linuxenko/awesome-smarttv]awesome-smarttv -
+       Another list of Smart TV resources. Discovered after this one was
+       already done .
+     * [https://github.com/stuart-williams/lrud]lrud - Left, Right, Up,
+       Down. A spatial navigation library for devices with input via
+       directional controls.
+
+Community
+
+     * [http://stackoverflow.com/questions/tagged/smart-tv]Stack Overflow
+     * [https://www.reddit.com/r/smarttv]Reddit
+
+Contribute
+
+   Feel free to share your experience and contribute useful extension
+   resources by creating
+   [https://github.com/vitalets/awesome-smart-tv/issues]new issue or
+   [https://github.com/vitalets/awesome-smart-tv/pulls]pull request.
+   Please read the
+   [file://localhost/vitalets/awesome-smart-tv/blob/master/CONTRIBUTING.md
+   ]contribution guidelines first. Thanks!
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   
+   Reload to refresh your session. You signed out in another tab or
+   window.
+   
+   Reload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

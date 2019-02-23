@@ -1,0 +1,1170 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - hangtwenty/dive-into-machine-learning: Dive into Machine Learning with Python Jupyter notebook and scikit-learn!</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/2420688?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="hangtwenty/dive-into-machine-learning" /><meta property="og:url" content="https://github.com/hangtwenty/dive-into-machine-learning" /><meta property="og:description" content="dive-into-machine-learning - Dive into Machine Learning with Python Jupyter notebook and scikit-learn!" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E2AC:5D4F:31321DE:58B9A76:5AD2F777" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E2AC:5D4F:31321DE:58B9A76:5AD2F777" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NDRmNzEyNjM1N2EwODVlOGQzMzVjNDU4OTQ1Nzk2Yzc3OTcwYzBkYjljNjVmMWY4YTUzNzBiZmIxY2Q2YjVhZXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTJBQzo1RDRGOjMxMzIxREU6NThCOUE3Njo1QUQyRjc3NyIsInRpbWVzdGFtcCI6MTUyMzc3NTM1MiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="4e712a5b9504180f33845e3708788300221dbad6">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/hangtwenty/dive-into-machine-learning/commits/master.atom" rel="alternate" title="Recent Commits to dive-into-machine-learning:master" type="application/atom+xml">
+
+  <meta name="description" content="dive-into-machine-learning - Dive into Machine Learning with Python Jupyter notebook and scikit-learn!">
+  <meta name="go-import" content="github.com/hangtwenty/dive-into-machine-learning git https://github.com/hangtwenty/dive-into-machine-learning.git">
+
+  <meta name="octolytics-dimension-user_id" content="2420688" /><meta name="octolytics-dimension-user_login" content="hangtwenty" /><meta name="octolytics-dimension-repository_id" content="31186658" /><meta name="octolytics-dimension-repository_nwo" content="hangtwenty/dive-into-machine-learning" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="31186658" /><meta name="octolytics-dimension-repository_network_root_nwo" content="hangtwenty/dive-into-machine-learning" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/hangtwenty/dive-into-machine-learning" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/hangtwenty/dive-into-machine-learning/search" data-unscoped-search-url="/search" action="/hangtwenty/dive-into-machine-learning/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/hangtwenty/dive-into-machine-learning">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fhangtwenty%2Fdive-into-machine-learning" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fhangtwenty%2Fdive-into-machine-learning"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/hangtwenty/dive-into-machine-learning/watchers"
+     aria-label="549 users are watching this repository">
+    549
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fhangtwenty%2Fdive-into-machine-learning"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/hangtwenty/dive-into-machine-learning/stargazers"
+      aria-label="8089 users starred this repository">
+      8,089
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fhangtwenty%2Fdive-into-machine-learning"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/hangtwenty/dive-into-machine-learning/network" class="social-count"
+       aria-label="1389 users forked this repository">
+      1,389
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/hangtwenty">hangtwenty</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/hangtwenty/dive-into-machine-learning">dive-into-machine-learning</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /hangtwenty/dive-into-machine-learning" href="/hangtwenty/dive-into-machine-learning">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /hangtwenty/dive-into-machine-learning/issues" href="/hangtwenty/dive-into-machine-learning/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">3</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /hangtwenty/dive-into-machine-learning/pulls" href="/hangtwenty/dive-into-machine-learning/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /hangtwenty/dive-into-machine-learning/projects" href="/hangtwenty/dive-into-machine-learning/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /hangtwenty/dive-into-machine-learning/pulse" href="/hangtwenty/dive-into-machine-learning/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ecpk2d0AiGVsAaa8Wey2ZhmC9KTr7feZxv6BiueVsfoCcdMERtkXoz0qMi821lgSvvZneGH1OANBimpWhVUeWw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            Dive into Machine Learning with Python Jupyter notebook and scikit-learn!
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://hangtwenty.github.io/dive-into-machine-learning/">http://hangtwenty.github.io/dive-into…</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/hangtwenty/dive-into-machine-learning/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/machine-learning" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:machine-learning">
+        machine-learning
+      </a>
+      <a href="/topics/data-science" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:data-science">
+        data-science
+      </a>
+      <a href="/topics/scikit-learn" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:scikit-learn">
+        scikit-learn
+      </a>
+      <a href="/topics/ipython-notebook" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ipython-notebook">
+        ipython-notebook
+      </a>
+      <a href="/topics/deep-learning" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:deep-learning">
+        deep-learning
+      </a>
+      <a href="/topics/jupyter-notebook" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:jupyter-notebook">
+        jupyter-notebook
+      </a>
+      <a href="/topics/python" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:python">
+        python
+      </a>
+      <a href="/topics/courses" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:courses">
+        courses
+      </a>
+      <a href="/topics/learning" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:learning">
+        learning
+      </a>
+      <a href="/topics/learning-by-doing" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:learning-by-doing">
+        learning-by-doing
+      </a>
+      <a href="/topics/diy" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:diy">
+        diy
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/hangtwenty/dive-into-machine-learning/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                202
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/hangtwenty/dive-into-machine-learning/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              4
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/hangtwenty/dive-into-machine-learning/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <include-fragment src="/hangtwenty/dive-into-machine-learning/contributors_size">
+              <a href="/hangtwenty/dive-into-machine-learning/graphs/contributors">
+                <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+                <span class="num text-emphasized"></span>
+                Fetching contributors
+              </a>
+</include-fragment>        </li>
+          <li>
+            <a href="/hangtwenty/dive-into-machine-learning/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC-BY-4.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/hangtwenty/dive-into-machine-learning.git" aria-label="Clone this repository at https://github.com/hangtwenty/dive-into-machine-learning.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/hangtwenty/dive-into-machine-learning.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/hangtwenty/dive-into-machine-learning/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/hangtwenty/dive-into-machine-learning/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/hangtwenty/dive-into-machine-learning/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/hangtwenty/dive-into-machine-learning/tree/hangtwenty-patch-1"
+               data-name="hangtwenty-patch-1"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                hangtwenty-patch-1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/hangtwenty/dive-into-machine-learning/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/hangtwenty/dive-into-machine-learning/tree/reorder-supplementary-materials"
+               data-name="reorder-supplementary-materials"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                reorder-supplementary-materials
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/hangtwenty/dive-into-machine-learning/tree-commit/12b7492e6080bf95a0ded3dc6cc94e1d4668a5cc" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/hangtwenty/dive-into-machine-learning/tree/12b7492e6080bf95a0ded3dc6cc94e1d4668a5cc">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-9b0284ce29fa079ad9620a4ca16fe064d38c4248" href="/hangtwenty/dive-into-machine-learning/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="tiny: awesome_bot add HN to whitelist" class="message" href="/hangtwenty/dive-into-machine-learning/commit/4a01189275ce0a1437787813d49a0356a733da32">tiny: awesome_bot add HN to whitelist</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-04T22:32:44Z">Nov 4, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-dc8853a70cfa9d7e8933c080caa147815c659fab" itemprop="license" href="/hangtwenty/dive-into-machine-learning/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="License: CC Attribution 4.0 International
+
+http://creativecommons.org/licenses/by/4.0/" class="message" href="/hangtwenty/dive-into-machine-learning/commit/15d8afdd1c1cd4b8ad245079fba9aa1f819534f1">License: CC Attribution 4.0 International</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-13T21:38:26Z">Jan 13, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-8c2745e8d514d41b4b7ae0dbe6ef6e66cc818e28" href="/hangtwenty/dive-into-machine-learning/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="fix typo (#97)
+
+alogrithms -&gt; algorithms" class="message" href="/hangtwenty/dive-into-machine-learning/commit/12b7492e6080bf95a0ded3dc6cc94e1d4668a5cc">fix typo (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="308858939" data-permission-text="Issue title is private" data-url="https://github.com/hangtwenty/dive-into-machine-learning/issues/97" href="https://github.com/hangtwenty/dive-into-machine-learning/pull/97">#97</a><a data-pjax="true" title="fix typo (#97)
+
+alogrithms -&gt; algorithms" class="message" href="/hangtwenty/dive-into-machine-learning/commit/12b7492e6080bf95a0ded3dc6cc94e1d4668a5cc">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-04T21:26:48Z">Apr 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="_config.yml" id="aeb42283af8ef8e9da40ededd3ae2ab2-c4192631f25b34d77a7f159aa0da0e3ae99c4ef4" href="/hangtwenty/dive-into-machine-learning/blob/master/_config.yml">_config.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Set theme jekyll-theme-cayman" class="message" href="/hangtwenty/dive-into-machine-learning/commit/921d076fe4feef450ca69c7d8a3b11a10d370ca1">Set theme jekyll-theme-cayman</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-18T19:51:18Z">Aug 18, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-dive-into-machine-learning--" class="anchor" aria-hidden="true" href="#dive-into-machine-learning--"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dive into Machine Learning <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/bbab3b8136849892a5b19334bc01d2472f797680/687474703a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f342e302f38387833312e706e67" alt="Creative Commons License" data-canonical-src="http://i.creativecommons.org/l/by/4.0/88x31.png" style="max-width:100%;"></a> <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p><strong>Hi there! This guide is for you:</strong></p>
+<ul>
+<li><strong>You're new to <a href="https://en.wikipedia.org/wiki/Machine_learning" rel="nofollow">Machine Learning.</a></strong></li>
+<li><strong>You know Python.</strong> (At least the basics! If you want to learn more Python, <a href="https://github.com/hangtwenty/python-is-for-lovers">try this</a>)</li>
+</ul>
+<p>I learned Python by hacking first, and getting serious <em>later.</em> I wanted to do this with Machine Learning. If this is your style, join me in getting a bit ahead of yourself.</p>
+<p><em>Note:</em> There are several fields within "Data" and Machine Learning is just one. It's good to know the context: <a href="http://www.quora.com/What-is-the-difference-between-Data-Analytics-Data-Analysis-Data-Mining-Data-Science-Machine-Learning-and-Big-Data-1" rel="nofollow">What is the difference between Data Analytics, Data Analysis, Data Mining, Data Science, Machine Learning, and Big Data?</a></p>
+<h1><a id="user-content-get-your-feet-wet" class="anchor" aria-hidden="true" href="#get-your-feet-wet"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Get your feet wet!</h1>
+<p>I suggest you get your feet wet ASAP. You'll boost your confidence.</p>
+<h2><a id="user-content-tools-youll-need" class="anchor" aria-hidden="true" href="#tools-youll-need"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools you'll need</h2>
+<ul>
+<li><a href="https://www.python.org/" rel="nofollow">Python</a>. Python 3 is the best option.</li>
+<li><a href="http://ipython.org/" rel="nofollow">IPython and the Jupyter Notebook</a>. (FKA IPython and IPython Notebook.)</li>
+<li>Some scientific computing packages:
+<ul>
+<li>numpy</li>
+<li>pandas</li>
+<li>scikit-learn</li>
+<li>matplotlib</li>
+</ul>
+</li>
+</ul>
+<p>You can install Python 3 and all of these packages in a few clicks with the <a href="https://www.continuum.io/downloads" rel="nofollow">Anaconda Python distribution</a>. Anaconda is popular in Data Science and Machine Learning communities.</p>
+<p>If you're using Python 2.7, don't worry. You don't have to migrate to Python 3 just for this guide. Also, if you're using pip/virtualenv instead of Anaconda, that's alright too! And re: installing packages, this is a helpful doc: <a href="https://conda.io/docs/commands.html#conda-vs-pip-vs-virtualenv-commands" rel="nofollow">conda vs. pip vs. virtualenv</a></p>
+<h2><a id="user-content-lets-go" class="anchor" aria-hidden="true" href="#lets-go"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Let's go!</h2>
+<p><strong><a href="http://opentechschool.github.io/python-data-intro/core/notebook.html" rel="nofollow">Learn how to use IPython Notebook</a> (5-10 minutes).</strong> (You can <a href="https://www.youtube.com/watch?v=qb7FT68tcA8" rel="nofollow">learn by screencast</a> instead.)</p>
+<p>Now, follow along with this brief exercise (10 minutes): <strong><a href="http://scikit-learn.org/stable/tutorial/basic/tutorial.html" rel="nofollow">An introduction to machine learning with scikit-learn</a></strong>. Do it in <code>ipython</code> or IPython Notebook. It'll really boost your confidence.</p>
+<p><a href="http://scikit-learn.org/stable/tutorial/basic/tutorial.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/2420688/29441281-00eff0c4-837f-11e7-9666-d653a1cd2372.jpeg" alt="I'll wait." style="max-width:100%;"></a></p>
+<h2><a id="user-content-what-just-happened" class="anchor" aria-hidden="true" href="#what-just-happened"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What just happened?</h2>
+<p>You just classified some hand-written digits using <a href="http://scikit-learn.org/stable/index.html" rel="nofollow">scikit-learn</a>. Neat huh?</p>
+<p><a href="http://scikit-learn.org/stable/index.html" rel="nofollow">scikit-learn</a> is the go-to library for machine learning in Python. <a href="http://scikit-learn.org/stable/testimonials/testimonials.html" rel="nofollow">It's used widely.</a> Machine learning is hard. You'll be glad your tools are easy to work with.</p>
+<p>I encourage you to look at the <a href="http://scikit-learn.org/stable/index.html" rel="nofollow">scikit-learn</a> homepage  and spend about 5 minutes looking over the names of the strategies (Classification, Regression, etc.), and their applications. Don't click through yet! Just get a glimpse of the vocabulary.</p>
+<h1><a id="user-content-dive-in" class="anchor" aria-hidden="true" href="#dive-in"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dive in</h1>
+<h2><a id="user-content-a-visual-introduction-to-machine-learning" class="anchor" aria-hidden="true" href="#a-visual-introduction-to-machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A Visual Introduction to Machine Learning</h2>
+<p>Let's learn a bit more about Machine Learning, and a couple of common ideas and concerns. Read <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/" rel="nofollow">"A Visual Introduction to Machine Learning, Part 1"</a> by <a href="https://twitter.com/stephaniejyee" rel="nofollow">Stephanie Yee</a> and <a href="https://twitter.com/tonyhschu/" rel="nofollow">Tony Chu</a>.</p>
+<p><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/" rel="nofollow"><img src="https://user-images.githubusercontent.com/2420688/29441234-a2028c98-837e-11e7-88f2-1ca5a94684f6.gif" alt="A Visual Introduction to Machine Learning, Part 1" style="max-width:100%;"></a></p>
+<p>It won't take long. It's a beautiful introduction ... Try not to drool too much!</p>
+<h2><a id="user-content-a-few-useful-things-to-know-about-machine-learning" class="anchor" aria-hidden="true" href="#a-few-useful-things-to-know-about-machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A Few Useful Things to Know about Machine Learning</h2>
+<p>OK. Let's dive deeper.</p>
+<p>Read <strong><a href="http://homes.cs.washington.edu/%7Epedrod/papers/cacm12.pdf" rel="nofollow">"A Few Useful Things to Know about Machine Learning"</a></strong> by <a href="https://homes.cs.washington.edu/%7Epedrod/" rel="nofollow">Prof. Pedro Domingos</a>. It's densely packed with valuable information, but not opaque. The author understands that there's a lot of "black art" and folk wisdom, and they invite you in.</p>
+<p>Take your time with this one. Take notes. Don't worry if you don't understand it all yet.</p>
+<p>The whole paper is packed with value, but I want to call out two points:</p>
+<ul>
+<li><strong>Data alone is not enough.</strong> This is where science meets art in machine-learning. Quoting Domingos: "... the need for knowledge in learning should not be surprising. Machine learning is not magic; it can’t get something from nothing. What it does is get more from less. Programming, like all engineering, is a lot of work: we have to build everything from scratch. Learning is more like farming, which lets nature do most of the work. Farmers combine seeds with nutrients to grow crops. Learners combine knowledge with data to grow programs."</li>
+<li><strong>More data beats a cleverer algorithm.</strong> Listen up, programmers. We like cool tools. Resist the temptation to reinvent the wheel, or to over-engineer solutions. Your starting point is to <a href="http://www.artima.com/intv/simplest3.html" rel="nofollow">Do the Simplest Thing that Could <em>Possibly</em> Work</a>. Quoting Domingos: "Suppose you’ve constructed the best set of features you can, but the classifiers you’re getting are still not accurate enough. What can you do now? There are two main choices: design a better learning algorithm, or gather more data. [...] As a rule of thumb, a dumb algorithm with lots and lots of data beats a clever one with modest amounts of it. (After all, machine learning is all about letting data do the heavy lifting.)"</li>
+</ul>
+<p>When you work on a real Machine Learning problem, you should focus your efforts on your <strong>domain knowledge</strong> and <strong>data</strong> before optimizing your choice of algorithms. Prefer to <a href="http://wiki.c2.com/?DoSimpleThings" rel="nofollow">Do Simple Things</a> until you <em>have</em> to increase complexity. You should not rush into neural networks because you think they're cool. To improve your model, <strong>get more data.</strong> Then use your knowledge of the problem to <a href="https://www.thetalkingmachines.com/episodes/software-and-statistics-machine-learning" rel="nofollow">explore and process</a> the data. You should only optimize the choice of algorithms after you have gathered enough data, and you've processed it well.</p>
+<p><a target="_blank" href="https://user-images.githubusercontent.com/2420688/29441212-798d2bba-837e-11e7-90b1-21daaf8d7b73.png"><img src="https://user-images.githubusercontent.com/2420688/29441212-798d2bba-837e-11e7-90b1-21daaf8d7b73.png" alt="What has the most impact in Machine Learning" style="max-width:100%;"></a></p>
+<p>(Chart inspired by a slide from <a href="https://www.youtube.com/watch?v=TYVCVzEJhhQ" rel="nofollow">Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring"</a>.)</p>
+<h2><a id="user-content-just-about-time-for-a-break" class="anchor" aria-hidden="true" href="#just-about-time-for-a-break"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Just about time for a break...</h2>
+<p>Before you take a break, grab some podcasts.</p>
+<p>First, download <a href="https://dataskeptic.com/blog/episodes/2018/the-master-algorithm" rel="nofollow">an interview with Prof. Domingos on the <em>Data Skeptic</em> podcast</a> (2018). Prof. Domingos wrote <a href="http://homes.cs.washington.edu/%7Epedrod/papers/cacm12.pdf" rel="nofollow">the paper we read earlier</a>. You might also start reading his book, <a href="https://www.goodreads.com/book/show/24612233-the-master-algorithm" rel="nofollow"><em>The Master Algorithm</em> by Prof. Pedro Domingos</a>, a clear and accessible overview of machine learning.</p>
+<p>Next, subscribe to more machine learning and data science podcasts! These are great, low-effort resources that you can casually learn more from. To <a href="https://www.coursera.org/learn/learning-how-to-learn" rel="nofollow">learn effectively</a>, listen over time, with plenty of headspace. <a href="https://www.theringer.com/2017/8/2/16095364/inefficiency-week-podcasts-speed-comprehension-f0ea43949e42" rel="nofollow">Do not speed up your podcasts!</a></p>
+<p>Subscribe to <em><strong><a href="http://www.thetalkingmachines.com/" rel="nofollow">Talking Machines</a></strong></em>.</p>
+<p>I suggest this listening order:</p>
+<ul>
+<li><strong>Download the <a href="http://www.thetalkingmachines.com/blog/2015/4/23/starting-simple-and-machine-learning-in-meds" rel="nofollow">"Starting Simple"</a> episode, and listen to that soon.</strong> It supports what we read from Domingos. <a href="http://people.seas.harvard.edu/%7Erpa/" rel="nofollow">Ryan Adams</a> talks about starting simple, as we discussed above. Adams also stresses the importance of feature engineering. Feature engineering is an exercise of the "knowledge" Domingos writes about. In a later episode, <a href="https://www.thetalkingmachines.com/episodes/software-and-statistics-machine-learning" rel="nofollow">they share many concrete tips for feature engineering</a>.</li>
+<li>Then, over time, you can listen to the entire podcast series (start from the beginning).</li>
+</ul>
+<p>Want to subscribe to more podcasts? Here's <a href="https://towardsdatascience.com/5-data-science-ai-and-machine-learning-podcasts-to-listen-to-now-e5078b18d184" rel="nofollow">a good listicle</a> of suggestions, <a href="https://mty.ai/blog/the-best-ai-podcasts/" rel="nofollow">and another</a>.</p>
+<p>OK! Take a break, come back refreshed.</p>
+<hr>
+<h2><a id="user-content-play-to-learn" class="anchor" aria-hidden="true" href="#play-to-learn"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Play to learn</h2>
+<p>Next, pick <strong>one or two</strong> of these IPython Notebooks and play along.</p>
+<ul>
+<li><a href="http://nbviewer.jupyter.org/github/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb" rel="nofollow">Face Recognition on a subset of the Labeled Faces in the Wild</a></li>
+<li><a href="http://agconti.github.io/kaggle-titanic/" rel="nofollow">Machine Learning from Disaster</a>: Using Titanic data, "Demonstrates basic data munging, analysis, and visualization techniques. Shows examples of supervised machine learning techniques."</li>
+<li><a href="https://github.com/jseabold/538model">Election Forecasting</a>: A replication of the model <a href="https://fivethirtyeight.com/contributors/nate-silver/" rel="nofollow">Nate Silver</a> used to make predictions about the 2012 US Presidential Election for the <em>New York Times</em>.</li>
+<li><a href="https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb">An example Machine Learning notebook</a>: "let's pretend we're working for a startup that just got funded to create a smartphone app that automatically identifies species of flowers from pictures taken on the smartphone.  We've been tasked by our head of data science to create a demo machine learning model that takes four measurements from the flowers (sepal length, sepal width, petal length, and petal width) and identifies the species based on those measurements alone."</li>
+<li>ClickSecurity's "data hacking" series (thanks <a href="https://github.com/hummus">hummus</a>!)
+<ul>
+<li><a href="http://nbviewer.jupyter.org/github/ClickSecurity/data_hacking/blob/master/dga_detection/DGA_Domain_Detection.ipynb" rel="nofollow">Detect Algorithmically Generated Domains</a></li>
+<li><a href="http://nbviewer.jupyter.org/github/ClickSecurity/data_hacking/blob/master/sql_injection/sql_injection.ipynb" rel="nofollow">Detect SQL Injection</a></li>
+<li><a href="http://nbviewer.jupyter.org/github/ClickSecurity/data_hacking/blob/master/java_classification/java_classification.ipynb" rel="nofollow">Java Class File Analysis</a>: is this Java code malicious or benign?</li>
+</ul>
+</li>
+<li>If you want more of a data science bent, pick a notebook from <a href="https://github.com/donnemartin/data-science-ipython-notebooks">this excellent list of Data Science ipython notebooks</a>. "Continually updated Data Science Python Notebooks: Spark, Hadoop MapReduce, HDFS, AWS, Kaggle, scikit-learn, matplotlib, pandas, NumPy, SciPy, and various command lines."</li>
+<li>Or more generic tutorials/overviews ...
+<ul>
+<li><a href="http://amueller.github.io/sklearn_tutorial/" rel="nofollow">Tutorial introduction to machine learning with sklearn</a></li>
+<li><a href="http://bugra.github.io/work/notes/2014-11-22/an-introduction-to-supervised-learning-scikit-learn/" rel="nofollow">An Introduction to Supervised Learning via Scikit Learn</a></li>
+<li><a href="http://bugra.github.io/work/notes/2014-11-16/an-introduction-to-unsupervised-learning-scikit-learn/" rel="nofollow">An Introduction to Unsupervised Learning via Scikit Learn</a></li>
+</ul>
+</li>
+</ul>
+<p>There are more places to find great IPython Notebooks:</p>
+<ul>
+<li><a href="https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks#statistics-machine-learning-and-data-science">A Gallery of Interesting IPython notebooks (wiki page on GitHub): Statistics, Machine Learning and Data Science</a></li>
+<li><a href="http://nb.bianp.net/sort/views/" rel="nofollow">Fabian Pedregosa's larger, automatic gallery</a></li>
+</ul>
+<p><em>Know another great notebook? Please submit a PR!</em></p>
+<hr>
+<h1><a id="user-content-immerse-yourself" class="anchor" aria-hidden="true" href="#immerse-yourself"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Immerse yourself</h1>
+<p>Now you should be hooked, and hungry to learn more. Pick one of the courses below and start on your way.</p>
+<h2><a id="user-content-recommended-course-prof-andrew-ngs-machine-learning-on-coursera" class="anchor" aria-hidden="true" href="#recommended-course-prof-andrew-ngs-machine-learning-on-coursera"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://www.coursera.org/learn/machine-learning" rel="nofollow">Recommended course: Prof. Andrew Ng's <em>Machine Learning</em> on Coursera</a></h2>
+<p><strong><a href="http://www.andrewng.org/about/" rel="nofollow">Prof. Andrew Ng's</a> <a href="https://www.coursera.org/learn/machine-learning" rel="nofollow"><em>Machine Learning</em></a> is a popular and esteemed free online course. I've seen it <a href="https://www.quora.com/How-do-I-learn-machine-learning-1/answer/Cory-Hicks-1" rel="nofollow">recommended</a> <a href="https://www.coursetalk.com/providers/coursera/courses/machine-learning?page=1&amp;sort=-content_rating#reviews" rel="nofollow">often.</a> <a href="https://www.quora.com/How-do-I-learn-machine-learning-1/answer/Xavier-Amatriain" rel="nofollow">And</a> <a href="https://www.forbes.com/sites/anthonykosner/2013/12/29/why-is-machine-learning-cs-229-the-most-popular-course-at-stanford/" rel="nofollow">emphatically.</a></strong></p>
+<p>It's helpful if you decide on a pet project to play around with, as you go, so you have a way to apply your knowledge. You could use one of these <a href="https://github.com/caesar0301/awesome-public-datasets">Awesome Public Datasets</a>. And remember, IPython Notebook is your friend.</p>
+<p>Also, you should grab an in-depth textbook to use as a reference. The two best options are <a href="http://www.cs.huji.ac.il/%7Eshais/UnderstandingMachineLearning/copy.html" rel="nofollow"><em>Understanding Machine Learning</em> </a> and <em><a href="https://web.stanford.edu/%7Ehastie/Papers/ESLII.pdf" rel="nofollow">Elements of Statistical Learning</a></em>. You'll see these recommended as reference textbooks. <a href="https://github.com/hangtwenty/dive-into-machine-learning/issues/29">You only need to use one of the two options as your main reference; here's some context/comparison to help you pick which one is right for you.</a> You can download each book free as PDFs at those links - so grab them!</p>
+<h3><a id="user-content-tips-for-studying" class="anchor" aria-hidden="true" href="#tips-for-studying"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips for studying</h3>
+<ul>
+<li>Busy schedule? Read <a href="https://rayli.net/blog/data/coursera-machine-learning-review/" rel="nofollow">Ray Li's review of Prof. Andrew Ng's course</a> for some helpful tips.</li>
+<li>Review some of the <a href="https://www.coursera.org/learn/learning-how-to-learn/" rel="nofollow">"Learning How to Learn"</a> videos. This is just about how to study in general. In the course, they <a href="https://www.coursera.org/learn/learning-how-to-learn/lecture/8IUbH/interview-with-dr-terrence-sejnowski" rel="nofollow">advocate the learn-by-doing approach</a>, as we're doing here. You'll get various other tips that are easy to apply, but go a long way to make your time investment more effective.</li>
+</ul>
+<h2><a id="user-content-other-courses" class="anchor" aria-hidden="true" href="#other-courses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other courses</h2>
+<p>Here are some other free online courses I've seen recommended. (Machine Learning, Data Science, and related topics.)</p>
+<ul>
+<li><a href="https://homes.cs.washington.edu/%7Epedrod/" rel="nofollow">Prof. Pedro Domingos's introductory video series</a>. Domingos wrote the paper <a href="https://homes.cs.washington.edu/%7Epedrod/papers/cacm12.pdf" rel="nofollow">"A Few Useful Things to Know About Machine Learning"</a>, recommended earlier in this guide.</li>
+<li>Kevin Markham's video series, <a href="http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/" rel="nofollow">Intro to Machine Learning with scikit-learn</a>, starts with what we've already covered, then continues on at a comfortable place. After the videos you could do Markham's <a href="https://github.com/justmarkham/DAT8">General Assembly's Data Science course.</a> Interactive. Markham's course is also offered in-person in Washington, DC.</li>
+<li><a href="http://data8.org/" rel="nofollow">UC Berkeley's Data 8: The Foundations of Data Science</a> course and the textbook <a href="https://www.inferentialthinking.com/" rel="nofollow">Computational and Inferential Thinking</a> teaches critical concepts in Data Science.
+<ul>
+<li>The textbook also provides an academic definition of Data Science: <strong>"Data Science is about drawing useful conclusions from large and diverse data sets through exploration, prediction, and inference".</strong></li>
+<li><a href="https://people.eecs.berkeley.edu/%7Ejordan/" rel="nofollow">Prof. Michael I. Jordan</a> (associated with Spark) talks about the design of the course in this <a href="https://youtu.be/ggq7HiDO0OU?t=1227" rel="nofollow">video</a></li>
+</ul>
+</li>
+<li>Data science courses as IPython Notebooks:
+<ul>
+<li><a href="http://radimrehurek.com/data_science_python/" rel="nofollow">Practical Data Science</a></li>
+<li><a href="http://learnds.com/" rel="nofollow">Learn Data Science (an entire self-directed course!)</a></li>
+<li>Supplementary material: <a href="https://github.com/donnemartin/data-science-ipython-notebooks">donnemartin/data-science-ipython-notebooks</a>. "Continually updated Data Science Python Notebooks: Spark, Hadoop MapReduce, HDFS, AWS, Kaggle, scikit-learn, matplotlib, pandas, NumPy, SciPy, and various command lines."</li>
+</ul>
+</li>
+<li>Prof. Mark A. Girolami's <a href="https://github.com/josephmisiti/machine-learning-module">Machine Learning Module (GitHub Mirror).</a> Good for people with a strong mathematics background.</li>
+<li>Surveys of Data Science courseware (a bit more Choose Your Own Adventure)
+<ul>
+<li>Check out <a href="https://www.quora.com/Is-it-worth-it-to-pay-9-*-49-for-a-data-science-specialization-on-Coursera/answer/Jack-Golding" rel="nofollow">Jack Golding's survey of Data Science courseware</a>. Includes Coursera's <a href="https://www.coursera.org/specializations/jhu-data-science" rel="nofollow">Data Science Specialization</a> with 9 courses in it. The Specialization certificate isn't free, but you can take the courses 1-by-1 for free if you don't care about the certificate. The survey also covers <a href="http://cs109.github.io/2014/" rel="nofollow">Harvard CS109</a> which I've seen recommended elsewhere.</li>
+<li><a href="https://www.quora.com/How-can-I-become-a-data-scientist?redirected_qid=59455" rel="nofollow">Another epic Quora thread: How can I become a data scientist?</a></li>
+<li>Data Science Weekly's <a href="https://www.datascienceweekly.org/data-science-resources/the-big-list-of-data-science-resources" rel="nofollow">Big List of Data Science Resources</a> has a <a href="https://www.datascienceweekly.org/data-science-resources/data-science-moocs" rel="nofollow">List of Data Science MOOCs</a></li>
+</ul>
+</li>
+<li><a href="http://stronginference.com/Bios8366/lectures.html" rel="nofollow">Advanced Statistical Computing (Vanderbilt BIOS8366)</a>. Interactive (lots of IPython Notebook material)</li>
+<li><a href="http://cs109.github.io/2014/" rel="nofollow">Data Science (Harvard CS109)</a></li>
+</ul>
+<h2><a id="user-content-getting-help-questions-answers-chats" class="anchor" aria-hidden="true" href="#getting-help-questions-answers-chats"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting Help: Questions, Answers, Chats</h2>
+<p>Start with the support forums and chats related to the course(s) you're taking.</p>
+<p>Check out <a href="https://datascience.stackexchange.com/" rel="nofollow">datascience.stackexchange.com</a> and <a href="https://stats.stackexchange.com/questions/tagged/machine-learning?sort=frequent&amp;pageSize=15" rel="nofollow">stats.stackexchange.com – such as the tag, <em>machine-learning</em>.</a> There are some subreddits like <a href="https://www.reddit.com/r/machinelearning" rel="nofollow">/r/machinelearning</a>.</p>
+<p>There are also many relevant discussions on Quora, for example: <a href="http://www.quora.com/What-is-the-difference-between-Data-Analytics-Data-Analysis-Data-Mining-Data-Science-Machine-Learning-and-Big-Data-1" rel="nofollow">What is the difference between Data Analytics, Data Analysis, Data Mining, Data Science, Machine Learning, and Big Data?</a></p>
+<p>For help and community in meatspace, seek out meetups. Data Science Weekly's <a href="http://www.datascienceweekly.org/data-science-resources/the-big-list-of-data-science-resources" rel="nofollow">Big List of Data Science Resources</a> may help you.</p>
+<h2><a id="user-content-supplement-learning-pandas-well" class="anchor" aria-hidden="true" href="#supplement-learning-pandas-well"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Supplement: Learning Pandas well</h2>
+<p>You'll want to get more familiar with Pandas.</p>
+<ul>
+<li><strong>Essential</strong>: <a href="http://pandas.pydata.org/pandas-docs/stable/10min.html" rel="nofollow">10 Minutes to Pandas</a></li>
+<li><strong>Essential</strong>: <a href="http://nbviewer.jupyter.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb" rel="nofollow">Things in Pandas I Wish I'd Had Known Earlier</a> (IPython Notebook)</li>
+<li>Another helpful tutorial: <a href="https://trendct.org/2016/08/05/real-world-data-cleanup-with-python-and-pandas/" rel="nofollow">Real World Data Cleanup with Python and Pandas</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y" rel="nofollow">Video series from Data School, about Pandas</a>. "Reference guide to 30 common pandas tasks (plus 6 hours of supporting video)."</li>
+<li><a href="http://www.swegler.com/becky/blog/2014/08/06/useful-pandas-snippets/" rel="nofollow">Useful Pandas Snippets</a></li>
+<li>Here are some docs I found especially helpful as I continued learning:
+<ul>
+<li><a href="http://pandas.pydata.org/pandas-docs/stable/cookbook.html" rel="nofollow">Cookbook</a></li>
+<li><a href="http://pandas.pydata.org/pandas-docs/stable/dsintro.html" rel="nofollow">Data Structures</a>, esp. <a href="http://pandas.pydata.org/pandas-docs/stable/dsintro.html#dataframe" rel="nofollow">DataFrame</a> section</li>
+<li><a href="http://pandas.pydata.org/pandas-docs/version/0.15.0/reshaping.html" rel="nofollow">Reshaping by pivoting DataFrames</a></li>
+<li><a href="http://pandas.pydata.org/pandas-docs/stable/computation.html" rel="nofollow">Computational tools</a> and <a href="https://stats.stackexchange.com/questions/29713/what-is-covariance-in-plain-language" rel="nofollow">StackExchange thread: "What is covariance in plain language?"</a></li>
+<li><a href="http://pandas.pydata.org/pandas-docs/stable/groupby.html" rel="nofollow">Group By (split, apply, and combine DataFrames)</a></li>
+<li><a href="http://pandas.pydata.org/pandas-docs/version/0.15.0/visualization.html" rel="nofollow">Visualizing your DataFrames</a></li>
+</ul>
+</li>
+<li>You may also want to check out <a href="http://odo.readthedocs.io/" rel="nofollow">the <code>odo</code> library</a>. "Odo migrates between many formats. These include in-memory structures like <code>list</code>, <code>pd.DataFrame</code> [pandas <code>DataFrame</code>] and <code>np.ndarray</code> [NumPy <code>ndarray</code>] and also data outside of Python like CSV/JSON/HDF5 files, SQL databases, data on remote machines, and the Hadoop File System." Definitely a good thing to have in your toolbelt as you play with different data sources.</li>
+</ul>
+<h2><a id="user-content-supplement-cheat-sheets" class="anchor" aria-hidden="true" href="#supplement-cheat-sheets"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Supplement: Cheat Sheets</h2>
+<p>Some good cheat sheets I've come across. (Please <a href="https://github.com/hangtwenty/dive-into-machine-learning/pulls">submit a Pull Request</a> to add other useful cheat sheets.)</p>
+<ul>
+<li><a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/" rel="nofollow">scikit-learn algorithm cheat sheet</a></li>
+<li><a href="http://hunch.net/?p=2714" rel="nofollow">Metacademy: a package manager for [machine learning] knowledge</a>. A mind map of machine learning concepts, with great detail on each.</li>
+<li><a href="https://drive.google.com/drive/folders/0ByIrJAE4KMTtaGhRcXkxNHhmY2M" rel="nofollow">Matplotlib / Pandas / Python cheat sheets</a>.</li>
+</ul>
+<h1><a id="user-content-assorted-opinions-and-other-resources" class="anchor" aria-hidden="true" href="#assorted-opinions-and-other-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assorted Opinions and Other Resources</h1>
+<h2><a id="user-content-more-data-science-materials" class="anchor" aria-hidden="true" href="#more-data-science-materials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>More Data Science materials</h2>
+<p>I'm not repeating the materials mentioned above, but here are some other Data Science resources:</p>
+<ul>
+<li><strong>Extremely accessible data science book: <a href="http://www.john-foreman.com/data-smart-book.html" rel="nofollow"><em>Data Smart</em> by John Foreman</a></strong></li>
+<li><strong><a href="http://learnds.com/" rel="nofollow">An entire self-directed course in Data Science, as a IPython Notebook</a></strong></li>
+<li><a href="https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext" rel="nofollow">Data Science Workflow: Overview and Challenges</a> (read the article <em>and also</em> the comment by Joseph McCarthy)</li>
+<li>Fun little IPython Notebook: <a href="http://nbviewer.jupyter.org/github/jmsteinw/Notebooks/blob/master/IndeedJobs.ipynb" rel="nofollow">Web Scraping Indeed.com for Key Data Science Job Skills</a></li>
+<li>Swami Chandrasekaran's <a href="http://nirvacana.com/thoughts/becoming-a-data-scientist/" rel="nofollow">"Becoming a Data Scientist"</a> is a concise, printable picture of a data science curriculum</li>
+</ul>
+<h2><a id="user-content-bayesian-statistics-and-machine-learning" class="anchor" aria-hidden="true" href="#bayesian-statistics-and-machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bayesian Statistics and Machine Learning</h2>
+<p>From <a href="https://metacademy.org/roadmaps/rgrosse/bayesian_machine_learning" rel="nofollow">the "Bayesian Machine Learning" overview on Metacademy</a>:</p>
+<blockquote>
+<p>... Bayesian ideas have had a big impact in machine learning in the past 20 years or so because of the flexibility they provide in building structured models of real world phenomena. Algorithmic advances and increasing computational resources have made it possible to fit rich, highly structured models which were previously considered intractable.</p>
+</blockquote>
+<p>You can learn more by studying one of the following resources. Both resources use Python, <a href="https://github.com/pymc-devs/pymc">PyMC</a>, and Jupyter Notebooks.</p>
+<ul>
+<li>The <strong>free book,</strong> <em><a href="http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/" rel="nofollow">Probabilistic Programming and Bayesian Methods for Hackers</a>.</em> Made with a "computation/understanding-first, mathematics-second point of view." It's available in print too!</li>
+<li><a href="https://github.com/markdregan/Bayesian-Modelling-in-Python">Bayesian Modelling in Python</a></li>
+</ul>
+<h2><a id="user-content-risks" class="anchor" aria-hidden="true" href="#risks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Risks</h2>
+<p>"Machine learning systems automatically learn programs from
+data." Pedro Domingos, in <a href="http://homes.cs.washington.edu/%7Epedrod/papers/cacm12.pdf" rel="nofollow">"A Few Useful Things to Know about Machine Learning."</a> The programs you generate will require maintenance. Like any way of creating programs faster, you can rack up <a href="https://en.wikipedia.org/wiki/Technical_debt" rel="nofollow">technical debt</a>.</p>
+<p>Here is the abstract of <a href="https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf" rel="nofollow">Machine Learning: The High-Interest Credit Card of Technical Debt</a>:</p>
+<blockquote>
+<p>Machine learning offers a fantastically powerful toolkit for building complex systems quickly. This paper argues that it is dangerous to think of these quick wins as coming for free. Using the framework of technical debt, we note that it is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning. The goal of this paper is highlight several machine learning specific risk factors and design patterns to be avoided or refactored where possible. These include boundary erosion, entanglement, hidden feedback loops, undeclared consumers, data dependencies, changes in the external world, and a variety of system-level anti-patterns.</p>
+</blockquote>
+<p>If you're following this guide, you should read that paper. You can also <a href="https://softwareengineeringdaily.com/2015/11/17/machine-learning-and-technical-debt-with-d-sculley/" rel="nofollow">listen to a podcast episode interviewing one of the authors of this paper</a>.</p>
+<p>A few more articles on the challenges running ML-powered systems in Production:</p>
+<ul>
+<li><strong><a href="http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf" rel="nofollow">"Rules of Machine Learning: Best Practices for [Reliable] ML Engineering,"</a></strong> by Martin Zinkevich, regarding ML engineering practices and patterns in production at Google. Optional: <a href="http://cs.stanford.edu/%7Ejsteinhardt/wildml2016nips/videos/1_2_Martin.wmv" rel="nofollow">accompanying video</a>.</li>
+<li><a href="https://0586f9b3-a-62cb3a1a-s-sites.googlegroups.com/site/wildml2016nips/SculleyPaper1.pdf?attachauth=ANoY7crRjdpoElseeyOPu-wR0eV9Engf3Cm9LKs0PAB4j-nDQuw9gE426Ug2HM-0BZ7qJjtLHVtpgwbP6zfNYyE_2gWkU5ACKczAIuKCTHq9nT0JEGpEL5TCT3APmScXKkS8HTqhJz-wen6vbq9XeHh_M5Heg49ozxsIiGMzX7PvIKxpnvViDOBLNymVQOkxuvX0-xnQThxU9CjEWQH25vOwdpJi-VQl1w%3D%3D&amp;attredirects=0" rel="nofollow"><strong>"What’s your ML Test Score? A rubric for ML production systems"</strong></a> by Eric Breck, Shanqing Cai, Eric Nielsen, Michael Salib, D. Sculley, Google.</li>
+<li><strong><a href="http://www.john-foreman.com/blog/surviving-data-science-at-the-speed-of-hype" rel="nofollow">Surviving Data Science "at the Speed of Hype"</a></strong> by John Foreman, Data Scientist at MailChimp</li>
+<li><a href="http://www.kdnuggets.com/2015/01/high-cost-machine-learning-technical-debt.html" rel="nofollow">The High Cost of Maintaining Machine Learning Systems</a></li>
+<li><a href="http://hunch.net/?p=22" rel="nofollow">11 Clever Methods of Overfitting and How to Avoid Them</a></li>
+<li><a href="http://www.john-foreman.com/blog/the-perilous-world-of-machine-learning-for-fun-and-profit-pipeline-jungles-and-hidden-feedback-loops" rel="nofollow">The Perilous World of Machine Learning for Fun and Profit: Pipeline Jungles and Hidden Feedback Loops</a></li>
+</ul>
+<h3><a id="user-content-welcome-to-the-danger-zone" class="anchor" aria-hidden="true" href="#welcome-to-the-danger-zone"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Welcome to the Danger Zone</h3>
+<p>So you are dabbling with Machine Learning. You've got Hacking Skills. Maybe you've got some "knowledge" in Domingos' sense (some "Substantive Expertise" or "Domain Knowledge"). This diagram is modified slightly from Drew Conway's "Data Science Venn Diagram." It isn't a <em>perfect</em> fit for us, but it may get the point across:</p>
+<p><a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram" rel="nofollow"><img src="https://user-images.githubusercontent.com/2420688/29441268-f429d88c-837e-11e7-83ff-30874d832c89.png" alt="Drew Conway's Data Science Venn Diagram, modified slightly" style="max-width:100%;"></a></p>
+<p><strong>Please</strong> don't sell yourself as a Machine Learning expert while you're still in the Danger Zone. Don't build bad products or publish junk science. (Also please <a href="https://arstechnica.co.uk/security/2016/02/the-nsas-skynet-program-may-be-killing-thousands-of-innocent-people/" rel="nofollow">don't be evil</a>.) This guide can't tell you how you'll know you've "made it" into Machine Learning competence ... let alone expertise. It's hard to evaluate proficiency without schools or other institutions. This is a common problem for self-taught people.</p>
+<h4><a id="user-content-towards-expertise" class="anchor" aria-hidden="true" href="#towards-expertise"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Towards Expertise</h4>
+<p>You need <strong>practice.</strong> <a href="https://news.ycombinator.com/item?id=10508565" rel="nofollow">On Hacker News, user olympus commented to say you could use competitions to practice and evaluate yourself</a>. <a href="https://www.kaggle.com/competitions" rel="nofollow">Kaggle</a> and <a href="http://www.chalearn.org/" rel="nofollow">ChaLearn</a> are hubs for Machine Learning competitions. You can find some <a href="https://github.com/apeeyush/machine-learning">examples of code for popular Kaggle competitions here</a>. For smaller exercises, <a href="https://www.hackerrank.com/domains/ai/machine-learning/page/1" rel="nofollow">try HackerRank</a>.</p>
+<p>You also need <strong>understanding.</strong> You should review what Kaggle competition winners say about their solutions, <a href="http://blog.kaggle.com/" rel="nofollow">for example, the "No Free Hunch" blog</a>. These might be over your head at first but once you're starting to understand and appreciate these, you know you're getting somewhere.</p>
+<p>Competitions and challenges are just one way to practice. You shouldn't limit yourself, though - and you should also understand that <a href="https://jvns.ca/blog/2014/06/19/machine-learning-isnt-kaggle-competitions" rel="nofollow">Machine Learning isn't <strong>all</strong> about Kaggle competitions</a>.</p>
+<p>Here's a complementary way to practice: <strong>do practice studies.</strong></p>
+<ol>
+<li><strong>Ask a question. Start your own study.</strong> The <a href="https://github.com/DataScienceSpecialization/courses/blob/master/01_DataScientistToolbox/03_02_whatIsData/index.Rmd#the-data-is-the-second-most-important-thing">"most important thing in data science is the question"</a> (<a href="https://github.com/jtleek">Dr. Jeff T. Leek</a>). So start with a question. Then, find <a href="https://github.com/caesar0301/awesome-public-datasets">real data</a>. Analyze it. Then ...</li>
+<li><strong>Communicate results.</strong> When you have a novel finding, reach out for peer review.</li>
+<li><strong>Fix issues.</strong> Learn. Share what you learn.</li>
+</ol>
+<p>And repeat. Re-phrasing this, it fits with the <a href="https://en.wikipedia.org/wiki/Scientific_method" rel="nofollow">scientific method</a>: formulate a question (or problem statement), create a hypothesis, gather data, analyze the data, and communicate results. (You should <a href="http://101.datascience.community/2012/06/27/the-data-scientific-method/" rel="nofollow">watch this video about the scientific method in data science</a>, and/or <a href="http://customerthink.com/getting-insights-using-data-science-skills-and-the-scientific-method/" rel="nofollow">read this article</a>.)</p>
+<p>How can you come up with interesting questions? Here's one way. Every Sunday, <a href="https://github.com/caesar0301/awesome-public-datasets">browse datasets</a> and write down some questions. Also, sign up for <a href="https://tinyletter.com/data-is-plural" rel="nofollow">Data is Plural</a>, a newsletter of interesting datasets; look at these, datasets, and write down questions. Stay curious. When a question inspires you, start a study.</p>
+<p>This advice, to do practice studies and learn from peer review, is based on <a href="https://github.com/hangtwenty/dive-into-machine-learning/issues/11#issuecomment-153934120">a conversation</a> with <a href="http://www.randalolson.com/" rel="nofollow">Dr. Randal S. Olson</a>. Here's more advice from Olson, <a href="https://github.com/hangtwenty/dive-into-machine-learning/issues/11#issuecomment-154135498">quoted with permission:</a></p>
+<blockquote>
+<p>I think the best advice is to tell people to always present their methods clearly and to avoid over-interpreting their results. Part of being an expert is knowing that there's rarely a clear answer, especially when you're working with real data.</p>
+</blockquote>
+<p>As you repeat this process, your practice studies will become more scientific, interesting, and focused. The most important part of this process is peer review.</p>
+<h4><a id="user-content-ask-for-peer-review" class="anchor" aria-hidden="true" href="#ask-for-peer-review"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ask for Peer Review</h4>
+<p>Here are some communities where you can reach out for peer review:</p>
+<ul>
+<li><a href="https://stats.stackexchange.com/" rel="nofollow">Cross-Validated: stats.stackexchange.com</a></li>
+<li><a href="https://reddit.com/r/DataIsBeautiful" rel="nofollow">/r/DataIsBeautiful</a></li>
+<li><a href="https://reddit.com/r/DataScience" rel="nofollow">/r/DataScience</a></li>
+<li><a href="https://reddit.com/r/MachineLearning" rel="nofollow">/r/MachineLearning</a></li>
+<li><a href="https://news.ycombinator.com" rel="nofollow">Hacker News: news.ycombinator.com</a>. You'll probably want to submit as "Show HN"</li>
+</ul>
+<p>Post to any of those, and ask for feedback. You'll get feedback. You'll learn a ton. As experts review your work you will learn a lot about the field. You'll also be practicing a crucial skill: accepting critical feedback.</p>
+<p>When I read the feedback on my Pull Requests, first I repeat to myself, "I will not get defensive, I will not get defensive, I will not get defensive." You may want to do that before you read reviews of your Machine Learning work too.</p>
+<hr>
+<h2><a id="user-content-collaborate-with-domain-experts" class="anchor" aria-hidden="true" href="#collaborate-with-domain-experts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Collaborate with Domain Experts!</h2>
+<p>Machine Learning can be powerful, but it is not magic.</p>
+<p>Whenever you apply Machine Learning to solve a problem, you are going to be working in some specific problem domain. To get good results, you or your team will need "substantive expertise" AKA "domain knowledge." Learn what you can, for yourself... But you should also <strong>collaborate.</strong> You'll have better results if you collaborate with domain experts. (What's a domain expert? See the <a href="https://en.wikipedia.org/wiki/Subject-matter_expert" rel="nofollow">Wikipedia entry</a>, or <a href="http://wiki.c2.com/?DomainExpert" rel="nofollow">c2 wiki's rather subjective but useful blurb</a>.)</p>
+<h3><a id="user-content-bow-a-note-about-machine-learning-and-user-experience-ux" class="anchor" aria-hidden="true" href="#bow-a-note-about-machine-learning-and-user-experience-ux"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="bowing_man" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f647.png">🙇</g-emoji> A note about Machine Learning and User Experience (UX)</h3>
+<p>I couldn't say it better:</p>
+<blockquote>
+<p><strong>Machine learning won’t figure out what problems to solve.</strong> If you aren’t aligned with a human need, you’re just going to build a very powerful system to address a very small—or perhaps nonexistent—problem.</p>
+</blockquote>
+<p>Quote is from <a href="https://design.google/library/ux-ai/" rel="nofollow">"The UX of AI" by  Josh Lovejoy</a>, whole article is a great read!</p>
+<p>Today we are <a href="https://en.wikipedia.org/wiki/Machine_learning#Applications" rel="nofollow"><em>surrounded</em></a> by software that utilizes Machine Learning. Often, the results are directly user-facing, and intended to enhance UX.</p>
+<p>Before you start working ML into every aspect of <em>your</em> software, you should get a better understanding of UX, as well as how ML and UX can relate. For some cursory overview, <a href="https://www.quora.com/search?q=machine+learning+ux" rel="nofollow">start with Quora</a>, which has some interesting, thoughtful discussions on the subject. Then, if you you know a coworker or friend who works in UX, take them out for coffee or lunch and pick their brain. I think they'll have words of encouragement as well as caution. <em>(Do you know good resources on this? Pull requests welcome for all parts of this guide, including this section!)</em></p>
+<p>By no means will that make you an expert in UX, but maybe it'll help you know if/when to reach out for help (hint: almost always — UX is really tricky and you should work with experts whenever you can!).</p>
+<h3><a id="user-content-bow-a-note-about-machine-learning-and-security-infosec-appsec" class="anchor" aria-hidden="true" href="#bow-a-note-about-machine-learning-and-security-infosec-appsec"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><g-emoji class="g-emoji" alias="bowing_man" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f647.png">🙇</g-emoji> A note about Machine Learning and Security (InfoSec, AppSec)</h3>
+<p>There was a great BlackHat webcast on this topic, <a href="https://www.blackhat.com/html/webcast/02192015-secure-because-math.html" rel="nofollow">Secure Because Math: Understanding Machine Learning-Based Security Products.</a> Slides are <a href="https://www.blackhat.com/html/webcast/02192015-secure-because-math.html" rel="nofollow">here</a>, <a href="https://attendee.gotowebinar.com/recording/80449431422110210" rel="nofollow">video recording is here.</a> If you're using ML to recommend some media, overfitting could be harmless. If you're relying on ML to protect from threats, overfitting could be downright dangerous. Check the full presentation if you are interested in this space.</p>
+<p>If you want to explore this space more deeply, there is a <em>lot</em> of reading material in the below links:</p>
+<ul>
+<li><a href="http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/" rel="nofollow">Security Data Science and Machine Learning Guide</a></li>
+<li><a href="https://github.com/jivoi/awesome-ml-for-cybersecurity">Awesome ML for Cybersecurity</a></li>
+<li><a href="https://github.com/RandomAdversary/Awesome-AI-Security">Awesome AI Security</a></li>
+<li><a href="https://github.com/yenchenlin/awesome-adversarial-machine-learning">Awesome Adversarial Machine Learning</a></li>
+</ul>
+<hr>
+<h2><a id="user-content-deep-learning" class="anchor" aria-hidden="true" href="#deep-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deep Learning</h2>
+<p>In early editions of this guide, there was no specific "Deep Learning" section. I omitted it intentionally. I think it is not effective for us to jump too far ahead. I also know that if you become an expert in traditional Machine Learning, you'll be capable of moving onto advanced subjects like Deep Learning, whether or not I've put that in this guide. We're just trying to get you started here!</p>
+<p>Maybe this is a way to check your progress: ask yourself, does Deep Learning seem like magic? If so, take that as a sign that you aren't ready to work with it professionally. Let the fascination motivate you to learn more. I have read some argue you can learn Deep Learning in isolation; I have read others recommend it's best to master traditional Machine Learning first. Why not start with traditional Machine Learning, and develop your reasoning and intuition there? You'll only have an easier time learning Deep Learning after that. After all of it, you'll able to tackle all sorts of interesting problems.</p>
+<p>In any case, when you decide you're ready to dive into Deep Learning, here are some helpful resources.</p>
+<ul>
+<li><strong><a href="https://github.com/humphd/have-fun-with-machine-learning">"Have Fun With [Deep] Learning" by David Humphrey.</a></strong> This is an excellent way to "get ahead of yourself" and hack-first. Then you will feel excited to move onto...</li>
+<li><strong><a href="https://www.andrewng.org/about/" rel="nofollow">Prof. Andrew Ng's</a> <a href="https://www.coursera.org/specializations/deep-learning" rel="nofollow">courses on Deep Learning</a>!</strong> There five courses, as part of the <a href="https://www.coursera.org/specializations/deep-learning" rel="nofollow">Deep Learning Specialization on Coursera</a>. These courses are part of his new venture, <a href="https://www.deeplearning.ai" rel="nofollow">deeplearning.ai</a></li>
+<li><strong><a href="https://developers.google.com/machine-learning/crash-course/" rel="nofollow">Machine Learning Crash Course from Google.</a></strong> Google's fast-paced, practical introduction to machine learning which covers building deep neural networks with TensorFlow.</li>
+<li><strong><a href="http://www.deeplearningbook.org/" rel="nofollow"><em>Deep Learning</em></a>, a free book published MIT Press.</strong> By Ian Goodfellow, Yoshua Bengio and Aaron Courville</li>
+<li><a href="http://yerevann.com/a-guide-to-deep-learning/" rel="nofollow">YerevaNN's Deep Learning Guide</a></li>
+<li><a href="https://www.quora.com/What-are-the-best-ways-to-pick-up-Deep-Learning-skills-as-an-engineer" rel="nofollow">Quora: "What are the best ways to pick up Deep Learning skills as an engineer?"</a> — answered by Greg Brockman (Co-Founder &amp; CTO at OpenAI, previously CTO at Stripe)</li>
+<li><a href="https://github.com/deepmind/sonnet">Sonnet</a> - a python library built on top of TensorFlow for building complex neural networks. Made by Google DeepMind.</li>
+<li><a href="https://tech.instacart.com/how-to-build-a-deep-learning-model-in-15-minutes-a3684c6f71e" rel="nofollow">Build a deep learning model in 15 minutes</a> using <a href="https://github.com/instacart/lore/">Lore</a>.</li>
+</ul>
+<h2><a id="user-content-big-data" class="anchor" aria-hidden="true" href="#big-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>"Big" Data?</h2>
+<p>Scaling data analysis is a familiar problem now, and there's no shortage of ways to address it. <a href="http://www.john-foreman.com/blog/surviving-data-science-at-the-speed-of-hype" rel="nofollow">Beware needless hype and companies selling you flashy, proprietary solutions.</a> You can do it all with open-source tools. Even if "buy" instead of "build," you may want to buy from vendors who use known good stacks. No news here.</p>
+<p>There are <a href="https://github.com/josephmisiti/awesome-machine-learning">other lists of Awesome Machine Learning tools</a>, so I won't re-do all that. But in the Big Data section, I would be remiss if I didn't mention...</p>
+<ul>
+<li><strong><a href="https://spark.apache.org/mllib/" rel="nofollow">Apache Spark.</a></strong> "MLlib is Apache Spark's scalable machine learning library."
+<ul>
+<li>Aside from the scalability, Spark has great APIs. And what's more, <a href="https://databricks.com/blog/2015/02/17/introducing-dataframes-in-spark-for-large-scale-data-science.html" rel="nofollow">Spark has DataFrames and easy co-operability with pandas!</a></li>
+<li>Berkeley has <a href="https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x#.VOC70VPF_lQ" rel="nofollow">a course on Scalable Machine Learning, focusing on Apache Spark.</a></li>
+</ul>
+</li>
+</ul>
+<p>If you are working with data-intensive applications at all, I'll recommend this book:</p>
+<ul>
+<li><strong><a href="http://dataintensive.net" rel="nofollow"><em>Designing Data-Intensive Applications</em></a></strong> by Martin Kleppman. (You can start reading it online, free, via Safari Books.) It's not specific to Machine Learning, but you can bridge that gap yourself.</li>
+</ul>
+<p>Lastly, here are some other useful links regarding Big Data and ML.</p>
+<ul>
+<li><a href="https://simplystatistics.org/2014/05/22/10-things-statistics-taught-us-about-big-data-analysis/" rel="nofollow">10 things statistics taught us about big data analysis</a> (and some more food for thought: <a href="http://www.datasciencecentral.com/profiles/blogs/what-statisticians-think-about-data-scientists" rel="nofollow">"What Statisticians think about Data Scientists"</a>)</li>
+<li><a href="http://www.thetalkingmachines.com/blog/2015/6/4/the-economic-impact-of-machine-learning-and-using-the-kernel-trick-to-dig-in-to-big-data" rel="nofollow">"Talking Machines" #12</a>: Interviews Prof. Andrew Ng (from <a href="https://www.coursera.org/learn/machine-learning" rel="nofollow">our main course, which has its own module on big data</a>); this episode covers some problems relevant to <em>high-dimensional</em> data</li>
+</ul>
+<ul>
+<li><a href="http://www.thetalkingmachines.com/blog/2015/7/16/really-really-big-data-and-machine-learning-in-business" rel="nofollow">"Talking Machines" #15: "Really Really Big Data and Machine Learning in Business"</a></li>
+<li>Free eBook, <a href="https://www.tamr.com/landing-pages/getting-data-right/" rel="nofollow"><em>Getting Data Right: Tackling the Challenges of
+Big Data Volume and Variety</em></a> by Michael Stonebraker, Tom Davenport, James Markarian, and others, published by O'Reilly. You can <a href="http://radar.oreilly.com/2015/06/the-future-of-data-at-scale.html" rel="nofollow">listen to an accompanying podcast</a> too.</li>
+</ul>
+<hr>
+<h2><a id="user-content-finding-open-source-libraries" class="anchor" aria-hidden="true" href="#finding-open-source-libraries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Finding Open-Source Libraries</h2>
+<ul>
+<li>Bookmark <strong><a href="https://github.com/josephmisiti/awesome-machine-learning">awesome-machine-learning</a></strong>, a curated list of <a href="https://github.com/bayandin/awesome-awesomeness">awesome</a> Machine Learning libraries and software.</li>
+<li>Bookmark <a href="https://github.com/svaksha/pythonidae/blob/master/AI.md#machine-learning">Pythonidae</a>, a curated list of <a href="https://github.com/bayandin/awesome-awesomeness">awesome</a> libraries and software in the Python language - with a section on Machine Learning.</li>
+<li><a href="https://www.tensorflow.org/" rel="nofollow">TensorFlow</a> has been a <a href="https://news.ycombinator.com/item?id=10532957" rel="nofollow">really big deal.</a> People like you will do exciting things with TensorFlow. It's a framework. Frameworks can help you manage complexity. Just remember this rule of thumb: <strong>"More data beats a cleverer algorithm"</strong> (Domingos), no matter how cool your tools are. Also note, TensorFlow is not the only machine learning framework of its kind: <strong><a href="https://github.com/zer0n/deepframeworks">Check this great, detailed comparison of TensorFlow, Torch, and Theano.</a></strong> See also <a href="https://github.com/Newmu/Theano-Tutorials">Newmu/Theano-Tutorials</a> and  <a href="https://github.com/nlintz/TensorFlow-Tutorials">nlintz/TensorFlow-Tutorials</a>. See also the section on Deep Learning above.
+<ul>
+<li>Also, consider <a href="https://github.com/instacart/lore/">Lore</a>. "Lore is a python framework to make machine learning [especially deep learning] approachable for Engineers and maintainable for Data Scientists."</li>
+</ul>
+</li>
+<li>For Machine-Learning libraries that might not be on PyPI, GitHub, etc., there's <a href="http://mloss.org/software/" rel="nofollow">MLOSS (Machine Learning Open Source Software)</a>. Seems to feature many academic libraries.</li>
+<li>Bookmark <a href="https://github.com/svaksha/Julia.jl/blob/master/AI.md#machine-learning">Julia.jl</a>, a curated list of <a href="https://github.com/bayandin/awesome-awesomeness">awesome</a> libraries and software in the Julia language - with a section on Machine Learning.</li>
+<li><a href="http://www.creativeai.net/" rel="nofollow">CreativeAI.net</a>. OK not exactly about <em>libraries</em>, but this is often intriguing, and worth subscribing to  ... warning, it's easy to get sucked in :)</li>
+</ul>
+<hr>
+<h2><a id="user-content-alternative-ways-to-dive-into-machine-learning" class="anchor" aria-hidden="true" href="#alternative-ways-to-dive-into-machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alternative ways to "Dive into Machine Learning"</h2>
+<p>Here are some other guides to Machine Learning. They can be alternatives or complements to this guide.</p>
+<ul>
+<li><a href="https://sebastianraschka.com/faq/docs/ml-curriculum.html" rel="nofollow">"How would your curriculum for a machine learning beginner look like?"</a> by Sebastian Raschka. A selection of the core online courses and books for getting started with machine learning and gaining expert knowledge. It contextualizes Raschka's own book, <a href="https://github.com/rasbt/python-machine-learning-book"><em>Python Machine Learning</em></a> (which I would have linked to anyway!) See also <a href="https://github.com/rasbt/pattern_classification"><code>pattern_classification</code> GitHub repository</a> maintained by the author, which contains IPython notebooks about various machine learning algorithms and various data science related resources.</li>
+<li><a href="http://jacksimpson.co/materials-for-learning-machine-learning/" rel="nofollow">Materials for Learning Machine Learning</a> by Jack Simpson</li>
+<li><a href="https://developers.google.com/machine-learning/crash-course/" rel="nofollow">Machine Learning Crash Course from Google</a> with TensorFlow APIs. This is Google's fast-paced, practical introduction to machine learning which features a series of lessons with video lectures, real-world case studies, and hands-on practice exercises.</li>
+<li><a href="http://xyclade.github.io/MachineLearning/" rel="nofollow">Machine Learning for Developers</a> is another good introduction, perhaps better if you're more familiar with Java or Scala. It introduces machine learning for a developer audience using Smile, a machine learning library that can be used both in Java and Scala.</li>
+<li><a href="https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb">Example Machine Learning notebook, exercise, and guide</a> by Dr. Randal S. Olson. Mentioned in Notebooks section as well, but it has a similar goal to this guide (introduce you, and show you where to go next). Rich "Further Reading" section.</li>
+<li><a href="https://github.com/ZuzooVn/machine-learning-for-software-engineers">Machine Learning for Software Engineers</a> by Nam Vu. It’s the top-down and results-first approach designed for software engineers.</li>
+<li>For some news sources to follow, check out <a href="https://machinelearnings.co/a-humans-guide-to-machine-learning-e179f43b67a0" rel="nofollow">Sam DeBrule's list</a> here.</li>
+<li>[Your guide here]</li>
+</ul>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.23739s from unicorn-3835523148-cd71t">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

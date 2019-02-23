@@ -1,0 +1,636 @@
+   #GitHub
+   [https://github.com/danielecook/awesome-Bioinformatics/commits/master.a
+   tom]Recent Commits to Awesome-Bioinformatics:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   [file://localhost/login?return_to=%2Fdanielecook%2Fawesome-Bioinformati
+   cs]Sign in or Sign up
+
+     * Watch
+       70
+     * [file://localhost/login?return_to=%2Fdanielecook%2FAwesome-Bioinfor
+       matics]Star
+       435
+     * Fork
+       123
+
+Awesome-Bioinformatics
+
+   Issues 1
+   Pull
+   requests 1
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome Bioinformatics libraries and software.
+   bioinformatics
+     * 137 commits
+     * 1
+       branch
+     * 0
+       releases
+     * 12 contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/d
+   [file://localhost/danielecook/Awesome-Bioinformatics/archive/master.zip
+   ]Download ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find
+   file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * Branches
+     * Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/danielecook/Awesome-Bioinformatics/tree/05e073c537e5e
+   e8e028d564320c2043f1a8e94f0]Permalink
+   Failed to load latest commit information.
+   .travis.yml
+   Update .travis.yml Feb 28, 2018
+   CONTRIBUTING.md
+   Ask for reason for awesome addition in PR
+   Dec 28, 2016
+   [file://localhost/danielecook/Awesome-Bioinformatics/blob/master/README
+   .md]README.md
+   [file://localhost/danielecook/Awesome-Bioinformatics/commit/05e073c537e
+   5ee8e028d564320c2043f1a8e94f0]Update learning resources link to OSSU
+   link Mar 27, 2018
+
+README.md
+
+Build Status
+
+     Bioinformatics is an interdisciplinary field that develops methods
+     and software tools for understanding biological data. --
+     [https://en.wikipedia.org/wiki/Bioinformatics]Wikipedia
+
+   A curated list of awesome Bioinformatics software, resources, and
+   libraries. Mostly command line based, and free or open-source. Please
+   feel free to
+   contribute!
+
+   Table of Contents
+     * Data Processing
+          + Command Line Utilities
+     * Next Generation Sequencing
+          + Pipelines/Pipeline
+            frameworks
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#sequence-processing]Sequence Processing
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#sequence-alignment]Sequence Alignment
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#variant-calling]Variant Calling
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#bam-file-utilities]BAM File Utilities
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#vcf-file-utilities]VCF File Utilities
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#gff-bed-file-utilities]GFF BED File Utilities
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#variant-simulation]Variant Simulation
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#variant-filtering--quality-control]Variant
+            Filtering / Quality Control
+          + Variant
+            Prediction/Annotation
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#python-modules]Python Modules
+               o [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awe
+                 some-Bioinformatics#data]Data
+               o [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awe
+                 some-Bioinformatics#tools]Tools
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Bioin
+       formatics#visualization]Visualization
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#genome-browsers--gene-diagrams]Genome Browsers
+            / Gene diagrams
+          + Circos Related
+     * Database Access
+     * Resources
+          + Becoming a
+            Bionformatician
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#sequencing]Sequencing
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#rna-seq]RNA-Seq
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#chip-seq]ChIP-Seq
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            Bioinformatics#youtube-channels-and-playlists]YouTube Channels
+            and Playlists
+          + Blogs
+          + Miscellaneous
+     * License
+     __________________________________________________________________
+
+Data Processing
+
+Command Line Utilities
+
+     * [https://github.com/stephenturner/oneliners]Bioinformatics One
+       Liners - Git repo of useful single line commands.
+     * [https://www.bionode.io/]BioNode - Modular and universal
+       bioinformatics, Bionode provides pipeable UNIX command line tools
+       and JavaScript APIs for bioinformatics analysis workflows.
+     * [http://www.bioSyntax.org/]bioSyntax - Syntax Highlighting for
+       Computational Biology file formats (SAM, VCF, GTF, FASTA, PDB,
+       etc...) in vim/less/gedit/sublime.
+     * [https://github.com/wireservice/csvkit]CSVKit - Utilities for
+       working with CSV/Tab-delimited files.
+     * [https://github.com/shenwei356/csvtk]csvtk - Another
+       cross-platform, efficient, practical and pretty CSV/TSV toolkit.
+     * [http://www.gnu.org/software/datamash/]datamash - Data
+       transformations and statistics.
+     * [https://github.com/shenwei356/easy_qsub]easy_qsub - Easily
+       submitting PBS jobs with script template. Multiple input files
+       supported.
+     * [http://www.gnu.org/software/parallel/]GNU parallel - General
+       parallelizer that runs jobs in parallel on a single multi-core
+       machine. [https://www.biostars.org/p/63816/]Here are some example
+       scripts using GNU parallel.
+     * [https://github.com/arq5x/grabix]grabix - A wee tool for random
+       access into BGZF files.
+     * [https://github.com/samtools/tabix]tabix - Table file index.
+     * [https://github.com/wormtable/wormtable]wormtable -
+       Write-once-read-many table for large datasets.
+     * [https://github.com/mattgodbolt/zindex]zindex - Create an index on
+       a compressed text file.
+
+Next Generation Sequencing
+
+Pipelines/Pipeline frameworks
+
+     * [https://github.com/pditommaso/awesome-pipeline]Awesome-Pipeline -
+       A list of pipeline resources.
+     * [https://github.com/chapmanb/bcbio-nextgen]bcbio-nextgen -
+       Batteries included genomic analysis pipeline for variant and
+       RNA-Seq analysis, structural variant calling, annotation, and
+       prediction.
+     * [https://pcingola.github.io/BigDataScript/]BigDataScript - A
+       cross-system scripting language for working with big data pipelines
+       in computer systems of different sizes and capabilities.
+     * [http://docs.bpipe.org/]Bpipe - A small language for defining
+       pipeline stages and linking them together to make pipelines.
+     * [http://www.commonwl.org/]Common Workflow Language - a
+       specification for describing analysis workflows and tools that are
+       portable and scalable across a variety of software and hardware
+       environments, from workstations to cluster, cloud, and high
+       performance computing (HPC) environments.
+     * [https://github.com/broadinstitute/cromwell]Cromwell - A Workflow
+       Management System geared towards scientific workflows.
+     * [https://gatkforums.broadinstitute.org/gatk/discussion/1288/howto-r
+       un-queue-for-the-first-time]GATK Queue - A pipelining system built
+       to work natively with GATK as well as other high-throughput
+       sequence analysis software.
+       [https://web.archive.org/web/20161022074922/https://gatkforums.broa
+       dinstitute.org/firecloud/discussion/1306/overview-of-queue]Overview
+       of GATK Queue.
+     * [https://www.nextflow.io/]Nextflow - A fluent DSL modelled around
+       the UNIX pipe concept, that simplifies writing parallel and
+       scalable pipelines in a portable manner.
+     * [http://www.ruffus.org.uk/]Ruffus - Computation Pipeline library
+       for python widely used in science and bioinformatics.
+     * [https://seqware.github.io/]SeqWare - Hadoop Oozie-based workflow
+       system focused on genomics data analysis in cloud environments.
+     * [https://bitbucket.org/snakemake/snakemake/wiki/Home]Snakemake - A
+       workflow management system in Python that aims to reduce the
+       complexity of creating workflows by providing a fast and
+       comfortable execution environment.
+     * [https://github.com/broadinstitute/wdl]Workflow Descriptor Language
+       - Workflow standard developed by the Broad.
+
+Sequence Processing
+
+   Sequence Processing includes tasks such as demultiplexing raw read
+   data, and trimming low quality bases.
+     * [https://github.com/OpenGene/AfterQC]AfterQC - Automatic Filtering,
+       Trimming, Error Removing and Quality Control for fastq data
+     * [http://www.bioinformatics.babraham.ac.uk/projects/fastqc/]FastQC -
+       A quality control tool for high throughput sequence data.
+     * [https://github.com/mdshw5/fastqp]Fastqp - FASTQ and SAM quality
+       control using Python.
+     * [http://hannonlab.cshl.edu/fastx_toolkit/]Fastx Tookit - FASTQ/A
+       short-reads pre-processing tools: Demultiplexing, trimming,
+       clipping, quality filtering, and masking utilities.
+     * [http://multiqc.info/]MultiQC - Aggregate results from
+       bioinformatics analyses across many samples into a single report.
+     * [https://github.com/shenwei356/seqkit]SeqKit - A cross-platform and
+       ultrafast toolkit for FASTA/Q file manipulation in Golang.
+     * [http://seqmagick.readthedocs.io/en/latest/]seqmagick - file format
+       conversion in Biopython in a convenient way
+     * [https://github.com/lh3/seqtk]Seqtk - Toolkit for processing
+       sequences in FASTA/Q formats.
+
+Sequence Alignment
+
+   De Novo Alignment
+
+   DNA Resequencing
+     * [https://github.com/BenLangmead/bowtie2]Bowtie 2 - An ultrafast and
+       memory-efficient tool for aligning sequencing reads to long
+       reference sequences.
+     * [https://github.com/lh3/bwa]BWA - Burrow-Wheeler Aligner for
+       pairwise alignment between DNA sequences.
+
+Variant Calling
+
+     * [https://github.com/ekg/freebayes]freebayes - Bayesian
+       haplotype-based polymorphism discovery and genotyping.
+     * [https://software.broadinstitute.org/gatk/]GATK - Variant Discovery
+       in High-Throughput Sequencing Data.
+     * [https://github.com/samtools/samtools]samtools/bcftools/htslib - A
+       suite of tools for manipulating next-generation sequencing data.
+
+BAM File Utilities
+
+     * [https://github.com/pezmaster31/bamtools]Bamtools - Collection of
+       tools for working with BAM files.
+     * [https://github.com/AndersenLab/bam-toolbox]bam toolbox
+       MtDNA:Nuclear Coverage; BAM Toolbox can output the ratio of
+       MtDNA:nuclear coverage, a proxy for mitochondrial content.
+     * [https://github.com/DarwinAwardWinner/mergesam]mergesam - Automate
+       common SAM & BAM conversions.
+     * [https://github.com/TimoLassmann/samstat]SAMstat - Displaying
+       sequence statistics for next-generation sequencing.
+     * [https://github.com/zd1/telseq]Telseq - Telseq is a tool for
+       estimating telomere length from whole genome sequence data.
+
+VCF File Utilities
+
+     * [https://github.com/samtools/bcftools]bcftools - Set of tools for
+       manipulating VCF files.
+     * [https://github.com/brentp/vcfanno]vcfanno - Annotate a VCF with
+       other VCFs/BEDs/tabixed files.
+     * [https://github.com/vcflib/vcflib]vcflib - A C++ library for
+       parsing and manipulating VCF files.
+     * [https://github.com/vcftools/vcftools]vcftools - VCF manipulation
+       and statistics (e.g. linkage disequilibrium, allele frequency,
+       Fst).
+
+GFF BED File Utilities
+
+     * [https://github.com/daler/gffutils]gffutils - GFF and GTF file
+       manipulation and interconversion.
+     * [https://bedops.readthedocs.io/en/latest/index.html]BEDOPS - The
+       fast, highly scalable and easily-parallelizable genome analysis
+       toolkit.
+     * [https://github.com/arq5x/bedtools2]Bedtools2 - A Swiss Army knife
+       for genome arithmetic.
+
+Variant Simulation
+
+     * [https://github.com/adamewing/bamsurgeon]Bam Surgeon - Tools for
+       adding mutations to existing .bam files, used for testing mutation
+       callers.
+     * [https://github.com/lh3/wgsim]wgsim - Comes with samtools! - Reads
+       simulator.
+
+Variant Filtering / Quality Control
+
+Variant Prediction/Annotation
+
+     * [http://sift.jcvi.org/]SIFT - Predicts whether an amino acid
+       substitution affects protein function.
+     * [https://github.com/pcingola/SnpEff]SnpEff - Genetic variant
+       annotation and effect prediction toolbox.
+
+Python Modules
+
+Data
+
+     * [https://github.com/brentp/cruzdb]cruzdb - Pythonic access to the
+       UCSC Genome database.
+     * [https://github.com/openvax/pyensembl]pyensembl - Pythonic Access
+       to the Ensembl database.
+     * [https://github.com/cokelaer/bioservices]bioservices - Access to
+       Biological Web Services from Python.
+
+Tools
+
+     * [https://github.com/arq5x/cyvcf]cyvcf - A port of
+       [https://github.com/jamescasbon/PyVCF]pyVCF using Cython for speed.
+     * [https://github.com/brentp/cyvcf2]cyvcf2 - Cython + HTSlib == fast
+       VCF parsing; even faster parsing than pyVCF.
+     * [https://github.com/daler/pybedtools]pyBedTools - Python wrapper
+       for [https://github.com/arq5x/bedtools]bedtools.
+     * [https://github.com/mdshw5/pyfaidx]pyfaidx - Pythonic access to
+       FASTA files.
+     * [https://github.com/pysam-developers/pysam]pysam - Python wrapper
+       for [https://github.com/samtools/samtools]samtools.
+     * [https://github.com/jamescasbon/PyVCF]pyVCF - A VCF Parser for
+       Python.
+
+Visualization
+
+Genome Browsers / Gene Diagrams
+
+   The following tools can be used to visualize genomic data or for
+   constructing customized visualizations of genomic data including
+   sequence data from DNA-Seq, RNA-Seq, and ChIP-Seq, variants, and more.
+     * [http://www.biodalliance.org/]biodalliance - Embeddable genome
+       viewer. Integration data from a wide variety of sources, and can
+       load data directly from popular genomics file formats including
+       bigWig, BAM, and VCF.
+     * [https://biojs.net/]BioJS - BioJS is a library of over hundred
+       JavaScript components enabling you to visualize and process data
+       using current web technologies.
+     * [https://github.com/jonathancrabtree/Circleator]Circleator -
+       Flexible circular visualization of genome-associated data with
+       BioPerl and SVG.
+     * [https://github.com/drio/dnaism]DNAism - Horizon chart D3-based
+       JavaScript library for DNA data.
+     * [https://www.broadinstitute.org/igv]IGV js - Java-based browser.
+       Fast, efficient, scalable visualization tool for genomics data and
+       annotations. Handles a large
+       [http://software.broadinstitute.org/software/igv/fileformats]variet
+       y of formats.
+     * [https://github.com/lairdm/islandplot]Island Plot - D3 JavaScript
+       based genome viewer. Constructs SVGs.
+     * [https://jbrowse.org/]JBrowse - JavaScript genome browser that is
+       highly customizable via plugins and track customizations
+     * [https://github.com/hammerlab/pileup.js]pileup.js - JavaScript
+       library that can be used to generate interactive and highly
+       customizable web-based genome browsers.
+     * [https://github.com/chmille4/Scribl]scribl - JavaScript library for
+       drawing canvas-based gene diagrams. The
+       [http://chmille4.github.io/Scribl/]Homepage has examples.
+
+Circos Related
+
+     * [http://circos.ca/]Circos - Perl package for circular plots, which
+       are well suited for genomic rearrangements.
+     * [https://academic.oup.com/bioinformatics/article/31/22/3685/241292]
+       ClicO FS - An interactive web-based service of Circos.
+     * [http://www.bioconductor.org/packages/release/bioc/html/OmicCircos.
+       html]OmicCircos - R package for circular plots for omics data.
+     * [http://www.australianprostatecentre.org/research/software/jcircos]
+       J-Circos - A Java application for doing interactive work with
+       circos plots.
+     * [https://cran.r-project.org/web/packages/RCircos/index.html]rCircos
+       - R package for circular plots.
+
+Database Access
+
+     * [http://www.ncbi.nlm.nih.gov/books/NBK179288/]Entrez Direct:
+       E-utilities on the UNIX command line - UNIX command line tools to
+       access NCBI's databases programmatically. Instructions to install
+       and examples are found in the link.
+
+Resources
+
+Becoming a Bioinformatician
+
+     * [http://blog.fejes.ca/?p=2418]What is a bioinformatician
+     * [http://www.ploscompbiol.org/article/info:doi%2F10.1371%2Fjournal.p
+       cbi.1003496]Bioinformatics Curriculum Guidelines: Toward a
+       Definition of Core Competencies
+     * [http://caseybergman.wordpress.com/2012/07/31/top-n-reasons-to-do-a
+       -ph-d-or-post-doc-in-bioinformaticscomputational-biology/]Top N
+       Reasons To Do A Ph.D. or Post-Doc in Bioinformatics/Computational
+       Biology
+     * [https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-1
+       4-1-104]A 10-Step Guide to Party Conversation For Bioinformaticians
+       - Here is a step-by-step guide on how to convey concepts to people
+       not involved in the field when asked the question: 'So, what do you
+       do?'
+     * [https://www.youtube.com/watch?v=uwsjwMO-TEA]A History Of
+       Bioinformatics (In The Year 2039) - A talk by C. Titus Brown on his
+       take of looking back at bioinformatics from the year 2039. His
+       notes for this talk can be found
+       [http://ivory.idyll.org/blog/2014-bosc-keynote.html]here.
+     * [http://madhadron.com/posts/2012-03-26-a-farewell-to-bioinformatics
+       .html]A farewell to bioinformatics - A critical view of the state
+       of bioinformatics.
+     * [http://www.acgt.me/blog/2014/3/25/101-questions-a-new-series-of-in
+       terviews-with-notable-bioinformaticians]A Series of Interviews with
+       Notable Bioinformaticians - Dr. Keith Bradnam "thought it might be
+       instructive to ask a simple series of questions to a bunch of
+       notable bioinformaticians to assess their feelings on the current
+       state of bioinformatics research, and maybe get any tips they have
+       about what has been useful to their bioinformatics careers."
+     * [https://github.com/ossu/bioinformatics]Open Source Society
+       University on Bioinformatics - Solid path for those of you who want
+       to complete a Bioinformatics course on your own time, for free,
+       with courses from the best universities in the World.
+     * [http://rosalind.info/]Rosalind - Rosalind is a platform for
+       learning bioinformatics through problem solving.
+     * [http://www.opiniomics.org/a-guide-for-the-lonely-bioinformatician/
+       ]A guide for the lonely bioinformatician - This guide is aimed at
+       bioinformaticians, and is meant to guide them towards better career
+       development.
+
+Sequencing
+
+     * [https://youtu.be/6Is3W7JkFp8]Next-Generation Sequencing
+       Technologies - Elaine Mardis (2014) [1:34:35] - Excellent
+       (technical) overview of next-generation and third-generation
+       sequencing technologies, along with some applications in cancer
+       research.
+     * [https://liorpachter.wordpress.com/seq/]Annotated bibliography of
+       *Seq assays - List of ~100 papers on various sequencing
+       technologies and assays ranging from transcription to transposable
+       element discovery.
+     * [http://www.illumina.com/content/dam/illumina-marketing/documents/a
+       pplications/ngs-library-prep/ForAllYouSeqMethods.pdf]For all you
+       seq... (PDF) (3456x5471) - Massive infographic by Illumina on
+       illustrating how many sequencing techniques work. Techniques cover
+       protein-protein interactions, RNA transcription, RNA-protein
+       interactions, RNA low-level detection, RNA modifications, RNA
+       structure, DNA rearrangements and markers, DNA low-level detection,
+       epigenetics, and DNA-protein interactions. References included.
+
+RNA-Seq
+
+     * [https://www.biostars.org/p/52152/]Review papers on RNA-seq
+       (Biostars) - Includes lots of seminal papers on RNA-seq and
+       analysis methods.
+     * [https://github.com/griffithlab/rnaseq_tutorial]Informatics for
+       RNA-seq: A web resource for analysis on the cloud - Educational
+       resource on performing RNA-seq analysis in the cloud using Amazon
+       AWS cloud services. Topics include preparing the data,
+       preprocessing, differential expression, isoform discovery, data
+       visualization, and interpretation.
+     * [http://rnaseq.uoregon.edu/]RNA-seqlopedia - RNA-seqlopedia
+       provides an awesome overview of RNA-seq and of the choices
+       necessary to carry out a successful RNA-seq experiment.
+     * [http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016
+       -0881-8]A survey of best practices for RNA-seq data analysis -
+       Gives awesome roadmap for RNA-seq computational analyses, including
+       challenges/obstacles and things to look out for, but also how you
+       might integrate RNA-seq data with other data types.
+     * [https://www.youtube.com/watch?v=5NiFibnbE8o]Stories from the
+       Supplement [46:39] - Dr. Lior Pachter shares his stories from the
+       supplement for well-known RNA-seq analysis software CuffDiff and
+       [http://cole-trapnell-lab.github.io/cufflinks/]Cufflinks and
+       explains some of their methodologies.
+     * [https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools
+       ]List of RNA-seq Bioinformatics Tools - Extensive list on Wikipedia
+       of RNA-seq bioinformatics tools needed in analysis, ranging from
+       all parts of an analysis pipeline from quality control, alignment,
+       splice analysis, and visualizations.
+     * [https://github.com/crazyhottommy/RNA-seq-analysis]RNA-seq Analysis
+       - [https://github.com/crazyhottommy]@crazyhottommy's notes on
+       various steps and considerations when doing RNA-seq analysis.
+
+ChIP-Seq
+
+     * [https://github.com/crazyhottommy/ChIP-seq-analysis]ChIP-seq
+       analysis notes from Tommy Tang - Resources on ChIP-seq data which
+       include papers, methods, links to software, and analysis.
+
+YouTube Channels and Playlists
+
+     * [https://www.genome.gov/12514288/current-topics-in-genome-analysis-
+       2016-course-syllabus-handouts-and-videos/]Current Topics in Genome
+       Analysis 2016 - Excellent series of fourteen lectures given at NIH
+       about current topics in genomics ranging from sequence analysis, to
+       sequencing technologies, and even more translational topics such as
+       genomic medicine.
+     * [https://www.youtube.com/user/GenomeTV]GenomeTV - "GenomeTV is
+       NHGRI's collection of official video resources from lectures, to
+       news documentaries, to full video collections of meetings that
+       tackle the research, issues and clinical applications of genomic
+       research."
+     * [https://www.youtube.com/user/LeadingStrand]Leading Strand -
+       Keynote lectures from Cold Spring Harbor Laboratory (CSHL)
+       Meetings. More on [http://theleadingstrand.cshl.edu/]The Leading
+       Strand.
+     * [https://www.youtube.com/playlist?list=PLqLDR0CTP9_pboZCk6gR9Zn4kW7
+       h9XWJI]Genomics, Big Data and Medicine Seminar Series - "Our
+       seminars are dedicated to the critical intersection of GBM, delving
+       into 'bleeding edge' technology and approaches that will deeply
+       shape the future."
+     * [https://www.youtube.com/user/RafalabChannel/videos]Rafael
+       Irizarry's Channel - Dr. Rafael Irizarry's lectures and academic
+       talks on statistics for genomics.
+     * [https://www.youtube.com/user/nihvcast]NIH VideoCasting and
+       Podcasting - "NIH VideoCast broadcasts seminars, conferences and
+       meetings live to a world-wide audience over the Internet as a
+       real-time streaming video." Not exclusively genomics and
+       bioinformatics video but many great talks on domain specific use of
+       bioinformatics and genomics.
+
+Blogs
+
+     * [http://www.acgt.me/]ACGT - Dr. Keith Bradnam writes about this
+       "thoughts on biology, genomics, and the ongoing threat to humanity
+       from the bogus use of bioinformatics acroynums."
+     * [http://www.opiniomics.org/]Opiniomics - Dr. Mick Watson write on
+       bioinformatics, genomes, and biology.
+     * [https://liorpachter.wordpress.com/]Bits of DNA - Dr. Lior Pachter
+       writes review and commentary on computational biology.
+     * [http://www.michaeleisen.org/blog/]it is NOT junk - Dr. Michael
+       Eisen writes "a blog about genomes, DNA, evolution, open science,
+       baseball and other important things"
+
+Miscellaneous
+
+     * [https://github.com/jtleek/genomicspapers/]The Leek group guide to
+       genomics papers - Expertly curated genomics papers to get up to
+       speed on genomics, RNA-seq, statistics (used in genomics), software
+       development, and more.
+     * [http://dx.doi.org/10.1371/journal.pcbi.1003662]A New Online
+       Computational Biology Curriculum - "This article introduces a
+       catalog of several hundred free video courses of potential interest
+       to those wishing to expand their knowledge of bioinformatics and
+       computational biology. The courses are organized into eleven
+       subject areas modeled on university departments and are accompanied
+       by commentary and career advice."
+     * [http://www.foo.be/docs/tpj/issues/vol1_2/tpj0102-0001.html]How
+       Perl Saved the Human Genome Project - An anecdote by Lincoln D.
+       Stein on the importance of the Perl programming language in the
+       Human Genome Project.
+     * [https://liacs.leidenuniv.nl/%7Ehoogeboomhj/mcb/nature_primer.html]
+       Educational Papers from Nature Biotechnology and PLoS Computational
+       Biology - Page of links to primers and short educational articles
+       on various methods used in computational biology and
+       bioinformatics.
+     * [https://peerj.com/collections/45-bioinformatics-software/]The
+       PeerJ Bioinformatics Software Tools Collection - Collection of
+       tools curated by Keith Crandall and Claus White, aimed at collating
+       the most interesting, innovative, and relevant bioinformatics tools
+       articles in PeerJ.
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Reload to refresh your session. You signed out in another tab or
+   window.
+   [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-Bioinform
+   atics]Reload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

@@ -1,0 +1,1047 @@
+   #Recent
+   Commits to awesome-iot:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in or
+   Sign up
+
+     * 95
+     * 1,038
+     * 168
+
+awesome-iot
+
+   Code
+   Pull requests 1
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome Internet of Things projects and resources.
+   awesome-list
+   173 commits
+     * 0 releases
+     * Fetching
+       contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/H
+   Download ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * B
+       ranches
+     * T
+       ags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/HQarroum/awesome-iot/tree/f48606d5f36628a8edd28e756cc
+   7b33e70bad245]Permalink
+   Failed to load latest commit information.
+   .travis.
+   yml
+    white list bluetooth.com Sep 21, 2016
+   CONT
+   RIBUTING.md
+   Making contribution guidelines more accurate Oct 23,
+   2015
+   README.md
+   add external link Mar 22, 2018
+   iot-log
+   o.png
+   Adding the logo Sep 26, 2015
+
+README.md
+
+Awesome IoT
+
+   [iot-lo
+   go.png]
+
+   [https://github.com/sindresorhus/awesome]Awesome
+   [https://travis-ci.org/HQarroum/awesome-iot]Build Status
+
+     A curated list of awesome Internet of Things projects and resources.
+
+   Inspired by the [https://github.com/sindresorhus/awesome]awesome list
+   thing.
+
+Table of Contents
+
+     * Hardware
+     * Software
+          + Operating systems
+          + Programming Languages
+          + Frameworks
+          + Middlewares
+          + Libraries and Tools
+          + Miscellaneous
+     * Protocols and Networks
+     * Technologies
+     * Standards and Alliances
+     * Resources
+          + Books
+          + Articles
+          + Papers
+
+Hardware
+
+     * [https://www.arduino.cc/]Arduino - Arduino is an open-source
+       electronics platform based on easy-to-use hardware and software.
+       It's intended for anyone making interactive projects.
+     * [http://beagleboard.org/]BeagleBoard - The BeagleBoard is a
+       low-power open-source hardware single-board computer produced by
+       Texas Instruments in association with Digi-Key and Newark
+       element14.
+     * [https://developer.qualcomm.com/hardware/dragonboard-410c]Dragonboa
+       rd - The DragonBoard 410c, a product of Arrow Electronics, is the
+       development board based on the mid-tier Qualcomm® Snapdragon(TM)
+       410E processor. It features advanced processing power, Wi-Fi,
+       Bluetooth connectivity, and GPS, all packed into a board the size
+       of a credit card.
+     * [https://www.solid-run.com/freescale-imx6-family/hummingboard/]Humm
+       ingBoard - HummingBoard is a family of three Linux- and
+       Android-ready, open source SBCs based on 1GHz Freescale i.MX6 SoCs,
+       with a Pi-like 26-pin I/O connector.
+     * [https://www-ssl.intel.com/content/www/us/en/do-it-yourself/galileo
+       -maker-quark-board.html]Intel Galileo - The Intel® Galileo Gen 2
+       board is the first in a family of Arduino*-certified development
+       and prototyping boards based on Intel® architecture and
+       specifically designed for makers, students, educators, and DIY
+       electronics enthusiasts.
+     * [https://www.microduino.cc/]Microduino - Microduino and mCookie
+       bring powerful, small, stackable electronic hardware to makers,
+       designers, engineers, students and curious tinkerers of all ages.
+       Build open-source projects or create innovative new ones.
+     * [http://nodemcu.com/index_en.html]Node MCU (ESP 8266) - NodeMCU is
+       an open source IoT platform. It uses the Lua scripting language. It
+       is based on the eLua project, and built on the ESP8266 SDK 0.9.5.
+     * [https://www.olimex.com/Products/OLinuXino/open-source-hardware]OLi
+       nuXino - OLinuXino is an Open Source Software and Open Source
+       Hardware low cost (EUR 30) Linux Industrial grade single board
+       computer with GPIOs capable of operating from -25°C to +85°C.
+     * [http://www.hardkernel.com/]Odroid - The ODROID means Open + Droid.
+       It is a development platform for the hardware as well as the
+       software.
+     * [https://www.particle.io/]Particle - A suite of hardware and
+       software tools to help you prototype, scale, and manage your
+       Internet of Things products.
+     * [https://www.open-electronics.org/pinoccio-wifi-mesh-networking-for
+       -arduino-and-iot-available-now/]Pinoccio - Pinoccio is a solution
+       to add mesh networking capability and WiFi-Internet access to all
+       yout IoT devices, and it is Arduino compatible.
+     * [https://www.raspberrypi.org/]Raspberry Pi - The Raspberry Pi is a
+       low cost, credit-card sized computer that plugs into a computer
+       monitor or TV, and uses a standard keyboard and mouse. It's capable
+       of doing everything you'd expect a desktop computer to do, from
+       browsing the internet and playing high-definition video, to making
+       spreadsheets, word-processing, and playing games.
+     * [https://tessel.io/]Tessel - Tessel is a completely open source and
+       community-driven IoT and robotics development platform. It
+       encompases development boards, hardware module add-ons, and the
+       software that runs on them.
+     * [http://www.udoo.org/]UDOO - UDOO is a single-board computer with
+       an integrated Arduino 2 compatible microcontroller, designed for
+       computer science education, the world of Makers and the Internet of
+       Things.
+
+Software
+
+Operating systems
+
+     * [https://mynewt.apache.org/]Apache Mynewt - Apache Mynewt is a
+       real-time, modular operating system for connected IoT devices that
+       need to operate for long periods of time under power, memory, and
+       storage constraints. The first connectivity stack offered is BLE
+       4.2.
+     * [http://www.mbed.com/]ARM mbed - The ARM® mbed(TM) IoT Device
+       Platform provides the operating system, cloud services, tools and
+       developer ecosystem to make the creation and deployment of
+       commercial, standards-based IoT solutions possible at scale.
+     * [http://www.contiki-os.org/]Contiki - Contiki is an open source
+       operating system for the Internet of Things. Contiki connects tiny
+       low-cost, low-power microcontrollers to the Internet.
+     * [http://www.freertos.org/]FreeRTOS - FreeRTOS is a popular
+       real-time operating system kernel for embedded devices, that has
+       been ported to 35 microcontrollers.
+     * [https://developers.google.com/brillo/]Google Brillo - Brillo
+       extends the Android platform to all your connected devices, so they
+       are easy to set up and work seamlessly with each other and your
+       smartphone.
+     * [https://openwrt.org/]OpenWrt - OpenWrt is an operating system (in
+       particular, an embedded operating system) based on the Linux
+       kernel, primarily used on embedded devices to route network
+       traffic. The main components are the Linux kernel, util-linux,
+       uClibc or musl, and BusyBox. All components have been optimized for
+       size, to be small enough for fitting into the limited storage and
+       memory available in home routers.
+     * [https://developer.ubuntu.com/en/snappy/]Snappy Ubuntu - Snappy
+       Ubuntu Core is a new rendition of Ubuntu with transactional
+       updates. It provides a minimal server image with the same libraries
+       as today's Ubuntu, but applications are provided through a simpler
+       mechanism.
+     * [http://node-os.com/]NodeOS - NodeOS is an operating system
+       entirely written in Javascript, and managed by npm on top of the
+       Linux kernel.
+     * [https://raspbian.org/]Raspbian - Raspbian is a free operating
+       system based on Debian optimized for the Raspberry Pi hardware.
+     * [http://www.riot-os.org/]RIOT - The friendly Operating System for
+       the Internet of Things.
+     * [http://tinyos.stanford.edu/tinyos-wiki/index.php/TinyOS_Overview]T
+       iny OS - TinyOS is an open source, BSD-licensed operating system
+       designed for low-power wireless devices, such as those used in
+       sensor networks, ubiquitous computing, personal area networks,
+       smart buildings, and smart meters.
+     * [https://dev.windows.com/en-us/iot]Windows 10 IoT Core - Windows 10
+       IoT is a family of Windows 10 editions targeted towards a wide
+       range of intelligent devices, from small industrial gateways to
+       larger more complex devices like point of sales terminals and ATMs.
+     * [https://www.zephyrproject.org/]Zephyr Project - The Zephyr(TM)
+       Project is a scalable real-time operating system (RTOS) supporting
+       multiple hardware architectures, optimized for resource constrained
+       devices, and built with security in mind.
+
+Programming languages
+
+     This sections regroups every awesome programming language, whether
+     it is compiled, interpreted or a DSL, related to embedded
+     development.
+
+     * [https://en.wikipedia.org/wiki/C_(programming_language)]C - A
+       general-purpose, imperative computer programming language,
+       supporting structured programming, lexical variable scope and
+       recursion, while a static type system prevents many unintended
+       operations.
+     * [https://en.wikipedia.org/wiki/C%2B%2B]C++ - A general-purpose
+       programming language. It has imperative, object-oriented and
+       generic programming features, while also providing facilities for
+       low-level memory manipulation.
+     * [http://www.groovy-lang.org/]Groovy - Groovy is a powerful,
+       optionally typed and dynamic language, with static-typing and
+       static compilation capabilities, for the Java platform aimed at
+       multiplying developers' productivity thanks to a concise, familiar
+       and easy to learn syntax. It is used by the SmartThings development
+       environment to create smart applications.
+     * [http://www.lua.org/]Lua - Lua is a powerful, fast, lightweight,
+       embeddable scripting language. Lua is dynamically typed, runs by
+       interpreting bytecode for a register-based virtual machine, and has
+       automatic memory management with incremental garbage collection,
+       making it ideal for configuration, scripting, and rapid
+       prototyping.
+     * [http://www.eluaproject.net/]eLua - eLua stands for Embedded Lua
+       and the project offers the full implementation of the Lua
+       Programming Language to the embedded world, extending it with
+       specific features for efficient and portable software embedded
+       development.
+     * [http://c3d.github.io/elfe/]ELFE - ELFE is a very simple and small
+       programming language. While it is a general-purpose programming
+       language, it is specifically tuned to facilitate the configuration
+       and control of swarms of small devices such as sensors or
+       actuators.
+
+Frameworks
+
+     * [https://openconnectivity.org/developer/reference-implementation/al
+       ljoyn]AllJoyn - AllJoyn is an open source software framework that
+       makes it easy for devices and apps to discover and communicate with
+       each other.
+     * [https://developer.apple.com/homekit/]Apple HomeKit - HomeKit is a
+       framework for communicating with and controlling connected
+       accessories in a user's home.
+     * [http://www.blynk.cc/]Blynk - Blynk is a platform for creating iOS
+       and Android apps for connected things. You can easily build graphic
+       interfaces for all your projects by simply dragging and dropping
+       widgets (right on the smartphone). Supports Ethernet, WiFi,
+       Bluetooth, GSM/GPRS, USB/Serial connections with wide range of
+       prototyping platforms from Arduino, Raspberry, ARM mbed, Particle,
+       RedBear, etc.
+     * [http://github.com/countly/countly-server]Countly IoT Analytics -
+       Countly is a general purpose analytics platform for mobile and IoT
+       devices, available as open source.
+     * [https://eclipse.org/smarthome/]Eclipse Smarthome - The Eclipse
+       SmartHome framework is designed to run on embedded devices, such as
+       a Raspberry Pi, a BeagleBone Black or an Intel Edison. It requires
+       a Java 7 compliant JVM and an OSGi (4.2+) framework, such as
+       Eclipse Equinox.
+     * [http://www.freedomotic.com/]Freedomotic - Freedomotic is an open
+       source, flexible, secure Internet of Things (IoT) development
+       framework, useful to build and manage modern smart spaces. It is
+       targeted to private individuals (home automation) as well as
+       business users (smart retail environments, ambient aware marketing,
+       monitoring and analytics, etc). Written in Java, it can interact
+       with well known standard building automation protocols as well as
+       with "do it yourself" solutions.
+     * [https://www.iotivity.org/]Iotivity - IoTivity is an open source
+       software framework enabling seamless device-to-device connectivity
+       to address the emerging needs of the Internet of Things.
+     * [https://eclipse.org/kura/]Kura - Kura aims at offering a
+       Java/OSGi-based container for M2M applications running in service
+       gateways. Kura provides or, when available, aggregates open source
+       implementations for the most common services needed by M2M
+       applications.
+     * [http://www.lelylan.com/]Lelylan - Lelylan is an IoT cloud platform
+       based on a lightweight microservices architecture. The Lelylan
+       platform is both hardware-agnostic and platform-agnostic. This
+       means that you can connect any hardware, from the ESP8266 to the
+       most professional embedded hardware solution and everything in
+       between - and it can run on any public cloud, your own private
+       datacenter, or even in a hybrid environment, whether virtualized or
+       bare metal.
+     * [https://wiki.eclipse.org/Mihini]Mihini - The main goal of Mihini
+       is to deliver an embedded runtime running on top of Linux, that
+       exposes high-level API for building M2M applications. Mihini aims
+       at enabling easy and portable development, by facilitating access
+       to the I/Os of an M2M system, providing a communication layer, etc.
+     * [http://www.openhab.org/]OpenHAB - The openHAB runtime is a set of
+       OSGi bundles deployed on an OSGi framework (Equinox). It is
+       therefore a pure Java solution and needs a JVM to run. Being based
+       on OSGi, it provides a highly modular architecture, which even
+       allows adding and removing functionality during runtime without
+       stopping the service.
+     * [http://gobot.io/]Gobot - Gobot is a framework for robotics,
+       physical computing, and the Internet of Things, written in the Go
+       programming language.
+     * [https://github.com/home-assistant/home-assistant]Home Assistant -
+       Home Assistant is a home automation platform running on Python 3.
+       The goal of Home Assistant is to be able to track and control all
+       devices at home and offer a platform for automating control.
+     * [http://lwmqn.github.io/]Lightweight MQTT Machine Network - LWMQN
+       is an open source project that follows part of OMA LWM2M
+       v1.0 specification and uses the IP-base Smart Object model to meet
+       the minimum requirements of machine network management. It provides
+       both server-side and machine-side libraries to make full-stack IoT
+       development possible with JavaScript and Node.js. See also: IPSO
+       Alliance
+       [http://www.ipso-alliance.org/ipso-community/resources/technical-ar
+       chive/]Technical Archive.
+     * [https://github.com/thingsboard/thingsboard-gateway]Thingsboard IoT
+       Gateway - Open-source IoT Gateway - integrates devices connected to
+       legacy and third-party systems with Thingsboard IoT Platform using
+       OPC-UA and MQTT protocols.
+     * [https://pimatic.org/]Pimatic - Pimatic is a home automation
+       framework that runs on node.js. It provides a common extensible
+       platform for home control and automation tasks.
+     * [https://dev.iota.org/]IOTA - Open-source distributed ledger
+       protocol for IoT. Uses a directed acyclic graph (DAG) instead of a
+       blockchain.
+
+Middlewares
+
+     * [https://corlysis.com/]Corlysis - Corlysis is a platform that helps
+       you with storing and visualizing your time-series data. It is based
+       on the open-source projects Grafana and InfluxDB that also SpaceX
+       uses.
+     * [https://ifttt.com/]IFTTT - IFTTT is a web-based service that
+       allows users to create chains of simple conditional statements,
+       called "recipes", which are triggered based on changes to other web
+       services such as Gmail, Facebook, Instagram, and Pinterest. IFTTT
+       is an abbreviation of "If This Then That" (pronounced like "gift"
+       without the "g").
+     * [https://github.com/cantino/huginn]Huginn - Huginn is a system for
+       building agents that perform automated tasks for you online.
+     * [http://www.kaaproject.org/]Kaa - An open-source middleware
+       platform for rapid creation of IoT solutions.
+     * [https://losant.com/]Losant - Losant is an easy-to-use and powerful
+       developer platform designed to help you quickly and securely build
+       complex connected solutions. Losant uses open communication
+       standards like REST and MQTT to provide connectivity from one to
+       millions of devices. Losant provides powerful data collection,
+       aggregation, and visualization features to help understand and
+       quantify vast amounts of sensor data. Losant's drag-and-drop
+       workflow editor allows you to trigger actions, notifications, and
+       machine-to-machine communication without programming.
+     * [https://microservicebus.com/]MicroServiceBus.com -
+       MicroServiceBus.com is a device management platform for Azure, AWS
+       and IBM IoT Hub, with integration to GitHub, ServiceNow, Cisco
+       Jasper and more. It comes in a free (limited) version along with
+       enterprise offerings.
+     * [http://www.dreamfactory.com/]DreamFactory - DreamFactory is a free
+       open source REST API Platform for mobile, web and IoT Applications.
+     * [https://i1820.github.io/]I1820 - I1820 is a free open source
+       platform which provides discovery, data collection and
+       configuration services based on MQTT. I1820 implements a REST API
+       for controlling the things and it stores all collected data in a
+       Time-Series database named InfluxDB.
+     * [https://iostash.io/]IOStash - IOStash is a high performance IoT
+       platform that is free for DIY developers and non profit
+       applications. It has multiple connectivity options and enables easy
+       development of M2M or M2A applications. IOStash offers Nodejs and
+       Android libraries for easy application creation.
+     * [https://thingsboard.io/]Thingsboard - An open-source IoT platform.
+       Device management, data collection, processing and visualization
+       for your IoT solution.
+     * [https://github.com/kuzzleio/kuzzle]Kuzzle - An open-source backend
+       with advanced features like real-time pub/sub or geofencing and a
+       multiprotocol interface that supports MQTT, LoRaWAN and more.
+       ([https://kuzzle.io/solutions/technologies/iot-backend/]Website)
+
+Libraries and Tools
+
+     * [http://cylonjs.com/]Cylon.js - Cylon.js is a JavaScript framework
+       for robotics, physical computing, and the Internet of Things. It
+       makes it incredibly easy to command robots and devices.
+     * [https://luvit.io/]Luvit - Luvit implements the same APIs as
+       Node.js, but in Lua ! While this framework is not directly involved
+       with IoT development, it is still a great way to rapidly build
+       powerful, yet memory efficient, embedded web applications.
+     * [http://johnny-five.io/]Johnny-Five - Johnny-Five is the original
+       JavaScript Robotics programming framework. Released by Bocoup in
+       2012, Johnny-Five is maintained by a community of passionate
+       software developers and hardware engineers.
+     * [http://pi4j.com/]Pi4J - Pi4j is intended to provide a friendly
+       object-oriented I/O API and implementation libraries for Java
+       Programmers to access the full I/O capabilities of the Raspberry Pi
+       platform.
+     * [http://wiringpi.com/]WiringPi - WiringPi is a GPIO access library
+       written in C for the BCM2835 used in the Raspberry Pi.
+     * [http://nodered.org/]Node-RED - A visual tool for wiring the
+       Internet of Things.
+     * [https://github.com/PeterEB/smartobject]SmartObject - A Smart
+       Object Class that helps you with creating IPSO Smart Objects in
+       your JavaScript applications. See also: IPSO Alliance
+       [http://www.ipso-alliance.org/ipso-community/resources/technical-ar
+       chive/]Technical Archive.
+
+Miscellaneous
+
+     * [https://fresh.amazon.com/dash/]Amazon Dash - Amazon Dash Button is
+       a Wi-Fi connected device that reorders your favorite item with the
+       press of a button.
+     * [http://freeboard.io/]Freeboard - A real-time interactive dashboard
+       and visualization creator implementing an intuitive drag & drop
+       interface.
+     * [http://nebula.readthedocs.io/]Nebula - A docker orchestrator
+       designed to manage IoT devices
+
+Protocols and Networks
+
+Physical layer
+
+802.15.4 (IEEE)
+
+   IEEE 802.15.4 is a standard which specifies the physical layer and
+   media access control for low-rate wireless personal area networks
+   (LR-WPANs). It is maintained by the IEEE 802.15 working group, which
+   has defined it in 2003. It is the basis for the ZigBee, ISA100.11a,
+   WirelessHART, and MiWi specifications, each of which further extends
+   the standard by developing the upper layers which are not defined in
+   IEEE 802.15.4. Alternatively, it can be used with 6LoWPAN and standard
+   Internet protocols to build a wireless embedded Internet. -
+   [https://en.wikipedia.org/wiki/IEEE_802.15.4]Wikipedia
+
+     IEEE standard 802.15.4 intends to offer the fundamental lower
+     network layers of a type of wireless personal area network (WPAN)
+     which focuses on low-cost, low-speed ubiquitous communication
+     between devices. It can be contrasted with other approaches, such as
+     Wi-Fi, which offer more bandwidth and require more power. The
+     emphasis is on very low cost communication of nearby devices with
+     little to no underlying infrastructure, intending to exploit this to
+     lower power consumption even more.
+
+Bluetooth (Bluetooth Special Interest Group)
+
+   Bluetooth is a wireless technology standard for exchanging data over
+   short distances (using short-wavelength UHF radio waves in the ISM band
+   from 2.4 to 2.485 GHz) from fixed and mobile devices, and building
+   personal area networks (PANs). Invented by telecom vendor Ericsson in
+   1994, it was originally conceived as a wireless alternative to RS-232
+   data cables. It can connect several devices, overcoming problems of
+   synchronization. - [https://en.wikipedia.org/wiki/Bluetooth]Wikipedia
+
+     Bluetooth is managed by the Bluetooth Special Interest Group (SIG),
+     which has more than 25,000 member companies in the areas of
+     telecommunication, computing, networking, and consumer electronics.
+
+Bluetooth Low Energy (Bluetooth Special Interest Group)
+
+   Bluetooth low energy (Bluetooth LE, BLE, marketed as Bluetooth Smart)
+   is a wireless personal area network technology designed and marketed by
+   the Bluetooth Special Interest Group aimed at novel applications in the
+   healthcare, fitness, beacons, security, and home entertainment
+   industries. -
+   [https://en.wikipedia.org/wiki/Bluetooth_low_energy]Wikipedia
+
+     Compared to Classic Bluetooth, Bluetooth Smart is intended to
+     provide considerably reduced power consumption and cost while
+     maintaining a similar communication range. The Bluetooth SIG
+     predicts that by 2018 more than 90 percent of Bluetooth-enabled
+     smartphones will support Bluetooth Smart.
+
+EC-GSM-IoT (EC-GSM-IoT Group)
+
+   Extended coverage GSM IoT (EC-GSM-IoT) is a standard-based Low Power
+   Wide Area technology. It is based on eGPRS and designed as a high
+   capacity, long range, low energy and low complexity cellular system for
+   IoT communications.
+
+     The EC-GSM-IOT network trials have begun, with the first commercial
+     launches planned for 2017. Supported by all major mobile equipment,
+     chip set and module manufacturers, EC-GSM-IoT networks will co-exist
+     with 2G, 3G, and 4G mobile networks. It will also benefit from all
+     the security and privacy mobile network features, such as support
+     for user identity confidentiality, entity authentication,
+     confidentiality, data integrity, and mobile equipment
+     identification.
+
+LoRaWAN (LoRa Alliance)
+
+   A LoRaWAN wide area network allows low bit rate communication from and
+   to connected objects, thus participating to Internet of Things,
+   machine-to-machine M2M, and smart city. -
+   [https://en.wikipedia.org/wiki/LoRaWAN]Wikipedia
+
+     This technology is standardized by the LoRa Alliance. It was
+     initially developed by Cycleo, which was acquired by Semtech in
+     2012. LoRaWAN is an acronym for Long Range Wide-area network.
+
+NB-IoT (3GPP)
+
+   NarrowBand IoT (NB-IoT) is a Low Power Wide Area Network (LPWAN) radio
+   technology standard that has been developed to enable a wide range of
+   devices and services to be connected using cellular telecommunications
+   bands. - [https://en.wikipedia.org/wiki/NarrowBand_IOT]Wikipedia
+
+     NB-IoT is a narrowband radio technology designed for the Internet of
+     Things (IoT), and is one of a range of Mobile IoT (MIoT)
+     technologies standardized by the 3rd Generation Partnership Project
+     (3GPP).
+
+Sigfox (Sigfox)
+
+   Sigfox is a French firm that builds wireless networks to connect
+   low-energy objects such as electricity meters, smart watches, and
+   washing machines, which need to be continuously on and emitting small
+   amounts of data. Its infrastructure is intended to be a contribution to
+   what is known as the Internet of Things (IoT). -
+   [https://en.wikipedia.org/wiki/Sigfox]Wikipedia
+
+     SIGFOX describes itself as "the first and only company providing
+     global cellular connectivity for the Internet of Things." Its
+     infrastructure is "completely independent of existing networks, such
+     as telecommunications networks." SIGFOX seeks to provide the means
+     for the "deployment of billions of objects and thousands of new
+     uses" with the long-term goal of "having petabytes of data produced
+     by everyday objects".
+
+Wi-Fi (Wi-Fi Alliance)
+
+   Wi-Fi (or WiFi) is a local area wireless computer networking technology
+   that allows electronic devices to network, mainly using the 2.4
+   gigahertz (12 cm) UHF and 5 gigahertz (6 cm) SHF ISM radio bands. -
+   [https://en.wikipedia.org/wiki/Wi-Fi]Wikipedia
+
+     The Wi-Fi Alliance defines Wi-Fi as any "wireless local area
+     network" (WLAN) product based on the Institute of Electrical and
+     Electronics Engineers' (IEEE) 802.11 standards.[1] However, the term
+     "Wi-Fi" is used in general English as a synonym for "WLAN" since
+     most modern WLANs are based on these standards. "Wi-Fi" is a
+     trademark of the Wi-Fi Alliance. The "Wi-Fi Certified" trademark can
+     only be used by Wi-Fi products that successfully complete Wi-Fi
+     Alliance interoperability certification testing.
+
+Network / Transport layer
+
+6LowPan (IETF)
+
+   6LoWPAN is an acronym of IPv6 over Low power Wireless Personal Area
+   Networks. 6LoWPAN is the name of a concluded working group in the
+   Internet area of the IETF. -
+   [https://en.wikipedia.org/wiki/6LoWPAN]Wikipedia
+
+     The 6LoWPAN concept originated from the idea that "the Internet
+     Protocol could and should be applied even to the smallest
+     devices,"and that low-power devices with limited processing
+     capabilities should be able to participate in the Internet of
+     Things. The 6LoWPAN group has defined encapsulation and header
+     compression mechanisms that allow IPv6 packets to be sent and
+     received over IEEE 802.15.4 based networks. IPv4 and IPv6 are the
+     work horses for data delivery for local-area networks, metropolitan
+     area networks, and wide-area networks such as the Internet.
+     Likewise, IEEE 802.15.4 devices provide sensing
+     communication-ability in the wireless domain. The inherent natures
+     of the two networks though, are different.
+
+Thread (Thread Group)
+
+   Thread is an IPv6 based protocol for "smart" household devices to
+   communicate on a network.
+
+     In July 2014 Google Inc's Nest Labs announced a working group with
+     the companies Samsung, ARM Holdings, Freescale, Silicon Labs, Big
+     Ass Fans and the lock company Yale in an attempt to have Thread
+     become the industry standard by providing Thread certification for
+     products. Other protocols currently in use include ZigBee and
+     Bluetooth Smart. Thread uses 6LoWPAN, which in turn uses the IEEE
+     802.15.4 wireless protocol with mesh communication, as does ZigBee
+     and other systems. Thread however is IP-addressable, with cloud
+     access and AES encryption. It supports over 250 devices on a
+     network.
+
+ZigBee (ZigBee Alliance)
+
+   ZigBee is a IEEE 802.15.4-based specification for a suite of high-level
+   communication protocols used to create personal area networks with
+   small, low-power digital radios. -
+   [https://en.wikipedia.org/wiki/ZigBee]Wikipedia
+
+     The technology defined by the ZigBee specification is intended to be
+     simpler and less expensive than other wireless personal area
+     networks (WPANs), such as Bluetooth or Wi-Fi. Applications include
+     wireless light switches, electrical meters with in-home-displays,
+     traffic management systems, and other consumer and industrial
+     equipment that requires short-range low-rate wireless data transfer.
+
+Z-Wave (Z-Wave Alliance)
+
+   Z-Wave is a wireless communications specification designed to allow
+   devices in the home (lighting, access controls, entertainment systems
+   and household appliances, for example) to communicate with one another
+   for the purposes of home automation. -
+   [https://en.wikipedia.org/wiki/Z-Wave]Wikipedia
+
+     Z-Wave technology minimizes power consumption so that it is suitable
+     for battery-operated devices. Z-Wave is designed to provide,
+     reliable, low-latency transmission of small data packets at data
+     rates up to 100kbit/s, unlike Wi-Fi and other IEEE 802.11-based
+     wireless LAN systems that are designed primarily for high data
+     rates. Z-Wave operates in the sub-gigahertz frequency range, around
+     900 MHz.
+
+Application layer
+
+CoAP (IETF)
+
+   Constrained Application Protocol (CoAP) is a software protocol intended
+   to be used in very simple electronics devices that allows them to
+   communicate interactively over the Internet. -
+   [https://en.wikipedia.org/wiki/Constrained_Application_Protocol]Wikiped
+   ia
+
+     CoAP is particularly targeted for small low power sensors, switches,
+     valves and similar components that need to be controlled or
+     supervised remotely, through standard Internet networks. CoAP is an
+     application layer protocol that is intended for use in
+     resource-constrained internet devices, such as WSN nodes.
+
+DTLS (IETF)
+
+   The Datagram Transport Layer Security (DTLS) communications protocol
+   provides communications security for datagram protocols. -
+   [https://fr.wikipedia.org/wiki/Datagram_Transport_Layer_Security]Wikipe
+   dia
+
+     DTLS allows datagram-based applications to communicate in a way that
+     is designed[by whom?] to prevent eavesdropping, tampering, or
+     message forgery. The DTLS protocol is based on the stream-oriented
+     Transport Layer Security (TLS) protocol and is intended to provide
+     similar security guarantees.
+
+Eddystone (Google)
+
+   Eddystone is a beacon technology profile released by Google in July
+   2015. The open source, cross-platform software gives users location and
+   proximity data via Bluetooth low-energy beacon format. -
+   [https://en.wikipedia.org/wiki/Eddystone_(Google)]Wikipedia
+
+     Though similar to the iBeacon released by Apple in 2013, Eddystone
+     works on both Android and iOS, whereas iBeacon is limited to iOS
+     platforms. A practical application of both softwares is that
+     business owners can target potential customers based on the location
+     of their smartphones in real time.
+
+HTTP (IETF)
+
+   The Hypertext Transfer Protocol (HTTP) is an application protocol for
+   distributed, collaborative, hypermedia information systems. HTTP is the
+   foundation of data communication for the World Wide Web. -
+   [https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol]Wikipedia
+
+     The standards development of HTTP was coordinated by the Internet
+     Engineering Task Force (IETF) and the World Wide Web Consortium
+     (W3C), culminating in the publication of a series of Requests for
+     Comments (RFCs). The first definition of HTTP/1.1, the version of
+     HTTP in common use, occurred in RFC 2068 in 1997, although this was
+     obsoleted by RFC 2616 in 1999.
+
+iBeacon (Apple)
+
+   iBeacon is a protocol standardized by Apple and introduced at the Apple
+   Worldwide Developers Conference in 2013. -
+   [https://en.wikipedia.org/wiki/IBeacon]Wikipedia
+
+     iBeacon uses Bluetooth low energy proximity sensing to transmit a
+     universally unique identifier picked up by a compatible app or
+     operating system. The identifier can be used to determine the
+     device's physical location, track customers, or trigger a
+     location-based action on the device such as a check-in on social
+     media or a push notification.
+
+MQTT (IBM)
+
+   MQTT (formerly MQ Telemetry Transport) is a publish-subscribe based
+   "light weight" messaging protocol for use on top of the TCP/IP
+   protocol. It is designed for connections with remote locations where a
+   "small code footprint" is required or the network bandwidth is limited.
+   - [https://en.wikipedia.org/wiki/MQTT]Wikipedia
+
+     The publish-subscribe messaging pattern requires a message broker.
+     The broker is responsible for distributing messages to interested
+     clients based on the topic of a message. Andy Stanford-Clark and
+     Arlen Nipper of Cirrus Link Solutions authored the first version of
+     the protocol in 1999.
+
+STOMP
+
+   Simple (or Streaming) Text Oriented Message Protocol (STOMP), formerly
+   known as TTMP, is a simple text-based protocol, designed for working
+   with message-oriented middleware (MOM). -
+   [https://en.wikipedia.org/wiki/Streaming_Text_Oriented_Messaging_Protoc
+   ol]Wikipedia
+
+     STOMP provides an interoperable wire format that allows STOMP
+     clients to talk with any message broker supporting the protocol. It
+     is thus language-agnostic, meaning a broker developed for one
+     programming language or platform can receive communications from
+     client software developed in another language.
+
+Websocket
+
+   WebSocket is a protocol providing full-duplex communication channels
+   over a single TCP connection. -
+   [https://en.wikipedia.org/wiki/WebSocket]Wikipedia
+
+     WebSocket is designed to be implemented in web browsers and web
+     servers, but it can be used by any client or server application. The
+     WebSocket Protocol is an independent TCP-based protocol. The
+     WebSocket protocol makes more interaction between a browser and a
+     website possible, facilitating live content and the creation of
+     real-time games. This is made possible by providing a standardized
+     way for the server to send content to the browser without being
+     solicited by the client, and allowing for messages to be passed back
+     and forth while keeping the connection open.
+
+XMPP (IETF)
+
+   Extensible Messaging and Presence Protocol (XMPP) is a communications
+   protocol for message-oriented middleware based on XML (Extensible
+   Markup Language). - [https://en.wikipedia.org/wiki/XMPP]Wikipedia
+
+     It enables the near-real-time exchange of structured yet extensible
+     data between any two or more network entities. Designed to be
+     extensible, the protocol has also been used for publish-subscribe
+     systems, signalling for VoIP, video, file transfer, gaming, Internet
+     of Things (IoT) applications such as the smart grid, and social
+     networking services.
+
+Technologies
+
+     This sections regroups a curated list of awesome technologies that
+     are closely related to the IoT world.
+
+NFC
+
+   Near field communication (NFC) is the set of protocols that enable
+   electronic devices to establish radio communication with each other by
+   touching the devices together, or bringing them into proximity to a
+   distance of typically 10cm or less. -
+   [https://en.wikipedia.org/wiki/Near_field_communication]Wikipedia
+
+OPCUA
+
+   OPC-UA is a not only a protocol for industrial automation but also a
+   technology that allows semantic description and object modelling of
+   industrial environment.
+   [https://en.wikipedia.org/wiki/OPC_Unified_Architecture]Wikipedia
+
+Standards and Alliances
+
+Standards
+
+     * [http://www.etsi.org/technologies-clusters/technologies/m2m]ETSI
+       M2M - The ETSI Technical Committee is developing standards for
+       Machine to Machine Communications.
+     * [http://www.onem2m.org/]OneM2M - The purpose and goal of oneM2M is
+       to develop technical specifications which address the need for a
+       common M2M Service Layer that can be readily embedded within
+       various hardware and software, and relied upon to connect the
+       myriad of devices in the field with M2M application servers
+       worldwide.
+     * [https://opcfoundation.org/]OPCUA - OPC Unified Architecture (OPC
+       UA) is an industrial M2M communication protocol for
+       interoperability developed by the OPC Foundation.
+     * [https://openconnectivity.org/]OCF - OCF, The Open Connectivity
+       Foundation, develop standards and certification for devices
+       involved in the Internet of Things (IoT) based around Constrained
+       Application Protocol (CoAP).
+
+Alliances
+
+     * [http://www.meet-iot.eu/Alliance-for-Internet-of-Things-Innovation-
+       AIOTI.html]AIOTI - The Internet of Things Innovation (AIOTI) aims
+       to strengthen links and build new relationships between the
+       different IoT players (industries, SMEs, startups) and sectors.
+     * [https://allseenalliance.org/]AllSeen Alliance - The AllSeen
+       Alliance is a nonprofit consortium dedicated to enabling and
+       driving the widespread adoption of products, systems and services
+       that support the Internet of Everything with an open, universal
+       development framework supported by a vibrant ecosystem and thriving
+       technical community.
+     * [https://www.bluetooth.com/]Bluetooth Special Interest Group - The
+       Bluetooth Special Interest Group (SIG) is the body that oversees
+       the development of Bluetooth standards and the licensing of the
+       Bluetooth technologies and trademarks to manufacturers.
+     * [http://www.ipso-alliance.org/]IPSO Alliance - The IPSO Alliance
+       provides a foundation for industry growth by fostering awareness,
+       providing education, promoting the industry, generating research,
+       and creating a better understanding of IP and its role in the
+       Internet of Things.
+     * [https://www.lora-alliance.org/]LoRa Alliance - The LoRa Alliance
+       is an open, non-profit association of members that believes the
+       internet of things era is now. It was initiated by industry leaders
+       with a mission to standardize Low Power Wide Area Networks (LPWAN)
+       being deployed around the world to enable Internet of Things (IoT),
+       machine-to-machine (M2M), and smart city, and industrial
+       applications.
+     * [https://opcfoundation.org/about/opc-foundation/mission-statement/]
+       OPC Foundation - The mission of the OPC Foundation is to manage a
+       global organization in which users, vendors and consortia
+       collaborate to create data transfer standards for multi-vendor,
+       multi-platform, secure and reliable interoperability in industrial
+       automation. To support this mission, the OPC Foundation creates and
+       maintains specifications, ensures compliance with OPC
+       specifications via certification testing and collaborates with
+       industry-leading standards organizations.
+     * [http://threadgroup.org/]Thread Group - The Thread Group, composed
+       of members from Nest, Samsung, ARM, Freescale, Silicon Labs, Big
+       Ass Fans and Yale, drives the development of the Thread network
+       protocol.
+     * [https://www.wi-fi.org/]Wi-Fi Alliance - Wi-Fi Alliance® is a
+       worldwide network of companies composed of several companies
+       forming a global non-profit association with the goal of driving
+       the best user experience with a new wireless networking technology
+       - regardless of brand.
+     * [http://www.zigbee.org/]Zigbee Alliance - The ZigBee Alliance is an
+       open, non-profit association of approximately 450 members driving
+       development of innovative, reliable and easy-to-use ZigBee
+       standards.
+     * [http://z-wavealliance.org/]Z-Wave Alliance - Established in 2005,
+       the Z-Wave Alliance is comprised of industry leaders throughout the
+       globe that are dedicated to the development and extension of Z-Wave
+       as the key enabling technology for 'smart' home and business
+       applications.
+
+Resources
+
+Books
+
+
+
+     A hands-on guide that will teach how to design and implement
+     scalable, flexible, and open IoT solutions using web technologies.
+     This book focuses on providing the right balance of theory, code
+     samples, and practical examples to enable you to successfully
+     connect all sorts of devices to the web and to expose their services
+     and data over REST APIs. The book covers a number of web
+     technologies for your IoT toolbox: GPIO, Raspberry Pi, Embedded
+     Systems, REST and HTTP, WS, MQTT, CoAP, JSON-LD, Social Networks,
+     Node-RED, IFTTT, etc.
+
+
+
+     future with billions of connected "things" includes monumental
+     security concerns. This practical book explores how malicious
+     attackers can abuse popular IoT-based devices, including wireless
+     LED lightbulbs, electronic door locks, baby monitors, smart TVs, and
+     connected cars.
+
+Dominique Guinard
+
+   and Vlad Trifa
+
+     Using the Web to Build the IoT is a free book built as a collection
+     of six hand-picked chapters that introduce the key technologies and
+     concepts for building the application layer of the IoT. Dom Guinard
+     and Vlad Trifa, selected these specific topics to give you an
+     overview of the Web of Things architecture, along with techniques
+     for data ingestion, searching, security, and visualization.
+
+
+
+     Get ready to create distributed sensor systems and intelligent
+     interactive devices using the ZigBee wireless networking protocol
+     and Series 2 XBee radios. By the time you're halfway through this
+     fast-paced, hands-on guide, you'll have built a series of useful
+     projects, including a complete ZigBee wireless network that delivers
+     remotely sensed data.
+
+
+
+     Whether it's called physical computing, ubiquitous computing, or the
+     Internet of Things, it's a hot topic in technology: how to channel
+     your inner Steve Jobs and successfully combine hardware, embedded
+     software, web services, electronics, and cool design to create
+     cutting-edge devices that are fun, interactive, and practical. If
+     you'd like to create the next must-have product, this unique book is
+     the perfect place to start.
+
+Carles Cufí, [http://www.amazon.com/Getting-Started-Bluetooth-Low-Energy/dp/1491949511#productDescription]Akiba and [http://www.amazon.com/Getting-Started-Bluetooth-Low-Energy/dp/1491949511#productDescription]Robert Davidson [4.5]
+
+     This book provides a solid, high-level overview of how devices use
+     Ble to communicate with each other. You'll learn useful low-cost
+     tools for developing and testing Ble-enabled mobile apps and
+     embedded firmware and get examples using various development
+     platforms including iOs and Android for app developers and embedded
+     platforms for product designers and hardware engineers.
+
+
+
+     Smart Things presents a problem-solving approach to addressing
+     designers' needs and concentrates on process, rather than
+     technological detail, to keep from being quickly outdated. It pays
+     close attention to the capabilities and limitations of the medium in
+     question and discusses the tradeoffs and challenges of design in a
+     commercial environment.
+
+
+
+     JavaScript on Things is your first step into the exciting and
+     downright entertaining world of programming for small electronics.
+     If you know enough JavaScript to hack a website together, you'll be
+     making things bleep, blink and spin faster than you can say
+     "nodebot". This fully-illustrated, hands-on book shows you how to
+     get going with platforms like Arduino, Tessel, and Raspberry Pi.
+
+Articles
+
+     * [http://www.forbes.com/sites/jacobmorgan/2014/05/13/simple-explanat
+       ion-internet-things-that-anyone-can-understand/]A Simple
+       Explanation Of 'The Internet Of Things' (Forbes) - This article
+       attemps to give an answer to what exactly is the "Internet of
+       things" and what impact it is going to have on us.
+     * [http://embedded-computing.com/21517-iot-security-is-there-an-app-f
+       or-that/]IoT security. Is there an app for that ? - The Internet of
+       Things World conference investigates IoT application development,
+       security, and business models.
+     * [http://iamqa.in/2015/10/04/The-IoT-Testing-Atlas/]The IoT Testing
+       Atlas - A testing methodology for managing the permutations of
+       parameters while testing an IoT based product.
+
+Papers
+
+     * [http://wso2.com/wso2_resources/wso2_whitepaper_a-reference-archite
+       cture-for-the-internet-of-things.pdf]A Reference Architecture for
+       the Internet of Things - This white paper introduces a Reference
+       Architecture for the Internet of Things (IoT): this includes the
+       devices as well as the server-side and cloud architecture required
+       to interact with and manage the devices.
+     * [https://www-ssl.intel.com/content/dam/www/public/us/en/documents/w
+       hite-papers/developing-solutions-for-iot.pdf]Developing solutions
+       for the Internet of Things - Intel's vision in enabling secure and
+       seamless solutions for the Internet of Things (IoT).
+     * [http://publications.lib.chalmers.se/records/fulltext/199826/199826
+       .pdf]Evaluation of indoor positioning based on Bluetooth Smart
+       technology - Master of Science Thesis in the Programme Computer
+       Systems and Networks.
+     * [http://arxiv.org/pdf/1207.0203.pdf]IoT: A Vision, Architectural
+       Elements, and Future Directions - This paper presents a cloud
+       centric vision for worldwide implementation of Internet of Things.
+       The key enabling technologies and application domains that are
+       likely to drive IoT research in the near future are discussed.
+     * [https://www.tiaonline.org/sites/default/files/pages/TIA-White-Pape
+       r-Realizing_the_Potential_of_the_Internet_of_Things.pdf]Realizing
+       the Potential of the Internet of Things - A white paper from the
+       Telecommunications Industry Association (TIA) written in the form
+       of a set of recommendations to policy maker on leveraging and
+       realizing the potential of the Internet of Things market.
+     * [http://www.aig.com/Chartis/internet/US/en/AIG%20White%20Paper%20-%
+       20IoT%20English%20DIGITAL_tcm3171-677828_tcm3171-698578.pdf]The
+       Internet of Things: Evolution or Revolution ? - This white paper
+       compares the current Internet of Things market rise to other
+       industrial revolutions, the challenges it introduces, as well as
+       its consequences on our daily lives.
+
+License
+
+   [http://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+   To the extent possible under law, [https://github.com/HQarroum/]Halim
+   Qarroum has waived all copyright and related or neighboring rights to
+   this work.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Reloa
+   d to refresh your session. You signed out in another tab or window.
+   Reloa
+   d to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

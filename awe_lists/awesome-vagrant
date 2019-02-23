@@ -1,0 +1,317 @@
+   #Recent
+   Commits to awesome-vagrant:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 24
+     * 325
+     * 25
+
+awesome-vagrant
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome Vagrant resources, plugins, tutorials and
+   other nice things.
+   list
+   vagrant
+   38 commits
+     * 0 releases
+     * Fetch
+       ing contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/i
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-vagra
+       nt]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-vagra
+       nt]Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   .gitig
+   nore
+   [file://localhost/iJackUA/awesome-vagrant/commit/403b791a0ec651f0e033c0
+   ac6bd8f35131d484c1]correct gitignore Jul 31, 2014
+   .trav
+   is.yml
+   [file://localhost/iJackUA/awesome-vagrant/commit/a7f5767085bc1f62b4a5da
+   f33e791fd481a2e837]add awesome_bot validation Feb 1, 2016
+   C
+   ONTRIBUTING.md
+   [file://localhost/iJackUA/awesome-vagrant/commit/f20957cd1485f8d85cb3f4
+   c8f58e609bd2d8a1a0]Update CONTRIBUTING.md Oct 24, 2016
+   README.
+   md
+   [file://localhost/iJackUA/awesome-vagrant/commit/5948e1c2c0935dfd31fb00
+   63928c12554d98f040]add vagrant-scp plugin Jan 4, 2018
+
+README.md
+
+Awesome Vagrant
+
+   [https://github.com/sindresorhus/awesome]Awesome
+   [https://gitter.im/iJackUA/awesome-vagrant?utm_source=badge&utm_medium=
+   badge&utm_campaign=pr-badge]Gitter
+   [https://travis-ci.org/iJackUA/awesome-vagrant]Build Status
+
+   A curated list of awesome Vagrant resources, plugins, tutorials and
+   other nice things.
+
+Official resources
+
+     * [https://www.vagrantup.com/]Vagrant site - installation
+       instruction, official manuals and docs.
+     * [https://github.com/hashicorp/vagrant]GitHub repo - source code,
+       issues discussion and collaboration.
+
+Boxes
+
+   Where to find OS boxes ?
+     * [http://www.vagrantbox.es/]Vagrantbox.es - the biggest list of all
+       available boxes, maintained by community via GitHub pull requests.
+     * [https://app.vagrantup.com/boxes/search]Vagrant Cloud - config
+       share, boxes distribution and discovery (also premium features of
+       private collaboration and sharing).
+     * [https://cloud-images.ubuntu.com/vagrant/]Cloud Images Ubuntu.com -
+       "clean" official Ubuntu cloud images.
+     * [https://github.com/chef/bento#current-baseboxes]Baseboxes from
+       Opscode - CentOS, Fedora, Debian, FreeBSD, Ubuntu.
+     * [http://puppet-vagrant-boxes.puppetlabs.com/]Puppet Labs Vagrant
+       Boxes - these boxes are provided to be used by various Puppet
+       projects.
+
+Provisioning
+
+     * [https://www.vagrantup.com/docs/provisioning/index.html]All
+       available build in provisioning providers - official doc.
+     * [http://fideloper.github.io/Vaprobash/index.html]Vaprobash -
+       Vagrant Provisioning Bash Scripts.
+
+Notable plugins
+
+   You can install these modules by this command vagrant plugin install
+   MODULE-NAME
+     * [https://github.com/hashicorp/vagrant/wiki/Available-Vagrant-Plugin
+       s]List of available Vagrant plugins from GitHub wiki.
+     * [https://github.com/dotless-de/vagrant-vbguest]vagrant-vbguest -
+       autoupdate VirtualBox guest additions (according to VB version).
+     * [https://github.com/cogitatio/vagrant-hostsupdater]vagrant-hostsupd
+       ater - adds an entry to your /etc/hosts file on the host system.
+     * [http://fgrehm.viewdocs.io/vagrant-cachier/]vagrant-cachier - share
+       a common package (apt-get, npm, etc.) cache among similar VM
+       instances.
+     * [https://github.com/phinze/vagrant-host-shell]vagrant-host-shell -
+       a vagrant provisioner to run commands on the host when a VM boots.
+     * [https://github.com/jaugustin/vagrant-ansible-local]vagrant-ansible
+       -local allow provisioning your VM with ansible playbooks directly
+       from the guest VM.
+     * [https://github.com/jedi4ever/sahara]sahara - easy manage VM state
+       (commit/rollback while experimenting with software stack).
+     * [https://github.com/projectatomic/adb-vagrant-registration]vagrant-
+       registration - add "register" and "unregister" capabilities to
+       Vagrant guests for updates on systems with a subscription
+       model(like Red Hat Enterprise Linux).
+     * [https://github.com/projectatomic/vagrant-service-manager]vagrant-s
+       ervice-manager - enable easier access to the features and services
+       provided by the
+       [https://github.com/projectatomic/adb-atomic-developer-bundle]Atomi
+       c Developer Bundle (ADB).
+     * [https://github.com/invernizzi/vagrant-scp]vagrant-scp - Copy files
+       to a Vagrant VM via SCP.
+
+Helpers / Tools
+
+     * [https://www.packer.io/]Packer - a tool for creating identical
+       machine images for multiple platforms from a single source
+       configuration. For fast infrastructure deployment with
+       multi-provider portability.
+     * [https://github.com/jedi4ever/veewee]Veewee - a tool for easily
+       (and repeatedly) building custom Vagrant base boxes, KVMs, and
+       virtual machine images.
+     * [https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#vagrant]Vag
+       rant plugin for ZSH shell - auto-complete for commands, task names,
+       box names and built-in documentation.
+     * [https://github.com/MunGell/vgm]CLI Vagrant Manager - simple
+       command-line tool to manage multiple vagrant boxes
+
+Desktop tools
+
+     * [http://vagrantmanager.com/]Vagrant Manager for OS X.
+
+Web services
+
+   To generate Vagrantfile with automated provisioning scripts.
+     * [http://phansible.com/]Phansible - provides an easy to use
+       interface that helps you generate Ansible Playbooks for PHP based
+       projects.
+     * [https://puphpet.com/]PuPHPet - a simple GUI to set up virtual
+       machines for [DEL: PHP :DEL] Web development.
+     * [http://getprotobox.com/]Protobox - PuPHPet analog, but uses own
+       installer with YAML configuration format to control everything that
+       is installed on the virtual machine.
+     * [http://rove.io/]Rove - a service that allows you to pregenerate
+       typical Vagrant builds.
+
+Proxy services
+
+   To proxy your local web server and make it publicly available over the
+   internet.
+     * [https://www.vagrantup.com/docs/share/]Vagrant share - allows you
+       to share your Vagrant environment with anyone in the world.
+     * [http://nip.io/]nip.io - a magic domain name that provides wildcard
+       DNS for any IP address.
+     * [https://ngrok.com/]ngrok - tool to create secure tunnels to expose
+       a local server behind a NAT or firewall to the internet.
+     * [http://proxylocal.com/]proxylocal.com - proxy your local
+       web-server and make it publicly available over the internet.
+     * [https://localtunnel.github.io/www/]localtunnel.me - assign you a
+       unique publicly accessible url that will proxy all requests to your
+       locally running webserver.
+
+Tutorials
+
+     * [http://www.thisprogrammingthing.com/2013/getting-started-with-vagr
+       ant/]Getting Started With Vagrant by This Programming Thing.
+     * [http://stdout.in/en/post/getting_started_with_vagrant_automated_de
+       v_servers_deploy_and_provisioning]Getting started with Vagrant -
+       automated dev servers deploy and provisioning.
+     * [http://confluence.jetbrains.com/display/PhpStorm/Working+with+Adva
+       nced+Vagrant+features+in+PhpStorm]Working with Advanced Vagrant
+       features in PhpStorm.
+     * [https://scotch.io/tutorials/sharing-your-virtual-machine-on-the-we
+       b-with-vagrant-share]Sharing Your Virtual Machine on the Web with
+       Vagrant Share.
+
+Books
+
+     * [https://www.amazon.com/Vagrant-Running-Virtualized-Development-Env
+       ironments/dp/1449335837]Vagrant: Up and Running by Mitchell
+       Hashimoto.
+     * [https://leanpub.com/vagrantcookbook]Vagrant CookBook by Erika
+       Heidi.
+
+Popular readymade environments
+
+     * [https://github.com/vagrantpress/vagrantpress]Vagrantpress -
+       development environment for creating and modifying WordPress sites.
+     * [https://github.com/Varying-Vagrant-Vagrants/VVV]Varying Vagrant
+       Vagrants - An open source Vagrant configuration focused on
+       WordPress development.
+     * [https://github.com/joomlatools/joomlatools-vagrant]Joomla-Vagrant.
+     * [https://www.drupal.org/project/vdd]VDD - Vagrant Drupal
+       Development.
+     * [https://www.drupalvm.com/]Drupal VM - A VM for local Drupal
+       development, built with Vagrant + Ansible
+     * [https://github.com/iJackUA/try-yii2]Try Yii2 - try Yii2 with
+       Vagrant VM + Ansible provisioning = Complete readymade virtual
+       server playground.
+     * [https://github.com/bryannielsen/Laravel4-Vagrant]Laravel4-Vagrant
+       - run Laravel 4 inside a Ubuntu 12.04 Vagrant Virtual Machine w/PHP
+       5.5.
+     * [https://github.com/openstack-ansible/openstack-ansible]OpenStack
+       on Ansible with Vagrant.
+     * [https://laravel.com/docs/master/homestead]Laravel Homestead -
+       Official Vagrant Box for Laravel development, based on Ubuntu 16.04
+       LTS, PHP 7, Nginx, and multiple database platforms.
+     * [https://scotch.io/bar-talk/announcing-scotch-box-2-0-our-dead-simp
+       le-vagrant-lamp-stack-improved]Scotch Box - Simple Vagrant Box with
+       [https://en.m.wikipedia.org/wiki/LAMP_%28software_bundle%29]LAMP
+       stack, plus some useful extras, based on Ubuntu 14.04 LTS.
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+   To the extent possible under law, [http://stdout.in/]Ievgen Kuzminov
+   has waived all copyright and related or neighboring rights to this
+   work.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   R
+   eload to refresh your session. You signed out in another tab or window.
+   R
+   eload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

@@ -1,0 +1,2195 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - lnishan/awesome-competitive-programming: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/6169473?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="lnishan/awesome-competitive-programming" /><meta property="og:url" content="https://github.com/lnishan/awesome-competitive-programming" /><meta property="og:description" content="awesome-competitive-programming - :gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E075:5D4D:1880013:2F44C7B:5AD2F689" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E075:5D4D:1880013:2F44C7B:5AD2F689" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ODQ4ZDQ2NWZjMjcxNGNkYWY4NjQ3M2RhMWJiZGZjYWY0M2M4M2QxZTkwYjQ3ZWQwNGQ4YjgxODI5NDViMGFhYnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTA3NTo1RDREOjE4ODAwMTM6MkY0NEM3Qjo1QUQyRjY4OSIsInRpbWVzdGFtcCI6MTUyMzc3NTExNCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="1c805658fb0fd49ea7386314947d07245571c818">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/lnishan/awesome-competitive-programming/commits/master.atom" rel="alternate" title="Recent Commits to awesome-competitive-programming:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-competitive-programming - :gem: A curated list of awesome Competitive Programming, Algorithm and Data Structure resources">
+  <meta name="go-import" content="github.com/lnishan/awesome-competitive-programming git https://github.com/lnishan/awesome-competitive-programming.git">
+
+  <meta name="octolytics-dimension-user_id" content="6169473" /><meta name="octolytics-dimension-user_login" content="lnishan" /><meta name="octolytics-dimension-repository_id" content="46572574" /><meta name="octolytics-dimension-repository_nwo" content="lnishan/awesome-competitive-programming" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="46572574" /><meta name="octolytics-dimension-repository_network_root_nwo" content="lnishan/awesome-competitive-programming" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/lnishan/awesome-competitive-programming" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/lnishan/awesome-competitive-programming/search" data-unscoped-search-url="/search" action="/lnishan/awesome-competitive-programming/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/lnishan/awesome-competitive-programming">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Flnishan%2Fawesome-competitive-programming" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Flnishan%2Fawesome-competitive-programming"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/lnishan/awesome-competitive-programming/watchers"
+     aria-label="243 users are watching this repository">
+    243
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Flnishan%2Fawesome-competitive-programming"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/lnishan/awesome-competitive-programming/stargazers"
+      aria-label="2683 users starred this repository">
+      2,683
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Flnishan%2Fawesome-competitive-programming"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/lnishan/awesome-competitive-programming/network" class="social-count"
+       aria-label="689 users forked this repository">
+      689
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/lnishan">lnishan</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/lnishan/awesome-competitive-programming">awesome-competitive-programming</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /lnishan/awesome-competitive-programming" href="/lnishan/awesome-competitive-programming">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /lnishan/awesome-competitive-programming/issues" href="/lnishan/awesome-competitive-programming/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /lnishan/awesome-competitive-programming/pulls" href="/lnishan/awesome-competitive-programming/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /lnishan/awesome-competitive-programming/projects" href="/lnishan/awesome-competitive-programming/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /lnishan/awesome-competitive-programming/wiki" href="/lnishan/awesome-competitive-programming/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /lnishan/awesome-competitive-programming/pulse" href="/lnishan/awesome-competitive-programming/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2N8YC1M81R32e0q/P9bdd61gLsL4ifzFOhp/koe6zMCMqw1U/hdUpoON5Yn/YK7gxXRcjLVoqGk3GWRQZAyhfg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<g-emoji class="g-emoji" alias="gem" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f48e.png">💎</g-emoji> A curated list of awesome Competitive Programming, Algorithm and Data Structure resources
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://codeforces.com/blog/entry/23054">http://codeforces.com/blog/entry/23054</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/lnishan/awesome-competitive-programming/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/quora" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:quora">
+        quora
+      </a>
+      <a href="/topics/learning-materials" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:learning-materials">
+        learning-materials
+      </a>
+      <a href="/topics/contest" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:contest">
+        contest
+      </a>
+      <a href="/topics/practice" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:practice">
+        practice
+      </a>
+      <a href="/topics/reference-materials" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:reference-materials">
+        reference-materials
+      </a>
+      <a href="/topics/competitive-programming" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:competitive-programming">
+        competitive-programming
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/algorithm" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:algorithm">
+        algorithm
+      </a>
+      <a href="/topics/programming-contests" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:programming-contests">
+        programming-contests
+      </a>
+      <a href="/topics/data-structure" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:data-structure">
+        data-structure
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/lnishan/awesome-competitive-programming/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                291
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/lnishan/awesome-competitive-programming/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              3
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/lnishan/awesome-competitive-programming/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/lnishan/awesome-competitive-programming/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      18
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/lnishan/awesome-competitive-programming/blob/master/LICENSE.md">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC-BY-4.0
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/lnishan/awesome-competitive-programming/search?l=html"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#e34c26;"></span>
+                  <span class="lang">HTML</span>
+                  <span class="percent">87.5%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/lnishan/awesome-competitive-programming/search?l=css"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                  <span class="lang">CSS</span>
+                  <span class="percent">12.5%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="HTML 87.5%" style="width:87.5%; background-color:#e34c26;" itemprop="keywords">HTML</span>
+      <span class="language-color" aria-label="CSS 12.5%" style="width:12.5%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/lnishan/awesome-competitive-programming.git" aria-label="Clone this repository at https://github.com/lnishan/awesome-competitive-programming.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/lnishan/awesome-competitive-programming.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/lnishan/awesome-competitive-programming/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/lnishan/awesome-competitive-programming/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/lnishan/awesome-competitive-programming/tree/cf"
+               data-name="cf"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                cf
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/lnishan/awesome-competitive-programming/tree/markdown-pdf"
+               data-name="markdown-pdf"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                markdown-pdf
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/lnishan/awesome-competitive-programming/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/lnishan/awesome-competitive-programming/tree-commit/40361d0d1aa2123240364826e8d1df7fd4b6b9b8" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/lnishan/awesome-competitive-programming/tree/40361d0d1aa2123240364826e8d1df7fd4b6b9b8">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="stylesheets" id="c7f5051a037ab8a1011827d1a393494b-a174e380e55c9e096e14a31c7f5cd60486cff7f7" href="/lnishan/awesome-competitive-programming/tree/master/stylesheets">stylesheets</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create master branch via GitHub" class="message" href="/lnishan/awesome-competitive-programming/commit/4c77751f64dddaf501d96175bd708b245259ae09">Create master branch via GitHub</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-25T06:47:39Z">Nov 25, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-184069d2b3bc9afb6cdbaa134e9dc624b23ed140" href="/lnishan/awesome-competitive-programming/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove dated items, update information and fix link redirects" class="message" href="/lnishan/awesome-competitive-programming/commit/fb32670fcbd258eb2e95afbd4510b5d0f37fdc6d">Remove dated items, update information and fix link redirects</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-09T12:47:55Z">Apr 9, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-40e881e18da58dce0ba87d399860d245cf507526" href="/lnishan/awesome-competitive-programming/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update CONTRIBUTING.md
+
+Corrected selling of &#39;Principle&#39; in section header" class="message" href="/lnishan/awesome-competitive-programming/commit/14ab428f0fe3b8ef9a0047c167385f5ccb3afd57">Update CONTRIBUTING.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-06T14:19:29Z">May 6, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE.md" id="37854d19817c792316d481f5beb93cc7-33beb41ebf07ddbfbb85b350b850f4e3c2019997" itemprop="license" href="/lnishan/awesome-competitive-programming/blob/master/LICENSE.md">LICENSE.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added OLYMPIADS IN INFORMATICS (an international journal) and improved descriptions" class="message" href="/lnishan/awesome-competitive-programming/commit/864a16b6af49fed5b3c453ac54f07b01b81eb02a">Added OLYMPIADS IN INFORMATICS (an international journal) and improve…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-01T18:19:22Z">Apr 1, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-e6bed7f3aaf9172d74943c9ec1c91b25b40b8f26" href="/lnishan/awesome-competitive-programming/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove excess blank lines" class="message" href="/lnishan/awesome-competitive-programming/commit/c9c1a8e927a340aa1bca54ab83c20e564c1d80a0">Remove excess blank lines</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-12T16:47:24Z">Apr 12, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.pdf" id="71782572afd0b6ea347fa40e15eca321-c03a518b4161468b6aaeebc29b1fc5850899e1a5" href="/lnishan/awesome-competitive-programming/blob/master/README.pdf">README.pdf</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add pdf version of the awesome list (courtesy of markdown-pdf and cayman-theme)" class="message" href="/lnishan/awesome-competitive-programming/commit/204b89b2019111a6d8e79c57abd6dca1a6e75692">Add pdf version of the awesome list (courtesy of markdown-pdf and cay…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-17T23:39:41Z">Nov 17, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="index.html" id="eacf331f0ffc35d4b482f1d15a887d3b-1204fa6be00d7020e5761c6850cf3b5574cd3390" href="/lnishan/awesome-competitive-programming/blob/master/index.html">index.html</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create master branch via GitHub" class="message" href="/lnishan/awesome-competitive-programming/commit/4c77751f64dddaf501d96175bd708b245259ae09">Create master branch via GitHub</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-25T06:47:39Z">Nov 25, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="params.json" id="cbd52254b7d2e83b1f9b7a17e646284a-7089e6de49e8690f66a277b5eb8e71bf3f05c6ac" href="/lnishan/awesome-competitive-programming/blob/master/params.json">params.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create master branch via GitHub" class="message" href="/lnishan/awesome-competitive-programming/commit/4c77751f64dddaf501d96175bd708b245259ae09">Create master branch via GitHub</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-25T06:47:39Z">Nov 25, 2016</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-competitive-programming-" class="anchor" aria-hidden="true" href="#awesome-competitive-programming-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Competitive Programming <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of awesome <code>Competitive Programming</code>, <code>Algorithm</code> and <code>Data Structure</code> resources.</p>
+<p>Created with a view to connecting people to information, this list below contains a complete collection of all the fantastic resources I've collected over the course of my 11-year competitive programming career. I hope you'll find it useful :)</p>
+<p><a href="https://www.quora.com/What-is-competitive-programming-2" rel="nofollow">What is competitive programming? - Quora</a></p>
+<h2><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Please kindly follow <a href="/lnishan/awesome-competitive-programming/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> to get started.</p>
+<p>You can also contribute by sharing!<br>
+Share the list with your classmates, your friends and everyone :)</p>
+<blockquote>
+<p>By connecting more people to information,<br>
+You, are doing not me, but everyone a HUGE favor!</p>
+<p>I really hope that more people can benefit from this list :)</p>
+</blockquote>
+<h2><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#list-of-lists">List of Lists</a></li>
+<li><a href="#syllabuses">Syllabuses</a></li>
+<li><a href="#tutorial-websites">Tutorial Websites</a></li>
+<li><a href="#open-courses">Open Courses</a>
+<ul>
+<li><a href="#open-courses-for-algorithms-and-data-structures">Open Courses for Algorithms and Data Structures</a></li>
+</ul>
+</li>
+<li><a href="#books">Books</a>
+<ul>
+<li><a href="#books-for-algorithms">Books for Algorithms</a> | <a href="#books-for-mathematics">Books for Mathematics</a></li>
+</ul>
+</li>
+<li><a href="#sites-for-practice">Sites for Practice</a>
+<ul>
+<li><a href="#problem-classifiers">Problem Classifiers</a> | <a href="#contest-calendars">Contest Calendars</a></li>
+</ul>
+</li>
+<li><a href="#sites-for-questions">Sites for Questions</a></li>
+<li><a href="#implementations">Implementations</a></li>
+<li><a href="#language-specifics">Language Specifics</a>
+<ul>
+<li><a href="#cc">C/C++</a> | <a href="#java">Java</a> | <a href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+<li><a href="#tools">Tools</a>
+<ul>
+<li><a href="#ides">IDEs</a> | <a href="#personal-use">Personal use</a> | <a href="#contest-preparation">Contest Preparation</a></li>
+</ul>
+</li>
+<li><a href="#community">Community</a>
+<ul>
+<li><a href="#blogs">Blogs</a> | <a href="#youtube-and-livestreams">Youtube and Livestreams</a> | <a href="#quora">Quora</a></li>
+</ul>
+</li>
+<li><a href="#other-awesome-resources">Other Awesome Resources</a>
+<ul>
+<li><a href="#articles">Articles</a> | <a href="#faqs">FAQs</a> | <a href="#awesome-lists">Awesome Lists</a> | <a href="#interview-questions">Interview Questions</a></li>
+</ul>
+</li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2><a id="user-content-list-of-lists" class="anchor" aria-hidden="true" href="#list-of-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>List of Lists</h2>
+<blockquote>
+<p>Awesome curated lists classified by topics.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="http://codeforces.com/blog/entry/13529" rel="nofollow">Good Blog Post Resources about Algorithm and Data Structures - Codeforces</a></td>
+<td>A collection of fantastic tutorial blog posts written by Codeforces users. Some intriguing ones include Palindromic Trees, Policy Based Data Structures, and a lot more.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://codeforces.com/blog/entry/57282" rel="nofollow">All of the good tutorials found on codeforces - Codeforces</a></td>
+<td>Another good collection of tutorial blog posts written by Codeforces users.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://discuss.codechef.com/questions/48877/data-structures-and-algorithms" rel="nofollow">Data Structures and Algorithms - CodeChef Discuss</a></td>
+<td>A very complete list of competitive programming resources. A must-have in your browser bookmark.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/" rel="nofollow">How to prepare for ACM - ICPC? - GeeksforGeeks</a></td>
+<td>A detailed walk-through of the preparations for ACM-ICPC.</td>
+</tr></tbody></table>
+<h2><a id="user-content-syllabuses" class="anchor" aria-hidden="true" href="#syllabuses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syllabuses</h2>
+<blockquote>
+<p>Find out what topics you need to learn.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://people.ksp.sk/%7Emisof/ioi-syllabus/" rel="nofollow">IOI Syllabus</a></td>
+<td>A detailed syllabus on which IOI contestants will be tested. This is still somewhat relevant to ACM-ICPC.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/" rel="nofollow">How to prepare for ACM - ICPC? - GeeksforGeeks</a></td>
+<td>A detailed walk-through of the preparations for ACM-ICPC.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit" rel="nofollow">Programming Camp Syllabus</a></td>
+<td>A list of important topics in competitive programming with exercise problems.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://goo.gl/unDETI" rel="nofollow">Juniors Training Sheet</a>, by <a href="https://sites.google.com/site/mostafasibrahim/" rel="nofollow">Mostafa Saad Ibrahim</a></td>
+<td>Simple problems for newcomers</td>
+</tr></tbody></table>
+<h2><a id="user-content-tutorial-websites" class="anchor" aria-hidden="true" href="#tutorial-websites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorial Websites</h2>
+<blockquote>
+<p>Awesome websites with great tutorials.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.topcoder.com/community/data-science/data-science-tutorials/" rel="nofollow">Topcoder Data Science Tutorials</a></td>
+<td>A list of tutorials written by respected Topcoder members. Many top programmers started learning data sciences from here.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://e-maxx.ru/algo/" rel="nofollow">E-Maxx (Russian)</a>, <a href="http://e-maxx-eng.appspot.com/" rel="nofollow">(English)</a></td>
+<td>A tutorial website widely used and referenced in the Russian-speaking competitive programming community. Only a small fraction of the original site is translated into English, but Google Translate would work okay.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/" rel="nofollow">Algorithms - GeeksforGeeks</a></td>
+<td>A website with a large archive of nicely written articles on different topics. It is a great complimentary resource for algorithm courses.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://wcipeg.com/wiki/Special:AllPages" rel="nofollow">PEGWiki</a></td>
+<td>A website with amazing in-depth wiki-like writeups on many topics. It's far better than those on Wikipedia in my opinion.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.hackerearth.com/practice/notes/trending/" rel="nofollow">Notes - HackerEarth</a></td>
+<td>A great crowdsourcing platform for tutorials. Also visit <a href="https://www.hackerearth.com/practice/codemonk/" rel="nofollow">Code Monk</a>.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://www.usaco.org/" rel="nofollow">USA Computing Olympiad (USACO)</a></td>
+<td>Contains several training pages on its website which are designed to develop one's skills in programming solutions to difficult and varied algorithmic problems at one's own pace.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://medium.com/basecs" rel="nofollow">basecs</a></td>
+<td>A blog with in-depth, illustrated tutorials on basic algorithms and data structures.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.commonlounge.com/discussion/d4a14f601eb44281b6c579e73d126cca/main?r=acp" rel="nofollow">Competitive Programming - Commonlounge</a></td>
+<td>Short video tutorials for beginner and intermediate concepts. Advanced tutorials selected from the best ones available on various CP blogs.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="https://www.mii.lt/olympiads_in_informatics/index.html" rel="nofollow">OLYMPIADS IN INFORMATICS</a></td>
+<td>An international journal focused on the research and practice of professionals who are working in the field of teaching and learning informatics to talented student.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://algolist.manual.ru/" rel="nofollow">algolist (Russian)</a></td>
+<td>A Russian website devoted to algorithms of all sorts. Some topics listed on this website seems pretty interesting.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://www.csie.ntnu.edu.tw/%7Eu91029/" rel="nofollow">演算法筆記 (Algorithm Notes) (Chinese)</a></td>
+<td>One of the most popular tutorial websites among the Taiwanese competitive programming community. The maintainer for this website spends immense efforts on researching algorithms.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://download.csdn.net/album/detail/657/1/1" rel="nofollow">国家集训队论文 1999-2015 (Papers from Chinese IOI training camps) (Chinese)</a></td>
+<td>Papers from the Chinese IOI training camps. It's interesting for the fact that one can tell different regions emphasize different things.</td>
+</tr></tbody></table>
+<h2><a id="user-content-open-courses" class="anchor" aria-hidden="true" href="#open-courses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Open Courses</h2>
+<blockquote>
+<p>Consider beginning your competitive programming journey with these awesome courses!</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.hackerearth.com/practice/codemonk/" rel="nofollow">Code Monk</a>, by HackerEarth</td>
+<td>A fantastic step-by-step tutorial on the essential topics in competitive programming.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://web.stanford.edu/class/cs97si/" rel="nofollow">Stanford CS 97SI: Introduction to Competitive Programming Contests</a></td>
+<td>Offers comprehensive lecture slides and a short list of exercise problems.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.edx.org/course/how-to-win-coding-competitions-secrets-of-champions" rel="nofollow">How to Win Coding Competitions: Secrets of Champions</a></td>
+<td>A course by ITMO University on competitive coding on edX.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.youtube.com/playlist?list=PLi0ZM-RCX5nsTc2Z6woHr5qoF6n3b-thO" rel="nofollow">Codechef's Indian Programming Camp</a></td>
+<td>Video Lectures from <a href="https://blog.codechef.com/2016/08/03/lectures-from-indian-coding-camp/" rel="nofollow">Codechef's Indian Programming Camp 2016</a>. Lectures given by top competitive programmers like Sergey Kulik, Kevin Charles Atienza and Anudeep Nekkanti. Primarily focused on exploring these concepts by applying them to actual competitive contest problems.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://algo.is/competitive-programming-course/" rel="nofollow">Reykjavik T-414-ÁFLV: A Competitive Programming Course</a></td>
+<td>An awesome course taught by <a href="https://algo.is" rel="nofollow">Bjarki Ágúst Guðmundsson (SuprDewd)</a>. These lectures feature neat slides and a nice list of problems to practice.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://sites.google.com/site/mzshieh/courses/problem-solving-and-programming-techniques-spring-2014" rel="nofollow">NCTU DCP4631: Problem Solving and Programming Techniques</a></td>
+<td>A course on basic topics featuring good lecture slides.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="https://github.com/mostafa-saad/ArabicCompetitiveProgramming">Materials (English)</a> from <a href="https://www.youtube.com/user/nobody123497" rel="nofollow">Arabic Competitive Programming Channel</a></td>
+<td>Some materials (slides &amp; source codes) covering a broad range of algorithmic topics</td>
+</tr></tbody></table>
+<h3><a id="user-content-open-courses-for-algorithms-and-data-structures" class="anchor" aria-hidden="true" href="#open-courses-for-algorithms-and-data-structures"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Open Courses for Algorithms and Data Structures</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://github.com/prakhar1989/awesome-courses#algorithms">prakhar1989/awesome-courses#algorithms</a></td>
+<td>A fantastic list of open courses offered by notable institutions (MIT, Stanford, UC Berkeley ... etc.).</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/" rel="nofollow">MIT SMA 5503: Introduction to Algorithms</a></td>
+<td>Lectured by Prof. Charles Leiserson (one of the coauthors of Introduction to Algorithms) and Prof. Erik Demaine (a brilliant professor who has made remarkable breakthroughs in data science), the course offers great materials, accompanied by intuitive and comprehensive analyses.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://web.engr.illinois.edu/%7Ejeffe/teaching/algorithms/" rel="nofollow">UIUC Algorithm Course</a></td>
+<td>lecture notes, homeworks, exams, and discussion problems covering a broad range of algorithmic topics</td>
+</tr></tbody></table>
+<h2><a id="user-content-books" class="anchor" aria-hidden="true" href="#books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<blockquote>
+<p>A list of recommended books for competitive programming.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★☆</td>
+<td><a href="https://cpbook.net/" rel="nofollow">Competitive Programming</a>, by Steven and Felix Halim</td>
+<td>This book contains a collection of relevant data structures, algorithms, and programming tips. It's a well-received book. ... The first edition is free for <a href="http://www.comp.nus.edu.sg/%7Estevenha/myteaching/competitive_programming/cp1.pdf" rel="nofollow">download (pdf)</a>.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/Programming-Challenges-Contest-Training-Computer/dp/0387001638" rel="nofollow">Programming Challenges: The Programming Contest Training Manual</a>, by Steven Skiena and Miguel Revilla</td>
+<td>This book includes more than 100 programming challenges, as well as the theory and key concepts necessary for approaching them. Problems are organized by topic, and supplemented by complete tutorial material.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://cses.fi/book.html" rel="nofollow">Competitive Programmer's Handbook</a>, by Antti Laaksonen</td>
+<td>An introduction to competitive programming for aspiring IOI and ICPC contestants. Free to <a href="https://cses.fi/book.pdf" rel="nofollow">download (pdf)</a>.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/Computational-Geometry-Applications-Mark-Berg/dp/3540779736" rel="nofollow">Computational Geometry: Algorithms and Applications</a>, by Mark de Berg, Otfried Cheong, Marc van Kreveld, Mark Overmars</td>
+<td>This is a well-written book which covers a broad range of computational geometry problems.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://comscigate.com/Books/contests/icpc.pdf" rel="nofollow">The Hitchhiker’s Guide to the Programming Contests</a>, by Nite Nimajneb</td>
+<td>This book is free for <a href="http://comscigate.com/Books/contests/icpc.pdf" rel="nofollow">download (pdf)</a>. This book covers various topics relevant to competitive programming.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://goo.gl/M4yfbr" rel="nofollow">プログラミングコンテストチャレンジブック (Japanese)</a>, by 秋葉拓哉, 岩田陽一, 北川宜稔</td>
+<td>An absolutely phenomenal book. The contents, organized in a very coherent manner, are nothing short of amazing. ... 培養與鍛鍊程式設計的邏輯腦：世界級程式設計大賽的知識、心得與解題分享 (Chinese Traditional)</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://www.tup.com.cn/booksCenter/book_05568701.html" rel="nofollow">算法竞赛入门经典 (Chinese)</a>, by 刘汝佳</td>
+<td>The Art of Algorithms and Programming Contests (English), 打下好基礎：程式設計與演算法競賽入門經典 (Chinese Traditional)</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.cn/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E5%85%A5%E9%97%A8%E7%BB%8F%E5%85%B8-%E8%AE%AD%E7%BB%83%E6%8C%87%E5%8D%97-%E5%88%98%E6%B1%9D%E4%BD%B3/dp/B009SJJGOU" rel="nofollow">算法竞赛入门经典——训练指南 (Chinese)</a>, by 刘汝佳, 陈锋</td>
+<td>提升程式設計的解題思考力─國際演算法程式設計競賽訓練指南 (Chinese Traditional)</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://goo.gl/O1tr8v" rel="nofollow">算法艺术与信息学竞赛 (Chinese)</a>, by 刘汝佳, 黄亮</td>
+<td>An old-time classic. It's old but the contents in this book are still considered to be very difficult by today's standards.</td>
+</tr></tbody></table>
+<h3><a id="user-content-books-for-algorithms" class="anchor" aria-hidden="true" href="#books-for-algorithms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books for Algorithms</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://mitpress.mit.edu/books/introduction-algorithms" rel="nofollow">Introduction to Algorithms</a>, by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein</td>
+<td>Also known as CLRS (taken from name initials), this book is often referred to as the "bible" for algorithms and data structures. It's one of the most popular textbooks for university algorithm courses. This book covered various algorithms and data structures in great detail. The writing is more rigorous and can be difficult to some.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://amzn.to/VjhioK" rel="nofollow">Algorithm Design</a>, by Jon Kleinberg and Éva Tardos</td>
+<td>This book revolves around techniques for designing algorithms. It's well-organized and written in a clear, understandable language. Each chapter is backed with practical examples and helpful exercises. The chapter on network flow is highly praised by lots. ... The lecture slides that accompany the textbook are available on its <a href="http://www.cs.princeton.edu/%7Ewayne/kleinberg-tardos/" rel="nofollow">official website</a>.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693" rel="nofollow">The Algorithm Design Manual</a>, by Steven S. Skiena</td>
+<td>The book is written in more readable text. Some find it comprehensive than other books. You can also find some good resources (including the author's own video lectures) on its <a href="http://www.algorist.com" rel="nofollow">official website</a>.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X" rel="nofollow">Algorithms</a>, by Robert Sedgewick and Kevin Wayne</td>
+<td>This book is neatly categorized, coupled with elaborate explanations and fantastic illustrations. It is used in some IOI training camps as a textbook.</td>
+</tr></tbody></table>
+<h3><a id="user-content-books-for-mathematics" class="anchor" aria-hidden="true" href="#books-for-mathematics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books for Mathematics</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0072899050" rel="nofollow">Discrete Mathematics and Its Applications</a>, by Kenneth H. Rosen</td>
+<td>Discrete Mathematics is closely relevant to competitive programming. This book provides comprehensive materials on a wide range of topics including: Logics and Proofs, Sets, Functions, Sequences, Matrices, Number Theory, Recursion, Counting, Probablity, Graphs, Trees and Boolean Alegra to name but a few.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025" rel="nofollow">Concrete Mathematics: A Foundation for Computer Science</a>, by Ronald L. Graham, Donald E. Knuth, Oren Patashnik</td>
+<td>The book offers a deeper insight into Discrete Mathematics with more emphases on number-related topics.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/Linear-Algebra-Its-Applications-5th/dp/032198238X/ref=sr_1_1?ie=UTF8&amp;qid=1455475253&amp;sr=8-1&amp;keywords=Linear+Algebra+and+Its+Applications" rel="nofollow">Linear Algebra and Its Applications</a>, by David C. Lay, Steven R. Lay, Judi J. McDonald</td>
+<td>The book does a brilliant job at bridging the gap between a physical system (for scientists and engineers) and an abstract system (for mathematicians).</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://www.dartmouth.edu/%7Echance/teaching_aids/books_articles/probability_book/book.html" rel="nofollow">Introduction to Probability</a>, by Charles M. Grinstead, J. Laurie Snell</td>
+<td>This is a well-written introductory probabilities book. ... It's free for <a href="http://www.dartmouth.edu/%7Echance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf" rel="nofollow">download (pdf)</a> (released under GNU Free Documentation License).</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.amazon.com/How-Solve-It-Mathematical-Princeton/dp/069111966X" rel="nofollow">How to Solve It: A New Aspect of Mathematical Method</a>, by G. Polya</td>
+<td>An old-time classic. In this book, the author provides a systematic way to solve problems creatively.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://artofproblemsolving.com/store/item/intermediate-counting" rel="nofollow">Intermediate Counting &amp; Probability</a>, by David Patrick</td>
+<td>Topics in counting and probability byformer USA Mathematical Olympiad winner David Patrick , topics  include inclusion-exclusion, 1-1 correspondences, the Pigeonhole Principle, constructive expectation, Fibonacci and Catalan numbers, recursion, conditional probability, generating functions, graph theory, and much more..</td>
+</tr></tbody></table>
+<h2><a id="user-content-sites-for-practice" class="anchor" aria-hidden="true" href="#sites-for-practice"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sites for Practice</h2>
+<blockquote>
+<p>Good online judge systems / contest platforms to practice.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="http://codeforces.com/" rel="nofollow">Codeforces</a></td>
+<td>Codeforces is one of, if not, the most popular contest platforms out there. Currently maintained by Saratov State University, it features regular contests and countless awesome original problems. Additionally, every contest provides immediate helpful tutorials (usually) written by the authors themselves. Codeforces also houses a strong and engaging community. All in all, one would indeed learn and improve tremendously here.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.topcoder.com/" rel="nofollow">Topcoder</a></td>
+<td>Topcoder has been around since 2001. Rich in history, It's considered to be one of the most prestigious organizations when it comes to technology competitions. Hundreds of SRMs gave birth to an abundant problemset. Problems here are typically more challenging than others and Topcoder therefore appeals to many elite programmers. The annual Topcoder Open (TCO) is also a widely-discussed event.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://code.google.com/codejam/" rel="nofollow">Google Code Jam</a></td>
+<td>Google Code Jam is certainly one of the most highly-esteemed programming competitions. The competition consists of unique programming challenges which must be solved in a fixed amount of time. Competitors may use any programming language and development environment to obtain their solutions.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://atcoder.jp" rel="nofollow">AtCoder</a></td>
+<td>AtCoder is a new but phenomenal contest platform created by a team of highly-rated Japanese competitive programmers.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.codechef.com/" rel="nofollow">CodeChef</a></td>
+<td>CodeChef is a non-profit educational initiative of Directi. It's a global competitive programming platform and has a large community of programmers that helps students and professionals test and improve their coding skills. Its objective is to provide a platform for practice, competition and improvement for both students and professional software developers. Apart from this, it aims to reach out to students while they are young and inculcate a culture of programming in India.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://www.spoj.com/" rel="nofollow">SPOJ</a></td>
+<td>The SPOJ platform is centered around an online judge system. It holds a staggering amount of problems prepared by its community of problem setters or taken from previous programming contests, some of which are great problems for practice (refer to the <a href="#problem-classifiers">Problem classifiers</a> section). SPOJ also allows advanced users to organize contests under their own rules.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://acm.timus.ru/" rel="nofollow">Timus</a></td>
+<td>Timus Online Judge is the largest Russian archive of programming problems with automatic judging system. Problems are mostly collected from contests held at the Ural Federal University, Ural Championships, Ural ACM ICPC Subregional Contests, and Petrozavodsk Training Camps.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://acm.hdu.edu.cn/" rel="nofollow">HDU</a></td>
+<td>HDU is an online judge maintained by Hangzhou Dianzi University. It's home to many classic problems from the Chinese IOI scene.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp" rel="nofollow">Aizu Online Judge</a></td>
+<td>Aizu online judge is a contest platform and problem archive hosted by The University of Aizu. It has a lot of great problems from programming competitions in Japan.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://uva.onlinejudge.org/" rel="nofollow">UVa</a></td>
+<td>An old-school problem archive / online judge with rich history. Thousands of problems, including many classic ones, are featured here. However, it is strongly advised that you practice with <a href="http://uhunt.onlinejudge.org/id/0" rel="nofollow">uHunt</a> following its "Competitive Programming Exercise" section.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.hackerrank.com" rel="nofollow">HackerRank</a></td>
+<td>HackerRank is a company that focuses on competitive programming challenges for both consumers and businesses. HackerRank's programming challenges can be solved in a variety of programming languages and span multiple computer science domains.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://poj.org/" rel="nofollow">POJ</a></td>
+<td>POJ is an online judge with many great problems maintained by Peking University. Most Chinese competitive programmers began their journey here. The platform is really dated so mysterious compilation and run-time issues may occur.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://projecteuler.net/" rel="nofollow">Project Euler</a></td>
+<td>Project Euler features a stunning set of good math problems. It also hosts a forum where people can discuss.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="https://www.hackerearth.com/" rel="nofollow">Hackerearth</a></td>
+<td>HackerEarth is a startup technology company based in Bangalore, India that provides recruitment solutions.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://coj.uci.cu/index.xhtml" rel="nofollow">Caribbean Online Judge</a></td>
+<td>COJ is hosted by University of Informatics Sciences (UCI, by its acronym in Spanish), located in Cuba. Feature ACM ICPC and Progresive constest styles, mostly from Caribbean and Latin American problem setters, also has problem classifier and contest calendar.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://csacademy.com" rel="nofollow">CS Academy</a></td>
+<td>New in the competitive programming scene, CS Academy is a growing online judge that hosts competitions once every two weeks. It supports live chat, interactive lessons and an integrated online editor (that actually works).</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://www.russiancodecup.ru/en/" rel="nofollow">Russian Code Cup</a></td>
+<td>Programming competitions powered by Mail.Ru Group. Competition consists of 3 qualification, 1 elimination and 1 final rounds. For each round contestants are given 4-8 problems which must be solved in a fixed amount of time.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://codefights.com/" rel="nofollow">CodeFights</a></td>
+<td>CodeFights is a website for competitive programming practice and interview preparation. It features daily challenges of varying difficulty, an archive of problems and regular (every 15 minutes) mini-tournaments. Good for beginners.</td>
+</tr></tbody></table>
+<h3><a id="user-content-problem-classifiers" class="anchor" aria-hidden="true" href="#problem-classifiers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Problem Classifiers</h3>
+<blockquote>
+<p>Sites classifying programming problems.<br>
+Choose a category (eg. DP) of interest and practice problems on that topic.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://a2oj.com/Categories.jsp" rel="nofollow">A2 Online Judge</a></td>
+<td>Mixed</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://problemclassifier.appspot.com/" rel="nofollow">Problem Classifier</a></td>
+<td>SPOJ</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8" rel="nofollow">UVa Online Judge</a></td>
+<td>CP Book</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://codeforces.com/problemset/tags/dp" rel="nofollow">Codeforces Tags</a></td>
+<td>CF (DP)</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.hackerrank.com/domains/algorithms/warmup" rel="nofollow">HackerRank</a></td>
+<td>HackerRank</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://goo.gl/unDETI" rel="nofollow">Juniors Training Sheet</a>, by <a href="https://sites.google.com/site/mostafasibrahim/" rel="nofollow">Mostafa Saad Ibrahim</a></td>
+<td>Simple problems for newcomers</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://luckycat.kshs.kh.edu.tw/" rel="nofollow">Lucky貓的 UVA（ACM）園地 (Chinese)</a></td>
+<td>UVa</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://community.topcoder.com/tc?module=ProblemArchive" rel="nofollow">Topcoder problem archive</a></td>
+<td>List of problems with categories and complexity levels</td>
+</tr></tbody></table>
+<h3><a id="user-content-contest-calendars" class="anchor" aria-hidden="true" href="#contest-calendars"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contest Calendars</h3>
+<blockquote>
+<p>Calendars for impending programming contests.<br>
+(Never miss another contest!)</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.hackerrank.com/calendar" rel="nofollow">Programming Contest Calendar - HackerRank</a></td>
+<td>Google Calendar export available</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://clist.by/" rel="nofollow">clist.by</a></td>
+<td>API available for use</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.limitskyapps.CodingCalendar" rel="nofollow">Coding Calendar (Android App)</a></td>
+<td></td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://github.com/nishanthvijayan/CoderCalendar">Coder's Calendar</a>: <a href="https://play.google.com/store/apps/details?id=com.corphots.coderscalendar" rel="nofollow">Android App</a>, <a href="https://chrome.google.com/webstore/detail/coders-calendar/bageaffklfkikjigoclfgengklfnidll" rel="nofollow">Chrome Extension</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/coder-calendar/" rel="nofollow">Firefox Add-on</a></td>
+<td></td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://codehorizon.star-lord.me/" rel="nofollow">CodeHorizon</a>: <a href="https://itunes.apple.com/in/app/codehorizon/id925056167?mt=8" rel="nofollow">iOS App</a>, <a href="https://play.google.com/store/apps/details?id=com.chintanghate.CodeHorizon" rel="nofollow">Android App</a></td>
+<td></td>
+</tr></tbody></table>
+<h2><a id="user-content-sites-for-questions" class="anchor" aria-hidden="true" href="#sites-for-questions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sites for Questions</h2>
+<blockquote>
+<p>These are great sites to ask questions.<br>
+Paste your codes at <a href="https://ideone.com/" rel="nofollow">ideone</a>, <a href="https://pastebin.com/" rel="nofollow">pastebin</a> or other sites to avoid formatting issues.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="http://codeforces.com/" rel="nofollow">Codeforces</a></td>
+<td>For quick answers, Codeforces is definitely the go-to place to ask about anything competition-related.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.quora.com/topic/Competitive-Programming" rel="nofollow">Competitive Programming - Quora</a></td>
+<td>You would typically get more elaborate answers on Quora, but you might not have your questions answered straightaway.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://cstheory.stackexchange.com/" rel="nofollow">Theoretical Computer Science Stack Exchange</a></td>
+<td>This place is generally for the academics, so don't ask questions about contest problems here.</td>
+</tr></tbody></table>
+<h2><a id="user-content-implementations" class="anchor" aria-hidden="true" href="#implementations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Implementations</h2>
+<blockquote>
+<p>Algorithm &amp; Data structure implementations.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="http://code-library.herokuapp.com/" rel="nofollow">CodeLibrary</a>, by Andrey Naumenko (indy256)</td>
+<td>CodeLibrary contains a large collection of implementations for algorithms and data structures in Java and C++. You may also visit his <a href="https://github.com/indy256/codelibrary">GitHub Repository</a>.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://github.com/spaghetti-source/algorithm">spaghetti-source/algorithm</a>, by Takanori MAEHARA (@tmaehara)</td>
+<td>High-quality implementations of many hard algorithms and data structures.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://github.com/kth-competitive-programming/kactl">kth-competitive-programming/kactl</a>, by Simon Lindholm (simonlindholm) et al.</td>
+<td>A phenomenally organized, documented and tested team notebook from KTH Royal Institute of Technology. One of the most well-crafted team notebooks (contest libraries) I've ever seen.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://github.com/jaehyunp/stanfordacm">jaehyunp/stanfordacm</a></td>
+<td>Stanford's team notebook is well maintained and the codes within are of high-quality.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://github.com/ngthanhtrung23/ACM_Notebook_new">ngthanhtrung23/ACM_Notebook_new</a>, by team RR Watameda (I_love_Hoang_Yen, flashmt, nguyenhungtam) from National University of Singapore</td>
+<td>RR Watameda represented National University of Singapore for the 2016 ACM-ICPC World Finals. The items in this notebook are pretty standard and well-organized.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://github.com/bobogei81123/bcw_codebook">bobogei81123/bcw_codebook</a>, by team bcw0x1bd2 (darkhh, bobogei81123, step5) from National Taiwan University</td>
+<td>bcw0x1bd2 represented National Taiwan University for the 2016 ACM-ICPC World Finals. This notebook contains robust implementations for advanced data structures and algorithms.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="https://github.com/foreverbell/acm-icpc-cheat-sheet">foreverbell/acm-icpc-cheat-sheet</a>, by foreverbell (foreverbell)</td>
+<td>A notebook with some advanced data structures and algorithms including some from the China informatics scene.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://shygypsy.com/tools/" rel="nofollow">igor's code archive</a>, by Igor Naverniouk (Abednego)</td>
+<td>A good notebook by Igor Naverniouk who is currently a software engineer at Google and part of the Google Code Jam team.</td>
+</tr></tbody></table>
+<h2><a id="user-content-language-specifics" class="anchor" aria-hidden="true" href="#language-specifics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Language Specifics</h2>
+<blockquote>
+<p>Languages and other miscellaneous knowledge.</p>
+</blockquote>
+<h3><a id="user-content-cc" class="anchor" aria-hidden="true" href="#cc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C/C++</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.topcoder.com/community/data-science/data-science-tutorials/power-up-c-with-the-standard-template-library-part-1/" rel="nofollow">Power up C++ with the Standard Template Library - Topcoder: Part 1</a>, <a href="https://www.topcoder.com/community/data-science/data-science-tutorials/power-up-c-with-the-standard-template-library-part-2/" rel="nofollow">Part 2</a></td>
+<td>An introductory tutorial on basic C++ STLs.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/5217" rel="nofollow">Yet again on C++ input/output - Codeforces</a></td>
+<td>Learn more about C++ I/O optimizations.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/15643" rel="nofollow">C++ Tricks - Codeforces</a> ... <a href="https://www.quora.com/Competitive-Programming/What-are-some-cool-C++-tricks-to-use-in-a-programming-contest" rel="nofollow">What are some cool C++ tricks to use in a programming contest? - Quora</a></td>
+<td>Plentiful C++ tricks for competitive programming. Note that some should be used with care.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://codeforces.com/blog/entry/11080" rel="nofollow">C++ STL: Policy based data structures - Codeforces: Part 1</a>, <a href="http://codeforces.com/blog/entry/13279" rel="nofollow">Part 2</a></td>
+<td>Detailed introduction to the extra data structures implemented in GNU C++. The official documentation can be found <a href="https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/" rel="nofollow">here</a>.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td><a href="http://www.stroustrup.com/C++11FAQ.html" rel="nofollow">C++11 FAQ (English, Chinese, Russian, Japanese, Korean)</a></td>
+<td>A list of FAQs regarding C++11 collected and written by Bjarne Stroustrup, the creator of C++.</td>
+</tr></tbody></table>
+<h3><a id="user-content-java" class="anchor" aria-hidden="true" href="#java"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/7018" rel="nofollow">How to read input in Java — tutorial - Codeforces</a></td>
+<td>Learn how to read input faster. This is a must-read for those who intend to use Java for competitive programming</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/7108" rel="nofollow">How to sort arrays in Java and avoid TLE - Codeforces</a></td>
+<td>Some tips on how to avoid hitting the worst case of quick sort</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/17235" rel="nofollow">BigNum arithmetic in Java — Let's outperform BigInteger! - Codeforces</a></td>
+<td>A basic but faster custom BigInteger class</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/14328" rel="nofollow">EZ Collections, EZ Life (new Java library for contests) - Codeforces</a></td>
+<td>A Java library for contests written by Alexey Dergunov (dalex). ArrayList, ArrayDeque, Heap, Sort, HashSet, HashMap, TreeSet, TreeMap, TreeList and pair classes are implemented</td>
+</tr></tbody></table>
+<h3><a id="user-content-miscellaneous" class="anchor" aria-hidden="true" href="#miscellaneous"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://graphics.stanford.edu/%7Eseander/bithacks.html" rel="nofollow">Bit Twiddling Hacks</a></td>
+<td>A huge compiled list of bit manipulation tricks.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/" rel="nofollow">Comparing Floating Point Numbers, 2012 Edition - Random ASCII</a></td>
+<td>Everything you need to know about floating point numbers. A must read especially for geometry topics.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://hyperpolyglot.org/cpp" rel="nofollow">Object-Oriented C Style Languages: C++, Objective-C, Java, C# - a side-by-side reference sheet</a></td>
+<td>A detailed side-by-side reference sheet for common syntaxes.</td>
+</tr></tbody></table>
+<h2><a id="user-content-tools" class="anchor" aria-hidden="true" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h2>
+<blockquote>
+<p>Awesome tools that will make your life easier.</p>
+</blockquote>
+<h3><a id="user-content-ides" class="anchor" aria-hidden="true" href="#ides"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IDEs</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Platform</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.vim.org/download.php" rel="nofollow">Vim</a></td>
+<td>CLI / Cross-Platform</td>
+<td>Vim is one of the most popular text editors among advanced programmers. It allows text-editing to be done very efficiently with solely keystrokes. Vim is also highly configurable, extensible and integrates with shells (command lines) really well. The only setback about Vim is that it has a high learning curve for beginners.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.gnu.org/software/emacs/download.html" rel="nofollow">Emacs</a></td>
+<td>CLI / Cross-Platform</td>
+<td>Emacs is another popular text editor (or development environment to be more precise). The debate on "Vim vs. Emacs" is constantly brought up due to their popularity. Basically Emacs is more than just a text editor. It has plugins like file managers, web browsers, mail clients and news clients that allows users to performs these tasks directly inside Emacs. Emacs is "heavier" because of this, but it arguably has a relatively easier learning curve for beginners.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.farmanager.com/download.php?l=en" rel="nofollow">Far Manager</a></td>
+<td>Hybrid / Windows</td>
+<td>Far Manager is the most widely-used editor in the RU/CIS competitive programming community. It's actually a file manager in its bare bones, but you can install <a href="http://colorer.sourceforge.net/farplugin.html" rel="nofollow">FarColorer</a> - a syntax highlighter plugin to program on it. Properly configured, Far Manager allows you to navigate between files very efficiently while writing your codes.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://codeblocks.org/downloads" rel="nofollow">Code::Blocks</a></td>
+<td>GUI / Cross-Platform</td>
+<td>Code::Blocks is the go-to IDE for C/C++. It's a full-fledged, versatile IDE with numerous great features. Code::Blocks is usually provided along with Vim in programming contests.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://www.jetbrains.com/idea/#chooseYourEdition" rel="nofollow">IntelliJ IDEA</a></td>
+<td>GUI / Cross-Platform</td>
+<td>IntelliJ IDEA is certainly one of the best IDEs for Java. It's used by most competitive programmers who use Java as their main language. Be sure to check out <a href="https://plugins.jetbrains.com/plugin/7091-chelper" rel="nofollow">CHelper</a>, a very handy plugin written for programming contests.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.sublimetext.com/3" rel="nofollow">Sublime Text</a></td>
+<td>GUI / Cross-Platform</td>
+<td>Sublime Text is an extraordinary text editor. Packed with powerful and innovative features like Multiple Carets, Minimaps and Command Palletes, it attracts a strong and engaging community. Sublime Text is highly extensible, so be sure to have <a href="https://packagecontrol.io/" rel="nofollow">Package Control</a> installed and explore perhaps one of the largest catalogue of plugins!</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://eclipse.org/downloads/" rel="nofollow">Eclipse</a></td>
+<td>GUI / Cross-Platform</td>
+<td>Eclipse is another good IDE for Java. It's an okay alternative to Intellij IDEA (A tad inferior to IDEA by today's standards). Sometimes contests only provide Eclipse for some reason, so this might be a good incentive to try and use Eclipse.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.jetbrains.com/clion/download/" rel="nofollow">CLion</a></td>
+<td>GUI / Cross-Platform</td>
+<td>CLion, produced by JetBrains - the same company who made Intellij IDEA, is a powerful IDE for C++. Free educational licenses are available OR you can try out their <a href="https://confluence.jetbrains.com/display/CLION/Early+Access+Program" rel="nofollow">EAP (Early Access Program)</a> which is still free as of Apr, 2018. You may want to turn off its code inspection feature as it will cause quite a bit of lag.</td>
+</tr>
+<tr>
+<td>★☆☆</td>
+<td>Other IDEs</td>
+<td>Mixed</td>
+<td><a href="https://www.visualstudio.com/vs/community/" rel="nofollow">Visual Studio</a> is the IDE to use in case you want to code in C#. ... Both <a href="https://atom.io/" rel="nofollow">Atom</a> and <a href="https://code.visualstudio.com/" rel="nofollow">Visual Studio Code</a> are built with Electron (written in JavaScript) and therefore somewhat resource-hogging. ... <a href="https://codelite.org/" rel="nofollow">CodeLite</a> is a newly rising IDE. Beware that the load-up and project-creation times can be extraordinary.</td>
+</tr></tbody></table>
+<h3><a id="user-content-personal-use" class="anchor" aria-hidden="true" href="#personal-use"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Personal use</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://visualgo.net/en" rel="nofollow">VisuAlgo</a></td>
+<td>A website featuring a large collection of visualization tools for algorithms and data structures.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td>General Practice Helpers: ... <a href="https://plugins.jetbrains.com/plugin/7091-chelper" rel="nofollow">CHelper</a> (IntelliJ IDEA) (<a href="http://codeforces.com/blog/entry/3273" rel="nofollow">manual</a>) ... <a href="https://github.com/slycelote/caide">caide</a> (Visual Studio, CodeLite) ... <a href="http://codeforces.com/blog/entry/13369" rel="nofollow">JHelper</a> (AppCode, CLion)</td>
+<td>Great tools that parse contests, inline library codes and provide testing frameworks. They save you from spending your precious time on switching windows and copy-pasting back and forth.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td>Codeforces Parsers: ... <a href="https://github.com/johnathan79717/codeforces-parser">Codeforces Parser</a> ... <a href="https://github.com/sukeesh/GoCF">GoCF</a> ... <a href="https://github.com/gnull/cfparser">cfparser</a> (emacs)</td>
+<td>These tools parse Codeforces contest problems and help run sample tests.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="https://oeis.org/" rel="nofollow">The On-Line Encyclopedia of Integer Sequences (OEIS)</a></td>
+<td>A stunning encyclopedia with a database of countless integer sequences. It also features a powerful search engine. Sometimes a seemingly difficult combinatorics problem could be equivalent to a simple or studied integer sequence.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td>Syntax Highlighters: ... <a href="https://tohtml.com/" rel="nofollow">tohtml.com</a> ... <a href="http://markup.su/highlighter/" rel="nofollow">markup.su</a> ... <a href="http://hilite.me/" rel="nofollow">hilite.me</a></td>
+<td>Very handy for creating slides or team notebooks with pretty, formatted code snippets. Just copy the highlighted code snippets and paste them in your favorite WYSIWYG (What-You-See-Is-What-You-Get) editor!</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td>Code Sharing: ... <a href="https://ideone.com/" rel="nofollow">Ideone.com</a> ... <a href="https://pastebin.com/" rel="nofollow">Pastebin.com</a> ... <a href="https://paste.ubuntu.com/" rel="nofollow">Ubuntu Pastebin</a></td>
+<td>These tools generate semi-permanent pages for code sharing. Very useful especially when you're trying to get someone else to look into your code.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://codeforces.com/blog/entry/19083" rel="nofollow">Ineffable</a></td>
+<td>A simple command-line grader for local grading.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.udebug.com/" rel="nofollow">uDebug</a></td>
+<td>A platform that provides expected outputs for user-specified inputs to problems on the UVa Online Judge. Some problems also provide additional test cases for debugging.</td>
+</tr></tbody></table>
+<h3><a id="user-content-contest-preparation" class="anchor" aria-hidden="true" href="#contest-preparation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contest Preparation</h3>
+<table>
+<thead>
+<tr>
+<th>☆</th>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★★★</td>
+<td><a href="https://polygon.codeforces.com/" rel="nofollow">polygon</a></td>
+<td>polygon provides a platform and a rich set of tools for professional contest preparation. ... An example: <a href="http://codeforces.com/blog/entry/18426" rel="nofollow">Validators with testlib.h - Codeforces</a></td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://csacademy.com/app/graph_editor/" rel="nofollow">Graph Editor</a></td>
+<td>A fantasic tool to create and visualize graphs.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="http://tcframe.org/" rel="nofollow">tcframe</a></td>
+<td>A C++ framework for generating test cases of competitive programming problems.</td>
+</tr>
+<tr>
+<td>★★★</td>
+<td><a href="http://vjudge.net" rel="nofollow">Virtual Judge (vjudge)</a></td>
+<td>Virtual Judge (vjudge) allows users to create virtual contests with problems from notable problem archives.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://www.bnuoj.com/v3/" rel="nofollow">BNU Online Judge</a></td>
+<td>BNU Online Judge also allows users to create virtual contests.</td>
+</tr>
+<tr>
+<td>★★☆</td>
+<td><a href="https://open.kattis.com/" rel="nofollow">Kattis</a></td>
+<td>Kattis assists in contest preparation (E-mail them for assistance).</td>
+</tr></tbody></table>
+<h2><a id="user-content-community" class="anchor" aria-hidden="true" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Community</h2>
+<blockquote>
+<p>Meet the god-like competitive programmers!<br>
+Learn helpful tips, tutorials and insights from these people :)</p>
+</blockquote>
+<h3><a id="user-content-blogs" class="anchor" aria-hidden="true" href="#blogs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blogs</h3>
+<table>
+<thead>
+<tr>
+<th>Name (Handle)</th>
+<th>Blog Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><a href="http://codeforces.com/" rel="nofollow">Codeforces blogs</a></td>
+</tr>
+<tr>
+<td>Petr Mitrichev (Petr)</td>
+<td><a href="http://petr-mitrichev.blogspot.com/" rel="nofollow">Algorithms Weekly</a></td>
+</tr>
+<tr>
+<td>Makoto Soejima (rng_58)</td>
+<td><a href="https://rng-58.blogspot.jp" rel="nofollow">rng_58's blog</a></td>
+</tr>
+<tr>
+<td>Bruce Merry (bmerry)</td>
+<td><a href="http://blog.brucemerry.org.za/" rel="nofollow">Entropy always increases</a></td>
+</tr>
+<tr>
+<td>Przemysław Dębiak (Psyho)</td>
+<td><a href="http://psyho.gg/" rel="nofollow">Psyho's blog</a></td>
+</tr>
+<tr>
+<td>Anudeep Nekkanti (anudeep2011)</td>
+<td><a href="https://blog.anudeep2011.com/" rel="nofollow">Namespace Anudeep ;)</a></td>
+</tr>
+<tr>
+<td>vexorian (vexorian)</td>
+<td><a href="http://www.vexorian.com/" rel="nofollow">vexorian's blog</a></td>
+</tr>
+<tr>
+<td>Ashar Fuadi (fushar)</td>
+<td><a href="http://fusharblog.com/" rel="nofollow">Fushar's blog</a></td>
+</tr>
+<tr>
+<td>LiJie Chen (WJMZBMR)</td>
+<td><a href="http://wjmzbmr.com/" rel="nofollow">WJMZBMR (Chinese)</a></td>
+</tr>
+<tr>
+<td>Huang I-Wen (dreamoon)</td>
+<td><a href="http://dreamoon4.blogspot.tw/" rel="nofollow">小月的耍廢日誌 (Chinese)</a></td>
+</tr>
+<tr>
+<td>Shiang-Yun Yang (morris1028)</td>
+<td><a href="http://morris821028.github.io/" rel="nofollow">Morris' Blog (Chinese)</a></td>
+</tr>
+<tr>
+<td>Yuhao Du (TooDifficuIt, TooSimple, xudyh)</td>
+<td><a href="http://xudyh.github.io/" rel="nofollow">xudyh (Chinese)</a></td>
+</tr></tbody></table>
+<h3><a id="user-content-youtube-and-livestreams" class="anchor" aria-hidden="true" href="#youtube-and-livestreams"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Youtube and Livestreams</h3>
+<table>
+<thead>
+<tr>
+<th>Name (Handle)</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Petr Mitrichev (Petr)</td>
+<td><a href="https://www.youtube.com/channel/UCdmeooqNtlN7IhrKlq7hGDA" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Gate Lectures by Ravindrababu Ravula</td>
+<td><a href="https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Mostafa Saad Ibrahim (mostafa.saad.fci)</td>
+<td><a href="https://www.youtube.com/user/nobody123497" rel="nofollow">Competitive Programming Youtube (Arabic Speech-English Text)</a></td>
+</tr>
+<tr>
+<td>Tushar Roy</td>
+<td><a href="https://www.youtube.com/user/tusharroy2525" rel="nofollow">Youtube</a>, with many tutorial videos.</td>
+</tr>
+<tr>
+<td>GeeksforGeeks</td>
+<td><a href="https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Algorithms Live!</td>
+<td><a href="https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>CodeChef</td>
+<td><a href="https://www.youtube.com/user/codechefofficial/featured" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>HackerRank</td>
+<td><a href="https://www.youtube.com/channel/UCOf7UPMHBjAavgD0Qw5q5ww/videos" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>IDeserve</td>
+<td><a href="https://www.youtube.com/channel/UCMNkvKnD3mo3Jj9eTwJllWw/featured" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>code_report</td>
+<td><a href="https://www.youtube.com/channel/UC1kBxkk2bcG78YBX7LMl9pQ" rel="nofollow">Youtube</a>, with contest updates and problem tutorials of HackerRank, LeetCode, Topcoder and Codeforces.</td>
+</tr>
+<tr>
+<td>"Sothe" the Algorithm Wolf</td>
+<td><a href="https://www.youtube.com/channel/UCwsapfci2p1oDVO4Q2sJOQw" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Egor Kulikov (Egor)</td>
+<td><a href="https://www.youtube.com/channel/UCjlLfxSPkYluCDetlwbLpjQ" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Adam Bardashevich (subscriber)</td>
+<td><a href="https://www.youtube.com/channel/UCc4jWVeWjUfpUo8z4PHfopw" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Bohdan Pryshchenko (I_love_Tanya_Romanova)</td>
+<td><a href="https://www.twitch.tv/lebron_stream" rel="nofollow">Twitch</a>, <a href="https://www.youtube.com/channel/UCWqqnonyL7aVeUYl5Yp8TrQ" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Vladimir Smykalov (enot.1.10)</td>
+<td><a href="https://www.twitch.tv/enot110" rel="nofollow">Twitch</a>, <a href="https://www.youtube.com/channel/UCWEVsnIXiD5mgWM0LFwZBzA" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Aleksandar Abas (Alex7)</td>
+<td><a href="https://www.youtube.com/channel/UCQ5k0-BMFhfvfJQik1r5ZVw" rel="nofollow">Youtube</a></td>
+</tr>
+<tr>
+<td>Mikhail Tikhomirov (Endagorion)</td>
+<td><a href="https://www.youtube.com/user/Endagorion/" rel="nofollow">Youtube</a></td>
+</tr></tbody></table>
+<h3><a id="user-content-quora" class="anchor" aria-hidden="true" href="#quora"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quora</h3>
+<blockquote>
+<p>Visit <a href="https://www.quora.com/topic/Competitive-Programming" rel="nofollow">Competitive Programming - Quora</a> (<a href="https://www.quora.com/topic/Competitive-Programming/writers" rel="nofollow">Top 10 Most Viewed Writers</a>).</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Important Community Figures</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.quora.com/profile/Bill-Poucher" rel="nofollow">Bill Poucher</a></td>
+<td>Executive Director of <a href="https://icpc.baylor.edu" rel="nofollow">ACM-ICPC</a>. CS Professor at Baylor University.</td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Michal-Fori%C5%A1ek" rel="nofollow">Michal Forišek (misof)</a></td>
+<td>Organizer of <a href="https://ipsc.ksp.sk" rel="nofollow">IPSC</a> and <a href="http://ioinformatics.org/" rel="nofollow">IOI</a>. CS Teacher at Comenius University in Slovakia. Algorithm and CS Education Researcher. Former highly-rated competitive programmer.</td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Ahmed-Aly" rel="nofollow">Ahmed Aly (ahmed_aly)</a></td>
+<td>Founder of <a href="https://www.quora.com/profile/Ahmed-Aly" rel="nofollow">A2OJ</a>. <a href="https://www.hackerrank.com" rel="nofollow">HackerRank</a> Lead Software Engineer. Former member of the <a href="https://code.google.com/codejam/" rel="nofollow">Google Code Jam</a> team.</td>
+</tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th>Competitive Programmers</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.quora.com/profile/Thanh-Trung-Nguyen" rel="nofollow">Thanh Trung Nguyen (I_love_Hoang_Yen)</a></td>
+<td><a href="https://www.quora.com/profile/Brian-Bi" rel="nofollow">Brian Bi (bbi5291)</a></td>
+<td><a href="https://www.quora.com/profile/Jonathan-Paulson" rel="nofollow">Jonathan Paulson (jonathanpaulson)</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Miguel-Oliveira-2" rel="nofollow">Miguel Oliveira (mogers)</a></td>
+<td><a href="https://www.quora.com/profile/Egor-Suvorov" rel="nofollow">Egor Suvorov (yeputons)</a></td>
+<td><a href="https://www.quora.com/profile/Michal-Danil%C3%A1k" rel="nofollow">Michal Danilák (Mimino)</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Bohdan-Pryshchenko" rel="nofollow">Bohdan Pryshchenko (I_love_Tanya_Romanova)</a></td>
+<td><a href="https://www.quora.com/profile/Vladimir-Novakovski" rel="nofollow">Vladimir Novakovski (vnovakovski)</a></td>
+<td><a href="https://www.quora.com/profile/Nick-Wu-4" rel="nofollow">Nick Wu (xiaowuc1)</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Cosmin-Negruseri" rel="nofollow">Cosmin Negruseri</a></td>
+<td><a href="https://www.quora.com/profile/Lalit-Kundu" rel="nofollow">Lalit Kundu (darkshadows)</a></td>
+<td><a href="https://www.quora.com/profile/Ashish-Kedia" rel="nofollow">Ashish Kedia (ashish1294)</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Johnny-Ho" rel="nofollow">Johnny Ho (random.johnnyh)</a></td>
+<td><a href="https://www.quora.com/profile/Joshua-Pan-1" rel="nofollow">Joshua Pan (lonerz)</a></td>
+<td><a href="https://www.quora.com/profile/Anudeep-Nekkanti" rel="nofollow">Anudeep Nekkanti (anudeep2011)</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/profile/Steven-Hao" rel="nofollow">Steven Hao (stevenkplus)</a></td>
+<td><a href="https://www.quora.com/profile/Raziman-T-V" rel="nofollow">Raziman T.V. (razimantv)</a></td>
+<td></td>
+</tr></tbody></table>
+<h2><a id="user-content-other-awesome-resources" class="anchor" aria-hidden="true" href="#other-awesome-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Awesome Resources</h2>
+<h3><a id="user-content-articles" class="anchor" aria-hidden="true" href="#articles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Articles</h3>
+<blockquote>
+<p>Informative and helpful articles</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://psyho.gg/overview-of-programming-contests/" rel="nofollow">Overview of Programming Contests</a>, by Przemysław Dębiak (Psyho)</td>
+</tr>
+<tr>
+<td><a href="http://codeforces.com/blog/entry/17842" rel="nofollow">The 'science' of training in competitive programming - Codeforces</a>, by Thanh Trung Nguyen (I_love_Hoang_Yen)</td>
+</tr>
+<tr>
+<td><a href="http://codeforces.com/blog/entry/16599" rel="nofollow">If you ask me how to improve your algorithm competition skill, I will give you the link of this blog. - Codeforces</a>, by Huang I-Wen (dreamoon)</td>
+</tr>
+<tr>
+<td><a href="http://www.geeksforgeeks.org/how-to-prepare-for-acm-icpc/" rel="nofollow">How to prepare for ACM - ICPC? - GeeksforGeeks</a>, by Vishwesh Shrimali</td>
+</tr>
+<tr>
+<td><a href="https://www.hackerearth.com/getstarted-competitive-programming/" rel="nofollow">Complete reference to competitive programming - HackerEarth</a>, by Ravi Ojha</td>
+</tr>
+<tr>
+<td><a href="https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/" rel="nofollow">Getting started with the sport of competitive programming - HackerEarth</a>, by Triveni Mahatha</td>
+</tr></tbody></table>
+<h3><a id="user-content-faqs" class="anchor" aria-hidden="true" href="#faqs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FAQs</h3>
+<blockquote>
+<p>Fine answers to frequently-asked questions</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.quora.com/How-do-I-start-competitive-programming-5" rel="nofollow">How do I start competitive programming? - Quora</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/How-can-I-become-good-at-competitive-programming-Are-there-any-courses-that-will-take-me-one-step-forward-before-I-start-doing-SPOJ-or-TopCoder-problems" rel="nofollow">How can I become good at competitive programming? - Quora</a> ... <a href="https://www.quora.com/What-is-the-best-strategy-to-improve-my-skills-in-competitive-programming-in-2-3-months" rel="nofollow">What is the best strategy to improve my skills in competitive programming in 2-3 months? - Quora</a> ... <a href="https://www.quora.com/What-is-a-good-6-month-plan-to-start-and-progress-through-competitive-programming" rel="nofollow">What is a good 6 month plan to start and progress through competitive programming? - Quora</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/How-is-competitive-programming-different-from-real-life-programming" rel="nofollow">How is competitive programming different from real-life programming? - Quora</a></td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/What-have-you-gained-from-competitive-programming" rel="nofollow">What have you gained from competitive programming? - Quora</a></td>
+</tr></tbody></table>
+<h3><a id="user-content-awesome-lists" class="anchor" aria-hidden="true" href="#awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Lists</h3>
+<blockquote>
+<p>Relevant awesome lists</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C++ Books</td>
+<td><a href="https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list" rel="nofollow">The Definitive C++ Book Guide and List - Stack Overflow</a></td>
+</tr>
+<tr>
+<td>Java Books</td>
+<td><a href="https://www.quora.com/What-are-the-best-books-to-learn-Java" rel="nofollow">What are the best books to learn Java? - Quora</a></td>
+</tr>
+<tr>
+<td>Advanced Java Books</td>
+<td><a href="https://www.quora.com/What-is-the-best-book-for-advanced-Java-programming" rel="nofollow">What is the best book for advanced Java programming? - Quora</a></td>
+</tr>
+<tr>
+<td>Algorithms</td>
+<td><a href="https://github.com/tayllan/awesome-algorithms">tayllan/awesome-algorithms</a></td>
+</tr>
+<tr>
+<td>Algorithm Visualization</td>
+<td><a href="https://github.com/enjalot/algovis">enjalot/algovis</a></td>
+</tr>
+<tr>
+<td>Math</td>
+<td><a href="https://github.com/rossant/awesome-math">rossant/awesome-math</a></td>
+</tr>
+<tr>
+<td>C++</td>
+<td><a href="https://github.com/fffaraz/awesome-cpp">fffaraz/awesome-cpp</a></td>
+</tr>
+<tr>
+<td>Java</td>
+<td><a href="https://github.com/akullpp/awesome-java">akullpp/awesome-java</a></td>
+</tr>
+<tr>
+<td>Courses</td>
+<td><a href="https://github.com/prakhar1989/awesome-courses">prakhar1989/awesome-courses</a></td>
+</tr>
+<tr>
+<td>Free Programming Books</td>
+<td><a href="https://github.com/EbookFoundation/free-programming-books">vhf/free-programming-books</a></td>
+</tr>
+<tr>
+<td>Community-curated C++ Resources</td>
+<td><a href="https://hackr.io/tutorials/learn-c-plus-plus" rel="nofollow">Hackr.io</a></td>
+</tr></tbody></table>
+<h3><a id="user-content-interview-questions" class="anchor" aria-hidden="true" href="#interview-questions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interview Questions</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.careercup.com" rel="nofollow">CareerCup</a></td>
+<td>The most popular website for software engineering interview preparation.</td>
+</tr>
+<tr>
+<td><a href="https://www.interviewbit.com" rel="nofollow">InterviewBit</a></td>
+<td>Features intriguing and refreshing game-play designs which are designed to invoke one's interest in practicing.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MaximAbramchuck/awesome-interview-questions">Awesome Interviews</a></td>
+<td>A curated list of awesome interview questions</td>
+</tr></tbody></table>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/005cfe27b7c4520ac0d6b607d6a7e33f5ad4eb6e/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f342e302f38387833312e706e67" alt="Creative Commons Attribution 4.0 International" data-canonical-src="https://i.creativecommons.org/l/by/4.0/88x31.png" style="max-width:100%;"></a></p>
+<p>Awesome Competitive Programming is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">Creative Commons Attribution 4.0 International License</a>.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.19033s from unicorn-3835523148-k1zw0">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

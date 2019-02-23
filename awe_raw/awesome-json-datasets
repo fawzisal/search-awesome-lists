@@ -1,0 +1,1448 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - jdorfman/awesome-json-datasets: A curated list of awesome JSON datasets that don&#39;t require authentication.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/398230?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jdorfman/awesome-json-datasets" /><meta property="og:url" content="https://github.com/jdorfman/awesome-json-datasets" /><meta property="og:description" content="awesome-json-datasets - A curated list of awesome JSON datasets that don&#39;t require authentication." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E14F:5D4E:264FE98:4711E10:5AD2F6E5" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E14F:5D4E:264FE98:4711E10:5AD2F6E5" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZmE5ZDM4NzFmYWU1NzlmYjAzYWE2Mjk2YzJlMGQxNWU4MjhlZTRjZTliYzZkNjkwYTUwZWQ3ZjY5MzZlMTkwZXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTE0Rjo1RDRFOjI2NEZFOTg6NDcxMUUxMDo1QUQyRjZFNSIsInRpbWVzdGFtcCI6MTUyMzc3NTIwNSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="9342d33b3825eaf74ee8837b25fa72a9c4246263">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/jdorfman/awesome-json-datasets/commits/master.atom" rel="alternate" title="Recent Commits to awesome-json-datasets:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-json-datasets - A curated list of awesome JSON datasets that don&#39;t require authentication.">
+  <meta name="go-import" content="github.com/jdorfman/awesome-json-datasets git https://github.com/jdorfman/awesome-json-datasets.git">
+
+  <meta name="octolytics-dimension-user_id" content="398230" /><meta name="octolytics-dimension-user_login" content="jdorfman" /><meta name="octolytics-dimension-repository_id" content="40502578" /><meta name="octolytics-dimension-repository_nwo" content="jdorfman/awesome-json-datasets" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="40502578" /><meta name="octolytics-dimension-repository_network_root_nwo" content="jdorfman/awesome-json-datasets" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/jdorfman/awesome-json-datasets" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/jdorfman/awesome-json-datasets/search" data-unscoped-search-url="/search" action="/jdorfman/awesome-json-datasets/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/jdorfman/awesome-json-datasets">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fjdorfman%2Fawesome-json-datasets" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fjdorfman%2Fawesome-json-datasets"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/jdorfman/awesome-json-datasets/watchers"
+     aria-label="54 users are watching this repository">
+    54
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fjdorfman%2Fawesome-json-datasets"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/jdorfman/awesome-json-datasets/stargazers"
+      aria-label="1099 users starred this repository">
+      1,099
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fjdorfman%2Fawesome-json-datasets"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/jdorfman/awesome-json-datasets/network" class="social-count"
+       aria-label="156 users forked this repository">
+      156
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/jdorfman">jdorfman</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/jdorfman/awesome-json-datasets">awesome-json-datasets</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /jdorfman/awesome-json-datasets" href="/jdorfman/awesome-json-datasets">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /jdorfman/awesome-json-datasets/issues" href="/jdorfman/awesome-json-datasets/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">3</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /jdorfman/awesome-json-datasets/pulls" href="/jdorfman/awesome-json-datasets/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /jdorfman/awesome-json-datasets/projects" href="/jdorfman/awesome-json-datasets/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /jdorfman/awesome-json-datasets/pulse" href="/jdorfman/awesome-json-datasets/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HSHVE+tknbOJC4NznphbwSjoGmUDD6MQNijsbrxA00N86RLvELV7/gZzLFwVXZhNP9WGTkcTDmk1D5iaoNoroQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome JSON datasets that don't require authentication.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/jdorfman/awesome-json-datasets/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/json-dataset" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:json-dataset">
+        json-dataset
+      </a>
+      <a href="/topics/json" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:json">
+        json
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/data" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:data">
+        data
+      </a>
+      <a href="/topics/dataset" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:dataset">
+        dataset
+      </a>
+      <a href="/topics/datasets" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:datasets">
+        datasets
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/jdorfman/awesome-json-datasets/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                232
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/jdorfman/awesome-json-datasets/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              6
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/jdorfman/awesome-json-datasets/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/jdorfman/awesome-json-datasets/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      61
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/jdorfman/awesome-json-datasets/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/jdorfman/awesome-json-datasets/search?l=javascript"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                  <span class="lang">JavaScript</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="JavaScript 100.0%" style="width:100.0%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/jdorfman/awesome-json-datasets.git" aria-label="Clone this repository at https://github.com/jdorfman/awesome-json-datasets.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/jdorfman/awesome-json-datasets.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/jdorfman/awesome-json-datasets/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/jdorfman/awesome-json-datasets/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/jdorfman/awesome-json-datasets/tree/jd-giphy-etc"
+               data-name="jd-giphy-etc"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                jd-giphy-etc
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/jdorfman/awesome-json-datasets/tree/jd-origin-md"
+               data-name="jd-origin-md"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                jd-origin-md
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/jdorfman/awesome-json-datasets/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/jdorfman/awesome-json-datasets/tree/osi-datasets"
+               data-name="osi-datasets"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                osi-datasets
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/jdorfman/awesome-json-datasets/tree/revert-127-add_gdp_datasets"
+               data-name="revert-127-add_gdp_datasets"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                revert-127-add_gdp_datasets
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/jdorfman/awesome-json-datasets/tree/still-awesome-p3"
+               data-name="still-awesome-p3"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                still-awesome-p3
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/jdorfman/awesome-json-datasets/tree-commit/63ce9b65131197868f3a339daadfbcd065797d71" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jdorfman/awesome-json-datasets/tree/63ce9b65131197868f3a339daadfbcd065797d71">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".github" id="01777e4a9846fea5f3fcc8fe40d44680-2b461a1cae41409f278aca05001dd82f176945a6" href="/jdorfman/awesome-json-datasets/tree/master/.github">.github</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Created .github dir" class="message" href="/jdorfman/awesome-json-datasets/commit/0ed918a7dc7660452b75bf8581034fb7d048f065">Created .github dir</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-04T21:17:30Z">Apr 4, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="tests" id="b61a6d542f9036550ba9c401c80f00ef-4c75831c1041bd77912513495b1ef929d620f7ca" href="/jdorfman/awesome-json-datasets/tree/master/tests">tests</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Population updates (#187)
+
+* Removed dead image
+
+* Fixed JSON url for population
+
+* Fixed JSON url for population table
+
+* Removed old tip
+
+* Added movie dataset
+
+* Simplified GDP title" class="message" href="/jdorfman/awesome-json-datasets/commit/8eb232c373f7c3f8a6274a9a814f8c08d1217cae">Population updates (</a><a href="https://github.com/jdorfman/awesome-json-datasets/pull/187" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="296070345" data-permission-text="Issue title is private" data-url="https://github.com/jdorfman/awesome-json-datasets/issues/187">#187</a><a data-pjax="true" title="Population updates (#187)
+
+* Removed dead image
+
+* Fixed JSON url for population
+
+* Fixed JSON url for population table
+
+* Removed old tip
+
+* Added movie dataset
+
+* Simplified GDP title" class="message" href="/jdorfman/awesome-json-datasets/commit/8eb232c373f7c3f8a6274a9a814f8c08d1217cae">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-10T03:50:21Z">Feb 10, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-b512c09d476623ff4bf8d0d63c29b784925dbdf8" href="/jdorfman/awesome-json-datasets/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Adding Government Roles from the Scottish Parliment APi and a gitignore file (#46)" class="message" href="/jdorfman/awesome-json-datasets/commit/40d00700c7af5b4c00994bddb6df327c27e002fd">Adding Government Roles from the Scottish Parliment APi and a gitigno…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-02T14:32:58Z">Oct 2, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-921e6c864d188f80b6e5523d1f0990fbed612ebf" href="/jdorfman/awesome-json-datasets/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update node version in travis.yml and markdownlint version (#181)" class="message" href="/jdorfman/awesome-json-datasets/commit/4a57b7e419d63e12abc56fe70d11ce318fad8a2e">Update node version in travis.yml and markdownlint version (</a><a href="https://github.com/jdorfman/awesome-json-datasets/pull/181" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="263698745" data-permission-text="Issue title is private" data-url="https://github.com/jdorfman/awesome-json-datasets/issues/181">#181</a><a data-pjax="true" title="Update node version in travis.yml and markdownlint version (#181)" class="message" href="/jdorfman/awesome-json-datasets/commit/4a57b7e419d63e12abc56fe70d11ce318fad8a2e">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-09T18:54:01Z">Oct 9, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".varci.yml" id="36ae8c06f9bf34b0df1adfd7c3af51f5-7fc7211582612759e4d0b2a1c0f36663639e701e" href="/jdorfman/awesome-json-datasets/blob/master/.varci.yml">.varci.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Var.CI bot config (#176)" class="message" href="/jdorfman/awesome-json-datasets/commit/52291c40b7381c3da942e177f5e7eaadd6195109">Add Var.CI bot config (</a><a href="https://github.com/jdorfman/awesome-json-datasets/pull/176" class="issue-link js-issue-link" data-url="https://github.com/jdorfman/awesome-json-datasets/issues/176" data-id="221647051" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#176</a><a data-pjax="true" title="Add Var.CI bot config (#176)" class="message" href="/jdorfman/awesome-json-datasets/commit/52291c40b7381c3da942e177f5e7eaadd6195109">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-13T18:44:13Z">Apr 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-666c0f1ac1c3ea4689c48b2ac0dfde5da9fa1196" href="/jdorfman/awesome-json-datasets/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added a new rule to CONTRIBUTING.md" class="message" href="/jdorfman/awesome-json-datasets/commit/4ac56b7f221ffd3d997cc33f7b7fd09037634910">Added a new rule to CONTRIBUTING.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-07T22:46:19Z">Oct 7, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-2c4afabdb632b5d68e60c9fe9fe0b0819676a729" itemprop="license" href="/jdorfman/awesome-json-datasets/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="first" class="message" href="/jdorfman/awesome-json-datasets/commit/b5e57eb10f5fc27a8c58162f236c81a3f66eaf0c">first</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-08-10T19:50:42Z">Aug 10, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README-etc.md" id="1c820d61985ebb8c61aa113a1d3b92ff-8ace2414aafb6e12bbe8d6ff97e98f3286adeb98" href="/jdorfman/awesome-json-datasets/blob/master/README-etc.md">README-etc.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Updated description, removed 404 image" class="message" href="/jdorfman/awesome-json-datasets/commit/6d785b23da5168111d298989144b44f1c31c97ac">Updated description, removed 404 image</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-21T16:44:17Z">Mar 21, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-8b48de059cf0972356e02e9d9789e3fcf0f7acb5" href="/jdorfman/awesome-json-datasets/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Updated Dataset of the Month" class="message" href="/jdorfman/awesome-json-datasets/commit/63ce9b65131197868f3a339daadfbcd065797d71">Updated Dataset of the Month</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-04T21:28:22Z">Apr 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="SOURCES.md" id="039e9801076dcd37a311f79eb7b096f4-aea4f679a6efb07faeb445e23083b55a3e7561b8" href="/jdorfman/awesome-json-datasets/blob/master/SOURCES.md">SOURCES.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixed merge conflict for #88" class="message" href="/jdorfman/awesome-json-datasets/commit/413911cb19729643d3607b6ecb01ea7c30115516">Fixed merge conflict for</a> <a href="https://github.com/jdorfman/awesome-json-datasets/pull/88" class="issue-link js-issue-link" data-url="https://github.com/jdorfman/awesome-json-datasets/issues/88" data-id="182618819" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#88</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-20T03:28:39Z">Oct 20, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="package.json" id="b9cfc7f2cdf78a7f4b91a753d10865a2-fe3fc0ff01f1ef17c31e24fc4c0ecfb94fdeea79" href="/jdorfman/awesome-json-datasets/blob/master/package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update node version in travis.yml and markdownlint version (#181)" class="message" href="/jdorfman/awesome-json-datasets/commit/4a57b7e419d63e12abc56fe70d11ce318fad8a2e">Update node version in travis.yml and markdownlint version (</a><a href="https://github.com/jdorfman/awesome-json-datasets/pull/181" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="263698745" data-permission-text="Issue title is private" data-url="https://github.com/jdorfman/awesome-json-datasets/issues/181">#181</a><a data-pjax="true" title="Update node version in travis.yml and markdownlint version (#181)" class="message" href="/jdorfman/awesome-json-datasets/commit/4a57b7e419d63e12abc56fe70d11ce318fad8a2e">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-09T18:54:01Z">Oct 9, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-json-datasets-" class="anchor" aria-hidden="true" href="#awesome-json-datasets-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome JSON Datasets <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p><a href="http://www.json.org/" rel="nofollow"><img src="https://camo.githubusercontent.com/546da89a44a62503eab29dbf4c00f452b3d2a8cb/68747470733a2f2f7777772e6a757374696e646f72666d616e2e636f6d2f6173736574732f696d616765732f6a736f6e2e737667" align="right" width="100" data-canonical-src="https://www.justindorfman.com/assets/images/json.svg" style="max-width:100%;"></a></p>
+<p>A curated list of awesome JSON datasets that don't require authentication.</p>
+<blockquote>
+<p><em>Dataset of the month:</em> <a href="http://api.worldbank.org/countries/USA/indicators/SP.POP.TOTL?per_page=5000&amp;format=json" rel="nofollow">United States Historical Population (Since 1960)</a></p>
+</blockquote>
+<p><em>Sponsored link:</em> <a href="https://dnstrails.com/?utm_source=awesome-json-datasets&amp;utm_campaign=readme" rel="nofollow">DNSTrails Has The World's Largest Repository of historical DNS  data</a> <g-emoji class="g-emoji" alias="tada" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji></p>
+<h2><a id="user-content-contents" class="anchor" aria-hidden="true" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#bitcoin">Bitcoin</a></li>
+<li><a href="#climate">Climate</a></li>
+<li><a href="#crime">Crime</a></li>
+<li><a href="#currency">Currency</a></li>
+<li><a href="#gaming">Gaming</a></li>
+<li><a href="#github-api">GitHub API</a></li>
+<li><a href="#government">Government</a></li>
+<li><a href="#historical-events">Historical Events</a></li>
+<li><a href="#http">HTTP</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#nasa">NASA</a></li>
+<li><a href="#nobel-prize">Nobel Prize</a></li>
+<li><a href="#population">Population</a></li>
+<li><a href="#gdp">GDP</a></li>
+<li><a href="#reddit">Reddit</a></li>
+<li><a href="#travel">Travel</a></li>
+<li><a href="#tv-shows">TV Shows</a></li>
+<li><a href="#movies">Movies</a></li>
+<li><a href="#weather">Weather</a></li>
+<li><a href="#open-source-licenses">Open Source Licenses</a></li>
+<li><a href="#more-awesome-lists">More Awesome Lists</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2><a id="user-content-bitcoin" class="anchor" aria-hidden="true" href="#bitcoin"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bitcoin</h2>
+<ul>
+<li><a href="https://blockchain.info/latestblock" rel="nofollow">Latest Block</a></li>
+<li><a href="https://blockchain.info/unconfirmed-transactions?format=json" rel="nofollow">Unconfirmed Transactions</a></li>
+</ul>
+<blockquote>
+<p>Pro Tip: Check out <a href="https://api.coinmarketcap.com/v1/ticker/" rel="nofollow">Cryptocurrency Market Capitalizations</a> for more cryptocurrency prices.</p>
+</blockquote>
+<h2><a id="user-content-climate" class="anchor" aria-hidden="true" href="#climate"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Climate</h2>
+<ul>
+<li><a href="https://www.ncdc.noaa.gov/cag/time-series/global/globe/land_ocean/ytd/12/1880-2016.json" rel="nofollow">Global Temperature Anomaly)</a> <em>(1880-2015 vs. 1901-2000 Average)</em></li>
+<li><a href="https://www.ncdc.noaa.gov/cag/time-series/us/110/00/tavg/ytd/12/1895-2016.json?base_prd=true&amp;begbaseyear=1901&amp;endbaseyear=2000" rel="nofollow">US Annual Average Temperature and Anomaly)</a> <em>(1880-2015 (vs. 1901-2000 Average)</em></li>
+<li><a href="https://www.ncdc.noaa.gov/cag/time-series/us/110/00/pcp/ytd/12/1895-2016.json?base_prd=true&amp;begbaseyear=1901&amp;endbaseyear=2000" rel="nofollow">Contiguous US Annual Precipitation</a> <em>(1895-2015)</em></li>
+<li><a href="https://www.ncdc.noaa.gov/cag/time-series/us/110/00/pdsi/ytd/12/1895-2016.json?base_prd=true&amp;begbaseyear=1901&amp;endbaseyear=2000" rel="nofollow">Drought Severity Index</a> <em>(Palmer for the Contiguous US, 1895-2016)</em></li>
+</ul>
+<h2><a id="user-content-crime" class="anchor" aria-hidden="true" href="#crime"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crime</h2>
+<ul>
+<li><a href="https://data.police.uk/docs/" rel="nofollow">DATA.POLICE.UK</a>
+<ul>
+<li><a href="https://data.police.uk/api/crimes-at-location?date=2015-02&amp;lat=52.629729&amp;lng=-1.131592" rel="nofollow">Crimes at Location</a></li>
+<li><a href="https://data.police.uk/api/crimes-street-dates" rel="nofollow">Street Crime Dates</a></li>
+<li><a href="https://data.police.uk/api/leicestershire/neighbourhoods" rel="nofollow">Neighbourhoods</a></li>
+<li><a href="https://data.police.uk/api/forces" rel="nofollow">List of Forces</a></li>
+</ul>
+</li>
+<li><a href="https://www.data.gov/local/" rel="nofollow">DATA.GOV</a>
+<ul>
+<li><a href="https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.json?accessType=DOWNLOAD" rel="nofollow">Chicago (historical data since 2001)</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-currency" class="anchor" aria-hidden="true" href="#currency"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Currency</h2>
+<ul>
+<li><a href="http://api.fixer.io/latest" rel="nofollow">Latest Foreign Exchange Rates</a>
+<ul>
+<li><a href="http://api.fixer.io/latest?base=USD" rel="nofollow">USD</a></li>
+<li><a href="http://api.fixer.io/latest?base=AUD" rel="nofollow">AUD</a></li>
+<li><a href="http://api.fixer.io/latest?base=GBP" rel="nofollow">GBP</a></li>
+<li><a href="http://api.fixer.io/latest?base=HKD" rel="nofollow">HKD</a></li>
+<li><a href="http://api.fixer.io/latest?base=HRK" rel="nofollow">HRK</a></li>
+<li><a href="http://api.fixer.io/latest?base=HUF" rel="nofollow">HUF</a></li>
+<li><a href="http://api.fixer.io/latest?base=JPY" rel="nofollow">JPY</a></li>
+<li><a href="http://api.fixer.io/latest?base=ZAR" rel="nofollow">ZAR</a></li>
+<li><a href="http://api.fixer.io/latest?base=EUR" rel="nofollow">EUR</a></li>
+</ul>
+</li>
+<li><a href="http://api.fixer.io/latest?symbols=USD,GBP" rel="nofollow">Compare Foreign Exchange Rates</a> <em>(Replace <code>USD,GBP</code> with <code>symbols</code> you want to compare.)</em></li>
+<li><a href="http://api.fixer.io/2000-01-03" rel="nofollow">Historical Foreign Exchange Rates</a> <em>(Replace <code>2000-01-03</code> with another date.)</em></li>
+<li><a href="http://jsonvat.com/" rel="nofollow">VAT rates for EU</a></li>
+</ul>
+<h2><a id="user-content-gaming" class="anchor" aria-hidden="true" href="#gaming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gaming</h2>
+<ul>
+<li><a href="http://api.bf4stats.com/api/onlinePlayers?output=json" rel="nofollow">BattleField 4 Online Players</a></li>
+<li><a href="https://pokeapi.co/docsv2/" rel="nofollow">Pokémon</a>
+<ul>
+<li><a href="http://pokeapi.co/api/v2/pokemon/1/" rel="nofollow">Pokémon by Number</a> <em>(Replace <code>1</code> with desired Pokémon number)</em></li>
+<li><a href="http://pokeapi.co/api/v2/type/1/" rel="nofollow">Types</a> <em>(Replace <code>1</code> with another number to retrieve different type)</em></li>
+<li><a href="http://pokeapi.co/api/v2/ability/1" rel="nofollow">Abilities</a> <em>(Replace <code>1</code> with another number to retrieve different ability)</em></li>
+</ul>
+</li>
+<li><a href="https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json" rel="nofollow">Pokédex</a></li>
+<li><a href="http://magic.wizards.com" rel="nofollow">Magic: The Gathering</a>
+<ul>
+<li><a href="https://mtgjson.com/json/LEA-x.json" rel="nofollow">MTG LEA Set + Extras</a></li>
+<li><a href="https://mtgjson.com/json/LEB-x.json" rel="nofollow">MTG LEB Set + Extras</a></li>
+<li><a href="https://mtgjson.com/json/ARN-x.json" rel="nofollow">MTG ARN Set + Extras</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Protip: <a href="https://mtgjson.com" rel="nofollow">https://mtgjson.com</a> lists many more Magic: The Gathering card data sets, as well as zipped versions of all sets.</p>
+</blockquote>
+<ul>
+<li><a href="https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?format=json&amp;appid=0" rel="nofollow">Steam Player Number</a></li>
+</ul>
+<h2><a id="user-content-github-api" class="anchor" aria-hidden="true" href="#github-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub API</h2>
+<ul>
+<li><a href="https://api.github.com/emojis">Emojis</a></li>
+<li><a href="https://api.github.com/events">Events</a></li>
+<li><a href="https://api.github.com/gists">Gists</a></li>
+<li><a href="https://api.github.com/meta">Meta</a></li>
+</ul>
+<h2><a id="user-content-government" class="anchor" aria-hidden="true" href="#government"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Government</h2>
+<ul>
+<li><a href="http://developer.trade.gov/api/trade-apis.json" rel="nofollow">Trade.gov</a>
+<ul>
+<li><a href="http://developer.trade.gov/api/market-research-library.json" rel="nofollow">Market Research Library</a></li>
+<li><a href="http://developer.trade.gov/api/business-service-providers.json" rel="nofollow">Business Service Providers</a></li>
+<li><a href="http://data.consumerfinance.gov/api/views.json" rel="nofollow">Consumer Complaint Database</a></li>
+</ul>
+</li>
+<li>United States Politicians
+<ul>
+<li><a href="https://www.govtrack.us/api/v2/role?current=true&amp;role_type=senator" rel="nofollow">Current US Senators</a></li>
+<li><a href="https://www.govtrack.us/api/v2/role?current=true&amp;role_type=representative&amp;limit=438" rel="nofollow">Current US Representatives</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Protip: <a href="https://www.govtrack.us/" rel="nofollow">GovTrack</a> provides a <a href="https://www.govtrack.us/developers/api" rel="nofollow">powerful API</a> for viewing data on Congress, roll calls, and bills.</p>
+</blockquote>
+<ul>
+<li>Department of Justice
+<ul>
+<li><a href="https://www.justice.gov/api/v1/blog_entries.json?amp%3Bpagesize=2" rel="nofollow">Blog Entries</a></li>
+<li><a href="https://www.justice.gov/api/v1/press_releases.json?pagesize=2" rel="nofollow">Press Releases</a></li>
+<li><a href="https://www.justice.gov/api/v1/speeches.json?pagesize=2" rel="nofollow">Speeches</a></li>
+<li><a href="http://www.justice.gov/api/v1/vacancy_announcements.json?pagesize=2" rel="nofollow">Vacancy Announcements</a></li>
+</ul>
+</li>
+<li>Scottish Parliament
+<ul>
+<li><a href="https://data.parliament.scot/api/departments" rel="nofollow">Departments</a></li>
+<li><a href="https://data.parliament.scot/api/events" rel="nofollow">Events</a></li>
+<li><a href="https://data.parliament.scot/api/governmentroles" rel="nofollow">Government Roles</a></li>
+<li><a href="https://data.parliament.scot/api/members" rel="nofollow">Members</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Pro Tip: you can do <strong>a lot</strong> more at <a href="http://parliamentdata.ca/" rel="nofollow">http://parliamentdata.ca/</a></p>
+</blockquote>
+<ul>
+<li>EU Lobbying Transparency Register
+<ul>
+<li><a href="http://api.lobbyfacts.eu/api/1/country" rel="nofollow">Country</a></li>
+<li><a href="http://api.lobbyfacts.eu/api/1/entity" rel="nofollow">Entity</a></li>
+<li><a href="http://api.lobbyfacts.eu/api/1/representative" rel="nofollow">Representative</a></li>
+<li><a href="http://api.lobbyfacts.eu/api/1/person" rel="nofollow">Person</a></li>
+<li><a href="http://api.lobbyfacts.eu/api/1/category" rel="nofollow">Category</a></li>
+<li><a href="http://api.lobbyfacts.eu/api/1/financial_data" rel="nofollow">Financial</a></li>
+<li><a href="http://api.lobbyfacts.eu/api/1/accreditation" rel="nofollow">Accreditation</a></li>
+</ul>
+</li>
+<li>Government of India
+<ul>
+<li><a href="http://vocab.nic.in/rest.php/states/json" rel="nofollow">State Codes</a></li>
+<li><a href="https://data.gov.in/node/1084041/datastore/export/json" rel="nofollow">Consumer Price Index</a></li>
+<li><a href="https://data.gov.in/node/135611/datastore/export/json" rel="nofollow">Agriculture Production</a></li>
+<li><a href="https://data.gov.in/node/100853/datastore/export/json" rel="nofollow">Number of Districts/DRDAs/Blocks/Villages</a></li>
+<li><a href="https://www.quandl.com/api/v1/datasets/MOSPI/GDP.json" rel="nofollow">Gross Domestic Product at Current Prices</a></li>
+</ul>
+</li>
+<li>Australia
+<ul>
+<li><a href="http://data.gov.au/geoserver/abc-local-stations/wfs?request=GetFeature&amp;typeName=ckan_d534c0e9_a9bf_487b_ac8f_b7877a09d162&amp;outputFormat=json" rel="nofollow">ABC Local Stations</a></li>
+<li><a href="http://data.gov.au/geoserver/police-station-locations/wfs?request=GetFeature&amp;typeName=762b47b2_e706_4cab_b0c7_cf8e406aefc1&amp;outputFormat=json" rel="nofollow">VIC Police Station Locations</a></li>
+</ul>
+</li>
+<li>Amsterdam
+<ul>
+<li><a href="http://open.datapunt.amsterdam.nl/Shoppen.json" rel="nofollow">Shops</a></li>
+<li><a href="http://open.datapunt.amsterdam.nl/EtenDrinken.json" rel="nofollow">Food and Drinks</a></li>
+<li><a href="http://open.datapunt.amsterdam.nl/MuseaGalleries.json" rel="nofollow">Museums and Galleries</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-historical-events" class="anchor" aria-hidden="true" href="#historical-events"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Historical Events</h2>
+<ul>
+<li>Languages
+<ul>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=en" rel="nofollow">English</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=de" rel="nofollow">German</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=it" rel="nofollow">Italian</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=es" rel="nofollow">Spanish</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=pt" rel="nofollow">Portuguese</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=ca" rel="nofollow">Catalan</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=id" rel="nofollow">Indonesian</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=ro" rel="nofollow">Romanian</a></li>
+<li><a href="http://www.vizgr.org/historical-events/search.php?format=json&amp;begin_date=-3000000&amp;end_date=20151231&amp;lang=tr" rel="nofollow">Turkish</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Pro Tip: You can change <code>begin_date</code> and <code>end_date</code> in URL to get events in a specific interval. More options <a href="http://www.vizgr.org/historical-events/" rel="nofollow">here</a>.</p>
+</blockquote>
+<h2><a id="user-content-http" class="anchor" aria-hidden="true" href="#http"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTTP</h2>
+<ul>
+<li><a href="http://httpbin.org/ip" rel="nofollow">IP</a></li>
+<li><a href="http://httpbin.org/user-agent" rel="nofollow">user-agent</a></li>
+<li><a href="http://httpbin.org/headers" rel="nofollow">headers</a></li>
+<li><a href="http://httpbin.org/get" rel="nofollow">GET</a></li>
+<li><a href="http://httpbin.org/gzip" rel="nofollow">gzip</a></li>
+<li><a href="http://httpbin.org/deflate" rel="nofollow">deflate</a></li>
+<li><a href="http://httpbin.org/response-headers?Content-Type=text/plain;%20charset=UTF-8&amp;Server=MaxCDN" rel="nofollow">response-headers</a></li>
+<li><a href="http://httpbin.org/cookies" rel="nofollow">cookies</a></li>
+<li><a href="http://httpbin.org/stream/10" rel="nofollow">stream</a></li>
+<li><a href="http://httpbin.org/delay/3" rel="nofollow">delay</a></li>
+<li><a href="http://httpbin.org/cache/60" rel="nofollow">cache</a> <em>(<code>60</code> === <code>60 seconds</code>)</em></li>
+</ul>
+<blockquote>
+<p>Pro Tip: you can do <strong>a lot</strong> more at <a href="http://httpbin.org/" rel="nofollow">http://httpbin.org</a>.</p>
+</blockquote>
+<h2><a id="user-content-media" class="anchor" aria-hidden="true" href="#media"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Media</h2>
+<ul>
+<li><a href="https://github.com/Giphy/GiphyAPI">Giphy</a>
+<ul>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=cats&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Cats</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=dogs&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Dogs</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=surprised&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Surprised</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=confused&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Confused</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=angry&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Angry</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=happy&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Happy</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=crazy&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Crazy</a></li>
+<li><a href="http://api.giphy.com/v1/gifs/search?q=make+it+rain&amp;api_key=dc6zaTOxFJmzC" rel="nofollow">Make it Rain</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Pro Tip: replace the <code>q</code> field-value for a query not listed e.g. <code>q=cartman+brah</code>.</p>
+</blockquote>
+<h2><a id="user-content-nasa" class="anchor" aria-hidden="true" href="#nasa"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NASA</h2>
+<ul>
+<li><a href="http://api.open-notify.org/iss-now.json" rel="nofollow">ISS Current Location</a></li>
+<li><a href="http://api.open-notify.org/astros.json" rel="nofollow">How Many People Are In Space Right Now</a></li>
+<li><a href="https://data.nasa.gov/resource/y77d-th95.json" rel="nofollow">Earth Meteorite Landings</a></li>
+<li><a href="https://data.nasa.gov/resource/2vr3-k9wn.json" rel="nofollow">Near-Earth Asteroids and Comets</a> <em>(Discovered By NEOWISE)</em></li>
+</ul>
+<h2><a id="user-content-natural-disasters" class="anchor" aria-hidden="true" href="#natural-disasters"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Natural Disasters</h2>
+<ul>
+<li><a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson" rel="nofollow">Earthquakes</a></li>
+</ul>
+<h2><a id="user-content-nobel-prize" class="anchor" aria-hidden="true" href="#nobel-prize"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nobel Prize</h2>
+<ul>
+<li><a href="http://api.nobelprize.org/v1/prize.json" rel="nofollow">Prize</a></li>
+<li><a href="http://api.nobelprize.org/v1/laureate.json" rel="nofollow">Laureate</a></li>
+<li><a href="http://api.nobelprize.org/v1/country.json" rel="nofollow">Country</a></li>
+</ul>
+<h2><a id="user-content-open-source-licenses" class="anchor" aria-hidden="true" href="#open-source-licenses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Open Source Licenses</h2>
+<ul>
+<li><a href="https://api.opensource.org/licenses/" rel="nofollow">All</a></li>
+<li><a href="https://api.opensource.org/licenses/copyleft" rel="nofollow">Copyleft</a></li>
+<li><a href="https://api.opensource.org/licenses/osi-approved" rel="nofollow">OSI Approved</a></li>
+<li><a href="https://api.opensource.org/licenses/redundant" rel="nofollow">Redundant</a></li>
+<li><a href="https://api.opensource.org/licenses/permissive" rel="nofollow">Permissive</a></li>
+<li><a href="https://api.opensource.org/licenses/obsolete" rel="nofollow">Obsolete</a></li>
+<li><a href="https://api.opensource.org/licenses/miscellaneous" rel="nofollow">Misc</a></li>
+<li><a href="https://api.opensource.org/licenses/popular" rel="nofollow">Popular</a></li>
+<li><a href="https://api.opensource.org/licenses/discouraged" rel="nofollow">Discouraged</a></li>
+<li><a href="https://api.opensource.org/licenses/non-reusable" rel="nofollow">Non-reusable</a></li>
+<li><a href="https://api.opensource.org/licenses/special-purpose" rel="nofollow">Special Purpose</a></li>
+<li><a href="https://api.opensource.org/licenses/retired" rel="nofollow">Retired</a></li>
+</ul>
+<blockquote>
+<p>Become an OSI member <a href="https://opensource.org/civicrm/contribute/transact?reset=1&amp;id=1" rel="nofollow">here</a></p>
+</blockquote>
+<h2><a id="user-content-population" class="anchor" aria-hidden="true" href="#population"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Population</h2>
+<ul>
+<li>Total Population Today
+<ul>
+<li><a href="http://api.population.io/1.0/population/World/today-and-tomorrow/?format=json" rel="nofollow">Earth</a></li>
+<li><a href="http://api.population.io/1.0/population/Brazil/today-and-tomorrow/?format=json" rel="nofollow">Brazil</a></li>
+<li><a href="http://api.population.io/1.0/population/France/today-and-tomorrow/?format=json" rel="nofollow">France</a></li>
+<li><a href="http://api.population.io/1.0/population/Germany/today-and-tomorrow/?format=json" rel="nofollow">Germany</a></li>
+<li><a href="http://api.population.io/1.0/population/Greece/today-and-tomorrow/?format=json" rel="nofollow">Greece</a></li>
+<li><a href="http://api.population.io/1.0/population/Italy/today-and-tomorrow/?format=json" rel="nofollow">Italy</a></li>
+<li><a href="http://api.population.io/1.0/population/Japan/today-and-tomorrow/?format=json" rel="nofollow">Japan</a></li>
+<li><a href="http://api.population.io/1.0/population/Kenya/today-and-tomorrow/?format=json" rel="nofollow">Kenya</a></li>
+<li><a href="http://api.population.io/1.0/population/Mexico/today-and-tomorrow/?format=json" rel="nofollow">Mexico</a></li>
+<li><a href="http://api.population.io/1.0/population/Poland/today-and-tomorrow/?format=json" rel="nofollow">Poland</a></li>
+<li><a href="http://api.population.io/1.0/population/India/today-and-tomorrow/?format=json" rel="nofollow">India</a></li>
+<li><a href="http://api.population.io/1.0/population/United%20States/today-and-tomorrow/?format=json" rel="nofollow">United States</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Pro Tip: <a href="http://api.population.io/1.0/countries" rel="nofollow">List of all Countries</a> tracked</p>
+</blockquote>
+<ul>
+<li>
+<p>United States Population Table (Ages 0-100)</p>
+<ul>
+<li><a href="http://api.population.io/1.0/population/1950/United%20States/?format=json" rel="nofollow">1950</a></li>
+<li><a href="http://api.population.io/1.0/population/1960/United%20States/?format=json" rel="nofollow">1960</a></li>
+<li><a href="http://api.population.io/1.0/population/1970/United%20States/?format=json" rel="nofollow">1970</a></li>
+<li><a href="http://api.population.io/1.0/population/1980/United%20States/?format=json" rel="nofollow">1980</a></li>
+<li><a href="http://api.population.io/1.0/population/1990/United%20States/?format=json" rel="nofollow">1990</a></li>
+<li><a href="http://api.population.io/1.0/population/2000/United%20States/?format=json" rel="nofollow">2000</a></li>
+<li><a href="http://api.population.io/1.0/population/2010/United%20States/?format=json" rel="nofollow">2010</a></li>
+</ul>
+</li>
+<li>
+<p>Historical Population (Since 1960)</p>
+<ul>
+<li><a href="http://api.worldbank.org/countries/CHN/indicators/SP.POP.TOTL?per_page=5000&amp;format=json" rel="nofollow">China</a></li>
+<li><a href="http://api.worldbank.org/countries/IND/indicators/SP.POP.TOTL?per_page=5000&amp;format=json" rel="nofollow">India</a></li>
+<li><a href="http://api.worldbank.org/countries/USA/indicators/SP.POP.TOTL?per_page=5000&amp;format=json" rel="nofollow">United States</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-gdp" class="anchor" aria-hidden="true" href="#gdp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GDP</h2>
+<ul>
+<li><a href="http://api.worldbank.org/countries/USA/indicators/NY.GDP.MKTP.CD?per_page=5000&amp;format=json" rel="nofollow">USA</a></li>
+<li><a href="http://api.worldbank.org/countries/CHN/indicators/NY.GDP.MKTP.CD?per_page=5000&amp;format=json" rel="nofollow">China</a></li>
+<li><a href="http://api.worldbank.org/countries/IND/indicators/NY.GDP.MKTP.CD?per_page=5000&amp;format=json" rel="nofollow">India</a></li>
+</ul>
+<blockquote>
+<p>Pro Tip: Link to country list <a href="http://api.worldbank.org/countries?per_page=304&amp;format=json" rel="nofollow">Here</a></p>
+</blockquote>
+<h2><a id="user-content-reddit" class="anchor" aria-hidden="true" href="#reddit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reddit</h2>
+<ul>
+<li><a href="https://www.reddit.com/r/all.json" rel="nofollow">/r/all</a></li>
+<li><a href="https://www.reddit.com/r/AskReddit.json" rel="nofollow">/r/AskReddit</a></li>
+<li><a href="https://www.reddit.com/r/funny.json" rel="nofollow">/r/funny</a></li>
+<li><a href="https://www.reddit.com/r/pics.json" rel="nofollow">/r/pics</a></li>
+<li><a href="https://www.reddit.com/r/todayilearned.json" rel="nofollow">/r/todayilearned</a></li>
+<li><a href="https://www.reddit.com/r/announcements.json" rel="nofollow">/r/announcements</a></li>
+<li><a href="https://www.reddit.com/r/worldnews.json" rel="nofollow">/r/worldnews</a></li>
+<li><a href="https://www.reddit.com/r/science.json" rel="nofollow">/r/science</a></li>
+<li><a href="https://www.reddit.com/r/IAmA.json" rel="nofollow">/r/IAmA</a></li>
+<li><a href="https://www.reddit.com/r/videos.json" rel="nofollow">/r/videos</a></li>
+<li><a href="https://www.reddit.com/r/gaming.json" rel="nofollow">/r/gaming</a></li>
+<li><a href="https://www.reddit.com/r/linux.json" rel="nofollow">/r/linux</a></li>
+</ul>
+<blockquote>
+<p>Pro Tip: you can append <code>.json</code> to any subreddit url.</p>
+</blockquote>
+<h2><a id="user-content-travel" class="anchor" aria-hidden="true" href="#travel"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Travel</h2>
+<ul>
+<li><a href="https://ckannet-storage.commondatastorage.googleapis.com/2014-12-13T15:15:31.729Z/airfields.json" rel="nofollow">Global Airfields</a></li>
+<li><a href="https://think.cs.vt.edu/corgis/json/airlines/airlines.json" rel="nofollow">Monthly Airline Delays by Airport, 2003-2016</a></li>
+<li>FAA Airport Status
+<ul>
+<li><a href="http://services.faa.gov/airport/status/SFO?format=application/json" rel="nofollow">SFO</a></li>
+<li><a href="http://services.faa.gov/airport/status/LAX?format=application/json" rel="nofollow">LAX</a></li>
+<li><a href="http://services.faa.gov/airport/status/PHX?format=application/json" rel="nofollow">PHX</a></li>
+<li><a href="http://services.faa.gov/airport/status/JFK?format=application/json" rel="nofollow">JFK</a></li>
+<li><a href="http://services.faa.gov/airport/status/ATL?format=application/json" rel="nofollow">ATL</a></li>
+<li><a href="http://services.faa.gov/airport/status/MIA?format=application/json" rel="nofollow">MIA</a></li>
+<li><a href="http://services.faa.gov/airport/status/AUS?format=application/json" rel="nofollow">AUS</a></li>
+<li><a href="http://services.faa.gov/airport/status/BOS?format=application/json" rel="nofollow">BOS</a></li>
+<li><a href="http://services.faa.gov/airport/status/CLE?format=application/json" rel="nofollow">CLE</a></li>
+<li><a href="http://services.faa.gov/airport/status/ORD?format=application/json" rel="nofollow">ORD</a></li>
+<li><a href="http://services.faa.gov/airport/status/PDX?format=application/json" rel="nofollow">PDX</a></li>
+<li><a href="http://services.faa.gov/airport/status/SJC?format=application/json" rel="nofollow">SJC</a></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Heads up: Only works for US airports only, not international.</p>
+</blockquote>
+<h2><a id="user-content-tv-shows" class="anchor" aria-hidden="true" href="#tv-shows"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TV Shows</h2>
+<ul>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=mr-robot&amp;embed=episodes" rel="nofollow">Mr. Robot (USA)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=better-call-saul&amp;embed=episodes" rel="nofollow">Better Call Saul (AMC)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=Homeland&amp;embed=episodes" rel="nofollow">Homeland (Showtime)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=silicon-valley&amp;embed=episodes" rel="nofollow">Silicon Valley (HBO)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=the-walking-dead&amp;embed=episodes" rel="nofollow">The Walking Dead (AMC)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=south-park&amp;embed=episodes" rel="nofollow">South Park (Comedy Central)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=game-of-thrones&amp;embed=episodes" rel="nofollow">Game of Thrones (HBO)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=house-of-cards&amp;embed=episodes" rel="nofollow">House of Cards (Netflix)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=big-bang-theory&amp;embed=episodes" rel="nofollow">The Big Bang Theory (CBS)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=narcos&amp;embed=episodes" rel="nofollow">Narcos (Netflix)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=black-mirror&amp;embed=episodes" rel="nofollow">Black Mirror (Netflix)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=stranger-things&amp;embed=episodes" rel="nofollow">Stranger Things (Netflix)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=rick-&amp;-morty&amp;embed=episodes" rel="nofollow">Rick and Morty (Adult Swim)</a></li>
+<li><a href="http://api.tvmaze.com/singlesearch/shows?q=westworld&amp;embed=episodes" rel="nofollow">Westworld (HBO)</a></li>
+</ul>
+<blockquote>
+<p>Pro Tip: replace the field-value for a show not listed e.g. <code>shows?q=show-name</code>. More options <a href="http://www.tvmaze.com/api" rel="nofollow">here</a></p>
+</blockquote>
+<h2><a id="user-content-movies" class="anchor" aria-hidden="true" href="#movies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Movies</h2>
+<ul>
+<li><a href="https://raw.githubusercontent.com/prust/wikipedia-movie-data/master/movies.json" rel="nofollow">American movies scraped from Wikipedia</a></li>
+<li><a href="http://showtimes.everyday.in.th/api/v2/" rel="nofollow">Showtime</a>
+<ul>
+<li><a href="http://showtimes.everyday.in.th/api/v2/movie/" rel="nofollow">Current Movies in Thailand</a></li>
+<li><a href="http://showtimes.everyday.in.th/api/v2/theater/" rel="nofollow">Movie Theaters in Thailand</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-weather" class="anchor" aria-hidden="true" href="#weather"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Weather</h2>
+<ul>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Los%20Angeles%2C%20CA%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Los Angeles</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Chicago%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Chicago</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22New%20York%2C%20NY%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">New York</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Miami%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Miami</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22London%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">London</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Paris%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Paris</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Berlin%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Berlin</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Moscow%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Moscow</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Jerusalem%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Jerusalem</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Tokyo%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Tokyo</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Sydney%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Sydney</a></li>
+<li><a href="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Buenos%20Aires%2C%20CA%22%29&amp;format=json&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys" rel="nofollow">Buenos Aires</a></li>
+</ul>
+<blockquote>
+<p>Pro Tip: generate URLs for any location at <a href="https://developer.yahoo.com/weather/" rel="nofollow">Yahoo Weather API</a></p>
+</blockquote>
+<h2><a id="user-content-more-awesome-lists" class="anchor" aria-hidden="true" href="#more-awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>More Awesome Lists</h2>
+<ul>
+<li><a href="https://github.com/sindresorhus/awesome">Awesome</a> <em>(The OG List)</em></li>
+<li><a href="https://github.com/fullstackla/awesome-help-wanted">Help Wanted</a> <em>(Open Source projects looking for Help)</em></li>
+<li><a href="https://github.com/burningtree/awesome-json">JSON</a> <em>(Libraries and Resources)</em></li>
+<li><a href="https://github.com/davidsonfellipe/awesome-wpo">WPO</a> <em>(Web Performance Optimization)</em></li>
+<li><a href="https://github.com/alebcay/awesome-shell">Shell</a> <em>(CLI Frameworks, Toolkits and Guides)</em></li>
+<li><a href="https://github.com/toddmotto/public-apis">Public APIs</a> <em>(JSON APIs for use in web dev, some of which require authentication)</em></li>
+<li><a href="https://github.com/caesar0301/awesome-public-datasets">Public Datasets</a> <em>(Datasets beyond just JSON)</em></li>
+<li><a href="https://github.com/kciter/awesome-style-guide">Style Guides</a> <em>(Programming Languages, Platforms, Frameworks)</em></li>
+</ul>
+<h2><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>If you want to contribute, please read the <a href="/jdorfman/awesome-json-datasets/blob/master/CONTRIBUTING.md">contribution guidelines</a>.</p>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667" alt="CC0" data-canonical-src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="https://www.maxcdn.com" rel="nofollow">MaxCDN</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.27422s from unicorn-3751571531-hmw90">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+AWEPATH=awe_lists
+op="${1:0:1}"; op2="${1:1:1}"; stm="${1:1:100}"; stm2="${1:2:100}";
+case $op in
+  #filter by filename
+  "/") case $op2 in 
+    #Opens first result in cli web browser
+    "/") fd "$stm2" $AWEPATH | sed "s/awe_lists/awe_raw/g" | xargs w3m -T text/html; ;;
+    #Opens all results in cli web browser
+    "@") for i in $(fd "$stm2" $AWEPATH); do { echo $i | sed "s/awe_lists/awe_raw/g" | xargs w3m -T text/html; }; done; ;;
+    #Searches in command-line apps
+    "_") fd "command|terminal|cli" $AWEPATH | xargs rg -i "$stm2"; ;;
+    #
+    "-")
+      #fd vim $AWEPATH;
+      matches=$(rg "$stm2" -m1 -M1 -n | tr -d " \n" | sed "s/:\[[A-Za-z0-9]*\]/|/g" | tr "|" " " );
+      for i in $matches; do {
+        j=($(echo $i| tr ":" " "));
+        sed "${j[1]}q;d" ${j[0]};
+      }; done
+      ;;
+    *) fd "$stm" $AWEPATH; ;;
+    esac; ;;
+  #Search full-word
+  "_") rg -i "[^\w]$stm[^\w]" $AWEPATH; ;;
+  #List readme pages
+  "@") rg "README.md" -NA2 $AWEPATH/awesome; ;;
+  #Only return counts 
+  "\\") rg -ci "$stm" $AWEPATH | tr ":" "," | xsv sort -nNRs2 | xsv table | sed "s/AWEPATH\/awe_lists//g" | head; ;;
+  *) rg -i "$1" $AWEPATH; ;;
+esac; 
+

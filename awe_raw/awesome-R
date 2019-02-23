@@ -1,0 +1,1512 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - qinwf/awesome-R: A curated list of awesome R packages, frameworks and software.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/7472151?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="qinwf/awesome-R" /><meta property="og:url" content="https://github.com/qinwf/awesome-R" /><meta property="og:description" content="awesome-R - A curated list of awesome R packages, frameworks and software." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E018:5D4F:3128F9D:58A946C:5AD2F662" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E018:5D4F:3128F9D:58A946C:5AD2F662" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YjMyMDJlMWQ5MmJjZDljZDU2ZGRmYTU3ZThhYzI0OTU2YjE2MWUxY2E0NzI0ZmUzYmY5ZWVkNzJhYjJiNjk1Y3x7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTAxODo1RDRGOjMxMjhGOUQ6NThBOTQ2Qzo1QUQyRjY2MiIsInRpbWVzdGFtcCI6MTUyMzc3NTA3NSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a55a93a15337639a362aad5c240ced099aa749c8">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/qinwf/awesome-R/commits/master.atom" rel="alternate" title="Recent Commits to awesome-R:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-R - A curated list of awesome R packages, frameworks and software.">
+  <meta name="go-import" content="github.com/qinwf/awesome-R git https://github.com/qinwf/awesome-R.git">
+
+  <meta name="octolytics-dimension-user_id" content="7472151" /><meta name="octolytics-dimension-user_login" content="qinwf" /><meta name="octolytics-dimension-repository_id" content="22003158" /><meta name="octolytics-dimension-repository_nwo" content="qinwf/awesome-R" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="22003158" /><meta name="octolytics-dimension-repository_network_root_nwo" content="qinwf/awesome-R" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/qinwf/awesome-R" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/qinwf/awesome-R/search" data-unscoped-search-url="/search" action="/qinwf/awesome-R/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/qinwf/awesome-R">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fqinwf%2Fawesome-R" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fqinwf%2Fawesome-R"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/qinwf/awesome-R/watchers"
+     aria-label="360 users are watching this repository">
+    360
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fqinwf%2Fawesome-R"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/qinwf/awesome-R/stargazers"
+      aria-label="2867 users starred this repository">
+      2,867
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fqinwf%2Fawesome-R"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/qinwf/awesome-R/network" class="social-count"
+       aria-label="998 users forked this repository">
+      998
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/qinwf">qinwf</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/qinwf/awesome-R">awesome-R</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /qinwf/awesome-R" href="/qinwf/awesome-R">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /qinwf/awesome-R/issues" href="/qinwf/awesome-R/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">2</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /qinwf/awesome-R/pulls" href="/qinwf/awesome-R/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">19</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /qinwf/awesome-R/projects" href="/qinwf/awesome-R/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /qinwf/awesome-R/pulse" href="/qinwf/awesome-R/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="onru9VBYwWvCPdkn3vqAYiCaJEAhidpfUMwpvjxiVrbuevViD7sbJS7EbB2WlW1SY+sDZL20JQIbTQr++hjKAA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome R packages, frameworks and software.
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="https://awesome-r.com">https://awesome-r.com</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/qinwf/awesome-R/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/r" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:r">
+        r
+      </a>
+      <a href="/topics/data-science" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:data-science">
+        data-science
+      </a>
+      <a href="/topics/data-analysis" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:data-analysis">
+        data-analysis
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/qinwf/awesome-R/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                344
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/qinwf/awesome-R/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/qinwf/awesome-R/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/qinwf/awesome-R/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      61
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/qinwf/awesome-R/search?l=r"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#198CE7;"></span>
+                  <span class="lang">R</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="R 100.0%" style="width:100.0%; background-color:#198CE7;" itemprop="keywords">R</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/qinwf/awesome-R.git" aria-label="Clone this repository at https://github.com/qinwf/awesome-R.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/qinwf/awesome-R.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/qinwf/awesome-R/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/qinwf/awesome-R/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/qinwf/awesome-R/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/qinwf/awesome-R/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/qinwf/awesome-R/tree-commit/097db8f4ff85d51aba6d9baa8751aa99ebf342a8" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/qinwf/awesome-R/tree/097db8f4ff85d51aba6d9baa8751aa99ebf342a8">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-462ff23624c7051f12aa33eaefda1f0071f44a24" href="/qinwf/awesome-R/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update trending 2016-09-05" class="message" href="/qinwf/awesome-R/commit/aabf9ef5ab77ccd8bb80f2beed353bd5009e3752">update trending 2016-09-05</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-09-05T15:14:36Z">Sep 5, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="GHstarScraper.R" id="4d7dcbfd1b090009985029e4ee815238-eccf8337a14f70ae51909f258026f1b7d3caf3fc" href="/qinwf/awesome-R/blob/master/GHstarScraper.R">GHstarScraper.R</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update: GitHub repo status #110" class="message" href="/qinwf/awesome-R/commit/d1a9650ed5916836e770c80bdfb41f38086eccc0">Update: GitHub repo status</a> <a href="https://github.com/qinwf/awesome-R/issues/110" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="185382588" data-permission-text="Issue title is private" data-url="https://github.com/qinwf/awesome-R/issues/110">#110</a>
+
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-09T06:20:31Z">Jan 9, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-bf6eee40ab3149d32bd0c5fe916ea45acb097d25" href="/qinwf/awesome-R/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge pull request #147 from wlandau/master
+
+Suggest rOpenSci package drake" class="message" href="/qinwf/awesome-R/commit/097db8f4ff85d51aba6d9baa8751aa99ebf342a8">Merge pull request</a> <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="311755303" data-permission-text="Issue title is private" data-url="https://github.com/qinwf/awesome-R/issues/147" href="https://github.com/qinwf/awesome-R/pull/147">#147</a> <a data-pjax="true" title="Merge pull request #147 from wlandau/master
+
+Suggest rOpenSci package drake" class="message" href="/qinwf/awesome-R/commit/097db8f4ff85d51aba6d9baa8751aa99ebf342a8">from wlandau/master</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-10T09:46:42Z">Apr 10, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="all_time.csv" id="63c8a2768a64377fb2736057b0112e72-070cc2ee2f8dedc08c342b1cad0b2231fe6887ed" href="/qinwf/awesome-R/blob/master/all_time.csv">all_time.csv</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update trending 2017-11-13" class="message" href="/qinwf/awesome-R/commit/9215179e6dc9da6d2f1f40a289fd23428d1e0d05">update trending 2017-11-13</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-13T09:32:45Z">Nov 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="posts.md" id="8a648aa279e347a7f7d13144c3d1dff5-63544f53873c80a682923e19d03ad52e34cc617d" href="/qinwf/awesome-R/blob/master/posts.md">posts.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Post: Fast csv writing for R" class="message" href="/qinwf/awesome-R/commit/4cfc82918c883adb6c3fd26faddbcb6a1bfc9ffb">Add Post: Fast csv writing for R</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-28T04:47:47Z">Apr 28, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="r-trending.md" id="24bddcb05ce8b7868b6e1d118205be8b-2bdd14c7d64eff556c2df5152a679c11d2e4fbe3" href="/qinwf/awesome-R/blob/master/r-trending.md">r-trending.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update trending 2017-11-13" class="message" href="/qinwf/awesome-R/commit/9215179e6dc9da6d2f1f40a289fd23428d1e0d05">update trending 2017-11-13</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-13T09:32:45Z">Nov 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="trending.csv" id="e2878ea8732414faf40bd13ca5e56c80-d74c17328ce88aa9b80975c6a88bbdffac75540e" href="/qinwf/awesome-R/blob/master/trending.csv">trending.csv</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update trending 2017-11-13" class="message" href="/qinwf/awesome-R/commit/9215179e6dc9da6d2f1f40a289fd23428d1e0d05">update trending 2017-11-13</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-13T09:32:45Z">Nov 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="trending_repo.R" id="a4a3e81c865a58f6ab5443fed7afc26d-87f24a4a1fcbba48fa3d87b4754da14d1610765b" href="/qinwf/awesome-R/blob/master/trending_repo.R">trending_repo.R</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update trending 2017-07-04" class="message" href="/qinwf/awesome-R/commit/d0021cab4ab2e1db11df9634f0757c1253ccb2cf">update trending 2017-07-04</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-04T02:23:24Z">Jul 4, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-r" class="anchor" aria-hidden="true" href="#awesome-r"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome R</h1>
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></p>
+<p>A curated list of awesome R packages and tools. Inspired by <a href="https://github.com/josephmisiti/awesome-machine-learning">awesome-machine-learning</a>.</p>
+<p>For better navigation, see <a href="https://awesome-r.com" rel="nofollow">https://awesome-r.com</a></p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67"><img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a>
+for <a href="https://github.com/rstudio/RStartHere/blob/master/top_downloads_2016/top_packages">Top 50</a> CRAN downloaded packages or repos with 400+
+<a target="_blank" href="https://camo.githubusercontent.com/032ba414f692957455a2d3d3a08a232211182d06/68747470733a2f2f617765736f6d652d722e636f6d2f737461722e706e67"><img alt="star" src="https://camo.githubusercontent.com/032ba414f692957455a2d3d3a08a232211182d06/68747470733a2f2f617765736f6d652d722e636f6d2f737461722e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/star.png" style="max-width:100%;"></a></p>
+<ul>
+<li><a href="#awesome-">Awesome R</a>
+<ul>
+<li><a href="#2017">2017</a></li>
+<li><a href="#integrated-development-environments">Integrated Development Environments</a></li>
+<li><a href="#syntax">Syntax</a></li>
+<li><a href="#data-manipulation">Data Manipulation</a></li>
+<li><a href="#graphic-displays">Graphic Displays</a></li>
+<li><a href="#html-widgets">Html Widgets</a></li>
+<li><a href="#reproducible-research">Reproducible Research</a></li>
+<li><a href="#web-technologies-and-services">Web Technologies and Services</a></li>
+<li><a href="#parallel-computing">Parallel Computing</a></li>
+<li><a href="#high-performance">High Performance</a></li>
+<li><a href="#language-api">Language API</a></li>
+<li><a href="#database-management">Database Management</a></li>
+<li><a href="#machine-learning">Machine Learning</a></li>
+<li><a href="#natural-language-processing">Natural Language Processing</a></li>
+<li><a href="#bayesian">Bayesian</a></li>
+<li><a href="#optimization">Optimization</a></li>
+<li><a href="#finance">Finance</a></li>
+<li><a href="#bioinformatics-and-biostatistics">Bioinformatics and Biostatistics</a></li>
+<li><a href="#network-analysis">Network Analysis</a></li>
+<li><a href="#spatial">Spatial</a></li>
+<li><a href="#r-development">R Development</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#data-packages">Data Packages</a></li>
+<li><a href="#other-tools">Other Tools</a></li>
+<li><a href="#other-interpreters">Other Interpreters</a></li>
+<li><a href="#learning-r">Learning R</a></li>
+</ul>
+</li>
+<li><a href="#resources">Resources</a>
+<ul>
+<li><a href="#websites">Websites</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#podcasts">Podcasts</a></li>
+<li><a href="#reference-cards">Reference Cards</a></li>
+<li><a href="#moocs">MOOCs</a></li>
+<li><a href="#lists">Lists</a></li>
+</ul>
+</li>
+<li><a href="#other-awesome-lists">Other Awesome Lists</a></li>
+<li><a href="#contributing">Contributing</a></li>
+</ul>
+<h2><a id="user-content-2017" class="anchor" aria-hidden="true" href="#2017"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2017</h2>
+<ul>
+<li><a href="https://github.com/facebookincubator/prophet">prophet</a> - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.</li>
+<li><a href="https://github.com/tidyverse/tidyverse">tidyverse</a> - Easily install and load packages from the tidyverse</li>
+<li><a href="https://github.com/tidyverse/purrr">purrr</a> - A functional programming toolkit for R</li>
+<li><a href="https://github.com/hrbrmstr/hrbrthemes">hrbrthemes</a> -  <g-emoji class="g-emoji" alias="lock_with_ink_pen" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50f.png">🔏</g-emoji> Opinionated, typographic-centric ggplot2 themes and theme components</li>
+<li><a href="https://github.com/yihui/xaringan">xaringan</a> - Create HTML5 slides with R Markdown and the JavaScript library</li>
+<li><a href="https://github.com/rstudio/blogdown">blogdown</a> - Create Blogs and Websites with R Markdown</li>
+<li><a href="https://github.com/tidyverse/glue">glue</a> -  Glue strings to data in R. Small, fast, dependency free interpreted string literals.</li>
+<li><a href="https://github.com/jimhester/covr">covr</a> - Test coverage reports for R</li>
+<li><a href="https://github.com/jimhester/lintr">lintr</a> - Static Code Analysis for R</li>
+<li><a href="https://github.com/jennybc/reprex">reprex</a> - Render bits of R code for sharing, e.g., on GitHub or StackOverflow.</li>
+<li><a href="https://github.com/rstudio/reticulate">reticulate</a> - R Interface to Python</li>
+<li><a href="https://github.com/rstudio/tensorflow">tensorflow</a> -  TensorFlow for R</li>
+<li><a href="https://github.com/patperry/r-utf8">utf8</a> - Manipulating and printing UTF-8 text that fixes multiple bugs in R's UTF-8 handling.</li>
+</ul>
+<h2><a id="user-content-integrated-development-environments" class="anchor" aria-hidden="true" href="#integrated-development-environments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integrated Development Environments</h2>
+<p><em>Integrated Development Environment</em></p>
+<ul>
+<li><a href="http://www.rstudio.org/" rel="nofollow">RStudio <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - A powerful and productive user interface for R. Works great on Windows, Mac, and Linux.</li>
+<li><a href="http://ess.r-project.org/" rel="nofollow">Emacs + ESS</a> - Emacs Speaks Statistics is an add-on package for emacs text editors.</li>
+<li><a href="http://github.com/randy3k/R-Box/">Sublime Text + R-Box</a> - Add-on package for Sublime Text 2/3.</li>
+<li><a href="https://github.com/textmate/r.tmbundle">TextMate + r.tmblundle</a> - Add-on package for TextMate 1/2.</li>
+<li><a href="http://www.walware.de/goto/statet" rel="nofollow">StatET</a> - An Eclipse based IDE for R.</li>
+<li><a href="http://www.revolutionanalytics.com/get-revolution-r-enterprise" rel="nofollow">Revolution R Enterprise</a> - Revolution R would be offered free to academic users and commercial software would focus on big data, large scale multiprocessor functionality.</li>
+<li><a href="http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/" rel="nofollow">R Commander</a> - A package that provides a basic graphical user interface.</li>
+<li><a href="https://github.com/IRkernel/IRkernel">IRkernel <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - R kernel for Jupyter.</li>
+<li><a href="http://www.deducer.org/pmwiki/pmwiki.php?n=Main.DeducerManual?from=Main.HomePage" rel="nofollow">Deducer</a> - A Menu driven data analysis GUI with a spreadsheet like data editor.</li>
+<li><a href="https://radiant-rstats.github.io/docs" rel="nofollow">Radiant</a> - A platform-independent browser-based interface for business analytics in R, based on the Shiny.</li>
+<li><a href="https://github.com/vim-scripts/Vim-R-plugin">Vim-R</a> - Vim plugin for R.</li>
+<li><a href="https://github.com/jalvesaq/Nvim-R">Nvim-R</a> - Neovim plugin for R.</li>
+<li><a href="https://jasp-stats.org/" rel="nofollow">JASP</a> - A complete package for both Bayesian and Frequentist methods, that is familiar to users of SPSS.</li>
+<li><a href="http://www.bio7.org/" rel="nofollow">Bio7</a> - A IDE contains tools for model creation, scientific image analysis and statistical analysis for ecological modelling.</li>
+<li><a href="http://microsoft.github.io/RTVS-docs/" rel="nofollow">RTVS</a> - R Tools for Visual Studio.</li>
+<li><a href="https://github.com/randy3k/rtichoke">rtichoke</a> - A modern R console with syntax highlighting.</li>
+</ul>
+<h2><a id="user-content-syntax" class="anchor" aria-hidden="true" href="#syntax"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax</h2>
+<p><em>Packages change the way you use R.</em></p>
+<ul>
+<li><a href="https://github.com/smbache/magrittr">magrittr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Let's pipe it.</li>
+<li><a href="https://github.com/renkun-ken/pipeR">pipeR</a> - Multi-paradigm Pipeline Implementation.</li>
+<li><a href="https://github.com/zatonovo/lambda.r">lambda.r</a> - Functional programming and simple pattern matching in R.</li>
+<li><a href="https://github.com/hadley/purrr">purrr</a> - A FP package for R in the spirit of underscore.js.</li>
+</ul>
+<h2><a id="user-content-data-manipulation" class="anchor" aria-hidden="true" href="#data-manipulation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Manipulation</h2>
+<p><em>Packages for cooking data.</em></p>
+<ul>
+<li><a href="https://github.com/hadley/dplyr">dplyr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Fast data frames manipulation and database query.</li>
+<li><a href="https://github.com/Rdatatable/data.table">data.table <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Fast data manipulation in a short and flexible syntax.</li>
+<li><a href="https://github.com/hadley/reshape">reshape2  <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Flexible rearrange, reshape and aggregate data.</li>
+<li><a href="https://github.com/hadley/readr">readr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - A fast and friendly way to read tabular data into R.</li>
+<li><a href="https://github.com/hadley/haven">haven</a> - Improved methods to import SPSS, Stata and SAS files in R.</li>
+<li><a href="https://github.com/hadley/tidyr">tidyr</a> - Easily tidy data with spread and gather functions.</li>
+<li><a href="https://github.com/dgrtwo/broom">broom <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Convert statistical analysis objects into tidy data frames.</li>
+<li><a href="https://github.com/renkun-ken/rlist">rlist</a> - A toolbox for non-tabular data manipulation with lists.</li>
+<li><a href="https://github.com/jeroenooms/jsonlite">jsonlite</a> - A robust and quick way to parse JSON files in R.</li>
+<li><a href="http://ff.r-forge.r-project.org/" rel="nofollow">ff</a> - Data structures designed to store large datasets.</li>
+<li><a href="http://cran.r-project.org/web/packages/lubridate/index.html" rel="nofollow">lubridate</a> - A set of functions to work with dates and times.</li>
+<li><a href="http://www.gagolewski.com/software/stringi/" rel="nofollow">stringi <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - ICU based string processing package.</li>
+<li><a href="https://github.com/hadley/stringr">stringr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Consistent API for string processing, built on top of stringi.</li>
+<li><a href="http://cran.r-project.org/web/packages/bigmemory/index.html" rel="nofollow">bigmemory</a> - Shared memory and memory-mapped matrices. The big* packages provide additional tools including linear models (<a href="http://cran.r-project.org/web/packages/biglm/index.html" rel="nofollow">biglm</a>) and Random Forests (<a href="https://github.com/aloysius-lim/bigrf">bigrf</a>).</li>
+<li><a href="https://github.com/dgrtwo/fuzzyjoin">fuzzyjoin</a> - Join tables together on inexact matching.</li>
+<li><a href="https://github.com/hadley/tidyverse">tidyverse</a> - Easily install and load packages from the tidyverse.</li>
+</ul>
+<h2><a id="user-content-graphic-displays" class="anchor" aria-hidden="true" href="#graphic-displays"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graphic Displays</h2>
+<p><em>Packages for showing data.</em></p>
+<ul>
+<li><a href="https://github.com/hadley/ggplot2">ggplot2 <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - An implementation of the Grammar of Graphics.</li>
+<li><a href="https://github.com/sinhrks/ggfortify">ggfortify</a> - A unified interface to ggplot2 popular statistical packages using one line of code.</li>
+<li><a href="https://github.com/slowkow/ggrepel">ggrepel</a> - Repel overlapping text labels away from each other.</li>
+<li><a href="https://github.com/hrbrmstr/ggalt">ggalt</a> - Extra Coordinate Systems, Geoms and Statistical Transformations for ggplot2.</li>
+<li><a href="https://github.com/GuangchuangYu/ggtree">ggtree</a> - Visualization and annotation of phylogenetic tree.</li>
+<li><a href="https://github.com/ricardo-bion/ggtech">ggtech</a> - ggplot2 tech themes and scales</li>
+<li><a href="https://ggplot2-exts.github.io/ggiraph.html" rel="nofollow">ggplot2 Extensions</a> - Showcases of ggplot2 extensions.</li>
+<li><a href="http://lattice.r-forge.r-project.org/" rel="nofollow">lattice</a> - A powerful and elegant high-level data visualization system.</li>
+<li><a href="https://github.com/taiyun/corrplot">corrplot</a> - A graphical display of a correlation matrix or general matrix. It also contains some algorithms to do matrix reordering.</li>
+<li><a href="http://cran.r-project.org/web/packages/rgl/index.html" rel="nofollow">rgl</a> - 3D visualization device system for R.</li>
+<li><a href="http://cran.r-project.org/web/packages/Cairo/index.html" rel="nofollow">Cairo</a> - R graphics device using cairo graphics library for creating high-quality display output.</li>
+<li><a href="https://github.com/wch/extrafont">extrafont</a> - Tools for using fonts in R graphics.</li>
+<li><a href="https://github.com/yixuan/showtext">showtext</a> - Enable R graphics device to show text using system fonts.</li>
+<li><a href="http://yihui.name/animation/" rel="nofollow">animation</a> - A simple way to produce animated graphics in R, using <a href="http://imagemagick.org/" rel="nofollow">ImageMagick</a>.</li>
+<li><a href="https://github.com/dgrtwo/gganimate">gganimate</a> - Create easy animations with ggplot2.</li>
+<li><a href="https://cran.r-project.org/web/packages/misc3d/index.html" rel="nofollow">misc3d</a> - Powerful functions to deal with 3d plots, isosurfaces, etc.</li>
+<li><a href="https://cran.r-project.org/web/packages/xkcd/index.html" rel="nofollow">xkcd</a> - Use xkcd style in graphs.</li>
+<li><a href="http://dahtah.github.io/imager/" rel="nofollow">imager</a> - An image processing package based on CImg library to work with images and display them.</li>
+<li><a href="https://github.com/hrbrmstr/hrbrthemes">hrbrthemes</a> -  <g-emoji class="g-emoji" alias="lock_with_ink_pen" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50f.png">🔏</g-emoji> Opinionated, typographic-centric ggplot2 themes and theme components.</li>
+<li><a href="https://github.com/hrbrmstr/waffle">waffle</a> -  <g-emoji class="g-emoji" alias="maple_leaf" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f341.png">🍁</g-emoji> Make waffle (square pie) charts in R</li>
+</ul>
+<h2><a id="user-content-html-widgets" class="anchor" aria-hidden="true" href="#html-widgets"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTML Widgets</h2>
+<p><em>Packages for interactive visualizations.</em></p>
+<ul>
+<li><a href="https://github.com/rstudio/d3heatmap">d3heatmap</a> - Interactive heatmaps with D3.</li>
+<li><a href="http://rstudio.github.io/DT/" rel="nofollow">DataTables</a> - Displays R matrices or data frames as interactive HTML tables.</li>
+<li><a href="https://github.com/rich-iannone/DiagrammeR">DiagrammeR <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Create JS graph diagrams and flowcharts in R.</li>
+<li><a href="https://github.com/rstudio/dygraphs">dygraphs</a> - Charting time-series data in R.</li>
+<li><a href="http://renkun.me/formattable/" rel="nofollow">formattable</a> - Formattable Data Structures.</li>
+<li><a href="https://github.com/rstudio/ggvis">ggvis <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Interactive grammar of graphics for R.</li>
+<li><a href="http://rstudio.github.io/leaflet/" rel="nofollow">Leaflet</a> - One of the most popular JavaScript libraries interactive maps.</li>
+<li><a href="http://hrbrmstr.github.io/metricsgraphics/" rel="nofollow">MetricsGraphics</a> - Enables easy creation of D3 scatterplots, line charts, and histograms.</li>
+<li><a href="http://christophergandrud.github.io/networkD3/" rel="nofollow">networkD3</a> - D3 JavaScript Network Graphs from R.</li>
+<li><a href="https://github.com/juba/scatterD3">scatterD3</a> - Interactive scatterplots with D3.</li>
+<li><a href="https://github.com/ropensci/plotly">plotly <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Interactive ggplot2 and Shiny plotting with <a href="https://plot.ly" rel="nofollow">plot.ly</a>.</li>
+<li><a href="https://github.com/ramnathv/rCharts">rCharts <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Interactive JS Charts from R.</li>
+<li><a href="http://hafen.github.io/rbokeh/" rel="nofollow">rbokeh</a> - R Interface to <a href="http://bokeh.pydata.org/en/latest/" rel="nofollow">Bokeh</a>.</li>
+<li><a href="https://github.com/bwlewis/rthreejs">threejs</a> - Interactive 3D scatter plots and globes.</li>
+<li><a href="https://github.com/daattali/timevis">timevis</a> - Create fully interactive timeline visualizations.</li>
+<li><a href="https://github.com/datastorm-open/visNetwork">visNetwork</a> - Using vis.js library for network visualization.</li>
+<li><a href="https://github.com/Lchiffon/wordcloud2">wordcloud2</a> - R interface to wordcloud2.js.</li>
+<li><a href="https://github.com/jbkunst/highcharter">highcharter</a> - R wrapper for highcharts based on htmlwidgets</li>
+</ul>
+<h2><a id="user-content-reproducible-research" class="anchor" aria-hidden="true" href="#reproducible-research"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reproducible Research</h2>
+<p><em>Packages for literate programming and reproducible workflows.</em></p>
+<ul>
+<li><a href="http://yihui.name/knitr/" rel="nofollow">knitr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Easy dynamic report generation in R.</li>
+<li><a href="http://cran.r-project.org/web/packages/xtable/index.html" rel="nofollow">xtable</a> - Export tables to LaTeX or HTML.</li>
+<li><a href="http://rapport-package.info/#intro" rel="nofollow">rapport</a> - An R templating system.</li>
+<li><a href="http://rmarkdown.rstudio.com/" rel="nofollow">rmarkdown <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Dynamic documents for R.</li>
+<li><a href="https://github.com/ramnathv/slidify">slidify <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Generate reproducible html5 slides from R markdown.</li>
+<li><a href="https://www.statistik.lmu.de/%7Eleisch/Sweave/" rel="nofollow">Sweave</a> - A package designed to write LaTeX reports using R.</li>
+<li><a href="http://www.philipleifeld.de/software/texreg/texreg.html" rel="nofollow">texreg</a> - Formatting statistical models in LaTex and HTML.</li>
+<li><a href="https://github.com/RevolutionAnalytics/checkpoint">checkpoint</a> - Install packages from snapshots on the checkpoint server.</li>
+<li><a href="https://cran.r-project.org/web/packages/brew/index.html" rel="nofollow">brew</a> - Pre-compute data to enhance your report templates. Can be combined with knitr.</li>
+<li><a href="http://davidgohel.github.io/ReporteRs/index.html" rel="nofollow">ReporteRs</a> - An R package to generate Microsoft Word, Microsoft PowerPoint and HTML reports.</li>
+<li><a href="https://bookdown.org/" rel="nofollow">bookdown</a> - Authoring Books with R Markdown.</li>
+<li><a href="https://github.com/daattali/ezknitr">ezknitr</a> - Avoid the typical working directory pain when using 'knitr'</li>
+<li><a href="https://github.com/ropensci/drake">drake</a> - An <a href="https://ropensci.org/" rel="nofollow">rOpenSci</a> package for reproducible data science workflows too big for <a href="http://yihui.name/knitr/" rel="nofollow">knitr</a>.</li>
+</ul>
+<h2><a id="user-content-web-technologies-and-services" class="anchor" aria-hidden="true" href="#web-technologies-and-services"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Technologies and Services</h2>
+<p><em>Packages to surf the web.</em></p>
+<ul>
+<li><a href="https://github.com/ropensci/webservices">Web Technologies List</a> - Information about how to use R and the world wide web together.</li>
+<li><a href="https://github.com/rstudio/shiny">shiny <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Easy interactive web applications with R. See also <a href="https://github.com/grabear/awesome-rshiny">awesome-rshiny</a></li>
+<li><a href="https://github.com/daattali/shinyjs">shinyjs</a> -  Easily improve the user interaction and user experience in your Shiny apps in seconds.</li>
+<li><a href="http://cran.r-project.org/web/packages/RCurl/index.html" rel="nofollow">RCurl</a> - General network (HTTP/FTP/...) client interface for R.</li>
+<li><a href="https://github.com/hadley/httr">httr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - User-friendly RCurl wrapper.</li>
+<li><a href="https://github.com/rstudio/httpuv">httpuv</a> - HTTP and WebSocket server library.</li>
+<li><a href="http://cran.r-project.org/web/packages/XML/index.html" rel="nofollow">XML <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Tools for parsing and generating XML within R.</li>
+<li><a href="https://github.com/hadley/rvest">rvest <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Simple web scraping for R, using CSSSelect or XPath syntax.</li>
+<li><a href="https://www.opencpu.org/" rel="nofollow">OpenCPU <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - HTTP API for R.</li>
+<li><a href="https://github.com/pablobarbera/Rfacebook">Rfacebook</a> - Access to Facebook API via R.</li>
+<li><a href="https://github.com/randyzwitch/RSiteCatalyst">RSiteCatalyst</a> - R client library for the Adobe Analytics.</li>
+<li><a href="https://github.com/trestletech/plumber">plumber</a> - A library to expose existing R code as web API.</li>
+</ul>
+<h2><a id="user-content-parallel-computing" class="anchor" aria-hidden="true" href="#parallel-computing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parallel Computing</h2>
+<p><em>Packages for parallel computing.</em></p>
+<ul>
+<li><a href="http://cran.r-project.org/web/views/HighPerformanceComputing.html" rel="nofollow">parallel</a> - R started with release 2.14.0 which includes a new package parallel incorporating (slightly revised) copies of packages <a href="http://cran.r-project.org/web/packages/multicore/index.html" rel="nofollow">multicore</a> and <a href="http://cran.r-project.org/web/packages/snow/index.html" rel="nofollow">snow</a>.</li>
+<li><a href="http://cran.r-project.org/web/packages/Rmpi/index.html" rel="nofollow">Rmpi</a> - Rmpi provides an interface (wrapper) to MPI APIs. It also provides interactive R slave environment.</li>
+<li><a href="http://cran.r-project.org/web/packages/foreach/index.html" rel="nofollow">foreach <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Executing the loop in parallel.</li>
+<li><a href="https://cran.r-project.org/package=future" rel="nofollow">future</a> - A minimal, efficient, cross-platform unified Future API for parallel and distributed processing in R; designed for beginners as well as advanced developers.</li>
+<li><a href="https://github.com/amplab-extras/SparkR-pkg">SparkR <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - R frontend for Spark.</li>
+<li><a href="https://github.com/vertica/DistributedR">DistributedR</a> - A scalable high-performance platform from  HP Vertica Analytics Team.</li>
+<li><a href="https://github.com/vertica/ddR">ddR</a> - Provides distributed data structures and simplifies distributed computing in R.</li>
+<li><a href="http://spark.rstudio.com/" rel="nofollow">sparklyr</a> - R interface for Apache Spark from RStudio.</li>
+<li><a href="https://cran.r-project.org/package=batchtools" rel="nofollow">batchtools</a> - High performance computing with LSF, TORQUE, Slurm, OpenLava, SGE and Docker Swarm.</li>
+</ul>
+<h2><a id="user-content-high-performance" class="anchor" aria-hidden="true" href="#high-performance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>High Performance</h2>
+<p><em>Packages for making R faster.</em></p>
+<ul>
+<li><a href="http://rcpp.org/" rel="nofollow">Rcpp <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Rcpp provides a powerful API on top of R, make function in R extremely faster.</li>
+<li><a href="https://github.com/Rcpp11/Rcpp11">Rcpp11</a> - Rcpp11 is a complete redesign of Rcpp, targetting C++11.</li>
+<li><a href="http://stat.ethz.ch/R-manual/R-devel/library/compiler/html/compile.html" rel="nofollow">compiler</a> - speeding up your R code using the JIT</li>
+</ul>
+<h2><a id="user-content-language-api" class="anchor" aria-hidden="true" href="#language-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Language API</h2>
+<p><em>Packages for other languages.</em></p>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/rJava/" rel="nofollow">rJava</a> - Low-level R to Java interface.</li>
+<li><a href="https://github.com/cran/jvmr">jvmr</a> - Integration of R, Java, and Scala.</li>
+<li><a href="http://cran.r-project.org/web/packages/rJython/index.html" rel="nofollow">rJython</a> - R interface to Python via Jython.</li>
+<li><a href="http://cran.r-project.org/web/packages/rPython/index.html" rel="nofollow">rPython</a> - Package allowing R to call Python.</li>
+<li><a href="https://github.com/yihui/runr">runr</a> - Run Julia and Bash from R.</li>
+<li><a href="https://github.com/armgong/RJulia">RJulia</a> - R package Call Julia.</li>
+<li><a href="https://github.com/Non-Contradiction/JuliaCall">JuliaCall</a> - Seamless Integration Between R and Julia.</li>
+<li><a href="https://sites.google.com/a/ddahl.org/rinruby-users/" rel="nofollow">RinRuby</a> - a Ruby library that integrates the R interpreter in Ruby.</li>
+<li><a href="http://cran.r-project.org/web/packages/R.matlab/index.html" rel="nofollow">R.matlab</a> - Read and write of MAT files together with R-to-MATLAB connectivity.</li>
+<li><a href="https://github.com/renozao/RcppOctave">RcppOctave</a> - Seamless Interface to Octave and Matlab.</li>
+<li><a href="http://www.omegahat.org/RSPerl/" rel="nofollow">RSPerl</a> - A bidirectional interface for calling R from Perl and Perl from R.</li>
+<li><a href="https://github.com/jeroenooms/V8">V8</a> - Embedded JavaScript Engine.</li>
+<li><a href="http://www.htmlwidgets.org/" rel="nofollow">htmlwidgets</a> - Bring the best of JavaScript data visualization to R.</li>
+<li><a href="http://rpy.sourceforge.net/" rel="nofollow">rpy2</a> - Python interface for R.</li>
+</ul>
+<h2><a id="user-content-database-management" class="anchor" aria-hidden="true" href="#database-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database Management</h2>
+<p><em>Packages for managing data.</em></p>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/RODBC/" rel="nofollow">RODBC</a> - ODBC database access for R.</li>
+<li><a href="https://github.com/rstats-db/DBI">DBI</a> - Defines a common interface between the R and database management systems.</li>
+<li><a href="https://github.com/ropensci/elastic">elastic</a> - Wrapper for the Elasticsearch HTTP API</li>
+<li><a href="https://github.com/jeroenooms/mongolite">mongolite</a> - Streaming Mongo Client for R</li>
+<li><a href="https://github.com/rstats-db/RMariaDB">RMariaDB</a> - An R interface to MariaDB (a replacement for the old RMySQL package)</li>
+<li><a href="http://cran.r-project.org/web/packages/RMySQL/" rel="nofollow">RMySQL</a> - R interface to the MySQL database.</li>
+<li><a href="http://cran.r-project.org/web/packages/ROracle/index.html" rel="nofollow">ROracle</a> - OCI based Oracle database interface for R.</li>
+<li><a href="https://code.google.com/p/rpostgresql/" rel="nofollow">RPostgreSQL</a> - R interface to the PostgreSQL database system.</li>
+<li><a href="http://cran.r-project.org/web/packages/RSQLite/" rel="nofollow">RSQLite</a> - SQLite interface for R</li>
+<li><a href="http://cran.r-project.org/web/packages/RJDBC/" rel="nofollow">RJDBC</a> - Provides access to databases through the JDBC interface.</li>
+<li><a href="https://github.com/mongosoup/rmongodb">rmongodb</a> - R driver for MongoDB.</li>
+<li><a href="http://cran.r-project.org/web/packages/rredis/" rel="nofollow">rredis</a> - Redis client for R.</li>
+<li><a href="http://cran.r-project.org/web/packages/RCassandra/index.html" rel="nofollow">RCassandra</a> - Direct interface (not Java) to the most basic functionality of Apache Cassanda.</li>
+<li><a href="https://github.com/nexr/RHive">RHive</a> - R extension facilitating distributed computing via Apache Hive.</li>
+<li><a href="https://github.com/nicolewhite/Rneo4j">RNeo4j</a> - Neo4j graph database driver.</li>
+<li><a href="https://github.com/mablab/rpostgis">rpostgis</a> - R interface to PostGIS database and get spatial objects in R.</li>
+</ul>
+<h2><a id="user-content-machine-learning" class="anchor" aria-hidden="true" href="#machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h2>
+<p><em>Packages for making R cleverer.</em></p>
+<ul>
+<li><a href="https://github.com/twitter/AnomalyDetection">AnomalyDetection <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - AnomalyDetection R package from Twitter.</li>
+<li><a href="http://cran.r-project.org/web/packages/ahaz/index.html" rel="nofollow">ahaz</a> - Regularization for semiparametric additive hazards regression.</li>
+<li><a href="http://cran.r-project.org/web/packages/arules/index.html" rel="nofollow">arules</a> - Mining Association Rules and Frequent Itemsets</li>
+<li><a href="http://cran.r-project.org/web/packages/bigrf/index.html" rel="nofollow">bigrf</a> - Big Random Forests: Classification and Regression Forests for
+Large Data Sets</li>
+<li><a href="http://cran.r-project.org/web/packages/bigRR/index.html" rel="nofollow">bigRR</a> - Generalized Ridge Regression (with special advantage for p &gt;&gt; n
+cases)</li>
+<li><a href="http://cran.r-project.org/web/packages/bmrm/index.html" rel="nofollow">bmrm</a> - Bundle Methods for Regularized Risk Minimization Package</li>
+<li><a href="http://cran.r-project.org/web/packages/Boruta/index.html" rel="nofollow">Boruta</a> - A wrapper algorithm for all-relevant feature selection</li>
+<li><a href="https://github.com/twitter/BreakoutDetection">BreakoutDetection <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Breakout Detection via Robust E-Statistics from Twitter.</li>
+<li><a href="http://cran.r-project.org/web/packages/bst/index.html" rel="nofollow">bst</a> - Gradient Boosting</li>
+<li><a href="https://github.com/google/CausalImpact">CausalImpact <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Causal inference using Bayesian structural time-series models.</li>
+<li><a href="http://cran.r-project.org/web/packages/C50/index.html" rel="nofollow">C50</a> - C5.0 Decision Trees and Rule-Based Models</li>
+<li><a href="http://cran.r-project.org/web/packages/caret/index.html" rel="nofollow">caret <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Classification and Regression Training</li>
+<li><a href="https://github.com/jbrownlee/CleverAlgorithmsMachineLearning">Clever Algorithms For Machine Learning</a></li>
+<li><a href="http://cran.r-project.org/web/packages/CORElearn/index.html" rel="nofollow">CORElearn</a> - Classification, regression, feature evaluation and ordinal
+evaluation</li>
+<li><a href="http://cran.r-project.org/web/packages/CoxBoost/index.html" rel="nofollow">CoxBoost</a> - Cox models by likelihood based boosting for a single survival
+endpoint or competing risks</li>
+<li><a href="http://cran.r-project.org/web/packages/Cubist/index.html" rel="nofollow">Cubist</a> - Rule- and Instance-Based Regression Modeling</li>
+<li><a href="http://cran.r-project.org/web/packages/e1071/index.html" rel="nofollow">e1071</a> - Misc Functions of the Department of Statistics (e1071), TU Wien</li>
+<li><a href="http://cran.r-project.org/web/packages/earth/index.html" rel="nofollow">earth</a> - Multivariate Adaptive Regression Spline Models</li>
+<li><a href="http://cran.r-project.org/web/packages/elasticnet/index.html" rel="nofollow">elasticnet</a> - Elastic-Net for Sparse Estimation and Sparse PCA</li>
+<li><a href="http://cran.r-project.org/web/packages/ElemStatLearn/index.html" rel="nofollow">ElemStatLearn</a> - Data sets, functions and examples from the book: "The Elements
+of Statistical Learning, Data Mining, Inference, and
+Prediction" by Trevor Hastie, Robert Tibshirani and Jerome
+Friedman</li>
+<li><a href="http://cran.r-project.org/web/packages/evtree/index.html" rel="nofollow">evtree</a> - Evolutionary Learning of Globally Optimal Trees</li>
+<li><a href="http://cran.r-project.org/web/packages/forecast/index.html" rel="nofollow">forecast</a> - Timeseries forecasting using ARIMA, ETS, STLM, TBATS, and neural network models</li>
+<li><a href="http://cran.r-project.org/web/packages/forecastHybrid/index.html" rel="nofollow">forecastHybrid</a> - Automatic ensemble and cross validation of ARIMA, ETS, STLM, TBATS, and neural network models from the "forecast" package</li>
+<li><a href="https://github.com/facebookincubator/prophet">prophet <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.</li>
+<li><a href="https://cran.r-project.org/web/packages/FSelector/index.html" rel="nofollow">FSelector</a> - A feature selection framework, based on subset-search or feature ranking approches.</li>
+<li><a href="http://cran.r-project.org/web/packages/frbs/index.html" rel="nofollow">frbs</a> - Fuzzy Rule-based Systems for Classification and Regression Tasks</li>
+<li><a href="http://cran.r-project.org/web/packages/GAMBoost/index.html" rel="nofollow">GAMBoost</a> - Generalized linear and additive models by likelihood based
+boosting</li>
+<li><a href="http://cran.r-project.org/web/packages/gamboostLSS/index.html" rel="nofollow">gamboostLSS</a> - Boosting Methods for GAMLSS</li>
+<li><a href="http://cran.r-project.org/web/packages/gbm/index.html" rel="nofollow">gbm</a> - Generalized Boosted Regression Models</li>
+<li><a href="http://cran.r-project.org/web/packages/glmnet/index.html" rel="nofollow">glmnet <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Lasso and elastic-net regularized generalized linear models</li>
+<li><a href="http://cran.r-project.org/web/packages/glmpath/index.html" rel="nofollow">glmpath</a> - L1 Regularization Path for Generalized Linear Models and Cox
+Proportional Hazards Model</li>
+<li><a href="http://cran.r-project.org/web/packages/GMMBoost/index.html" rel="nofollow">GMMBoost</a> - Likelihood-based Boosting for Generalized mixed models</li>
+<li><a href="http://cran.r-project.org/web/packages/grplasso/index.html" rel="nofollow">grplasso</a> - Fitting user specified models with Group Lasso penalty</li>
+<li><a href="http://cran.r-project.org/web/packages/grpreg/index.html" rel="nofollow">grpreg</a> - Regularization paths for regression models with grouped
+covariates</li>
+<li><a href="http://cran.r-project.org/web/packages/h2o/index.html" rel="nofollow">h2o <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Deeplearning, Random forests, GBM, KMeans, PCA, GLM</li>
+<li><a href="http://cran.r-project.org/web/packages/hda/index.html" rel="nofollow">hda</a> - Heteroscedastic Discriminant Analysis</li>
+<li><a href="http://cran.r-project.org/web/packages/ipred/index.html" rel="nofollow">ipred</a> - Improved Predictors</li>
+<li><a href="http://cran.r-project.org/web/packages/kernlab/index.html" rel="nofollow">kernlab</a> - kernlab: Kernel-based Machine Learning Lab</li>
+<li><a href="http://cran.r-project.org/web/packages/klaR/index.html" rel="nofollow">klaR</a> - Classification and visualization</li>
+<li><a href="http://cran.r-project.org/web/packages/kohonen/" rel="nofollow">kohonen</a> - Supervised and Unsupervised Self-Organising Maps.</li>
+<li><a href="http://cran.r-project.org/web/packages/lars/index.html" rel="nofollow">lars</a> - Least Angle Regression, Lasso and Forward Stagewise</li>
+<li><a href="http://cran.r-project.org/web/packages/lasso2/index.html" rel="nofollow">lasso2</a> - L1 constrained estimation aka ‘lasso’</li>
+<li><a href="http://cran.r-project.org/web/packages/LiblineaR/index.html" rel="nofollow">LiblineaR</a> - Linear Predictive Models Based On The Liblinear C/C++ Library</li>
+<li><a href="https://github.com/lme4/lme4">lme4 <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Mixed-effects models</li>
+<li><a href="http://cran.r-project.org/web/packages/LogicReg/index.html" rel="nofollow">LogicReg</a> - Logic Regression</li>
+<li><a href="http://cran.r-project.org/web/packages/maptree/index.html" rel="nofollow">maptree</a> - Mapping, pruning, and graphing tree models</li>
+<li><a href="http://cran.r-project.org/web/packages/mboost/index.html" rel="nofollow">mboost</a> - Model-Based Boosting</li>
+<li><a href="https://github.com/johnmyleswhite/ML_for_Hackers">Machine Learning For Hackers <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a></li>
+<li><a href="https://github.com/mlr-org/mlr">mlr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Extensible framework for classification, regression, survival analysis and clustering</li>
+<li><a href="http://cran.r-project.org/web/packages/mvpart/index.html" rel="nofollow">mvpart</a> - Multivariate partitioning</li>
+<li><a href="https://github.com/dmlc/mxnet/tree/master/R-package">MXNet <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - MXNet brings flexible and efficient GPU computing and state-of-art deep learning to R.</li>
+<li><a href="http://cran.r-project.org/web/packages/ncvreg/index.html" rel="nofollow">ncvreg</a> - Regularization paths for SCAD- and MCP-penalized regression
+models</li>
+<li><a href="http://cran.r-project.org/web/packages/nnet/index.html" rel="nofollow">nnet</a> - eed-forward Neural Networks and Multinomial Log-Linear Models</li>
+<li><a href="http://cran.r-project.org/web/packages/oblique.tree/index.html" rel="nofollow">oblique.tree</a> - Oblique Trees for Classification Data</li>
+<li><a href="http://cran.r-project.org/web/packages/pamr/index.html" rel="nofollow">pamr</a> - Pam: prediction analysis for microarrays</li>
+<li><a href="http://cran.r-project.org/web/packages/party/index.html" rel="nofollow">party</a> - A Laboratory for Recursive Partytioning</li>
+<li><a href="http://cran.r-project.org/web/packages/partykit/index.html" rel="nofollow">partykit</a> - A Toolkit for Recursive Partytioning</li>
+<li><a href="http://cran.r-project.org/web/packages/penalized/index.html" rel="nofollow">penalized</a> - L1 (lasso and fused lasso) and L2 (ridge) penalized estimation
+in GLMs and in the Cox model</li>
+<li><a href="http://cran.r-project.org/web/packages/penalizedLDA/index.html" rel="nofollow">penalizedLDA</a> - Penalized classification using Fisher's linear discriminant</li>
+<li><a href="http://cran.r-project.org/web/packages/penalizedSVM/index.html" rel="nofollow">penalizedSVM</a> - Feature Selection SVM using penalty functions</li>
+<li><a href="http://cran.r-project.org/web/packages/quantregForest/index.html" rel="nofollow">quantregForest</a> - quantregForest: Quantile Regression Forests</li>
+<li><a href="http://cran.r-project.org/web/packages/randomForest/index.html" rel="nofollow">randomForest</a> - randomForest: Breiman and Cutler's random forests for classification and regression.</li>
+<li><a href="http://cran.r-project.org/web/packages/randomForestSRC/index.html" rel="nofollow">randomForestSRC</a> - randomForestSRC: Random Forests for Survival, Regression and Classification (RF-SRC).</li>
+<li><a href="http://cran.r-project.org/web/packages/rattle/index.html" rel="nofollow">rattle</a> - Graphical user interface for data mining in R.</li>
+<li><a href="http://cran.r-project.org/web/packages/rda/index.html" rel="nofollow">rda</a> - Shrunken Centroids Regularized Discriminant Analysis</li>
+<li><a href="http://cran.r-project.org/web/packages/rdetools/index.html" rel="nofollow">rdetools</a> - Relevant Dimension Estimation (RDE) in Feature Spaces</li>
+<li><a href="http://cran.r-project.org/web/packages/REEMtree/index.html" rel="nofollow">REEMtree</a> - Regression Trees with Random Effects for Longitudinal (Panel)
+Data</li>
+<li><a href="http://cran.r-project.org/web/packages/relaxo/index.html" rel="nofollow">relaxo</a> - Relaxed Lasso</li>
+<li><a href="http://cran.r-project.org/web/packages/rgenoud/index.html" rel="nofollow">rgenoud</a> - R version of GENetic Optimization Using Derivatives</li>
+<li><a href="http://cran.r-project.org/web/packages/rgp/index.html" rel="nofollow">rgp</a> - R genetic programming framework</li>
+<li><a href="http://cran.r-project.org/web/packages/Rmalschains/index.html" rel="nofollow">Rmalschains</a> - Continuous Optimization using Memetic Algorithms with Local
+Search Chains (MA-LS-Chains) in R</li>
+<li><a href="http://cran.r-project.org/web/packages/rminer/index.html" rel="nofollow">rminer</a> - Simpler use of data mining methods (e.g. NN and SVM) in
+classification and regression</li>
+<li><a href="http://cran.r-project.org/web/packages/ROCR/index.html" rel="nofollow">ROCR</a> - Visualizing the performance of scoring classifiers</li>
+<li><a href="http://cran.r-project.org/web/packages/RoughSets/index.html" rel="nofollow">RoughSets</a> - Data Analysis Using Rough Set and Fuzzy Rough Set Theories</li>
+<li><a href="http://cran.r-project.org/web/packages/rpart/index.html" rel="nofollow">rpart</a> - Recursive Partitioning and Regression Trees</li>
+<li><a href="http://cran.r-project.org/web/packages/RPMM/index.html" rel="nofollow">RPMM</a> - Recursively Partitioned Mixture Model</li>
+<li><a href="http://cran.r-project.org/web/packages/RSNNS/index.html" rel="nofollow">RSNNS</a> - Neural Networks in R using the Stuttgart Neural Network
+Simulator (SNNS)</li>
+<li><a href="https://cran.r-project.org/web/packages/Rsomoclu/index.html" rel="nofollow">Rsomoclu</a> - Parallel implementation of self-organizing maps.</li>
+<li><a href="http://cran.r-project.org/web/packages/RWeka/index.html" rel="nofollow">RWeka</a> - R/Weka interface</li>
+<li><a href="http://cran.r-project.org/web/packages/RXshrink/index.html" rel="nofollow">RXshrink</a> - RXshrink: Maximum Likelihood Shrinkage via Generalized Ridge or Least
+Angle Regression</li>
+<li><a href="http://cran.r-project.org/web/packages/sda/index.html" rel="nofollow">sda</a> - Shrinkage Discriminant Analysis and CAT Score Variable Selection</li>
+<li><a href="http://cran.r-project.org/web/packages/SDDA/index.html" rel="nofollow">SDDA</a> - Stepwise Diagonal Discriminant Analysis</li>
+<li><a href="https://github.com/ecpolley/SuperLearner">SuperLearner</a> and <a href="http://cran.r-project.org/web/packages/subsemble/index.html" rel="nofollow">subsemble</a> - Multi-algorithm ensemble learning packages.</li>
+<li><a href="http://cran.r-project.org/web/packages/svmpath/index.html" rel="nofollow">svmpath</a> - svmpath: the SVM Path algorithm</li>
+<li><a href="http://cran.r-project.org/web/packages/tgp/index.html" rel="nofollow">tgp</a> - Bayesian treed Gaussian process models</li>
+<li><a href="http://cran.r-project.org/web/packages/tree/index.html" rel="nofollow">tree</a> - Classification and regression trees</li>
+<li><a href="http://cran.r-project.org/web/packages/varSelRF/index.html" rel="nofollow">varSelRF</a> - Variable selection using random forests</li>
+<li><a href="https://github.com/tqchen/xgboost/tree/master/R-package">xgboost <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - eXtreme Gradient Boosting Tree model, well known for its speed and performance.</li>
+</ul>
+<h2><a id="user-content-natural-language-processing" class="anchor" aria-hidden="true" href="#natural-language-processing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Natural Language Processing</h2>
+<p><em>Packages for Natural Language Processing.</em></p>
+<ul>
+<li><a href="https://github.com/dselivanov/text2vec">text2vec</a> - Fast Text Mining Framework for Vectorization and Word Embeddings.</li>
+<li><a href="http://cran.r-project.org/web/packages/tm/index.html" rel="nofollow">tm</a> - A comprehensive text mining framework for R.</li>
+<li><a href="http://cran.r-project.org/web/packages/openNLP/index.html" rel="nofollow">openNLP</a> - Apache OpenNLP Tools Interface.</li>
+<li><a href="http://cran.r-project.org/web/packages/koRpus/index.html" rel="nofollow">koRpus</a> - An R Package for Text Analysis.</li>
+<li><a href="http://cran.r-project.org/web/packages/zipfR/index.html" rel="nofollow">zipfR</a> - Statistical models for word frequency distributions.</li>
+<li><a href="http://cran.r-project.org/web/packages/NLP/index.html" rel="nofollow">NLP</a> - Basic functions for Natural Language Processing.</li>
+<li><a href="https://github.com/cpsievert/LDAvis">LDAvis</a> - Interactive visualization of topic models.</li>
+<li><a href="https://cran.r-project.org/web/packages/topicmodels/index.html" rel="nofollow">topicmodels</a> - Topic modeling interface to the C code developed by by David M. Blei for Topic Modeling (Latent Dirichlet Allocation (LDA), and Correlated Topics Models (CTM)).</li>
+<li><a href="https://cran.r-project.org/web/packages/syuzhet/index.html" rel="nofollow">syuzhet</a> - Extracts sentiment from text using three different sentiment dictionaries.</li>
+<li><a href="https://cran.rstudio.com/web/packages/SnowballC/index.html" rel="nofollow">SnowballC</a> - Snowball stemmers based on the C libstemmer UTF-8 library.</li>
+<li><a href="https://github.com/kbenoit/quanteda">quanteda</a> - R functions for Quantitative Analysis of Textual Data.</li>
+<li><a href="https://github.com/trinker/topicmodels_learning">Topic Models Resources</a> - Topic Models learning and R related resources.</li>
+<li><a href="https://github.com/BZRLC/R-notes/blob/master/NLP/readme.md">NLP for <img src="https://camo.githubusercontent.com/ec7e05064be165ab65e8a0c54fb3977903606761/68747470733a2f2f6173736574732d63646e2e6769746875622e636f6d2f696d616765732f69636f6e732f656d6f6a692f756e69636f64652f31663165382d31663166332e706e67" width="20" align="absmiddle" alt=":cn:" data-canonical-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f1e8-1f1f3.png" style="max-width:100%;"></a> - NLP related resources in R. @Chinese</li>
+<li><a href="https://github.com/masalmon/monkeylearn">MonkeyLearn</a> - <g-emoji class="g-emoji" alias="monkey" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f412.png">🐒</g-emoji> R package for text analysis with Monkeylearn <g-emoji class="g-emoji" alias="monkey" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f412.png">🐒</g-emoji>.</li>
+<li><a href="http://tidytextmining.com/index.html" rel="nofollow">tidytext</a> - Implementing tidy principles of Hadley Wickham to text mining.</li>
+<li><a href="https://github.com/patperry/r-utf8">utf8</a> - Manipulating and printing UTF-8 text that fixes multiple bugs in R's UTF-8 handling.</li>
+</ul>
+<h2><a id="user-content-bayesian" class="anchor" aria-hidden="true" href="#bayesian"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bayesian</h2>
+<p><em>Packages for Bayesian Inference.</em></p>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/coda/index.html" rel="nofollow">coda</a> - Output analysis and diagnostics for MCMC.</li>
+<li><a href="http://cran.r-project.org/web/packages/mcmc/index.html" rel="nofollow">mcmc</a> - Markov Chain Monte Carlo.</li>
+<li><a href="http://mcmcpack.berkeley.edu/" rel="nofollow">MCMCpack</a> - Markov chain Monte Carlo (MCMC) Package.</li>
+<li><a href="http://cran.r-project.org/web/packages/R2WinBUGS/index.html" rel="nofollow">R2WinBUGS</a> - Running WinBUGS and OpenBUGS from R / S-PLUS.</li>
+<li><a href="http://cran.r-project.org/web/packages/BRugs/index.html" rel="nofollow">BRugs</a> - R interface to the OpenBUGS MCMC software.</li>
+<li><a href="http://cran.r-project.org/web/packages/rjags/index.html" rel="nofollow">rjags</a> - R interface to the JAGS MCMC library.</li>
+<li><a href="http://mc-stan.org/interfaces/rstan.html" rel="nofollow">rstan <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - R interface to the Stan MCMC software.</li>
+</ul>
+<h2><a id="user-content-optimization" class="anchor" aria-hidden="true" href="#optimization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optimization</h2>
+<p><em>Packages for Optimization.</em></p>
+<ul>
+<li><a href="https://cran.rstudio.com/web/packages/lpSolve/index.html" rel="nofollow">lpSolve</a> - Interface to <code>Lp_solve</code> to Solve Linear/Integer Programs.</li>
+<li><a href="https://cran.rstudio.com/web/packages/minqa/index.html" rel="nofollow">minqa</a> - Derivative-free optimization algorithms by quadratic approximation.</li>
+<li><a href="https://cran.rstudio.com/web/packages/nloptr/index.html" rel="nofollow">nloptr</a> - NLopt is a free/open-source library for nonlinear optimization.</li>
+<li><a href="https://cran.rstudio.com/web/packages/ompr/index.html" rel="nofollow">ompr</a> - Model mixed integer linear programs in an algebraic way directly in R.</li>
+<li><a href="https://cran.rstudio.com/web/packages/Rglpk/index.html" rel="nofollow">Rglpk</a> - R/GNU Linear Programming Kit Interface</li>
+<li><a href="https://cran.rstudio.com/web/packages/ROI/index.html" rel="nofollow">ROI</a> - The R Optimization Infrastructure ('ROI') is a sophisticated framework for handling optimization problems in R.</li>
+</ul>
+<h2><a id="user-content-finance" class="anchor" aria-hidden="true" href="#finance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Finance</h2>
+<p><em>Packages for dealing with money.</em></p>
+<ul>
+<li><a href="http://www.quantmod.com/" rel="nofollow">quantmod <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Quantitative Financial Modelling &amp; Trading Framework for R.</li>
+<li><a href="http://cran.r-project.org/web/packages/TTR/index.html" rel="nofollow">TTR</a> - Functions and data to construct technical trading rules with R.</li>
+<li><a href="http://cran.r-project.org/web/packages/PerformanceAnalytics/index.html" rel="nofollow">PerformanceAnalytics</a> - Econometric tools for performance and risk analysis.</li>
+<li><a href="http://cran.r-project.org/web/packages/zoo/index.html" rel="nofollow">zoo <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - S3 Infrastructure for Regular and Irregular Time Series.</li>
+<li><a href="http://cran.r-project.org/web/packages/xts/index.html" rel="nofollow">xts</a> - eXtensible Time Series.</li>
+<li><a href="http://cran.r-project.org/web/packages/tseries/index.html" rel="nofollow">tseries</a> - Time series analysis and computational finance.</li>
+<li><a href="http://cran.r-project.org/web/packages/fAssets/index.html" rel="nofollow">fAssets</a> - Analysing and Modelling Financial Assets.</li>
+</ul>
+<h2><a id="user-content-bioinformatics-and-biostatistics" class="anchor" aria-hidden="true" href="#bioinformatics-and-biostatistics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bioinformatics and Biostatistics</h2>
+<p><em>Packages for processing biological datasets.</em></p>
+<ul>
+<li><a href="http://www.bioconductor.org/" rel="nofollow">Bioconductor <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Tools for the analysis and comprehension of high-throughput genomic data.</li>
+<li><a href="http://cran.r-project.org/web/packages/genetics/index.html" rel="nofollow">genetics</a> - Classes and methods for handling genetic data.</li>
+<li><a href="http://cran.r-project.org/web/packages/gap/index.html" rel="nofollow">gap</a> - An integrated package for genetic data analysis of both population and family data.</li>
+<li><a href="http://cran.r-project.org/web/packages/ape/index.html" rel="nofollow">ape</a> - Analyses of Phylogenetics and Evolution.</li>
+<li><a href="http://cran.r-project.org/web/packages/pheatmap/index.html" rel="nofollow">pheatmap</a> - Pretty heatmaps made easy.</li>
+</ul>
+<h2><a id="user-content-network-analysis" class="anchor" aria-hidden="true" href="#network-analysis"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Network Analysis</h2>
+<p><em>Packages to construct, analyze and visualize network data.</em></p>
+<ul>
+<li><a href="https://github.com/briatte/awesome-network-analysis">Network Analysis List</a> - Network Analysis related resources.</li>
+<li><a href="http://igraph.org/r/" rel="nofollow">igraph <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - A collection of network analysis tools.</li>
+<li><a href="https://cran.r-project.org/web/packages/network/index.html" rel="nofollow">network</a> - Basic tools to manipulate relational data in R.</li>
+<li><a href="https://cran.r-project.org/web/packages/sna/index.html" rel="nofollow">sna</a> - Basic network measures and visualization tools.</li>
+<li><a href="https://github.com/USCCANA/netdiffuseR">netdiffuseR</a> - Tools for Analysis of Network Diffusion.</li>
+<li><a href="https://cran.r-project.org/web/packages/networkDynamic/" rel="nofollow">networkDynamic</a> - Support for dynamic, (inter)temporal networks.</li>
+<li><a href="https://cran.r-project.org/web/packages/ndtv/" rel="nofollow">ndtv</a> - Tools to construct animated visualizations of dynamic network data in various formats.</li>
+<li><a href="http://statnet.org/" rel="nofollow">statnet</a> - The project behind many R network analysis packages.</li>
+<li><a href="https://cran.r-project.org/web/packages/ergm/index.html" rel="nofollow">ergm</a> - Exponential random graph models in R.</li>
+<li><a href="https://cran.r-project.org/web/packages/latentnet/index.html" rel="nofollow">latentnet</a> - Latent position and cluster models for network objects.</li>
+<li><a href="https://cran.r-project.org/web/packages/tnet/index.html" rel="nofollow">tnet</a> - Network measures for weighted, two-mode and longitudinal networks.</li>
+<li><a href="https://bitbucket.org/gvegayon/rgexf/wiki/Home" rel="nofollow">rgexf</a> - Export network objects from R to <a href="http://gexf.net/format/" rel="nofollow">GEXF</a>, for manipulation with network software like <a href="https://gephi.org/" rel="nofollow">Gephi</a> or <a href="http://sigmajs.org/" rel="nofollow">Sigma</a>.</li>
+<li><a href="https://github.com/datastorm-open/visNetwork">visNetwork</a> - Using vis.js library for network visualization.</li>
+</ul>
+<h2><a id="user-content-spatial" class="anchor" aria-hidden="true" href="#spatial"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Spatial</h2>
+<p><em>Packages to explore the earth.</em></p>
+<ul>
+<li><a href="https://cran.r-project.org/web/views/Spatial.html" rel="nofollow">CRAN Task View: Analysis of Spatial Data</a>- Spatial Analysis related resources.</li>
+<li><a href="http://rstudio.github.io/leaflet/" rel="nofollow">Leaflet</a> - One of the most popular JavaScript libraries interactive maps.</li>
+<li><a href="https://github.com/dkahle/ggmap">ggmap</a> -  Plotting maps in R with ggplot2.</li>
+<li><a href="https://github.com/Lchiffon/REmap">REmap</a> - R interface to the JavaScript library ECharts for interactive map data visualization.</li>
+<li><a href="https://edzer.github.io/sp/" rel="nofollow">sp</a> - Classes and Methods for Spatial Data.</li>
+<li><a href="https://cran.r-project.org/web/packages/rgeos/index.html" rel="nofollow">rgeos</a> - Interface to Geometry Engine - Open Source</li>
+<li><a href="https://cran.r-project.org/web/packages/rgdal/index.html" rel="nofollow">rgdal</a> - Bindings for the Geospatial Data Abstraction Library</li>
+<li><a href="https://cran.r-project.org/web/packages/maptools/index.html" rel="nofollow">maptools</a> - Tools for Reading and Handling Spatial Objects</li>
+<li><a href="https://github.com/edzer/gstat">gstat</a> - Spatial and spatio-temporal geostatistical modelling, prediction and simulation.</li>
+<li><a href="https://github.com/edzer/spacetime">spacetime</a> - R classes and methods for spatio-temporal data.</li>
+<li><a href="https://cran.r-project.org/web/packages/RColorBrewer/index.html" rel="nofollow">RColorBrewer</a> - Provides color schemes for maps</li>
+<li><a href="https://github.com/spatstat/spatstat">spatstat</a> - Spatial Point Pattern Analysis, Model-Fitting, Simulation, Tests</li>
+<li><a href="https://cran.r-project.org/web/packages/spdep/index.html" rel="nofollow">spdep</a> - Spatial Dependence: Weighting Schemes, Statistics and Models</li>
+<li><a href="https://github.com/walkerke/tigris">tigris</a> - Download and use Census TIGER/Line shapefiles in R</li>
+</ul>
+<h2><a id="user-content-r-development" class="anchor" aria-hidden="true" href="#r-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>R Development</h2>
+<p><em>Packages for packages.</em></p>
+<ul>
+<li><a href="https://github.com/ropensci/PackageDevelopment">Package Development List</a> - R packages to improve package development.</li>
+<li><a href="https://github.com/hadley/devtools">devtools <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Tools to make an R developer's life easier.</li>
+<li><a href="https://github.com/hadley/testthat">testthat <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - An R package to make testing fun.</li>
+<li><a href="https://github.com/wch/R6">R6 <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - simpler, faster, lighter-weight alternative to R's built-in classes.</li>
+<li><a href="https://github.com/hadley/pryr">pryr <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Make it easier to understand what's going on in R.</li>
+<li><a href="https://github.com/klutometis/roxygen">roxygen <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - Describe your functions in comments next to their definitions.</li>
+<li><a href="https://github.com/hadley/lineprof">lineprof</a> - Visualise line profiling results in R.</li>
+<li><a href="https://github.com/rstudio/packrat">packrat</a> - Make your R projects more isolated, portable, and reproducible.</li>
+<li><a href="https://github.com/talgalili/installr/">installr</a> - Functions for installing softwares from within R (for Windows).</li>
+<li><a href="https://github.com/smbache/import/">import</a> - An import mechanism for R.</li>
+<li><a href="https://github.com/klmr/modules">modules</a> - An alternative (Python style) module system for R.</li>
+<li><a href="https://github.com/rocker-org">Rocker <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - R configurations for <a href="https://www.docker.com/" rel="nofollow">Docker</a>.</li>
+<li><a href="https://github.com/daattali/rstudio-addins">RStudio Addins</a> - List of RStudio addins.</li>
+<li><a href="https://github.com/eddelbuettel/drat">drat</a> - Creation and use of R repositories on GitHub or other repos.</li>
+<li><a href="https://github.com/jimhester/covr">covr</a> - Test coverage for your R package and (optionally) upload the results to <a href="https://coveralls.io/" rel="nofollow">coveralls</a> or <a href="https://codecov.io/" rel="nofollow">codecov</a>.</li>
+<li><a href="https://github.com/jimhester/lintr">lintr</a> - Static code analysis for R to enforce code style.</li>
+<li><a href="https://github.com/hadley/staticdocs">staticdocs</a> - Generate static html documentation for an R package.</li>
+</ul>
+<h2><a id="user-content-logging" class="anchor" aria-hidden="true" href="#logging"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logging</h2>
+<p><em>Packages for Logging</em></p>
+<ul>
+<li><a href="https://github.com/zatonovo/futile.logger">futile.logger</a> - A logging package in R similar to log4j</li>
+<li><a href="https://github.com/johnmyleswhite/log4r">log4r</a> - A log4j derivative for R</li>
+<li><a href="https://cran.r-project.org/web/packages/logging/index.html" rel="nofollow">logging</a> - A logging package emulating the python logging package.</li>
+</ul>
+<h2><a id="user-content-data-packages" class="anchor" aria-hidden="true" href="#data-packages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Packages</h2>
+<p><em>Handy Data Packages</em></p>
+<ul>
+<li><a href="https://github.com/jalapic/engsoccerdata">engsoccerdata</a> - English and European soccer results 1871-2016.</li>
+<li><a href="http://github.com/jennybc/gapminder">gapminder</a> - Excerpt from the Gapminder dataset (data about countries throught the past 50 years).</li>
+</ul>
+<h2><a id="user-content-other-tools" class="anchor" aria-hidden="true" href="#other-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Tools</h2>
+<p><em>Handy Tools for R</em></p>
+<ul>
+<li><a href="https://github.com/ropensci/git2r">git2r</a> - Gives you programmatic access to Git repositories from R.</li>
+</ul>
+<h2><a id="user-content-other-interpreters" class="anchor" aria-hidden="true" href="#other-interpreters"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Interpreters</h2>
+<p><em>Alternative R engines.</em></p>
+<ul>
+<li><a href="https://www.cs.kent.ac.uk/projects/cxxr/" rel="nofollow">CXXR</a> - Refactorising R into C++.</li>
+<li><a href="https://bitbucket.org/allr/fastr/wiki/Home" rel="nofollow">fastR</a> - FastR is an implementation of the R Language in Java atop Truffle and Graal.</li>
+<li><a href="http://www.pqr-project.org/" rel="nofollow">pqR</a> - a "pretty quick" implementation of R</li>
+<li><a href="http://www.renjin.org/" rel="nofollow">renjin</a> - a JVM-based interpreter for R.</li>
+<li><a href="https://github.com/rho-devel/rho">rho</a> - Refactor the interpreter of the R language into a fully-compatible, efficient, VM for R.</li>
+<li><a href="https://github.com/jtalbot/riposte">riposte</a> - a fast interpreter and JIT for R.</li>
+<li><a href="http://spotfire.tibco.com/discover-spotfire/what-does-spotfire-do/predictive-analytics/tibco-enterprise-runtime-for-r-terr" rel="nofollow">TERR</a> - TIBCO Enterprise Runtime for R.</li>
+</ul>
+<h2><a id="user-content-learning-r" class="anchor" aria-hidden="true" href="#learning-r"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Learning R</h2>
+<p><em>Packages for Learning R.</em></p>
+<ul>
+<li><a href="http://swirlstats.com/" rel="nofollow">swirl <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - An interactive R tutorial directly in your R console.</li>
+<li><a href="https://github.com/ujjwalkarn/DataScienceR">DataScienceR <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - a list of R tutorials for Data Science, NLP and Machine Learning.</li>
+</ul>
+<h1><a id="user-content-resources" class="anchor" aria-hidden="true" href="#resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h1>
+<p>Where to discover new R-esources.</p>
+<h2><a id="user-content-websites" class="anchor" aria-hidden="true" href="#websites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Websites</h2>
+<ul>
+<li><a href="http://www.r-project.org/" rel="nofollow">R-project</a> - The R Project for Statistical Computing.</li>
+<li><a href="https://rweekly.org" rel="nofollow">R Weekly</a> - Weekly updates about R and Data Science. R Weekly is openly developed on GitHub.</li>
+<li><a href="http://www.r-bloggers.com/" rel="nofollow">R Bloggers</a> - There are people scattered across the Web who blog about R. This is simply an aggregator of many of those feeds.</li>
+<li><a href="https://www.datacamp.com/" rel="nofollow">DataCamp</a> - Learn R data analytics online.</li>
+<li><a href="http://www.statmethods.net/" rel="nofollow">Quick-R</a> - An excellent quick reference.</li>
+<li><a href="http://adv-r.had.co.nz/" rel="nofollow">Advanced R <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - An online version of the Advanced R book.</li>
+<li><a href="https://csgillespie.github.io/efficientR/" rel="nofollow">Efficient R Programming</a> - An online home of the O’Reilly book: Efficient R Programming.</li>
+<li><a href="http://cran.r-project.org/web/views/" rel="nofollow">CRAN Task Views</a> - Task Views for CRAN packages.</li>
+<li><a href="https://en.wikibooks.org/wiki/R_Programming" rel="nofollow">The R Programming Wikibook</a> - A collaborative handbook for R.</li>
+<li><a href="https://www.r-users.com/" rel="nofollow">R-users</a> - A job board for R users (and the people who are looking to hire them)</li>
+<li><a href="http://www.cookbook-r.com/" rel="nofollow">R Cookbook</a> - A problem-oriented website that supports the <a href="http://shop.oreilly.com/product/0636920023135.do" rel="nofollow">R Graphics Cookbook</a>.</li>
+<li><a href="http://tryr.codeschool.com/" rel="nofollow">tryR</a> - A quick course for getting started with R.</li>
+<li><a href="https://www.rdocumentation.org/" rel="nofollow">RDocumentation</a> - Search through all CRAN, Bioconductor, Github packages and their archives with RDocumentation.</li>
+</ul>
+<h2><a id="user-content-books" class="anchor" aria-hidden="true" href="#books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<ul>
+<li><a href="https://github.com/RomanTsegelskyi/rbooks">R Books List</a> - List of R Books.</li>
+<li><a href="http://shop.oreilly.com/product/9781593273842.do" rel="nofollow">The Art of R Programming</a> - It's a good resource for systematically learning fundamentals such as types of objects, control statements, variable scope, classes and debugging in R.</li>
+<li><a href="https://cran.r-project.org/other-docs.html" rel="nofollow">Free Books</a> - CRAN Contributed Documentation in many languages.</li>
+<li><a href="http://shop.oreilly.com/product/9780596809164.do" rel="nofollow">R Cookbook</a> - A quick and simple introduction to conducting many common statistical tasks with R.</li>
+<li>Books written as part of the Johns Hopkins Data Science Specialization:
+<ul>
+<li><a href="https://leanpub.com/exdata" rel="nofollow">Exploratory Data Analysis with R</a> - Basic analytical skills for all sorts of data in R.</li>
+<li><a href="https://leanpub.com/rprogramming" rel="nofollow">R Programming for Data Science</a> - More advanced data analysis that relies on R programming.</li>
+<li><a href="https://leanpub.com/reportwriting" rel="nofollow">Report Writing for Data Science in R</a> - R-based methods for reproducible research and report generation.</li>
+</ul>
+</li>
+<li><a href="http://r-pkgs.had.co.nz/" rel="nofollow">R Packages</a> - A book (in paper and website formats) on writing R packages.</li>
+<li><a href="http://www.manning.com/kabacoff2/" rel="nofollow">R in Action</a> - This book aims at all levels of users, with sections for beginning, intermediate and advanced R ranging from "Exploring R data structures" to running regressions and conducting factor analyses.</li>
+<li><a href="http://www.springer.com/series/6991?detailsPage=titles" rel="nofollow">Use R!</a> - This series of inexpensive and focused books from Springer publish shorter books aimed at practitioners. Books can discuss the use of R in a particular subject area, such as Bayesian networks, ggplot2 and Rcpp.</li>
+<li><a href="http://r4stats.com/books/free-version/" rel="nofollow">R for SAS and SPSS users</a> - An excelllent resource for users already familiar with SAS or SPSS.</li>
+<li><a href="https://cran.r-project.org/doc/manuals/R-intro.pdf" rel="nofollow">An Introduction to R</a> - A very good introductory text on R, also covers some advanced topics.</li>
+<li><a href="http://www-bcf.usc.edu/%7Egareth/ISL/" rel="nofollow">Introduction to Statistical Learning with Application in R</a> - A simplified and "operational" version of <em>The Elements of Statistical Learning</em>. Free softcopy provided by its authors.</li>
+<li><a href="http://www.burns-stat.com/pages/Tutor/R_inferno.pdf" rel="nofollow">The R Inferno</a> - Patrick Burns gives insight into R's ins and outs along with its quirks!</li>
+<li><a href="http://r4ds.had.co.nz/" rel="nofollow">R for Data Science</a> - Free book from RStudio developers with emphasis on data science workflow.</li>
+<li><a href="https://www.packtpub.com/big-data-and-business-intelligence/learning-r-programming" rel="nofollow">Learning R Programming</a> - Learning R as a programming language from basics to advanced topics.</li>
+<li><a href="https://www.manning.com/books/data-munging-with-r" rel="nofollow">Data Munging with R</a> - A gentle introduction to data processing and programming in R, for beginners moving beyond spreadsheets.</li>
+</ul>
+<h2><a id="user-content-podcasts" class="anchor" aria-hidden="true" href="#podcasts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Podcasts</h2>
+<ul>
+<li><a href="https://soundcloud.com/nssd-podcast" rel="nofollow">Not So Standard Deviations</a> - The Data Science Podcast.
+<ul>
+<li><a href="https://twitter.com/rdpeng" rel="nofollow">@Roger Peng</a> and <a href="https://twitter.com/hspter" rel="nofollow">@Hilary Parker</a>.</li>
+</ul>
+</li>
+<li><a href="http://www.rworld.news/blog/" rel="nofollow">R World News</a> - R World News helps you keep up with happenings within the R community.
+<ul>
+<li><a href="https://twitter.com/hrbrmstr" rel="nofollow">@Bob Rudis</a> and <a href="https://twitter.com/jayjacobs" rel="nofollow">@Jay Jacobs</a>.</li>
+</ul>
+</li>
+<li><a href="https://r-podcast.org/" rel="nofollow">The R-Podcast</a> - Giving practical advice on how to use R.
+<ul>
+<li><a href="https://r-podcast.org/stories/contact.html" rel="nofollow">@Eric Nantz</a>.</li>
+</ul>
+</li>
+<li><a href="http://rtalk.org" rel="nofollow">R Talk</a> - News and discussions of statistical software and language R.
+<ul>
+<li><a href="https://twitter.com/quominus" rel="nofollow">@Oliver Keyes</a>, <a href="https://twitter.com/jasdumas" rel="nofollow">@Jasmine Dumas</a>, <a href="https://twitter.com/emhrt_" rel="nofollow">@Ted Hart</a> and <a href="https://twitter.com/bearloga" rel="nofollow">@Mikhail Popov</a>.</li>
+</ul>
+</li>
+<li><a href="https://rweekly.org" rel="nofollow">R Weekly</a> - Weekly news updates about the R community.</li>
+</ul>
+<h2><a id="user-content-reference-cards" class="anchor" aria-hidden="true" href="#reference-cards"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reference Cards</h2>
+<ul>
+<li><a href="http://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf" rel="nofollow">R Reference Card 2.0</a> - Material from R for Beginners by permission of Emmanuel Paradis (Version 2 by Matt Baggott).</li>
+<li><a href="http://cran.r-project.org/doc/contrib/Ricci-refcard-regression.pdf" rel="nofollow">Regression Analysis Refcard</a> - R Reference Card for Regression Analysis.</li>
+<li><a href="http://ess.r-project.org/refcard.pdf" rel="nofollow">Reference Card for ESS</a> - Reference Card for ESS.</li>
+<li><a href="http://shiny.rstudio.com/images/rm-cheatsheet.pdf.zip" rel="nofollow">R Markdown Cheat sheet</a> - Quick reference guide for writing reports with R Markdown.</li>
+<li><a href="http://shiny.rstudio.com/images/cheatsheet.pdf.zip" rel="nofollow">Shiny Cheat sheet</a> - Quick reference guide for building Shiny apps.</li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf" rel="nofollow">ggplot2 Cheat sheet</a> - Quick reference guide for data visualisation with ggplot2.</li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/06/devtools-cheatsheet.pdf" rel="nofollow">devtools Cheat sheet</a> - Quick reference guide to package development in R.</li>
+</ul>
+<h2><a id="user-content-moocs" class="anchor" aria-hidden="true" href="#moocs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MOOCs</h2>
+<p><em>Massive open online courses.</em></p>
+<ul>
+<li><a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0" rel="nofollow">The Analytics Edge</a> - Hands-on introduction to data analysis with R from MITx.</li>
+<li><a href="https://www.coursera.org/specialization/jhudatascience/1" rel="nofollow">Johns Hopkins University Data Science Specialization</a> - 9 courses including: Introduction to R, literate analysis tools, Shiny and some more.</li>
+<li><a href="http://simplystatistics.org/2014/11/25/harvardx-biomedical-data-science-open-online-training-curriculum-launches-on-january-19/" rel="nofollow">HarvardX Biomedical Data Science</a> - Introduction to R for the Life Sciences.</li>
+<li><a href="https://www.edx.org/course/explore-statistics-r-kix-kiexplorx-0" rel="nofollow">Explore Statistics with R</a> - Covers introduction, data handling and statistical analysis in R.</li>
+</ul>
+<h2><a id="user-content-lists" class="anchor" aria-hidden="true" href="#lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lists</h2>
+<p><em>Great resources for learning domain knowledge.</em></p>
+<ul>
+<li><a href="https://github.com/RomanTsegelskyi/rbooks">Books</a> - List of R Books.</li>
+<li><a href="https://github.com/ujjwalkarn/DataScienceR">DataScienceR <img alt="heart" src="https://camo.githubusercontent.com/0240635f4962decc03fd62d6d2526ec28cb41280/68747470733a2f2f617765736f6d652d722e636f6d2f68656172742e706e67" height="20" align="absmiddle" width="20" data-canonical-src="https://awesome-r.com/heart.png" style="max-width:100%;"></a> - a list of R tutorials for Data Science, NLP and Machine Learning.</li>
+<li><a href="https://ggplot2-exts.github.io/ggiraph.html" rel="nofollow">ggplot2 Extensions</a> - Showcases of ggplot2 extensions.</li>
+<li><a href="https://github.com/BZRLC/R-notes/blob/master/NLP/readme.md">Natural Language Processing <img src="https://camo.githubusercontent.com/ec7e05064be165ab65e8a0c54fb3977903606761/68747470733a2f2f6173736574732d63646e2e6769746875622e636f6d2f696d616765732f69636f6e732f656d6f6a692f756e69636f64652f31663165382d31663166332e706e67" width="20" align="absmiddle" alt=":cn:" data-canonical-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f1e8-1f1f3.png" style="max-width:100%;"></a> - NLP related resources in R. @Chinese</li>
+<li><a href="https://github.com/briatte/awesome-network-analysis">Network Analysis</a> - Network Analysis related resources.</li>
+<li><a href="https://github.com/ropensci/opendata">Open Data</a> - Using R to obtain, parse, manipulate, create, and share open data.</li>
+<li><a href="https://github.com/qinwf/awesome-R/blob/master/posts.md">Posts</a> - Great R blog posts or Rticles.</li>
+<li><a href="https://github.com/ropensci/PackageDevelopment">Package Development</a> - R packages to improve package development.</li>
+<li><a href="https://www.r-project.org/conferences.html" rel="nofollow">R Project Conferences</a> -  Information about useR! Conferences and DSC Conferences.</li>
+<li><a href="https://github.com/rstudio/RStartHere">RStartHere</a> - A guide to some of the most useful R packages, organized by workflow.</li>
+<li><a href="https://github.com/daattali/addinslist">RStudio Addins</a> - List of RStudio addins.</li>
+<li><a href="https://github.com/trinker/topicmodels_learning">Topic Models</a> - Topic Models learning and R related resources.</li>
+<li><a href="https://github.com/ropensci/webservices">Web Technologies</a> - Information about how to use R and the world wide web together.</li>
+</ul>
+<h1><a id="user-content-other-awesome-lists" class="anchor" aria-hidden="true" href="#other-awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Awesome Lists</h1>
+<ul>
+<li><a href="https://github.com/bayandin/awesome-awesomeness">awesome-awesomeness</a></li>
+<li><a href="https://github.com/jnv/lists">lists</a></li>
+<li><a href="https://github.com/grabear/awesome-rshiny">awesome-rshiny</a></li>
+</ul>
+<h1><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h1>
+<p>Your contributions are always welcome!</p>
+<p>This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode" rel="nofollow">CC BY-NC-SA 4.0</a></p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.22019s from unicorn-3835523148-0k066">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

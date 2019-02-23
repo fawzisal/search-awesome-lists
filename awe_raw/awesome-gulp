@@ -1,0 +1,1173 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - alferov/awesome-gulp: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - http://alferov.github.io/awesome-gulp</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/5904649?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="alferov/awesome-gulp" /><meta property="og:url" content="https://github.com/alferov/awesome-gulp" /><meta property="og:description" content=":tropical_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - http://alferov.github.io/awesome-gulp" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E114:5D4F:312C7A7:58AF8F9:5AD2F6CC" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E114:5D4F:312C7A7:58AF8F9:5AD2F6CC" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YzczNGNhYzgxZjNmOTFkMzAzZmJlNmJjNWNkODc0MzY1ZjI4MDVmNjI3NzdjYzg5MTc1MzM1NjA4NDhmMjRkZXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTExNDo1RDRGOjMxMkM3QTc6NThBRjhGOTo1QUQyRjZDQyIsInRpbWVzdGFtcCI6MTUyMzc3NTE4MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="0334e56e82737f9573a1938543b94371f8dcc7e8">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/alferov/awesome-gulp/commits/master.atom" rel="alternate" title="Recent Commits to awesome-gulp:master" type="application/atom+xml">
+
+  <meta name="description" content=":tropical_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - http://alferov.github.io/awesome-gulp">
+  <meta name="go-import" content="github.com/alferov/awesome-gulp git https://github.com/alferov/awesome-gulp.git">
+
+  <meta name="octolytics-dimension-user_id" content="5904649" /><meta name="octolytics-dimension-user_login" content="alferov" /><meta name="octolytics-dimension-repository_id" content="38231111" /><meta name="octolytics-dimension-repository_nwo" content="alferov/awesome-gulp" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="38231111" /><meta name="octolytics-dimension-repository_network_root_nwo" content="alferov/awesome-gulp" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/alferov/awesome-gulp" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/alferov/awesome-gulp/search" data-unscoped-search-url="/search" action="/alferov/awesome-gulp/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/alferov/awesome-gulp">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Falferov%2Fawesome-gulp" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Falferov%2Fawesome-gulp"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/alferov/awesome-gulp/watchers"
+     aria-label="32 users are watching this repository">
+    32
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Falferov%2Fawesome-gulp"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/alferov/awesome-gulp/stargazers"
+      aria-label="403 users starred this repository">
+      403
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Falferov%2Fawesome-gulp"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/alferov/awesome-gulp/network" class="social-count"
+       aria-label="42 users forked this repository">
+      42
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/alferov">alferov</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/alferov/awesome-gulp">awesome-gulp</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /alferov/awesome-gulp" href="/alferov/awesome-gulp">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /alferov/awesome-gulp/issues" href="/alferov/awesome-gulp/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /alferov/awesome-gulp/pulls" href="/alferov/awesome-gulp/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /alferov/awesome-gulp/projects" href="/alferov/awesome-gulp/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /alferov/awesome-gulp/pulse" href="/alferov/awesome-gulp/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="06YLx9o3OpjpBMTWb5UWD/heP8va3Rw/TcgMLDm+L+qL+e+NehpdDNEvNcBm2i+Z+CDJDOBqRO5Ci+90Kj7m4A==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<g-emoji class="g-emoji" alias="tropical_drink" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f379.png">🍹</g-emoji> A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - <a href="http://alferov.github.io/awesome-gulp" rel="nofollow">http://alferov.github.io/awesome-gulp</a>
+
+          </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/alferov/awesome-gulp/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                154
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/alferov/awesome-gulp/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/alferov/awesome-gulp/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/alferov/awesome-gulp/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      8
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/alferov/awesome-gulp/search?l=javascript"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                  <span class="lang">JavaScript</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="JavaScript 100.0%" style="width:100.0%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/alferov/awesome-gulp.git" aria-label="Clone this repository at https://github.com/alferov/awesome-gulp.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/alferov/awesome-gulp.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/alferov/awesome-gulp/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/alferov/awesome-gulp/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/alferov/awesome-gulp/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/alferov/awesome-gulp/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/alferov/awesome-gulp/tree-commit/1b5e6716bb8e0d2dcd7b13adf7c672e3b384b67e" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/alferov/awesome-gulp/tree/1b5e6716bb8e0d2dcd7b13adf7c672e3b384b67e">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="This path skips through empty directories" id="fe881044d9dfd3358cb6f17c7f4f3c62-6173753cc943b6cf520b87e495e817e06490f3f3" href="/alferov/awesome-gulp/tree/master/docs/src"><span class="simplified-path">docs/</span>src</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update gh-pages" class="message" href="/alferov/awesome-gulp/commit/f05d838f78f1e3dd30167e1c27ac5fecfdd5eeb4">Update gh-pages</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-05-08T19:48:05Z">May 8, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".babelrc" id="e56633f72ecc521128b3db6586074d2c-c13c5f627fd143c64d90f2d8c730dc752d89ace7" href="/alferov/awesome-gulp/blob/master/.babelrc">.babelrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Migrate to babel 6" class="message" href="/alferov/awesome-gulp/commit/0a3a1561d09e3300ecade7fb03cae3b7f2094e74">Migrate to babel 6</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-21T02:12:03Z">Jan 21, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".eslintrc" id="1dc6ee56b778cd91e0327b52aaeaa1b9-c5085be566b4d132180cddbe7a97e2540ef25553" href="/alferov/awesome-gulp/blob/master/.eslintrc">.eslintrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Move metafiles to the root folder" class="message" href="/alferov/awesome-gulp/commit/1c20edc5f9281027865a60db13635b55fa98c816">Move metafiles to the root folder</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-11T14:42:12Z">Jan 11, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-f0b1db68ab3e60cc47ba36fcced930e445d0f97c" href="/alferov/awesome-gulp/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Move metafiles to the root folder" class="message" href="/alferov/awesome-gulp/commit/1c20edc5f9281027865a60db13635b55fa98c816">Move metafiles to the root folder</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-11T14:42:12Z">Jan 11, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="contributing.md" id="cc4aac3e9be04e0413c9520f223b493c-ac1436fad554e454c245d48417ccd960170641aa" href="/alferov/awesome-gulp/blob/master/contributing.md">contributing.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Lowercase file names" class="message" href="/alferov/awesome-gulp/commit/76bc95e1b5cd9d3f5421d2f2c32c6890f9627452">Lowercase file names</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-09-12T17:57:52Z">Sep 12, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="gulpfile.babel.js" id="ba210a9157252cc983268fdc3aa3ed52-1a37eb63ad3e47134b3999ed99ea212f0358a283" href="/alferov/awesome-gulp/blob/master/gulpfile.babel.js">gulpfile.babel.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Use string interpolation" class="message" href="/alferov/awesome-gulp/commit/c90eaefa3fc86cae28e9d7e1a1c551a02698dfe3">Use string interpolation</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-05-08T20:06:56Z">May 8, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="package.json" id="b9cfc7f2cdf78a7f4b91a753d10865a2-ec56c4f3687cf2c2083f63b91e0caafd42faeb2f" href="/alferov/awesome-gulp/blob/master/package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove bower deps" class="message" href="/alferov/awesome-gulp/commit/3f0c454a57b8ce5e1b6d732b0067f9e2edc6353a">Remove bower deps</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-03-20T04:35:02Z">Mar 20, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="readme.md" id="0730bb7c2e8f9ea2438b52e419dd86c9-85968efbd936124cfaafe9f9ad1bd0b2e11c8865" href="/alferov/awesome-gulp/blob/master/readme.md">readme.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Removed duplicate
+
+Self explainatory?" class="message" href="/alferov/awesome-gulp/commit/b2318821a506989f6c5b22e9efbce486ddcca11d">Removed duplicate</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-12T19:46:47Z">Jun 12, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      readme.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#awesome-gulp-" aria-hidden="true" class="anchor" id="user-content-awesome-gulp-"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Gulp <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<blockquote>
+<p>A curated list of awesome <a href="https://github.com/gulpjs/gulp">gulp</a> resources, plugins, and boilerplates for a better development workflow automation.</p>
+</blockquote>
+<p><em>Looking for something else? Take a look at other <a href="https://github.com/sindresorhus/awesome">awesome lists</a>.</em></p>
+<h2><a href="#contribution" aria-hidden="true" class="anchor" id="user-content-contribution"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contribution</h2>
+<p><img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20" align="absmiddle"> All contributions welcome. Feel free to contribute (<a href="/alferov/awesome-gulp/blob/master/contributing.md">guidelines</a>).</p>
+<h2><a href="#contents" aria-hidden="true" class="anchor" id="user-content-contents"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#legend">Legend</a></li>
+<li><a href="#resources">Resources</a>
+<ul>
+<li><a href="#general-resources">General Resources</a></li>
+<li><a href="#official-documentation">Official Documentation</a></li>
+<li><a href="#community">Community</a></li>
+<li><a href="#tutorials">Tutorials</a>
+<ul>
+<li><a href="#gulp-tutorials">Gulp Tutorials</a></li>
+<li><a href="#gulp-4-tutorials">Gulp 4 Tutorials</a></li>
+<li><a href="#gulp-with-browserify">Gulp with Browserify</a></li>
+<li><a href="#gulp-with-browserify">Gulp with Angular</a></li>
+<li><a href="#gulp-with-angular-and-browserify">Gulp with Angular and Browserify</a></li>
+<li><a href="#gulp-with-angular-and-webpack">Gulp with Angular and Webpack</a></li>
+<li><a href="#gulp-with-react-and-browserify">Gulp with React and Browserify</a></li>
+<li><a href="#gulp-with-ember">Gulp with Ember</a></li>
+</ul>
+</li>
+<li><a href="#miscellaneous-resources">Miscellaneous Resources</a></li>
+</ul>
+</li>
+<li><a href="#plugins">Plugins</a>
+<ul>
+<li><a href="#compilation">Compilation</a></li>
+<li><a href="#transpilation">Transpilation</a></li>
+<li><a href="#concatenation">Concatenation</a></li>
+<li><a href="#minification">Minification</a></li>
+<li><a href="#optimization">Optimization</a></li>
+<li><a href="#injecting-assets">Injecting Assets</a></li>
+<li><a href="#templating">Templating</a></li>
+<li><a href="#linting">Linting</a></li>
+<li><a href="#live-reload">Live Reload</a></li>
+<li><a href="#caching">Caching</a></li>
+<li><a href="#flow-control">Flow Control</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#miscellaneous-plugins">Miscellaneous Plugins</a></li>
+</ul>
+</li>
+<li><a href="#scaffolding">Scaffolding</a>
+<ul>
+<li><a href="#boilerplates">Boilerplates</a></li>
+<li><a href="#yeoman-generators">Yeoman Generators</a></li>
+</ul>
+</li>
+<li><a href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+<h2><a href="#legend" aria-hidden="true" class="anchor" id="user-content-legend"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Legend</h2>
+<p>[<g-emoji class="g-emoji" alias="no_entry" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26d4.png" ios-version="6.0">⛔️</g-emoji>] - A deprecation notice;</p>
+<h2><a href="#resources" aria-hidden="true" class="anchor" id="user-content-resources"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<h3><a href="#general-resources" aria-hidden="true" class="anchor" id="user-content-general-resources"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General Resources</h3>
+<ul>
+<li><a href="http://gulpjs.com/" rel="nofollow">Official Website</a></li>
+<li><a href="https://github.com/gulpjs/gulp">Github Repository</a></li>
+<li><a href="http://gulpjs.com/plugins/" rel="nofollow">Plugin Registry</a></li>
+<li><a href="https://www.npmjs.com/package/gulp" rel="nofollow">NPM Module</a></li>
+<li><a href="https://github.com/gulpjs/plugins/blob/master/src/blackList.json">Blacklisted Plugins</a></li>
+</ul>
+<h3><a href="#official-documentation" aria-hidden="true" class="anchor" id="user-content-official-documentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Official Documentation</h3>
+<ul>
+<li><a href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md">Getting Started</a></li>
+<li><a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md">API Documentation</a></li>
+<li><a href="https://github.com/gulpjs/gulp/tree/master/docs#articles">CLI Documentation</a></li>
+<li><a href="https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md">Writing a Plugin</a></li>
+<li><a href="https://github.com/gulpjs/gulp/tree/master/docs/recipes">Recipes</a></li>
+</ul>
+<h3><a href="#community" aria-hidden="true" class="anchor" id="user-content-community"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Community</h3>
+<ul>
+<li><a href="http://stackoverflow.com/questions/tagged/gulp" rel="nofollow">StackOverflow</a></li>
+<li><a href="https://twitter.com/gulpjs" rel="nofollow">Twitter</a></li>
+</ul>
+<h3><a href="#tutorials" aria-hidden="true" class="anchor" id="user-content-tutorials"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorials</h3>
+<h4><a href="#gulp-tutorials" aria-hidden="true" class="anchor" id="user-content-gulp-tutorials"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp Tutorials</h4>
+<ul>
+<li><a href="https://www.smashingmagazine.com/2014/06/building-with-gulp/" rel="nofollow">Building with Gulp</a></li>
+<li><a href="https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js" rel="nofollow">Automate Your Tasks Easily with Gulp.js</a></li>
+<li><a href="https://medium.com/@contrahacks/gulp-3828e8126466" rel="nofollow">Gulp - The Vision, History, and Future of the Project</a></li>
+<li><a href="http://stefanimhoff.de/tag/gulp/" rel="nofollow">Introduction to Gulp.js</a></li>
+<li><a href="http://leveluptuts.com/tutorials/learning-gulp" rel="nofollow">Video: Learning Gulp</a></li>
+<li><a href="http://blog.johnnyreilly.com/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html" rel="nofollow">Using Gulp to Inject Scripts and Styles Tags Directly into Your HTML</a></li>
+<li><a href="http://denbuzze.com/post/5-lessons-learned-using-gulpjs/" rel="nofollow">5 Lessons Learned Using Gulp.js</a></li>
+<li><a href="http://conan.is/bower/gulp/wiredep/javascript/2014/08/18/automating_linkage-or-how-i-learned-to-stop-worrying-and-love-the-build.html" rel="nofollow">Automating Linkage: How I Learned to Stop Worrying and Love the Build</a></li>
+<li><a href="https://www.codementor.io/development-process/tutorial/how-to-set-up-gulp-beginner-guide#/" rel="nofollow">Setting Up Gulp Tasks for the First Time</a></li>
+<li><a href="http://blog.overzealous.com/post/74121048393/why-you-shouldnt-create-a-gulp-plugin-or-how-to" rel="nofollow">Why You Shouldn’t Create a Gulp Plugin (or, How to Stop Worrying and Learn to Love Existing Node Packages)</a></li>
+<li><a href="http://blog.rangle.io/angular-gulp-bestpractices/" rel="nofollow">6 Gulp Best Practices You Can Use Today to Radically Improve Your Development Experience</a></li>
+<li><a href="https://css-tricks.com/gulp-for-beginners/" rel="nofollow">Gulp for Beginners</a></li>
+</ul>
+<h4><a href="#gulp-4-tutorials" aria-hidden="true" class="anchor" id="user-content-gulp-4-tutorials"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp 4 Tutorials</h4>
+<ul>
+<li><a href="https://blog.wearewizards.io/migrating-to-gulp-4-by-example" rel="nofollow">Migrating to Gulp 4 by Example</a></li>
+<li><a href="http://fettblog.eu/gulp-4-parallel-and-series/" rel="nofollow">Gulp 4: The new task execution system - gulp.parallel and gulp.series</a></li>
+</ul>
+<h4><a href="#gulp-with-browserify" aria-hidden="true" class="anchor" id="user-content-gulp-with-browserify"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with Browserify</h4>
+<ul>
+<li><a href="https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623" rel="nofollow">Gulp + Browserify, the Gulp-y Way</a></li>
+<li><a href="https://viget.com/extend/gulp-browserify-starter-faq" rel="nofollow">Gulp + Browserify</a></li>
+<li><a href="https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md">Fast Browserify Builds with Watchify</a></li>
+</ul>
+<h4><a href="#gulp-with-angular" aria-hidden="true" class="anchor" id="user-content-gulp-with-angular"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with Angular</h4>
+<ul>
+<li><a href="http://blog.jhades.org/what-every-angular-project-likely-needs-and-a-gulp-build-to-provide-it/" rel="nofollow">What Every Angular Project Likely Needs - and a Gulp Build to Provide It</a></li>
+</ul>
+<h4><a href="#gulp-with-angular-and-browserify" aria-hidden="true" class="anchor" id="user-content-gulp-with-angular-and-browserify"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with Angular and Browserify</h4>
+<ul>
+<li><a href="http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/" rel="nofollow">Advanced AngularJS Structure with Gulp, Node and Browserify</a></li>
+</ul>
+<h4><a href="#gulp-with-angular-and-webpack" aria-hidden="true" class="anchor" id="user-content-gulp-with-angular-and-webpack"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with Angular and Webpack</h4>
+<ul>
+<li><a href="https://luwenhuang.wordpress.com/2015/01/18/refactoring-an-angular-app-to-use-webpack-and-gulp/" rel="nofollow">Angular, Webpack and Gulp for an SPA: Part I</a></li>
+<li><a href="https://luwenhuang.wordpress.com/2015/01/19/angular-webpack-and-gulp-for-an-spa-part-ii/" rel="nofollow">Angular, Webpack and Gulp for an SPA: Part II</a></li>
+<li><a href="https://luwenhuang.wordpress.com/2015/01/28/angular-webpack-and-gulp-for-an-spa-part-iii/" rel="nofollow">Angular, Webpack and Gulp for an SPA: Part III</a></li>
+</ul>
+<h4><a href="#gulp-with-react-and-browserify" aria-hidden="true" class="anchor" id="user-content-gulp-with-react-and-browserify"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with React and Browserify</h4>
+<ul>
+<li><a href="https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/" rel="nofollow">Browserify and Gulp with React</a></li>
+<li><a href="http://pomax.github.io/1420592591221/taking-react-to-the-next-level-mixins-gulp-and-browserify" rel="nofollow">Taking React to the Next Level: Mixins, Gulp, and Browserify</a></li>
+</ul>
+<h4><a href="#gulp-with-ember" aria-hidden="true" class="anchor" id="user-content-gulp-with-ember"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with Ember</h4>
+<ul>
+<li><a href="http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/" rel="nofollow">Improving Your Ember.js Workflow Using Gulp.js</a></li>
+</ul>
+<h4><a href="#gulp-with-wordpress" aria-hidden="true" class="anchor" id="user-content-gulp-with-wordpress"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gulp with WordPress</h4>
+<ul>
+<li><a href="https://premium.wpmudev.org/blog/advanced-wordpress-development-using-gulp/" rel="nofollow">Advanced WordPress Development Using Gulp</a></li>
+</ul>
+<h3><a href="#miscellaneous-resources" aria-hidden="true" class="anchor" id="user-content-miscellaneous-resources"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous Resources</h3>
+<ul>
+<li><a href="https://github.com/osscafe/gulp-cheatsheet">Gulp Cheatsheet</a></li>
+<li><a href="https://github.com/johnpapa/gulp-patterns">Playground for Gulp Recipes</a></li>
+</ul>
+<h2><a href="#plugins" aria-hidden="true" class="anchor" id="user-content-plugins"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Plugins</h2>
+<h3><a href="#compilation" aria-hidden="true" class="anchor" id="user-content-compilation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compilation</h3>
+<ul>
+<li><a href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> - Sass → CSS with <a href="https://github.com/sass/libsass">libsass</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-ruby-sass">gulp-ruby-sass</a> - Sass → CSS with Ruby Sass.</li>
+<li><a href="https://github.com/appleboy/gulp-compass">gulp-compass</a> - Sass → CSS with Ruby Sass &amp; Compass.</li>
+<li><a href="https://github.com/plus3network/gulp-less">gulp-less</a> - <a href="https://github.com/less/less.js">Less</a> → CSS.</li>
+<li><a href="https://github.com/stevelacy/gulp-stylus">gulp-stylus</a> - <a href="https://github.com/stylus/stylus">Stylus</a> → CSS.</li>
+<li><a href="https://github.com/postcss/gulp-postcss">gulp-postcss</a> - Pipe CSS through <a href="https://github.com/postcss/postcss">PostCSS</a> processors with a single parse.</li>
+<li><a href="https://github.com/contra/gulp-coffee">gulp-coffee</a> - <a href="https://github.com/jashkenas/coffeescript">Coffeescript</a> → JavaScript.</li>
+<li><a href="https://github.com/ivogabe/gulp-typescript">gulp-typescript</a> - <a href="https://github.com/Microsoft/TypeScript">TypeScript</a> → JavaScript.</li>
+<li><a href="https://github.com/sindresorhus/gulp-react">gulp-react</a> - Facebook <a href="https://github.com/facebook/react">React</a> JSX templates → JavaScript.</li>
+<li><a href="https://github.com/shama/webpack-stream">webpack-stream</a> - Run <a href="https://github.com/webpack/webpack">webpack</a> as a stream to conveniently integrate with gulp.</li>
+</ul>
+<h3><a href="#transpilation" aria-hidden="true" class="anchor" id="user-content-transpilation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Transpilation</h3>
+<ul>
+<li><a href="https://github.com/babel/gulp-babel">gulp-babel</a> - ES6 → ES5 with <a href="https://github.com/babel/babel">babel</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-traceur">gulp-traceur</a> - ES6 → ES5 using <a href="https://github.com/google/traceur-compiler">Traceur</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-regenerator">gulp-regenerator</a> - ES6 → ES5 with <a href="https://github.com/facebook/regenerator">Regenerator</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-es6-transpiler">gulp-es6-transpiler</a> - [<g-emoji class="g-emoji" alias="no_entry" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26d4.png" ios-version="6.0">⛔️</g-emoji>] ES6 → ES5 with <a href="https://github.com/termi/es6-transpiler">es6-transpiler</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-myth">gulp-myth</a> - <a href="https://github.com/segmentio/myth">Myth</a> - a polyfill for future versions of the CSS spec.</li>
+<li><a href="https://github.com/MoOx/gulp-cssnext">gulp-cssnext</a> - [<g-emoji class="g-emoji" alias="no_entry" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26d4.png" ios-version="6.0">⛔️</g-emoji>] Use tomorrow's CSS syntax, today, using <a href="https://github.com/MoOx/postcss-cssnext">cssnext</a>.</li>
+</ul>
+<h3><a href="#concatenation" aria-hidden="true" class="anchor" id="user-content-concatenation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Concatenation</h3>
+<ul>
+<li><a href="https://github.com/contra/gulp-concat">gulp-concat</a> - Concatenate files.</li>
+</ul>
+<h3><a href="#minification" aria-hidden="true" class="anchor" id="user-content-minification"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Minification</h3>
+<ul>
+<li><a href="https://github.com/scniro/gulp-clean-css">gulp-clean-css</a> - Minify CSS with <a href="https://github.com/jakubpawlowicz/clean-css">clean-css</a>.</li>
+<li><a href="https://github.com/ben-eb/gulp-csso">gulp-csso</a> - Minify CSS with <a href="https://github.com/css/csso">CSSO</a>.</li>
+<li><a href="https://github.com/terinjokes/gulp-uglify">gulp-uglify</a> - Minify JavaScript with <a href="https://github.com/mishoo/UglifyJS2">UglifyJS2</a>.</li>
+<li><a href="https://github.com/jonschlinkert/gulp-htmlmin">gulp-htmlmin</a> - Minify HTML with <a href="https://github.com/kangax/html-minifier">html-minifier</a>.</li>
+<li><a href="https://github.com/sindresorhus/gulp-imagemin">gulp-imagemin</a> - Minify PNG, JPEG, GIF and SVG images with <a href="https://github.com/imagemin/imagemin">imagemin</a>.</li>
+<li><a href="https://github.com/ben-eb/gulp-svgmin">gulp-svgmin</a> - Minify SVG files with gulp.</li>
+</ul>
+<h3><a href="#optimization" aria-hidden="true" class="anchor" id="user-content-optimization"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optimization</h3>
+<ul>
+<li><a href="https://github.com/ben-eb/gulp-uncss">gulp-uncss</a> - Remove unused CSS selectors with <a href="https://github.com/giakki/uncss">UnCSS</a>.</li>
+<li><a href="https://github.com/zckrs/gulp-css-base64">gulp-css-base64</a> - Transform all resources found (those within a url() declaration) in CSS files into base64-encoded data URI strings.</li>
+<li><a href="https://github.com/akoenig/gulp-svg2png">gulp-svg2png</a> - Convert SVGs to PNGs.</li>
+<li><a href="https://github.com/mahnunchik/gulp-responsive">gulp-responsive</a> - Generate images at different sizes.</li>
+<li><a href="https://github.com/w0rm/gulp-svgstore">gulp-svgstore</a> - Combine svg files into one with  elements.</li>
+<li><a href="https://github.com/nfroidure/gulp-iconfont">gulp-iconfont</a> - Create icon fonts from several SVG icons.</li>
+</ul>
+<h3><a href="#injecting-assets" aria-hidden="true" class="anchor" id="user-content-injecting-assets"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Injecting Assets</h3>
+<ul>
+<li><a href="https://github.com/jonkemp/gulp-useref">gulp-useref</a> - Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.</li>
+<li><a href="https://github.com/klei/gulp-inject">gulp-inject</a> - Transform each file to a string and inject each transformed string into placeholders in the target stream files.</li>
+<li><a href="https://github.com/taptapship/wiredep">wiredep</a> - Wire Bower dependencies to your source code.</li>
+</ul>
+<h3><a href="#templating" aria-hidden="true" class="anchor" id="user-content-templating"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Templating</h3>
+<ul>
+<li><a href="https://github.com/miickel/gulp-angular-templatecache">gulp-angular-templatecache</a> - Concatenate and register AngularJS templates in the $templateCache.</li>
+<li><a href="https://github.com/phated/gulp-jade">gulp-jade</a> - <a href="https://github.com/pugjs/jade">Jade</a> → HTML.</li>
+<li><a href="https://github.com/lazd/gulp-handlebars">gulp-handlebars</a> - <a href="https://github.com/wycats/handlebars.js">Handlebars</a> templates → JavaScript.</li>
+<li><a href="https://github.com/shannonmoeller/gulp-hb">gulp-hb</a> - <a href="https://github.com/wycats/handlebars.js">Handlebars</a> templates → HTML.</li>
+<li><a href="https://github.com/sindresorhus/gulp-nunjucks">gulp-nunjucks</a> - <a href="https://github.com/mozilla/nunjucks">Nunjucks</a> templates → JavaScript.</li>
+<li><a href="https://github.com/sindresorhus/gulp-dust">gulp-dustjs</a> - <a href="https://github.com/linkedin/dustjs">Dust</a> templates → JavaScript.</li>
+<li><a href="https://github.com/e-jigsaw/gulp-riot">gulp-riot</a> - <a href="https://github.com/riot/riot">Riot</a> templates → JavaScript.</li>
+<li><a href="https://github.com/sindresorhus/gulp-markdown">gulp-markdown</a> - Markdown → HTML.</li>
+<li><a href="https://github.com/sindresorhus/gulp-template">gulp-template</a> - <a href="https://github.com/lodash/lodash">Lodash </a> templates → JavaScript.</li>
+<li><a href="https://github.com/colynb/gulp-swig">gulp-swig</a> - <a href="https://github.com/paularmstrong/swig">Swig</a> templates → HTML.</li>
+<li><a href="https://github.com/denysdovhan/gulp-remark">gulp-remark</a> - Gulp plugin for <a href="https://github.com/wooorm/remark">remark</a> - markdown processor powered by plugins</li>
+</ul>
+<h3><a href="#linting" aria-hidden="true" class="anchor" id="user-content-linting"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Linting</h3>
+<ul>
+<li><a href="https://www.npmjs.com/package/gulp-csslint" rel="nofollow">gulp-csslint</a> - Automated linting of CSS with <a href="https://github.com/CSSLint/csslint">CSSLint</a>.</li>
+<li><a href="https://github.com/bezoerb/gulp-htmlhint">gulp-htmlhint</a> - <a href="https://github.com/yaniswang/HTMLHint">HTMLHint</a> wrapper to validate your HTML.</li>
+<li><a href="https://github.com/spalger/gulp-jshint">gulp-jshint</a> - Detect errors and potential problems in JavaScript with <a href="https://github.com/jshint/jshint">JSHint</a>.</li>
+<li><a href="https://github.com/jscs-dev/gulp-jscs">gulp-jscs</a> - Check JavaScript code style with <a href="https://github.com/jscs-dev/node-jscs">jscs</a>.</li>
+<li><a href="https://github.com/janraasch/gulp-coffeelint">gulp-coffeelint</a> - A style checker that helps keep <a href="https://github.com/jashkenas/coffeescript">CoffeeScript</a> code clean.</li>
+<li><a href="https://github.com/panuhorsmalahti/gulp-tslint">gulp-tslint</a> - <a href="https://github.com/Microsoft/TypeScript">TypeScript</a> linter plugin for gulp.</li>
+<li><a href="https://github.com/adametry/gulp-eslint">gulp-eslint</a> - Identify and report on patterns found in ECMAScript/JavaScript code.</li>
+<li><a href="https://github.com/callumacrae/gulp-w3cjs">gulp-w3cjs</a> - Validate HTML with <a href="https://github.com/thomasdavis/w3cjs">w3cjs</a>.</li>
+<li><a href="https://github.com/lesshint/gulp-lesshint">gulp-lesshint</a> - Lint less files with <a href="https://github.com/lesshint/lesshint">lesshint</a>.</li>
+<li><a href="https://github.com/zalando/gulp-check-unused-css">gulp-check-unused-css</a> - Check your HTML templates for unused CSS classes.</li>
+</ul>
+<h3><a href="#live-reload" aria-hidden="true" class="anchor" id="user-content-live-reload"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Live Reload</h3>
+<ul>
+<li><a href="https://github.com/BrowserSync/browser-sync">browser-sync</a> - Keep multiple browsers &amp; devices in sync when building websites (<a href="https://github.com/BrowserSync/gulp-browser-sync">recipes</a>).</li>
+<li><a href="https://github.com/vohof/gulp-livereload">gulp-livereload</a> - Gulp plugin for livereload.</li>
+</ul>
+<h3><a href="#caching" aria-hidden="true" class="anchor" id="user-content-caching"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caching</h3>
+<ul>
+<li><a href="https://github.com/sindresorhus/gulp-changed">gulp-changed</a> - Only pass through changed files.</li>
+<li><a href="https://github.com/contra/gulp-cached">gulp-cached</a> - A simple in-memory file cache.</li>
+<li><a href="https://github.com/ahaurw01/gulp-remember">gulp-remember</a> - Remember and recall files passed through it.</li>
+<li><a href="https://github.com/tschaub/gulp-newer">gulp-newer</a> - Pass through newer source files only.</li>
+</ul>
+<h3><a href="#flow-control" aria-hidden="true" class="anchor" id="user-content-flow-control"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Flow Control</h3>
+<ul>
+<li><a href="https://github.com/grncdr/merge-stream">merge-stream</a> - Merge multiple streams into one interleaved stream.</li>
+<li><a href="https://github.com/nfroidure/StreamQueue">streamqueue</a> - Pipe queued streams progressively.</li>
+<li><a href="https://github.com/OverZealous/run-sequence">run-sequence</a> - Run a series of dependent gulp tasks in order.</li>
+<li><a href="https://github.com/robrich/gulp-if">gulp-if</a> - Conditionally run a task.</li>
+</ul>
+<h3><a href="#logging" aria-hidden="true" class="anchor" id="user-content-logging"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logging</h3>
+<ul>
+<li><a href="https://github.com/mikaelbr/gulp-notify">gulp-notify</a> - Notification plugin for gulp.</li>
+<li><a href="https://github.com/sindresorhus/gulp-size">gulp-size</a> - Display the size of your project.</li>
+<li><a href="https://github.com/sindresorhus/gulp-debug">gulp-debug</a> - Debug vinyl file streams to see what files are run through your gulp pipeline.</li>
+</ul>
+<h3><a href="#testing" aria-hidden="true" class="anchor" id="user-content-testing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Testing</h3>
+<ul>
+<li><a href="https://github.com/sindresorhus/gulp-mocha">gulp-mocha</a> - Run <a href="https://github.com/mochajs/mocha">Mocha</a> tests.</li>
+<li><a href="https://github.com/sindresorhus/gulp-jasmine">gulp-jasmine</a> - Run <a href="https://github.com/jasmine/jasmine">Jasmine 2</a> tests in Node.js.</li>
+<li><a href="https://github.com/mllrsohn/gulp-protractor">gulp-protractor</a> - Gulp wrapper for <a href="https://github.com/angular/protractor">Protractor</a> tests.</li>
+<li><a href="https://github.com/dylanb/gulp-coverage">gulp-coverage</a> - Coverage reporting for Node.js that is independent of the test runner.</li>
+<li><a href="https://github.com/karma-runner/gulp-karma">gulp-karma</a> - Karma test runner for gulp.</li>
+<li><a href="https://github.com/sindresorhus/gulp-ava">gulp-ava</a>- Run <a href="https://github.com/sindresorhus/ava">AVA</a> tests with gulp.</li>
+</ul>
+<h3><a href="#miscellaneous-plugins" aria-hidden="true" class="anchor" id="user-content-miscellaneous-plugins"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous Plugins</h3>
+<ul>
+<li><a href="https://github.com/gulpjs/gulp-util">gulp-util</a> - Set of useful utilities.</li>
+<li><a href="https://github.com/floatdrop/gulp-plumber">gulp-plumber</a> - Prevent pipe breaking caused by errors.</li>
+<li><a href="https://github.com/jackfranklin/gulp-load-plugins">gulp-load-plugins</a> - Automatically load in gulp plugins.</li>
+<li><a href="https://github.com/ck86/main-bower-files">main-bower-files</a> - Simplify build process setup by dynamically getting the library files.</li>
+<li><a href="https://github.com/postcss/autoprefixer">autoprefixer</a> - Parse CSS and add vendor prefixes to rules by Can I Use.</li>
+<li><a href="https://github.com/floridoo/gulp-sourcemaps">gulp-sourcemaps</a> - Provide source map support.</li>
+<li><a href="https://github.com/lazd/gulp-replace">gulp-replace</a> - A string replace plugin for gulp.</li>
+<li><a href="https://github.com/hparra/gulp-rename">gulp-rename</a> - Rename files easily.</li>
+<li><a href="https://github.com/sindresorhus/gulp-rev">gulp-rev</a> - Static asset revisioning by appending content hash to filenames: unicorn.css → unicorn-d41d8cd98f.css.</li>
+<li><a href="https://github.com/sindresorhus/del">del</a> - Delete files/folders using globs.</li>
+<li><a href="https://github.com/robrich/gulp-exec">gulp-exec</a> - Run a shell command.</li>
+<li><a href="https://github.com/sindresorhus/gulp-strip-debug">gulp-strip-debug</a> - Strip console, alert, and debugger statements from JavaScript code.</li>
+<li><a href="https://github.com/unlight/gulp-cssimport">gulp-cssimport</a> - Parses a CSS file, finds imports, grabs the content of the linked file and replaces the import statement with it.</li>
+<li><a href="https://github.com/jonkemp/gulp-inline-css">gulp-inline-css</a> - Inline your CSS properties into the style attribute in an HTML file.</li>
+<li><a href="https://github.com/shinnn/gulp-gh-pages">gulp-gh-pages</a> - Publish contents to Github pages.</li>
+<li><a href="https://github.com/Kagami/gulp-ng-annotate">gulp-ng-annotate</a> - Add AngularJS dependency injection annotations with <a href="https://github.com/olov/ng-annotate">ng-annotate</a>.</li>
+<li><a href="https://github.com/stevelacy/gulp-bump">gulp-bump</a> - Bump any semver JSON version.</li>
+<li><a href="https://github.com/coderhaoxin/gulp-file-include">gulp-file-include</a> - Include files with gulp.</li>
+<li><a href="https://github.com/sindresorhus/gulp-zip">gulp-zip</a> - ZIP compress files.</li>
+<li><a href="https://github.com/stevelacy/gulp-git">gulp-git</a> - Run Git commands with gulp.</li>
+<li><a href="https://github.com/sindresorhus/gulp-filter">gulp-filter</a> - Filter files in a vinyl stream using globbing.</li>
+<li><a href="https://github.com/jas/gulp-preprocess">gulp-preprocess</a> - Preprocess files based on custom context or environment configuration.</li>
+<li>[gulp-eval] (<a href="https://github.com/gulp-bem/gulp-eval">https://github.com/gulp-bem/gulp-eval</a>) - Eval JS-expression or require CommonJS modules and JSON files.</li>
+</ul>
+<h2><a href="#scaffolding" aria-hidden="true" class="anchor" id="user-content-scaffolding"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scaffolding</h2>
+<h3><a href="#boilerplates" aria-hidden="true" class="anchor" id="user-content-boilerplates"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Boilerplates</h3>
+<ul>
+<li><a href="https://github.com/google/web-starter-kit">web-starter-kit</a> - Google Web Starter Kit.</li>
+<li><a href="https://github.com/sindresorhus/gulp-plugin-boilerplate">gulp-plugin-boilerplate</a> - Boilerplate to kickstart creating gulp plugins.</li>
+<li><a href="https://github.com/polymerelements/polymer-starter-kit">polymer-starter-kit</a> - A starting point for Polymer 1.0 apps.</li>
+<li><a href="https://github.com/este/este">este</a> - The most complete React/Flux dev stack and starter kit for isomorphic functional web apps.</li>
+<li><a href="https://github.com/mrmrs/mnml">mnml</a> - Minimal boilerplate to start a responsive HTML5/Sass project.</li>
+<li><a href="https://github.com/cferdinandi/kraken">kraken</a> - A lightweight, mobile-first boilerplate for front-end web developers.</li>
+<li><a href="https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate">angularjs-gulp-browserify-boilerplate</a> - Boilerplate using AngularJS, Sass, gulp, and Browserify.</li>
+<li><a href="https://github.com/poeticninja/hapi-ninja">hapi-ninja</a> - A Node.js, Hapi, and Swig boilerplate.</li>
+<li><a href="https://github.com/rappasoft/laravel-5-boilerplate">laravel-5-boilerplate</a> - A Laravel 5 boilerplate project.</li>
+<li><a href="https://github.com/wbkd/react-starterkit">react-starterkit</a> - React starter kit that contains react-router, Reflux, jest, webpack, gulp and Stylus.</li>
+</ul>
+<h3><a href="#yeoman-generators" aria-hidden="true" class="anchor" id="user-content-yeoman-generators"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Yeoman Generators</h3>
+<ul>
+<li><a href="https://github.com/yeoman/generator-gulp-webapp">generator-gulp-webapp</a> - A gulp generator for modern webapps.</li>
+<li><a href="https://github.com/Swiip/generator-gulp-angular">generator-gulp-angular</a> - Yeoman generator for AngularJS with gulp.</li>
+<li><a href="https://github.com/randylien/generator-react-gulp-browserify">generator-react-gulp-browserify</a> - A Yeoman Generator for React library. It includes gulp, Browserify, Browsersync and Bootstrap.</li>
+<li><a href="https://github.com/youngmountain/generator-node-gulp">generator-node-gulp</a> - A Node.js module generator including gulp and Mocha.</li>
+<li><a href="https://github.com/niallobrien/generator-gulp-bootstrap">generator-gulp-bootstrap</a> - Yeoman generator for Bootstrap, gulp &amp; libsass.</li>
+<li><a href="https://github.com/jgoux/generator-angulpify">generator-angulpify</a> - Yeoman generator involving AngularJS, gulp and Browserify.</li>
+<li><a href="https://github.com/tmaximini/generator-ionic-gulp">generator-ionic-gulp</a> - A Yeoman generator for Ionic Projects with gulp.</li>
+<li><a href="https://github.com/sindresorhus/generator-gulp-plugin-boilerplate">generator-gulp-plugin-boilerplate</a> - Scaffold out a <a href="https://github.com/sindresorhus/gulp-plugin-boilerplate">gulp plugin boilerplate</a>.</li>
+<li><a href="https://github.com/sondr3/generator-jekyllized">generator-jekyllized</a> - Jekyll workflow with gulp, Sass, AutoPrefixer, asset optimization and cache busting and much more.</li>
+</ul>
+<h2><a href="#miscellaneous" aria-hidden="true" class="anchor" id="user-content-miscellaneous"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h2>
+<ul>
+<li><a href="https://github.com/laravel/elixir">elixir</a> - A clean, fluent API for defining basic gulp tasks for your Laravel applications.</li>
+<li><a href="https://github.com/sindresorhus/gulp-app">gulp-app</a> - Gulp as an app (OS X).</li>
+<li><a href="https://github.com/Lostmyname/lmn-gulp-tasks">lmn-gulp-tasks</a> - Example of gulp tasks unit testing.</li>
+<li><a href="http://gulp-cookery.github.io/gulp-chef/" rel="nofollow">gulp-chef</a> - An elegant, intuitive way to reuse gulp tasks.</li>
+</ul>
+<h2><a href="#license" aria-hidden="true" class="anchor" id="user-content-license"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/c5160f944848828fa33126d9a697e9abe43ea98f/687474703a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="https://github.com/alferov">Philipp Alferov</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.26885s from unicorn-3835523148-g2gdz">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

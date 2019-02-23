@@ -1,0 +1,1132 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - alebcay/awesome-shell: A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/3536482?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="alebcay/awesome-shell" /><meta property="og:url" content="https://github.com/alebcay/awesome-shell" /><meta property="og:description" content="awesome-shell - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E220:5D4E:2651FC1:4715C3B:5AD2F73C" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E220:5D4E:2651FC1:4715C3B:5AD2F73C" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YWJhNDA3MDA4YzM5ODYyMTk0MDdmODEzNzQ4ZjAxMmVmZDgwYTVjYmIzM2I4ZjNkMDBhYmNjOGVkODJkYmQ1YXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTIyMDo1RDRFOjI2NTFGQzE6NDcxNUMzQjo1QUQyRjczQyIsInRpbWVzdGFtcCI6MTUyMzc3NTI5MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="cc488826cb8daa644a96d25f271379d4e1ecd953">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/alebcay/awesome-shell/commits/master.atom" rel="alternate" title="Recent Commits to awesome-shell:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-shell - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.">
+  <meta name="go-import" content="github.com/alebcay/awesome-shell git https://github.com/alebcay/awesome-shell.git">
+
+  <meta name="octolytics-dimension-user_id" content="3536482" /><meta name="octolytics-dimension-user_login" content="alebcay" /><meta name="octolytics-dimension-repository_id" content="21552971" /><meta name="octolytics-dimension-repository_nwo" content="alebcay/awesome-shell" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="21552971" /><meta name="octolytics-dimension-repository_network_root_nwo" content="alebcay/awesome-shell" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/alebcay/awesome-shell" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/alebcay/awesome-shell/search" data-unscoped-search-url="/search" action="/alebcay/awesome-shell/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/alebcay/awesome-shell">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Falebcay%2Fawesome-shell" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Falebcay%2Fawesome-shell"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/alebcay/awesome-shell/watchers"
+     aria-label="596 users are watching this repository">
+    596
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Falebcay%2Fawesome-shell"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/alebcay/awesome-shell/stargazers"
+      aria-label="12082 users starred this repository">
+      12,082
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Falebcay%2Fawesome-shell"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/alebcay/awesome-shell/network" class="social-count"
+       aria-label="1110 users forked this repository">
+      1,110
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/alebcay">alebcay</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/alebcay/awesome-shell">awesome-shell</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /alebcay/awesome-shell" href="/alebcay/awesome-shell">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /alebcay/awesome-shell/issues" href="/alebcay/awesome-shell/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">5</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /alebcay/awesome-shell/pulls" href="/alebcay/awesome-shell/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">18</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /alebcay/awesome-shell/projects" href="/alebcay/awesome-shell/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /alebcay/awesome-shell/pulse" href="/alebcay/awesome-shell/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="IQUKb/SnV014ohpP2t6RryclBCLZgGb2BIRvOXiBno82NAeFPdwCe57rfSZXomdfnSnvusT6exo6EKZ8DJXIMg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/alebcay/awesome-shell/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/zsh" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:zsh">
+        zsh
+      </a>
+      <a href="/topics/fish" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:fish">
+        fish
+      </a>
+      <a href="/topics/bash" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:bash">
+        bash
+      </a>
+      <a href="/topics/cli" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:cli">
+        cli
+      </a>
+      <a href="/topics/shell" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:shell">
+        shell
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/alebcay/awesome-shell/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                483
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/alebcay/awesome-shell/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/alebcay/awesome-shell/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/alebcay/awesome-shell/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      150
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/alebcay/awesome-shell/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/alebcay/awesome-shell.git" aria-label="Clone this repository at https://github.com/alebcay/awesome-shell.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/alebcay/awesome-shell.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/alebcay/awesome-shell/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/alebcay/awesome-shell/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/alebcay/awesome-shell/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/alebcay/awesome-shell/tree-commit/3315d33add73e7ac067d057adcae81086120ffe8" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/alebcay/awesome-shell/tree/3315d33add73e7ac067d057adcae81086120ffe8">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-c5d3d9239fc863593c2374f198a26aa8f8172a01" href="/alebcay/awesome-shell/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove transfer.sh from whitelist
+
+Seems to be working fine without it for now." class="message" href="/alebcay/awesome-shell/commit/ad93c8e0fc0291f2880937400309c51006448561">Remove transfer.sh from whitelist</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-20T22:53:10Z">Apr 20, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-670154e3538863b2d9891fd5483160fbdfc89164" itemprop="license" href="/alebcay/awesome-shell/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create LICENSE
+
+Resolves #87." class="message" href="/alebcay/awesome-shell/commit/58f12d373e78066e322d0ae933d8719371d8e587">Create LICENSE</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-07-02T21:52:57Z">Jul 2, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-6abe5a8fccc875936ee21da34020245853047b20" href="/alebcay/awesome-shell/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[en] update adb-export URL" class="message" href="/alebcay/awesome-shell/commit/b154a2b4ef5511a48596d168fa1f05bfb8e6a845">[en] update adb-export URL</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-07T23:59:07Z">Apr 7, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README_ZH-CN.md" id="84ea56ea6d4d624ecfe89950fa77d383-53cdfb74bb206bf9af70a8cfceef2d231ef1fd3e" href="/alebcay/awesome-shell/blob/master/README_ZH-CN.md">README_ZH-CN.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README_ZH-CN.md" class="message" href="/alebcay/awesome-shell/commit/3315d33add73e7ac067d057adcae81086120ffe8">Update README_ZH-CN.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-07T23:59:32Z">Apr 7, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><pre><code> █████╗ ██╗    ██╗███████╗███████╗ ██████╗ ███╗   ███╗███████╗
+██╔══██╗██║    ██║██╔════╝██╔════╝██╔═══██╗████╗ ████║██╔════╝
+███████║██║ █╗ ██║█████╗  ███████╗██║   ██║██╔████╔██║█████╗
+██╔══██║██║███╗██║██╔══╝  ╚════██║██║   ██║██║╚██╔╝██║██╔══╝
+██║  ██║╚███╔███╔╝███████╗███████║╚██████╔╝██║ ╚═╝ ██║███████╗
+╚═╝  ╚═╝ ╚══╝╚══╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
+███████╗██╗  ██╗███████╗██╗     ██╗
+██╔════╝██║  ██║██╔════╝██║     ██║
+███████╗███████║█████╗  ██║     ██║
+╚════██║██╔══██║██╔══╝  ██║     ██║
+███████║██║  ██║███████╗███████╗███████╗
+╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
+</code></pre>
+<h1><a id="user-content-awesome-shell-" class="anchor" aria-hidden="true" href="#awesome-shell-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Shell <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php. This awesome collection is also available on <a href="https://unix-shell.zeef.com/caleb.xu" rel="nofollow">Unix-Shell.ZEEF.com</a>.</p>
+<ul>
+<li><a href="#shells">Shells</a></li>
+<li><a href="#command-line-productivity">Command-Line Productivity</a></li>
+<li><a href="#customization">Customization</a></li>
+<li><a href="#for-developers">For Developers</a></li>
+<li><a href="#system-utilities">System Utilities</a></li>
+<li><a href="#downloading-and-serving">Downloading and Serving</a></li>
+<li><a href="#multimedia-and-file-formats">Multimedia and File Formats</a></li>
+<li><a href="#applications">Applications</a></li>
+<li><a href="#games">Games</a></li>
+<li><a href="#shell-package-management">Shell Package Management</a></li>
+<li><a href="#shell-script-development">Shell Script Development</a></li>
+<li><a href="#guides">Guides</a></li>
+<li><a href="https://github.com/unixorn/awesome-zsh-plugins"><strong>Awesome Zsh</strong></a>  <a href="https://github.com/unixorn/awesome-zsh-plugins"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></li>
+<li><a href="https://github.com/fisherman/awesome-fish-shell"><strong>Awesome Fish</strong></a> <a href="https://github.com/fisherman/awesome-fish-shell"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></li>
+<li><a href="#other-awesome-lists">Other Awesome Lists</a></li>
+</ul>
+<h2><a id="user-content-shells" class="anchor" aria-hidden="true" href="#shells"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Shells</h2>
+<p><em>Choose your base shell.</em></p>
+<ul>
+<li><a href="https://www.gnu.org/software/bash/" rel="nofollow">bash</a> - GNU Project's shell (Bourne Again SHell)</li>
+<li><a href="https://fishshell.com" rel="nofollow">fish</a> - Smart and user-friendly command line shell</li>
+<li><a href="http://xiki.org" rel="nofollow">xiki</a> - Makes the shell console more friendly and powerful</li>
+<li><a href="https://xonsh.org" rel="nofollow">xonsh</a> - Python-ish, BASHwards-looking shell language and command prompt</li>
+<li><a href="http://www.zsh.org" rel="nofollow">zsh</a> - Powerful shell with scripting language</li>
+</ul>
+<h2><a id="user-content-command-line-productivity" class="anchor" aria-hidden="true" href="#command-line-productivity"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Command-Line Productivity</h2>
+<p><em>Search, bookmarks, multiplexing, and other tools that make your terminal experience more productive.</em></p>
+<ul>
+<li><a href="https://github.com/tanrax/terminal-AdvancedNewFile">AdvancedNewFile</a> - Fast creation of files and directories in a recursive way. Inspired by the Vim plugin.</li>
+<li><a href="https://github.com/ggreer/the_silver_searcher">ag</a> - Super fast string search through a directory hierarchy</li>
+<li><a href="https://github.com/sebglazebrook/aliases">aliases</a> - Contextual, dynamic, organized aliases for bash</li>
+<li><a href="https://github.com/Jintin/aliasme">aliasme</a> - alias helper to change directory quickly</li>
+<li><a href="https://github.com/kennethreitz/autoenv">autoenv</a> - Directory-based environments</li>
+<li><a href="https://github.com/wting/autojump">autojump</a> - A cd command that learns - easily navigate directories from the command line</li>
+<li><a href="https://github.com/rcaloras/bashhub-client">bashhub</a> - <g-emoji class="g-emoji" alias="cloud" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2601.png">☁️</g-emoji> Bash history in the cloud. Indexed and searchable.</li>
+<li><a href="https://github.com/huyng/bashmarks">bashmarks</a> - Directory bookmarks for the shell</li>
+<li><a href="https://github.com/vigneshwaranr/bd">bd</a> - Quickly go back to a parent directory</li>
+<li><a href="https://github.com/tmrts/boilr">boilr</a> - A blazingly fast CLI tool for creating projects from boilerplate templates.</li>
+<li><a href="https://github.com/holman/boom">boom</a> - Store links and snippets in the commandline</li>
+<li><a href="https://github.com/ok-borg/borg">borg</a> - A terminal based search engine for bash commands</li>
+<li><a href="https://github.com/jarun/Buku">Buku</a> - Powerful command-line bookmark manager</li>
+<li><a href="http://byobu.co/" rel="nofollow">byobu</a> - Text-based window manager and terminal multiplexer</li>
+<li><a href="https://github.com/shyiko/commacd">commacd</a> - A faster way to move around in Bash</li>
+<li><a href="https://github.com/skywind3000/CloudClip">CloudClip</a> - Your own clipboard in the cloud, copy and paste text with gist between different systems</li>
+<li><a href="https://github.com/jamesob/desk">desk</a> - A lightweight workspace manager for the shell</li>
+<li><a href="https://github.com/direnv/direnv">direnv</a> - An environment switcher for the shell, compare with autoenv</li>
+<li><a href="https://github.com/b4b4r07/enhancd">enhancd</a> - <g-emoji class="g-emoji" alias="rocket" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> A next-generation cd command with an interactive filter</li>
+<li><a href="https://github.com/clvv/fasd">fasd</a> - Command-line productivity booster, offers quick access to files and directories</li>
+<li><a href="https://github.com/s-p-k/foxy">foxy</a> - Plain text bookmarks for firefox and surf browsers.</li>
+<li><a href="https://github.com/changyuheng/fz">fz</a> - Seamless fuzzy tab completion for z</li>
+<li><a href="https://github.com/junegunn/fzf">fzf</a> - A command-line fuzzy finder</li>
+<li><a href="https://github.com/jarun/googler">googler</a> - Google Search, Google Site Search, Google News from the terminal</li>
+<li><a href="https://github.com/iridakos/goto">goto</a> - A shell utility for navigation to aliased directories supporting auto-completion</li>
+<li><a href="https://github.com/kdabir/has">has</a> - <code>has</code> helps you check presence of various command line tools and their versions on path</li>
+<li><a href="https://github.com/santinic/how2">how2</a> - <code>how2</code> finds the simplest way to do something in a unix shell. It's like <code>man</code>, but you can query it in natural language.</li>
+<li><a href="https://github.com/paoloantinori/hhighlighter">hhighlighter</a> - Colorize words in a command output</li>
+<li><a href="https://github.com/LuRsT/hr">hr</a> - <code>&lt;hr /&gt;</code> for your terminal</li>
+<li><a href="https://github.com/six-ddc/hss">hss</a> - An interactive parallel ssh client featuring autocomplete and asynchronous execution</li>
+<li><a href="https://github.com/dvorka/hstr">hstr</a> - Bash History Suggest Box</li>
+<li><a href="https://github.com/gsamokovarov/jump">jump</a> - Jump helps you navigate your file system faster by learning your habits.</li>
+<li><a href="https://github.com/supercrabtree/k">k</a> - k is a Zsh script to make directory listings more readable, adding Git status, fileweight colors and rotting dates</li>
+<li><a href="https://github.com/lingtalfi/k">k alias</a> - get kool aliases (and more) working with a simple one-liner</li>
+<li><a href="https://github.com/suewonjp/lf.sh">lf.sh</a> - Quickly search files with fewer typings and do many more (grepping, copying path to clipboard, etc)</li>
+<li><a href="https://github.com/pindexis/marker">marker</a> - Bookmark your shell commands</li>
+<li><a href="http://modules.sourceforge.net/" rel="nofollow">modules</a> - Environment manager for the shell (compare to direnv and autoenv)</li>
+<li><a href="https://github.com/jarun/nnn">nnn</a> - File browser and disk usage analyzer with excellent desktop integration</li>
+<li><a href="http://www.gnu.org/software/parallel/" rel="nofollow">parallel</a> - Build and execute shell command lines from standard input in parallel</li>
+<li><a href="https://github.com/facebook/PathPicker">pathpicker</a> - Accepts inputs like grep, searches, git etc; allows selecting files from the result of the input, which you can then open or provide as argument to a command.</li>
+<li><a href="https://github.com/mooz/percol">percol</a> - Adds flavor of interactive filtering to the traditional pipe concept of UNIX shell</li>
+<li><a href="https://github.com/cal2195/q">q</a> - Vim like macro registers for your Bash and Zsh Shell</li>
+<li><a href="https://github.com/pindexis/qfc">qfc</a> - File-completion widget for Bash and Zsh</li>
+<li><a href="https://github.com/BurntSushi/ripgrep">rg</a> - ripgrep is a line oriented search tool that combines the usability of The Silver Searcher with the raw speed of GNU grep</li>
+<li><a href="https://github.com/Pawamoy/shell-history">shell-history</a> - Visualize your shell usage with Highcharts</li>
+<li><a href="https://github.com/odb/shml">SHML</a> - Style framework for the terminal (Shell Markup Language)</li>
+<li><a href="https://github.com/benlinton/slugify">slugify</a> - Command that converts filenames and directories to a web friendly format</li>
+<li><a href="https://github.com/tokozedg/sman">sman</a> - <g-emoji class="g-emoji" alias="bug" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f41b.png">🐛</g-emoji> A command-line snippet manager</li>
+<li><a href="https://github.com/holman/spark">spark</a> - ▁▂▃▅▂▇ in your shell</li>
+<li><a href="https://github.com/fisherman/shark">Shark</a> - ▁▂▃▅ Sparkline Generator</li>
+<li><a href="https://github.com/oscardelben/sheet">sheet</a> -  Text snippets for the command line</li>
+<li><a href="https://github.com/rauchg/spot">spot</a> - Tiny file search utility</li>
+</ul>
+<ul>
+<li><a href="https://github.com/srijanshetty/snips">snips</a> - Commandline tool to manage snippets of code.</li>
+</ul>
+<ul>
+<li><a href="https://github.com/osxfuse/sshfs">sshfs</a> - A tool for mounting remote file systems over SSH</li>
+<li><a href="https://github.com/Russell91/sshrc">sshrc</a> - Bring your .bashrc, .vimrc, etc. with you when you SSH</li>
+<li><a href="https://github.com/badarsh2/Sudocabulary">sudocabulary</a> - Learn English Vocabulary from your terminal</li>
+<li><a href="http://surfraw.alioth.debian.org/" rel="nofollow">surfraw</a> - browse specific site and search the web from your terminal without browser.</li>
+<li><a href="https://github.com/nvbn/thefuck">thefuck</a> - Fix common shell mistakes by using an easy to remember command</li>
+<li><a href="https://github.com/raylee/tldr">tldr</a> - A fully-functional bash client for tldr, simplified and community-driven man pages</li>
+<li><a href="http://tmux.github.io/" rel="nofollow">tmux</a> - Amazing terminal multiplexer</li>
+<li><a href="https://github.com/shannonmoeller/up">up</a> - Ascend directories by name or count; for bash, zsh, and fish.</li>
+<li><a href="https://github.com/rupa/v">v</a> - z for vim.</li>
+<li><a href="https://github.com/zolrath/wemux">wemux</a> - Multi-User Tmux Made Easy</li>
+<li><a href="https://github.com/rupa/z">z</a> - z is the new j, yo</li>
+</ul>
+<h2><a id="user-content-customization" class="anchor" aria-hidden="true" href="#customization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Customization</h2>
+<p><em>Custom prompts, color themes, etc.</em></p>
+<ul>
+<li><a href="https://github.com/base16-builder/base16-builder">base16-builder</a> - Base16-Builder</li>
+<li><a href="https://github.com/slomkowski/bash-full-of-colors">bash-full-of-colors</a> - Powerful prompt with screen, tmux, git support and many more</li>
+<li><a href="https://github.com/magicmonty/bash-git-prompt">bash-git-prompt</a> - An informative and fancy Bash prompt for Git users</li>
+<li><a href="https://github.com/riobard/bash-powerline">bash-powerline</a> - Powerline-style Bash prompt in pure Bash script</li>
+<li><a href="https://github.com/barryclark/bashstrap">bashstrap</a> - A quick way to spruce up OSX terminal</li>
+<li><a href="https://github.com/caiogondim/bullet-train.zsh">bullet-train-oh-my-zsh-theme</a> - <g-emoji class="g-emoji" alias="bullettrain_side" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f684.png">🚄</g-emoji> An oh-my-zsh shell theme based on the Powerline Vim plugin</li>
+<li><a href="https://github.com/mrowa44/emojify">emojify</a> Emoji on the command line <g-emoji class="g-emoji" alias="scream" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f631.png">😱</g-emoji></li>
+<li><a href="https://dribbble.com/shots/1021755-Flat-UI-Terminal-Theme" rel="nofollow">flatui-terminal-theme</a> - Nicer colors for terminal</li>
+<li><a href="https://github.com/lvv/git-prompt">git-prompt</a> - Bash prompt with Git, SVN and HG modules</li>
+<li><a href="https://github.com/momeni/gittify">gittify</a> - A colorful Bash prompt + customized Git aliases</li>
+<li><a href="https://github.com/Mayccoll/Gogh">Gogh - Color Scheme</a> - Color Scheme for Gnome Terminal</li>
+<li><a href="https://github.com/nojhan/liquidprompt">liquidprompt</a> - A full-featured &amp; carefully designed adaptive prompt for Bash &amp; Zsh</li>
+<li><a href="https://github.com/zpm-zsh/mysql-colorize">mysql-colorize</a> -  Colorization for mysql comand-line client</li>
+<li><a href="https://github.com/arialdomartini/oh-my-git">oh-my-git</a> - An opinionated git prompt for bash and zsh</li>
+<li><a href="https://github.com/twolfson/sexy-bash-prompt">sexy-bash-prompt</a> - Bash prompt with colors, Git statuses, and Git branches</li>
+</ul>
+<h2><a id="user-content-for-developers" class="anchor" aria-hidden="true" href="#for-developers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>For Developers</h2>
+<p><em>Command-line development, version control, and deployment.</em></p>
+<ul>
+<li><a href="https://github.com/jarun/bcal">bcal</a> - Byte CALculator for storage conversions and calculations</li>
+<li><a href="https://github.com/p8952/bocker">bocker</a> - Docker implemented in 100 lines of bash</li>
+<li><a href="https://github.com/AlDanial/cloc">cloc</a> - Count Lines of Code</li>
+<li><a href="https://github.com/omgimanerd/doclt">doclt</a> - A command line interface to Digital Ocean</li>
+<li><a href="https://github.com/dokku/dokku">dokku</a> - Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen.</li>
+<li><a href="https://github.com/fisherman/getopts">getopts</a> - CLI parser for fish</li>
+<li><a href="https://github.com/unixorn/git-extra-commands">git-extra-commands</a> - Many Git extra utilities. Churn, cut-branch, improved-merge and many more.</li>
+<li><a href="https://github.com/tj/git-extras">git-extras</a> - Git utilities -- repo summary, repl, changelog population, author commit percentages and more</li>
+<li><a href="https://github.com/paulirish/git-open">git-open</a> - Type <code>git open</code> to open the GitHub page or website for a repository in your browser</li>
+<li><a href="https://github.com/markchalloner/git-semver">git-semver</a> - Git plugin for easing semantic versioning and changelog validation</li>
+<li><a href="https://github.com/rtomayko/git-sh">git-sh</a> - A customized Bash environment suitable for Git work</li>
+<li><a href="https://github.com/aanand/git-up">git-up</a> - Automatically rebase incoming changes instead of merging. Be polite!</li>
+<li><a href="https://github.com/github/hub">hub</a> - hub helps you win at git.</li>
+<li><a href="https://github.com/dogoncouch/licins">licins</a> - Insert commented software licenses into source code.</li>
+<li><a href="https://github.com/joeyh/myrepos">mr</a> - Multiple Repository management tool</li>
+<li><a href="https://github.com/brigade/overcommit">overcommit</a> - A fully configurable and extendable Git hook manager</li>
+<li><a href="https://pre-commit.com" rel="nofollow">pre-commit</a> - A framework for managing and maintaining multi-language pre-commit hooks</li>
+<li><a href="https://github.com/jlevy/repren">repren</a> - Command-line search-and-replace and file-renaming swiss army knife</li>
+<li><a href="https://github.com/slap-editor/slap">slap</a> - Sublime-like terminal-based text editor that runs on Node.js</li>
+<li><a href="https://github.com/sapegin/shipit">shipit</a> - Minimalistic SSH deployment</li>
+<li><a href="https://github.com/ritz078/starring">starring</a> - Automatically star the npm-packages that you are using on GitHub.</li>
+<li><a href="https://github.com/aykamko/tag">tag</a> - Instantly jump to your ag matches.</li>
+</ul>
+<h2><a id="user-content-system-utilities" class="anchor" aria-hidden="true" href="#system-utilities"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>System Utilities</h2>
+<p><em>OS-related tools, including system administration, system debugging, and file and process management.</em></p>
+<ul>
+<li><a href="https://www.atoptool.nl" rel="nofollow">atop</a> - ASCII full-screen performance monitor that is capable of reporting the activity of all processes</li>
+<li><a href="https://github.com/jingweno/ccat">ccat</a> - ccat is the colorizing cat. It works similar to cat but displays content with syntax highlighting.</li>
+<li><a href="https://bitbucket.org/linibou/colorex/wiki/Home" rel="nofollow">colorex</a> - Displays files or sdtin with pretty colors for matched patterns.</li>
+<li><a href="https://github.com/Xfennec/progress">progress</a> - Linux tool to show progress for <code>cp</code>, <code>rm</code>, <code>dd</code>, and more...</li>
+<li><a href="https://github.com/alichtman/stronghold">stronghold</a> - Easily configure MacOS security settings from the terminal.</li>
+<li><a href="https://github.com/nicolargo/glances">glances</a> - Glances an Eye on your system</li>
+<li><a href="https://github.com/allinurl/goaccess">goaccess</a> - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems.</li>
+<li><a href="https://github.com/vesche/histstat">histstat</a> - History for netstat</li>
+<li><a href="https://github.com/hishamhm/htop">htop</a> - A ncurses based interactive process viewer which aims to be a better <code>top</code></li>
+<li><a href="http://lnav.org" rel="nofollow">lnav</a> - An advanced log file viewer for the small-scale</li>
+<li><a href="https://github.com/trapd00r/ls--">ls++</a> - Colorized ls on steroids</li>
+<li><a href="https://github.com/dborzov/lsp">lsp</a> - An improved <code>ls</code>, with file descriptions in plain language and intelligent file grouping</li>
+<li><a href="https://github.com/traviscross/mtr">mtr</a> - The functionality of the 'traceroute' and 'ping' programs in a single network diagnostic tool.</li>
+<li><a href="https://dev.yorhel.nl/ncdu" rel="nofollow">ncdu</a> - NCurses Disk Usage</li>
+<li><a href="https://github.com/fenrus75/powertop">powertop</a> - Battery/Power usage and device stats monitoring command-line tool, with tune-up options.</li>
+<li><a href="https://github.com/jlevy/procdog">procdog</a> - Lightweight command-line control of long-lived processes like servers</li>
+<li><a href="https://github.com/marshyski/quick-secure">quick-secure</a> - Quickly secure and harden UNIX/Linux systems</li>
+<li><a href="https://github.com/ivanilves/xiringuito">xiringuito</a> - SSH-based "VPN for poors"</li>
+</ul>
+<h2><a id="user-content-downloading-and-serving" class="anchor" aria-hidden="true" href="#downloading-and-serving"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Downloading and Serving</h2>
+<p><em>Self-hosted, lightweight servers and networking tools written in shell scripts.</em></p>
+<ul>
+<li><a href="https://github.com/aria2/aria2">aria2</a> - aria2 is a lightweight multi-protocol &amp; multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, BitTorrent and Metalink</li>
+<li><a href="https://github.com/jneen/balls">balls</a> - Bash on Balls</li>
+<li><a href="https://github.com/avleen/bashttpd">bashttpd</a> - A web server written in Bash</li>
+<li><a href="https://github.com/sickill/bitpocket">bitpocket</a> - "DIY Dropbox" or "2-way directory (r)sync with proper deletion"</li>
+<li><a href="https://github.com/andreafabrizi/Dropbox-Uploader">Dropbox-Uploader</a> - Dropbox Uploader is a Bash script which can be used to upload, download, list or delete files from Dropbox</li>
+<li><a href="https://github.com/jakubroztocil/httpie">httpie</a> - HTTPie is a command line HTTP client, a user-friendly cURL replacement</li>
+<li><a href="https://github.com/jaburns/ngincat">ngincat</a> - Tiny Bash HTTP server using netcat</li>
+<li><a href="https://github.com/micha/resty">resty</a> - Little command line REST client that you can use in pipelines</li>
+<li><a href="https://github.com/rg3/youtube-dl">youtube-dl</a> - Small command-line program to download videos from YouTube.com and other video sites</li>
+</ul>
+<h2><a id="user-content-multimedia-and-file-formats" class="anchor" aria-hidden="true" href="#multimedia-and-file-formats"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multimedia and File Formats</h2>
+<p><em>Tools for handling video and audio files.</em></p>
+<ul>
+<li><a href="https://github.com/sromku/adb-export">adb-export</a> - Export Android content providers to CSV format</li>
+<li><a href="https://github.com/dsixda/Android-Kitchen">Android-Kitchen</a> - A text-based kitchen for Android ROM customization. Uses shell scripts and works with Cygwin/OS X/Linux</li>
+<li><a href="https://github.com/beetbox/beets">Beets</a> - Music library manager and MusicBrainz tagger</li>
+<li><a href="https://github.com/cmus/cmus">cmus</a> - Cross-platform cli audio player.</li>
+<li><a href="https://github.com/lukechilds/gifgen">gifgen</a> - Simple high quality GIF encoding</li>
+<li><a href="https://github.com/sananth12/ImageScraper">image-scraper</a> - A cool command line image scraper with a lot of features.</li>
+<li><a href="https://github.com/jarun/imgp">imgp</a> - Blazing fast batch image resizer and rotator</li>
+<li><a href="https://github.com/stedolan/jq">jq</a> - Sed for json data. You can use it to slice and filter and map and transform structured data</li>
+<li><a href="https://mpv.io/" rel="nofollow">mpv</a> - Lets you play most audio and video formats (using ASCII characters) in the shell as well as in a GUI.</li>
+<li><a href="https://github.com/bogem/nehm">nehm</a> - Console tool, which downloads, sets IDv3 tags and adds to your iTunes (if you use it) your SoundCloud likes in convenient way</li>
+<li><a href="https://github.com/lanceseidman/PiCAST">PiCAST</a> - PiCAST turns your $35 Raspberry Pi in to a Chromecast like Device</li>
+<li><a href="https://github.com/torakiki/sejda/">sejda</a> - Command line manipulation of PDF documents (split, merge, rotate, convert to jpg, extract text, etc)</li>
+<li><a href="https://github.com/benibela/xidel/">xidel</a> - Cli tool to filter, map and create HTML/XML/JSON data with (Turing-complete) XPath and XQuery.</li>
+<li><a href="http://xmlstar.sourceforge.net/" rel="nofollow">xmlstarlet</a> - Old but powerful tool for command-line XML formatting, filtering, and manipulation.</li>
+<li><a href="https://github.com/antonmedv/fx">fx</a> - Command-line JSON processing tool by anononymus JavaScript functions</li>
+</ul>
+<h2><a id="user-content-applications" class="anchor" aria-hidden="true" href="#applications"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Applications</h2>
+<p><em>Command line-based applications or command line access to existing services.</em></p>
+<ul>
+<li><a href="https://github.com/fcambus/ansiweather">ansiweather</a> - Weather in your terminal, with ANSI colors and Unicode symbols</li>
+<li><a href="https://github.com/cfenollosa/bashblog">bashblog</a> - A Bash script that handles blog posting</li>
+<li><a href="https://github.com/lord63/choosealicense-cli">choosealicense-cli</a> - Choose an OSS license from the comfort of your terminal</li>
+<li><a href="https://github.com/specious/facebook-cli">facebook-cli</a> - Facebook command line tool</li>
+<li><a href="https://github.com/afc163/fanyi">fanyi</a> - Translate English to Chinese in terminal</li>
+<li><a href="https://github.com/VitaliyRodnenko/geeknote">geeknote</a> - Command line evernote client</li>
+<li><a href="https://github.com/donnemartin/haxor-news">haxor-news</a> - Browse Hacker News like a haxor</li>
+<li><a href="https://github.com/rafaelrinaldi/hn-cli">hn-cli</a> - Browse Hacker News from the comfort of your Terminal</li>
+<li><a href="https://github.com/nogizhopaboroda/iponmap">iponmap</a> - Draw point on world map using ip address</li>
+<li><a href="https://github.com/lord63/isitup">isitup</a> - Check whether a website is up or down</li>
+<li><a href="https://github.com/maebert/jrnl">jrnl</a> - A simple command line journal application that stores your journal in a plain text file</li>
+<li><a href="https://github.com/ledger/ledger">ledger</a> - Command line accounting</li>
+<li><a href="https://github.com/lord63/licen">licen</a> - Generate your license. Yet another lice, but implement with Jinja2 and docopt</li>
+<li><a href="https://github.com/iCHAIT/moviemon">moviemon</a> - Everything about your movies within the command line.</li>
+<li><a href="https://github.com/arvindch/pockyt">pockyt</a> - Read, Manage, and Automate your <a href="https://getpocket.com" rel="nofollow">Pocket</a> collection.</li>
+<li><a href="https://github.com/alebcay/pushblast">pushblast</a> - Get PushBullet notifications when a shell program exits</li>
+<li><a href="https://github.com/Red5d/pushbullet-bash">pushbullet-bash</a> - Bash interface to the PushBullet API</li>
+<li><a href="https://github.com/michael-lazar/rtv">Reddit Terminal Viewer</a> - Browse Reddit from your terminal</li>
+<li><a href="https://github.com/donnemartin/saws">SAWS</a> - A Supercharged AWS CLI</li>
+<li><a href="https://taskwarrior.org/" rel="nofollow">taskwarrior</a> - A command-line TODO list manager</li>
+<li><a href="https://github.com/keepcosmos/terjira">terjira</a> - Command line power tool for Jira</li>
+<li><a href="https://transfer.sh/" rel="nofollow">transfer.sh</a> — Quickly upload and share files from your shell</li>
+<li><a href="https://github.com/ellisonleao/vl">vl</a> - URL link checker on text documents</li>
+<li><a href="https://github.com/schachmat/wego">wego</a> - Weather app for the terminal</li>
+<li><a href="https://github.com/rafaelrinaldi/whereami">whereami</a> - Get your geolocation information from the CLI</li>
+<li><a href="https://github.com/chubin/wttr.in">wttr.in</a> - <g-emoji class="g-emoji" alias="partly_sunny" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26c5.png">⛅️</g-emoji> The right way to check the weather (curl wttr.in)</li>
+</ul>
+<h2><a id="user-content-games" class="anchor" aria-hidden="true" href="#games"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Games</h2>
+<p><em>All work and no play is a cruddy way to spend your day.</em></p>
+<ul>
+<li><a href="https://github.com/mydzor/bash2048">bash2048</a> - Bash implementation of 2048 game</li>
+<li><a href="https://github.com/feherke/Bash-script/tree/master/minesweeper">minesweeper</a> - Bash implementation of minesweeper</li>
+<li><a href="https://github.com/jubalh/nudoku">nudoku</a> - ncurses based sudoku game written in C</li>
+<li><a href="https://github.com/vaniacer/piu-piu-SH">piu-piu</a> - Horizontal scroller game in bash with multiplayer mode!</li>
+<li><a href="https://github.com/uuner/sedtris">sedtris</a> - Tetris in sed</li>
+<li><a href="https://github.com/aureliojargas/sed-scripts">sed-scripts</a> - Arkanoid and Sokoban written using sed</li>
+<li><a href="https://github.com/mpereira/tty-solitaire">tty-solitaire</a> - Play solitaire in your terminal!</li>
+</ul>
+<h2><a id="user-content-shell-package-management" class="anchor" aria-hidden="true" href="#shell-package-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Shell Package Management</h2>
+<p><em>Tools for managing multiple shell configurations. For zsh-specific tools, see the Zsh section.</em></p>
+<ul>
+<li><a href="https://github.com/Bash-it/bash-it">bash-it</a> - A community Bash framework</li>
+<li><a href="https://github.com/basherpm/basher">basher</a> - A package manager for shell scripts</li>
+<li><a href="http://www.bpkg.sh/" rel="nofollow">bpkg</a> - JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg</li>
+<li><a href="https://github.com/deadc0de6/dotdrop">dotdrop</a> - Save your dotfiles once, deploy them everywhere</li>
+<li><a href="https://github.com/svetlyak40wt/dotfiler">dotfiler</a> – Shell agnostic git based dotfiles package manager, written in Python.</li>
+<li><a href="https://github.com/freshshell/fresh">fresh</a> - Keep your dotfiles fresh</li>
+<li><a href="https://github.com/andsens/homeshick">homeshick</a> - Git dotfile synchronizer written in Bash</li>
+<li><a href="https://github.com/javier-lopez/shundle">shundle</a> - Plugin manager for shell scripts</li>
+<li><a href="https://github.com/RichiH/vcsh">vcsh</a> - Config manager based on Git</li>
+<li><a href="https://thelocehiliosan.github.io/yadm/" rel="nofollow">yadm</a> - Git-based dotfiles manager supporting encryption, alternates, and bootstrapping</li>
+</ul>
+<h2><a id="user-content-shell-script-development" class="anchor" aria-hidden="true" href="#shell-script-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Shell Script Development</h2>
+<p><em>Tools for writing, improving, or organizing Bash or other shell scripts</em></p>
+<ul>
+<li><a href="https://github.com/fidian/ansi">ansi</a> - ANSI escape codes in pure bash - change text color, position the cursor, much more</li>
+<li><a href="https://github.com/lehmannro/assert.sh">assert.sh</a> - Bash unit testing framework</li>
+<li><a href="https://github.com/plytophogy/bashful">bashful</a> - A collection of libraries to simplify writing Bash scripts</li>
+<li><a href="https://bashlets.sh/" rel="nofollow">Bashlets</a> - A modular extensible toolbox for Bash</li>
+<li><a href="https://github.com/lingtalfi/bashmanager">bashmanager</a> - mini bash framework for creating command line tools</li>
+<li><a href="https://github.com/mindaugasbarysas/bashwithnails">bashwithnails</a> - a Bash framework written just for fun with testing, dependency management &amp; packaging</li>
+<li><a href="https://github.com/mads-hartmann/bash-language-server">bash-language-server</a> - <a href="https://microsoft.github.io/language-server-protocol" rel="nofollow">LSP</a>-based Bash language server</li>
+<li><a href="https://github.com/bats-core/bats-core">bats</a> - Bash Automated Testing System</li>
+<li><a href="https://github.com/molovo/crash">crash</a> - Proper error handling, exceptions and try/catch for ZSH</li>
+<li><a href="https://github.com/fisherman/fishtape">Fishtape</a> - TAP producer and test harness for fish</li>
+<li><a href="https://github.com/erichs/composure">composure</a> - Compose, document, version and organize your shell functions</li>
+<li><a href="https://github.com/Mosai/workshop/blob/master/doc/dispatch.md">dispatch</a> - A command line argument parser in 50 lines of portable shell script.</li>
+<li><a href="https://github.com/qzb/is.sh">is.sh</a> - An alternative for builtin test command, it will make your "if" statements pretty</li>
+<li><a href="https://github.com/molovo/lumberjack">lumberjack</a> - A logging interface for shell scripts</li>
+<li><a href="https://github.com/tests-always-included/mo">mo</a> - Mustache templates in pure bash</li>
+<li><a href="https://github.com/nk412/optparse">optparse</a> - A BASH wrapper for getopts, for simple command line arguments.</li>
+<li><a href="https://github.com/rerun/rerun">rerun</a> - A modular shell automation framework to organize your keeper scripts</li>
+<li><a href="https://github.com/molovo/revolver">revolver</a> - A reusable progress spinner for shell scripts</li>
+<li><a href="https://github.com/sorokine/phases">phases</a> - Minimally invasive bash preprocessor, select sections of your script to run</li>
+<li><a href="https://github.com/cloudflare/semver_bash">semver_bash</a> - Semantic Versioning in Bash</li>
+<li><a href="https://github.com/qzb/sh-semver">sh-semver</a> - Semver tool for bash - finds versions matching to specified rules</li>
+<li><a href="https://github.com/koalaman/shellcheck">shellcheck</a> - Static analysis tool for shell scripts</li>
+<li><a href="https://github.com/shellfire-dev/shellfire">shellfire</a> -  A repository of namespaced, composable shell (bash, sh and dash) function libraries</li>
+<li><a href="https://github.com/rylnd/shpec">shpec</a> - A shell testing framework</li>
+<li><a href="https://ianmiell.github.io/shutit/" rel="nofollow">shutit</a> - Automation framework based on bash and pexpect</li>
+<li><a href="https://github.com/basecamp/sub">sub</a> - A delicious way to organize programs</li>
+<li><a href="https://github.com/thinkerbot/ts">ts</a> - A shell test script</li>
+<li><a href="https://github.com/tlevine/urchin">urchin</a> - An idiomatic shell testing framework that uses only shell commands</li>
+<li><a href="https://github.com/kward/shunit2">shunit2</a> - A unit test framework for Bash scripts with a flavour of JUnit/PyUnit.</li>
+<li><a href="https://github.com/jandob/rebash">rebash</a> - Scripting library/framework. Features: imports, exceptions, doc-tests ...</li>
+<li><a href="https://github.com/zunit-zsh/zunit">zunit</a> - A powerful unit testing framework for ZSH</li>
+</ul>
+<h1><a id="user-content-guides" class="anchor" aria-hidden="true" href="#guides"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Guides</h1>
+<ul>
+<li><a href="http://wiki.bash-hackers.org/" rel="nofollow">Bash Hackers Wiki</a></li>
+<li><a href="http://mywiki.wooledge.org" rel="nofollow">Greg Wooledge's (aka "greycat") wiki</a>.
+Specifically <a href="http://mywiki.wooledge.org/BashGuide" rel="nofollow">Bash Guide</a>, <a href="http://mywiki.wooledge.org/BashFAQ" rel="nofollow">Bash FAQ</a> and <a href="http://mywiki.wooledge.org/BashPitfalls" rel="nofollow">Bash Pitfalls</a></li>
+<li><a href="https://google.github.io/styleguide/shell.xml" rel="nofollow">Google's Shell Style Guide</a></li>
+<li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc" rel="nofollow">The Linux Documentation Project: Bash Programming - Intro/How-to</a></li>
+<li><a href="http://www.tldp.org/LDP/abs/html/" rel="nofollow">The Linux Documentation Project: Advanced Bash Scripting Guide</a></li>
+<li><a href="https://en.wikibooks.org/wiki/Bash_Shell_Scripting" rel="nofollow">WikiBooks: Bash Shell Scripting</a></li>
+<li><a href="http://redsymbol.net/articles/unofficial-bash-strict-mode/" rel="nofollow">Use the Unofficial Bash Strict Mode (Unless You Looove Debugging)</a></li>
+<li><a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line</a></li>
+<li><a href="https://www.learnenough.com/command-line-tutorial" rel="nofollow">Learn Enough Command Line to Be Dangerous</a></li>
+<li><a href="https://github.com/Idnan/bash-guide">A guide to learn bash</a></li>
+</ul>
+<h1><a id="user-content-other-awesome-lists" class="anchor" aria-hidden="true" href="#other-awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Awesome Lists</h1>
+<p>Other amazingly awesome lists can be found in <a href="https://github.com/emijrp/awesome-awesome">awesome-awesome</a> and <a href="https://github.com/bayandin/awesome-awesomeness">awesome-awesomeness</a>.</p>
+<h3><a id="user-content-see-also" class="anchor" aria-hidden="true" href="#see-also"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>See also</h3>
+<ul>
+<li><a href="https://github.com/agarrharr/awesome-cli-apps">awesome-cli-apps</a></li>
+<li><a href="https://github.com/fisherman/awesome-fish-shell">awesome-fish</a></li>
+<li><a href="https://github.com/unixorn/awesome-zsh-plugins">awesome-zsh</a></li>
+<li><a href="https://github.com/k4m4/terminals-are-sexy">terminals-are-sexy</a></li>
+</ul>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.17559s from unicorn-3835523148-l553k">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

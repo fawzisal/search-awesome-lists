@@ -1,0 +1,453 @@
+   #Recent
+   Commits to awesome-steam:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 30
+     * 208
+     * 18
+
+awesome-steam
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of packages and resources regarding Steam development
+   awesome
+   awesome-list
+   46 commits
+     * 0 releases
+     * 7
+       contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/s
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-steam
+       ]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-steam
+       ]Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Latest commit
+   [file://localhost/scholtzm/awesome-steam/commit/aca05ab6b44676a91ea4166
+   8d9526d64eedb48ce]aca05ab Nov 14, 2017
+   @scholtzm
+   scholt
+   zm
+   adjust steam-trade description
+   Permalink
+   Failed to load latest commit information.
+   .edi
+   torconfig
+   [file://localhost/scholtzm/awesome-steam/commit/8c528c0e9d0d9046b6b8a48
+   20b1e9394ca9ab835]initial commit May 25, 2016
+   .gi
+   tattributes
+   [file://localhost/scholtzm/awesome-steam/commit/8c528c0e9d0d9046b6b8a48
+   20b1e9394ca9ab835]initial commit May 25, 2016
+   CO
+   NTRIBUTING.md
+   [file://localhost/scholtzm/awesome-steam/commit/8c528c0e9d0d9046b6b8a48
+   20b1e9394ca9ab835]initial commit May 25, 2016
+   README.m
+   d
+   [file://localhost/scholtzm/awesome-steam/commit/aca05ab6b44676a91ea4166
+   8d9526d64eedb48ce]adjust steam-trade description Nov 14, 2017
+
+README.md
+
+Awesome
+
+     A curated list of
+     [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-steam#
+     packages]packages and
+     [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-steam#
+     resources]resources regarding [http://store.steampowered.com/]Steam
+     development.
+
+   Please read the
+   co
+   ntribution guidelines before contributing.
+
+   The purpose of this document is to provide a quick overview over
+   existing packages (libraries, modules etc.) and resources available
+   regarding Steam client automation and WebAPI usage. Whenever you need
+   to start a new project, have a look at the list of packages and see if
+   there is anything useful for your use case. If you need technical
+   details or tutorials, check out the resources section.
+
+Table of Contents
+
+     * Packages
+          + Node.js
+          + C#
+          + PHP
+          + Go
+          + Python
+          + C++
+          + Java
+          + Objective-C
+     * Resources
+          + General
+          + Tutorials
+          + Posts
+          + Standalone Tools
+          + Discussion Boards
+          + Third-Party Services
+
+Packages
+
+     ¡ Many of these package repositories provide helpful READMEs and
+     wiki pages, which explain the usage and/or provide examples. Do not
+     forget to check them out when using particular package.
+
+Node.js
+
+General
+
+     * [https://github.com/seishun/node-steam]steam - Interface directly
+       with Steam servers from Node.js.
+     * [https://github.com/DoctorMcKay/node-steam-client]steam-client -
+       API-compatible fork of node-steam's SteamClient.
+     * [https://github.com/DoctorMcKay/node-steam-user]steam-user -
+       Feature-rich easy-to-use Steam client.
+     * [https://github.com/scholtzm/vapor]vapor - Lightweight Steam client
+       framework.
+     * [https://github.com/dragonbanshee/node-steam-parentbot]steam-parent
+       bot - Simple base class for a Steam bot.
+
+WebAPI
+
+     * [https://github.com/DoctorMcKay/node-steam-webapi]steam-webapi -
+       Complete WebAPI wrapper with support for extra HTTP headers sent by
+       Steam.
+     * [https://github.com/lloti/node-steamapi]steamapi - A nice Steam API
+       wrapper.
+
+Trading
+
+     * [https://github.com/seishun/node-steam-trade]steam-trade - Node.js
+       wrapper around Steam live trading.
+     * [https://github.com/Alex7Kom/node-steam-tradeoffers]steam-tradeoffe
+       rs - Steam Trade Offers for Node.js.
+     * [https://github.com/DoctorMcKay/node-steam-tradeoffer-manager]steam
+       -tradeoffer-manager - Simple and sane Steam trade offer management.
+
+Game Interaction
+
+     * [https://github.com/DoctorMcKay/node-steam-gameserver]steam-gameser
+       ver - Steam client handler for Gameserver and AnonGameserver
+       account types.
+     * [https://github.com/DoctorMcKay/node-tf2]tf2 - Interact directly
+       with TF2 game coordinator.
+     * [https://github.com/joshuaferrara/node-csgo]csgo - Interact
+       directly with CS:GO game coordinator.
+     * [https://github.com/RJacksonm1/node-dota2]dota2 - Interact directly
+       with Dota 2 game coordinator.
+
+Community & Store Automation
+
+     * [https://github.com/DoctorMcKay/node-steamcommunity]steamcommunity
+       - Interact with steamcommunity.com. Also allows to confirm trade
+       offers.
+     * [https://github.com/DoctorMcKay/node-steamstore]steamstore -
+       Interact with store.steampowered.com.
+     * [https://github.com/Alex7Kom/node-steam-weblogon]steam-weblogon -
+       Retrieve SteamCommunity cookies if you are running Steam network
+       client.
+     * [https://github.com/Alex7Kom/node-steam-web-api-key]steam-web-api-k
+       ey - Automatically registers and retrieves Steam API key.
+     * [https://github.com/Alex7Kom/node-steam-parental]steam-parental -
+       Disable parental lock.
+
+Authentication
+
+     * [https://github.com/cpancake/steam-login]steam-login - Simple
+       Connect / Express Steam authentication library.
+     * [https://github.com/liamcurry/passport-steam]passport-steam - Steam
+       (OpenID) authentication strategy for Passport and Node.js.
+     * [https://github.com/scholtzm/meteor-accounts-steam]meteor-accounts-
+       steam - Steam OpenID integration for Meteor Accounts.
+
+Misc
+
+     * [https://github.com/seishun/node-steam-resources]steam-resources -
+       Steam's enums, protobufs and structs.
+     * [https://github.com/seishun/node-steam-crypto]steam-crypto -
+       Node.js implementation of Steam crypto.
+     * [https://github.com/scholtzm/node-steam-groups]steam-groups -
+       Custom node-steam handler which provides group functions.
+     * [https://github.com/DoctorMcKay/node-steamid]steamid - SteamID
+       usage and conversion made easy.
+     * [https://github.com/DoctorMcKay/node-steam-totp]steam-totp - Easily
+       generate 2FA codes used by Steam.
+     * [https://github.com/Steam-Chat-Bot/node-steam-chat-bot]steam-chat-b
+       ot - Simplified interface for a steam chat bot.
+     * [https://github.com/RJacksonm1/node-vdf]vdf - vdf to object and
+       vice versa.
+     * [https://github.com/scholtzm/node-steamrep]steamrep - Check user's
+       SteamRep reputation.
+     * [https://github.com/scholtzm/node-reptf]reptf - Check user's rep.tf
+       reputation.
+
+C#
+
+General
+
+     * [https://github.com/SteamRE/SteamKit]SteamKit2 - .NET library
+       designed to interoperate with Valve's Steam network.
+     * [https://github.com/geel9/SteamAuth]SteamAuth - A C# library that
+       provides vital Steam Mobile Authenticator functionality.
+     * [https://github.com/Jessecar96/SteamBot]SteamBot - Automated bot
+       software for interacting with steam trade.
+     * [https://github.com/waylaidwanderer/SteamTradeOffersBot]SteamTradeO
+       ffersBot - SteamBot fork which focuses on trade offers.
+     * [https://github.com/ObsidianMinor/SteamStandardProject]SteamStandar
+       dProject - A collection of .NET Standard libraries using common
+       types that provide functionality in one or more parts of Steam.
+
+Misc
+
+     * [https://github.com/igeligel/BackpackLogin]BackpackLogin - A .NET
+       Standard library for logging into backpack.tf using Steam
+       credentials.
+     * [https://github.com/igeligel/TeamFortressOutpostApi]TeamFortressOut
+       postApi - A .NET Standard class library which allows user to
+       interact with TF2Outpost.
+     * [https://github.com/igeligel/SteamGaugesApi]SteamGaugesApi - A .NET
+       Standard 2.0 library to automatically use the API of
+       [https://steamgaug.es/]steamgauges.
+
+PHP
+
+     * [https://github.com/waylaidwanderer/PHP-SteamCommunity]SteamCommuni
+       ty - A PHP library for interacting with the Steam Community
+       website.
+     * [https://github.com/SmItH197/SteamAuthentication]SteamAuthenticatio
+       n - Steam OpenID authentication with PHP.
+     * [https://github.com/BlackCetha/SteamAuthOOP]SteamAuthOOP - An
+       object-oriented alternative to SteamAuthentication.
+     * [https://github.com/DaMitchell/steam-api-php]steam-api - A PHP
+       wrapper for the Steam API.
+     * [https://github.com/DoctorMcKay/php-steamid]steamid - SteamID class
+       for PHP.
+     * [https://github.com/DoctorMcKay/php-steam-totp]steam-totp - PHP
+       library to deal with Steam's proprietary TOTP algorithm.
+     * [https://github.com/vikas5914/steam-auth]steam-auth - An
+       alternative Steam authentication library with Composer support.
+
+Go
+
+     * [https://github.com/Philipp15b/go-steam]steam - Steam's protocol in
+       Go.
+     * [https://github.com/YellowOrWhite/go-steam-mobileauth]steam-mobilea
+       uth - Port of SteamAuth in Go.
+
+Python
+
+General
+
+     * [https://github.com/ValvePython/steam]steam - Module for various
+       interactions with Steam.
+     * [https://bitbucket.org/AzuiSleet/pysteamkit]PySteamKit - Python
+       port of SteamKit.
+     * [https://github.com/Lagg/steamodd]steamodd - Steam tools library.
+     * [https://github.com/bukson/steampy]steampy - Fully automated Steam
+       trade offers library with SteamGuard support.
+     * [https://github.com/smiley/steamapi]SteamAPI - An object-oriented
+       Python 2.7+ library for accessing the Steam Web API.
+     * [https://github.com/Zwork101/steam-trade]Steam-Trade - An
+       asynchronous, event-based trade library.
+
+Game Interaction
+
+     * [https://github.com/ValvePython/csgo]csgo - Python module for
+       interacting with CSGO's Game Coordinator.
+     * [https://github.com/ValvePython/dota2]dota2 - Python module for
+       interacting with Dota 2's Game Coordinator.
+
+Misc
+
+     * [https://github.com/ValvePython/vpk]vpk - Python module for working
+       with Valve's Pack format.
+     * [https://github.com/ValvePython/vdf]vdf - Python module for working
+       with Valve's KeyValue format.
+
+C++
+
+     * [https://github.com/seishun/SteamPP]SteamPP - C++ library to
+       interoperate with Steam servers.
+
+Java
+
+     * [https://github.com/Top-Cat/SteamKit-Java]SteamKit-Java - Java port
+       of SteamKit.
+
+Objective-C
+
+     * [https://github.com/michaelchum/SteamAuth]SteamAuth - An iOS
+       wrapper around Steam's OpenID login.
+
+Resources
+
+General
+
+     * [https://developer.valvesoftware.com/wiki/Steam_Web_API]Steam
+       WebAPI @ ValveSoftware
+     * [https://wiki.teamfortress.com/wiki/WebAPI]Steam WebAPI @ TF2 Wiki
+     * [https://lab.xpaw.me/steam_api_documentation.html]Steam WebAPI
+       Documentation by xpaw
+     * [http://steamcommunity.com/dev]Steam as OpenID Provider
+     * [http://steamcommunity.com/dev/apikey]Steam API Key Registration
+     * [https://steamerrors.com/]Steam Error Codes - List of EResult codes
+       with possible explanations.
+
+Tutorials
+
+     * [https://firepowered.org/developer/create-a-steam-trade-bot-with-no
+       dejs-iojs-updated-for-node-steam-v1-0/]Creating a Steam Trade Bot
+       with Node.js
+     * [https://github.com/charredgrass/nodejs-bot-guide]Charred's node.js
+       Guide to Steam Bots
+     * [https://github.com/andrewda/node-steam-guide]In-depth Steam Bot
+       Guide with Node.js
+     * [http://forums.backpack.tf/index.php?/topic/45995-guide-how-to-get-
+       your-shared-secret-from-ios-device-steam-mobile/]Retrieving 2FA
+       Keys from iOS Device
+
+Posts
+
+     * [https://dev.doctormckay.com/topic/332-identifying-steam-items/]Ite
+       m IDs Explained
+     * [https://www.reddit.com/r/SteamBot/comments/3udhkd/everything_relat
+       ed_to_escrow/]Everything Related to Escrow
+     * [https://www.reddit.com/r/SteamBot/comments/3cv6k7/problem_download
+       ing_an_avatar_using/]Understanding Avatar Hash
+
+Standalone Tools
+
+     * [https://github.com/SteamRE/SteamKit/tree/master/Resources/NetHook2
+       ]NetHook2 - Intercept Steam client's network messages.
+     * [https://github.com/SteamRE/SteamKit/tree/master/Resources/NetHookA
+       nalyzer2]NetHook2 Analyzer - Inspect messages dumped by NetHook2.
+     * [http://scholtzm.github.io/steam-auth-web-util/]steam-auth-web-util
+       - Generate 2FA codes directly in your web browser.
+     * [https://github.com/Jessecar96/SteamDesktopAuthenticator]SteamDeskt
+       opAuthenticator - Desktop implementation of Steam's mobile
+       authenticator app.
+
+Discussion Boards
+
+     * [https://www.reddit.com/r/SteamBot]/r/SteamBot
+     * [https://discord.gg/0i5X3oDHJbDUsiGC]/r/SteamBot Discord
+     * [https://www.reddit.com/r/nodesteam]/r/nodesteam
+     * [https://dev.doctormckay.com/]DoctorMcKay's Dev Forum
+     * [https://github.com/steam-forward/node-steam-forum]node-steam-forum
+
+Third-Party Services
+
+   Websites listed below may provide free and/or paid services and are
+   listed alphabetically according to their domain name.
+     * [https://backpack.tf/developer]backpack.tf - Provides TF2 prices
+       and Steam market/inventory related services.
+     * [https://steamanalyst.com/]steamanalyst.com - Provides CS:GO
+       prices.
+     * [https://steamapi.io/]steamapi.io - Provides prices for several
+       games and Steam market/inventory related services.
+     * [https://steamapis.com/]steamapis.com - Provides prices for several
+       games and Steam market/inventory related services.
+     * [https://steamlytics.xyz/]steamlytics.xyz - Provides CS:GO prices
+       and Steam market/inventory related services.
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+   To the extent possible under law, the author and contributors of this
+   text have waived all copyright and related or neighboring rights to
+   this work.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Rel
+   oad to refresh your session. You signed out in another tab or window.
+   Rel
+   oad to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

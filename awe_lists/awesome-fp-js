@@ -1,0 +1,644 @@
+   #Recent
+   Commits to awesome-fp-js:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 144
+     * 2,783
+     * 216
+
+awesome-fp-js
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome functional programming stuff in js
+     * 184 commits
+     * 0 releases
+     * 36
+       contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/s
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fp-js
+       ]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fp-js
+       ]Tags
+
+   remove-peop
+   le reorg
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   README.m
+   d
+   [file://localhost/stoeffel/awesome-fp-js/commit/f0b1ee87e62c7b9f5f80023
+   362e55bf162789268]add (my own) prelude.ts library
+   [file://localhost/stoeffel/awesome-fp-js/commit/f0b1ee87e62c7b9f5f80023
+   362e55bf162789268]https://github.com/emmanueltouzery/pr... Apr 14, 2018
+   [file://localhost/stoeffel/awesome-fp-js/blob/master/code-of-conduct.md
+   ]code-of-conduct.md
+   [file://localhost/stoeffel/awesome-fp-js/commit/d2d7ce758cb3892e3fe61b2
+   39b542c5fd0fdc46d]Create code-of-conduct.md Feb 22, 2016
+   co
+   ntributing.md
+   [file://localhost/stoeffel/awesome-fp-js/commit/d49568c742127e55e705ded
+   f8cef13334d322d88]Create contributing.md Feb 22, 2016
+
+README.md
+
+Awesome
+
+   This is a curated list of awesome
+   [https://en.wikipedia.org/wiki/Functional_programming]functional
+   programming code and learning resources for JavaScript. As a
+   multi-paradigm programming language, JavaScript can be written in many
+   styles. With these resources we want to help you to make better use of
+   JavaScript's support for writing programs in a functional way.
+
+   Functional programming is a
+   [https://wiki.haskell.org/Functional_programming]style of programming
+   which models computations as the evaluation of expressions. Contrast
+   this with imperative programming where programs are composed of
+   statements which change global state when executed. Functional
+   programming typically avoids using mutable state and favors side-effect
+   free functions and immutable data instead. This encourages writing
+   composable and declarative programs that are easy to reason about.
+
+Table of Contents
+
+     * Libraries
+          + Data Structures
+          + Algebraic Data Types
+          + Lenses
+     * Functional
+       Languages that Compile to JavaScript
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fp-js
+       #programming-tools]Programming Tools
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fp-js
+       #resources]Resources
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            fp-js#books]Books
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            fp-js#articles]Articles
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            fp-js#videos]Videos
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            fp-js#examples-and-exercises]Examples and Exercises
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fp-js
+       #community]Community
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fp-js
+       #contribution]Contribution
+
+Libraries
+
+     * [https://github.com/ramda/ramda]Ramda - A practical functional
+       library for JavaScript that is designed specifically for a
+       functional programming style. A style that makes it easy to create
+       functional pipelines and never mutates user data.
+     * [https://github.com/char0n/ramda-adjunct]Ramda Adjunct is a
+       community-maintained extension of Ramda.
+     * [https://github.com/tommmyy/ramda-extension]Ramda-extension is set
+       of utility point-free functions composed only from Ramda functions.
+     * [http://folktale.origamitower.com/]Folktale - A standard library
+       for functional programming in JavaScript.
+     * [https://github.com/lodash/lodash/wiki/FP-Guide]lodash/fp - An
+       instance of [https://github.com/lodash/lodash]Lodash with its
+       methods wrapped to produce immutable, auto-curried, iteratee-first,
+       data-last methods.
+     * [http://functionaljs.com/]functional.js - A lightweight functional
+       JavaScript library that facilitates currying and point-free / tacit
+       programming.
+     * [https://github.com/tjmehta/101]101 - A modern and modular
+       JavaScript utility library made to work well with vanilla
+       JavaScript methods.
+     * [https://github.com/algesten/fnuc]fnuc - A functional library for
+       CoffeeScript (and JavaScript) to facilitate functional composition
+       and higher order functions.
+     * [https://github.com/cullophid/barely-functional]barely-functional -
+       A tiny (2.7kb) functional programming library using native ES5/6
+       operations.
+     * [https://github.com/zhangchiqing/bluebird-promisell]bluebird-promis
+       ell - A practical functional programming library for promises.
+     * [http://gkz.github.io/prelude-ls/]prelude.ls - A functionally
+       oriented utility library somewhat based off of Haskell's Prelude
+       module.
+     * [https://github.com/alanrsoares/prelude-js]preludejs - Hardcore
+       Functional Programming for JavaScript.
+     * [https://github.com/1-liners/1-liners]1-liners - Functional tools
+       that couldn't be simpler. A dead simple functional utility belt,
+       hand-crafted with love and attention.
+     * [https://github.com/thunklife/fn-curry]fn-curry - A simple function
+       to curry a function.
+     * [https://github.com/thisables/curry]curry - Curry your functions
+       using function bind syntax.
+     * [https://github.com/stoeffel/compose-function]compose-function -
+       Compose a new function from smaller functions.
+     * [https://github.com/paldepind/functionize]functionize - A
+       collection of functions which aid in making non-functional
+       libraries functional.
+     * [https://github.com/loop-recur/lambdajs]lambdajs - The full
+       ECMAScript API done a functional way.
+     * [https://github.com/fp-dom/]fp-dom - Making the DOM functional.
+     * [https://github.com/algesten/trifl]trifl - A functional user
+       interface library with unidirectional dataflow and a virtual dom.
+     * [https://github.com/bramstein/funcy]funcy - An experiment in adding
+       functional pattern matching to JavaScript. Experimental ©
+     * [https://github.com/cullophid/date-fp]date-fp - A functional
+       utility library for working with JavaScript dates. All functions in
+       date-fp are pure, autocurried and will not mutate the date objects
+       they are applied to.
+     * [https://github.com/js-joda/js-joda]js-joda - An immutable date and
+       time library that provides a simple, domain-driven and clean API
+       based on the ISO8601 calendar.
+     * [https://github.com/AutoSponge/_part_]_part_ - A micro library that
+       encourages functional programming by making native methods
+       available as partially applied functions.
+     * [https://github.com/robotlolita/claire]claire - A property-based
+       testing library for clearly specifying code invariants and
+       behaviour.
+     * [https://github.com/getify/fpo]FPO.js - FP library for JavaScript
+       by Kyle Simpson (aka getify). Supports named-argument style
+       methods.
+     * [https://github.com/d-plaindoux/parsec]Javascript Parser Combinator
+       - Javascript parser combinator implementation inspired by the
+       Haskell's Parsec
+     * [https://github.com/rpominov/fun-task]fun-task - An abstraction for
+       managing asynchronous code in JS. Tasks are similar to Promises
+       with the key difference that Tasks can represent a computation
+       while Promises can represent only the results of a computation.
+       Ships with Flow type definitions.
+     * [https://github.com/cujojs/most]most - Ultra-high performance
+       reactive programming to help you compose asynchronous operations on
+       streams of values and events without many of the hazards of side
+       effects and mutable shared state.
+     * [https://github.com/joaomilho/zen-signals]zen-signals - Pd The
+       simplest signal library possible
+     * [https://github.com/funfix/funfix]funfix - Funfix is a library of
+       type classes and data types for Functional Programming in
+       JavaScript, TypeScript and Flow.
+     * [https://github.com/trainyard/pico-lambda]pico-lambda - Arrays,
+       Strings and things the functional way. A 640b functional library
+       based on native methods.
+     * [https://github.com/concretesolutions/pareto.js/]pareto-js - An
+       extremely small, intuitive and fast functional utility library for
+       JavaScript
+
+Data Structures
+
+   Write performant functional code by using the right data structures for
+   the task.
+     * [https://github.com/aearly/icepick]Icepick Utilities for treating
+       frozen JavaScript objects as persistent immutable collections
+     * [https://github.com/facebook/immutable-js]Immutable.js - Immutable
+       persistent data collections.
+     * [https://github.com/swannodette/mori]Mori - ClojureScript's
+       persistent data structures and supporting API from the comfort of
+       vanilla JavaScript.
+     * [https://github.com/Yomguithereal/baobab]Baobab - persistent and
+       optionally immutable data tree with cursors.
+     * [https://github.com/qiao/immutable-sequence.js]immutable-sequence.j
+       s - High performance implementation of Immutable Sequence in
+       JavaScript, based on [https://github.com/qiao/fingertree.js]Finger
+       Trees.
+     * [http://guigrpa.github.io/timm/]Timm - Immutability helpers with
+       fast reads and acceptable writes.
+     * [https://github.com/dtao/lazy.js]Lazy.js - A utility library with a
+       lazy engine under the hood that strives to do as little work as
+       possible while being as flexible as possible.
+     * [https://github.com/ds300/derivablejs]DerivableJS - Functional
+       Reactive State for JavaScript and TypeScript. DerivableJS enables
+       you to make elegant declarative statements about how your bits of
+       state are related.
+     * [https://github.com/benji6/imlazy]imlazy - Library for creating and
+       manipulating lazy iterables using the ES2015 iteration protocols.
+     * [https://github.com/frptools/collectable]collectable - Super
+       high-performance immutable data structures for modern JavaScript
+       and TypeScript applications.
+     * [https://github.com/funkia/list]List - An extremely fast immutable
+       list with a comprehensive functional API.
+     * [https://github.com/emmanueltouzery/prelude.ts]prelude.ts -
+       Immutable persistent collections, functional constructs such as
+       Option and Either, and combinators. Implemented in Typescript but
+       supports javascript too.
+
+Algebraic Data Types
+
+   Use the laws of math instead of always reinventing your own thing.
+   Algebraic!
+     * [https://github.com/fantasyland/fantasy-land]Fantasy Land - Not a
+       library, but a specification of the Monad laws for libraries to
+       follow.
+     * [https://github.com/rpominov/static-land]Static Land -
+       Specification similar to Fantasy Land but based on static methods
+       rather than instance methods.
+     * [https://github.com/DrBoolean/immutable-ext]immutable-ext -
+       FantasyLand extensions for
+       [https://github.com/facebook/immutable-js]Immutable.js.
+     * [https://github.com/puffnfresh/daggy]daggy - Library for creating
+       tagged constructors.
+     * [https://github.com/plaid/sanctuary]Sanctuary - Sanctuary makes it
+       possible to write safe code without null checks.
+     * [http://cwmyers.github.io/monet.js/]monet.js - A library that
+       assists functional programming by providing a rich set of Monads
+       and other useful functions.
+     * [https://github.com/paldepind/union-type]union-type - A small
+       JavaScript library for defining and using union types.
+     * [https://github.com/DrBoolean/freeky]freeky - A collection of Free
+       monads.
+     * [https://github.com/Avaq/Fluture]Fluture - A Future library with
+       included control utilities, high performance and great error
+       messages.
+     * [https://github.com/fantasyland/fantasy-combinators]fantasy-combina
+       tors - Common combinators.
+     * [https://github.com/fantasyland/fantasy-birds]fantasy-birds - Port
+       of the Haskell package Data.Aviary.Birds. Everything for your
+       combinatory needs.
+     * [https://github.com/evilsoft/crocks]crocks - A collection of
+       popular Algebraic Data Types with the main goal to curate and
+       provide not only a common interface between each type, but also all
+       of the helper functions needed to hit the ground running.
+     * [https://github.com/blitzritz/kudojs]kudo-js - A small utility
+       library with a set of Algebraic Data Types and Helper functions to
+       help you write code in a functional programming style in Javascript
+
+Lenses
+
+     * [https://github.com/DrBoolean/lenses]lenses - Composable
+       [https://github.com/ekmett/lens]kmett style lenses.
+     * [https://github.com/flunc/optics]optics - Profunctor optics (Lens,
+       Prism, iso).
+     * [https://github.com/ramda/ramda-lens]ramda-lens - Lens library
+       built on Ramda.
+     * [https://github.com/fantasyland/fantasy-lenses]fantasy-lenses -
+       Composable, immutable getters and setters. (Profunctor lenses WIP)
+     * [https://github.com/5outh/nanoscope]nanoscope - Lenses with dotty
+       support.
+     * [https://github.com/calmm-js/partial.lenses]partial.lenses -
+       Partial lenses is a comprehensive, high-performance optics library
+       for JavaScript.
+
+Functional Languages that Compile to JavaScript
+
+     * [https://github.com/clojure/clojurescript]ClojureScript - Compiles
+       [http://clojure.org/]Clojure, a hosted Lisp with immutable
+       persistent data structures, to JavaScript.
+     * [http://elm-lang.org/]Elm - A type-safe functional programming
+       language for declaratively creating web browser-based graphical
+       user interfaces. Implemented in Haskell.
+     * [http://fable.io/]Fable - Compiles [http://fsharp.org/]F# to
+       readable JavaScript.
+     * [http://www.purescript.org/]PureScript - A small strongly typed
+       programming language that compiles to JavaScript.
+     * [http://www.idris-lang.org/]Idris - A general purpose pure
+       functional programming language with dependent types.
+     * [https://github.com/ghcjs/ghcjs]GHCJS -
+       [https://www.haskell.org/]Haskell to JavaScript compiler, based on
+       GHC.
+     * [https://github.com/bryanjos/elixirscript]ElixirScript - Compiles a
+       subset of [http://elixir-lang.org/]Elixir, a dynamic, functional
+       language designed for building scalable and maintainable
+       applications, to JavaScript.
+     * [http://ocsigen.org/js_of_ocaml/]Js_of_ocaml - Compiles
+       [http://ocaml.org/]OCaml bytecode to JavaScript, making it possible
+       to run OCaml programs in the browser.
+     * [https://bloomberg.github.io/bucklescript/]BuckleScript -
+       JavaScript backend for [https://ocaml.org/]the OCaml compiler.
+     * [https://reasonml.github.io/]Reason - Reason is a new interface to
+       OCaml, a highly expressive dialect of the ML language featuring
+       type inference and static type checking.
+     * [http://www.scala-js.org/]Scala.js - Compiles
+       [http://www.scala-lang.org/]Scala to JavaScript.
+     * [http://gkz.github.io/LiveScript/]LiveScript - LiveScript has a
+       straightforward mapping to JavaScript and allows you to write
+       expressive code devoid of repetitive boilerplate.
+     * [https://github.com/quack/quack]Quack - A multi-paradigm
+       programming language with gradual and duck typing that targets PHP
+       and JS.
+     * [https://github.com/ion-lang/ion]ion - no BS JS
+     * [https://github.com/yosbelms/ramdascript]RamdaScript - A Lisp that
+       compiles to opinionated JavaScript on top of RamdaJS
+
+Programming Tools
+
+     * [https://github.com/jfmengels/eslint-plugin-fp]eslint-plugin-fp -
+       ESLint rules for functional programming
+     * [https://github.com/bodil/eslint-config-cleanjs]eslint-config-clean
+       js - An eslint config which reduces JS to a pure functional
+       language
+     * [https://github.com/TylorS/4.5]4.5 - A functional assertions
+       library. If you prefer functional style APIs and practices in
+       JavaScript, this library aims to solve this with
+       functionally-oriented assertions that are lazy and monadic.
+     * [https://github.com/xodio/hm-def]hm-def - Runtime type checking for
+       JS with Hindley Milner signatures.
+     * [https://github.com/kongware/ftor]ftor - A pluggable runtime type
+       checker and functional debugging tool that supports parametric and
+       row polymorphism, implicit rank-2 types and algebraic data types
+       via Scott Encoding.
+
+Resources
+
+Books
+
+     * [https://github.com/MostlyAdequate/mostly-adequate-guide]Professor
+       Frisby's Mostly Adequate Guide to Functional Programming - This is
+       a book on the functional paradigm in general using the world's most
+       popular functional programming language: JavaScript. It's a
+       practical introduction that builds up intuition through real-world
+       examples. Strongly recommended. By
+       [https://twitter.com/drboolean]Brian Lonsdorf (2016)
+     * [https://github.com/getify/functional-light-js]Functional-Light
+       JavaScript - This book explores the core principles of functional
+       programming (FP) that can be applied to JavaScript. But what makes
+       this book different is that it approaches these principles without
+       all the heavy terminology.
+     * [https://leanpub.com/javascriptallongesix]JavaScript Allongé, the
+       "Six" edition. Starts with as little as possible about functions -
+       but no less! - and builds up towards powerful combinators and
+       decorators. A foundational book. By
+       [https://github.com/raganwald]Reginald Braithwaite (2016)
+     * [https://www.manning.com/books/functional-programming-in-javascript
+       ]Functional Programming in JavaScript teaches JavaScript developers
+       functional techniques that will improve extensibility, modularity,
+       reusability, testability, and performance. Through concrete
+       examples and jargon-free explanations, this book teaches you how to
+       apply functional programming to real-life development tasks. By
+       Luis Atencio (2016)
+     * [http://eloquentjavascript.net/]Eloquent JavaScript. A modern
+       introduction to programming using JavaScript. By Marijn Haverbeke
+       (2014)
+     * [http://shop.oreilly.com/product/0636920028857.do]Functional
+       JavaScript teaches how to create code that's beautiful, safe, and
+       simple to understand and test by using JavaScript's functional
+       programming support. By [https://github.com/fogus]Michael Fogus
+       (2013)
+
+Articles
+
+     * [https://medium.com/@collardeau/intro-to-functional-programming-con
+       cepts-in-javascript-b0650773139c]FP Concepts in JavaScript - An
+       introduction to Functional Programming Concepts in JavaScript. Uses
+       the Ramda library to teach the concepts of composition, pointfree
+       style, and functors through the simplest of examples.
+     * [http://stephen-young.me.uk/2013/01/20/functional-programming-with-
+       javascript.html]Functional programming with JavaScript - Another
+       introduction to Functional Programming in JavaScript with a focus
+       on three key themes: computation as the application of functions,
+       statelessness, avoiding side effects.
+     * [http://jrsinclair.com/articles/2016/gentle-introduction-to-functio
+       nal-javascript-intro/]A gentle introduction to functional
+       JavaScript - A four-part series introduction functional programming
+       in JavaScript that gets you up to speed what all the hype about
+       functional programming is all about.
+     * [https://hughfdjackson.com/javascript/why-curry-helps/]Why Curry
+       Helps - A short overview of how to write reusable and declarative
+       code using currying.
+     * [http://fr.umio.us/favoring-curry/]Favoring Curry - Practical
+       applications of currying using Ramda.
+     * [http://blog.jenkster.com/2016/06/functional-mumbo-jumbo-adts.html]
+       Functional Mumbo Jumbo - ADTs - A beginner-friendly introduction to
+       Algebraic Data Types.
+     * [https://medium.com/@yelouafi/javascript-and-type-thinking-735edddc
+       388d]JavaScript and Type Thinking - Learn to reason about your
+       JavaScript code with type thinking. Algebraic Data Types are
+       introduced as a conceptual basis to reason about program entities.
+     * [https://codewords.recurse.com/issues/four/lazy-composable-and-modu
+       lar-javascript]Lazy, composable, and modular JavaScript - Use four
+       new features of ES6 - iterables, generators, fat arrows, and for-of
+       - in conjunction with higher-order functions, function composition,
+       and lazy evaluation, to write cleaner and more modular JavaScript.
+     * [http://fr.umio.us/why-ramda/]Why Ramda - To those not used to
+       functional programming, Ramda seems to serve no purpose whatsoever.
+       However, it does offer a different style of coding, a style that's
+       taken for granted in purely functional programming languages: Ramda
+       makes it simple for you to build complex logic through functional
+       composition.
+     * [https://curiosity-driven.org/monads-in-javascript]Monads in
+       JavaScript - An introduction to the Monad design pattern in
+       JavaScript.
+     * [http://robotlolita.me/2013/12/08/a-monad-in-practicality-first-cla
+       ss-failures.html]A Monad in Practicality: First-Class Failures - A
+       walk through some practical use cases for specific monadic
+       structures in JavaScript: use the Maybe monad to handle simple
+       failure cases and model more complex scenarios with the Either
+       monad or the Validation applicative functor.
+     * [https://glebbahmutov.com/blog/tags/functional/]Functional
+       programming - Many articles on various aspects of functional
+       programming in JavaScript by Gleb Bahmutov.
+     * [https://github.com/hemanth/functional-programming-jargon]Functiona
+       l Programming Jargon - Jargon from the functional programming world
+       explained in JavaScript.
+     * [http://blog.benoitvallon.com/data-structures-in-javascript/data-st
+       ructures-in-javascript/]Data Structures in JavaScript - A series of
+       blog posts that reimplements various data structures in JavaScript
+       to better understand their benefits and downsides.
+     * [https://medium.com/@cscalfani/so-you-want-to-be-a-functional-progr
+       ammer-part-1-1f15e387e536]So You Want to be a Functional Programmer
+       - Easy to understand, with some examples, introduction to
+       Functional Programming in Javascript and Elm.
+     * [https://medium.com/@chetcorcos/functional-programming-for-javascri
+       pt-people-1915d8775504]Functional Programming for JavaScript People
+       - A complete introduction to functional programming patterns by
+       Chet Corcos with a lot of javascript examples.
+     * [https://auth0.com/blog/intro-to-immutable-js/]Introduction to
+       Immutable.js and Functional Programming Concepts - Learn about
+       functional data structures and their uses in this overview of
+       Facebook's popular library for JavaScript: Immutable.js.
+     * [https://medium.com/javascript-scene/master-the-javascript-intervie
+       w-what-is-functional-programming-7f218c68b3a0]Master the JavaScript
+       Interview: What is Functional Programming? - A simple introduction
+       by @ericelliott to functional principles and vocabulary.
+     * [https://medium.com/javascript-scene/the-rise-and-fall-and-rise-of-
+       functional-programming-composable-software-c2d91b424c8c]Composing
+       Software - A series of articles on learning functional programming
+       and compositional software techniques in JavaScript ES6+ from the
+       ground up by @ericelliott.
+
+Videos
+
+     * [https://www.youtube.com/watch?v=h_tkIpwbsxY&list=PLK_hdtAJ4KqX0JOs
+       _KMAmUNTNMRYhWEaC]Classroom Coding with Prof. Frisby - A series
+       that builds a "practical" web application with React and functional
+       programming in JavaScript.
+     * [https://www.youtube.com/watch?v=m3svKOdZijA]Hey Underscore, You're
+       Doing It Wrong! - Underscore.js claims to be a functional
+       programming library, but is it really?
+     * [https://www.youtube.com/watch?v=AvgwKjTPMmM]Functional programming
+       patterns for the non-mathematician - Learn about practical use
+       cases for functors, applicatives, and monads.
+     * [https://vimeo.com/49384334]Pure JavaScript - Christian Johansen
+       will show you how you can significantly up your game by leaving
+       loops behind and embracing functions as the primary unit of
+       abstraction.
+     * [https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqU
+       ag-n84]Functional programming in JavaScript - A series by Mattias
+       Petter Johansson, from the youtube channel FunFunFunction, that is
+       specifically about popularization of functional programming in
+       JavaScript.
+     * [https://www.youtube.com/watch?v=e-5obm1G_FY]Anjana Vakil: Learning
+       Functional Programming with JavaScript - JSUnconf 2016 - A simple
+       and understandable introduction of functional proramming in
+       javascript.
+     * [https://www.youtube.com/watch?v=FYXpOjwYzcs]Functional Programming
+       Basics In ES6 - A complete introduction to functional programming
+       in javascript made it easy by ES6.
+
+Examples and Exercises
+
+     * [https://github.com/loop-recur/FPJS-Class]FPJS-Class - Functional
+       Programming learned through JavaScript.
+     * [https://github.com/timoxley/functional-javascript-workshop]functio
+       nal-javascript-workshop - The goal of this workshop is to create
+       realistic problems that can be solved using terse, vanilla,
+       idiomatic JavaScript to teach fundamental functional programming
+       features of JavaScript.
+     * [https://github.com/paldepind/functional-frontend-architecture]func
+       tional-frontend-architecture - A functional frontend framework.
+       Based on Ramda + union-type-js + Flyd + Snabbdom
+     * [https://github.com/sharkdp/cube-composer]cube-composer - A puzzle
+       game inspired by functional programming.
+     * [https://github.com/jaysoo/example-fp-youtube-search]FP Youtube
+       Search - YouTube search app with ReactJS, Redux, and FP concepts
+     * [https://frontendmasters.com/courses/functional-javascript/]Hardcor
+       e Functional Programming in JavaScript - Learn to apply techniques
+       from the forefront of computer science research to solve practical
+       problems in Javascript. Discover functional programming and see it
+       demonstrated step-by-step with how to build an example web app
+       using abstract interfaces like Monads, Functors, Monoids and
+       Applicatives. (commercial)
+     * [https://github.com/justsml/escape-from-callback-mountain]Escape
+       from Callback Mountain - Design & refactoring tips for
+       Promise-based Functional JavaScript. Key benefits include better
+       readability, testability, and reusability. MIT.
+     * [http://paqmind.com/courses/fp-beginner/]Functional Programming for
+       Beginners - Dozens of exercises with solutions and explanations.
+     * [http://reactivex.io/learnrx/]Learn Rx - A series of interactive
+       exercises introducing five basic ingredients of functional
+       (reactive) programming: the map, filter, concatAll, reduce, and zip
+       functions.
+
+Community
+
+Related Lists
+
+     * [https://github.com/stoeffel/awesome-frp-js]Awesome FRP JS - A
+       curated list of awesome (functional) reactive programming stuff in
+       JavaScript.
+     * [https://github.com/lucasviola/awesome-functional-programming]lucas
+       viola/Awesome Functional Programming - Awesome resources on
+       functional programming theory and learning materials.
+     * [https://github.com/xgrommx/awesome-functional-programming]xgrommx/
+       Awesome Functional Programming - A ton of articles on functional
+       programming, as well as a huge list of functional libraries for
+       many programming languages.
+     * [https://github.com/busypeoples/functional-programming-javascript]F
+       unctional Programming Resources In JavaScript
+
+Talk
+
+     * [https://fpchat-invite.herokuapp.com/]Functional Programming Slack
+       channel - Community with a friendly channel for JavaScript as well
+       as many other channels about functional programming in general.
+
+Contribution
+
+   Suggestions and PRs are welcome!
+
+   Please read the
+   co
+   ntribution guidelines to get started.
+
+License
+
+   [http://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+   To the extent possible under law, [http://stoeffel.github.io/]Christoph
+   Hermann has waived all copyright and related or neighboring rights to
+   this work.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Rel
+   oad to refresh your session. You signed out in another tab or window.
+   Rel
+   oad to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

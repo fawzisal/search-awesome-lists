@@ -1,0 +1,1378 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - avivace/awesome-gbdev: A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/14352721?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="avivace/awesome-gbdev" /><meta property="og:url" content="https://github.com/avivace/awesome-gbdev" /><meta property="og:description" content="awesome-gbdev - A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E100:5D4F:312C2E9:58AF08C:5AD2F6C3" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E100:5D4F:312C2E9:58AF08C:5AD2F6C3" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="Y2IzM2E5MzhlZmFjMjc0OWI2MzdiMTJkMWI4MTMwNDRmMzhmZGViNGFhZmJmMzEzYWI1MjFlOTFiNzg3ZTIyNXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTEwMDo1RDRGOjMxMkMyRTk6NThBRjA4Qzo1QUQyRjZDMyIsInRpbWVzdGFtcCI6MTUyMzc3NTE3MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="c9d9ee584730ab708e95d0eb4cbaea089a4fdacd">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/avivace/awesome-gbdev/commits/master.atom" rel="alternate" title="Recent Commits to awesome-gbdev:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-gbdev - A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.">
+  <meta name="go-import" content="github.com/avivace/awesome-gbdev git https://github.com/avivace/awesome-gbdev.git">
+
+  <meta name="octolytics-dimension-user_id" content="14352721" /><meta name="octolytics-dimension-user_login" content="avivace" /><meta name="octolytics-dimension-repository_id" content="52347647" /><meta name="octolytics-dimension-repository_nwo" content="avivace/awesome-gbdev" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="52347647" /><meta name="octolytics-dimension-repository_network_root_nwo" content="avivace/awesome-gbdev" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/avivace/awesome-gbdev" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/avivace/awesome-gbdev/search" data-unscoped-search-url="/search" action="/avivace/awesome-gbdev/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/avivace/awesome-gbdev">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Favivace%2Fawesome-gbdev" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Favivace%2Fawesome-gbdev"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/avivace/awesome-gbdev/watchers"
+     aria-label="67 users are watching this repository">
+    67
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Favivace%2Fawesome-gbdev"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/avivace/awesome-gbdev/stargazers"
+      aria-label="1152 users starred this repository">
+      1,152
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Favivace%2Fawesome-gbdev"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/avivace/awesome-gbdev/network" class="social-count"
+       aria-label="64 users forked this repository">
+      64
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/avivace">avivace</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/avivace/awesome-gbdev">awesome-gbdev</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /avivace/awesome-gbdev" href="/avivace/awesome-gbdev">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /avivace/awesome-gbdev/issues" href="/avivace/awesome-gbdev/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /avivace/awesome-gbdev/pulls" href="/avivace/awesome-gbdev/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /avivace/awesome-gbdev/pulse" href="/avivace/awesome-gbdev/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4RQBPHpHLH/Hr7tncACrCD8he6HeMng4TLJXi17U9S8heg5wzjcL7TZRaoEX0zcRakPn5WiG1J24q7cDjnsM1Q==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/avivace/awesome-gbdev/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/gameboy" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gameboy">
+        gameboy
+      </a>
+      <a href="/topics/gameboy-emulator" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gameboy-emulator">
+        gameboy-emulator
+      </a>
+      <a href="/topics/documentation" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:documentation">
+        documentation
+      </a>
+      <a href="/topics/retrogaming" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:retrogaming">
+        retrogaming
+      </a>
+      <a href="/topics/nintendo" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:nintendo">
+        nintendo
+      </a>
+      <a href="/topics/dmg" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:dmg">
+        dmg
+      </a>
+      <a href="/topics/gameboy-color-emulator" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gameboy-color-emulator">
+        gameboy-color-emulator
+      </a>
+      <a href="/topics/resources" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:resources">
+        resources
+      </a>
+      <a href="/topics/tools" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:tools">
+        tools
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/asm" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:asm">
+        asm
+      </a>
+      <a href="/topics/gbdk" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gbdk">
+        gbdk
+      </a>
+      <a href="/topics/cartridge" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:cartridge">
+        cartridge
+      </a>
+      <a href="/topics/game-boy-development" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:game-boy-development">
+        game-boy-development
+      </a>
+      <a href="/topics/gameboy-color" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gameboy-color">
+        gameboy-color
+      </a>
+      <a href="/topics/assembler" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:assembler">
+        assembler
+      </a>
+      <a href="/topics/gamedev" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:gamedev">
+        gamedev
+      </a>
+      <a href="/topics/game-development" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:game-development">
+        game-development
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/avivace/awesome-gbdev/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                270
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/avivace/awesome-gbdev/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/avivace/awesome-gbdev/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/avivace/awesome-gbdev/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      25
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/avivace/awesome-gbdev/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                GPL-3.0
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/avivace/awesome-gbdev/search?l=shell"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#89e051;"></span>
+                  <span class="lang">Shell</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Shell 100.0%" style="width:100.0%; background-color:#89e051;" itemprop="keywords">Shell</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/avivace/awesome-gbdev.git" aria-label="Clone this repository at https://github.com/avivace/awesome-gbdev.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/avivace/awesome-gbdev.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/avivace/awesome-gbdev/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/avivace/awesome-gbdev/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/avivace/awesome-gbdev/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/avivace/awesome-gbdev/tree-commit/bf5cb1b8a852169b9901a118b655e32116d6b8cd" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/avivace/awesome-gbdev/tree/bf5cb1b8a852169b9901a118b655e32116d6b8cd">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="articles" id="dba5d91846ce1a5e63734dfcbcb481cb-894f4b07d00e366825db46b3aca07d84b407baa7" href="/avivace/awesome-gbdev/tree/master/articles">articles</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Move salvaged articles to dedicated gb-archive repo due to licensing issues described in #67" class="message" href="/avivace/awesome-gbdev/commit/50dfc36a6ea63df73fb415fc5b0bb98c33f1e402">Move salvaged articles to dedicated gb-archive repo due to licensing …</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-12-11T15:27:20Z">Dec 11, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="scripts" id="d6c5855a62cf32a4dadbc2831f0f295f-eb5e568d7675c029007b7673f8e3d41ccc6c3b61" href="/avivace/awesome-gbdev/tree/master/scripts">scripts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add script to check HTTP status for URLs." class="message" href="/avivace/awesome-gbdev/commit/03b195c0851d94baeb0ce5348fe97c6c42e464a7">Add script to check HTTP status for URLs.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-31T06:38:43Z">Jan 31, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-02e8202dfef3555b6b365c9be5cb4a7944a24318" href="/avivace/awesome-gbdev/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="broken links" class="message" href="/avivace/awesome-gbdev/commit/f6ab56b925a9cccdd93d7b2edd056c2c59530305">broken links</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-14T08:41:33Z">Nov 14, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CODE_OF_CONDUCT.md" id="a1ee87dafebc22cbd96979f1b2b7e837-04fc27f1293edb65a4b34843e36980fd201f5b5c" href="/avivace/awesome-gbdev/blob/master/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Code of Conduct (Recommended community standards)" class="message" href="/avivace/awesome-gbdev/commit/652c46be2410685d322b9301bc5691b72ba59827">Add Code of Conduct (Recommended community standards)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-28T13:45:45Z">Jan 28, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-2223cd04fa9bb6a300d09050bfeae25974ba3019" href="/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix table of contents, improvements" class="message" href="/avivace/awesome-gbdev/commit/62ef9c9502244c7a2ec66d4a4f1f409c29f54911">Fix table of contents, improvements</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-09T10:02:13Z">Jan 9, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-31bd1507e1876db422c631aba23c4aff7c4a2428" itemprop="license" href="/avivace/awesome-gbdev/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Savaged articles/txt files" class="message" href="/avivace/awesome-gbdev/commit/48ca152eb649f600e66265966a074e672f966237">Savaged articles/txt files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-17T18:02:16Z">Aug 17, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-c7ddf9f3d1db8420bf7fb5479ec5002dcdfa7cce" href="/avivace/awesome-gbdev/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Oracle of Ages disassembly (#94)" class="message" href="/avivace/awesome-gbdev/commit/bf5cb1b8a852169b9901a118b655e32116d6b8cd">Add Oracle of Ages disassembly (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="313535711" data-permission-text="Issue title is private" data-url="https://github.com/avivace/awesome-gbdev/issues/94" href="https://github.com/avivace/awesome-gbdev/pull/94">#94</a><a data-pjax="true" title="Add Oracle of Ages disassembly (#94)" class="message" href="/avivace/awesome-gbdev/commit/bf5cb1b8a852169b9901a118b655e32116d6b8cd">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-12T05:24:09Z">Apr 12, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="_config.yml" id="aeb42283af8ef8e9da40ededd3ae2ab2-c4192631f25b34d77a7f159aa0da0e3ae99c4ef4" href="/avivace/awesome-gbdev/blob/master/_config.yml">_config.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Set theme jekyll-theme-cayman" class="message" href="/avivace/awesome-gbdev/commit/f63e04e21c339ad47a89f8b27c2e5f722940a1aa">Set theme jekyll-theme-cayman</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-05T12:52:09Z">Feb 5, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content--awesome-game-boy-development" class="anchor" aria-hidden="true" href="#-awesome-game-boy-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a target="_blank" href="https://camo.githubusercontent.com/c2298b8a908dc0b1dc259eb942a1995e9f6705d2/687474703a2f2f692e696d6775722e636f6d2f524f5571374e542e676966"><img src="https://camo.githubusercontent.com/c2298b8a908dc0b1dc259eb942a1995e9f6705d2/687474703a2f2f692e696d6775722e636f6d2f524f5571374e542e676966" alt="GameboyIcon" data-canonical-src="http://i.imgur.com/ROUq7NT.gif" style="max-width:100%;"></a> Awesome Game Boy Development</h1>
+<h4><a id="user-content-join-us-on-discord-" class="anchor" aria-hidden="true" href="#join-us-on-discord-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://discord.gg/gpBxq85" rel="nofollow">Join us on Discord</a> <a href="https://discord.gg/gpBxq85" rel="nofollow"><img src="https://camo.githubusercontent.com/c971c5222204351b07a8578017d9f3b8e1765d96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f64796e616d69632f6a736f6e2e7376673f6c6162656c3d6368617426636f6c6f72423d677265656e267072656669783d267375666669783d2532306f6e6c696e652671756572793d636f756e74267572693d6874747073253341253246253246676268682e617669766163652e636f6d253246617069253246646973636f7264" alt="Discord Badge" data-canonical-src="https://img.shields.io/badge/dynamic/json.svg?label=chat&amp;colorB=green&amp;prefix=&amp;suffix=%20online&amp;query=count&amp;uri=https%3A%2F%2Fgbhh.avivace.com%2Fapi%2Fdiscord" style="max-width:100%;"></a></h4>
+<p>A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the <a href="https://github.com/sindresorhus/awesome">awesome</a> list thing.</p>
+<h2><a id="user-content-contents" class="anchor" aria-hidden="true" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#intro">Intro</a>
+<ul>
+<li><a href="#disambiguation">Disambiguation</a></li>
+</ul>
+</li>
+<li><a href="#community">Community</a></li>
+<li><a href="#documentation">Documentation</a>
+<ul>
+<li><a href="#hardware">Hardware</a></li>
+<li><a href="#game-boy-color">Game Boy Color</a></li>
+<li><a href="#peripherals">Peripherals</a></li>
+<li><a href="#cartridges">Cartridges</a></li>
+</ul>
+</li>
+<li><a href="#emulator-development">Emulator Development</a>
+<ul>
+<li><a href="#open-source-emulators">Open-Source emulators</a></li>
+</ul>
+</li>
+<li><a href="#software-development">Software Development</a>
+<ul>
+<li><a href="#assemblers">Assemblers</a></li>
+<li><a href="#compilers">Compilers</a></li>
+<li><a href="#emulators">Emulators</a></li>
+<li><a href="#tools">Tools</a></li>
+</ul>
+</li>
+<li><a href="#programming-tutorials">Programming Tutorials</a>
+<ul>
+<li><a href="#asm">ASM</a>
+<ul>
+<li><a href="#glitches-and-exploits">Glitches and exploits</a></li>
+<li><a href="#timings">Timings</a></li>
+</ul>
+</li>
+<li><a href="#c">C</a></li>
+<li><a href="#old-articles">Old articles</a></li>
+</ul>
+</li>
+<li><a href="#games">Open-Source Games</a>
+<ul>
+<li><a href="#asm-1">ASM</a></li>
+<li><a href="#c-1">C</a></li>
+</ul>
+</li>
+<li><a href="#roms-disassembly">ROMs Disassembly</a></li>
+<li><a href="#related-projects">Related Projects</a>
+<ul>
+<li><a href="#directories">Files Directories</a></li>
+<li><a href="#websites">Websites</a></li>
+</ul>
+</li>
+<li><a href="#about">About this repository</a>
+<ul>
+<li><a href="#contribute">Contribute</a></li>
+<li><a href="#license">License</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-intro" class="anchor" aria-hidden="true" href="#intro"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intro</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu" rel="nofollow">The Game Boy, a hardware autopsy</a>.</li>
+<li><a href="https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk" rel="nofollow">The Ultimate Game Boy Talk</a>.</li>
+<li><a href="https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf">Emulation of Nintendo Game Boy</a> - Overview of the Game Boy hardware with the perspective of building an emulator.</li>
+<li><a href="https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd">To C Or Not To C</a> - Writeup offering a brief overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code.</li>
+</ul>
+<h4><a id="user-content-disambiguation" class="anchor" aria-hidden="true" href="#disambiguation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disambiguation</h4>
+<p>Although this documentation is focused on the original (1989) Game Boy (DMG), the <em>Game Boy Color</em> (GBC) and <em>Super Game Boy</em> (SGB) are very similar systems, with few important distinctions, such as:</p>
+<ul>
+<li>Different hardware specifications</li>
+<li>Specific hardware and software features</li>
+<li>Specific registers</li>
+<li>Specific bugs and exploitable behaviours</li>
+</ul>
+<p>If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check the <a href="#game-boy-color">Game Boy Color</a> category and look for specific references to GBC/CGB and SGB in the documentation.</p>
+<h2><a id="user-content-community" class="anchor" aria-hidden="true" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Community</h2>
+<ul>
+<li><a href="https://discord.gg/gpBxq85" rel="nofollow">gbdev Discord Server</a></li>
+<li><a href="http://chat.efnet.org/?channels=gbdev" rel="nofollow"><code>#gbdev</code> on EFnet</a> - IRC channel.</li>
+<li><a href="http://gbdev.gg8.se/wiki/articles/Main_Page" rel="nofollow">gbdev.gg8.se Wiki</a></li>
+<li><a href="http://devrs.com/gb" rel="nofollow">devrs.com/gb</a> - Old home of the scene, a lot was posted here: code examples and full sources, complete documentation, guides and tutorials, various tools.</li>
+</ul>
+<h2><a id="user-content-documentation" class="anchor" aria-hidden="true" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<ul>
+<li><a href="https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf" rel="nofollow">Game Boy Programming Manual</a> - <strong>Official</strong> Game Boy programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained.</li>
+<li><a href="https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf">The Cycle-Accurate Game Boy Docs</a> - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.</li>
+<li><a href="https://gekkio.fi/files/gb-docs/gbctr.pdf" rel="nofollow">Complete Technical Reference</a></li>
+<li><a href="http://gbdev.gg8.se/wiki/articles/Pan_Docs" rel="nofollow">Pan Docs</a> - Historical comprehensive technical reference, wikified, corrected and updated. <a href="http://bgb.bircd.org/pandocs.htm" rel="nofollow">Original</a> version.</li>
+<li><a href="http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf" rel="nofollow">Game Boy CPU Manual</a> - Assembly language commands, timings and opcodes.</li>
+<li><a href="https://rednex.github.io/rgbds/" rel="nofollow">RGBDS Documentation</a></li>
+<li><a href="http://gbdk.sourceforge.net/doc/gbdk-doc.pdf" rel="nofollow">GBDK libraries documentation</a></li>
+</ul>
+<h4><a id="user-content-misc" class="anchor" aria-hidden="true" href="#misc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Misc</h4>
+<ul>
+<li><a href="http://pepijndevos.nl/sha2017/workshop.pdf" rel="nofollow">Introduction to Game Boy Hacking</a> - Workshop introducing basic assembly, debugging and reverse engineering.</li>
+<li><a href="http://cratel.wichita.edu/cratel/ECE238Spr08" rel="nofollow">Assembly Language Programming Course</a> - Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University).</li>
+<li><a href="http://www.emulatronia.com/doctec/consolas/gameboy/gameboy.txt" rel="nofollow">Everything You Always Wanted To Know About GAME BOY</a> - but were afraid to ask</li>
+<li><a href="https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt">GBSOUND.txt</a> - A document detailing the Game Boy sound engine.</li>
+<li><a href="http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt" rel="nofollow">GB Instructions</a> Game Boy Assembly commands.</li>
+<li><a href="http://www.chrisantonellis.com/files/gameboy/gb-asm-tips.txt" rel="nofollow">GB ASM Tips</a> - Some tips for coding in Assembly by Jeff Frohwein.</li>
+<li><a href="http://www.chrisantonellis.com/files/gameboy/asmotor-v0.1.0-manual.pdf" rel="nofollow">ASMotor Manual</a> - A reference for RGBDS.</li>
+<li><a href="http://otakunozoku.com/RGBDSdocs/" rel="nofollow">ASMotor v1.10 documentation</a></li>
+<li><a href="http://www.villehelin.com/wla.txt" rel="nofollow">wla-dx documentation</a> - WLA DX Macro Assembler Package manual.</li>
+<li><a href="http://www.devrs.com/gb/files/faqs.html" rel="nofollow">gbdev FAQs</a> - Must read by Jeff Frohwein.</li>
+<li><a href="http://www.neviksti.com/DMG/DMG_ROM.asm" rel="nofollow">Game Boy Bootrom</a> - Commented dump of the DMG bootrom.</li>
+<li><a href="http://fms.komkon.org/GameBoy/Tech/" rel="nofollow">GB Technical Information</a> - Some old code resources.</li>
+<li><a href="http://www.z80.info/z80gboy.txt" rel="nofollow">Differences between the Z80 and the gameboy's processor</a></li>
+<li><a href="http://www.huderlem.com/demos/gameboy2bpp.html" rel="nofollow">Gameboy 2BPP Graphics Format</a> - Information on how the Game Boy interprets VRAM tile data to color pixels.</li>
+</ul>
+<h4><a id="user-content-cheatsheets-tables" class="anchor" aria-hidden="true" href="#cheatsheets-tables"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cheatsheets, Tables</h4>
+<ul>
+<li><a href="http://gbdev.gg8.se/files/docs/GBCribSheet000129.pdf" rel="nofollow">Game Boy Crib Sheet</a> - A handy printable reference sheet with ASM opcodes, memory locations, and much more.</li>
+<li><a href="http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html" rel="nofollow">OP Codes cheatsheet</a></li>
+<li><a href="https://rednex.github.io/rgbds/gbz80.7.html" rel="nofollow">rednex gbz80 opcode reference</a></li>
+<li><a href="http://goldencrystal.free.fr/GBZ80Opcodes.pdf" rel="nofollow">Opcode table</a></li>
+<li><a href="http://www.devrs.com/gb/files/opcodes.html" rel="nofollow">Opcode table with timings and flags</a></li>
+<li><a href="http://www.devrs.com/gb/files/GBCPU_Instr.html" rel="nofollow">Game Boy CPU Instruction Set Sheet (GCISheet)</a> - Cheatsheet for the available Instruction Set.</li>
+</ul>
+<h3><a id="user-content-hardware" class="anchor" aria-hidden="true" href="#hardware"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hardware</h3>
+<ul>
+<li><a href="http://gbdev.gg8.se/wiki/articles/DMG_Schematics" rel="nofollow">DMG Schematics</a> - Hardware schematics.</li>
+<li><a href="http://marc.rawer.de/Gameboy/Docs/GBProject.pdf" rel="nofollow">The Game Boy Project</a> - Provides a study on the hardware and detailed constructional information for the realisation of three 8-bit bidirectional parallel ports.</li>
+<li><a href="https://github.com/Gekkio/gb-hardware">Related custom hardware</a> - by gekkio.</li>
+<li><a href="http://verhoeven272.nl/fruttenboel/Gameboy/index.html" rel="nofollow">fruttenboel</a> - Page with loads of information on the actual hardware, custom boards to interface with the console and other related projects.</li>
+<li><a href="https://gbhwdb.gekkio.fi/" rel="nofollow">Game Boy hardware database</a> - Data and photos of various types of Game Boy consoles.</li>
+</ul>
+<h3><a id="user-content-game-boy-color" class="anchor" aria-hidden="true" href="#game-boy-color"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Game Boy Color</h3>
+<ul>
+<li><a href="https://tcrf.net/Game_Boy_Color_Bootstrap_ROM" rel="nofollow">Game Boy Color Bootstrap ROM</a></li>
+<li><a href="https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM" rel="nofollow">Unused Palettes</a></li>
+<li><a href="https://forums.nesdev.com/viewtopic.php?p=114388&amp;sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388" rel="nofollow">GBC colorization palettes in the BIOS</a></li>
+<li><a href="https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing" rel="nofollow">High resolution GBC schematics</a></li>
+<li><a href="https://gist.github.com/drhelius/6063265">GameBoy Color Boot ROM Disassembly</a></li>
+</ul>
+<h3><a id="user-content-peripherals" class="anchor" aria-hidden="true" href="#peripherals"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Peripherals</h3>
+<ul>
+<li><a href="https://github.com/AntonioND/gbcam-rev-engineer">Game Boy Camera RE</a> - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.</li>
+<li><a href="http://www.pinchofintelligence.com/photorealistic-neural-network-gameboy/" rel="nofollow">Creating photorealistic images with neural networks and a Gameboy Camera</a></li>
+<li><a href="https://shonumi.github.io/articles/art2.html" rel="nofollow">The Game Boy Printer</a> - An in-depth technical document about the printer hardware, the communication protocol and the usual routine that games used for implementing the print feature.</li>
+<li><a href="https://www.youtube.com/watch?v=43FfJvd-YP4" rel="nofollow">Ben Heck Reverse Engineers Game Boy Printer</a></li>
+<li><a href="https://github.com/mofosyne/arduino-gameboy-printer-emulator">Arduino Game Boy Printer Emulator</a> - Emulating a Game Boy Printer via the Game Boy Link cable with an Arduino Nano.</li>
+<li><a href="https://bulbapedia.bulbagarden.net/wiki/Mobile_Game_Boy_Adapter" rel="nofollow">Mobile Game Boy Adapter</a></li>
+<li><a href="http://nectaris.tg-16.com/GB-KISS-LINK-FAQ-hudson-gameboy-nectaris.html" rel="nofollow">GB KISS LINK MODEM</a></li>
+</ul>
+<h3><a id="user-content-cartridges" class="anchor" aria-hidden="true" href="#cartridges"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cartridges</h3>
+<ul>
+<li><a href="https://github.com/AntonioND/giibiiadvance/tree/master/docs">AntonioND's docs</a> - Corrected schematics and infos on cartridge header data.</li>
+<li><a href="http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html" rel="nofollow">Gekkio's Game Boy cartridge types</a> - An overview on existing cartridge types.</li>
+<li><a href="http://gekkio.fi/blog/" rel="nofollow">Gekkio</a>'s cartridge analysis - <a href="http://gekkio.fi/blog/2015-05-18-mooneye-gb-cartridge-analysis-dmg-bean-02.html" rel="nofollow">DMG-BEAN-02</a>, <a href="http://gekkio.fi/blog/2015-05-17-mooneye-gb-cartridge-analysis-fortress-of-fear.html" rel="nofollow">MBC1</a>, <a href="http://gekkio.fi/blog/2015-02-28-mooneye-gb-cartridge-analysis-tetris.html" rel="nofollow">no MBC</a></li>
+<li><a href="http://www.devrs.com/gb/files/gb.html" rel="nofollow">Game Boy Cartridges Schematics</a> - Schematics for MBC2 and MBC3 types.</li>
+<li><a href="https://imgur.com/a/D5bpC" rel="nofollow">Cartridges PCB photos</a></li>
+<li><a href="http://www.reinerziegler.de/readplus.htm" rel="nofollow">Reiner Ziegler's Game Boy page</a> - Commercial and homemade programmable cartridges and programming systems. Tutorials, wiring and schematics provided.</li>
+<li><a href="http://www.devrs.com/gb/files/mbc1.gif" rel="nofollow">MBC1+Ram+Battery cartridge Schematic</a> - First schematics by Jeff Frohwein.</li>
+<li><a href="http://fms.komkon.org/GameBoy/Tech/Carts.html" rel="nofollow">MBC1 and MBC2 cartridges circuits</a> and explanation on how these MBC actually bank switch and control RAM.</li>
+<li><a href="https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing" rel="nofollow">GB Rom List</a> - Navigable table of every GB game released with details on their cartridges.</li>
+<li><a href="http://gekkio.fi/blog/2016-03-19-game-boy-cartridge-pcb-photos.html" rel="nofollow">Game Boy cartridge PCB photos</a></li>
+<li><a href="https://dhole.github.io/post/gameboy_cartridge_emu_1/" rel="nofollow">Emulating a GameBoy Cartridge</a> - Emulating the functionality of a Game Boy cartridge with the development board STM32F4.</li>
+<li><a href="http://www.happydaze.se/wolf/" rel="nofollow">Wolf</a> - Game Boy cartridge with co-processor.</li>
+</ul>
+<h2><a id="user-content-emulator-development" class="anchor" aria-hidden="true" href="#emulator-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emulator Development</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=GBYwjch6oEE" rel="nofollow">Reverse Engineering fine details of Game Boy hardware</a> (<a href="https://gekkio.fi/blog/2018-02-05-errata-for-reverse-engineering-fine-details-of-game-boy-hardware.html" rel="nofollow">errata</a>) - 43 minutes talk by Gekkio given at Disobey 2018.</li>
+<li><a href="http://gbdev.gg8.se/files/roms/blargg-gb-tests/" rel="nofollow">Blargg's test roms</a></li>
+<li><a href="https://gekkio.fi/files/mooneye-gb/latest/" rel="nofollow">Gekkio's test roms</a></li>
+<li><a href="http://imrannazar.com/gameboy-Emulation-in-JavaScript" rel="nofollow">Building a Game Boy emulator in JavaScript</a> - Step by step tutorial.</li>
+<li><a href="https://cturt.github.io/cinoop.html" rel="nofollow">Writing a Game Boy emulator, Cinoop</a></li>
+<li><a href="https://realboyemulator.wordpress.com/posts/" rel="nofollow">RealBoy Emulator</a> - A series of posts about the design and implementation of the RealBoy Emulator.</li>
+<li><a href="http://www.codeslinger.co.uk/pages/projects/gameboy.html" rel="nofollow">Codeslinger</a> - Another series of posts documenting the building of an emulator.</li>
+<li><a href="http://blog.rekawek.eu/2017/02/09/coffee-gb/" rel="nofollow">Why did I spend 1.5 months creating a Gameboy emulator?</a> - Blog post.</li>
+<li><a href="https://binji.github.io/2017/12/31/binjgb-rewind.html" rel="nofollow">binjgb rewind</a> - Implementing a <em>rewind</em> feature.</li>
+</ul>
+<h3><a id="user-content-open-source-emulators" class="anchor" aria-hidden="true" href="#open-source-emulators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Open-source emulators</h3>
+<ul>
+<li><a href="https://github.com/Gekkio/mooneye-gb">Mooneye-gb</a> -  A Game Boy research project and emulator written in Rust.</li>
+<li><a href="https://github.com/Two9A/jsGB">jsGB</a> - Javascript.</li>
+<li><a href="https://github.com/gabrielrcouto/php-terminal-gameboy-emulator">php-terminal-Game Boy-emulator</a> - PHP Terminal.</li>
+<li><a href="https://github.com/taisel/gameboy-Online">gameboy-Online</a> - Javascript, HTML5 canvas and JavaScript audio APIs.</li>
+<li><a href="https://github.com/jkbenaim/cboy">cboy</a> - C. Mac OS X and Linux.</li>
+<li><a href="https://github.com/rauchg/weplay">weplay</a> - Collaborative Game Boy emulation powered by JavaScript.</li>
+<li><a href="https://github.com/AntonioND/giibiiadvance">giibiiadvance</a> -  A GB, GBC emulator with GB Camera support. Written in C.</li>
+<li><a href="https://github.com/shonumi/gbe-plus">GBE+</a> - Built in C++ and SDL. Focused on enhancements.</li>
+<li><a href="https://github.com/LIJI32/SameBoy">Sameboy</a> - Portable C.</li>
+<li><a href="https://github.com/Drenn1/GameYob">GameYob</a> - Emulator for Nintendo (3)DS.</li>
+<li><a href="https://github.com/oneup40/oneup-gb">oneup-gb</a> - C++ DMG. Currently provides SDL frontend and Retroarch integration.</li>
+<li><a href="https://github.com/VelocityRa/rustboy">rustboy</a> - A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics.</li>
+<li><a href="https://github.com/drhelius/Gearboy">Gearboy</a> - C++. iOS, Raspberry Pi, Mac, Windows and Linux.</li>
+<li><a href="https://github.com/pedrovgs/AndroidGameBoyEmulator">AndroidGameBoyEmulator</a></li>
+<li><a href="https://github.com/Dooskington/GameLad">GameLad</a> - C++/SDL almost fully featured emulator.</li>
+<li><a href="https://github.com/arrow-lang/wadatsumi">Wadatsumi</a> - Arrow.</li>
+<li><a href="https://github.com/binji/binjgb">Binjgb</a> - 5kloc emulator in C that passes most of the tests.</li>
+<li><a href="https://github.com/jgilchrist/emulator">jgilchrist</a> - Modern C++.</li>
+<li><a href="https://github.com/gonccalo/gameboyGO">gameboyGO</a> - Go.</li>
+<li><a href="https://github.com/Salgat/GameBoyEmulator-GBS">GameBoyEmulator-GBS</a> - C++ 14 with a single library dependency of SFML.</li>
+<li><a href="https://github.com/Baekalfen/PyBoy">PyBoy</a> - Python. Mac, Linux and Windows.</li>
+<li><a href="https://github.com/tompko/scimitar">scimitar</a> - Rust.</li>
+<li><a href="https://github.com/andreasjhkarlsson/fungbc">FunGBC</a> - F#.</li>
+<li><a href="https://github.com/rep-nop/barnacleboy">barnacleboy</a> - Rust.</li>
+<li><a href="https://github.com/nakardo/node-gameboy">node-gameboy</a> - Node.js.</li>
+<li><a href="https://github.com/RossMeikleham/PlutoBoy">PlutoBoy</a> - Cross platform (Windows, OSX, Linux/Unix, Android, iOS, Web Browsers, and Sony PSP) emulator.</li>
+<li><a href="https://code.foxkit.us/emulators/supergameherm" rel="nofollow">SuperGameHerm</a> - Cross platform emulator written in C11.</li>
+<li><a href="https://github.com/trekawek/coffee-gb">Coffee GB</a> - Java 8.</li>
+<li><a href="https://github.com/djhworld/gomeboycolor">gomeboycolor</a> - Go, cross platform <a href="http://djhworld.github.io/gomeboycolor/" rel="nofollow">documented</a> emulator.</li>
+<li><a href="https://github.com/mgba-emu/mgba">mGBA</a> - A modern cross platform GBA emulator which also runs GB/GBC games. Written in C.</li>
+<li><a href="https://github.com/ericgramgb/GBRE">GBRE</a> - Game Boy Runtime Environment for iOS (iOS Safari and Chrome).</li>
+<li><a href="https://github.com/Jonazan2/PatBoy">PatBoy</a> - C++/SDL2 with a fully functional visual debugger.</li>
+<li><a href="https://github.com/rofl0r/gnuboy">gnuboy</a> - ANSI C.</li>
+<li><a href="https://github.com/bitbank2/sg_free">SmartGear</a> - C++, SDL2. Focus on optimized performance for resource-limited devices. GTK or direct framebuffer build.</li>
+<li><a href="https://github.com/torch2424/wasmBoy">wasmBoy</a> - Web Assembly.</li>
+<li><a href="https://github.com/nnarain/gameboycore">gameboycore</a> - C++ emulation backend. Dependency free C++11 library.</li>
+<li><a href="https://github.com/Ben10do/Gambattye">Gambattye</a> - macOS, powered by a fork of Gambatte.</li>
+<li><a href="https://github.com/Dhole/miniBoy">miniBoy</a> - C.</li>
+<li><a href="https://github.com/tzlion/hhugboy">hhugboy</a> - Windows, based on GEST v1.1.1 by TM, with added support for unlicensed mappers, Unicode filenames, screenshots and some other stuff</li>
+</ul>
+<h2><a id="user-content-software-development" class="anchor" aria-hidden="true" href="#software-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Software Development</h2>
+<h3><a id="user-content-assemblers" class="anchor" aria-hidden="true" href="#assemblers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assemblers</h3>
+<ul>
+<li><a href="https://github.com/rednex/rgbds">RGBDS</a> - Assembler and linker package (a fork currently updated).</li>
+<li><a href="https://github.com/vhelin/wla-dx">wla-dx</a> - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.</li>
+</ul>
+<h4><a id="user-content-experimentalsproof-of-concepts" class="anchor" aria-hidden="true" href="#experimentalsproof-of-concepts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Experimentals/Proof of Concepts</h4>
+<ul>
+<li><a href="https://github.com/BonsaiDen/gbasm">gbasm</a> - A JavaScript based compiler for Game Boy z80 assembly code.</li>
+<li><a href="http://www.tni.nl/products/tniasm.html" rel="nofollow">tniASM</a> - Macro Assembler.</li>
+<li><a href="https://github.com/ulrikdamm/Assembler">Assembler</a> - Assembler written in Swift.</li>
+<li><a href="https://github.com/Bevinsky/llvm-gbz80">llvm-gbz80</a> - LLVM port to the GBZ80 CPU (similar <a href="https://github.com/euclio/llvm-gbz80">project</a>, deprecated).</li>
+</ul>
+<h3><a id="user-content-compilers" class="anchor" aria-hidden="true" href="#compilers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compilers</h3>
+<ul>
+<li><a href="http://gbdk.sourceforge.net/" rel="nofollow">The Game Boy Developer's Kit (GBDK)</a> - A set of tools that enable to develop programs for the Nintendo Game Boy system in <strong>C</strong>. Includes a set of libraries for the most common requirements and generates image files for use with a real Game Boy.</li>
+<li><a href="https://github.com/x43x61x69/gbdk-osx">gbdk-osx</a> - Patched GBDK 2.96a for the latest compilers on OS X.</li>
+<li><a href="https://github.com/Bevinsky/clang-gbz80">clang-gbz80</a> - Clang port to the GBZ80 CPU.</li>
+</ul>
+<h3><a id="user-content-emulators" class="anchor" aria-hidden="true" href="#emulators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emulators</h3>
+<ul>
+<li><a href="http://bgb.bircd.org/" rel="nofollow">BGB</a> - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.</li>
+<li><a href="https://github.com/sinamas/gambatte">Gambatte</a> - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.</li>
+</ul>
+<h3><a id="user-content-tools" class="anchor" aria-hidden="true" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h3>
+<ul>
+<li><a href="https://github.com/Zal0/ZGB">ZGB</a> - A little engine for creating games for the original Game Boy (expands gbdk, more info <a href="http://zalods.blogspot.com/2017/01/zgb-little-engine-for-game-boy.html" rel="nofollow">here</a>).</li>
+<li><a href="https://github.com/DevEd2/DevSound">DevSound</a> - Sound driver embeddable in homebrews which supports pulse width manipulation, arpeggios, and multiple waveforms.</li>
+<li><a href="http://gbdev.gg8.se/files/musictools/Aleksi%20Eeben/Carillon%20Editor.zip" rel="nofollow">Carillon Player</a> - Music Engine for Game Boy &amp; Game Boy Color.</li>
+<li><a href="http://www.chrisantonellis.com/gameboy/gbtdg/" rel="nofollow">Game Boy Tile Data Generator</a> - HTML5 / JS web application that will convert bitmap images to hexadecimal data appropriate for use in tile based graphical applications, specifically GB.</li>
+<li><a href="http://www.devrs.com/gb/hmgd/intro.html" rel="nofollow">Harry Mulder's GB Development</a> - Some sources and home of Game Boy Tile Designer and Game Boy Map Builder tools.</li>
+<li><a href="https://github.com/AntonioND/gbt-player">GBT PLAYER</a> - A music player library and converter kit for Game Boy that can be used with RGBDS.</li>
+<li><a href="http://catskull.net/GB-Logo-Generator/" rel="nofollow">ROM Header Utility</a> - An online tool to inspect and modify a ROM's header data, including the logo.</li>
+<li><a href="https://github.com/jkbenaim/gbcamextract">gbcamextract</a> - Extracts photos from Game Boy Camera saves.</li>
+<li><a href="http://www.tensi.eu/thomas/programming/gameboy/gbextended.html" rel="nofollow">GBExtended</a> - C library extending gbdk.</li>
+<li><a href="http://issotm.github.io/gbz80toitems3/" rel="nofollow">GBZ80 to items</a> - An online converter, translates gameboy assembly into Pokémon R/B/Y items (<a href="https://github.com/ISSOtm/gbz80-to-items">Source</a>).</li>
+<li><a href="https://github.com/gitendo/bmp2cgb">bmp2cgb</a> - 8bpp bitmap converter for Game Boy Color development.</li>
+<li><a href="https://github.com/LuckyLights/png2gb">png2gb</a> - CLI tool to convert image file to game boy .c array.</li>
+<li><a href="https://github.com/ProGM/gbdk-lib-extension">gbdk-lib-extension</a> - A small set of sources and tools for the Game Boy Development Kit by Michael Hope.</li>
+<li><a href="https://github.com/exezin/gb-convert">GB-convert</a> - Game Boy tile conversion and map editor tool (converts to assembly).</li>
+<li><a href="https://github.com/Palmr/cart-dumper">cart-dumper</a> - Game Boy Cartridge Dumper ROM.</li>
+<li><a href="https://github.com/svendahlstrand/game-boy-lcd-sniffing">Game Boy LCD sniffing</a> - Sniff your Game Boy's LCD using a logic analyzer.</li>
+<li><a href="http://www.dotmatrixgame.com/" rel="nofollow">Dot Matrix Game Editor</a> - An IDE for Game Boy programming in a C-like language called GBL, with many other features like tile and map extraction, WLA-DX assembly, and more.</li>
+<li><a href="http://make.vg/brewtool/" rel="nofollow">brewtool</a> - A collection of primitive editor/converter tools for making assets used with homebrew ROM development.</li>
+<li><a href="https://github.com/raphaklaus/gameboy-text-tools">Game Boy Text Tools</a> - Set of tools for text manipulation and translation of Game Boy ROMs written in NodeJS</li>
+<li><a href="https://github.com/SimonLarsen/mmlgb">mmlgb</a> - MML to Game Boy parser and driver.</li>
+<li><a href="https://github.com/mattcurrie/mgbdis">mgbdis</a> - Game Boy ROM disassembler with RGBDS compatible output.</li>
+<li><a href="https://bitbucket.org/HellSuffering/retr0-gb/" rel="nofollow">Retr0 GB</a> - An engine for creating games (expands GBDK).</li>
+<li><a href="https://github.com/devdri/awake">awake</a> - Gameboy decompiler.</li>
+</ul>
+<h4><a id="user-content-syntax-highlighting-packages" class="anchor" aria-hidden="true" href="#syntax-highlighting-packages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax highlighting packages</h4>
+<ul>
+<li><a href="https://atom.io/packages/language-rgbasm" rel="nofollow">Atom language package for RGBASM</a> - Atom syntax highlighting for RGBDS assembly.</li>
+<li><a href="https://github.com/ISSOtm/gbz80-highlight">gbz80-highlight</a> - Notepad++ and gedit syntax highlighting files for RGBDS assembly.</li>
+<li><a href="http://www.vim.org/scripts/script.php?script_id=819" rel="nofollow">Vim syntax file for the Game Boy assembler RGBASM</a> - Vim syntax highlighting for RGBDS assembly.</li>
+<li><a href="https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim">Vim syntax file for RGBDS</a> - Another Vim syntax highlighting file for RGBDS assembly.</li>
+<li><a href="https://github.com/Bananattack/rgbds_textmate">rgbds_textmate</a> - Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions.</li>
+<li><a href="https://github.com/Imanolea/z80asm-vscode">Z80 Assembly support for Visual Studio Code</a></li>
+<li><a href="https://github.com/DonaldHays/rgbds-vscode">rgbds-vscode</a> - Visual Studio Code language extension for RGBDS GBZ80 Assembly</li>
+</ul>
+<h2><a id="user-content-programming-tutorials" class="anchor" aria-hidden="true" href="#programming-tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programming Tutorials</h2>
+<h3><a id="user-content-asm" class="anchor" aria-hidden="true" href="#asm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ASM</h3>
+<ul>
+<li><a href="http://gameboy.mongenel.com/asmschool.html" rel="nofollow">ASMSchool</a> - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.</li>
+<li><a href="http://www.devrs.com/gb/asmcode.php" rel="nofollow">dev'rs ASM section</a> - A lot of working demos and sources.</li>
+<li><a href="https://avivace.com/apps/gbdev/salvage/tutorial_de_ensamblador%20%5BLa%20decadence%5D.html" rel="nofollow">Assembly tutorial by David Pello</a> - Good document to actually learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code.</li>
+<li><a href="https://github.com/assemblydigest/gameboy">assemblydigest</a> - Exploring Game Boy programming techniques:
+<ul>
+<li><a href="http://assemblydigest.tumblr.com/post/77198211186/tutorial-making-an-empty-game-boy-rom-in-rgbds" rel="nofollow">Making an Empty Game Boy ROM (in RGBDS)</a></li>
+<li><a href="http://assemblydigest.tumblr.com/post/77203696711/tutorial-making-an-empty-game-boy-rom-in-wiz" rel="nofollow">Making an Empty Game Boy ROM (in Wiz)</a></li>
+<li><a href="http://assemblydigest.tumblr.com/post/77404621743/tutorial-making-art-for-the-game-boy" rel="nofollow">Making Art for the Game Boy</a></li>
+<li><a href="http://assemblydigest.tumblr.com/post/77432349682/code-helpful-libraries" rel="nofollow">Helpful Libraries</a></li>
+</ul>
+</li>
+<li><a href="http://web.archive.org/web/20150511145100/http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm" rel="nofollow">Beginner's Guide to Reverse Engineering GB</a> - Some starting tips on disassembling and reverse engineering.</li>
+<li><a href="https://github.com/exezin/gb-template">gb-template</a> - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.</li>
+<li><a href="/avivace/awesome-gbdev/blob/master/rgbds-template">https://github.com/nezticle/rgbds-template</a> - Basic hello-world example for Game Boy using RGBDS.</li>
+<li><a href="https://beginners.re/" rel="nofollow">Reverse Engineering for Beginners</a> - Free ebook (1060 pages) by Dennis Yurichev.</li>
+<li><a href="http://voidptr.io/blog/2017/01/21/GameBoy.html" rel="nofollow">FlappyBoy: Making a simple Game Boy Game</a></li>
+<li><a href="https://github.com/yenatch/bootstrap.gb">bootstrap.gb</a> - An example Game Boy project.</li>
+<li><a href="http://www.devrs.com/gb/files/galp.zip" rel="nofollow">Game Boy Assembly Language Primer</a> - Simple template code with memory defines, copy routines and IBM font tilemap.</li>
+<li><a href="https://imanoleasgames.blogspot.no/2016/12/games-aside-1-super-game-boy.html" rel="nofollow">Super Game Boy development</a> - Step by step tutorial to implement Super Game Boy features (frame and palettes).</li>
+<li><a href="http://peterwynroberts.com/?p=10" rel="nofollow">GameBoy programming tutorial: Hello World!</a> - Step by step tutorial.</li>
+</ul>
+<h4><a id="user-content-glitches-and-exploits" class="anchor" aria-hidden="true" href="#glitches-and-exploits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Glitches and exploits</h4>
+<ul>
+<li><a href="https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md">DMA hijacking</a> - A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit. <a href="http://gbdev.gg8.se/forums/viewtopic.php?id=430" rel="nofollow">Demo video</a>.</li>
+<li><a href="http://pastebin.com/raw.php?i=WaFyrr21" rel="nofollow">Pokémon Yellow ASM hack</a> - Debug menu. <a href="https://www.youtube.com/watch?v=BkIDPwkeGWs" rel="nofollow">Demo video</a>.</li>
+</ul>
+<h4><a id="user-content-timings" class="anchor" aria-hidden="true" href="#timings"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Timings</h4>
+<ul>
+<li><a href="http://exez.in/gameboy-dma" rel="nofollow">Game Boy DMA transfer routines</a> - Understanding and using DMA routines.</li>
+<li><a href="http://blog.kevtris.org/blogfiles/Nitty%20Gritty%20Gameboy%20VRAM%20Timing.txt" rel="nofollow">Nitty Gritty Gameboy Cycle Timing</a></li>
+<li><a href="https://www.reddit.com/r/EmuDev/comments/59pawp/gb_mode3_sprite_timing/" rel="nofollow">Mode3 Sprite Timing</a></li>
+<li><a href="http://gameboy.mongenel.com/dmg/gbc_dma_transfers.txt" rel="nofollow">GameBoy Color DMA-Transfers v0.0.1</a></li>
+<li><a href="http://gameboy.mongenel.com/dmg/istat98.txt" rel="nofollow">STAT interrupt timings</a></li>
+<li><a href="https://github.com/jdeblese/gbcpu/wiki/Video-Timing">Video Timing</a></li>
+</ul>
+<h3><a id="user-content-c" class="anchor" aria-hidden="true" href="#c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C</h3>
+<ul>
+<li><a href="http://belial.blarzwurst.de/gbpaper/paper.pdf" rel="nofollow">8-Bit Wonderland</a> - Well-written introductory document about how the Game Boy works and how to start developing working code for it.</li>
+<li><a href="https://github.com/gbdk-salvage/grooves-game-boy-programming">Grooves Game Boy Programming</a> - A complete set of lessons about implementing various game mechanics in a Game Boy game.</li>
+<li><a href="http://pastebin.com/F3tHLj68" rel="nofollow">How to Write a Simple Side Scrolling Game</a> - Old (but still relevant) tutorial.</li>
+<li><a href="http://pastebin.com/gzT47MPJ" rel="nofollow">Just another simple tutorial</a></li>
+<li><a href="https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/" rel="nofollow">GBDK Tutorial</a> - Fairly minimal game demo for getting started with GBDK.</li>
+<li><a href="http://gbdev.gg8.se/wiki/articles/GBDK_Sprite_Tutorial" rel="nofollow">GBDK Sprite</a> - Presents a workflow for getting multiple sprites to display and animate.</li>
+<li><a href="http://gbdev.gg8.se/wiki/articles/GBDK_Color_Tutorial" rel="nofollow">GBDK Color</a> - Extends your knowledge of basic spriting on the Game Boy by adding colors to sprites, backgrounds and the window layer.</li>
+<li><a href="http://gbdev.gg8.se/wiki/articles/GBDK_Joypad_Tutorial" rel="nofollow">GBDK Joypad</a> - Details the use of the joypad with GBDK.</li>
+<li><a href="http://www.personal.triticom.com/%7Eerm/GameBoy/" rel="nofollow">Game Boy home of Flavor</a> - Some full games and sources.</li>
+<li><a href="https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/" rel="nofollow">GBDK Configuring and Programming Tutorial</a> - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.</li>
+<li><a href="https://github.com/mrombout/gbdk_playground">Simplified GBDK examples</a></li>
+</ul>
+<h2><a id="user-content-games" class="anchor" aria-hidden="true" href="#games"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Games</h2>
+<ul>
+<li><a href="https://gbhh.avivace.com" rel="nofollow">Homebrew Hub</a> - Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work.</li>
+<li><a href="https://github.com/infinity-gbc/infinity">Infinity</a> - RPG developed by Affinix Software primarily between the years 1999 and 2001. The game never found a publisher and was eventually canceled. Got recently released with the full source, development tools and workflows.</li>
+</ul>
+<h3><a id="user-content-asm-1" class="anchor" aria-hidden="true" href="#asm-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ASM</h3>
+<ul>
+<li><a href="https://github.com/TheFakeMateo/RedPlusPlus">RedPlusPlus</a> - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.</li>
+<li><a href="https://github.com/BonsaiDen/Tuff.gb">Tuff</a></li>
+<li><a href="https://github.com/Sanqui/2048-gb">2048-gb</a></li>
+<li><a href="https://bitbucket.org/Sanqui/snake/src/?at=master" rel="nofollow">Snake</a></li>
+<li><a href="https://github.com/siObyte/PlantBoy">PlantBoy</a></li>
+<li><a href="https://github.com/huderlem/lazerpong">Lazerpong</a></li>
+<li><a href="https://github.com/AntonioND/geometrix">Geometrix</a></li>
+<li><a href="https://github.com/AntonioND/ucity">µCity</a></li>
+<li><a href="https://github.com/mholtkamp/carazu">Carazu</a></li>
+<li><a href="https://github.com/DonaldHays/snake-gb">Snake-gb</a></li>
+<li><a href="https://github.com/furrtek/GB303">GB303</a> - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Game Boy.</li>
+<li><a href="https://github.com/JustSid/Sushi">Sushi</a></li>
+<li><a href="https://github.com/bitnenfer/flappy-boy-asm">Flappy-boy-asm</a></li>
+<li><a href="https://github.com/dubvulture/gbdev">kupman</a> and some other projects</li>
+<li><a href="https://github.com/tbsp/Adjustris">Adjustris</a></li>
+<li><a href="https://github.com/exezin/exeman/">exeman</a></li>
+<li><a href="https://github.com/ISSOtm/Aevilia-GB">Aevilia</a></li>
+<li><a href="https://github.com/Kartones/gameboy">GBSlides</a> - A simple Game Boy Powerpoint-like slides viewer.</li>
+<li><a href="https://github.com/dannye/pokered-gbc">Pokered-gbc</a> - Pokémon Red remade with full GBC support.</li>
+<li><a href="https://github.com/tslanina/Retro-GameBoyColor-ToyToy">ToyToy</a></li>
+<li><a href="https://github.com/tslanina/Retro-GameBoyColor-StefaN">StefaN</a> - Fourway Breakout clone.</li>
+<li><a href="https://github.com/tslanina/Retro-GameBoyColor-Galaxia">Galaxia</a></li>
+</ul>
+<h3><a id="user-content-c-1" class="anchor" aria-hidden="true" href="#c-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C</h3>
+<ul>
+<li><a href="https://github.com/bitnenfer/FlappyBoy">FlappyBoy</a></li>
+<li><a href="https://github.com/pashutk/flappybird-gameboy">flappybird-gameboy</a> - Flappy Bird clone (gbdk)</li>
+<li><a href="https://github.com/gb-archive/fbgb">fbgb</a> - Flappy Bird clone (gbdk)</li>
+<li><a href="http://ludumdare.com/compo/ludum-dare-34/?action=preview&amp;uid=6823" rel="nofollow">Novascape</a></li>
+<li><a href="https://github.com/cppchriscpp/SquishyTheTurtle">Squishy the Turtle</a></li>
+<li><a href="https://github.com/avivace/quadratino">Quadratino</a></li>
+<li><a href="https://github.com/elfgames/doctorhow">Doctor How</a></li>
+<li><a href="https://github.com/Zal0/gbjam2016">Super Princess' 2092 Exodus</a></li>
+<li><a href="https://github.com/brovador/GBsnake">GBsnake</a></li>
+<li><a href="https://github.com/andreasjhkarlsson/gb-mines">gb-mines</a></li>
+<li><a href="http://www.atari2600land.com/gameboy/oranges.html" rel="nofollow">oranges</a></li>
+<li><a href="https://github.com/Imanolea/bitbitjam3_red_hot_princess_carnage">red hot princess carnage</a></li>
+<li><a href="http://www.tensi.eu/thomas/programming/gameboy/loderunner.html" rel="nofollow">loderunner</a></li>
+<li><a href="https://refreshgames.co.uk/2017/04/24/ludum-dare-38-entry-hives/" rel="nofollow">Hives</a></li>
+<li><a href="https://github.com/DonaldHays/bubblefactory">Bubble Factory</a> - <em>Vanilla</em> SDCC (no gbdk).</li>
+<li><a href="https://github.com/rubfi/gbc-atari-boxing">GBC Atari Boxing</a> - Atari 2600 Boxing clone for the Game Boy (Color).</li>
+<li><a href="https://github.com/haroldo-ok/really-old-stuff/tree/master/gameboy">GB raycaster, Vision-8</a> and some other projects</li>
+<li><a href="https://github.com/SimonLarsen/tobutobugirl">Tobu Tobu Girl</a> - An arcade platformer for the Game Boy.</li>
+<li><a href="http://sebastianmihai.com/main.php?t=18&amp;" rel="nofollow">Burly Bear vs. The Mean Foxes</a> (<a href="http://sebastianmihai.com/main.php?t=55&amp;n=Gameboy-Color-development-Burly-Bear-vs-The-Mean-Foxes-GBC-version" rel="nofollow">GBC</a> port)</li>
+<li><a href="https://github.com/MasterIV/PostBot">PostBot</a></li>
+<li><a href="https://github.com/kanfor/gunsridersgameboy">Guns &amp; Riders</a></li>
+</ul>
+<h3><a id="user-content-hack-roms" class="anchor" aria-hidden="true" href="#hack-roms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hack ROMs</h3>
+<ul>
+<li><a href="https://www.pokecommunity.com/showthread.php?t=276298" rel="nofollow">Trainin' in a Winter Wonderland</a> (Pokemon Gold (U))</li>
+</ul>
+<h3><a id="user-content-demos" class="anchor" aria-hidden="true" href="#demos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Demos</h3>
+<ul>
+<li><a href="https://github.com/AntonioND/back-to-color">Back to Color</a></li>
+<li><a href="https://github.com/vegard/beach-gbc">beach-gbc</a></li>
+<li><a href="https://github.com/mills32/CUTE_DEMO">CUTE DEMO</a></li>
+<li><a href="https://github.com/svendahlstrand/10-print-game-boy"><code>10 PRINT</code> Game Boy</a></li>
+<li><a href="https://github.com/naavis/roboto-demo">Roboto Demo</a></li>
+</ul>
+<h2><a id="user-content-roms-disassembly" class="anchor" aria-hidden="true" href="#roms-disassembly"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ROMs Disassembly</h2>
+<ul>
+<li><a href="https://github.com/Kroc/Sonic1-Z80-ASM">Sonic 1</a></li>
+<li><a href="https://github.com/pret/pokered">Pokémon Red/Blue</a></li>
+<li><a href="https://github.com/pret/pokecrystal">Pokémon Crystal</a></li>
+<li><a href="https://github.com/pret/pokepinball">Pokémon Pinball</a></li>
+<li><a href="https://github.com/pret/poketcg">Pokémon TCG</a></li>
+<li><a href="http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html" rel="nofollow">Reverse engineering Kirby's Dreamland 2</a></li>
+<li><a href="https://github.com/pret/pokemon-reverse-engineering-tools">pokemontools</a> - a python module that provides various reverse engineering components for various Pokémon games.</li>
+<li><a href="https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2" rel="nofollow">Reverse Engineering a Gameboy ROM with radare2</a> - A walkthrough to reverse engineer a Game Boy ROM challenge using radare2.</li>
+<li><a href="http://kemenaran.winosx.com/posts/category-disassembling-links-awakening/" rel="nofollow">Disassembling Link's Awakening</a> - A series of blog posts about disassembling Link's Awakening DX.</li>
+<li><a href="https://github.com/mojobojo/LADX-Disassembly">Link's Awakening DX Disassembly</a></li>
+<li><a href="https://github.com/drenn1/ages-disasm">Oracle of Ages Disassembly</a></li>
+<li><a href="https://github.com/osnr/tetris">Disassembly of Tetris</a> - Based on Jeff Frohwein's original disassembly.</li>
+<li><a href="https://github.com/DevEd2/FXHammer-Disasm">FX Hammer disassembly</a></li>
+<li><a href="https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris">Reverse Engineering the GameBoy Tetris</a></li>
+</ul>
+<h2><a id="user-content-related-projects" class="anchor" aria-hidden="true" href="#related-projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Related projects</h2>
+<ul>
+<li><a href="https://github.com/trash80/Arduinoboy">ArduinoBoy</a> - Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB.</li>
+<li><a href="https://github.com/diegovalverde/papiGB">papiGB</a> - Game Boy Classic fully functional FPGA implementation from scratch.</li>
+<li><a href="https://github.com/trun/fpgaboy">fpgaboy</a> - Implementation Nintendo's Game Boy console on an FPGA.</li>
+<li><a href="https://github.com/danShumway/Piglet">Piglet</a> - A LUA-driven AI that plays classic Game Boy color games using experimentation. In active development.</li>
+<li><a href="https://github.com/rotmoset/gbdk-n">gbdk-n</a> - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.</li>
+<li><a href="https://github.com/wiz-lang/wiz">Wiz</a> - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).</li>
+<li><a href="https://web.archive.org/web/*/http://www.gatesboy.com/" rel="nofollow">Gatesboy</a> - Non-gaming purposes applications development.</li>
+<li><a href="https://github.com/PumpMagic/ostrich">Ostrich</a> - A Game Boy Sound System player written in Swift.</li>
+<li><a href="https://github.com/trash80/mGB">mGB</a> - A Game Boy cartridge program that enables the Game Boy to act as a full MIDI supported sound module.</li>
+<li><a href="https://github.com/LIJI32/GBVisualizer">GBVisualizer</a> - Demonstrating the use of two undocumented Game Boy Color registers, nicknamed PCM12 (FF76) and PCM34 (FF77), which can be used to read the current PCM amplitude of the 4 APU channels.</li>
+<li><a href="https://github.com/LIJI32/GBVideoPlayer">GBVideoPlayer</a> - A technical demo demonstrating how the Game Boy LCD controller can be hacked to make a Game Boy Color play a full motion video in color, together with music.</li>
+<li><a href="https://github.com/drhelius/arduinogameboy">ArduinoGameBoy</a> - Arduino based Game Boy cartridge reader and writer.</li>
+<li><a href="https://github.com/bitnenfer/gameboy-brainfuck">gameboy-brainfuck</a> - Implementation of a brainfuck interpreter.</li>
+<li><a href="https://github.com/mattcurrie/gb-save-states">gb-save-states</a> - Patches to add save state support to Game Boy games when playing on the original hardware.</li>
+<li><a href="https://github.com/jdeblese/gbcpu">gbcpu</a> - A CPU and peripherals implementing the Game Boy instruction set and functionality.</li>
+<li><a href="https://youtube.com/watch?v=1lzHfLYzyRM" rel="nofollow">Digitized Speech in Game Boy Games</a></li>
+<li><a href="https://dhole.github.io/post/gameboy_serial_1/" rel="nofollow">Sniffing Game Boy serial traffic with an STM32F4</a></li>
+<li><a href="https://dhole.github.io/post/gameboy_serial_2/" rel="nofollow">Virtual Game Boy Printer with an STM32F4</a></li>
+<li><a href="https://dhole.github.io/post/gameboy_serial_3/" rel="nofollow">Printing on the Game Boy Printer using an STM32F4</a></li>
+<li><a href="https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html" rel="nofollow">Pokemon Pocket Computer:</a> - What is it and how to use it to make cheat codes.</li>
+<li><a href="https://dhole.github.io/post/gameboy_custom_logo/" rel="nofollow">Booting the Game Boy with a custom logo</a> - Bypassing the Nintendo logo check.</li>
+<li>Making a Game Boy game in 2017: A "Sheep It Up!" Post-Mortem (<a href="https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/" rel="nofollow">part 1</a>, <a href="https://www.gamasutra.com/blogs/DoctorLudos/20180213/314554/" rel="nofollow">part 2</a>)</li>
+<li><a href="http://fuji.drillspirits.net/?post=87" rel="nofollow">Nintendo's fake logos</a> - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.</li>
+</ul>
+<h3><a id="user-content-directories" class="anchor" aria-hidden="true" href="#directories"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Directories</h3>
+<ul>
+<li><a href="http://gbdev.gg8.se/files/" rel="nofollow">Archive of related files</a></li>
+<li><a href="https://github.com/gb-archive">The Game Boy Archive</a> - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.</li>
+<li><a href="https://github.com/gb-archive/salvage">The Game Boy Archive - Salvage</a> - Old articles, FAQs and various documents.</li>
+</ul>
+<h3><a id="user-content-websites" class="anchor" aria-hidden="true" href="#websites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Websites</h3>
+<ul>
+<li><a href="http://gbdk-developers.com/" rel="nofollow">GBDK Developers</a> - Active blog about everything related to the scene. Including features, insights and interviews.</li>
+<li><a href="http://pdroms.de/news/gameboy/" rel="nofollow">pdroms.de</a> Game Boy releases.</li>
+<li><a href="http://gameboy.modermodemet.se/en" rel="nofollow">Game Boy Demospotting</a> - A collection of demos.</li>
+<li><a href="http://hhug.me" rel="nofollow">Handheld Underground</a> - Unlicensed games, blog posts about Game Boy, home of the hhugboy emulator.</li>
+</ul>
+<h2><a id="user-content-about" class="anchor" aria-hidden="true" href="#about"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>About</h2>
+<h3><a id="user-content-contribute" class="anchor" aria-hidden="true" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contribute</h3>
+<p>Take a look at <a href="/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md">Contribution Guidelines</a>.</p>
+<h3><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h3>
+<p>Licensed under <strong>GPLv3</strong>.
+See <a href="/avivace/awesome-gbdev/blob/master/LICENSE">LICENSE</a> for more information.</p>
+<h3><a id="user-content-acknowledgements" class="anchor" aria-hidden="true" href="#acknowledgements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Acknowledgements</h3>
+<p>Thanks to <a href="https://github.com/avivace/awesome-gbdev/graphs/contributors">every</a> contributor of this project, Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, BOWSER, neviksti, Martin “nocash" Korth, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, Jonathan “Lord Nightmare” Gevaryahu, Carsten Sorense, Sindre Aamås, Otaku No Zoku, GeeBee.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.24255s from unicorn-3835523148-8p823">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

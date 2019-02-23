@@ -1,0 +1,1506 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - viatsko/awesome-vscode: A curated list of delightful VS Code packages and resources.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/376065?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="viatsko/awesome-vscode" /><meta property="og:url" content="https://github.com/viatsko/awesome-vscode" /><meta property="og:description" content="awesome-vscode - A curated list of delightful VS Code packages and resources." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E26D:5D4F:3131344:58B8069:5AD2F75C" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E26D:5D4F:3131344:58B8069:5AD2F75C" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NWQyZTVmYWI4NDQ1ZDhjYTIzZjg2MzFlZDI5MjU1ZTVmNDNmMTdmMjhjMjE1YWM0NzFmMjc2ZTFhYzgyYmFjNnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTI2RDo1RDRGOjMxMzEzNDQ6NThCODA2OTo1QUQyRjc1QyIsInRpbWVzdGFtcCI6MTUyMzc3NTMyNSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a6fc9832b07ec32fe27626f6ce9b5ba53d26382f">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/viatsko/awesome-vscode/commits/master.atom" rel="alternate" title="Recent Commits to awesome-vscode:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-vscode - A curated list of delightful VS Code packages and resources.">
+  <meta name="go-import" content="github.com/viatsko/awesome-vscode git https://github.com/viatsko/awesome-vscode.git">
+
+  <meta name="octolytics-dimension-user_id" content="376065" /><meta name="octolytics-dimension-user_login" content="viatsko" /><meta name="octolytics-dimension-repository_id" content="51270739" /><meta name="octolytics-dimension-repository_nwo" content="viatsko/awesome-vscode" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="51270739" /><meta name="octolytics-dimension-repository_network_root_nwo" content="viatsko/awesome-vscode" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/viatsko/awesome-vscode" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/viatsko/awesome-vscode/search" data-unscoped-search-url="/search" action="/viatsko/awesome-vscode/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/viatsko/awesome-vscode">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fviatsko%2Fawesome-vscode" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fviatsko%2Fawesome-vscode"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/viatsko/awesome-vscode/watchers"
+     aria-label="227 users are watching this repository">
+    227
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fviatsko%2Fawesome-vscode"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/viatsko/awesome-vscode/stargazers"
+      aria-label="5138 users starred this repository">
+      5,138
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fviatsko%2Fawesome-vscode"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/viatsko/awesome-vscode/network" class="social-count"
+       aria-label="257 users forked this repository">
+      257
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/viatsko">viatsko</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/viatsko/awesome-vscode">awesome-vscode</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /viatsko/awesome-vscode" href="/viatsko/awesome-vscode">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /viatsko/awesome-vscode/issues" href="/viatsko/awesome-vscode/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /viatsko/awesome-vscode/pulls" href="/viatsko/awesome-vscode/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">9</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /viatsko/awesome-vscode/projects" href="/viatsko/awesome-vscode/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /viatsko/awesome-vscode/pulse" href="/viatsko/awesome-vscode/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OR0+nBpSbjaXwcP2mx45O6ypIFN5tB/5SvVcYAcP2SRWxSKmEDirAQ9MT4g8wl5J+SimzM2egGcKNVBpbN0adg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of delightful VS Code packages and resources.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/viatsko/awesome-vscode/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/visual-studio" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:visual-studio">
+        visual-studio
+      </a>
+      <a href="/topics/vscode" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:vscode">
+        vscode
+      </a>
+      <a href="/topics/vscode-theme" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:vscode-theme">
+        vscode-theme
+      </a>
+      <a href="/topics/vscode-extension" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:vscode-extension">
+        vscode-extension
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/visualstudio" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:visualstudio">
+        visualstudio
+      </a>
+      <a href="/topics/visual-studio-code" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:visual-studio-code">
+        visual-studio-code
+      </a>
+      <a href="/topics/visual-studio-code-extension" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:visual-studio-code-extension">
+        visual-studio-code-extension
+      </a>
+      <a href="/topics/visual-studio-code-theme" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:visual-studio-code-theme">
+        visual-studio-code-theme
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/viatsko/awesome-vscode/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                256
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/viatsko/awesome-vscode/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/viatsko/awesome-vscode/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/viatsko/awesome-vscode/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      75
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/viatsko/awesome-vscode/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/viatsko/awesome-vscode.git" aria-label="Clone this repository at https://github.com/viatsko/awesome-vscode.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/viatsko/awesome-vscode.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/viatsko/awesome-vscode/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/viatsko/awesome-vscode/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/viatsko/awesome-vscode/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/viatsko/awesome-vscode/tree-commit/e2510a6618b2389d25a671d1272e713be5149b05" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/viatsko/awesome-vscode/tree/e2510a6618b2389d25a671d1272e713be5149b05">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-e51bbd1fcf8e843be26b4cd1ca5a95aaa06fcda8" href="/viatsko/awesome-vscode/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update .travis.yml
+
+Whitelist tslint" class="message" href="/viatsko/awesome-vscode/commit/984d6014685da9d534c54035b7e2325fcdb8ba91">Update .travis.yml</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-08-30T18:11:04Z">Aug 30, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CODE_OF_CONDUCT.md" id="a1ee87dafebc22cbd96979f1b2b7e837-9c1b87fd33650d4b24cd263f7819de178c6a5901" href="/viatsko/awesome-vscode/blob/master/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create CODE_OF_CONDUCT.md" class="message" href="/viatsko/awesome-vscode/commit/f082078b23aa6eee64768ed172a1f9de96104b4f">Create CODE_OF_CONDUCT.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-25T20:13:08Z">Feb 25, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-c71be256467727c66f371355e7c14a61b5d3f352" href="/viatsko/awesome-vscode/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update CONTRIBUTING.md" class="message" href="/viatsko/awesome-vscode/commit/2f61fb49ad03ed092d09807f9f468e65bb901e18">Update CONTRIBUTING.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-12T22:27:05Z">Feb 12, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-670154e3538863b2d9891fd5483160fbdfc89164" itemprop="license" href="/viatsko/awesome-vscode/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Initial commit" class="message" href="/viatsko/awesome-vscode/commit/ffab4b25be4ef1b597ddad36129835702fb01cea">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-07T23:02:45Z">Feb 7, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="PULL_REQUEST_TEMPLATE.md" id="7240be7a02d8789cae2c0970f0260dfe-9943df0423a7eaa75f15d17b3166af54ed0c678f" href="/viatsko/awesome-vscode/blob/master/PULL_REQUEST_TEMPLATE.md">PULL_REQUEST_TEMPLATE.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create PULL_REQUEST_TEMPLATE.md" class="message" href="/viatsko/awesome-vscode/commit/cc1f06df374fdf8a197d5f801307c9e8fc581a35">Create PULL_REQUEST_TEMPLATE.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-05T12:06:57Z">Mar 5, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-33d648119f766e72ecfd91cb08a256b302bd88e0" href="/viatsko/awesome-vscode/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Revised the extension description to highlight what it makes possible" class="message" href="/viatsko/awesome-vscode/commit/e2510a6618b2389d25a671d1272e713be5149b05">Revised the extension description to highlight what it makes possible</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-02T08:37:55Z">Apr 2, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="awesome-vscode-logo.png" id="d17fef5bacfbd00702049b53ffe7cafd-94681aa8a21f4fd49db5dbf7c064026bdeedce41" href="/viatsko/awesome-vscode/blob/master/awesome-vscode-logo.png">awesome-vscode-logo.png</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Improve: add new logo color" class="message" href="/viatsko/awesome-vscode/commit/2b72ed741d8979918f19fcfece8244b88a5494aa">Improve: add new logo color</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-13T12:35:48Z">Nov 13, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><br>
+<div align="center">
+  <a target="_blank" href="https://raw.githubusercontent.com/viatsko/awesome-vscode/master/awesome-vscode-logo.png"><img width="380px" src="https://raw.githubusercontent.com/viatsko/awesome-vscode/master/awesome-vscode-logo.png" style="max-width:100%;"></a>
+</div>
+<br>
+<div align="center">
+<p>A curated list of delightful <a href="https://code.visualstudio.com/" rel="nofollow">Visual Studio Code</a> packages and resources. For more awesomeness, check out <a href="https://github.com/sindresorhus/awesome">awesome</a>.</p>
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a> <a href="https://travis-ci.org/viatsko/awesome-vscode" rel="nofollow"><img src="https://camo.githubusercontent.com/3871ae68709d8fbc35218a9f763aedfb7f3c07d6/68747470733a2f2f7472617669732d63692e6f72672f76696174736b6f2f617765736f6d652d7673636f64652e737667" alt="Build Status" data-canonical-src="https://travis-ci.org/viatsko/awesome-vscode.svg" style="max-width:100%;"></a></p>
+</div>
+<br>
+<h1><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h1>
+<ul>
+<li><a href="#official">Official</a></li>
+<li><a href="#syntax">Syntax</a></li>
+<li><a href="#editor-keymaps">Editor Keymaps</a>
+<ul>
+<li><a href="#migrating-from-atom">Migrating from Atom</a></li>
+<li><a href="#migrating-from-sublime-text">Migrating from Sublime Text</a></li>
+<li><a href="#migrating-from-visual-studio">Migrating from Visual Studio</a></li>
+<li><a href="#migrating-from-intellij-idea">Migrating from Intellij IDEA</a></li>
+</ul>
+</li>
+<li><a href="#lint-and-intellisense">Lint and IntelliSense</a>
+<ul>
+<li><a href="#1c">1C</a></li>
+<li><a href="#c">C++</a></li>
+<li><a href="#c">C#</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#go">Go</a></li>
+<li><a href="#haskell">Haskell</a></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#javascript">JavaScript</a></li>
+<li><a href="#typescript">Typescript</a></li>
+<li><a href="#markdown">Markdown</a></li>
+<li><a href="#php">PHP</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#rust">Rust</a></li>
+</ul>
+</li>
+<li><a href="#productivity">Productivity</a>
+<ul>
+<li><a href="#azure-iot-toolkit">Azure IoT Toolkit</a></li>
+<li><a href="#bookmarks">Bookmarks</a></li>
+<li><a href="#copy-relative-path">Copy Relative Path</a></li>
+<li><a href="#deploy">Deploy</a></li>
+<li><a href="#gi">Gi</a></li>
+<li><a href="#git-history">Git History</a></li>
+<li><a href="#git-project-manager">Git Project Manager</a></li>
+<li><a href="#gitlink">GitLink</a></li>
+<li><a href="#gitlens">GitLens</a></li>
+<li><a href="#gitindicators">Git Indicators</a></li>
+<li><a href="#github">GitHub</a></li>
+<li><a href="#icon-fonts">Icon Fonts</a></li>
+<li><a href="#live-server">Live Server</a></li>
+<li><a href="#multiple-clipboards">Multiple clipboards</a></li>
+<li><a href="#npm-intellisense">npm Intellisense</a></li>
+<li><a href="#partial-diff">Partial Diff</a></li>
+<li><a href="#paste-json-as-code">Paste JSON as Code</a></li>
+<li><a href="#path-intellisense">Path IntelliSense</a></li>
+<li><a href="#project-manager">Project Manager</a></li>
+<li><a href="#rest-client">REST Client</a></li>
+<li><a href="#settings-sync">Settings Sync</a></li>
+<li><a href="#yo">Yo</a></li>
+</ul>
+</li>
+<li><a href="#formatting--beautification">Formatting/Beautification</a>
+<ul>
+<li><a href="#better-align">Better Align</a></li>
+<li><a href="#auto-close-tag">Auto Close Tag</a></li>
+<li><a href="#auto-rename-tag">Auto Rename Tag</a></li>
+<li><a href="#beautify">beautify</a></li>
+<li><a href="#ecmascript-quotes-transformer">ECMAScript Quotes Transformer</a></li>
+<li><a href="#paste-and-indent">Paste and Indent</a></li>
+<li><a href="#sort-lines">Sort Lines</a></li>
+<li><a href="#wrap-selection">Wrap Selection</a></li>
+</ul>
+</li>
+<li><a href="#explorer-icons">Explorer Icons</a>
+<ul>
+<li><a href="#vscode-icons">VSCode Icons</a></li>
+<li><a href="#seti-icons">Seti-UI</a></li>
+</ul>
+</li>
+<li><a href="#uncategorized">Uncategorized</a>
+<ul>
+<li><a href="#code-runner">Code Runner</a></li>
+<li><a href="#color-highlight">Color Highlight</a></li>
+<li><a href="#output-colorizer">Output Colorizer</a></li>
+<li><a href="#dash">Dash</a></li>
+<li><a href="#debugger-for-chrome">Debugger for Chrome</a></li>
+<li><a href="#ecmascript-quotes-transformer">ECMAScript Quotes Transformer</a></li>
+<li><a href="#edit-with-shell-command">Edit with Shell Command</a></li>
+<li><a href="#editor-config-for-vs-code">Editor Config for VS Code</a></li>
+<li><a href="#ftp-sync">ftp-sync</a></li>
+<li><a href="#platformio">PlatformIO</a></li>
+<li><a href="#quokka">Quokka</a></li>
+<li><a href="#runner">Runner</a></li>
+<li><a href="#slack">Slack</a></li>
+<li><a href="#spotify">Spotify</a></li>
+<li><a href="#svg-viewer">SVG Viewer</a></li>
+<li><a href="#text-marker-highlighter">Text Marker (Highlighter)</a></li>
+<li><a href="#vim-mode">Vim Mode</a></li>
+</ul>
+</li>
+<li><a href="#themes">Themes</a>
+<ul>
+<li><a href="#an-old-hope-theme">An Old Hope Theme</a></li>
+<li><a href="#atom-one-dark-syntax-theme">Atom One Dark Syntax Theme</a></li>
+<li><a href="#atom-one-dark-theme">Atom One Dark Theme</a></li>
+<li><a href="#atom-one-light-theme">Atom One Light Theme</a></li>
+<li><a href="#ayu">Ayu</a></li>
+<li><a href="#base16-ocean-kit">Base16 Ocean Kit</a></li>
+<li><a href="#cobalt2-theme-official-by-wes-bos">Cobalt2 by Wes Bos</a></li>
+<li><a href="#dracula">Dracula</a></li>
+<li><a href="#material-theme">Material-theme</a></li>
+<li><a href="#nord">Nord</a></li>
+<li><a href="#plastic">Plastic</a></li>
+<li><a href="#shades-of-purple">Shades of Purple</a></li>
+<li><a href="#seti">Seti</a></li>
+</ul>
+</li>
+<li><a href="#resources-for-extension-developers">Resources for extension developers</a>
+<ul>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#libraries">Libraries</a></li>
+<li><a href="#tools">Tools</a></li>
+</ul>
+</li>
+<li><a href="#contribute">Contribute</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h1><a id="user-content-official" class="anchor" aria-hidden="true" href="#official"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Official</h1>
+<ul>
+<li><a href="https://code.visualstudio.com/" rel="nofollow">Official website</a></li>
+<li><a href="https://github.com/microsoft/vscode">Source code</a> on GitHub</li>
+<li><a href="https://code.visualstudio.com/download" rel="nofollow">Releases (stable channel)</a></li>
+<li><a href="https://code.visualstudio.com/insiders" rel="nofollow">Releases (insiders channel)</a></li>
+<li><a href="https://github.com/Microsoft/vscode/issues?utf8=%E2%9C%93&amp;q=label%3Aiteration-plan+">Monthly iteration plans</a></li>
+</ul>
+<h1><a id="user-content-syntax" class="anchor" aria-hidden="true" href="#syntax"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax</h1>
+<p>Language packages extend the editor with syntax highlighting and/or snippets for a specific language or file format.</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino" rel="nofollow">Arduino</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=melmass.blink" rel="nofollow">Blink</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=twxs.cmake" rel="nofollow">CMake</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code" rel="nofollow">Dart</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker" rel="nofollow">Dockerfile</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=QassimFarid.ejs-language-support" rel="nofollow">EJS</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir" rel="nofollow">Elixir</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=sbrink.elm" rel="nofollow">Elm</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang" rel="nofollow">Erlang</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Ionide.Ionide-fsharp" rel="nofollow">F#</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Gimly81.fortran" rel="nofollow">Fortran</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=pranayagarwal.vscode-hack" rel="nofollow">Hack(HHVM)</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=andrejunges.Handlebars" rel="nofollow">Handlebars</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=melmass.kl" rel="nofollow">KL</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin" rel="nofollow">Kotlin</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=torn4dom4n.latex-support" rel="nofollow">LaTeX</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=viatsko.html-mason" rel="nofollow">Mason</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=openhab.openhab" rel="nofollow">openHAB</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=viatsko.parser3" rel="nofollow">Parser 3</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal" rel="nofollow">Pascal</a>, or <a href="https://marketplace.visualstudio.com/items?itemName=Wosi.omnipascal" rel="nofollow">OmniPascal</a> (only for Windows)</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=viatsko.perl-html-template" rel="nofollow">Perl HTML-Template</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=peterj.proto" rel="nofollow">Protobuf</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=groksrc.ruby" rel="nofollow">Ruby</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=itryapitsin.Scala" rel="nofollow">Scala</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus" rel="nofollow">Stylus</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Kasik96.swift" rel="nofollow">Swift</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=melmass.vex" rel="nofollow">VEX</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=zephir-lang.zephir" rel="nofollow">Zephir</a></li>
+</ul>
+<h1><a id="user-content-editor-keymaps" class="anchor" aria-hidden="true" href="#editor-keymaps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Editor Keymaps</h1>
+<p>The VSCode team provides keymaps from popular editors, making the transition to VSCode almost seamless and easy.</p>
+<h2><a id="user-content-migrating-from-atom" class="anchor" aria-hidden="true" href="#migrating-from-atom"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings" rel="nofollow">Migrating from Atom</a></h2>
+<blockquote>
+<p>Popular Atom keybindings for Visual Studio Code</p>
+</blockquote>
+<h2><a id="user-content-migrating-from-sublime-text" class="anchor" aria-hidden="true" href="#migrating-from-sublime-text"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings" rel="nofollow">Migrating from Sublime Text</a></h2>
+<blockquote>
+<p>Popular Sublime Text keybindings for VS Code.</p>
+</blockquote>
+<h2><a id="user-content-migrating-from-visual-studio" class="anchor" aria-hidden="true" href="#migrating-from-visual-studio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings" rel="nofollow">Migrating from Visual Studio</a></h2>
+<blockquote>
+<p>Popular Visual Studio keybindings for VS Code.</p>
+</blockquote>
+<h2><a id="user-content-migrating-from-intellij-idea" class="anchor" aria-hidden="true" href="#migrating-from-intellij-idea"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings" rel="nofollow">Migrating from Intellij IDEA</a></h2>
+<blockquote>
+<p>Popular Intellij IDEA keybindings for VS Code.</p>
+</blockquote>
+<h1><a id="user-content-lint-and-intellisense" class="anchor" aria-hidden="true" href="#lint-and-intellisense"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lint and IntelliSense</h1>
+<p>In case the awesome nirvana that is linting has not yet been unleashed upon you:</p>
+<blockquote>
+<p>lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code. The term is now applied generically to tools that flag suspicious usage in software written in any computer language.</p>
+</blockquote>
+<p>Unlike some other editors, VS Code supports IntelliSense, linting, outline out-of-the-box and doesn't require any separate extension to run linter packages. Some linters are already integrated in VS Code, you can find the full list in the official documentation, <a href="https://code.visualstudio.com/Docs/languages/overview" rel="nofollow">Languages</a> section.</p>
+<h3><a id="user-content-1c" class="anchor" aria-hidden="true" href="#1c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1C</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=xDrivenDevelopment.language-1c-bsl" rel="nofollow">1C/OScript</a> - rich 1С:Enterprise 8 (BSL) language support in VSC - add syntax highlighting to *.bsl и *.os files in VSC, add IntelliSense and syntax helper for 1С lang
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/1132840/13007621/9e730984-d1a2-11e5-8ff5-8f7945421184.PNG"><img src="https://cloud.githubusercontent.com/assets/1132840/13007621/9e730984-d1a2-11e5-8ff5-8f7945421184.PNG" alt="1C-Syntax" style="max-width:100%;"></a></li>
+</ul>
+<h2><a id="user-content-c" class="anchor" aria-hidden="true" href="#c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C++</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" rel="nofollow">C/C++</a> - Preview C/C++ extension by <a href="https://www.microsoft.com" rel="nofollow">Microsoft</a>, read <a href="https://blogs.msdn.microsoft.com/vcblog/2016/03/31/cc-extension-for-visual-studio-code/" rel="nofollow">official blog post</a> for the details</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=austin.code-gnu-global" rel="nofollow">gnu-global-tags</a> - Provide Intellisense for C/C++ with the help of the GNU Global tool.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=RichardHe.you-complete-me" rel="nofollow">YouCompleteMe</a> - Provides semantic completions for C/C++ (and TypeScript, JavaScript, Objective-C, Golang, Rust) using <a href="http://valloric.github.io/YouCompleteMe/" rel="nofollow">YouCompleteMe</a>.</li>
+<li><a href="https://github.com/mitaki28/vscode-clang">C/C++ Clang Command Adapter</a> - Completion and Diagnostic for C/C++/Objective-C using Clang command.</li>
+</ul>
+<h2><a id="user-content-c-1" class="anchor" aria-hidden="true" href="#c-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C#</h2>
+<ul>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp" rel="nofollow">C#</a> - Preview C# extension by <a href="https://www.microsoft.com" rel="nofollow">Microsoft</a>, read <a href="https://code.visualstudio.com/docs/languages/csharp" rel="nofollow">official documentation</a> for the details</p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Leopotam.csharpfixformat" rel="nofollow">C# FixFormat</a> - Fix format of usings / indents / braces / empty lines</p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions" rel="nofollow">C# Extensions</a> - Provides extensions to the IDE that will speed up your development workflow.
+<a target="_blank" href="https://raw.githubusercontent.com/jchannon/csharpextensions/master/featureimages/fullpropfromctor.gif"><img src="https://raw.githubusercontent.com/jchannon/csharpextensions/master/featureimages/fullpropfromctor.gif" alt="C# Extensions" style="max-width:100%;"></a></p>
+</li>
+</ul>
+<h2><a id="user-content-css" class="anchor" aria-hidden="true" href="#css"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS</h2>
+<h4><a id="user-content-css-peek" class="anchor" aria-hidden="true" href="#css-peek"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek" rel="nofollow">CSS Peek</a></h4>
+<blockquote>
+<p>Peek or Jump to a CSS definition directly from HTML, just like in Brackets!</p>
+</blockquote>
+<p><a target="_blank" href="https://github.com/pranaygp/vscode-css-peek/blob/master/working.gif"><img src="https://github.com/pranaygp/vscode-css-peek/raw/master/working.gif" alt="CSS Peek" style="max-width:100%;"></a></p>
+<ul>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint" rel="nofollow">stylelint</a> - Lint CSS/SCSS.</p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer" rel="nofollow">Autoprefixer</a>
+Parse CSS,SCSS, LESS and add vendor prefixes automatically.
+<a target="_blank" href="https://cloud.githubusercontent.com/assets/7034281/16823311/da82a3c6-496b-11e6-8d95-0bebbf0b9607.gif"><img src="https://cloud.githubusercontent.com/assets/7034281/16823311/da82a3c6-496b-11e6-8d95-0bebbf0b9607.gif" alt="Autoprefixer" style="max-width:100%;"></a></p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion" rel="nofollow">Intellisense for CSS class names</a> - Provides CSS class name completion for the HTML class attribute based on the CSS files in your workspace. Also supports React's className attribute.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/e0640bfd8a2a4ef84f79a11213c1fd974b131766/687474703a2f2f692e696d6775722e636f6d2f3563724d66546a2e676966"><img src="https://camo.githubusercontent.com/e0640bfd8a2a4ef84f79a11213c1fd974b131766/687474703a2f2f692e696d6775722e636f6d2f3563724d66546a2e676966" alt="Intellisense CSS class names" data-canonical-src="http://i.imgur.com/5crMfTj.gif" style="max-width:100%;"></a></p>
+</li>
+</ul>
+<h2><a id="user-content-go" class="anchor" aria-hidden="true" href="#go"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Go</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=lukehoban.Go" rel="nofollow">Go</a> - Rich language support for the Go language.</li>
+</ul>
+<h2><a id="user-content-haskell" class="anchor" aria-hidden="true" href="#haskell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Haskell</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=hoovercj.haskell-linter" rel="nofollow">haskell-linter</a></li>
+</ul>
+<h2><a id="user-content-java" class="anchor" aria-hidden="true" href="#java"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java</h2>
+<ul>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=redhat.java" rel="nofollow">Language Support for Java(TM) by Red Hat</a></p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven" rel="nofollow">Maven for Java</a></p>
+</li>
+<li>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok" rel="nofollow">Lombok</a></p>
+</li>
+</ul>
+<h2><a id="user-content-javascript" class="anchor" aria-hidden="true" href="#javascript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" rel="nofollow">Babel JavaScript</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=joshpeng.sublime-babel-vscode#overview" rel="nofollow">Sublime Babel</a> - Babel extension ported from Sublime Text</li>
+</ul>
+<p>See the difference between these two <a href="https://github.com/michaelgmcd/vscode-language-babel/issues/1">here</a></p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=eg2.tslint" rel="nofollow">tslint</a> - TSLint for Visual Studio Code (with <code>"tslint.jsEnable": true</code>).</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" rel="nofollow">eslint</a> - Linter for <a href="https://eslint.org/" rel="nofollow">eslint</a>.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=samverschueren.linter-xo" rel="nofollow">XO</a> - Linter for <a href="https://github.com/xojs/xo">XO</a>.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=samverschueren.ava" rel="nofollow">AVA</a> - Snippets for <a href="https://github.com/avajs/ava">AVA</a>.</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode" rel="nofollow">Prettier</a> - Linter, Formatter and Pretty printer for <a href="https://github.com/prettier/prettier-vscode">Prettier</a>.</li>
+</ul>
+<h3><a id="user-content-debugger-for-chrome" class="anchor" aria-hidden="true" href="#debugger-for-chrome"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome" rel="nofollow">Debugger for Chrome</a></h3>
+<blockquote>
+<p>A VS Code extension to debug your JavaScript code in the Chrome browser, or other targets that support the Chrome Debugging Protocol.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/Microsoft/vscode-chrome-debug/master/images/screenshot.png"><img src="https://raw.githubusercontent.com/Microsoft/vscode-chrome-debug/master/images/screenshot.png" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-typescript" class="anchor" aria-hidden="true" href="#typescript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TypeScript</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=eg2.tslint" rel="nofollow">tslint</a> - TSLint for Visual Studio Code</li>
+</ul>
+<h2><a id="user-content-markdown" class="anchor" aria-hidden="true" href="#markdown"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Markdown</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint" rel="nofollow">markdownlint</a> - Linter for <a href="https://github.com/DavidAnson/markdownlint">markdownlint</a>.</li>
+</ul>
+<h2><a id="user-content-php" class="anchor" aria-hidden="true" href="#php"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PHP</h2>
+<h3><a id="user-content-intellisense" class="anchor" aria-hidden="true" href="#intellisense"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IntelliSense</h3>
+<p>These extensions provide slightly different sets of features. While the first one offers better autocompletion support, the second one seems to have more features overall.</p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client" rel="nofollow">PHP Intelephense</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense" rel="nofollow">PHP IntelliSense</a></li>
+</ul>
+<h3><a id="user-content-twig" class="anchor" aria-hidden="true" href="#twig"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Twig</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2" rel="nofollow">Twig Language 2</a></li>
+</ul>
+<p>To enable Emmet support in .twig files, you'll need to have the following in your settings:</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>emmet.includeLanguages<span class="pl-pds">"</span></span>: {
+    <span class="pl-s"><span class="pl-pds">"</span>twig<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>html<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<h3><a id="user-content-other-extensions" class="anchor" aria-hidden="true" href="#other-extensions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other extensions</h3>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ikappas.composer" rel="nofollow">Composer</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug" rel="nofollow">PHP Debug</a> - XDebug extension for Visual Studio Code</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker" rel="nofollow">PHP DocBlocker</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs" rel="nofollow">phpcs</a> - PHP CodeSniffer for Visual Studio Code</li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=kokororin.vscode-phpfmt" rel="nofollow">phpfmt</a> - phpfmt for Visual Studio Code</li>
+</ul>
+<h3><a id="user-content-read-more" class="anchor" aria-hidden="true" href="#read-more"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Read more</h3>
+<ul>
+<li><a href="https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code" rel="nofollow">Configuring Visual Studio Code for Drupal</a></li>
+</ul>
+<h2><a id="user-content-python" class="anchor" aria-hidden="true" href="#python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Python</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" rel="nofollow">Python</a> - Linting, Debugging (multi threaded, web apps), Intellisense, auto-completion, code formatting, snippets, unit testing, and more.</li>
+</ul>
+<h2><a id="user-content-rust" class="anchor" aria-hidden="true" href="#rust"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rust</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=kalitaalexey.vscode-rust" rel="nofollow">Rust</a> - Linting, auto-completion, code formatting, snippets and more</li>
+</ul>
+<h1><a id="user-content-productivity" class="anchor" aria-hidden="true" href="#productivity"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Productivity</h1>
+<h2><a id="user-content-azure-cosmos-db" class="anchor" aria-hidden="true" href="#azure-cosmos-db"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb" rel="nofollow">Azure Cosmos DB</a></h2>
+<blockquote>
+<p>Browse your database inside the vs code editor</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/ad7c18b197215e4c24534c08edb9f4289e817cbd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f666e4b39667a503830653759664f374a41712f67697068792e676966"><img src="https://camo.githubusercontent.com/ad7c18b197215e4c24534c08edb9f4289e817cbd/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f666e4b39667a503830653759664f374a41712f67697068792e676966" alt="" data-canonical-src="https://media.giphy.com/media/fnK9fzP80e7YfO7JAq/giphy.gif" style="max-width:100%;"></a></p>
+<h2><a id="user-content-azure-iot-toolkit" class="anchor" aria-hidden="true" href="#azure-iot-toolkit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit" rel="nofollow">Azure IoT Toolkit</a></h2>
+<blockquote>
+<p>Everything you need for the Azure IoT development: Interact with Azure IoT Hub, manage devices connected to Azure IoT Hub, and develop with code snippets for Azure IoT Hub</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/formulahendry/vscode-azure-iot-toolkit/master/images/device-explorer.png"><img src="https://raw.githubusercontent.com/formulahendry/vscode-azure-iot-toolkit/master/images/device-explorer.png" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-bookmarks" class="anchor" aria-hidden="true" href="#bookmarks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks" rel="nofollow">Bookmarks</a></h2>
+<blockquote>
+<p>Mark lines and jump to them</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/alefragnani/vscode-bookmarks/master/images/bookmarks-commands.png"><img src="https://raw.githubusercontent.com/alefragnani/vscode-bookmarks/master/images/bookmarks-commands.png" alt="" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://raw.githubusercontent.com/alefragnani/vscode-bookmarks/master/images/bookmarks-toggle.png"><img src="https://raw.githubusercontent.com/alefragnani/vscode-bookmarks/master/images/bookmarks-toggle.png" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-copy-relative-path" class="anchor" aria-hidden="true" href="#copy-relative-path"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=alexdima.copy-relative-path" rel="nofollow">Copy Relative Path</a></h2>
+<blockquote>
+<p>Copy Relative Path from a File</p>
+</blockquote>
+<h2><a id="user-content-deploy" class="anchor" aria-hidden="true" href="#deploy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=mkloubert.vs-deploy" rel="nofollow">Deploy</a></h2>
+<blockquote>
+<p>Commands for upload or copy files of a workspace to a destination.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/mkloubert/vs-deploy/master/img/demo.gif"><img src="https://raw.githubusercontent.com/mkloubert/vs-deploy/master/img/demo.gif" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-gi" class="anchor" aria-hidden="true" href="#gi"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=rubbersheep.gi" rel="nofollow">Gi</a></h3>
+<blockquote>
+<p>Generating .gitignore files made easy.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/hasit/vscode-gi/master/assets/gi.gif"><img src="https://raw.githubusercontent.com/hasit/vscode-gi/master/assets/gi.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-git-history" class="anchor" aria-hidden="true" href="#git-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory" rel="nofollow">Git History</a></h2>
+<blockquote>
+<p>View git log, file or line History</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/DonJayamanne/gitHistoryVSCode/master/images/fileHistoryCommand.gif"><img src="https://raw.githubusercontent.com/DonJayamanne/gitHistoryVSCode/master/images/fileHistoryCommand.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-git-project-manager" class="anchor" aria-hidden="true" href="#git-project-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager" rel="nofollow">Git Project Manager</a></h2>
+<blockquote>
+<p>Automatically indexes your git projects and lets you easily toggle between them</p>
+</blockquote>
+<h2><a id="user-content-gitlink" class="anchor" aria-hidden="true" href="#gitlink"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink" rel="nofollow">GitLink</a></h2>
+<blockquote>
+<p>GoTo current file's online link in browser and Copy the link in clipboard.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/qinezh/vscode-gitlink/master/images/how_to_use_it.gif"><img src="https://raw.githubusercontent.com/qinezh/vscode-gitlink/master/images/how_to_use_it.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-gitlens" class="anchor" aria-hidden="true" href="#gitlens"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" rel="nofollow">GitLens</a></h2>
+<blockquote>
+<p>Provides Git CodeLens information (most recent commit, # of authors), on-demand inline blame annotations, status bar blame information, file and blame history explorers, and commands to compare changes with the working tree or previous versions.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/eamodio/vscode-git-codelens/master/images/gitlens-preview1.gif"><img src="https://raw.githubusercontent.com/eamodio/vscode-git-codelens/master/images/gitlens-preview1.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-git-indicators" class="anchor" aria-hidden="true" href="#git-indicators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=lamartire.git-indicators" rel="nofollow">Git Indicators</a></h2>
+<blockquote>
+<p>Atom like git indicators on active panel</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/lamartire/vscode-git-indicators/master/preview/added.png"><img src="https://raw.githubusercontent.com/lamartire/vscode-git-indicators/master/preview/added.png" alt="" style="max-width:100%;"></a>
+<a target="_blank" href="https://raw.githubusercontent.com/lamartire/vscode-git-indicators/master/preview/removed.png"><img src="https://raw.githubusercontent.com/lamartire/vscode-git-indicators/master/preview/removed.png" alt="" style="max-width:100%;"></a>
+<a target="_blank" href="https://raw.githubusercontent.com/lamartire/vscode-git-indicators/master/preview/modified.png"><img src="https://raw.githubusercontent.com/lamartire/vscode-git-indicators/master/preview/modified.png" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-github" class="anchor" aria-hidden="true" href="#github"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-github" rel="nofollow">GitHub</a></h2>
+<blockquote>
+<p>Provides GitHub workflow support. For example browse project, issues, file (the current line), create and manage pull request. Support for other providers (e.g. gitlab or bitbucket) is planned.</p>
+</blockquote>
+<blockquote>
+<p>Have a look at the <a href="https://github.com/KnisterPeter/vscode-github/blob/master/README.md">README.md</a> on how to get started with the setup for this extension.</p>
+</blockquote>
+<h2><a id="user-content-icon-fonts" class="anchor" aria-hidden="true" href="#icon-fonts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=idleberg.icon-fonts" rel="nofollow">Icon Fonts</a></h2>
+<blockquote>
+<p>Snippets for popular icon fonts such as Font Awesome, Ionicons, Glyphicons, Octicons, Material Design Icons and many more!</p>
+</blockquote>
+<h2><a id="user-content-live-server" class="anchor" aria-hidden="true" href="#live-server"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" rel="nofollow">Live Server</a></h2>
+<blockquote>
+<p>Launch a development local Server with live reload feature for static &amp; dynamic pages.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/ritwickdey/vscode-live-server/master/images/Screenshot/vscode-live-server-animated-demo.gif"><img src="https://raw.githubusercontent.com/ritwickdey/vscode-live-server/master/images/Screenshot/vscode-live-server-animated-demo.gif" alt="live-server" style="max-width:100%;"></a></p>
+<h2><a id="user-content-multiple-clipboards" class="anchor" aria-hidden="true" href="#multiple-clipboards"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-multiclip" rel="nofollow">Multiple clipboards</a></h2>
+<blockquote>
+<p>Override the regular Copy and Cut commands to keep selections in a clipboard ring</p>
+</blockquote>
+<h2><a id="user-content-npm-intellisense" class="anchor" aria-hidden="true" href="#npm-intellisense"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense" rel="nofollow">npm Intellisense</a></h2>
+<blockquote>
+<p>Visual Studio Code plugin that autocompletes npm modules in import statements.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/ChristianKohler/NpmIntellisense/master/images/auto_complete.gif"><img src="https://raw.githubusercontent.com/ChristianKohler/NpmIntellisense/master/images/auto_complete.gif" alt="npm-intellisense" style="max-width:100%;"></a></p>
+<h2><a id="user-content-partial-diff" class="anchor" aria-hidden="true" href="#partial-diff"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff" rel="nofollow">Partial Diff</a></h2>
+<blockquote>
+<p>Compare (diff) text selections within a file, across different files, or to the clipboard</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/ryu1kn/vscode-partial-diff/master/images/public.gif"><img src="https://raw.githubusercontent.com/ryu1kn/vscode-partial-diff/master/images/public.gif" alt="Partial Diff" style="max-width:100%;"></a></p>
+<h3><a id="user-content-paste-json-as-code" class="anchor" aria-hidden="true" href="#paste-json-as-code"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype" rel="nofollow">Paste JSON as Code</a></h3>
+<blockquote>
+<p>Infer the structure of JSON and paste is as types in many programming languages</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/quicktype/quicktype-vscode/master/media/demo.gif"><img src="https://raw.githubusercontent.com/quicktype/quicktype-vscode/master/media/demo.gif" alt="Paste JSON as Code" style="max-width:100%;"></a></p>
+<h2><a id="user-content-path-intellisense" class="anchor" aria-hidden="true" href="#path-intellisense"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense" rel="nofollow">Path Intellisense</a></h2>
+<blockquote>
+<p>Visual Studio Code plugin that autocompletes filenames</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/48e2f6846d679751cb2d68b3173da9824ac680e8/68747470733a2f2f692e67697068792e636f6d2f696148655569446554555a756f2e676966"><img src="https://camo.githubusercontent.com/48e2f6846d679751cb2d68b3173da9824ac680e8/68747470733a2f2f692e67697068792e636f6d2f696148655569446554555a756f2e676966" alt="" data-canonical-src="https://i.giphy.com/iaHeUiDeTUZuo.gif" style="max-width:100%;"></a></p>
+<h2><a id="user-content-project-manager" class="anchor" aria-hidden="true" href="#project-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager" rel="nofollow">Project Manager</a></h2>
+<blockquote>
+<p>Easily switch between projects.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/alefragnani/vscode-project-manager/master/images/project-manager-commands.png"><img src="https://raw.githubusercontent.com/alefragnani/vscode-project-manager/master/images/project-manager-commands.png" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-rest-client" class="anchor" aria-hidden="true" href="#rest-client"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client" rel="nofollow">REST Client</a></h2>
+<blockquote>
+<p>Allows you to send HTTP request and view the response in Visual Studio Code directly.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/Huachao/vscode-restclient/master/images/usage.gif"><img src="https://raw.githubusercontent.com/Huachao/vscode-restclient/master/images/usage.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-settings-sync" class="anchor" aria-hidden="true" href="#settings-sync"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync" rel="nofollow">Settings Sync</a></h2>
+<blockquote>
+<p>Synchronize settings, snippets, themes, file icons, launch, keybindings, workspaces and extensions across multiple machines using Github Gist</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/27a9272967912092225b3675d9b0de6d3db12465/687474703a2f2f692e696d6775722e636f6d2f515a74614263612e676966"><img src="https://camo.githubusercontent.com/27a9272967912092225b3675d9b0de6d3db12465/687474703a2f2f692e696d6775722e636f6d2f515a74614263612e676966" alt="Settings Sync" data-canonical-src="http://i.imgur.com/QZtaBca.gif" style="max-width:100%;"></a></p>
+<h2><a id="user-content-yo" class="anchor" aria-hidden="true" href="#yo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=samverschueren.yo" rel="nofollow">Yo</a></h2>
+<blockquote>
+<p>Scaffold projects using <a href="http://yeoman.io/" rel="nofollow">Yeoman</a></p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/SamVerschueren/vscode-yo/master/media/yo.gif"><img src="https://raw.githubusercontent.com/SamVerschueren/vscode-yo/master/media/yo.gif" alt="" style="max-width:100%;"></a></p>
+<h1><a id="user-content-formatting--beautification" class="anchor" aria-hidden="true" href="#formatting--beautification"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Formatting &amp; Beautification</h1>
+<h2><a id="user-content-better-align" class="anchor" aria-hidden="true" href="#better-align"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=wwm.better-align" rel="nofollow">Better Align</a></h2>
+<blockquote>
+<p>Align your code by colon(:), assignment(=,+=,-=,*=,/=) and arrow(=&gt;). It has additional support for comma-first coding style and trailing comment.</p>
+<p>And it doesn't require you to select what to be aligned, the extension will figure it out by itself.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/WarWithinMe/better-align/master/images/2.gif"><img src="https://raw.githubusercontent.com/WarWithinMe/better-align/master/images/2.gif" alt="Better Align" style="max-width:100%;"></a></p>
+<h2><a id="user-content-auto-close-tag" class="anchor" aria-hidden="true" href="#auto-close-tag"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag" rel="nofollow">Auto Close Tag</a></h2>
+<blockquote>
+<p>Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/formulahendry/vscode-auto-close-tag/master/images/usage.gif"><img src="https://raw.githubusercontent.com/formulahendry/vscode-auto-close-tag/master/images/usage.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-auto-rename-tag" class="anchor" aria-hidden="true" href="#auto-rename-tag"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag" rel="nofollow">Auto Rename Tag</a></h2>
+<blockquote>
+<p>Auto rename paired HTML/XML tags</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/formulahendry/vscode-auto-rename-tag/master/images/usage.gif"><img src="https://raw.githubusercontent.com/formulahendry/vscode-auto-rename-tag/master/images/usage.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-beautify" class="anchor" aria-hidden="true" href="#beautify"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify" rel="nofollow">beautify</a></h2>
+<blockquote>
+<p>Beautify code in place for VS Code</p>
+</blockquote>
+<h2><a id="user-content-ecmascript-quotes-transformer" class="anchor" aria-hidden="true" href="#ecmascript-quotes-transformer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=vilicvane.es-quotes" rel="nofollow">ECMAScript Quotes Transformer</a></h2>
+<blockquote>
+<p>Transform quotes of ECMAScript string literals</p>
+</blockquote>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/970430/10563944/4cc04462-75d1-11e5-984b-41e0a21a72c3.gif"><img src="https://cloud.githubusercontent.com/assets/970430/10563944/4cc04462-75d1-11e5-984b-41e0a21a72c3.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-paste-and-indent" class="anchor" aria-hidden="true" href="#paste-and-indent"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent" rel="nofollow">Paste and Indent</a></h2>
+<blockquote>
+<p>Paste code with "correct" indentation</p>
+</blockquote>
+<p><a target="_blank" href="https://github.com/vikrantnegi/vscode-personal-preference-setting/blob/master/screenshots/pasteandindent.gif"><img src="https://github.com/vikrantnegi/vscode-personal-preference-setting/raw/master/screenshots/pasteandindent.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-sort-lines" class="anchor" aria-hidden="true" href="#sort-lines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines" rel="nofollow">Sort Lines</a></h2>
+<blockquote>
+<p>Sorts lines of text in specific order</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/Tyriar/vscode-sort-lines/master/images/usage-animation.gif"><img src="https://raw.githubusercontent.com/Tyriar/vscode-sort-lines/master/images/usage-animation.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-wrap-selection" class="anchor" aria-hidden="true" href="#wrap-selection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=konstantin.wrapSelection" rel="nofollow">Wrap Selection</a></h2>
+<blockquote>
+<p>Wraps selection or multiple selections with symbol or multiple symbols</p>
+</blockquote>
+<p><a target="_blank" href="https://github.com/gko/wrap/blob/master/features.gif"><img src="https://github.com/gko/wrap/raw/master/features.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-formatting-toggle" class="anchor" aria-hidden="true" href="#formatting-toggle"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle" rel="nofollow">Formatting Toggle</a></h2>
+<blockquote>
+<p>Allows you to toggle your formatter on and off with a simple click</p>
+</blockquote>
+<h2><a id="user-content-explorer-icons" class="anchor" aria-hidden="true" href="#explorer-icons"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Explorer Icons</h2>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons" rel="nofollow">VSCode Icons</a></li>
+</ul>
+<p><a target="_blank" href="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/images/screenshot.gif"><img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/images/screenshot.gif" alt="VSCode Icons" style="max-width:100%;"></a></p>
+<ul>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons" rel="nofollow">Seti Icons</a></li>
+</ul>
+<p><a target="_blank" href="https://raw.githubusercontent.com/hellopao/vscode-seti-icons/master/screenshot.png"><img src="https://raw.githubusercontent.com/hellopao/vscode-seti-icons/master/screenshot.png" alt="Seti Icons" style="max-width:100%;"></a></p>
+<h1><a id="user-content-uncategorized" class="anchor" aria-hidden="true" href="#uncategorized"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Uncategorized</h1>
+<h2><a id="user-content-code-runner" class="anchor" aria-hidden="true" href="#code-runner"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner" rel="nofollow">Code Runner</a></h2>
+<blockquote>
+<p>Run code snippet or code file for multiple languages: C, C++, Java, JavaScript, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, BAT/CMD, BASH/SH, F# Script, C# Script, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml Script</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/formulahendry/vscode-code-runner/master/images/usage.gif"><img src="https://raw.githubusercontent.com/formulahendry/vscode-code-runner/master/images/usage.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-color-highlight" class="anchor" aria-hidden="true" href="#color-highlight"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight" rel="nofollow">Color Highlight</a></h2>
+<blockquote>
+<p>Highlight web colors in your editor</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/c56abb4b2c6e15c224c3dce747ae36b0b3363f62/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a5a7745374f484b52356f707644434a4a4f77394b65512e706e67"><img src="https://camo.githubusercontent.com/c56abb4b2c6e15c224c3dce747ae36b0b3363f62/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a5a7745374f484b52356f707644434a4a4f77394b65512e706e67" alt="" data-canonical-src="https://cdn-images-1.medium.com/max/1600/1*ZwE7OHKR5opvDCJJOw9KeQ.png" style="max-width:100%;"></a></p>
+<h2><a id="user-content-output-colorizer" class="anchor" aria-hidden="true" href="#output-colorizer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer" rel="nofollow">Output Colorizer</a></h2>
+<blockquote>
+<p>Syntax highlighting for the VS Code Output Panel and log files</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/IBM-Bluemix/vscode-log-output-colorizer/master/github-assets/screenshot-1.jpg"><img src="https://raw.githubusercontent.com/IBM-Bluemix/vscode-log-output-colorizer/master/github-assets/screenshot-1.jpg" alt="IBM.output-colorizer" style="max-width:100%;"></a></p>
+<h2><a id="user-content-dash" class="anchor" aria-hidden="true" href="#dash"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash" rel="nofollow">Dash</a></h2>
+<blockquote>
+<p>Dash integration in Visual Studio Code</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/a0cbd9f65a16f0495ed874d1ce2ff38a5ef98adc/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a7371476c6c432d7067584e61454266422d63784739512e706e67"><img src="https://camo.githubusercontent.com/a0cbd9f65a16f0495ed874d1ce2ff38a5ef98adc/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f323030302f312a7371476c6c432d7067584e61454266422d63784739512e706e67" alt="" data-canonical-src="https://cdn-images-1.medium.com/max/2000/1*sqGllC-pgXNaEBfB-cxG9Q.png" style="max-width:100%;"></a></p>
+<h2><a id="user-content-edit-with-shell-command" class="anchor" aria-hidden="true" href="#edit-with-shell-command"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ryu1kn.edit-with-shell" rel="nofollow">Edit with Shell Command</a></h2>
+<blockquote>
+<p>Levarage your favourite shell commands to edit text</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/ryu1kn/vscode-edit-with-shell/master/images/animations/public.gif"><img src="https://raw.githubusercontent.com/ryu1kn/vscode-edit-with-shell/master/images/animations/public.gif" alt="Edit with Shell Command" style="max-width:100%;"></a></p>
+<h2><a id="user-content-editor-config-for-vs-code" class="anchor" aria-hidden="true" href="#editor-config-for-vs-code"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig" rel="nofollow">Editor Config for VS Code</a></h2>
+<blockquote>
+<p>Editor Config for VS Code</p>
+</blockquote>
+<h2><a id="user-content-ftp-sync" class="anchor" aria-hidden="true" href="#ftp-sync"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=lukasz-wronski.ftp-sync" rel="nofollow">ftp-sync</a></h2>
+<blockquote>
+<p>Auto-sync your work to remote FTP server</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/068aa97ac2f6532050786b5f459e674210c170a2/687474703a2f2f692e696d6775722e636f6d2f573968347077572e676966"><img src="https://camo.githubusercontent.com/068aa97ac2f6532050786b5f459e674210c170a2/687474703a2f2f692e696d6775722e636f6d2f573968347077572e676966" alt="" data-canonical-src="http://i.imgur.com/W9h4pwW.gif" style="max-width:100%;"></a></p>
+<h2><a id="user-content-platformio" class="anchor" aria-hidden="true" href="#platformio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.platformio" rel="nofollow">PlatformIO</a></h2>
+<blockquote>
+<p>An open source ecosystem for IoT development: supports 350+ embedded boards, 20+ development platforms, 10+ frameworks. Arduino and ARM mbed compatible.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/formulahendry/vscode-platformio/master/images/build.gif"><img src="https://raw.githubusercontent.com/formulahendry/vscode-platformio/master/images/build.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-polacode" class="anchor" aria-hidden="true" href="#polacode"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=pnp.polacode" rel="nofollow">Polacode</a></h2>
+<blockquote>
+<p>Polaroid for your code <g-emoji class="g-emoji" alias="camera_flash" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f8.png">📸</g-emoji>.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/octref/polacode/master/demo/usage.gif"><img src="https://raw.githubusercontent.com/octref/polacode/master/demo/usage.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-quokka" class="anchor" aria-hidden="true" href="#quokka"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode" rel="nofollow">Quokka</a></h2>
+<blockquote>
+<p>Rapid prototyping playground for JavaScript and TypeScript in VS Code, with access to your project's files, inline reporting, code coverage and rich output formatting.</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/de1b3e17302262f09a56c4dd61ecf8aede281373/68747470733a2f2f71756f6b6b616a732e636f6d2f6173736574732f696d672f767363312e676966"><img src="https://camo.githubusercontent.com/de1b3e17302262f09a56c4dd61ecf8aede281373/68747470733a2f2f71756f6b6b616a732e636f6d2f6173736574732f696d672f767363312e676966" alt="" data-canonical-src="https://quokkajs.com/assets/img/vsc1.gif" style="max-width:100%;"></a></p>
+<h2><a id="user-content-runner" class="anchor" aria-hidden="true" href="#runner"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=mattn.Runner" rel="nofollow">Runner</a></h2>
+<blockquote>
+<p>Run various scripts right from VS Code</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/mattn/vscode-runner/master/images/screenshot.gif"><img src="https://raw.githubusercontent.com/mattn/vscode-runner/master/images/screenshot.gif" alt="" style="max-width:100%;"></a></p>
+<h2><a id="user-content-slack" class="anchor" aria-hidden="true" href="#slack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=sozercan.slack" rel="nofollow">Slack</a></h2>
+<blockquote>
+<p>Send messages and code snippets, upload files to Slack</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/sozercan/vscode-slack/master/slack-upload.gif"><img src="https://raw.githubusercontent.com/sozercan/vscode-slack/master/slack-upload.gif" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-spotify" class="anchor" aria-hidden="true" href="#spotify"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify" rel="nofollow">Spotify</a></h3>
+<blockquote>
+<p>Provides integration with Spotify Desktop client. Shows the currently playing song in status bar, search lyrics and provides commands for controlling Spotify with buttons and hotkeys.</p>
+</blockquote>
+<p><a target="_blank" href="https://camo.githubusercontent.com/77ba6e508fb8cc0c7bdae667e63641fbc5834f3f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f6868774d6765496a314d684564424a652f67697068792e676966"><img src="https://camo.githubusercontent.com/77ba6e508fb8cc0c7bdae667e63641fbc5834f3f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f6868774d6765496a314d684564424a652f67697068792e676966" alt="vscode-spotify" data-canonical-src="https://media.giphy.com/media/3ohhwMgeIj1MhEdBJe/giphy.gif" style="max-width:100%;"></a></p>
+<h2><a id="user-content-svg-viewer" class="anchor" aria-hidden="true" href="#svg-viewer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer" rel="nofollow">SVG Viewer</a></h2>
+<blockquote>
+<p>View an SVG in the editor and export it as data URI scheme or PNG.</p>
+</blockquote>
+<p><a target="_blank" href="https://github.com/cssho/vscode-svgviewer/blob/master/img/preview.png"><img src="https://github.com/cssho/vscode-svgviewer/raw/master/img/preview.png" alt="SVG Viewer" style="max-width:100%;"></a></p>
+<h2><a id="user-content-text-marker-highlighter" class="anchor" aria-hidden="true" href="#text-marker-highlighter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ryu1kn.text-marker" rel="nofollow">Text Marker (Highlighter)</a></h2>
+<blockquote>
+<p>Highlight multiple text patterns with different colors at the same time. Highlighting a single text pattern can be done with the editor's search functionality, but it cannot highlight multiple patterns at the same time, and this is where this extension comes handy.</p>
+</blockquote>
+<p><a target="_blank" href="https://raw.githubusercontent.com/ryu1kn/vscode-text-marker/master/images/animations/public.gif"><img src="https://raw.githubusercontent.com/ryu1kn/vscode-text-marker/master/images/animations/public.gif" alt="Text Marker (Highlighter)" style="max-width:100%;"></a></p>
+<h2><a id="user-content-vim-mode" class="anchor" aria-hidden="true" href="#vim-mode"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=vscodevim.vim" rel="nofollow">Vim Mode</a></h2>
+<blockquote>
+<p>Relatively new, but promising extension implementing Vim features in VSCode. Authors suggest to join their <a href="https://vscodevim-slackin.azurewebsites.net/" rel="nofollow">Slack channel</a> for feature requests on your favorite Vim features</p>
+</blockquote>
+<h1><a id="user-content-themes" class="anchor" aria-hidden="true" href="#themes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Themes</h1>
+<h2><a id="user-content-ui" class="anchor" aria-hidden="true" href="#ui"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>UI</h2>
+<p>If you're feeling brave, there are at least two custom UIs for VS Code:</p>
+<ul>
+<li><a href="https://github.com/flagello/Essence">Essence</a></li>
+<li><a href="https://github.com/orta/Essence">Pragmatic Essence</a></li>
+</ul>
+<h2><a id="user-content-syntax-1" class="anchor" aria-hidden="true" href="#syntax-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax</h2>
+<h3><a id="user-content-an-old-hope-theme" class="anchor" aria-hidden="true" href="#an-old-hope-theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode" rel="nofollow">An Old Hope Theme</a></h3>
+<p><a target="_blank" href="https://raw.githubusercontent.com/dustinsanders/an-old-hope-theme-vscode/0d6b1508a2fbf27c86d92da0040a2549b6150552/dark.png"><img src="https://raw.githubusercontent.com/dustinsanders/an-old-hope-theme-vscode/0d6b1508a2fbf27c86d92da0040a2549b6150552/dark.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-ariake-dark-color-theme" class="anchor" aria-hidden="true" href="#ariake-dark-color-theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark" rel="nofollow">Ariake Dark Color Theme</a></h3>
+<p><a target="_blank" href="https://raw.githubusercontent.com/a-wart/ariake-dark/master/misc/ariake_dark_github.png"><img src="https://raw.githubusercontent.com/a-wart/ariake-dark/master/misc/ariake_dark_github.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-atom-one-dark-syntax-theme" class="anchor" aria-hidden="true" href="#atom-one-dark-syntax-theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=andischerer.theme-atom-one-dark" rel="nofollow">Atom One Dark Syntax Theme</a></h3>
+<p><a target="_blank" href="https://raw.githubusercontent.com/andischerer/vscode-theme-atom-one-dark/master/theme.png"><img src="https://raw.githubusercontent.com/andischerer/vscode-theme-atom-one-dark/master/theme.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-atom-one-dark-theme" class="anchor" aria-hidden="true" href="#atom-one-dark-theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark" rel="nofollow">Atom One Dark Theme</a></h3>
+<p>Features full workbench theming</p>
+<p><a target="_blank" href="https://raw.githubusercontent.com/akamud/vscode-theme-onedark/master/screenshots/preview.png"><img src="https://raw.githubusercontent.com/akamud/vscode-theme-onedark/master/screenshots/preview.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-atom-one-light-theme" class="anchor" aria-hidden="true" href="#atom-one-light-theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight" rel="nofollow">Atom One Light Theme</a></h3>
+<p>Features full workbench theming</p>
+<p><a target="_blank" href="https://raw.githubusercontent.com/akamud/vscode-theme-onelight/master/screenshots/preview.png"><img src="https://raw.githubusercontent.com/akamud/vscode-theme-onelight/master/screenshots/preview.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-ayu" class="anchor" aria-hidden="true" href="#ayu"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=teabyii.ayu" rel="nofollow">Ayu</a></h3>
+<p><a target="_blank" href="https://user-images.githubusercontent.com/353888/28989654-114a64b6-7977-11e7-9e4e-9190bc2fae5b.png"><img src="https://user-images.githubusercontent.com/353888/28989654-114a64b6-7977-11e7-9e4e-9190bc2fae5b.png" alt="dark theme" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://user-images.githubusercontent.com/353888/28989655-114d577a-7977-11e7-8646-757b1e8541a2.png"><img src="https://user-images.githubusercontent.com/353888/28989655-114d577a-7977-11e7-8646-757b1e8541a2.png" alt="mirage theme" style="max-width:100%;"></a></p>
+<h3><a id="user-content-base16-ocean-kit" class="anchor" aria-hidden="true" href="#base16-ocean-kit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=chipcollier.Theme-OceanKit" rel="nofollow">Base16 Ocean Kit</a></h3>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/376065/12876166/98575186-cdfb-11e5-953d-2691ccad3472.png"><img src="https://cloud.githubusercontent.com/assets/376065/12876166/98575186-cdfb-11e5-953d-2691ccad3472.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-captain-sweetheart" class="anchor" aria-hidden="true" href="#captain-sweetheart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ultradracula.captain-sweetheart" rel="nofollow">Captain Sweetheart</a></h3>
+<p><a target="_blank" href="https://raw.githubusercontent.com/mashaal/code-captain-sweetheart/master/preview.png"><img src="https://raw.githubusercontent.com/mashaal/code-captain-sweetheart/master/preview.png" alt="" style="max-width:100%;"></a></p>
+<h3><a id="user-content-cobalt2-theme-official-by-wes-bos" class="anchor" aria-hidden="true" href="#cobalt2-theme-official-by-wes-bos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2" rel="nofollow">Cobalt2 Theme Official by Wes Bos</a></h3>
+<p><a target="_blank" href="https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png"><img src="https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png" alt="Cobalt 2" style="max-width:100%;"></a></p>
+<h3><a id="user-content-dracula" class="anchor" aria-hidden="true" href="#dracula"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula" rel="nofollow">Dracula</a></h3>
+<p><a target="_blank" href="https://camo.githubusercontent.com/d695efd1815607a9056ea5817501adc0a63632ca/68747470733a2f2f64726163756c617468656d652e636f6d2f6173736574732f696d672f73637265656e73686f74732f7673636f64652e706e67"><img src="https://camo.githubusercontent.com/d695efd1815607a9056ea5817501adc0a63632ca/68747470733a2f2f64726163756c617468656d652e636f6d2f6173736574732f696d672f73637265656e73686f74732f7673636f64652e706e67" alt="Dracula Theme for VS Code" style="max-width:100%;"></a></p>
+<h3><a id="user-content-material-theme" class="anchor" aria-hidden="true" href="#material-theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme" rel="nofollow">Material-theme</a></h3>
+<p><a target="_blank" href="https://camo.githubusercontent.com/6931da5263da4f1d19840019abdf2340a2a98409/68747470733a2f2f696d6167652e6962622e636f2f6d4743746e6e2f4d6174657269616c5f5468656d652e676966"><img src="https://camo.githubusercontent.com/6931da5263da4f1d19840019abdf2340a2a98409/68747470733a2f2f696d6167652e6962622e636f2f6d4743746e6e2f4d6174657269616c5f5468656d652e676966" alt="" data-canonical-src="https://image.ibb.co/mGCtnn/Material_Theme.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-nord" class="anchor" aria-hidden="true" href="#nord"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code" rel="nofollow">Nord</a></h3>
+<p><a target="_blank" href="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-preview.png"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-preview.png" alt="Nord Theme for VS Code" style="max-width:100%;"></a></p>
+<h3><a id="user-content-plastic" class="anchor" aria-hidden="true" href="#plastic"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=will-stone.plastic" rel="nofollow">Plastic</a></h3>
+<p>Features full workbench theming</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/ed664db0f8d4d03338b4ca5c39097a8614a084d8/68747470733a2f2f77696c6c2d73746f6e652e6769746875622e696f2f706c61737469632f73637265656e73686f742d6d696e2e706e67"><img src="https://camo.githubusercontent.com/ed664db0f8d4d03338b4ca5c39097a8614a084d8/68747470733a2f2f77696c6c2d73746f6e652e6769746875622e696f2f706c61737469632f73637265656e73686f742d6d696e2e706e67" alt="" data-canonical-src="https://will-stone.github.io/plastic/screenshot-min.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-shades-of-purple" class="anchor" aria-hidden="true" href="#shades-of-purple"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple" rel="nofollow">Shades of Purple</a></h3>
+<p>A professional theme with hand-picked &amp; bold shades of purple <g-emoji class="g-emoji" alias="purple_heart" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f49c.png">💜</g-emoji> to go along with your VS Code. A custom VS Code theme with style.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/cf209ed97b7918c9a86adc2cdf867f88c5ac4446/68747470733a2f2f64686134773832643632736d742e636c6f756466726f6e742e6e65742f6974656d732f30333252336930423335335133613375324233462f53637265656e2532305265636f7264696e67253230323031382d30332d3239253230617425323030322e3037253230414d2e676966"><img src="https://camo.githubusercontent.com/cf209ed97b7918c9a86adc2cdf867f88c5ac4446/68747470733a2f2f64686134773832643632736d742e636c6f756466726f6e742e6e65742f6974656d732f30333252336930423335335133613375324233462f53637265656e2532305265636f7264696e67253230323031382d30332d3239253230617425323030322e3037253230414d2e676966" alt="" data-canonical-src="https://dha4w82d62smt.cloudfront.net/items/032R3i0B353Q3a3u2B3F/Screen%20Recording%202018-03-29%20at%2002.07%20AM.gif" style="max-width:100%;"></a></p>
+<h3><a id="user-content-seti" class="anchor" aria-hidden="true" href="#seti"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://marketplace.visualstudio.com/items?itemName=bialikover.theme-seti" rel="nofollow">Seti</a></h3>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/376065/12876209/0c5c2060-cdfd-11e5-9ff9-f3db152fc7fe.png"><img src="https://cloud.githubusercontent.com/assets/376065/12876209/0c5c2060-cdfd-11e5-9ff9-f3db152fc7fe.png" alt="" style="max-width:100%;"></a></p>
+<h1><a id="user-content-resources-for-extension-developers" class="anchor" aria-hidden="true" href="#resources-for-extension-developers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources for extension developers</h1>
+<h2><a id="user-content-documentation" class="anchor" aria-hidden="true" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/extensions/overview" rel="nofollow">Extending Visual Studio Code</a> section of <a href="https://code.visualstudio.com/docs" rel="nofollow">Official Documentation</a></li>
+</ul>
+<h2><a id="user-content-libraries" class="anchor" aria-hidden="true" href="#libraries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Libraries</h2>
+<ul>
+<li><a href="https://github.com/samverschueren/vscode-set-text">vscode-set-text</a> - An easy-to-use VS Code <code>#setText()</code> method.</li>
+<li><a href="https://github.com/mlewand-org/vscode-test-content">vscode-test-content</a> - A method to set/get editor content, and it's selection. Especially useful for unit tests.</li>
+</ul>
+<h2><a id="user-content-tools" class="anchor" aria-hidden="true" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h2>
+<ul>
+<li><a href="http://tmtheme-editor.herokuapp.com/" rel="nofollow">Online TextMate Themes Editor</a> - since VS Code supports TextMate themes, you can create them in this online editor and then create a new VS Code package using <a href="https://code.visualstudio.com/docs/extensions/yocode" rel="nofollow">Yo Code</a> tool</li>
+<li><a href="https://code.visualstudio.com/docs/extensions/yocode" rel="nofollow">Yo Code - Extension Generator</a></li>
+<li><a href="https://github.com/sozercan/OpenInCode">Open in Code</a> - macOS Finder toolbar app to open current folder in Visual Studio Code
+<a target="_blank" href="https://camo.githubusercontent.com/edbae5fe27d6c7af23218e60cb07e3a5061bbbab/687474703a2f2f692e696d6775722e636f6d2f4c6d56484978572e676966"><img src="https://camo.githubusercontent.com/edbae5fe27d6c7af23218e60cb07e3a5061bbbab/687474703a2f2f692e696d6775722e636f6d2f4c6d56484978572e676966" alt="" style="max-width:100%;"></a></li>
+<li><a href="https://themer.mjswensen.com" rel="nofollow">Themer</a> - Easily create your own theme for VS Code (and matching ones for your other tools).</li>
+<li><a href="https://github.com/bradygaster/azure-tools-vscode">Azure Tools for Visual Studio Code</a> - This extension for Visual Studio Code gives Azure developers some convenient commands for creating or accessing resources directly in the editor.
+<a target="_blank" href="https://raw.githubusercontent.com/johnpapa/vscode-azure-functions-tools/master/images/json-schema-function.gif"><img src="https://raw.githubusercontent.com/johnpapa/vscode-azure-functions-tools/master/images/json-schema-function.gif" alt="azure-tools-vscode" style="max-width:100%;"></a></li>
+</ul>
+<h1><a id="user-content-contribute" class="anchor" aria-hidden="true" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contribute</h1>
+<p>Contributions welcome! Read the <a href="/viatsko/awesome-vscode/blob/master/CONTRIBUTING.md">contribution guidelines</a> first.</p>
+<h1><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h1>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667" alt="CC0" data-canonical-src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="https://viatsko.me" rel="nofollow">Valerii Iatsko</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.23331s from unicorn-3835523148-81gk4">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

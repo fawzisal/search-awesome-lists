@@ -1,0 +1,408 @@
+   #Recent
+   Commits to awesome-couchdb:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 6
+     * 55
+     * 5
+
+awesome-couchdb
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   CouchDB - curated meta resources & best practices list
+   couchdb
+   couchdb-wiki
+   couchdb-chat
+   81 commits
+     * 0 releases
+     * Fetchi
+       ng contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/q
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db]Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   CO
+   NTRIBUTING.md
+   [file://localhost/quangv/awesome-couchdb/commit/3d45cc7cca7cf47f7190e9d
+   6939ffbe57918eefc]Create CONTRIBUTING.md Feb 19, 2017
+   README.m
+   d
+   [file://localhost/quangv/awesome-couchdb/commit/6624cc3eacc130c72714273
+   2dea3df067d6a6ccd]add Jaki Feb 12, 2018
+   lo
+   go--couch.png
+   [file://localhost/quangv/awesome-couchdb/commit/a0d74a79ccf3dd5f51f234a
+   96d3330e49d58f7ee]just couch logo Jan 3, 2017
+   logo.png
+   add logo Jan 3, 2017
+
+README.md
+
+   [https://camo.githubusercontent.com/bdfc38bda07c8a37a10b0a55e45d1a4d5ed
+   c68d2/68747470733a2f2f7261776769742e636f6d2f7175616e67762f617765736f6d6
+   52d636f75636864622f6d61737465722f6c6f676f2d2d636f7563682e706e67]awesome
+   couchdb logo
+
+Awesome
+
+     A curated meta resources & best practices list for CouchDB.
+
+   [http://couchdb.apache.org/]CouchDB is a document-oriented NoSQL
+   database that syncs.
+
+   Pull-Requests are welcomed.
+
+Contents
+
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#patterns--best-practices]Patterns & Best Practices
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#mapreduce]Map/Reduce
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#joins]Joins
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#document-versioning]Document Versioning
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#blogs]Blogs
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#docs]Docs
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#books]Books
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#videos]Videos
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#libraries]Libraries
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#community]Community
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#mailing-list]Mailing List
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#companies]Companies
+               o [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awe
+                 some-couchdb#hosting]Hosting
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#related-projects]Related Projects
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#misctechnical]Misc/Technical
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#attachments]Attachments
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#backups]Backups
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#couchapps]CouchApps
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            couchdb#scaling]Scaling
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#resource-lists]Resource Lists
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-couch
+       db#license]License
+
+Patterns & Best Practices
+
+     * [http://ehealthafrica.github.io/couchdb-best-practices/]Best
+       Practices - Best Practices, eHealth Africa.
+     * [https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.
+       html]Pagination strategies with PouchDB
+     * [https://pouchdb.com/2014/06/17/12-pro-tips-for-better-code-with-po
+       uchdb.html]12 pro tips for better code with PouchDB
+     * [https://github.com/assafmo/couchdb-linux-performance]Linux tuning
+       for better CouchDB performance
+
+Map/Reduce
+
+     * [https://pouchdb.com/2014/05/01/secondary-indexes-have-landed-in-po
+       uchdb.html]PouchDB - Secondary Indexes
+     * [https://cloudant.com/blog/mapreduce-from-the-basics-to-the-actuall
+       y-useful/#.WIDBfRsrKUl]Cloudant - MapReduce Primer - Great intro on
+       reduce, group, group_level.
+     * [http://docs.couchdb.org/en/2.0.0/couchapp/views/joins.html#using-v
+       iew-collation]Using View Collation - Index mapping (emits) for data
+       joins.
+     * [http://docs.couchdb.org/en/2.0.0/couchapp/views/collation.html]Vie
+       ws Collation - More documentation on "View Collation".
+     * [https://developer.ibm.com/clouddataservices/docs/cloudant/get-star
+       ted/mapreduce-and-the-secondary-index/]Cloudant - MapReduce and the
+       Secondary Index (Video) - Great videos here on mapReduce, secondary
+       indexes, and complex keys.
+     * [https://docs.cloudant.com/design_documents.html]Cloudant - Design
+       Documents - Cloudant's documentation is also great resource for
+       learning concepts of CouchDB.
+     * [https://docs.cloudant.com/design_document_management.html]Cloudant
+       - Design Document Management - How to manage design doc changes in
+       production.
+
+Joins
+
+     * [http://docs.couchdb.org/en/2.0.0/couchapp/views/joins.html#joins-w
+       ith-views]Joins with Views - Must read for understanding approach
+       on doing efficient joins for CouchDB/PouchDB.
+     * [https://docs.cloudant.com/transactions.html]Grouping related
+       documents together in Cloudant - An approach that leverages CouchDB
+       high availability nature.
+
+Document Versioning
+
+     * [https://wiki.apache.org/couchdb/Document_revisions?action=show&red
+       irect=DocumentRevisions]Document Revisions (from wiki)
+     * [http://web.archive.org/web/20100701165612/http://blog.couch.io/pos
+       t/632718824/simple-document-versioning-with-couchdb]Simple Document
+       Versioning
+
+Blogs
+
+     * [https://blog.couchdb.org/]Official Blog
+
+Docs
+
+     * [http://docs.couchdb.org/]Official Docs
+     * [https://wiki.apache.org/couchdb/Frequently_asked_questions]FAQ
+       (old wiki) - Seems to have more faqs than the
+       [https://cwiki.apache.org/confluence/display/COUCHDB/Frequently+Ask
+       ed+Questions]new wiki.
+
+Books
+
+     * [http://guide.couchdb.org/]The Definitive Guide - CouchDB's "Dog"
+       Book.
+     * [https://cwiki.apache.org/confluence/display/COUCHDB/Books]List of
+       books on the Wiki
+
+Videos
+
+     * [https://www.youtube.com/watch?v=BKQ9kXKoHS810]10 Common
+       Misconceptions - More videos from this
+       [http://conf.couchdb.org/]conference.
+     * [http://nosqltapes.com/]The NoSQL Tapes - CouchDB is discussed on
+       [http://nosqltapes.com/video/hoffman-and-kocoloski-on-cloudant-and-
+       couchdb]Volume 5 - CouchDB,
+       [http://nosqltapes.com/video/understanding-mapreduce-with-mike-mill
+       er]Volume 8 - MapReduce.
+     * [http://www.oreilly.com/pub/e/1760]Scaling Out with BigCouch -
+       O'Reilly video on scaling out with BigCouch.
+     * [https://event.on24.com/eventRegistration/EventLobbyServlet?target=
+       reg20.jsp&partnerref=cdc&eventid=1240121&sessionid=1&key=9E23B44802
+       902EAD0BB2603F0434742E&regTag=35370&sourcepage=register]IBM - The
+       New Builders Webinar Series
+
+Libraries
+
+     * [https://github.com/pandeiro/jaki]Jaki - A simple ClojureScript
+       CouchDB client
+
+Community
+
+     * [http://webchat.freenode.net/?channels=couchdb]IRC -
+       irc://irc.freenode.net/couchdb
+     * [http://conf.couchdb.org/]Apache CouchDB Conf - Lots of video
+       links.
+     * [http://couchdb.apache.org/bylaws.html]Bylaws,
+       [https://whimsy.apache.org/board/minutes/CouchDB.html]Minutes
+
+Mailing List
+
+     -dev is where developers of couchdb chat, -user is where users of
+     couchdb chat and there's some crosstalk ofc -dev is appropriate if
+     you're talking about changes to couchdb itself ("developer" doesn't
+     mean you have to have a commit bit or anything) -rnewson
+
+     * [https://mail-archives.apache.org/mod_mbox/#couchdb]Mailing Lists
+     * [http://svn.apache.org/repos/asf/couchdb/site/htdocs/community/list
+       s.html?p=900000]Mailing Lists Description
+     * [http://grokbase.com/s/couchdb]Grokbase - Mailing lists in a
+       [http://stackoverflow.com/questions/tagged/couchdb]Stack
+       Overflow-like interface.
+
+   [http://people.apache.org/committers-by-project.html#couchdb]The
+   Amazing CouchDB Committers and Project Managers »
+
+Companies
+
+     * [https://www.couchbase.com/]Couchbase - NoSQL database.
+     * [https://github.com/eHealthAfrica]eHealth Africa - Big user of
+       CouchDB, check out their
+       [https://github.com/eHealthAfrica/couchdb-best-practices]best
+       practices.
+
+Hosting
+
+     * [https://cloudant.com/]Cloudant - Distributed database as a service
+       (DBaaS).
+     * [https://www.smileupps.com/]Smileupps - CouchDB hosting.
+     * [http://www.iriscouch.com/]IrisCouch - Cloud CouchDB.
+     * [https://bitnami.com/stack/couchdb/cloud/google]Bitnami Launchpad
+       for Google Cloud Platform - Host CouchDB on Google Cloud Platform.
+
+Related Projects
+
+     * [https://pouchdb.com/]PouchDB - A pocket-sized database.
+     * [http://hood.ie/]Hoodie - A backend for Offline First applications.
+
+Misc/Technical
+
+     * [https://web.archive.org/web/20160311144130/https://cloudant.com/bl
+       og/dynamo-and-couchdb-clusters/#.WIEp4xsrKUk]Dynamo and CouchDB
+       Clusters - Article about scaling CouchDB, using clusters.
+     * [http://research.google.com/archive/sawzall.html]Google's paper on
+       Sawzall - Exotic Reductions Examples.
+     * [http://www.dimagi.com/blog/what-every-developer-should-know-about-
+       couchdb/]What Every Developer Should Know About CouchDB - Article
+       about lessons learned.
+     * [http://www.nosql.se/2011/09/couchdb-maximum-database-size/]CouchDB
+       Maximum Database Size
+     * [http://horicky.blogspot.com/2009/11/nosql-patterns.html]NOSQL
+       Patterns
+     * [https://eclipsesource.com/blogs/2009/12/13/persistent-trees-in-git
+       -clojure-and-couchdb-data-structure-convergence/]Persistent Trees
+       in git, Clojure and CouchDB
+
+Attachments
+
+     * [https://pouchdb.com/2014/06/17/12-pro-tips-for-better-code-with-po
+       uchdb.html]PouchDB - Attachments are overrated - "Update: since
+       this post was written, the stability and performance of attachments
+       in PouchDB has greatly improved. ..."
+     * [https://docs.cloudant.com/attachments.html#performance-considerati
+       ons]Cloudant - Attachments Performance Considerations
+     * [http://grokbase.com/t/couchdb/user/14a1phbzrb/are-attachments-dupl
+       icated-for-each-revision-as-well]Are attachments duplicated for
+       each revision? - Mailing list discussion about attachments across
+       revisions.
+
+Backups
+
+     * [https://developer.ibm.com/clouddataservices/2016/03/22/simple-couc
+       hdb-and-cloudant-backup/]Simple CouchDB and Cloudant Backup -
+       Article on IBM about backups.
+     * [https://docs.cloudant.com/backup-guide.html]Cloudant Backup Guide
+       - Cloudant docs on backups.
+
+CouchApps
+
+     * [https://couchapp.readthedocs.io/en/latest/user/list-of-couchapps.h
+       tml]List of CouchApps
+     * [http://ddoc.me/]Ddoc Lab - Create couchapps and CouchDB design
+       docs right in your browser.
+
+Scaling
+
+     * [https://bitnami.com/stack/couchdb]Bitnami CouchDB - Bitnami makes
+       it easy to run CouchDB in the cloud.
+
+Resource Lists
+
+     * [https://cwiki.apache.org/confluence/display/COUCHDB/Apache+CouchDB
+       +Wiki]Official CouchDB Wiki
+     * [https://wiki.apache.org/couchdb/]Official CouchDB Wiki (old) -
+       Some things aren't on new wiki yet.
+     * [https://docs.cloudant.com/guides.html]Cloudant Official Guides -
+       Applicable to CouchDB.
+     * [https://cwiki.apache.org/confluence/display/COUCHDB/CouchDB+client
+       s]List of CouchDB Clients
+     * [https://cwiki.apache.org/confluence/display/COUCHDB/Useful+utiliti
+       es]List of CouchDB Useful Utilities
+     * [https://wiki.apache.org/couchdb/Related_Projects]Old Wiki's
+       Related Projects List
+
+License
+
+   [http://creativecommons.org/licenses/by/4.0/]Creative Commons License
+   This work is licensed under a
+   [http://creativecommons.org/licenses/by/4.0/]Creative Commons
+   Attribution 4.0 International License.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   R
+   eload to refresh your session. You signed out in another tab or window.
+   R
+   eload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

@@ -1,0 +1,541 @@
+   #Rece
+   nt Commits to awesome-coins:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign
+   in or Sign up
+
+     * 132
+     * 2,692
+     * 158
+
+awesome-coins
+
+   Code
+   Pull requests 1
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   ¿ A guide (for humans!) to cryto-currencies and their algos.
+   [https://coinbin.org/]https://coinbin.org/
+   algorithms
+   ethereum
+   awesome-list
+   wallet
+   nicehash
+   documentation
+   168
+       commits
+     * 1 branch
+     * Fe
+       tching contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/k
+   Downloa
+   d ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * Branches
+     * Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/kennethreitz/awesome-coins/tree/c11565540447c20ee25cc
+   adb019a5f8198586106]Permalink
+   Failed to load latest commit information.
+   CODE_OF_CONDUCT.md
+   Create CODE_OF_CONDUCT.md Sep 14, 2017
+   CONTRIBUTING.md
+   Create CONTRIBUTING.md Sep 14, 2017
+   LICENS
+   E
+   Create LICENSE Sep 14, 2017
+   READ
+   ME.md
+   Added some publications Mar 28, 2018
+   R
+   EADME_CN.md
+   Simplified Chinese version of your readme Jan 24,
+   2018
+   other
+   .md
+   [file://localhost/kennethreitz/awesome-coins/commit/b2663e23c0e5cfad124
+   189a6e9f655203cf46d7e]Update other.md Aug 23, 2017
+
+README.md
+
+¿ Awesome Crypto Currency Tools & Algorithms
+
+   [https://github.com/kennethreitz/awesome-coins]GitHub stars
+   [https://github.com/sindresorhus/awesome]Awesome
+   [https://saythanks.io/to/kennethreitz]Say Thanks!
+
+   From Wikipedia--
+
+     A [https://en.m.wikipedia.org/wiki/Cryptocurrency]cryptocurrency is
+     a digital asset designed to work as a medium of exchange using
+     cryptography to secure the transactions and to control the creation
+     of additional units of the currency.
+
+   There are many algorithms used in many different crypto-currencies.
+   This document serves to provide a simple map to reference which are for
+   what, as well as provide a nice list of helpful services and utilities
+   for managing coins.
+
+So, Before We Begin...
+
+   Some of this "coin" stuff may be confusing, if you're new. So, let me
+   explain what I know so far --
+
+   There are many, many [http://coinbin.org/coins]coins. People like to
+   [https://www.cryptopia.co.nz/Register?referrer=kennethreitz]trade them,
+   not unlike stocks or Pokémon cards. People also like to
+   [https://www.nicehash.com/?refby=386829]mine them, using their home
+   computers or specialized hardware.
+
+   Coins are stored in wallets. These can be hosted online, on your local
+   computer, or even on a sheet of paper.
+
+   It's hard to mine a coin on your own, and is a bit like gambling, so
+   people usually opt to join a pool (which typically use the stratum
+   protocol to coordinate) -- this rewards you for your work, even if you
+   didn't find anything, because you helped contribute with thousands of
+   other people, some of whom did find blocks. The blocks are then split
+   up, based on the pool's rules.
+
+   Some people [https://www.nicehash.com/?refby=386829]rent hashing power
+   from farms and either play the "blockchain lottery", trying to find
+   blocks of coins on their own, or they point the farm at a pool, like a
+   typical home miner -- except they have a tremendously high amount of
+   computational power available to them, if they're willing to pay for
+   it.
+
+   Hope that helps clear things up.
+
+2TS Support Causes You Care About
+
+     * [https://wikileaks.org/]Wikileaks BTC:
+       1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v
+     * [https://archive.org/]Internet Archive BTC:
+       1Archive1n2C579dMsAu3iC6tWzuQJz8dN
+     * [https://thepiratebay.org/]The Pirate Bay BTC:
+       129TQVAroeehD9fZpzK51NdZGQT4TqifbG
+     * [https://xkcd.com/]xkcd BTC: 14Tr4HaKkKuC1Lmpr2YMAuYVZRWqAdRTcr
+     * [https://github.com/kennethreitz/awesome-coins]this repo BTC:
+       1Me2iXTJ91FYZhrGvaGaRDCBtnZ4KdxCug
+
+2TS Coin Market Tools & Utilities
+
+     * [http://coinbin.org/]Coinbin.org -- Human-friendly API for quickly
+       getting coin data (exchange rates, predictions, &c.)
+          + [http://coinbin.org/coins]List of All Known Coins /coins
+          + [http://coinbin.org/btc]BTC Current Value /btc
+          + [http://coinbin.org/btc/history]BTC Daily Historical Value
+            /btc/history
+          + [http://coinbin.org/btc/to/eth]BTC / ETH Exchange Rate
+            /btc/to/eth
+          + [http://coinbin.org/btc/20.01]20.01 BTC Value /btc/20.01
+          + [http://coinbin.org/eth/42/to/btc]42 ETH Value in BTC
+            /eth/42/to/btc
+          + Supports all crypto-currencies.
+     * [https://coinmarketcap.com/]CoinMarketCap -- Shows all currencies
+       on a real-time dashboard.
+     * [https://moneyhash.today/]MoneyHash -- Compare money markets with
+       available hashing power and profitability on NiceHash.
+
+2TS Reading Material
+
+     * [https://github.com/kilimchoi/cryptocurrency]Overview of
+       Cryptocurrencies -- GitHub Repo.
+     * [http://mapofcoins.com/]Map of Coins - Explore the visualized
+       history of the cryptocurrencies, from their whitepapers up to
+       present days.
+     * [http://diyhpl.us/%7Ebryan/papers2/bitcoin/]A massive collection of
+       white papers
+     * [https://github.com/bitcoinbook/bitcoinbook]Mastering Bitcoin
+       (ebook)
+     * [https://bitcoin.org/en/developer-reference]Bitcoin Developer
+       Reference
+     * [https://github.com/anderson-joyle/blockchain-for-humans]Blockchain
+       for humans -- Ultra-simplified blockchain explanation (in
+       construction).
+     * [https://www.reddit.com/r/CryptoCurrency/]r/CryptoCurrency --
+       Official subreddit about crypto-currencies and crypto-assets.
+     * Publications
+          + [https://medium.com/@cryptoeconomics]Cryptoeconomics / The
+            team at cryptoeconomics.com.au
+          + [https://vinnylingham.com/]Minessence / Vinny Lingham,
+            Co-founder & CEO of Civic.com
+          + [https://medium.com/crypto-oracle]CryptoOracle / Lou Kerner
+          + [https://cryptocurrencyhub.io/]CryptoCurrencyHub
+          + Hackernoon's
+               o [https://hackernoon.com/blockchain/home]Blockchain
+               o [https://hackernoon.com/bitcoin/home]Bitcoin
+               o [https://medium.com/@coinandcrypto]Coin & Crypto
+               o [https://hackernoon.com/@dan.jeffries]Daniel Jeffries
+
+2TS Coin Mining Pools
+
+   Here's a list of [https://whattomine.com/]WhatToMine.
+     * #:
+       [https://www.nicehash.com/?refby=386829]https://www.nicehash.com/
+       -- Mine any algo (optimized for your GPU) & get paid in BTC.
+     * BTC: [https://pool.bitcoin.com/]https://pool.bitcoin.com/
+     * ETH: [https://eth.nanopool.org/]https://eth.nanopool.org/
+     * SC: [https://sia.nanopool.org/]https://sia.nanopool.org/
+     * PASC: [https://pasc.nanopool.org/]https://pasc.nanopool.org/
+     * XMR: [https://xmr.nanopool.org/]https://xmr.nanopool.org/
+     * ZEC: [https://zec.nanopool.org/]https://zec.nanopool.org/
+     * ETC: [https://etc.nanopool.org/]https://etc.nanopool.org/
+
+2TS Hashing Power for Rent
+
+     * [https://www.nicehash.com/?refby=386829]NiceHash -- Supports all
+       popular algos, pay in BTC for raw throughput.
+     * [https://pool.bitcoin.com/index_en.html]Bitcoin.com Pool -- I've
+       heard good things.
+     * [https://bitmainwarranty.com/product-category/hosting/]BitMain
+       Hosted -- Looks complicated and sketchy, but they offer hosted ASIC
+       solutions.
+
+2TS Coin Wallets
+
+Hosted Coin Wallets
+
+   Notice: the coin community frowns upon use of these services, as you
+   are not in direct control of your coins -- in fact, you don't own them
+   at all -- the service does -- much like the way a standard bank
+   operates.
+     * [https://www.coinbase.com/join/516f7e9a929bda3e06000001]Coinbase
+       BTC
+     * [https://www.coinbase.com/join/516f7e9a929bda3e06000001]Coinbase
+       ETH
+     * [https://www.coinbase.com/join/516f7e9a929bda3e06000001]Coinbase
+       LTC
+
+   Actual Hosted Coin Wallets:
+     * [https://www.myetherwallet.com/]MyEtherWallet ETH
+     * [https://my.dogechain.info/#/wallet]Dogechain DOGE
+     * [https://wallet.gamecredits.com/dashboard/myWallet]Gamecredits GAME
+
+Coin Debit Cards
+
+     * [https://cryptopay.me/join/03db9c17]Cryptopay BTC Debit Card
+
+Physical Coin Wallets
+
+     * [https://siapaperwallet.co/]Sia Paper Wallet
+     * [https://walletgenerator.net/]WalletGenerator.net
+     * [https://cryptosteel.com/]Cryptosteel -- Made of steel!
+
+2TS Coin Exchanges
+
+     * [https://www.cryptopia.co.nz/Register?referrer=kennethreitz]Cryptop
+       ia -- Wallets for all currencies, trading to/from all currencies.
+     * [https://shapeshift.io/#/coins]Shapeshift -- The fastest exchange
+       on Earth.
+     * [https://bittrex.com/]Bittrex -- Wallets for all currencies,
+       trading to/from all currencies.
+     * [https://qvolta.com/]Qvolta -- Sell and buy crypto assets around
+       the world for local payment methods.
+     * [https://coinwale.com/]Coinwale - Anonymous cryptocurrency
+       exchange.
+
+2TS Universal GUI Apps
+
+     * [http://sia.tech/apps/]Sia UI -- SC wallet, file hosting, storage.
+     * [https://lbry.io/]LBRY -- LBRY wallet, media consumption &
+       publishing platform.
+
+2TS Windows GUI Apps
+
+     * [https://miner.nicehash.com/?refby=386829]NiceHash Miner -- Resells
+       your GPU/CPU to miners for profit! Benchmarks all algos against
+       your hardware, and automatically picks the most profitable
+       configuration (adjustable).
+
+   [https://miner.nicehash.com/?refby=386829]
+     * [https://minergate.com/]MinerGate - Mine the most profitable
+       cryptocurrency.
+
+2TS MacOS GUI Apps
+
+     * [http://macminer.fabulouspanda.com/macminer/]MacMiner -- Wraps
+       bfgminer, cgminer, and sgminer in a GUI.
+
+2TS MacOS CLI Apps
+
+     * [http://macminer.fabulouspanda.com/commandline/]bfgminer -- Modular
+       ASIC/FPGA miner written in C, featuring overclocking, monitoring,
+       fan speed control and remote interface capabilities.
+     * [http://macminer.fabulouspanda.com/commandline/]cgminer -- ASIC and
+       FPGA miner in C for Bitcoin.
+     * [http://macminer.fabulouspanda.com/commandline/]sgminer -- Scrypt
+       GPU miner.
+     * [https://github.com/kozyilmaz/nheqminer-macos]nheqminer -- Equihash
+       CPU & GPU miner.
+
+2TS Recommended Hardware
+
+     * [http://amzn.to/2wl1c9j]NVidia GTX 1080 TI OC -- The most powerful
+       consumer graphics card in the world.
+     * [http://amzn.to/2xadkYk]Asrock H110 Pro BTC+ Mining Motherboard
+       -- Can apparently host 12x PCI-E GPUs.
+
+2TS Cool Coin/Blockchain Stuff
+
+     * [https://github.com/ofek/bit]Bit -- Python's fastest Bitcoin
+       library with an API allowing transactions to be made in only 3
+       lines of code.
+     * [http://bcoin.io/]bcoin -- Bitcoin fullnode implementation written
+       entirely in Node.js that you can even run in a browser, includes
+       wallet, mempool, chain, and mining.
+     * [https://core.jochen-hoenicke.de/queue/#4d]BTC Mempol and Fee
+       Explorer
+     * [https://www.tezos.com/]Tezos -- Self-healing blockchain.
+     * [https://tendermint.com/]Tendermint -- Byzantine fault-tolerant
+       replicated state machines in any programming language.
+     * [https://cosmos.network/]Cosmos -- Network and a framework for
+       interoperability between blockchains.
+     * [https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-Augus
+       t/010712.html]URI scheme for Blockchain exploration
+     * [https://blockply.com/]Blockply -- Collection of the most
+       interesting and outstanding blockchain projects
+     * [https://github.com/anders94/blockchain-demo]Blockchain demo --
+       Web-based demonstration of blockchain concepts.
+
+NiceHash Stratum Proxy
+
+     * Scrypt (Litecoin / [http://coinbin.org/ltc]LTC)
+     * SHA256 (Bitcoin / [http://coinbin.org/btc]BTC)
+     * ScryptNF (Scrypt-Adaptive-Nfactor) (GPU Coin, GPUC)
+     * X11 (Dash / Darkcoin, Dashcoin, ASIC-Resistant)
+     * X13 (MaruCoin / MARU) (CPU/GPU)
+     * Keccak (MaxCoin / MAX)
+     * X15 (HTML5 Coin, HTML5)
+     * Nist5 (Talkcoin, TAC)
+     * NeoScrypt (Phoenixcoin (PXC), Imperialcoin (IPC), Feathercoin
+       (FTC), UFOcoin (UFO), Guncoin (GUN), Bollywoodcoin (BDC), Orbitcoin
+       (ORB), Halcyon (HAL))
+     * Lyra2RE (VertCoin / VTC, CryptoCoin)
+     * WhirlpoolX (Vanillacoin / VNL)
+     * Qubit (QuibitCoin / Q2C)
+     * Quark (QRK)
+     * Axiom (Axiom Coin / AXIOM)
+     * Lyra2REv2 (VertCoin / VTC)
+     * ScryptJaneNf16 (Diamond / DMD)
+     * Blake256r8 (Blake Coin / BLC)
+     * Blake256r14 (Blake Coin / BLC)
+     * Blake256r8vnl (Blake Coin / BLC)
+     * Hodl (HodlCoin / HODL)
+     * DaggerHashimoto (Ethereum / ETH)
+     * Decred (DCR)
+     * CryptoNight (XCN, CPU-only)
+     * Lbry (LBC)
+     * Equihash (Zcash / XEC, ZClassic, HUSH, Komodo)
+     * Pascal (PASC)
+     * X11Gost (SIBCoin / SIB)
+     * Sia (SC)
+     * Blake2s (NevaCoin, Netko Coin, Verge, TajCoin)
+     * Skunk (Signatum Coin / SIGT)
+
+   [https://github.com/kennethreitz/awesome-coins/blob/master/other.md](ot
+   hers)
+
+2TS Every Active Coin, Ranked
+
+   As of 2017-08-23:
+
+   [https://coinbin.org/btc]btc [https://coinbin.org/eth]eth
+   [https://coinbin.org/xrp]xrp [https://coinbin.org/ltc]ltc
+   [https://coinbin.org/etc]etc [https://coinbin.org/xem]xem
+   [https://coinbin.org/miota]miota [https://coinbin.org/dash]dash
+   [https://coinbin.org/bts]bts [https://coinbin.org/strat]strat
+   [https://coinbin.org/xmr]xmr [https://coinbin.org/zec]zec
+   [https://coinbin.org/gnt]gnt [https://coinbin.org/bcn]bcn
+   [https://coinbin.org/waves]waves [https://coinbin.org/steem]steem
+   [https://coinbin.org/sc]sc [https://coinbin.org/icn]icn
+   [https://coinbin.org/xlm]xlm [https://coinbin.org/bcc]bcc
+   [https://coinbin.org/lsk]lsk [https://coinbin.org/doge]doge
+   [https://coinbin.org/rep]rep [https://coinbin.org/ans]ans
+   [https://coinbin.org/fct]fct [https://coinbin.org/game]game
+   [https://coinbin.org/ardr]ardr [https://coinbin.org/gno]gno
+   [https://coinbin.org/maid]maid [https://coinbin.org/dgb]dgb
+   [https://coinbin.org/dcr]dcr [https://coinbin.org/kmd]kmd
+   [https://coinbin.org/gbyte]gbyte [https://coinbin.org/bat]bat
+   [https://coinbin.org/nxt]nxt [https://coinbin.org/dgd]dgd
+   [https://coinbin.org/1st]1st [https://coinbin.org/veri]veri
+   [https://coinbin.org/mgo]mgo [https://coinbin.org/usdt]usdt
+   [https://coinbin.org/sngls]sngls [https://coinbin.org/nmr]nmr
+   [https://coinbin.org/sys]sys [https://coinbin.org/btcd]btcd
+   [https://coinbin.org/pivx]pivx [https://coinbin.org/ant]ant
+   [https://coinbin.org/ubq]ubq [https://coinbin.org/mcap]mcap
+   [https://coinbin.org/emc]emc [https://coinbin.org/ppc]ppc
+   [https://coinbin.org/ppy]ppy [https://coinbin.org/ark]ark
+   [https://coinbin.org/round]round [https://coinbin.org/lkk]lkk
+   [https://coinbin.org/rlc]rlc [https://coinbin.org/rdd]rdd
+   [https://coinbin.org/sjcx]sjcx [https://coinbin.org/qrl]qrl
+   [https://coinbin.org/mln]mln [https://coinbin.org/xas]xas
+   [https://coinbin.org/lbc]lbc [https://coinbin.org/amp]amp
+   [https://coinbin.org/wings]wings [https://coinbin.org/nxs]nxs
+   [https://coinbin.org/leo]leo [https://coinbin.org/nmc]nmc
+   [https://coinbin.org/xcp]xcp [https://coinbin.org/xvg]xvg
+   [https://coinbin.org/bay]bay [https://coinbin.org/edg]edg
+   [https://coinbin.org/blk]blk [https://coinbin.org/omni]omni
+   [https://coinbin.org/myst]myst [https://coinbin.org/xzc]xzc
+   [https://coinbin.org/nlg]nlg [https://coinbin.org/via]via
+   [https://coinbin.org/burst]burst [https://coinbin.org/cfi]cfi
+   [https://coinbin.org/vtc]vtc [https://coinbin.org/cloak]cloak
+   [https://coinbin.org/mona]mona [https://coinbin.org/xaur]xaur
+   [https://coinbin.org/eac]eac [https://coinbin.org/dice]dice
+   [https://coinbin.org/grc]grc [https://coinbin.org/ybc]ybc
+   [https://coinbin.org/block]block [https://coinbin.org/obits]obits
+   [https://coinbin.org/nav]nav [https://coinbin.org/vsl]vsl
+   [https://coinbin.org/trst]trst [https://coinbin.org/pot]pot
+   [https://coinbin.org/hmq]hmq [https://coinbin.org/exp]exp
+   [https://coinbin.org/gup]gup [https://coinbin.org/tkn]tkn
+   [https://coinbin.org/bash]bash [https://coinbin.org/xdn]xdn
+   [https://coinbin.org/edr]edr [https://coinbin.org/ioc]ioc
+   [https://coinbin.org/enrg]enrg [https://coinbin.org/rads]rads
+   [https://coinbin.org/note]note [https://coinbin.org/nxc]nxc
+   [https://coinbin.org/shift]shift [https://coinbin.org/moon]moon
+   [https://coinbin.org/wdc]wdc [https://coinbin.org/unity]unity
+   [https://coinbin.org/xel]xel [https://coinbin.org/qau]qau
+   [https://coinbin.org/taas]taas [https://coinbin.org/bnt]bnt
+   [https://coinbin.org/xbc]xbc [https://coinbin.org/sky]sky
+   [https://coinbin.org/ion]ion [https://coinbin.org/snt]snt
+   [https://coinbin.org/agrs]agrs [https://coinbin.org/neos]neos
+   [https://coinbin.org/qrk]qrk [https://coinbin.org/zrc]zrc
+   [https://coinbin.org/vrc]vrc [https://coinbin.org/dbix]dbix
+   [https://coinbin.org/storj]storj [https://coinbin.org/fun]fun
+   [https://coinbin.org/eos]eos [https://coinbin.org/sls]sls
+   [https://coinbin.org/mco]mco [https://coinbin.org/soar]soar
+   [https://coinbin.org/swt]swt [https://coinbin.org/dbic]dbic
+   [https://coinbin.org/dct]dct [https://coinbin.org/adt]adt
+   [https://coinbin.org/sib]sib [https://coinbin.org/pay]pay
+   [https://coinbin.org/draco]draco [https://coinbin.org/chc]chc
+   [https://coinbin.org/mtl]mtl [https://coinbin.org/fair]fair
+   [https://coinbin.org/uny]uny [https://coinbin.org/plu]plu
+   [https://coinbin.org/daxx]daxx [https://coinbin.org/qtum]qtum
+   [https://coinbin.org/san]san [https://coinbin.org/grs]grs
+   [https://coinbin.org/ppt]ppt [https://coinbin.org/crw]crw
+   [https://coinbin.org/wbb]wbb [https://coinbin.org/mue]mue
+   [https://coinbin.org/safex]safex [https://coinbin.org/ter]ter
+   [https://coinbin.org/omg]omg [https://coinbin.org/plbt]plbt
+   [https://coinbin.org/net]net [https://coinbin.org/cvc]cvc
+   [https://coinbin.org/xrl]xrl [https://coinbin.org/bdl]bdl
+   [https://coinbin.org/b@]b@ [https://coinbin.org/part]part
+   [https://coinbin.org/coe]coe [https://coinbin.org/skin]skin
+   [https://coinbin.org/plr]plr [https://coinbin.org/nvc]nvc
+   [https://coinbin.org/etp]etp [https://coinbin.org/anc]anc
+   [https://coinbin.org/bch]bch [https://coinbin.org/cmp]cmp
+   [https://coinbin.org/mny]mny [https://coinbin.org/stx]stx
+   [https://coinbin.org/ico]ico [https://coinbin.org/neo]neo
+   [https://coinbin.org/dtb]dtb [https://coinbin.org/nlc2]nlc2
+   [https://coinbin.org/gas]gas [https://coinbin.org/btm]btm
+   [https://coinbin.org/bnb]bnb [https://coinbin.org/dnt]dnt
+   [https://coinbin.org/bqx]bqx [https://coinbin.org/adx]adx
+   [https://coinbin.org/lun]lun [https://coinbin.org/frst]frst
+   [https://coinbin.org/tix]tix [https://coinbin.org/dent]dent
+   [https://coinbin.org/snm]snm [https://coinbin.org/eb3]eb3
+   [https://coinbin.org/zrx]zrx [https://coinbin.org/oax]oax
+   [https://coinbin.org/ixt]ixt [https://coinbin.org/tcc]tcc
+   [https://coinbin.org/cat]cat
+     __________________________________________________________________
+
+Find this useful?
+
+   If you'd like to donate towards my efforts in the open source world,
+   you can use the following wallet addresses, and any contributions (no
+   matter how small) will be deeply appreciated.
+     * [http://coinbin.org/btc]BTC: 1Me2iXTJ91FYZhrGvaGaRDCBtnZ4KdxCug
+     * [http://coinbin.org/eth]ETH:
+       0x1321Ec9c7550a7c44ef3e583930556c6557411d1
+     * [http://coinbin.org/ltc]LTC: Lbyje2eiSMPfE1Ux6BYJuzN9CS7Nj78Hpu
+     * [http://coinbin.org/lbc]LBC: bYDCRLb2Pcp1V25sRZs1LJkVnaddsNVCAQ
+     * [http://coinbin.org/sc]SC:
+       f23294ad70d2315f68a3265331508a44cd5363b8365f4ece91efd2365548b8f0760
+       d34a8f884
+
+   Or, [http://saythanks.io/to/kennethreitz]Say Thanks!
+
+   ¨°¨
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Rel
+   oad to refresh your session. You signed out in another tab or window.
+   Rel
+   oad to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

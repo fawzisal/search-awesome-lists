@@ -1,0 +1,1814 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - ramitsurana/awesome-kubernetes: A curated list for awesome kubernetes sources</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/8342133?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="ramitsurana/awesome-kubernetes" /><meta property="og:url" content="https://github.com/ramitsurana/awesome-kubernetes" /><meta property="og:description" content="awesome-kubernetes - A curated list for awesome kubernetes sources :ship::tada:" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E159:5D4F:312D7E0:58B157B:5AD2F6E9" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E159:5D4F:312D7E0:58B157B:5AD2F6E9" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZjdmMjBkNjJhNzMxY2JlMjA2YzU0NDA4YzY5NjRiNGFlN2UzNzRiNjQxODVkOGEwZjFiZjVjNzMzODc5MzBiYnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTE1OTo1RDRGOjMxMkQ3RTA6NThCMTU3Qjo1QUQyRjZFOSIsInRpbWVzdGFtcCI6MTUyMzc3NTIxMCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="6ec4cc7cb2fae6f11a1cad285e6f9aa490175dec">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/ramitsurana/awesome-kubernetes/commits/master.atom" rel="alternate" title="Recent Commits to awesome-kubernetes:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-kubernetes - A curated list for awesome kubernetes sources :ship::tada:">
+  <meta name="go-import" content="github.com/ramitsurana/awesome-kubernetes git https://github.com/ramitsurana/awesome-kubernetes.git">
+
+  <meta name="octolytics-dimension-user_id" content="8342133" /><meta name="octolytics-dimension-user_login" content="ramitsurana" /><meta name="octolytics-dimension-repository_id" content="44315167" /><meta name="octolytics-dimension-repository_nwo" content="ramitsurana/awesome-kubernetes" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="44315167" /><meta name="octolytics-dimension-repository_network_root_nwo" content="ramitsurana/awesome-kubernetes" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/ramitsurana/awesome-kubernetes" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/ramitsurana/awesome-kubernetes/search" data-unscoped-search-url="/search" action="/ramitsurana/awesome-kubernetes/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/ramitsurana/awesome-kubernetes">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Framitsurana%2Fawesome-kubernetes" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Framitsurana%2Fawesome-kubernetes"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/ramitsurana/awesome-kubernetes/watchers"
+     aria-label="191 users are watching this repository">
+    191
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Framitsurana%2Fawesome-kubernetes"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/ramitsurana/awesome-kubernetes/stargazers"
+      aria-label="2435 users starred this repository">
+      2,435
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Framitsurana%2Fawesome-kubernetes"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/ramitsurana/awesome-kubernetes/network" class="social-count"
+       aria-label="353 users forked this repository">
+      353
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/ramitsurana">ramitsurana</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/ramitsurana/awesome-kubernetes">awesome-kubernetes</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /ramitsurana/awesome-kubernetes" href="/ramitsurana/awesome-kubernetes">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /ramitsurana/awesome-kubernetes/issues" href="/ramitsurana/awesome-kubernetes/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">2</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /ramitsurana/awesome-kubernetes/pulls" href="/ramitsurana/awesome-kubernetes/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /ramitsurana/awesome-kubernetes/projects" href="/ramitsurana/awesome-kubernetes/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >1</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /ramitsurana/awesome-kubernetes/wiki" href="/ramitsurana/awesome-kubernetes/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /ramitsurana/awesome-kubernetes/pulse" href="/ramitsurana/awesome-kubernetes/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wBy19yG5HYL6d228PLkewaEvE8wihFkLFhLcbXQgH7/Gk47TtwO088EwT1/1dqidVRlPtsMUnKRT+tnFP21gtw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list for awesome kubernetes sources <g-emoji class="g-emoji" alias="ship" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f6a2.png">🚢</g-emoji><g-emoji class="g-emoji" alias="tada" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
+
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="https://ramitsurana.github.io/awesome-kubernetes">https://ramitsurana.github.io/awesome…</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/ramitsurana/awesome-kubernetes/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/kubernetes" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:kubernetes">
+        kubernetes
+      </a>
+      <a href="/topics/minikube" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:minikube">
+        minikube
+      </a>
+      <a href="/topics/meetup" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:meetup">
+        meetup
+      </a>
+      <a href="/topics/resource" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:resource">
+        resource
+      </a>
+      <a href="/topics/kubernetes-sources" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:kubernetes-sources">
+        kubernetes-sources
+      </a>
+      <a href="/topics/google-cloud" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:google-cloud">
+        google-cloud
+      </a>
+      <a href="/topics/kubernetes-cluster" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:kubernetes-cluster">
+        kubernetes-cluster
+      </a>
+      <a href="/topics/deploy-kubernetes" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:deploy-kubernetes">
+        deploy-kubernetes
+      </a>
+      <a href="/topics/aws" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:aws">
+        aws
+      </a>
+      <a href="/topics/coreos" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:coreos">
+        coreos
+      </a>
+      <a href="/topics/enterprise-kubernetes-products" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:enterprise-kubernetes-products">
+        enterprise-kubernetes-products
+      </a>
+      <a href="/topics/monitoring-kubernetes" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:monitoring-kubernetes">
+        monitoring-kubernetes
+      </a>
+      <a href="/topics/azure" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:azure">
+        azure
+      </a>
+      <a href="/topics/schedule" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:schedule">
+        schedule
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/ramitsurana/awesome-kubernetes/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                562
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/ramitsurana/awesome-kubernetes/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/ramitsurana/awesome-kubernetes/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              3
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/ramitsurana/awesome-kubernetes/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      112
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/ramitsurana/awesome-kubernetes/search?l=makefile"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#427819;"></span>
+                  <span class="lang">Makefile</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Makefile 100.0%" style="width:100.0%; background-color:#427819;" itemprop="keywords">Makefile</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/ramitsurana/awesome-kubernetes.git" aria-label="Clone this repository at https://github.com/ramitsurana/awesome-kubernetes.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/ramitsurana/awesome-kubernetes.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/ramitsurana/awesome-kubernetes/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/ramitsurana/awesome-kubernetes/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/ramitsurana/awesome-kubernetes/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ramitsurana/awesome-kubernetes/tree/v3.0"
+              data-name="v3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v3.0">
+                v3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ramitsurana/awesome-kubernetes/tree/v2.0"
+              data-name="v2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0">
+                v2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/ramitsurana/awesome-kubernetes/tree/v.1.0"
+              data-name="v.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v.1.0">
+                v.1.0
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/ramitsurana/awesome-kubernetes/tree-commit/9c6f03d2ead26e5f242dbc4d80d222edf40c9f95" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/ramitsurana/awesome-kubernetes/tree/9c6f03d2ead26e5f242dbc4d80d222edf40c9f95">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="guidelines" id="9e929538e031d150090fd4e14a74a285-cea571ec69eb3cb87fae501f329a001f95477bbd" href="/ramitsurana/awesome-kubernetes/tree/master/guidelines">guidelines</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Formated CRITERIA_OF_SUBMISSION" class="message" href="/ramitsurana/awesome-kubernetes/commit/a527a13f563192916583254c4e3af786c02fed06">Formated CRITERIA_OF_SUBMISSION</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-21T08:03:48Z">Mar 21, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-a91daa64594b7b2a883a3f6a69c7bce53758e204" href="/ramitsurana/awesome-kubernetes/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add ibm" class="message" href="/ramitsurana/awesome-kubernetes/commit/9fb68386175efc977a7f1dceef867226b9f30188">Add ibm</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-14T17:12:25Z">Mar 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Dockerfile" id="3254677a7917c6c01f55212f86c57fbf-b69270db511c43e4ee04e7cc9366d8ee7c9367d5" href="/ramitsurana/awesome-kubernetes/blob/master/Dockerfile">Dockerfile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixed Docker build
+
+Use `#` instead of `//` for comments :)" class="message" href="/ramitsurana/awesome-kubernetes/commit/27ae11cf66824e7642e5dcb034e6c878a1dc2c57">Fixed Docker build</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-13T12:37:19Z">Feb 13, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-4bae9141317459a2c0db6fcd0ad6927aa22f84d2" itemprop="license" href="/ramitsurana/awesome-kubernetes/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Updated License to Creative Common" class="message" href="/ramitsurana/awesome-kubernetes/commit/fe59046447b7e91d109a31ed7b79022e2d0706c2">Updated License to Creative Common</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-24T05:04:21Z">Oct 24, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Maintainers.md" id="86553f2a886eb9ed106304ed697dab44-faa81b71942f420e385589f8b089c14a181c8346" href="/ramitsurana/awesome-kubernetes/blob/master/Maintainers.md">Maintainers.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create Maintainers.md" class="message" href="/ramitsurana/awesome-kubernetes/commit/2f6cc3385b63095c7eabcd1fb95506ba6d418db9">Create Maintainers.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-21T07:40:58Z">Jan 21, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Makefile" id="b67911656ef5d18c4ae36cb6741b7965-75ec95a969cc14c8c8dbb3171575107126ae1a6e" href="/ramitsurana/awesome-kubernetes/blob/master/Makefile">Makefile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add mechanism to test links at dev machine" class="message" href="/ramitsurana/awesome-kubernetes/commit/badcc118fdfc163bfb87e4aacafe760862274a39">Add mechanism to test links at dev machine</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-22T04:45:43Z">Sep 22, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-867dab32138db00fe68184563bebf93db34f4ed3" href="/ramitsurana/awesome-kubernetes/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="several new entries, correct Weaveworks links" class="message" href="/ramitsurana/awesome-kubernetes/commit/9c6f03d2ead26e5f242dbc4d80d222edf40c9f95">several new entries, correct Weaveworks links</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-14T08:25:14Z">Apr 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="_config.yml" id="aeb42283af8ef8e9da40ededd3ae2ab2-c4192631f25b34d77a7f159aa0da0e3ae99c4ef4" href="/ramitsurana/awesome-kubernetes/blob/master/_config.yml">_config.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Set theme jekyll-theme-cayman" class="message" href="/ramitsurana/awesome-kubernetes/commit/8ef1c6e5249e4b7c5d1f70a1225f09d4734188ca">Set theme jekyll-theme-cayman</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-12-17T11:55:47Z">Dec 17, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="book.json" id="609ea0a435d067757e821e3114b666a1-9e26dfeeb6e641a33dae4961196235bdb965b21b" href="/ramitsurana/awesome-kubernetes/blob/master/book.json">book.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create book.json" class="message" href="/ramitsurana/awesome-kubernetes/commit/366efd137e3c8c3992fa4087a13989fd7d55fe98">Create book.json</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-26T19:00:53Z">Jan 26, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="cover.jpg" id="4b1c59c7728e2b1cb65f6cb20aaf5cf9-9f6c2f8f5d8f0f827245180ff0534c09e335eedb" href="/ramitsurana/awesome-kubernetes/blob/master/cover.jpg">cover.jpg</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add files" class="message" href="/ramitsurana/awesome-kubernetes/commit/67ef07b2af598040be78c84e435120830e156e67">Add files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-06-01T19:30:19Z">Jun 1, 2016</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-kubernetes" class="anchor" aria-hidden="true" href="#awesome-kubernetes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome-Kubernetes</h1>
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a>
+<a href="https://travis-ci.org/ramitsurana/awesome-kubernetes" rel="nofollow"><img src="https://camo.githubusercontent.com/5f29b1916702a40370ecca787ec5c54bc30672db/68747470733a2f2f7472617669732d63692e6f72672f72616d6974737572616e612f617765736f6d652d6b756265726e657465732e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/ramitsurana/awesome-kubernetes.svg?branch=master" style="max-width:100%;"></a>
+<a href="https://semaphoreci.com/ramitsurana/awesome-kubernetes" rel="nofollow"><img src="https://camo.githubusercontent.com/f2335237d97d488f4c232121d4f8586913003c06/68747470733a2f2f73656d6170686f726563692e636f6d2f6170692f76312f72616d6974737572616e612f617765736f6d652d6b756265726e657465732f6272616e636865732f6d61737465722f62616467652e737667" alt="Build Status" data-canonical-src="https://semaphoreci.com/api/v1/ramitsurana/awesome-kubernetes/branches/master/badge.svg" style="max-width:100%;"></a>
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/46df4a363345889fecd3ed4194e51c2b3c453594/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4343253230342e302d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265" alt="License" data-canonical-src="https://img.shields.io/badge/License-CC%204.0-brightgreen.svg?style=flat-square" style="max-width:100%;"></a>
+<a href="https://hub.docker.com/r/ramitsurana/awesome-kubernetes" rel="nofollow"><img src="https://camo.githubusercontent.com/1499ad08a66989e61b06242a8dc903782fc1fbbe/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f6275696c642f72616d6974737572616e612f617765736f6d652d6b756265726e657465732e7376673f7374796c653d666c61742d737175617265" alt="Docker Build Status" data-canonical-src="https://img.shields.io/docker/build/ramitsurana/awesome-kubernetes.svg?style=flat-square" style="max-width:100%;"></a>
+<a href="https://kubernetes.slack.com/messages/awesome-kubernetes" rel="nofollow"><img src="https://camo.githubusercontent.com/984828c0b020357921853f59eaaa65aaee755542/68747470733a2f2f73332e65752d63656e7472616c2d312e616d617a6f6e6177732e636f6d2f6e6774756e612f6a6f696e2d75732d6f6e2d736c61636b2e706e67" alt="Slack Widget" style="max-width:100%;"></a></p>
+<p>A curated list for awesome kubernetes sources
+Inspired by <a href="https://github.com/sindresorhus/awesome">@sindresorhus' awesome</a></p>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/8342133/26794201/62c1a006-4a3e-11e7-8bf9-4449814648f2.png"><img src="https://cloud.githubusercontent.com/assets/8342133/26794201/62c1a006-4a3e-11e7-8bf9-4449814648f2.png" alt="final-k8s" style="max-width:100%;"></a></p>
+<blockquote>
+<p>"Talent wins games, but teamwork and intelligence wins championships."</p>
+<p>-- Michael Jordan</p>
+</blockquote>
+<p>Without the help from these <a href="https://github.com/ramitsurana/awesome-kubernetes/graphs/contributors">amazing contributors</a>,
+building this awesome-repo would never has been possible. Thank You very much guys !!</p>
+<p><strong>Thanks to Gitbook.This awesome list can now be downloaded and read in the form of a book.Check it out --&gt;  <a href="https://www.gitbook.com/book/ramitsurana/awesome-kubernetes/" rel="nofollow">https://www.gitbook.com/book/ramitsurana/awesome-kubernetes/</a> .Keep Learning Keep Sharing !!</strong></p>
+<p><strong>If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!</strong></p>
+<h2><a id="user-content-what-is-kubernetes-ship" class="anchor" aria-hidden="true" href="#what-is-kubernetes-ship"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is Kubernetes? <g-emoji class="g-emoji" alias="ship" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f6a2.png">🚢</g-emoji></h2>
+<blockquote>
+<p>Kubernetes is an open source orchestration system for Docker containers. It handles scheduling onto nodes in a compute cluster and actively manages workloads to ensure that their state matches the users declared intentions. Using the concepts of "labels" and "pods", it groups the containers which make up an application into logical units for easy management and discovery.</p>
+</blockquote>
+<p><em>Source:</em> <a href="http://kubernetes.io/" rel="nofollow">What is Kubernetes</a></p>
+<h2><a id="user-content-history" class="anchor" aria-hidden="true" href="#history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>History:</h2>
+<p><strong>Kubernetes is known to be a descendant of Google's system BORG</strong></p>
+<blockquote>
+<p>The first unified container-management system developed at Google was the system we internally call Borg.
+It was built to manage both long-running services and batch jobs, which had previously been handled by two separate
+systems: Babysitter and the Global Work Queue. The latter’s architecture strongly influenced Borg, but was focused on
+batch jobs; both predated Linux control groups.</p>
+</blockquote>
+<p><em>Source:</em> <a href="http://research.google.com/pubs/archive/44843.pdf" rel="nofollow">Kubernetes Past</a></p>
+<h2><a id="user-content-date-of-birth" class="anchor" aria-hidden="true" href="#date-of-birth"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Date of Birth:</h2>
+<p>Kubernetes celebrates its birthday every year on 21st July. Kubernetes 1.0 was released on July 21 2015, after being first announced to the public at <a href="https://www.youtube.com/watch?v=YrxnVKZeqK8" rel="nofollow">Dockercon in June 2014</a>.</p>
+<h2><a id="user-content-roadmap" class="anchor" aria-hidden="true" href="#roadmap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Roadmap</h2>
+<p>The awesome-kubernetes will now soon be available in the form of different releases and package bundles, It means that you can
+download the awesome kubernetes release up to a certain period of time, The release for awesome kubernetes 2015 bundle is released.Checkout the releases column for more info.Stay tuned for more updates.</p>
+<hr>
+<h1><a id="user-content-menu" class="anchor" aria-hidden="true" href="#menu"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Menu</h1>
+<ul>
+<li><a href="#starting-point">Starting Point</a></li>
+<li><a href="#installation-or-setup">Installation / Setup</a>
+<ul>
+<li><a href="#kubernetesv1.8">Kubernetesv1.8</a></li>
+</ul>
+</li>
+<li><a href="#installers">Installers</a></li>
+<li><a href="#main-resources">Main Resources</a></li>
+<li><a href="#release-notes">Release Notes</a></li>
+<li><a href="#useful-articles">Useful Articles</a></li>
+<li><a href="#managed-kubernetes">Managed Kubernetes</a>
+<ul>
+<li><a href="#developer-platform">Developer Platform</a></li>
+<li><a href="#enterprise-kubernetes-products">Enterprise Kubernetes Products</a></li>
+<li><a href="#publicprivate-cloud">Public/Private Cloud</a></li>
+<li><a href="#paas">Paas</a></li>
+</ul>
+</li>
+<li><a href="#interactive-learning-environments">Interactive Learning Environments</a></li>
+<li><a href="#courses-or-tutorials">MOOC Courses / Tutorials</a></li>
+<li><a href="#case-studies">Case Studies</a></li>
+<li><a href="#persistent-volume-providers">Persistent Volume Providers</a></li>
+<li><a href="#developer-libraries-scripts">Useful Libraries/Scripts</a>
+<ul>
+<li><a href="#python">Python</a></li>
+<li><a href="#jenkins">Jenkins</a></li>
+</ul>
+</li>
+<li><a href="#projects">Projects</a>
+<ul>
+<li><a href="#related-software">Related Software</a></li>
+</ul>
+</li>
+<li><a href="#monitoring-services">Monitoring Services</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#continuous-delivery">Continuous Delivery</a></li>
+<li><a href="#serverless-implementations">Serverless Implementations</a></li>
+<li><a href="#operators">Operators</a></li>
+<li><a href="#custom-schedulers">Custom Schedulers</a></li>
+<li><a href="#container-support">Container Support</a></li>
+<li><a href="#database">Database/NoSQL</a></li>
+<li><a href="#networking">Networking</a></li>
+<li><a href="#service-mesh">Service mesh</a></li>
+<li><a href="#rpc">RPC</a></li>
+<li><a href="#secret-generation-and-management">Secret generation and management</a></li>
+<li><a href="#web-applications">Web applications</a></li>
+<li><a href="#desktop-applications">Desktop applications</a></li>
+<li><a href="#mobile-applications">Mobile applications</a></li>
+<li><a href="#apicli-adaptors">API/CLI adaptors</a></li>
+<li><a href="#application-deployment-orchestration">Application deployment orchestration</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#load-balancing">Load balancing</a></li>
+<li><a href="#developer-platform">Developer platform</a></li>
+<li><a href="#big-data">Big Data</a></li>
+<li><a href="#machine-learning">Machine Learning</a></li>
+<li><a href="#service-discovery">Service Discovery</a></li>
+<li><a href="#operating-system">Operating System</a></li>
+<li><a href="#yamljson-config">YAML/JSON Config</a></li>
+<li><a href="#tuning">Tuning</a></li>
+<li><a href="#backup-and-disaster-recovery">Backup and Disaster Recovery</a></li>
+<li><a href="#raspberry-pi">Raspberry Pi</a></li>
+<li><a href="#books">Books</a> <g-emoji class="g-emoji" alias="books" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji></li>
+<li><a href="#slide-presentations">Slide Presentations</a></li>
+<li><a href="#videos">Videos</a> <g-emoji class="g-emoji" alias="tv" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4fa.png">📺</g-emoji>
+<ul>
+<li><a href="#main-account">Main Account</a></li>
+<li><a href="#other-useful-videos">Other Useful videos</a></li>
+</ul>
+</li>
+<li><a href="#interesting-twitter-accounts">Interesting Twitter Accounts</a></li>
+<li><a href="#amazing-people">Amazing People</a></li>
+<li><a href="#meetup-groups">Meetup Groups</a></li>
+<li><a href="#connecting-with-kubernetes">Connecting with Kubernetes</a></li>
+<li><a href="#conferences">Conferences</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<hr>
+<h1><a id="user-content-starting-point" class="anchor" aria-hidden="true" href="#starting-point"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Starting Point</h1>
+<p><em>A place that marks the beginning of a journey</em></p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1JqcALpsg07eH665ZXQrIvOcin6SzzsIUjMRRVivrZMg/edit?usp=sharing" rel="nofollow">Kubernetes Community Overview and Contributions Guide</a> by <a href="https://twitter.com/idvoretskyi/" rel="nofollow">Ihor Dvoretskyi</a></li>
+<li><a href="http://blog.jetstack.io/blog/k8s-getting-started-part1/" rel="nofollow">Are you Ready to Manage your Infrastructure like Google?</a></li>
+<li><a href="http://www.businessinsider.in/Google-is-years-ahead-when-it-comes-to-the-cloud-but-its-happy-the-world-is-catching-up/articleshow/47793327.cms" rel="nofollow">Google is years ahead when it comes to the cloud, but it's happy the world is catching up</a></li>
+<li><a href="http://www.ctl.io/developers/blog/post/what-is-kubernetes-and-how-to-use-it/" rel="nofollow">An Intro to Google’s Kubernetes and How to Use It</a> by <a href="https://twitter.com/rhein_wein" rel="nofollow">Laura Frank</a></li>
+<li><a href="http://containertutorials.com/get_started_kubernetes/index.html" rel="nofollow">Getting Started on Kubernetes</a> by <a href="https://twitter.com/rajdeepdua" rel="nofollow">Rajdeep Dua</a></li>
+<li><a href="https://github.com/meteorhacks/meteorhacks.github.io/blob/master/_posts/2015-04-22-learn-kubernetes-the-future-of-the-cloud.md">Kubernetes: The Future of Cloud Hosting</a> by <a href="https://twitter.com/meteorhacks" rel="nofollow">Meteorhacks</a></li>
+<li><a href="http://thevirtualizationguy.wordpress.com/tag/kubernetes/" rel="nofollow">Kubernetes by Google</a> by <a href="https://twitter.com/GastonPantana" rel="nofollow">Gaston Pantana</a></li>
+<li><a href="http://blog.arungupta.me/key-concepts-kubernetes/" rel="nofollow">Key Concepts</a> by <a href="https://twitter.com/arungupta" rel="nofollow">Arun Gupta</a></li>
+<li><a href="http://keithtenzer.com/2015/06/01/application-containers-kubernetes-and-docker-from-scratch/" rel="nofollow">Application Containers: Kubernetes and Docker from Scratch</a> by <a href="https://twitter.com/keithtenzer" rel="nofollow">Keith Tenzer</a></li>
+<li><a href="http://omerio.com/2015/12/18/learn-the-kubernetes-key-concepts-in-10-minutes/" rel="nofollow">Learn the Kubernetes Key Concepts in 10 Minutes</a> by <a href="https://twitter.com/omerio" rel="nofollow">Omer Dawelbeit</a></li>
+<li><a href="http://supergiant.io/blog/top-reasons-businesses-should-move-to-kubernetes-now" rel="nofollow">Top Reasons Businesses Should Move to Kubernetes Now</a> by <a href="https://github.com/gopherstein">Mike Johnston</a></li>
+<li><a href="http://deis.com/blog/2016/kubernetes-illustrated-guide/" rel="nofollow">The Children's Illustrated Guide to Kubernetes</a> by <a href="https://github.com/deis">Deis</a></li>
+<li><a href="http://medium.com/@mhausenblas/the-kubectl-run-command-27c68de5cb76#.mlwi5an7o" rel="nofollow">The ‘kubectl run’ command</a> by <a href="https://twitter.com/mhausenblas" rel="nofollow">Michael Hausenblas</a></li>
+<li><a href="https://github.com/xiaopeng163/docker-k8s-lab">Docker Kubernetes Lab Handbook</a> by <a href="https://twitter.com/xiaopeng163" rel="nofollow">Peng Xiao</a></li>
+<li><a href="https://hackr.io/tutorials/learn-kubernetes" rel="nofollow">Curated Resources for Kubernetes</a></li>
+<li><a href="https://cloud.google.com/kubernetes-engine/kubernetes-comic/" rel="nofollow">Kubernetes Comic</a> by <a href="https://cloud.google.com/" rel="nofollow">Google Cloud Plaatform</a></li>
+<li><a href="https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16" rel="nofollow">Kubernetes 101: Pods, Nodes, Containers, and Clusters</a> by <a href="https://medium.com/@sanche" rel="nofollow">Dan Sanche</a></li>
+</ul>
+<h1><a id="user-content-installation--setup" class="anchor" aria-hidden="true" href="#installation--setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation / Setup</h1>
+<p><em>Helpful Installation/Setup articles for Production Usage in Kubernetes</em></p>
+<h3><a id="user-content-kubernetesv18" class="anchor" aria-hidden="true" href="#kubernetesv18"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#kubernetesv1.8">Kubernetesv1.8</a></h3>
+<ul>
+<li><a href="https://mritd.me/2017/10/09/set-up-kubernetes-1.8-ha-cluster/" rel="nofollow">Set up kubernetes 1.8 ha cluster</a></li>
+</ul>
+<h1><a id="user-content-installers" class="anchor" aria-hidden="true" href="#installers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installers</h1>
+<ul>
+<li><a href="https://github.com/kubernetes/minikube">Minikube</a> - Run Kubernetes locally</li>
+<li><a href="https://github.com/kubernetes/kops">Kops</a> - OS Agnostique - AWS - <a href="https://github.com/kubernetes/kops/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kubernetes/kube-deploy">Kube-deploy</a></li>
+<li><a href="http://kubernetes.io/docs/admin/kubeadm/" rel="nofollow">Kubeadm</a> - OS Agnostique - Cloud Agnostique - <a href="https://github.com/kubernetes/kubeadm/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kubernetes-incubator/kubespray">Kubespray</a> - OS Agnostique - Cloud Agnostique - <a href="https://github.com/kubernetes-incubator/kubespray/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kubernetes-incubator/bootkube">Bootkube</a> - CoreOS - Cloud Agnostique - <a href="https://github.com/kubernetes-incubator/bootkube/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/coreos/kube-aws">Kube-aws</a> - CoreOS - AWS - <a href="https://github.com/coreos/kube-aws/blob/master/CONTRIBUTING.md">Apache-2.0</a></li>
+<li><a href="https://github.com/apprenda/kismatic">Kismatic</a> - CentOS - Cloud Agnostique - <a href="https://github.com/apprenda/kismatic/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://jujucharms.com/canonical-kubernetes" rel="nofollow">Juju</a> - Ubuntu - Cloud Agnostique - <a href="https://github.com/juju-solutions/bundle-canonical-kubernetes/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kz8s/tack">Terraform</a> - CoreOS - AWS - <a href="https://github.com/kz8s/tack/blob/master/LICENSE">MIT</a></li>
+<li><a href="http://supergiant.io/" rel="nofollow">Supergiant</a> - CoreOS - Cloud Agnostique - <a href="https://github.com/supergiant/supergiant/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kubeup/archon">Archon</a> - OS Agnostique - Cloud Agnostique - <a href="https://github.com/kubeup/archon/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kubenow/KubeNow">KubeNow</a> - Ubuntu - Cloud Agnostique - <a href="https://github.com/kubenow/KubeNow/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/kris-nova/kubicorn">Kubicorn</a> - OS Agnostique - Cloud Agnostique - <a href="https://github.com/kris-nova/kubicorn/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://github.com/valentin2105/Simplekube">Simplekube</a> - <code>systemd</code> OS - Cloud Agnostique</li>
+<li><a href="https://github.com/conjure-up/conjure-up">Conjure-up</a> - Ubuntu - Cloud Agnostique - <a href="https://github.com/conjure-up/conjure-up/blob/master/LICENSE">MIT</a></li>
+<li><a href="https://github.com/kairen/kube-ansible">Kube-ansible</a> - OS Agnostique - Cloud Agnostique - <a href="https://github.com/kairen/kube-ansible/blob/master/LICENSE">MIT</a></li>
+<li><a href="https://github.com/valentin2105/Kubernetes-Saltstack">Kubernetes-Saltstack</a> - <code>systemD</code> OS - Cloud Agnostique</li>
+<li><a href="https://github.com/coreos/matchbox">matchbox</a> - CoreOS - Network boot and provision Container Linux clusters (e.g. etcd3, Kubernetes, more).</li>
+<li><a href="https://github.com/rancher/rke">RKE</a> - OS Agnostique - Cloud Agnostique - <a href="https://github.com/rancher/rke/blob/master/LICENSE">Apache-2.0</a></li>
+<li><a href="https://typhoon.psdn.io/" rel="nofollow">Typhoon</a> - Container Linux - Cloud Agnostique - <a href="https://github.com/poseidon/typhoon/blob/master/LICENSE">MIT</a></li>
+</ul>
+<h1><a id="user-content-main-resources" class="anchor" aria-hidden="true" href="#main-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Main Resources</h1>
+<p><em>Official resources from the Kubernetes team</em></p>
+<ul>
+<li><a href="https://kubernetes.io/docs/home/" rel="nofollow">Kubernetes Documentation</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/">Kubernetes Source</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/" rel="nofollow">Kubernetes Troubleshooting</a></li>
+</ul>
+<h1><a id="user-content-release-notes" class="anchor" aria-hidden="true" href="#release-notes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Release Notes</h1>
+<p><em>Official release notes from the Kubernetes team on Stable Kubernetes Releases</em></p>
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.10.md">Kubernetes-1.10</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.9.md">Kubernetes-1.9</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.8.md">Kubernetes-1.8</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.7.md">Kubernetes-1.7</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.6.md">Kubernetes-1.6</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.5.md">Kubernetes-1.5</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.4.md">Kubernetes-1.4</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.3.md">Kubernetes-1.3</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.2.md">Kubernetes-1.2</a></li>
+</ul>
+<h1><a id="user-content-useful-articles" class="anchor" aria-hidden="true" href="#useful-articles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Useful Articles</h1>
+<p><em>A piece of writing included with others in a newspaper, magazine, or other publication</em></p>
+<ul>
+<li><a href="http://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services" rel="nofollow">Installation on Centos 7</a></li>
+<li><a href="http://blog.arungupta.me/kubernetes-application-package-multiple-resources-together/" rel="nofollow">Packaging Multiple Resources together</a></li>
+<li><a href="http://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes" rel="nofollow">An Introduction to Kubernetes</a> by <a href="https://twitter.com/jmellingwood" rel="nofollow">Justin Ellingwood</a></li>
+<li><a href="http://www.infoq.com/articles/scaling-docker-with-kubernetes" rel="nofollow">Scaling Docker with Kubernetes</a> by <a href="https://twitter.com/csanchez" rel="nofollow">Carlos Sanchez</a></li>
+<li><a href="http://access.redhat.com/articles/1353773" rel="nofollow">Creating a Kubernetes Cluster to Run Docker Formatted Container Images</a> by <a href="https://twitter.com/linuxcricket" rel="nofollow">Chris Negus</a></li>
+<li><a href="http://www.linkedin.com/pulse/containerizing-docker-kubernetes-ramit-surana" rel="nofollow">Containerizing Docker on Kubernetes !!</a> by <a href="https://twitter.com/ramitsurana" rel="nofollow">Ramit Surana</a></li>
+<li><a href="http://coreos.com/blog/quay-application-registry-for-kubernetes.html" rel="nofollow">Quay: Introducing an Application Registry for Kubernetes</a> by Antoine Legrand</li>
+<li><a href="http://zwischenzugs.wordpress.com/2015/04/06/play-with-kubernetes-quickly-using-docker/" rel="nofollow">Play With Kubernetes Quickly Using Docker</a></li>
+<li><a href="http://sebgoa.blogspot.in/2015/04/1-command-to-kubernetes-with-docker.html" rel="nofollow">1 command to Kubernetes with Docker compose</a> by <a href="https://twitter.com/sebgoa" rel="nofollow">Sebastien Goasguen</a></li>
+<li><a href="http://containertutorials.com/get_started_kubernetes/k8s_example.html" rel="nofollow">Nginx Server Deployment using Kubernetes</a> by <a href="https://www.twitter.com/rajdeepdua" rel="nofollow">Rajdeep Dua</a></li>
+<li><a href="http://kamalmarhubi.com/blog/2015/08/27/what-even-is-a-kubelet/" rel="nofollow">What even is a kubelet?</a> by <a href="https://twitter.com/kamalmarhubi" rel="nofollow">Kamal Marhubi</a></li>
+<li><a href="http://kamalmarhubi.com/blog/2015/09/06/kubernetes-from-the-ground-up-the-api-server/" rel="nofollow">Kubernetes from the ground up: the API server</a> by <a href="https://twitter.com/kamalmarhubi" rel="nofollow">Kamal Marhubi</a></li>
+<li><a href="http://www.dasblinkenlichten.com/kubernetes-101-networking/" rel="nofollow">Kubernetes 101 – Networking</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://www.dasblinkenlichten.com/dynamic-kubernetes-installationconfiguration-with-saltstack/" rel="nofollow">Dynamic Kubernetes installation/configuration with SaltStack</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://www.dasblinkenlichten.com/deploying-kubernetes-with-saltstack/" rel="nofollow">Deploying Kubernetes with SaltStack</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://www.dasblinkenlichten.com/logging-in-kubernetes-with-fluentd-and-elasticsearch/" rel="nofollow">Logging in Kubernetes with Fluentd and Elasticsearch</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://developer.rackspace.com/blog/running-coreos-and-kubernetes/" rel="nofollow">Corekube: Running Kubernetes on CoreOS via OpenStack</a> by <a href="https://twitter.com/mikemetral" rel="nofollow">Mike Metral</a></li>
+<li><a href="https://coreos.com/kubernetes/docs/latest/getting-started.html" rel="nofollow">CoreOS + Kubernetes Step By Step</a> by <a href="https://twitter.com/coreoslinux" rel="nofollow">Coreos</a></li>
+<li><a href="http://www.ctl.io/developers/blog/post/deploying-to-kubernetes-with-panamax/" rel="nofollow">Deploying to Kubernetes with Panamax</a> by <a href="https://twitter.com/bdehamer" rel="nofollow">Brian DeHamer</a></li>
+<li><a href="http://www.projectatomic.io/blog/2015/08/fun-with-kubenetes-and-atomicapp/" rel="nofollow">Deploy Kubernetes with a Single Command Using Atomicapp</a> by <a href="https://twitter.com/jasonbrooks" rel="nofollow">Jason Brooks</a></li>
+<li><a href="http://blog.jameskyle.org/2014/08/deploying-baremetal-kubernetes-cluster/" rel="nofollow">Deploying a Bare Metal Kubernetes Cluster</a> by <a href="https://twitter.com/jameskyle75" rel="nofollow">James Kyle</a></li>
+<li><a href="http://awsadvent.tumblr.com/post/104260597799/aws-advent-2014-coreos-and-kubernetes-on-aws" rel="nofollow">AWS Advent 2014 - CoreOS and Kubernetes on AWS</a> by <a href="https://twitter.com/dysinger" rel="nofollow">Tim Dsyinger</a></li>
+<li><a href="http://ben.straub.cc/2015/08/19/kubernetes-aws-vpc-peering/" rel="nofollow">Kubernetes and AWS VPC Peering</a> by <a href="https://twitter.com/benstraub" rel="nofollow">Ben Straub</a></li>
+<li><a href="http://insights.ubuntu.com/2015/07/23/deploy-a-kubernetes-development-cluster-with-juju-2/" rel="nofollow">Deploy a Kubernetes development cluster with Juju!</a> by <a href="https://twitter.com/mattatcanonical" rel="nofollow">Matt Bruzek</a></li>
+<li><a href="http://lollyrock.com/articles/kubernetes-vagrant/" rel="nofollow">Try Kubernetes with Vagrant</a> by <a href="https://twitter.com/chri_hartmann" rel="nofollow">Christoph Hartmann</a></li>
+<li><a href="http://blog.keycloak.org/2015/04/keycloak-on-kubernetes-with-openshift-3.html" rel="nofollow">Keycloak on Kubernetes with OpenShift 3</a> by <a href="https://twitter.com/mstruk2000" rel="nofollow">Marko Strukelj</a></li>
+<li><a href="http://ttboj.wordpress.com/2015/05/02/kubernetes-clusters-with-oh-my-vagrant/" rel="nofollow">Kubernetes clusters with Oh-My-Vagrant</a> by <a href="https://twitter.com/#!/purpleidea" rel="nofollow">James</a></li>
+<li><a href="http://blog.michaelhamrah.com/2015/06/fleet-unit-files-for-kubernetes-on-coreos/" rel="nofollow">Fleet Unit Files for Kubernetes on CoreOS</a> by <a href="https://twitter.com/mhamrah" rel="nofollow">Michael Hamrah</a></li>
+<li><a href="http://coreos.com/kubernetes/docs/latest/kubernetes-on-aws.html" rel="nofollow">Kubernetes on AWS</a> by <a href="https://twitter.com/coreoslinux" rel="nofollow">CoreOS</a></li>
+<li><a href="http://alanwill.me/Testing-Kubernetes-on-AWS/" rel="nofollow">Testing Kubernetes on AWS</a> by <a href="https://twitter.com/alanwill" rel="nofollow">Alan Will</a></li>
+<li><a href="http://blog.dutchcoders.io/kubernetes-first-steps-on-amazon-aws/" rel="nofollow">Kubernetes: First steps on Amazon AWS</a> by <a href="http://blog.dutchcoders.io/author/remco/" rel="nofollow">Remco</a></li>
+<li><a href="http://keithtenzer.com/2015/05/04/kubernetes-container-orchestration-through-java-apis/" rel="nofollow">Kubernetes Container Orchestration through Java APIs</a> by <a href="https://twitter.com/keithtenzer" rel="nofollow">Keith Tenzer</a></li>
+<li><a href="http://keithtenzer.com/2015/04/15/containers-at-scale-with-kubernetes-on-openstack/" rel="nofollow">Containers at Scale with Kubernetes on OpenStack</a> by <a href="https://twitter.com/keithtenzer" rel="nofollow">Keith Tenzer</a></li>
+<li><a href="http://www.dasblinkenlichten.com/installing-cadvisor-and-heapster-on-bare-metal-kubernetes/" rel="nofollow">Installing cAdvisor and Heapster on bare metal Kubernetes</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://technologyconversations.com/2015/11/04/docker-clustering-tools-compared-kubernetes-vs-docker-swarm/" rel="nofollow">Docker Clustering Tools Compared: Kubernetes vs Docker Swarm</a></li>
+<li><a href="http://machinezone.github.io/research/networking-solutions-for-kubernetes/" rel="nofollow">Comparison of Networking Solutions for Kubernetes</a></li>
+<li><a href="http://www.sdxcentral.com/articles/news/why-docker-and-google-kubernetes-are-like-paas-done-right/2015/08/" rel="nofollow">Why Docker and Google Kubernetes Are Like PaaS Done Right</a></li>
+<li><a href="http://www.dasblinkenlichten.com/kubernetes-authentication-plugins-and-kubeconfig/" rel="nofollow">Kubernetes Authentication plugins and kubeconfig</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://www.dasblinkenlichten.com/kubernetes-with-saltstack-revisited/" rel="nofollow">Kubernetes with SaltStack revisited</a> by <a href="https://twitter.com/blinken_lichten" rel="nofollow">Jon Langemak</a></li>
+<li><a href="http://www.devoperandi.com/kubernetes-authentication-openid-connect/" rel="nofollow">Kubernetes Authentication - OpenID Connect</a> by <a href="https://twitter.com/DevoperandI" rel="nofollow">Michael Ward</a></li>
+<li><a href="http://sysdig.com/blog/monitoring-kubernetes-with-sysdig-cloud/" rel="nofollow">How to Monitor Kubernetes: A 4-Part Series</a></li>
+<li><a href="http://www.devoperandi.com/logging-kafka-topic-by-kubernetes-namespace/" rel="nofollow">Logging - Kafka topic by namespace</a> by <a href="https://twitter.com/DevoperandI" rel="nofollow">Michael Ward</a></li>
+<li><a href="http://theremotelab.com/blog/achieving-ci-cd-with-k8s/" rel="nofollow">Achieving CI/CD with Kubernetes</a> by <a href="https://twitter.com/ramitsurana" rel="nofollow">Ramit Surana</a></li>
+<li><a href="http://www.datadoghq.com/blog/monitoring-kubernetes-era/" rel="nofollow">Kubernetes Monitoring Guide</a> by <a href="http://github.com/JayJayM">JM Saponaro</a></li>
+<li><a href="http://solinea.com/blog/deploying-kubernetes-ansible-terraform" rel="nofollow">Deploying Kubernetes with Ansible and Terraform</a></li>
+<li><a href="http://www.devoperandi.com/cluster-consul-using-kubernetes-api/" rel="nofollow">Cluster Consul using Kubernetes API</a></li>
+<li><a href="http://semaphoreci.com/community/tutorials/continuous-deployment-with-google-container-engine-and-kubernetes" rel="nofollow">Continuous Deployment with Google Container Engine and Kubernetes</a></li>
+<li><a href="http://scotch.io/tutorials/google-cloud-platform-iii-handling-sensitive-data-in-a-docker-application-with-kubernetes-secrets" rel="nofollow">Handling Sensitive Data In A Docker Application with Kubernetes Secrets</a> by <a href="https://twitter.com/_kar_is" rel="nofollow">John Kariuki </a></li>
+<li><a href="http://linoxide.com/containers/create-use-kubernetes-secrets/" rel="nofollow">How to Create and Use Kubernetes Secrets</a> by <a href="http://linoxide.com/author/mohamedez/" rel="nofollow">Mohamed Ez Ez</a></li>
+<li><a href="http://netsil.com/microservices-monitoring-kubernetes/" rel="nofollow">Microservice Monitoring in Kubernetes with Netsil</a> by <a href="https://twitter.com/baldwinmathew" rel="nofollow">Matt Baldwin</a></li>
+<li><a href="https://github.com/Langhalsdino/Kubernetes-GPU-Guide">Automate deep learning training with Kubernetes GPU-cluster</a></li>
+<li><a href="https://github.com/gravitational/workshop/blob/master/k8sprod.md">Kubernetes Production Patterns (and Anti-Patterns)</a></li>
+<li><a href="https://aws.amazon.com/blogs/compute/kubernetes-clusters-aws-kops/" rel="nofollow">Manage Kubernetes Clusters on AWS Using Kops</a></li>
+<li><a href="http://www.dasblinkenlichten.com/kubernetes-with-saltstack-revisited/" rel="nofollow">Kubernetes with SaltStack revisited</a></li>
+<li><a href="https://www.suse.com/communities/blog/introducing-kubic-project-new-open-source-project/" rel="nofollow">Introducing Kubic Project</a></li>
+<li><a href="http://blog.alexellis.io/tag/learn-k8s/" rel="nofollow">Three post learn k8s</a></li>
+<li><a href="http://opsnotice.xyz/kubernetes-tips-tricks/" rel="nofollow">Kubernetes tips &amp; tricks</a></li>
+<li><a href="http://radu-matei.com/blog/kubernetes-jenkins-azure/" rel="nofollow">Jenkins declarative pipelines with Kubernetes</a></li>
+<li><a href="http://medium.com/@arthur.souzamiranda/kubernetes-with-openstack-cloud-provider-current-state-and-upcoming-changes-part-1-of-2-48b161ea449a" rel="nofollow">Kubernetes with OpenStack Cloud Provider: Current state and upcoming changes (part 1 of 2)</a></li>
+<li><a href="http://chrislovecnm.com/kuberentes/cni/choosing-a-cni-provider/?1234" rel="nofollow">Choosing a CNI Provider for Kubernetes</a> by <a href="https://twitter.com/chrislovecnm" rel="nofollow">Chris Love</a></li>
+<li><a href="https://www.projectcalico.org/enable-ipv6-on-kubernetes-with-project-calico/" rel="nofollow">Enable IPv6 on Kubernetes with Project Calico</a> by <a href="https://twitter.com/Valentin_NC" rel="nofollow">Valentin Ouvrard</a></li>
+<li><a href="https://opsnotice.xyz/kubernetes-ipv6-only/" rel="nofollow">Kubernetes in IPV6-only</a> by <a href="https://twitter.com/Valentin_NC" rel="nofollow">Valentin Ouvrard</a></li>
+<li><a href="https://rinormaloku.com/introduction-application-architecture/" rel="nofollow">Kubernetes and everything else - Introduction to Kubernetes and it's context</a> by <a href="https://twitter.com/rinormaloku" rel="nofollow">Rinor Maloku</a></li>
+<li><a href="http://dzone.com/articles/gitops-high-velocity-cicd-for-kubernetes" rel="nofollow">GitOps: High-Velocity CI/CD for Kubernetes</a></li>
+</ul>
+<h1><a id="user-content-managed-kubernetes" class="anchor" aria-hidden="true" href="#managed-kubernetes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Managed Kubernetes</h1>
+<ul>
+<li><a href="http://platform9.com" rel="nofollow">Platform9</a></li>
+<li><a href="http://gravitational.com/" rel="nofollow">Gravitational</a></li>
+<li><a href="http://www.openshift.com/devpreview/index.html" rel="nofollow">OpenShift Online</a></li>
+<li><a href="http://eldarion.cloud/" rel="nofollow">Eldarion Cloud</a></li>
+<li><a href="http://stackpoint.io/" rel="nofollow">StackPoint Cloud</a></li>
+<li><a href="http://www.loodse.com//" rel="nofollow">Kubermatic</a></li>
+<li><a href="https://hasura.io/" rel="nofollow">Hasura</a></li>
+<li><a href="https://rancher.com/" rel="nofollow">Rancher</a></li>
+</ul>
+<h3><a id="user-content-developer-platform" class="anchor" aria-hidden="true" href="#developer-platform"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#developer-platform">Developer Platform</a></h3>
+<ul>
+<li><a href="http://fabric8.io" rel="nofollow">Fabric8</a></li>
+<li><a href="https://github.com/fabric8io/spring-cloud-kubernetes">Spring Cloud integration</a></li>
+<li><a href="https://github.com/mantl/mantl">Mantl</a></li>
+<li><a href="http://www.gopaddle.io" rel="nofollow">goPaddle</a></li>
+<li><a href="http://vamp.io" rel="nofollow">VAMP</a></li>
+<li><a href="https://draft.sh" rel="nofollow">Draft</a> - a tool for developers to create cloud native applications with Kubernetes</li>
+</ul>
+<h3><a id="user-content-enterprise-kubernetes-products" class="anchor" aria-hidden="true" href="#enterprise-kubernetes-products"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#enterprise-kubernetes-products">Enterprise Kubernetes Products</a></h3>
+<ul>
+<li><a href="http://tectonic.com" rel="nofollow">CoreOS Tectonic</a></li>
+<li><a href="http://www.openshift.com/container-platform/index.html" rel="nofollow">OpenShift - Container Platform</a></li>
+<li><a href="http://www.suse.com/betaprogram/caasp-beta/" rel="nofollow">SUSE Container as a Service</a></li>
+<li><a href="http://www.loodse.com/" rel="nofollow">Kubermatic</a></li>
+<li><a href="https://www.ubuntu.com/kubernetes" rel="nofollow">Canonical Distribution of Kubernetes - CDK</a></li>
+</ul>
+<h3><a id="user-content-publicprivate-cloud" class="anchor" aria-hidden="true" href="#publicprivate-cloud"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#publicprivate-cloud">Public/Private Cloud</a></h3>
+<ul>
+<li><a href="https://cloud.google.com/compute/" rel="nofollow">GCE</a> - Google Compute Engine [default]</li>
+<li><a href="https://cloud.google.com/container-engine/" rel="nofollow">GKE</a> - Google Kubernetes Engine</li>
+<li><a href="http://aws.amazon.com/ec2" rel="nofollow">AWS</a> - Amazon EC2</li>
+<li><a href="https://azure.microsoft.com/en-in/" rel="nofollow">Azure</a> - Microsoft Azure</li>
+<li><a href="https://docs.microsoft.com/en-us/azure/aks/" rel="nofollow">Azure AKS</a> - Azure Container Service</li>
+<li><a href="http://www.vmware.com/products/vsphere.html" rel="nofollow">Vsphere</a> - VMWare VSphere</li>
+<li><a href="https://www.rackspace.com/en-in" rel="nofollow">Rackspace</a> - Rackspace</li>
+</ul>
+<h3><a id="user-content-paas" class="anchor" aria-hidden="true" href="#paas"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#paas">Paas</a></h3>
+<p><em>Kubernetes Platform as a Service providers</em></p>
+<ul>
+<li><a href="http://deis.com/" rel="nofollow">Deis Workflow</a> - <a href="http://deis.com/blog/2017/deis-workflow-final-release/" rel="nofollow">Deprecated Public Releases</a></li>
+<li><a href="http://www.kelproject.com" rel="nofollow">Kel</a></li>
+<li><a href="http://wso2.com" rel="nofollow">WSO2</a></li>
+<li><a href="http://medium.com/@kumoru_io" rel="nofollow">Kumoru</a> - <a href="https://www.youtube.com/watch?v=_5XQmE7rx9o" rel="nofollow">Deprecated</a> - Not Official</li>
+<li><a href="http://rancher.com/running-kubernetes-aws-rancher/" rel="nofollow">Rancher</a></li>
+<li><a href="http://www.openshift.org/" rel="nofollow">OpenShift Origin</a></li>
+<li><a href="http://eldarion.cloud" rel="nofollow">Eldarion Cloud</a></li>
+<li><a href="http://www.ibm.com/cloud-computing/bluemix/containers" rel="nofollow">IBM Bluemix Container Service</a></li>
+<li><a href="http://www.hasura.io" rel="nofollow">Hasura</a></li>
+<li><a href="https://github.com/luizalabs/teresa">teresa</a> - Simple PAAS that runs on top of Kubernetes.</li>
+</ul>
+<h1><a id="user-content-interactive-learning-environments" class="anchor" aria-hidden="true" href="#interactive-learning-environments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interactive Learning Environments</h1>
+<p><em>Learn Kubernetes using an interactive environment without requiring downloads or configuration</em></p>
+<ul>
+<li><a href="http://www.katacoda.com/courses/kubernetes" rel="nofollow">Katacoda</a></li>
+<li>[Play with Kubernetes][<a href="http://labs.play-with-k8s.com/">http://labs.play-with-k8s.com/</a>] - Temporarily Down</li>
+<li><a href="http://kubernetesbootcamp.github.io/kubernetes-bootcamp/" rel="nofollow">Kubernetes Bootcamp</a></li>
+</ul>
+<h1><a id="user-content-mooc-courses--tutorials" class="anchor" aria-hidden="true" href="#mooc-courses--tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MOOC Courses / Tutorials</h1>
+<p><em>List of available free online courses(<a href="https://en.wikipedia.org/wiki/Massive_open_online_course" rel="nofollow">MOOC</a>) and tutorials</em></p>
+<h3><a id="user-content-courses" class="anchor" aria-hidden="true" href="#courses"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#coures">Courses</a></h3>
+<ul>
+<li><a href="http://in.udacity.com/course/scalable-microservices-with-kubernetes--ud615" rel="nofollow">Scalable Microservices with Kubernetes at Udacity</a></li>
+<li><a href="http://www.edx.org/course/introduction-kubernetes-linuxfoundationx-lfs158x" rel="nofollow">Introduction to Kubernetes at edX</a></li>
+</ul>
+<h3><a id="user-content-tutorials" class="anchor" aria-hidden="true" href="#tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#tutorials">Tutorials</a></h3>
+<ul>
+<li><a href="http://kubernetes.io/docs/tutorials/" rel="nofollow">Kubernetes Tutorials by Kubernetes Team</a></li>
+<li><a href="http://kubernetesbyexample.com" rel="nofollow">Kubernetes By Example by OpenShift Team</a></li>
+<li><a href="http://www.tutorialspoint.com/kubernetes/" rel="nofollow">Kubernetes Tutorial by Tutorialspoint</a></li>
+</ul>
+<h1><a id="user-content-case-studies" class="anchor" aria-hidden="true" href="#case-studies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Case Studies</h1>
+<p><em>Study of Various different case studies</em></p>
+<ul>
+<li><a href="http://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/" rel="nofollow">Building a Bank with Kubernetes</a></li>
+<li><a href="http://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html" rel="nofollow">Bringing Pokemon Go to Google Cloud</a></li>
+<li><a href="http://sysdig.com/blog/monitoring-docker-kubernetes-wayblazer/" rel="nofollow">Monitoring Kubernetes at Wayblazer</a></li>
+<li><a href="http://sysdig.com/blog/monoliths-kubernetes-monitoring-transitioning-docker-major-league-soccer/" rel="nofollow">Major League Soccer Monolith to Kubernetes Transition</a></li>
+<li><a href="https://github.com/hjacobs/kubernetes-on-aws-users">Using Kubernetes on AWS</a></li>
+<li><a href="http://githubengineering.com/kubernetes-at-github/" rel="nofollow">Kubernetes at Github</a></li>
+<li><a href="http://github.com/kelseyhightower/kubernetes-the-hard-way/">Kubernetes the hard way (installation from scratch)</a></li>
+</ul>
+<h1><a id="user-content-persistent-volume-providers" class="anchor" aria-hidden="true" href="#persistent-volume-providers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Persistent Volume Providers</h1>
+<p><em>List of some Persistent Volume Providers for Kubernetes.Check out <a href="https://github.com/kubernetes/kubernetes/tree/master/examples/persistent-volume-provisioning">Persistent Volume Providers</a> for more info</em></p>
+<ul>
+<li><a href="https://cloud.google.com/compute/" rel="nofollow">GCE</a></li>
+<li><a href="http://aws.amazon.com" rel="nofollow">AWS</a></li>
+<li><a href="http://rook.io/" rel="nofollow">Rook</a></li>
+<li><a href="http://www.gluster.org/" rel="nofollow">Glusterfs</a></li>
+<li><a href="http://wiki.openstack.org/cinder" rel="nofollow">OpenStack Cinder</a></li>
+<li><a href="http://ceph.com/ceph-storage/block-storage/" rel="nofollow">CephRBD</a></li>
+<li><a href="http://www.quobyte.com/" rel="nofollow">QuoByte</a></li>
+<li><a href="https://github.com/kubeup/kube-aliyun">Kube-Aliyun</a></li>
+<li><a href="http://portworx.com/" rel="nofollow">Portworx</a></li>
+<li><a href="https://github.com/rancher/longhorn">Rancher Longhorn</a></li>
+<li><a href="https://github.com/libopenstorage/stork">Stork</a></li>
+<li><a href="http://github.com/openebs/openebs/">OpenEBS</a></li>
+<li><a href="http://storageos.com" rel="nofollow">StorageOS</a></li>
+</ul>
+<h1><a id="user-content-developer-libraries-scripts" class="anchor" aria-hidden="true" href="#developer-libraries-scripts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Developer Libraries/ Scripts</h1>
+<p><em>List of some libraries &amp; scripts for executions and good referrals</em></p>
+<h3><a id="user-content-python" class="anchor" aria-hidden="true" href="#python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#python">Python</a></h3>
+<ul>
+<li><a href="https://github.com/kelproject/pykube">Pykube</a></li>
+</ul>
+<h3><a id="user-content-jenkins" class="anchor" aria-hidden="true" href="#jenkins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#jenkins">Jenkins</a></h3>
+<ul>
+<li><a href="https://github.com/lachie83/croc-hunter/blob/master/Jenkinsfile">Jenkinsfile with Helm, Go, Docker, Kubectl, JNLP</a></li>
+</ul>
+<h1><a id="user-content-projects" class="anchor" aria-hidden="true" href="#projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Projects</h1>
+<p><em>Kubernetes-related projects that you might find helpful</em></p>
+<h2><a id="user-content-related-software" class="anchor" aria-hidden="true" href="#related-software"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Related Software</h2>
+<p><em>Projects built to make life with Kubernetes even better, more powerful, more scalable</em></p>
+<ul>
+<li><a href="https://github.com/argoproj/argo">Argo</a> The Workflow Engine for Kubernetes</li>
+<li><a href="https://github.com/hyperhq/hypernetes">Hypernetes</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/federation/" rel="nofollow">Kubernetes Cluster Federation (previously Ubernetes)</a></li>
+<li><a href="https://github.com/skippbox/kmachine">kmachine</a></li>
+<li><a href="http://opencredo.com/introducing-kubefuse-file-system-kubernetes/" rel="nofollow">Kubefuse</a></li>
+<li><a href="https://github.com/kubespray">KubeSpray</a></li>
+<li><a href="https://github.com/openai/kubernetes-ec2-autoscaler">Kubernetes Ec2 Autoscaler</a></li>
+<li><a href="http://capgemini.github.io/kubeform/" rel="nofollow">Kubeform</a></li>
+<li><a href="https://github.com/pieterlange/kube-openvpn">kube-openvpn</a></li>
+<li><a href="https://github.com/kubeup/archon">Archon</a></li>
+<li><a href="https://github.com/kubernetes/community/blob/master/contributors/devel/client-libraries.md">Client Libraries</a></li>
+<li><a href="https://github.com/kubic-project">Kubic-Project</a></li>
+<li><a href="http://www.telepresence.io" rel="nofollow">Telepresence</a> - Locally develop/debug services against a remote Kubernetes cluster</li>
+<li><a href="https://github.com/fission/fission-workflows">Fission Workflows</a> - Workflow-based serverless function composition</li>
+<li><a href="http://www.getambassador.io" rel="nofollow">Ambassador</a> - API Gateway built on the Envoy Proxy</li>
+</ul>
+<h2><a id="user-content-package-managers" class="anchor" aria-hidden="true" href="#package-managers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package Managers</h2>
+<ul>
+<li><a href="http://helm.sh" rel="nofollow">Helm</a></li>
+</ul>
+<h2><a id="user-content-monitoring-services" class="anchor" aria-hidden="true" href="#monitoring-services"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Monitoring Services</h2>
+<p><em>To maintain regular surveillance over kubernetes</em></p>
+<ul>
+<li><a href="http://github.com/kubernetes/dashboard">Console</a></li>
+<li><a href="http://www.datadoghq.com/" rel="nofollow">Datadog</a></li>
+<li><a href="https://github.com/heptiolabs/eventrouter">eventrouter</a> - simple introspective kubernetes service that forwards events to a specified sink.</li>
+<li><a href="https://github.com/grafana/kubernetes-app">Grafana Kubernetes App</a></li>
+<li><a href="https://github.com/kubernetes/heapster">Heapster</a></li>
+<li><a href="https://github.com/astefanutti/kubebox">Kubebox</a> - Terminal console for Kubernetes</li>
+<li><a href="https://github.com/kubernetes/kubedash">Kubedash</a></li>
+<li><a href="https://github.com/hjacobs/kube-ops-view">Kubernetes Operational View</a> - read-only system dashboard for multiple K8s clusters</li>
+<li><a href="https://github.com/johanhaleby/kubetail">Kubetail</a></li>
+<li><a href="https://github.com/skippbox/kubewatch">Kubewatch</a></li>
+<li><a href="https://github.com/netsil/manifests">Netsil</a></li>
+<li><a href="http://prometheus.io" rel="nofollow">Prometheus</a></li>
+<li><a href="https://www.sysdig.com/" rel="nofollow">Sysdig Monitoring</a></li>
+<li><a href="http://www.sysdig.org/" rel="nofollow">Sysdig Open Source</a></li>
+<li><a href="http://www.weave.works/products/weave-scope/" rel="nofollow">Weave Scope</a></li>
+<li><a href="https://github.com/appscode/searchlight">Searchlight</a></li>
+</ul>
+<h2><a id="user-content-testing" class="anchor" aria-hidden="true" href="#testing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Testing</h2>
+<p><em>Test your applications running on Kubernetes</em></p>
+<ul>
+<li><a href="https://github.com/asobti/kube-monkey">kube-monkey</a> - Chaos Monkey for Kubernetes clusters</li>
+<li><a href="https://github.com/mrahbar/k8s-testsuite">k8s-testsuite</a> - Helm chart for network and loadtesting of a Kubernetes cluster</li>
+<li><a href="https://github.com/kubernetes/test-infra">Test-Infra</a></li>
+<li><a href="https://github.com/heptio/sonobuoy">Sonobuoy</a> - Diagnostic tool that runs Kubernetes conformance tests</li>
+<li><a href="https://github.com/bloomberg/powerfulseal">PowerfulSeal</a> - kills targeted pods and machines to test your software reliability</li>
+</ul>
+<h2><a id="user-content-continuous-delivery" class="anchor" aria-hidden="true" href="#continuous-delivery"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Continuous Delivery</h2>
+<p><em>Build-test-deploy automated workflow software designed to make production environments more stable and life better for engineers</em></p>
+<ul>
+<li><a href="https://jenkins.io" rel="nofollow">Jenkins</a>
+<ul>
+<li><a href="https://github.com/jenkinsci/kubernetes-plugin">Jenkins-Kubernetes Plugin</a> by <a href="https://www.twitter.com/csanchez" rel="nofollow">Carlos Sanchez</a></li>
+<li><a href="https://cloud.google.com/solutions/automated-build-images-with-jenkins-kubernetes#kubernetes_architecture" rel="nofollow">Automated Image Builds with Jenkins, Packer, and Kubernetes</a></li>
+<li><a href="http://www.cloudbees.com/blog/demand-jenkins-slaves-kubernetes-and-google-container-engine" rel="nofollow">On-demand Jenkins slaves with Kubernetes and the Google Container Engine</a></li>
+<li><a href="http://iocanel.blogspot.in/2015/09/jenkins-setups-for-kubernetes-and.html" rel="nofollow">Jenkins setups for Kubernetes and Docker Workflow</a></li>
+<li><a href="https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes">Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes</a></li>
+</ul>
+</li>
+<li><a href="http://jenkins-x.io/" rel="nofollow">Jenkins X</a> - CI/CD for Kubernetes using Jenkins</li>
+<li><a href="https://github.com/UKHomeOffice/kb8or">kb8or</a></li>
+<li><a href="http://blog.wercker.com/topic/kubernetes" rel="nofollow">Wercker</a></li>
+<li><a href="http://blog.shippable.com/topic/kubernetes" rel="nofollow">Shippable</a></li>
+<li><a href="http://blog.lwolf.org/post/how-to-easily-deploy-gitlab-on-kubernetes/" rel="nofollow">GitLab</a></li>
+<li><a href="https://github.com/AcalephStorage/kontinuous">Kontinuous</a></li>
+<li><a href="http://invisionapp.github.io/kit/" rel="nofollow">Kit</a></li>
+<li><a href="http://www.spinnaker.io/blog/deploy-to-kubernetes-using-spinnaker" rel="nofollow">Spinnaker</a></li>
+<li><a href="http://www.alexecollins.com/continuous-delivery-with-kubernetes-and-circleci/" rel="nofollow">CircleCI</a></li>
+<li><a href="https://www.kubeci.io/" rel="nofollow">KubeCI</a></li>
+<li><a href="https://github.com/airware/vili">Vili</a></li>
+<li><a href="https://keel.sh/" rel="nofollow">Keel</a></li>
+<li><a href="https://github.com/logzio/apollo">Apollo</a> - Open Source application providing teams with self service UI for creating and deploying their services to Kubernetes.</li>
+<li><a href="https://github.com/weaveworks/flux">Weave Flux – GitOps reconcoliation operator</a></li>
+</ul>
+<h2><a id="user-content-serverless-implementations" class="anchor" aria-hidden="true" href="#serverless-implementations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Serverless Implementations</h2>
+<ul>
+<li><a href="https://github.com/fabric8io/funktion">Funktion</a></li>
+<li><a href="https://github.com/platform9/fission">Fission</a></li>
+<li><a href="https://github.com/skippbox/kubeless">Kubeless</a></li>
+<li><a href="https://github.com/openwhisk">OpenWhisk</a></li>
+<li><a href="http://iron.io" rel="nofollow">Iron.io</a></li>
+<li><a href="https://github.com/alexellis/faas">OpenFaaS</a></li>
+<li><a href="https://github.com/alexellis/faas-netes">FaaS-netes</a></li>
+<li><a href="https://github.com/nuclio/nuclio">Nuclio</a></li>
+<li><a href="https://github.com/virtual-kubelet/virtual-kubelet">Virtual Kubelet</a> - Allows nodes to be backed by other services and providers.</li>
+</ul>
+<h2><a id="user-content-operators" class="anchor" aria-hidden="true" href="#operators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Operators</h2>
+<ul>
+<li><a href="https://github.com/coreos/prometheus-operator">Prometheus</a></li>
+<li><a href="https://github.com/upmc-enterprises/kong-operator">Kong API</a></li>
+<li><a href="https://github.com/sapcc/kubernetes-operators">Kubernetes Operators</a></li>
+<li><a href="https://github.com/lukebond/cc-au-k8s-operators-workshop">K8s Operator Workshop</a></li>
+<li><a href="https://github.com/giantswarm/cert-operator">Cert Operator</a></li>
+<li><a href="https://github.com/kelseyhightower/kube-cert-manager">Cert manager</a></li>
+<li><a href="https://github.com/rook/operator-kit">Operator Kit</a></li>
+<li><a href="https://github.com/coreos/container-linux-update-operator">Container Linux Update Operator</a></li>
+<li><a href="https://github.com/k8sdb/operator">DB Operator</a></li>
+<li><a href="https://github.com/coreos/etcd-operator">etcd</a></li>
+<li><a href="https://github.com/upmc-enterprises/elasticsearch-operator">Elasticsearch</a></li>
+<li><a href="https://github.com/kbst/memcached">Memcached</a></li>
+<li><a href="https://github.com/kbst/mongodb">MongoDB</a></li>
+<li><a href="https://github.com/CrunchyData/postgres-operator">PostgreSQL</a></li>
+<li><a href="https://github.com/zalando-incubator/postgres-operator">PostgreSQL</a> - manage PostgreSQL clusters using StatefulSets and <a href="https://github.com/zalando/patroni">Patroni</a>.</li>
+<li><a href="https://github.com/krallistic/kafka-operator">Kafka</a></li>
+<li><a href="https://github.com/kubevirt">KubeVirt</a></li>
+</ul>
+<h2><a id="user-content-custom-schedulers" class="anchor" aria-hidden="true" href="#custom-schedulers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom Schedulers</h2>
+<ul>
+<li><a href="https://github.com/kelseyhightower/scheduler">Scheduler</a> - Cost based scheduler</li>
+<li><a href="https://github.com/philipn/kubernetes-sticky-node-scheduler">Sticky Node Scheduler</a></li>
+<li><a href="https://github.com/coreos/ksched">ksched</a> - Experimental flow based scheduler</li>
+<li><a href="https://github.com/agonzalezro/escheduler">escheduler</a> - Written in elixir</li>
+<li><a href="https://github.com/rothgar/bashScheduler">bashScheduler</a> - Written in bash</li>
+</ul>
+<h2><a id="user-content-container-support" class="anchor" aria-hidden="true" href="#container-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Container Support</h2>
+<p><em>A list of linux containers supported by kubernetes.</em></p>
+<ul>
+<li><a href="http://docker.com" rel="nofollow">Docker</a>:</li>
+<li><a href="http://coreos.com/rkt" rel="nofollow">Rkt</a>
+<ul>
+<li><a href="http://kubernetes.io/docs/getting-started-guides/rkt/" rel="nofollow">Rktnetes</a></li>
+<li><a href="https://github.com/kubernetes-incubator/rktlet">rktlet</a> - Rkt implementation of a Kubernetes</li>
+</ul>
+</li>
+<li><a href="https://github.com/containerd/containerd">containerd</a></li>
+<li><a href="https://github.com/kubernetes-incubator/cri-containerd">cri-containerd</a> - Containerd-based implementation of Kubernetes Container Runtime Interface</li>
+<li><a href="https://github.com/kubernetes-incubator/cri-o">CRI-O (OCI)</a></li>
+<li><a href="https://github.com/kubernetes/frakti">Hyper.sh/frakti</a> - Hypervisor-based container runtime</li>
+<li><a href="https://github.com/Mirantis/virtlet">virtlet</a> - Kubernetes CRI implementation for running VM workloads</li>
+<li><a href="https://github.com/apporbit/infranetes">infranetes</a></li>
+</ul>
+<h2><a id="user-content-database" class="anchor" aria-hidden="true" href="#database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database</h2>
+<ul>
+<li><a href="https://apacheignite.readme.io/docs/kubernetes-deployment" rel="nofollow">Apache Ignite</a> - Memory-centric distributed database, caching, processing platform</li>
+<li><a href="http://www.cockroachlabs.com/blog/running-cockroachdb-on-kubernetes/" rel="nofollow">CockroachDB</a></li>
+<li><a href="http://blog.kubernetes.io/2016/07/thousand-instances-of-cassandra-using-kubernetes-pet-set.html" rel="nofollow">Cassandra / DataStax</a></li>
+<li><a href="http://www.mongodb.com/blog/post/running-mongodb-as-a-microservice-with-docker-and-kubernetes" rel="nofollow">MongoDB</a></li>
+<li><a href="http://ppires.wordpress.com/2014/12/24/clustering-hazelcast-on-kubernetes/" rel="nofollow">Hazelcast</a></li>
+<li><a href="http://crate.io/docs/scale/kubernetes/" rel="nofollow">Crate</a></li>
+<li><a href="http://minio.io" rel="nofollow">Minio</a></li>
+<li><a href="http://vitess.io/" rel="nofollow">Vitess</a> - Horizontal scaling of MySql by Youtube</li>
+<li><a href="https://github.com/sorenmat/k8s-rds">RDS</a> - Provision RDS databases via CRD from Kubernetes</li>
+</ul>
+<h2><a id="user-content-networking" class="anchor" aria-hidden="true" href="#networking"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Networking</h2>
+<ul>
+<li><a href="http://www.weave.works/docs/net/latest/kubernetes/kube-addon/" rel="nofollow">Weave Net</a></li>
+<li><a href="https://github.com/tigera/canal">Canal</a> by <a href="https://github.com/tigera">Tigera</a></li>
+<li><a href="https://github.com/Juniper/contrail-kubernetes">OpenContrail</a></li>
+<li><a href="https://github.com/nuagenetworks/nuage-kubernetes">Nuage</a></li>
+<li><a href="https://github.com/openstack/kuryr-kubernetes">Kuryr</a></li>
+<li><a href="http://contiv.github.io/" rel="nofollow">Contiv</a></li>
+<li><a href="http://www.projectcalico.org/" rel="nofollow">Calico</a></li>
+<li><a href="http://openvswitch.org/" rel="nofollow">OpenVSwitch</a></li>
+<li><a href="http://github.com/cloudnativelabs/kube-router">Kube-router</a></li>
+<li><a href="https://github.com/cilium/cilium">Cilium</a></li>
+<li><a href="https://github.com/John-Lin/linen-cni">Linen</a></li>
+<li><a href="https://github.com/Huawei-PaaS/CNI-Genie">CNI-Genie</a></li>
+<li><a href="http://romana.io/" rel="nofollow">Romana</a></li>
+<li><a href="https://github.com/infobloxopen/cni-infoblox">Infoblox</a></li>
+<li><a href="https://github.com/kubernetes-incubator/external-dns">External DNS</a> - To control DNS records dynamically via Kube resources</li>
+<li><a href="https://github.com/lyft/cni-ipvlan-vpc-k8s">cni-ipvlan-vpc-k8s</a></li>
+<li><a href="https://github.com/ahmetb/kubernetes-network-policy-recipes">kubernetes-network-policy-recipes</a></li>
+<li><a href="https://github.com/Intel-Corp/multus-cni">Multus-cni</a> - Multi-homed pod cni</li>
+</ul>
+<h2><a id="user-content-service-mesh" class="anchor" aria-hidden="true" href="#service-mesh"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Service mesh</h2>
+<ul>
+<li><a href="http://lyft.github.io/envoy/" rel="nofollow">Envoy</a></li>
+<li><a href="http://github.com/amalgam8">Amalgam8</a> - Acquired by <a href="http://istio.io/" rel="nofollow">Istio</a></li>
+<li><a href="http://linkerd.io/getting-started/k8s/" rel="nofollow">Linkerd</a></li>
+<li><a href="https://github.com/weaveworks/mesh">Weave Mesh</a></li>
+<li><a href="http://conduit.io/" rel="nofollow">Conduit</a></li>
+</ul>
+<h2><a id="user-content-rpc" class="anchor" aria-hidden="true" href="#rpc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RPC</h2>
+<ul>
+<li><a href="http://grpc.io" rel="nofollow">gRPC</a></li>
+<li><a href="https://github.com/micro/kubernetes">Micro</a></li>
+</ul>
+<h2><a id="user-content-secret-generation-and-management" class="anchor" aria-hidden="true" href="#secret-generation-and-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Secret generation and management</h2>
+<ul>
+<li><a href="http://www.vaultproject.io/docs/auth/kubernetes.html" rel="nofollow">Vault auth plugin backend: Kubernetes</a></li>
+<li><a href="https://github.com/kelseyhightower/vault-controller">Vault controller</a></li>
+<li><a href="https://github.com/jetstack/kube-lego">kube-lego</a></li>
+<li><a href="https://github.com/dtan4/k8sec">k8sec</a></li>
+<li><a href="https://github.com/Boostport/kubernetes-vault">kubernetes-vault</a></li>
+<li><a href="https://github.com/shyiko/kubesec">kubesec</a> - Secure Secret management</li>
+<li><a href="https://github.com/bitnami-labs/sealed-secrets">Sealed Secrets</a></li>
+<li><a href="https://engineering.bitnami.com/articles/secure-gitops.html" rel="nofollow">Secure GitOps Using Weave Cloud Deploy And Bitnami's Sealed Secrets</a></li>
+</ul>
+<h2><a id="user-content-web-applications" class="anchor" aria-hidden="true" href="#web-applications"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web applications</h2>
+<ul>
+<li><a href="https://github.com/smpio/kubernator">Kubernator</a></li>
+</ul>
+<h2><a id="user-content-desktop-applications" class="anchor" aria-hidden="true" href="#desktop-applications"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Desktop applications</h2>
+<ul>
+<li><a href="https://kubernetic.com/" rel="nofollow">Kubernetic</a></li>
+</ul>
+<h2><a id="user-content-mobile-applications" class="anchor" aria-hidden="true" href="#mobile-applications"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mobile applications</h2>
+<ul>
+<li><a href="https://github.com/bitnami/cabin">Cabin</a></li>
+<li><a href="http://cockpit-project.org/guide/latest/feature-kubernetes.html" rel="nofollow">Cockpit</a></li>
+</ul>
+<h2><a id="user-content-apicli-adaptors" class="anchor" aria-hidden="true" href="#apicli-adaptors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API/CLI adaptors</h2>
+<ul>
+<li><a href="https://github.com/databricks/click">click</a> - A CLI focused REPL for quickly interacting with Kubernetes objects.</li>
+<li><a href="https://github.com/c-bata/kube-prompt">kube-prompt</a> - Interactive kubernetes client built using go-prompt.</li>
+<li><a href="https://github.com/cloudnativelabs/kube-shell">Kube-shell</a> - Integrated shell for working with the Kubernetes CLI</li>
+<li><a href="https://github.com/harbur/kubebot">Kubebot</a></li>
+<li><a href="https://github.com/ahmetb/kubectx">kubectx</a> - switch between clusters on kubectl</li>
+<li><a href="https://github.com/ahmetb/kubectx">kubens</a> - switch between namespaces on kubectl</li>
+<li><a href="https://github.com/StackStorm/st2">StackStorm</a></li>
+<li><a href="http://opencredo.com/introducing-kubefuse-file-system-kubernetes/" rel="nofollow">Kubefuse</a></li>
+<li><a href="https://github.com/brendandburns/ksql">Ksql</a></li>
+<li><a href="https://github.com/rancher/kubectld">kubectld</a></li>
+<li><a href="https://github.com/projectodd/kubernetes/blob/kubesh/cmd/kubesh/README.md">Kubesh</a> - Work around kubectl</li>
+<li><a href="https://github.com/ahmetb/kubectl-aliases">Kubectl Aliases</a> - Aliases for Kubectl</li>
+<li><a href="https://github.com/c9s/vikube.vim">Vikube</a> - Kubernetes operations from Vim, in Vim</li>
+<li><a href="https://github.com/jonmosco/kube-ps1">kube-ps1</a> - Kubernetes prompt helper for bash and zsh.</li>
+<li><a href="https://github.com/jonmosco/kube-tmux">kube-tmux</a> - Kubernetes tmux plugin to display the current context and namespace</li>
+<li><a href="https://github.com/shyiko/kubensx">kubensx</a> - Simpler Cluster/User/Namespace switching for Kubernetes (featuring interactive mode and wildcard/fuzzy matching).</li>
+<li><a href="https://github.com/wercker/stern">stern</a> - Multi pod and container log tailing</li>
+<li><a href="/ramitsurana/awesome-kubernetes/blob/master/github.com/errordeveloper/kubeplay">kubeplay</a></li>
+</ul>
+<h2><a id="user-content-application-deployment-orchestration" class="anchor" aria-hidden="true" href="#application-deployment-orchestration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Application deployment orchestration</h2>
+<ul>
+<li><a href="https://elasticbox.com/kubernetes" rel="nofollow">ElasticKube</a></li>
+<li><a href="https://github.com/Mirantis/k8s-AppController">AppController</a></li>
+<li><a href="https://github.com/namely/broadway">Broadway</a></li>
+<li><a href="https://github.com/UKHomeOffice/kb8or">Kb8or</a></li>
+<li><a href="https://developer.ibm.com/urbancode/plugin/kubernetes/" rel="nofollow">IBM UrbanCode</a></li>
+<li><a href="https://github.com/projectatomic/nulecule">Nulecule</a></li>
+<li><a href="https://cloud.google.com/deployment-manager/" rel="nofollow">Deployment manager</a></li>
+<li><a href="https://github.com/commercialtribe/psykube">Psykube</a></li>
+<li><a href="https://github.com/Azure/brigade">Brigade</a> - Event Based Scripting using JavaScript</li>
+<li><a href="https://github.com/GoogleCloudPlatform/skaffold">Skaffold</a> - Command line tool that facilitates continuous development for Kubernetes applications.</li>
+<li><a href="https://gitkube.sh/" rel="nofollow">Gitkube</a> - Build and deploy docker images on Kubernetes using <code>git push</code>.</li>
+</ul>
+<h2><a id="user-content-configuration" class="anchor" aria-hidden="true" href="#configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<ul>
+<li><a href="https://github.com/kubernetes/kompose">Kompose</a></li>
+<li><a href="https://github.com/google/jsonnet/tree/master/case_studies/kubernetes">Jsonnet</a></li>
+<li>Spread - Acquired by <a href="https://coreos.com/blog/coreos-welcomes-redspread.html" rel="nofollow">CoreOS</a></li>
+<li><a href="https://github.com/cststack/k8comp">K8comp</a></li>
+<li><a href="https://github.com/InQuicker/ktmpl">Ktmpl</a></li>
+<li><a href="https://github.com/kelseyhightower/konfd">Konfd</a></li>
+<li><a href="https://github.com/thisendout/kenv">kenv</a></li>
+<li><a href="https://github.com/weaveworks/kubediff">kubediff</a></li>
+<li><a href="https://github.com/heptiolabs/theseus">thesus</a> - A command-line utility and importable package for comparing sets of Kubernetes objects</li>
+<li><a href="http://www.habitat.sh/docs/best-practices/#kubernetes" rel="nofollow">Habitat</a></li>
+<li><a href="http://forge.puppet.com/garethr/kubernetes/readme" rel="nofollow">Puppet</a></li>
+<li><a href="http://docs.ansible.com/ansible/kubernetes_module.html" rel="nofollow">Ansible</a></li>
+<li><a href="http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.k8s.html" rel="nofollow">Saltstack</a></li>
+<li><a href="http://supermarket.chef.io/cookbooks/kubernetes" rel="nofollow">Chef</a></li>
+<li><a href="/ramitsurana/awesome-kubernetes/blob/master/github.com/errordeveloper/kubegen">kubegen</a></li>
+</ul>
+<h2><a id="user-content-security" class="anchor" aria-hidden="true" href="#security"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h2>
+<ul>
+<li><a href="https://github.com/coreos/dex">Dex</a> - OpenID and OAuth for Kubernetes</li>
+<li><a href="http://github.com/aporeto-inc/trireme-kubernetes">Trireme</a></li>
+<li><a href="http://blog.aquasec.com/topic/kubernetes" rel="nofollow">Aquasec</a></li>
+<li><a href="http://www.twistlock.com/" rel="nofollow">Twistlock</a></li>
+<li><a href="http://www.sysdig.org/falco/" rel="nofollow">Sysdig Falco</a></li>
+<li><a href="http://www.sysdig.com/product/secure" rel="nofollow">Sysdig Secure</a></li>
+<li><a href="http://kubesec.io/" rel="nofollow">Kubesec.io</a></li>
+<li><a href="https://github.com/heptio/authenticator">Authenticator</a> - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster</li>
+</ul>
+<h2><a id="user-content-load-balancing" class="anchor" aria-hidden="true" href="#load-balancing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Load balancing</h2>
+<ul>
+<li><a href="http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/" rel="nofollow">Nginx Plus</a></li>
+<li><a href="http://traefik.io/" rel="nofollow">Traefik</a></li>
+<li><a href="https://metallb.universe.tf/" rel="nofollow">MetalLB</a> - load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols.</li>
+<li><a href="https://github.com/appscode/voyager">AppsCode Voyager - Secure HAProxy based Ingress Controller</a></li>
+<li><a href="https://github.com/kubernetes/ingress-nginx">NGINX Ingress Controller</a></li>
+<li><a href="https://github.com/F5Networks/k8s-bigip-ctlr">F5 Big IP Controller</a></li>
+<li><a href="https://github.com/jcmoraisjr/haproxy-ingress">HAProxy Ingress</a></li>
+<li><a href="https://github.com/cloudflare/cloudflare-ingress-controller">Cloudflare Warp Ingress</a></li>
+<li><a href="https://github.com/solo-io/gloo">Gloo – Envoy-based API gateway and ingress controller</a></li>
+</ul>
+<h2><a id="user-content-big-data" class="anchor" aria-hidden="true" href="#big-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Big Data</h2>
+<ul>
+<li><a href="https://github.com/Comcast/kube-yarn">Kube-Yarn</a></li>
+<li><a href="https://github.com/kubernetes/kubernetes/tree/master/examples/spark">Spark</a></li>
+</ul>
+<h2><a id="user-content-machine-learning" class="anchor" aria-hidden="true" href="#machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h2>
+<ul>
+<li><a href="https://github.com/tensorflow/k8s">TensorFlow k8s</a></li>
+<li><a href="https://github.com/deepinsight/mxnet-operator">mxnet-operator</a> - Tools for ML/MXNet on Kubernetes.</li>
+<li><a href="https://github.com/google/kubeflow">kubeflow</a> - Machine Learning Toolkit for Kubernetes.</li>
+<li><a href="https://github.com/SeldonIO/seldon-core">seldon-core</a> - Open source framework for deploying machine learning models on Kubernetes</li>
+<li><a href="https://github.com/IBM/FfDL">FfDL</a> - Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes</li>
+</ul>
+<h2><a id="user-content-service-discovery" class="anchor" aria-hidden="true" href="#service-discovery"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Service Discovery</h2>
+<ul>
+<li><a href="http://consul.io" rel="nofollow">Consul</a>
+<ul>
+<li><a href="https://github.com/kelseyhightower/consul-on-kubernetes">Kelsey Hightower Consul</a></li>
+<li><a href="https://github.com/Beldur/kube2consul">Bridge between Kubernetes and Consul</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-operating-system" class="anchor" aria-hidden="true" href="#operating-system"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Operating System</h2>
+<ul>
+<li><a href="http://coreos.com" rel="nofollow">CoreOS</a></li>
+<li><a href="https://github.com/apcera/kurma">Kurma</a></li>
+<li><a href="https://cloud.google.com/container-optimized-os/docs/" rel="nofollow">GCI</a></li>
+<li><a href="https://github.com/linuxkit/kubernetes">LinuxKit</a></li>
+</ul>
+<h2><a id="user-content-yamljson-config" class="anchor" aria-hidden="true" href="#yamljson-config"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>YAML/JSON Config</h2>
+<ul>
+<li><a href="https://github.com/heptio/kube.libsonnet">Kube.libsonnet</a> - Currently Unstable</li>
+<li><a href="https://github.com/kubernetes/kompose">kompose</a></li>
+<li><a href="https://github.com/garethr/kubeval">kubeval</a></li>
+<li><a href="/ramitsurana/awesome-kubernetes/blob/master/github.com/errordeveloper/kubegen">kubegen</a></li>
+</ul>
+<h2><a id="user-content-tuning" class="anchor" aria-hidden="true" href="#tuning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tuning</h2>
+<ul>
+<li><a href="https://github.com/skippbox/ktune">Ktune</a></li>
+</ul>
+<h2><a id="user-content-backup-and-disaster-recovery" class="anchor" aria-hidden="true" href="#backup-and-disaster-recovery"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Backup and Disaster Recovery</h2>
+<ul>
+<li><a href="https://github.com/heptio/ark">Ark</a> - Utility for managing backup and restore of Kubernetes clusters.</li>
+</ul>
+<h1><a id="user-content-raspberry-pi" class="anchor" aria-hidden="true" href="#raspberry-pi"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Raspberry Pi</h1>
+<p><em>Some of the awesome findings and experiments on using Kubernetes with Raspberry Pi.</em></p>
+<ul>
+<li>Check out <a href="http://kubecloud.io" rel="nofollow">Kubecloud</a></li>
+<li><a href="http://kubecloud.io/kubernetes-on-arm-cluster/" rel="nofollow">Setting up a Kubernetes on ARM cluster</a></li>
+<li><a href="https://blog.hypriot.com/post/setup-kubernetes-raspberry-pi-cluster/" rel="nofollow">Setup Kubernetes on a Raspberry Pi Cluster easily the official way!</a> by <a href="https://blog.hypriot.com/crew/" rel="nofollow">Mathias Renner and Lucas Käldström</a></li>
+<li><a href="https://www.hanselman.com/blog/HowToBuildAKubernetesClusterWithARMRaspberryPiThenRunNETCoreOnOpenFaas.aspx" rel="nofollow">How to Build a Kubernetes Cluster with ARM Raspberry Pi then run .NET Core on OpenFaas</a> by <a href="https://twitter.com/shanselman" rel="nofollow">Scott Hanselman</a></li>
+</ul>
+<h1><a id="user-content-books" class="anchor" aria-hidden="true" href="#books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h1>
+<p><em>A written or printed work consisting of pages glued or sewn together along one side and bound in covers that provide
+us with information</em></p>
+<ul>
+<li><a href="http://shop.oreilly.com/product/0636920043874.do" rel="nofollow">Kubernetes: Up and Running</a> by <a href="https://twitter.com/kelseyhightower" rel="nofollow">Kelsey Hightower</a></li>
+<li><a href="http://item.jd.com/11757034.html" rel="nofollow">Docker and Kubernetes Under the Hood</a> (Chinese) by <a href="https://twitter.com/resouer" rel="nofollow">Harry Zhang</a>, Jianbo Sun and ZJU SEL lab</li>
+<li><a href="http://www.oreilly.com/webops-perf/free/kubernetes.csp" rel="nofollow">Kubernetes: Scheduling the Future at Cloud Scale</a> by <a href="http://www.linkedin.com/in/drensin" rel="nofollow">Dave K. Rensin</a></li>
+<li><a href="http://www.manning.com/books/kubernetes-in-action" rel="nofollow">Kubernetes in Action</a> by <a href="https://twitter.com/markoluksa" rel="nofollow">Marko Lukša</a></li>
+<li><a href="https://www.packtpub.com/virtualization-and-cloud/kubernetes-cookbook-second-edition" rel="nofollow">Kubernetes Cookbook - Second Edition</a> by Hideto Saito, Hui-Chuan Chloe Lee, Ke-Jou Carol Hsu</li>
+<li><a href="http://shop.oreilly.com/product/9781784394035.do" rel="nofollow">Getting Started with Kubernetes</a> by Jonathan Baier</li>
+<li><a href="https://github.com/feiskyer/kubernetes-handbook">Kubernetes Handbook</a> (OpenSource Book in Chinese) by <a href="https://github.com/feiskyer">Pengfei Ni</a></li>
+<li><a href="https://www.amazon.com/Mastering-Kubernetes-Gigi-Sayfan/dp/1786461005" rel="nofollow">Mastering Kubernetes</a> by <a href="https://github.com/the-gigi">Gigi Sayfan</a></li>
+<li><a href="http://www.manning.com/books/openshift-in-action" rel="nofollow">OpenShift in Action</a> by <a href="https://twitter.com/rh_jduncan" rel="nofollow">Jamie Duncan</a> &amp; <a href="https://www.linkedin.com/in/johnfosborneiii/" rel="nofollow">John Osborne</a></li>
+<li><a href="https://leanpub.com/the-devops-2-3-toolkit" rel="nofollow">The DevOps 2.3 Toolkit: Kubernetes</a> by <a href="https://twitter.com/vfarcic" rel="nofollow">Viktor Farcic</a></li>
+<li><a href="https://github.com/rootsongjc/kubernetes-handbook">Kubernetes Handbook</a> (OpenSource Book in Chinese) by <a href="https://github.com/rootsongjc">Jimmy Song</a></li>
+<li><a href="https://www.packtpub.com/virtualization-and-cloud/devops-kubernetes" rel="nofollow">DevOps with Kubernetes</a> by Hideto Saito, Hui-Chuan Chloe Lee, Cheng-Yang Wu</li>
+</ul>
+<h1><a id="user-content-slide-presentations" class="anchor" aria-hidden="true" href="#slide-presentations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Slide Presentations</h1>
+<p><em>A slide is a single page of a presentation created with software such as PowerPoint or OpenOffice Impress.</em></p>
+<ul>
+<li><a href="http://www.slideshare.net/enakai/architecture-overview-kubernetes-with-red-hat-enterprise-linux-71" rel="nofollow">Architecture Overview</a> by <a href="https://twitter.com/enakai00/" rel="nofollow">enakai00</a></li>
+<li><a href="http://www.slideshare.net/arungupta1/package-your-java-ee-application-using-docker-and-kubernetes" rel="nofollow">Package your Java EE Application using Docker and Kubernetes</a> by <a href="https://twitter.com/arungupta" rel="nofollow">Arun Gupta</a></li>
+<li><a href="http://www.slideshare.net/carlossg/scaling-jenkins-with-docker-and-kubernetes" rel="nofollow">Scaling Jenkins with Docker and Kubernetes</a> by <a href="https://www.twitter.com/csanchez" rel="nofollow">Carlos Sanchez</a></li>
+<li><a href="http://www.slideshare.net/imesh/an-introduction-to-kubernetes" rel="nofollow">An Introduction to Kubernetes</a> by <a href="https://www.linkedin.com/in/imesh" rel="nofollow">Imesh Gunaratne</a></li>
+<li><a href="http://www.slideshare.net/timothysc/apache-coneu" rel="nofollow">Musings on Mesos: Docker, Kubernetes, and Beyond.</a> by <a href="http://timothysc.github.io/" rel="nofollow">Timothy St. Clair</a></li>
+<li><a href="http://www.slideshare.net/SatnamSingh67/2015-0605-cluster-management-with-kubernetes" rel="nofollow">Cluster management with Kubernetes</a> by Satnam Singh</li>
+<li><a href="http://www.slideshare.net/ramitsurana/a-brief-study-on-kubernetes-and-its-components" rel="nofollow">A brief study on Kubernetes and its components</a> by <a href="https://www.twitter.com/ramitsurana" rel="nofollow">Ramit Surana</a></li>
+<li><a href="http://www.slideshare.net/dagrobie/moving-to-kubernetes-tales-from-soundcloud" rel="nofollow">Moving to Kubernetes - Tales from SoundCloud</a> by <a href="https://twitter.com/dagrobie" rel="nofollow">Tobias Schmidt</a></li>
+<li><a href="http://www.slideshare.net/kubecon/kubernetes-scaling-sig-k8scale" rel="nofollow">Kubernetes Scaling SIG (K8Scale)</a> by <a href="https://twitter.com/countspongebob" rel="nofollow">Bob Wise</a></li>
+<li><a href="http://www.slideshare.net/salv_orlando/network-oriented-kubernetes-intro" rel="nofollow">Network oriented Kubernetes intro</a> by <a href="https://twitter.com/taturiello" rel="nofollow">Salv Orlando</a></li>
+<li><a href="http://www.slideshare.net/ArjanSchaaf/zero-downtimejavadeploymentswithdockerandkubernetes" rel="nofollow">Zero downtime-java-deployments-with-docker-and-kubernetes</a> by <a href="https://www.linkedin.com/in/arjanschaaf" rel="nofollow">Arjan Schaaf</a></li>
+<li><a href="http://www.slideshare.net/mistio/kubernetes-and-coreos-athens-docker-meetup" rel="nofollow">Kubernetes and CoreOS @ Athens Docker meetup</a> by <a href="https://twitter.com/mist_io" rel="nofollow">Mist.io</a></li>
+<li><a href="http://www.slideshare.net/ramitsurana/achieving-cicd-with-kubernetes" rel="nofollow">Achieving CI/CD with Kubernetes</a> by <a href="https://twitter.com/ramitsurana" rel="nofollow">Ramit Surana</a></li>
+<li><a href="http://www.slideshare.net/Sysdig/the-top-5-kubernetes-metrics-to-monitor" rel="nofollow">The Top 5 Metrics to Monitor in Kubernetes</a></li>
+</ul>
+<h1><a id="user-content-videos" class="anchor" aria-hidden="true" href="#videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Videos</h1>
+<p><em>A recording of moving visual images made digitally or on videotape.</em></p>
+<h3><a id="user-content-main-account" class="anchor" aria-hidden="true" href="#main-account"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Main Account</h3>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw" rel="nofollow">Google Developers</a></li>
+<li><a href="https://www.youtube.com/channel/UCZ2bu0qutTOM0tHYa_jkIwg" rel="nofollow">Kubernetes</a></li>
+</ul>
+<h3><a id="user-content-other-useful-videos" class="anchor" aria-hidden="true" href="#other-useful-videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Useful Videos</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=tsk0pWf4ipw" rel="nofollow">Google I/O 2014 - Containerizing the Cloud with Docker on Google Cloud Platform</a> by <a href="https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw" rel="nofollow">Google Developers</a></li>
+<li><a href="https://www.youtube.com/watch?v=tA8XNVPZM2w" rel="nofollow">Container Orchestration using CoreOS and Kubernetes</a> by <a href="https://twitter.com/kelseyhightower" rel="nofollow">Kelsey Hightower</a></li>
+<li><a href="https://www.youtube.com/watch?v=WwBdNXt6wO4" rel="nofollow">A Technical Overview of Kubernetes</a> by <a href="https://twitter.com/brendandburns" rel="nofollow">Bredan Burns</a></li>
+<li><a href="https://www.youtube.com/watch?v=Fcb4aoSAZ98" rel="nofollow">Docker Containers and Kubernetes with Brian Dorsey</a> by <a href="https://twitter.com/briandorsey" rel="nofollow">Brian Dorsey</a></li>
+<li><a href="https://www.youtube.com/watch?v=jLk1pkc7kv4" rel="nofollow">Alpaca Kubernetes on AWS</a> by <a href="https://twitter.com/fandekasp" rel="nofollow">Adrien Lemaire</a></li>
+<li><a href="https://www.youtube.com/watch?v=R2nj1vRjLwE" rel="nofollow">Arun Gupta: Package your Java applications using Docker and Kubernetes</a> by <a href="https://twitter.com/arungupta" rel="nofollow">Arun Gupta</a></li>
+<li><a href="https://www.youtube.com/watch?v=pozC9rBvAIs" rel="nofollow">"Managing Containers at Scale with CoreOS and Kubernetes" by Kelsey Hightower</a> by <a href="https://twitter.com/kelseyhightower" rel="nofollow">Kelsey Hightower</a></li>
+<li><a href="https://youtu.be/6a2Nirr8cI0" rel="nofollow">Kubernetes: The Journey So Far - Greg DeMichillie</a> by <a href="https://twitter.com/gregde" rel="nofollow">Greg DeMichillie</a></li>
+<li><a href="https://youtu.be/MuazGHiiGmA" rel="nofollow">DevNation 2015 - Paul Bakker - Kubernetes: Beyond the basics</a> by <a href="https://twitter.com/pbakker" rel="nofollow">Paul Bakker</a></li>
+<li><a href="https://www.youtube.com/watch?v=ncSn3_9bfIQ" rel="nofollow">Kubernetes-Defined Monitoring</a></li>
+<li><a href="https://youtu.be/00BMn0UjsG4" rel="nofollow">Testing Distributed Software on Kubernetes with PowerfulSeal at Kubecon 2017 Austin</a> by <a href="https://twitter.com/mikopawlikowski" rel="nofollow">Mikolaj Pawlikowski</a></li>
+</ul>
+<h1><a id="user-content-interesting-twitter-accounts" class="anchor" aria-hidden="true" href="#interesting-twitter-accounts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interesting Twitter Accounts</h1>
+<p><em>Twitter is quick, it’s easy to communicate on, and is a very valuable social channel for a brand or business if you use it to its full potential, By following these news aggregators, rolling news channels, and companies, you can get the inside scoop of a story long before it hits the mainstream news outlets.</em></p>
+<ul>
+<li><a href="https://twitter.com/kubernetesio" rel="nofollow">Kubernetes</a></li>
+<li><a href="https://twitter.com/googlecloud" rel="nofollow">Google Cloud Platform</a></li>
+<li><a href="https://twitter.com/kubeconio" rel="nofollow">Kube Con</a></li>
+<li><a href="https://twitter.com/kismatic" rel="nofollow">Kismatic</a></li>
+<li><a href="https://twitter.com/engineyard" rel="nofollow">Engine Yard</a></li>
+<li><a href="https://twitter.com/Apcera" rel="nofollow">Apcera</a></li>
+<li><a href="https://twitter.com/coreoslinux" rel="nofollow">CoreOS</a></li>
+<li><a href="https://twitter.com/DevOpsSummit" rel="nofollow">DevOps Summit</a></li>
+<li><a href="https://twitter.com/kubeweekly" rel="nofollow">KubeWeekly</a></li>
+<li><a href="https://twitter.com/kubefacts" rel="nofollow">KubeFacts</a></li>
+<li><a href="https://twitter.com/skippbox" rel="nofollow">Skippbox</a> - Acquired by <a href="https://bitnami.com/news/press-releases/bitnami-acquires-skippbox" rel="nofollow">Bitnami</a></li>
+<li><a href="https://twitter.com/sysdig" rel="nofollow">Sysdig</a></li>
+</ul>
+<h1><a id="user-content-amazing-people" class="anchor" aria-hidden="true" href="#amazing-people"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Amazing People</h1>
+<ul>
+<li><a href="https://twitter.com/ahmetb" rel="nofollow">Ahmet Alp Balkan</a>,  Software Engineer at Google &amp; Google Kubernetes Engine</li>
+<li><a href="https://twitter.com/apbhatnagar" rel="nofollow">Aparna Sinha</a>, Group Product Manager - Kubernetes at Google</li>
+<li><a href="https://twitter.com/arungupta" rel="nofollow">Arun Gupta</a>, Principal Open Source Technologist at Amazon Web Services</li>
+<li><a href="https://twitter.com/BrandonPhilips" rel="nofollow">Brandon Philips</a>, CTO at CoreOS</li>
+<li><a href="https://twitter.com/brendandburns" rel="nofollow">Brendan Burns</a>, Partner Architect at Microsoft</li>
+<li><a href="https://github.com/bgrant0607">Brian Grant</a>, Principal Engineer at Google, Lead Architect of Kubernetes</li>
+<li><a href="https://www.twitter.com/csanchez" rel="nofollow">Carlos Sanchez</a>, Senior Software Engineer, CloudBees</li>
+<li><a href="https://www.twitter.com/cra" rel="nofollow">Chris Aniszczyk</a>, Chief Operating Officer at Cloud Native Computing Foundation</li>
+<li><a href="https://twitter.com/eric_tune" rel="nofollow">Eric Tune</a>, Senior Staff Engineer at Google</li>
+<li><a href="https://twitter.com/idvoretskyi" rel="nofollow">Ihor Dvoretskyi</a>, Developer Advocate at Cloud Native Computing Foundation</li>
+<li><a href="https://github.com/jessfraz">Jessie Frazzelle</a>, Cloud Developer Advocate at Microsoft</li>
+<li><a href="https://twitter.com/jbeda" rel="nofollow">Joe Beda</a>, Founder and CTO at Heptio</li>
+<li><a href="https://twitter.com/asynchio" rel="nofollow">Joseph Jacks</a>, Entrepreneur In Residence at Quantum Corporation</li>
+<li><a href="https://twitter.com/kelseyhightower" rel="nofollow">Kelsey Hightower</a>, Staff Developer Advocate at Google</li>
+<li><a href="https://github.com/kris-nova">Kris Nova</a>, Engineer at Heptio, Creator of Kubicorn</li>
+<li><a href="https://www.twitter.com/michellenoorali" rel="nofollow">Michelle Noorali</a>, Software Engineer at Microsoft</li>
+<li><a href="https://www.twitter.com/ParisInBmore" rel="nofollow">Paris Pittman</a>, Developer Relations Manager - Kubernetes at Google</li>
+<li><a href="https://twitter.com/preillyme" rel="nofollow">Patrick Reilly</a>, Office of the CTO at Cisco, Cisco board of member for CNCF</li>
+<li><a href="https://twitter.com/thockin" rel="nofollow">Tim Hockin</a>, Senior Staff SW Engineer / Engineering Manager at Google</li>
+</ul>
+<h1><a id="user-content-meetup-groups" class="anchor" aria-hidden="true" href="#meetup-groups"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Meetup Groups</h1>
+<p><em>An awesome way to connect with kubernauts around the globe</em></p>
+<ul>
+<li><a href="https://twitter.com/kubernetesber" rel="nofollow">Berlin</a></li>
+<li><a href="https://twitter.com/kubernetesnyc" rel="nofollow">New York</a></li>
+<li><a href="https://twitter.com/kubernetesparis" rel="nofollow">Paris</a></li>
+<li><a href="https://twitter.com/kubernetesSF" rel="nofollow">San Fransico</a></li>
+<li><a href="https://www.meetup.com/Bangalore-Kubernetes-Meetup" rel="nofollow">Bangalore</a></li>
+<li><a href="https://www.meetup.com/Kubernetes-Pune/" rel="nofollow">Pune</a></li>
+<li><a href="https://www.meetup.com/Kubernetes-London/" rel="nofollow">London</a></li>
+<li><a href="https://www.meetup.com/Kubernetes-Hong-Kong/" rel="nofollow">Hong Kong</a></li>
+<li><a href="https://www.meetup.com/kubernauts/" rel="nofollow">Worldwide</a></li>
+<li><a href="https://www.meetup.com/de-DE/Amsterdam-Kubernetes-Meetup/" rel="nofollow">Amsterdam</a></li>
+<li><a href="https://www.meetup.com/de-DE/Munchen-Kubernetes-Meetup/" rel="nofollow">Munich</a></li>
+<li><a href="https://www.meetup.com/de-DE/Hamburg-Kubernetes-Meetup/" rel="nofollow">Hamburg</a></li>
+<li><a href="https://www.meetup.com/Seattle-Kubernetes-Meetup/" rel="nofollow">Seattle</a></li>
+</ul>
+<h1><a id="user-content-connecting-with-kubernetes" class="anchor" aria-hidden="true" href="#connecting-with-kubernetes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Connecting with Kubernetes</h1>
+<ul>
+<li><a href="http://blog.kubernetes.io/" rel="nofollow">Blog</a></li>
+<li><a href="http://webchat.freenode.net/?channels=google-containers" rel="nofollow">Freenode</a></li>
+<li><a href="https://twitter.com/kubernetesio" rel="nofollow">Twitter</a></li>
+<li><a href="https://plus.google.com/u/0/b/116512812300813784482/116512812300813784482" rel="nofollow">Google +</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/kubernetes" rel="nofollow">Stackoverflow</a></li>
+<li><a href="http://slack.k8s.io/" rel="nofollow">Slack</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/kubernetes-users" rel="nofollow">Mailing List (user discussion and Q&amp;A)</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/kubernetes-dev" rel="nofollow">Mailing List (developer/contributor discussion)</a></li>
+<li><a href="http://kube.news/" rel="nofollow">Newsletter</a></li>
+<li><a href="https://www.reddit.com/r/kubernetes/" rel="nofollow">Reddit</a></li>
+<li><a href="https://github.com/kubernetes/community">Community</a></li>
+<li><a href="https://github.com/kubernetes/community/blob/master/events/office-hours.md">Community Q&amp;A – The Office Hours</a></li>
+</ul>
+<h1><a id="user-content-conferences" class="anchor" aria-hidden="true" href="#conferences"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conferences</h1>
+<p><em>Some must to go and attend conferences on kubernetes</em></p>
+<ul>
+<li><a href="http://events.linuxfoundation.org/events/kubecon" rel="nofollow">Kubecon</a></li>
+<li><a href="http://container.camp/" rel="nofollow">Container Camp</a></li>
+<li><a href="http://cloudnext.withgoogle.com/" rel="nofollow">GCP Next</a></li>
+<li><a href="http://dockercon.com" rel="nofollow">Docker Con</a></li>
+<li><a href="http://devoxx.com" rel="nofollow">Devoxx</a></li>
+<li><a href="https://containerdays.io/" rel="nofollow">ContainerDays</a></li>
+</ul>
+<h1><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h1>
+<p>Contributions are most welcome!</p>
+<p>This list is just getting started, please contribute to make it super awesome.</p>
+<p>Check out the <a href="https://github.com/ramitsurana/awesome-kubernetes/blob/master/guidelines/CONTRIBUTING.md">Contributing Guidelines</a>.</p>
+<h1><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h1>
+<p><a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img alt="Creative Commons License" src="https://camo.githubusercontent.com/0e32abe541a386cbaf8370777b4b55c35d31657d/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792d6e632f342e302f38387833312e706e67" data-canonical-src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" style="max-width:100%;"></a><br>awesome-kubernetes by <a href="http://www.linkedin.com/in/ramitsurana" rel="nofollow">Ramit Surana</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.26005s from unicorn-3835523148-0k066">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

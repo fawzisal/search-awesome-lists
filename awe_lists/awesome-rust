@@ -1,0 +1,3175 @@
+   #Re
+   cent Commits to awesome-rust:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sig
+   n in or Sign up
+
+     * 404
+     * Star
+       6,804
+     * [file://localhost/login?return_to=%2Frust-unofficial%2Fawesome-rust
+       ]Fork 439
+
+awesome-rust
+
+   Issues 3
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of Rust code and resources.
+   rust
+   1,392
+       commits
+     * 1 branch
+     * 
+       236 contributors
+
+    1. Rust
+       100.0%
+
+   Rust
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/r
+   Downl
+   oad ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * 
+       Branches
+     * 
+       Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/rust-unofficial/awesome-rust/tree/230f05a88d37663f8fd
+   ad91c47dc9a8ab197d97b]Permalink
+   Failed to load latest commit information.
+   .gitattributes
+   linguist-vendored Aug 26, 2017
+   .
+   gitignore
+   add 'mmstick/parallel' Dec 28, 2016
+   
+   .travis.yml
+   Try fixing all issues
+   ([https://github.com/rust-unofficial/awesome-rust/pull/351]#351[file://
+   localhost/rust-unofficial/awesome-rust/commit/15f6d00d09f4c7d8790d6373d
+   06b5aba28a4c1e3]) Oct 5, 2017
+   [file://localhost/rust-unofficial/awesome-rust/blob/master/CONTRIBUTING
+   .md]CONTRIBUTING.md
+   [file://localhost/rust-unofficial/awesome-rust/commit/6fcb4d99f46f39fbe
+   f57983e83ca2d66669352de]slight improvements Sep 11, 2017
+   C
+   argo.toml
+   [file://localhost/rust-unofficial/awesome-rust/commit/eb15075946ac00739
+   61ef450fb6f9dc8c35bc3db]add a parser stub for the README.md file Dec
+   10, 2016
+   RE
+   ADME.md
+   Fixed 301 link to wasm-bindgen Apr 13, 2018
+   c
+   leanup.py
+   add comments Aug 27, 2017
+   dum
+   my.rs
+   reduce Rust code since the Python script is
+   marked as vendored Aug 26, 2017
+
+README.md
+
+
+
+   A curated list of Rust code and resources.
+
+   If you want to contribute, please read
+   [file://localhost/rust-unofficial/awesome-rust/blob/master/CONTRIBUTING
+   .md]this.
+
+Table of Contents
+
+     * Applications written in Rust
+     * Development Tools
+          + Build system
+          + Debugging
+          + Deployment
+          + Embedded
+          + FFI
+          + IDEs
+          + Profiling
+          + Static Analysis
+          + Testing
+     * Libraries
+          + Astronomy
+          + Asynchronous
+          + Audio
+          + Authentication
+          + Bioinformatics
+          + Caching
+          + Cloud
+          + Command-line
+          + Compression
+          + Computation
+          + Concurrency
+          + Configuration
+          + Cryptography
+          + Database
+          + Data processing
+          + Data structures
+          + Data visualization
+          + Date and time
+          + Distributed Systems
+          + Email
+          + Encoding
+          + Filesystem
+          + Game development
+          + Geospatial
+          + Graphics
+          + Graph processing
+          + GUI
+          + Image processing
+          + Industrial automation
+          + Language specification
+          + Logging
+          + Machine learning
+          + Macro
+          + Markup language
+          + Mobile
+          + Network programming
+          + Parser
+          + Platform specific
+          + Scripting
+          + Template engine
+          + Text processing
+          + Text search
+          + Virtualization
+          + Web programming
+     * Resources
+     * License
+
+Applications written in Rust
+
+   See also [https://www.rust-lang.org/friends.html]Friends of Rust
+   (organizations running Rust in production).
+     * [https://github.com/andschwa/rust-genetic-algorithm]andschwa/rust-g
+       enetic-algorithm -- a genetic algorithm for academic benchmark
+       problems
+       [https://travis-ci.org/andschwa/rust-genetic-algorithm][68747470733
+       a2f2f6170692e7472617669732d63692e6f72672f616e6473636877612f72757374
+       2d67656e657469632d616c676f726974686d2e7376673f6272616e63683d6d61737
+       46572]
+     * [https://github.com/rust-lang-nursery/mdBook]azerupi/mdBook -- a
+       command line utility to create books from markdown files
+       [https://travis-ci.org/azerupi/mdBook][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f617a65727570692f6d64426f6f6b2e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/bluejekyll/trust-dns]bluejekyll/trust-dns -- a
+       DNS-server
+       [https://travis-ci.org/bluejekyll/trust-dns][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f626c75656a656b796c6c2f74727573742d646
+       e732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/ivanceras/diwata]ivanceras/diwata -- a database
+       administration tool for postgresql
+       [https://travis-ci.org/ivanceras/diwata][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f6976616e63657261732f6469776174612e737667]
+     * [https://github.com/cobalt-org/cobalt.rs]cobalt-org/cobalt.rs -
+       Static site generator written in Rust
+       [https://travis-ci.org/cobalt-org/cobalt.rs][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f636f62616c742d6f72672f636f62616c742e7
+       2732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/runconduit/conduit]runconduit/conduit -
+       Ultralight service mesh for Kubernetes.
+     * [https://bitbucket.org/danielrangel/rsign]danielrangel/rsign
+       [[https://crates.io/crates/rsign]rsign] -- A simple command-line
+       tool used to generate/sign/verify digital signatures designed to be
+       compatible with Minisign
+       [https://app.codeship.com/projects/244452]Codeship Status for
+       danielrangel/rsign
+     * [https://github.com/darrint/device-blocker]darrint/device-blocker
+       -- Limit screen time to children's various mobile devices by
+       blocking internet access on the family Wifi router.
+     * [https://github.com/dlecan/generic-dns-update]dlecan/generic-dns-up
+       date -- a tool to update DNS zonefiles with your IP address
+       [https://travis-ci.org/dlecan/generic-dns-update][68747470733a2f2f6
+       170692e7472617669732d63692e6f72672f646c6563616e2f67656e657269632d64
+       6e732d7570646174652e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/snowplow/factotum]Factotum --
+       [https://snowplowanalytics.com/blog/2016/04/09/introducing-factotum
+       -data-pipeline-runner/]A system to programmatically run data
+       pipelines
+       [https://travis-ci.org/snowplow/factotum][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f736e6f77706c6f772f666163746f74756d2e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/fcsonline/drill]fcsonline/drill -- a HTTP load
+       testing application inspired by Ansible syntax
+     * [https://github.com/fractalide/fractalide]Fractalide -- Simple Rust
+       Microservices
+     * [https://github.com/FuGangqiang/mdblog.rs]FuGangqiang/mdblog.rs --
+       Static site generator from markdown files.
+     * [https://www.habitat.sh/]habitat -- An tool created by
+       [https://www.chef.io/]Chef to build, deploy, and manage
+       applications.
+     * [https://github.com/imjacobclark/Herd]imjacobclark/Herd -- an
+       experimental HTTP load testing application
+     * [https://github.com/intecture/api]intecture/api -- an API-driven
+       server management and configuration tool
+       [https://travis-ci.org/intecture/api][68747470733a2f2f6170692e74726
+       17669732d63692e6f72672f696e746563747572652f6170692e7376673f6272616e
+       63683d6d6173746572]
+     * [https://github.com/jedisct1/flowgger]jedisct1/flowgger -- a fast,
+       simple and lightweight data collector
+     * [https://github.com/jwilm/alacritty]jwilm/alacritty -- a
+       cross-platform, GPU enhanced terminal emulator
+     * [https://github.com/kbknapp/docli-rs]kbknapp/docli -- a command
+       line utility for managing DigitalOcean infrastructure
+       [https://travis-ci.org/kbknapp/docli-rs][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f6b626b6e6170702f646f636c692d72732e7376673
+       f6272616e63683d6d6173746572]
+     * [https://maidsafe.net/]MaidSafe -- a decentralized platform.
+     * [https://github.com/nicohman/eidolon]nicohman/eidolon -- a steam
+       and drm-free game registry and launcher for linux and macosx
+       [https://travis-ci.org/nicohman/eidolon][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f6e69636f686d616e2f6569646f6c6f6e2e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/withoutboats/notty]notty -- A new kind of
+       terminal
+     * [https://pijul.org/]Pijul -- a patch-based distributed version
+       control system
+     * [https://github.com/qmx/limonite]qmx/limonite -- static
+       blog/website generator
+       [https://travis-ci.org/qmx/limonite][68747470733a2f2f6170692e747261
+       7669732d63692e6f72672f716d782f6c696d6f6e6974652e7376673f6272616e636
+       83d6d6173746572]
+     * [https://github.com/quadrupleslap/leven]quadrupleslap/leven
+       [[https://crates.io/crates/leven]leven] -- a simple, parallelized
+       blog generator.
+       [https://travis-ci.org/quadrupleslap/leven][68747470733a2f2f6170692
+       e7472617669732d63692e6f72672f717561647275706c65736c61702f6c6576656e
+       2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/sandstorm-io/collections-app]Sandstorm
+       Collections App
+     * [https://github.com/servo/servo]Servo -- a prototype web browser
+       engine
+     * [https://github.com/serayuzgur/weld]Weld -- Full fake REST API
+       generator
+       [https://travis-ci.org/serayuzgur/weld][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f7365726179757a6775722f77656c642e737667]
+     * Audio
+          + [https://github.com/indiscipline/zrtstr]indiscipline/zrtstr --
+            a command line utility for checking if stereo wav files are
+            faux-stereo (i.e. have identical channels) and converting such
+            files to mono.
+            [https://travis-ci.org/indiscipline/zrtstr][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f696e6469736369706c696e652f7a
+            72747374722e7376673f6272616e63683d6d6173746572]
+     * Cryptocurrencies
+          + [https://github.com/Limeth/ethaddrgen]ethaddrgen -- Custom
+            Ethereum vanity address generator made in Rust
+            [https://travis-ci.org/Limeth/ethaddrgen][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f4c696d6574682f6574686164647267
+            656e2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/paritytech/parity]Parity -- Fast, light,
+            and robust Ethereum implementation
+            [https://gitlab.ethcore.io/parity/parity/commits/master]build
+            status
+          + [https://github.com/paritytech/parity-bitcoin]parity-bitcoin
+            -- The Parity Bitcoin client
+            [https://travis-ci.com/paritytech/parity-bitcoin][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f706172697479746563682f
+            7061726974792d626974636f696e2e7376673f6272616e63683d6d61737465
+            72]
+     * Database
+          + [https://github.com/pingcap/tikv]pingcap/tikv -- a distributed
+            KV database in Rust
+            [https://travis-ci.org/pingcap/tikv][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f70696e676361702f74696b762e7376673f6
+            272616e63683d6d6173746572]
+          + [https://github.com/PumpkinDB/PumpkinDB]PumpkinDB -- an event
+            sourcing database engine
+            [https://travis-ci.org/PumpkinDB/PumpkinDB][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f50756d706b696e44422f50756d70
+            6b696e44422e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/seppo0010/rsedis]seppo0010/rsedis -- a
+            Redis reimplementation in Rust
+            [https://travis-ci.org/seppo0010/rsedis][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f736570706f303031302f72736564697
+            32e7376673f6272616e63683d6d6173746572]
+     * Emulators [[https://crates.io/keywords/emulator]emulator]
+          + Commodore 64
+               o [https://github.com/kondrak/rust64]kondrak/rust64 --
+                 [https://travis-ci.org/kondrak/rust64][68747470733a2f2f61
+                 70692e7472617669732d63692e6f72672f6b6f6e6472616b2f7275737
+                 436342e7376673f6272616e63683d6d6173746572]
+          + Gameboy
+               o [https://github.com/Gekkio/mooneye-gb]Gekkio/mooneye-gb
+                 --
+                 [https://travis-ci.org/Gekkio/mooneye-gb][68747470733a2f2
+                 f6170692e7472617669732d63692e6f72672f47656b6b696f2f6d6f6f
+                 6e6579652d67622e7376673f6272616e63683d6d6173746572]
+               o [https://github.com/mvdnes/rboy]mvdnes/rboy --
+                 [https://travis-ci.org/mvdnes/rboy][68747470733a2f2f61706
+                 92e7472617669732d63692e6f72672f6d76646e65732f72626f792e73
+                 76673f6272616e63683d6d6173746572]
+               o [https://github.com/nivent/RGB]NivenT/RGB --
+                 [https://travis-ci.org/NivenT/RGB][68747470733a2f2f617069
+                 2e7472617669732d63692e6f72672f4e6976656e542f5247422e73766
+                 73f6272616e63683d6d6173746572]
+          + NES
+               o [https://github.com/iamsix/oxidenes]iamsix/oxidenes --
+                 [https://travis-ci.org/iamsix/oxidenes][68747470733a2f2f6
+                 170692e7472617669732d63692e6f72672f69616d7369782f6f786964
+                 656e65732e7376673f6272616e63683d6d6173746572]
+               o [https://github.com/koute/pinky]koute/pinky --
+                 [https://travis-ci.org/koute/pinky][68747470733a2f2f61706
+                 92e7472617669732d63692e6f72672f6b6f7574652f70696e6b792e73
+                 76673f6272616e63683d6d6173746572]
+               o [https://github.com/pcwalton/sprocketnes]pcwalton/sprocke
+                 tnes --
+                 [https://travis-ci.org/pcwalton/sprocketnes][68747470733a
+                 2f2f6170692e7472617669732d63692e6f72672f706377616c746f6e2
+                 f7370726f636b65746e65732e7376673f6272616e63683d6d61737465
+                 72]
+          + Playstation
+               o [https://github.com/simias/rustation]simias/rustation --
+                 [https://travis-ci.org/simias/rustation][68747470733a2f2f
+                 6170692e7472617669732d63692e6f72672f73696d6961732f7275737
+                 46174696f6e2e7376673f6272616e63683d6d6173746572]
+          + ZX Spectrum
+               o [https://github.com/pacmancoder/rustzx]pacmancoder/rustzx
+                 --
+                 [https://travis-ci.org/pacmancoder/rustzx][68747470733a2f
+                 2f6170692e7472617669732d63692e6f72672f7061636d616e636f646
+                 5722f727573747a782e7376673f6272616e63683d6d6173746572]
+          + Virtual Boy
+               o [https://github.com/emu-rs/rustual-boy]emu-rs/rustual-boy
+                 --
+                 [https://travis-ci.org/emu-rs/rustual-boy][68747470733a2f
+                 2f6170692e7472617669732d63692e6f72672f656d752d72732f72757
+                 37475616c2d626f792e7376673f6272616e63683d6d6173746572]
+          + Emulator Development tools
+               o SNES
+                    # [https://github.com/ioncodes/snesutilities]ioncodes/
+                      snesutilities -- ROM analyser/extractor
+     * Games, see also
+       [https://github.com/PistonDevelopers/piston/wiki/Games-Made-With-Pi
+       ston]Games Made With Piston.
+          + [https://github.com/lifthrasiir/angolmois-rust]lifthrasiir/ang
+            olmois-rust -- a minimalistic music video game which supports
+            the BMS format
+            [https://travis-ci.org/lifthrasiir/angolmois-rust][68747470733
+            a2f2f6170692e7472617669732d63692e6f72672f6c6966746872617369697
+            22f616e676f6c6d6f69732d727573742e7376673f6272616e63683d6d61737
+            46572]
+          + [https://github.com/swatteau/sokoban-rs]swatteau/sokoban-rs --
+            a Sokoban implementation
+          + [https://github.com/ozkriff/zoc]Zone of Control -- a
+            turn-based hexagonal strategy game
+            [https://travis-ci.org/ozkriff/zoc][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f6f7a6b726966662f7a6f632e7376673f6272
+            616e63683d6d6173746572]
+          + [https://github.com/dpc/rhex]rhex -- hexagonal ascii roguelike
+          + [https://github.com/citybound/citybound]citybound -- The city
+            sim you deserve
+          + [https://github.com/ozkriff/zemeroth]ozkriff/zemeroth -- a
+            small 2D turn-based hexagonal strategy game
+            [https://travis-ci.org/ozkriff/zemeroth][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f6f7a6b726966662f7a656d65726f746
+            82e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/rsaarelm/magog]rsaarelm/magog - A
+            roguelike game in Rust
+          + [https://github.com/cristicbz/rust-doom]cristicbz/rust-doom -
+            A renderer for Doom, may progress to being a playable game
+            [https://travis-ci.org/cristicbz/rust-doom][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f63726973746963627a2f72757374
+            2d646f6f6d2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/Thinkofname/rust-quake]Thinkofname/rust-qu
+            ake - Quake map renderer in Rust
+     * Graphics
+          + [https://github.com/Limeth/euclider]Limeth/euclider -- a
+            real-time 4D CPU ray tracer
+            [https://travis-ci.org/Limeth/euclider][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f4c696d6574682f6575636c696465722e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/ivanceras/svgbobrus]ivanceras/svgbobrus --
+            converts ASCII diagrams into SVG graphics
+            [https://travis-ci.org/ivanceras/svgbobrus][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f6976616e63657261732f73766762
+            6f627275732e737667]
+          + [https://github.com/RazrFalcon/svgcleaner]RazrFalcon/svgcleane
+            r -- tidies SVG graphics
+          + [https://github.com/Twinklebear/tray_rust]Twinklebear/tray_rus
+            t -- a ray tracer
+            [https://travis-ci.org/Twinklebear/tray_rust][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f5477696e6b6c65626561722f74
+            7261795f727573742e737667]
+          + Image processing
+               o [https://github.com/spejss/Image-Processing-CLI-in-Rust]s
+                 pejss/Image-Processing-CLI-in-Rust -- CLI for processing
+                 images, generating histograms.
+                 [https://travis-ci.org/spejss/Image-Processing-CLI-in-Rus
+                 t]Build Status
+     * Industrial automation
+          + [https://github.com/slowtec/tokio-modbus]slowtec/tokio-modbus
+            - A [https://tokio.rs/]tokio-based [http://modbus.org/]modbus
+            library. [https://travis-ci.org/slowtec/tokio-modbus]Build
+            Status
+     * Operating systems, see also
+       [https://github.com/flosse/rust-os-comparison]A comparison of
+       operating systems written in Rust
+          + [https://github.com/redox-os/redox]redox-os/redox --
+            [https://travis-ci.org/redox-os/redox][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f7265646f782d6f732f7265646f782e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/thepowersgang/rust_os]thepowersgang/rust_o
+            s --
+            [https://travis-ci.org/thepowersgang/rust_os][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f746865706f7765727367616e67
+            2f727573745f6f732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/helena-project/tock]helena-project/tock --
+            A secure embedded operating system for Cortex-M based
+            microcontrollers
+     * System tools
+          + [https://github.com/Aaronepower/tokei]Aaronepower/tokei --
+            counts the lines of code
+            [https://travis-ci.org/Aaronepower/tokei][68747470733a2f2f696d
+            672e736869656c64732e696f2f7472617669732f4161726f6e65706f776572
+            2f746f6b65692e737667]
+          + [https://github.com/buster/rrun]buster/rrun -- a command
+            launcher for Linux, similar to gmrun
+            [https://travis-ci.org/buster/rrun][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f6275737465722f7272756e2e7376673f6272
+            616e63683d6d6173746572]
+          + [https://github.com/cristianoliveira/funzzy]cristianoliveira/f
+            unzzy -- a configurable filesystem watcher inspired by
+            [http://entrproject.org/]entr
+            [https://travis-ci.org/cristianoliveira/funzzy][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f637269737469616e6f6c6976
+            656972612f66756e7a7a792e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/jhspetersson/fselect]jhspetersson/fselect
+            [[https://crates.io/crates/fselect]fselect] -- Find files with
+            SQL-like queries
+            [https://travis-ci.org/jhspetersson/fselect][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f6a6873706574657273736f6e2f6
+            673656c6563742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/k0pernicus/zou]k0pernicus/zou -- a
+            download accelerator
+            [https://travis-ci.org/k0pernicus/zou][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f6b307065726e696375732f7a6f752e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/lotabout/skim]lotabout/skim -- A fuzzy
+            finder in pure rust
+            [https://travis-ci.org/lotabout/skim][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f6c6f7461626f75742f736b696d2e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/mmstick/concurr]mmstick/concurr --
+            Alternative to GNU Parallel w/ a client-server architecture
+          + [https://github.com/mmstick/fontfinder]mmstick/fontfinder --
+            GTK3 application for previewing and installing Google's fonts
+          + [https://github.com/mmstick/parallel]mmstick/parallel --
+            Reimplementation of GNU Parallel
+          + [https://github.com/mmstick/systemd-manager]mmstick/systemd-ma
+            nager -- a systemd service manager written in Rust using
+            GTK-rs.
+          + [https://github.com/mmstick/tv-renamer]mmstick/tv-renamer -- a
+            tv series renaming application with an optional GTK3 frontend.
+            [https://travis-ci.org/mmstick/tv-renamer][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f6d6d737469636b2f74762d72656e6
+            16d65722e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/ogham/exa]ogham/exa -- a replacement for
+            'ls'
+            [https://travis-ci.org/ogham/exa][68747470733a2f2f6170692e7472
+            617669732d63692e6f72672f6f6768616d2f6578612e7376673f6272616e63
+            683d6d6173746572]
+          + [https://github.com/Ralvke/logram]Ralvke/logram -- Push log
+            files' updates to Telegram
+            [https://travis-ci.org/Ralvke/logram][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f52616c766b652f6c6f6772616d2e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/redox-os/ion]redox-os/ion --
+            Next-generation system shell
+            [https://travis-ci.org/redox-os/ion][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f7265646f782d6f732f696f6e2e7376673f6
+            272616e63683d6d6173746572]
+          + [https://github.com/sharkdp/fd]sharkdp/fd -- A simple, fast
+            and user-friendly alternative to find.
+            [https://travis-ci.org/sharkdp/fd]Build Status
+          + [https://github.com/uutils/coreutils]uutils/coreutils -- a
+            cross-platform Rust rewrite of the GNU coreutils
+            [https://travis-ci.org/uutils/coreutils][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f757574696c732f636f72657574696c7
+            32e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/mattgreen/watchexec]mattgreen/watchexec --
+            Executes commands in response to file modifications
+            [https://travis-ci.org/mattgreen/watchexec][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f6d617474677265656e2f77617463
+            68657865632e7376673f6272616e63683d6d6173746572]
+     * Text editors
+          + [https://github.com/gchp/iota]gchp/iota -- a simple text
+            editor
+            [https://travis-ci.org/gchp/iota][68747470733a2f2f6170692e7472
+            617669732d63692e6f72672f676368702f696f74612e7376673f6272616e63
+            683d6d6173746572]
+          + [https://github.com/mathall/rim]mathall/rim -- Vim-like text
+            editor written in Rust
+            [https://travis-ci.org/mathall/rim][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f6d617468616c6c2f72696d2e7376673f6272
+            616e63683d6d6173746572]
+          + [https://github.com/google/xi-editor]xi-editor -- a modern
+            editor with a backend written in Rust.
+     * Text processing
+          + [https://github.com/BurntSushi/ripgrep]BurntSushi/ripgrep --
+            combines the usability of The Silver Searcher with the raw
+            speed of grep
+            [https://travis-ci.org/BurntSushi/ripgrep][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f4275726e7453757368692f7269706
+            77265702e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/BurntSushi/xsv]BurntSushi/xsv -- a fast
+            CSV command line tool (slicing, indexing, selecting,
+            searching, sampling, etc.)
+            [https://travis-ci.org/BurntSushi/xsv][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f4275726e7453757368692f7873762e737
+            6673f6272616e63683d6d6173746572]
+     * Utilities
+          + [https://github.com/arthrp/quick-skeleton]arthrp/quick-skeleto
+            n -- Project scaffolding tool, similar to Yeoman and Slush.
+          + [https://github.com/yaa110/rubigo]yaa110/rubigo -- Golang
+            dependency tool and package manager, written in Rust
+            [https://travis-ci.org/yaa110/rubigo][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f7961613131302f72756269676f2e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/amar-laksh/workstation]amar-laksh/workstat
+            ion - A commandline tool to help you manage your workstation
+            by distancing you from your screen, locking your screen when
+            you aren't there among other things with OPENCV!
+     * Virtualization
+          + [https://github.com/tailhook/vagga]tailhook/vagga -- a
+            containerization tool without daemons
+            [https://travis-ci.org/tailhook/vagga][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f7461696c686f6f6b2f76616767612e737
+            6673f6272616e63683d6d6173746572]
+     * Window Managers
+          + [https://github.com/way-cooler/way-cooler]way-cooler/way-coole
+            r -- a customizable Wayland compositor (window manager)
+            [https://travis-ci.org/way-cooler/way-cooler][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f7761792d636f6f6c65722f7761
+            792d636f6f6c65722e7376673f6272616e63683d6d6173746572]
+     * Web
+          + [https://github.com/OUISRC/muro]OUISRC/muro -- A new Forum use
+            rust, rocket, diesel, postgresql, and responsive design
+            [https://travis-ci.org/OUISRC/muro][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f4f55495352432f6d75726f2e7376673f6272
+            616e63683d6d6173746572]
+
+Development tools
+
+     * [https://github.com/rust-lang-nursery/rust-clippy]Clippy
+       [[https://crates.io/crates/clippy]clippy] -- Rust lints
+       [https://travis-ci.org/rust-lang-nursery/rust-clippy][68747470733a2
+       f2f6170692e7472617669732d63692e6f72672f727573742d6c616e672d6e757273
+       6572792f727573742d636c697070792e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/clog-tool/clog-cli]clog-tool/clog-cli --
+       generates a changelog from git metadata
+       ([https://blog.thoughtram.io/announcements/tools/2014/09/18/announc
+       ing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html
+       ]conventional changelog)
+       [https://travis-ci.org/clog-tool/clog-cli][68747470733a2f2f6170692e
+       7472617669732d63692e6f72672f636c6f672d746f6f6c2f636c6f672d636c692e7
+       376673f6272616e63683d6d6173746572]
+     * [https://github.com/dan-t/rusty-tags]dan-t/rusty-tags -- create
+       ctags/etags for a cargo project and all of its dependencies
+       [https://travis-ci.org/dan-t/rusty-tags][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f64616e2d742f72757374792d746167732e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/frewsxcv/crate-deps]frewsxcv/crate-deps --
+       generates images of dependency graphs for crates hosted on
+       crates.io
+     * [https://github.com/saschagrunert/git-journal/]git-journal -- The
+       Git Commit Message and Changelog Generation Framework
+       [https://travis-ci.org/saschagrunert/git-journal][68747470733a2f2f6
+       170692e7472617669732d63692e6f72672f7361736368616772756e6572742f6769
+       742d6a6f75726e616c2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/killercup/rustfix]killercup/rustfix --
+       automatically applies the suggestions made by rustc
+       [https://travis-ci.org/killercup/rustfix][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f6b696c6c65726375702f727573746669782e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/casey/just]just -- A handy command runner for
+       project-specific tasks
+       [https://travis-ci.org/casey/just][68747470733a2f2f6170692e74726176
+       69732d63692e6f72672f63617365792f6a7573742e7376673f6272616e63683d6d6
+       173746572]
+     * [http://fiatjaf.alhur.es/module-linker/#/rust]Module Linker --
+       Extension that adds <a> links to references in mod, use and extern
+       crate statements at GitHub.
+     * [https://github.com/dalance/ptags]ptags -- A parallel
+       universal-ctags wrapper for git repository
+       [https://travis-ci.org/dalance/ptags]Build Status
+     * [https://github.com/racer-rust/racer]Racer -- code completion for
+       Rust
+       [https://travis-ci.org/phildawes/racer][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f7068696c64617765732f72616365722e7376673f62
+       72616e63683d6d6173746572]
+     * [https://github.com/rust-lang-nursery/rustfmt]rustfmt -- a Rust
+       code formatter
+       [https://travis-ci.org/rust-lang-nursery/rustfmt][68747470733a2f2f6
+       170692e7472617669732d63692e6f72672f727573742d6c616e672d6e7572736572
+       792f72757374666d742e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/rust-lang-nursery/rustup.rs]Rustup -- the Rust
+       toolchain installer
+       [https://travis-ci.org/rust-lang-nursery/rustup.rs][68747470733a2f2
+       f6170692e7472617669732d63692e6f72672f727573742d6c616e672d6e75727365
+       72792f7275737475702e72732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/rust-lang-nursery/rls]Rust Language Server -- a
+       server that runs in the background, providing IDEs, editors, and
+       other tools with information about Rust programs
+     * [https://github.com/vitiral/artifact]artifact -- the design doc
+       tool made for developers
+       [https://travis-ci.org/vitiral/artifact]Build Status
+     * [https://github.com/semantic-rs/semantic-rs]semantic-rs --
+       automatic crate publishing
+       [https://travis-ci.org/semantic-rs/semantic-rs][68747470733a2f2f617
+       0692e7472617669732d63692e6f72672f73656d616e7469632d72732f73656d616e
+       7469632d72732e7376673f6272616e63683d6d6173746572]
+
+Build system
+
+     * [https://crates.io/]Cargo -- the Rust package manager
+          + [https://github.com/BurntSushi/cargo-benchcmp]BurntSushi/cargo
+            -benchcmp
+            [[https://crates.io/crates/cargo-benchcmp]cargo-benchcmp] --
+            utility to compare Rust micro-benchmarks
+            [https://travis-ci.org/BurntSushi/cargo-benchcmp][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f4275726e7453757368692f
+            636172676f2d62656e6368636d702e7376673f6272616e63683d6d61737465
+            72]
+          + [https://github.com/cardoe/cargo-bitbake]cardoe/cargo-bitbake
+            [[https://crates.io/crates/cargo-bitbake]cargo-bitbake] -
+            cargo extension that can generate BitBake recipes utilizing
+            the classes from meta-rust
+            [https://travis-ci.org/cardoe/cargo-bitbake][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f636172646f652f636172676f2d6
+            2697462616b652e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/rsolomo/cargo-check]rsolomo/cargo-check
+            [[https://crates.io/crates/cargo-check]cargo-check] -- a
+            wrapper around cargo rustc -- -Zno-trans which can be helpful
+            for running a faster compile if you only need correctness
+            checks
+            [https://travis-ci.org/rsolomo/cargo-check][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f72736f6c6f6d6f2f636172676f2d
+            636865636b2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kbknapp/cargo-count]kbknapp/cargo-count
+            [[https://crates.io/crates/cargo-count]cargo-count] -- lists
+            source code counts and details about cargo projects, including
+            unsafe statistics
+            [https://travis-ci.org/kbknapp/cargo-count][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f6b626b6e6170702f636172676f2d
+            636f756e742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/mmstick/cargo-deb]mmstick/cargo-deb --
+            generate binary Debian packages
+            [https://travis-ci.org/mmstick/cargo-deb][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f6d6d737469636b2f636172676f2d64
+            65622e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/pwoolcoc/cargo-do]pwoolcoc/cargo-do
+            [[https://crates.io/crates/cargo-do]cargo-do] -- run multiple
+            cargo commands in a row
+            [https://travis-ci.org/pwoolcoc/cargo-do][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f70776f6f6c636f632f636172676f2d
+            646f2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/maxsnew/cargo-dot]maxsnew/cargo-dot --
+            generate graphs of a Cargo project's dependencies
+            [https://travis-ci.org/maxsnew/cargo-dot][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f6d6178736e65772f636172676f2d64
+            6f742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/cardoe/cargo-ebuild]cardoe/cargo-ebuild
+            [[https://crates.io/crates/cargo-ebuild]cargo-ebuild] - cargo
+            extension that can generate ebuilds using the in-tree eclasses
+            [https://travis-ci.org/cardoe/cargo-ebuild][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f636172646f652f636172676f2d65
+            6275696c642e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/killercup/cargo-edit]killercup/cargo-edit
+            [[https://crates.io/crates/cargo-edit]cargo-edit] -- allows
+            you to add and list dependencies by reading/writing to your
+            Cargo.toml file from the command line
+            [https://travis-ci.org/killercup/cargo-edit][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f6b696c6c65726375702f6361726
+            76f2d656469742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/Ralvke/cargo-find]Ralvke/cargo-find
+            [[https://crates.io/crates/cargo-find]cargo-find] -- Find
+            crates from command line
+            [https://travis-ci.org/Ralvke/cargo-find][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f52616c766b652f636172676f2d6669
+            6e642e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kbknapp/cargo-graph]kbknapp/cargo-graph
+            [[https://crates.io/crates/cargo-graph]cargo-graph] -- updated
+            fork of cargo-dot with additional features
+            [https://travis-ci.org/kbknapp/cargo-graph][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f6b626b6e6170702f636172676f2d
+            67726170682e7376673f6272616e63683d6d6173746572]
+          + [https://gitlab.com/imp/cargo-info]imp/cargo-info
+            [[https://crates.io/crates/cargo-info]cargo-info] -- queries
+            crates.io for crates details from command line
+            [https://travis-ci.org/imp/cargo-info][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f696d702f636172676f2d696e666f2e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/sagiegurari/cargo-make]sagiegurari/cargo-m
+            ake [[https://crates.io/crates/cargo-make]cargo-make] -- Rust
+            task runner and build tool.
+            [https://travis-ci.org/sagiegurari/cargo-make][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f73616769656775726172692f6
+            36172676f2d6d616b652e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/regexident/cargo-modules]regexident/cargo-
+            modules
+            [[https://crates.io/crates/cargo-modules]cargo-modules] -- A
+            cargo plugin for showing a tree-like overview of a crate's
+            modules.
+            [https://travis-ci.org/regexident/cargo-modules][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f72656765786964656e742f6
+            36172676f2d6d6f64756c65732e7376673f6272616e63683d6d6173746572]
+          + [https://gitlab.com/imp/cargo-multi]imp/cargo-multi
+            [[https://crates.io/crates/cargo-multi]cargo-multi] -- runs
+            specified cargo command on multiple crates
+            [https://travis-ci.org/imp/cargo-multi][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f696d702f636172676f2d6d756c74692e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kbknapp/cargo-outdated]kbknapp/cargo-outda
+            ted [[https://crates.io/crates/cargo-outdated]cargo-outdated]
+            -- displays when newer versions of Rust dependencies are
+            available, or out of date
+            [https://travis-ci.org/kbknapp/cargo-outdated][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f6b626b6e6170702f636172676
+            f2d6f757464617465642e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/sunng87/cargo-release]sunng87/cargo-releas
+            e [[https://crates.io/crates/cargo-release]cargo-release] --
+            tool for releasing git-managed cargo project, build, tag,
+            publish, doc and push
+            [https://travis-ci.org/sunng87/cargo-release][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f73756e6e6738372f636172676f
+            2d72656c656173652e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/DanielKeep/cargo-script]DanielKeep/cargo-s
+            cript [[https://crates.io/crates/cargo-script]cargo-script] --
+            lets people quickly and easily run Rust "scripts" which can
+            make use of Cargo's package ecosystem
+            [https://travis-ci.org/DanielKeep/cargo-script][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f44616e69656c4b6565702f63
+            6172676f2d7363726970742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/greyblake/cargo-testify]greyblake/cargo-te
+            stify [[https://crates.io/crates/cargo-testify]cargo-testify]
+            -- watches files changes, runs tests and notifies about the
+            result with friendly OS notification
+            [https://travis-ci.org/greyblake/cargo-testify][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f67726579626c616b652f6361
+            72676f2d746573746966792e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/nabijaczleweli/cargo-update]nabijaczleweli
+            /cargo-update
+            [[https://crates.io/crates/cargo-update]cargo-update] -- cargo
+            subcommand for checking and applying updates to installed
+            executables
+            [https://travis-ci.org/nabijaczleweli/cargo-update][6874747073
+            3a2f2f6170692e7472617669732d63692e6f72672f6e6162696a61637a6c65
+            77656c692f636172676f2d7570646174652e7376673f6272616e63683d6d61
+            73746572]
+          + [https://github.com/passcod/cargo-watch]passcod/cargo-watch
+            [[https://crates.io/crates/cargo-watch]cargo-watch] -- utility
+            for cargo to compile projects when sources change
+            [https://travis-ci.org/passcod/cargo-watch][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f70617373636f642f636172676f2d
+            77617463682e7376673f6272616e63683d6d6173746572]
+     * CMake
+          + [https://github.com/SiegeLord/RustCMake]SiegeLord/RustCMake --
+            an example project showing usage of CMake with Rust
+            [https://travis-ci.org/SiegeLord/RustCMake][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f53696567654c6f72642f52757374
+            434d616b652e7376673f6272616e63683d6d6173746572]
+     * Webpack
+          + [https://github.com/Ralvke/rust-loader]Ralvke/rust-loader --
+            Webpack Rust loader (wasm)
+
+Debugging
+
+     * GDB
+          + [https://github.com/rust-lang/rust/blob/master/src/etc/rust-gd
+            b]rust-gdb
+          + [https://github.com/cs01/gdbgui]gdbgui -- Browser based
+            frontend for gdb to debug C, C++, Rust, and go.
+            [https://travis-ci.org/cs01/gdbgui][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f637330312f6764626775692e7376673f6272
+            616e63683d6d6173746572]
+     * LLDB
+          + [https://github.com/rust-lang/rust/blob/master/src/etc/lldb_ba
+            tchmode.py]lldb_batchmode.py -- allows to use LLDB in a way
+            similar to GDB's batch mode.
+          + [https://marketplace.visualstudio.com/items?itemName=vadimcn.v
+            scode-lldb]CodeLLDB -- a LLDB extension for
+            [https://code.visualstudio.com/]Visual Studio Code.
+     * rr
+          + [http://rr-project.org/]rr -- rr is a lightweight tool for
+            recording and replaying execution of applications
+
+Deployment
+
+     * Docker
+          + [https://github.com/emk/rust-musl-builder]emk/rust-musl-builde
+            r -- Docker images for compiling static Rust binaries using
+            musl-libc and musl-gcc, with static versions of useful C
+            libraries
+          + [https://github.com/kpcyrd/mini-docker-rust]kpcyrd/mini-docker
+            -rust -- An example project for very small rust docker images
+            [https://travis-ci.org/kpcyrd/mini-docker-rust][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f6b70637972642f6d696e692d
+            646f636b65722d727573742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/liuchong/docker-rustup]liuchong/docker-rus
+            tup -- a multiple version (with musl tools) Rust Docker image
+          + [https://github.com/messense/rust-musl-cross]messense/rust-mus
+            l-cross - Docker images for compiling static Rust binaries
+            using musl-cross
+            [https://travis-ci.org/messense/rust-musl-cross][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f6d657373656e73652f72757
+            3742d6d75736c2d63726f73732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/rust-lang-nursery/docker-rust]rust-lang-nu
+            rsery/docker-rust -- the official Rust Docker image
+     * Google App Engine
+          + [https://github.com/DenisKolodin/rust-app-engine]DenisKolodin/
+            rust-app-engine -- App Engine Rust boilerplate
+     * Heroku
+          + [https://github.com/emk/heroku-buildpack-rust]emk/heroku-build
+            pack-rust -- a buildpack for Rust applications on Heroku
+
+Embedded
+
+   [http://www.rust-embedded.org/]Rust Embedded
+     * Cross compiling
+          + [https://github.com/japaric/rust-cross]japaric/rust-cross --
+            everything you need to know about cross compiling Rust
+            programs
+            [https://travis-ci.org/japaric/rust-cross][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f6a6170617269632f727573742d637
+            26f73732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/japaric/xargo]japaric/xargo -- effortless
+            cross compilation of Rust programs to custom bare-metal
+            targets like ARM Cortex-M
+            [https://travis-ci.org/japaric/xargo][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f6a6170617269632f786172676f2e737667
+            3f6272616e63683d6d6173746572]
+     * Raspberry Pi
+          + [https://github.com/Ogeon/rust-on-raspberry-pi]Ogeon/rust-on-r
+            aspberry-pi -- instructions for how to cross compile Rust
+            projects for the Raspberry Pi .
+
+FFI
+
+   See also [https://doc.rust-lang.org/book/first-edition/ffi.html]Foreign
+   Function Interface, [http://jakegoulding.com/rust-ffi-omnibus/]The Rust
+   FFI Omnibus (a collection of examples of using code written in Rust
+   from other languages) and
+   [https://github.com/alexcrichton/rust-ffi-examples]FFI examples written
+   in Rust.
+     * C
+          + [https://github.com/eqrion/cbindgen]rlhunt/cbindgen --
+            generates C header files from Rust source files. Used in Gecko
+            for WebRender
+            [https://travis-ci.org/eqrion/cbindgen][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f657172696f6e2f6362696e6467656e2e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/Sean1708/rusty-cheddar]Sean1708/rusty-ched
+            dar -- generates C header files from Rust source files
+            [https://travis-ci.org/Sean1708/rusty-cheddar][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f5365616e313730382f7275737
+            4792d636865646461722e7376673f6272616e63683d6d6173746572]
+     * C++
+          + [https://github.com/rust-lang-nursery/rust-bindgen]rust-lang-n
+            ursery/rust-bindgen -- a Rust bindings generator
+     * Erlang
+          + [https://github.com/hansihe/Rustler]hansihe/Rustler -- safe
+            Rust bridge for creating Erlang NIF functions
+            [https://travis-ci.org/hansihe/rustler][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f68616e736968652f727573746c65722e
+            7376673f6272616e63683d6d6173746572]
+     * Haskell
+          + [https://github.com/mgattozzi/curryrs]mgattozzi/curryrs --
+            Bridge the gap between Haskell and Rust
+          + [https://github.com/mgattozzi/haskellrs]mgattozzi/haskellrs --
+            Rust in Haskell FFI Example
+          + [https://github.com/mgattozzi/rushs]mgattozzi/rushs -- Haskell
+            in Rust FFI Example
+     * Java
+          + [https://github.com/benanders/rjni]bennettanderson/rjni -- use
+            Java from Rust
+            [https://travis-ci.org/GravityScore/RustJNI][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f62656e6e657474616e646572736
+            f6e2f726a6e692e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/drrb/java-rust-example]drrb/java-rust-exam
+            ple -- use Rust from Java
+            [https://travis-ci.org/drrb/java-rust-example][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f647272622f6a6176612d72757
+            3742d6578616d706c652e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kud1ing/rucaja]kud1ing/rucaja
+            [[https://crates.io/crates/rucaja]rucaja] -- use Java from
+            Rust
+            [https://travis-ci.org/kud1ing/rucaja][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f6b756431696e672f727563616a612e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/prevoty/jni-rs]prevoty/jni-rs
+            [[https://crates.io/crates/jni]jni] -- use Rust from Java
+            [https://travis-ci.org/prevoty/jni-rs][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f707265766f74792f6a6e692d72732e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/rawrasaur/rust-jdbc]rawrasaur/rust-jdbc --
+            uses JDBC from Rust
+            [https://travis-ci.org/rawrasaur/rust-jdbc][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f7261777261736175722f72757374
+            2d6a6462632e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/sfackler/rust-jni-sys]sfackler/rust-jni-sy
+            s [[https://crates.io/crates/jni-sys]jni-sys] -- Rust
+            definitions corresponding to jni.h
+            [https://travis-ci.org/sfackler/rust-jni-sys][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f736661636b6c65722f72757374
+            2d6a6e692d7379732e7376673f6272616e63683d6d6173746572]
+     * Lua
+          + [https://github.com/jcmoyer/rust-lua53]jcmoyer/rust-lua53 --
+            Lua 5.3 bindings for Rust
+            [https://travis-ci.org/jcmoyer/rust-lua53][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f6a636d6f7965722f727573742d6c7
+            56135332e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kballard/rust-lua]kballard/rust-lua --
+            Safe Rust bindings to Lua 5.1
+            [https://travis-ci.org/kballard/rust-lua][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f6b62616c6c6172642f727573742d6c
+            75612e737667]
+          + [https://github.com/tickbh/td_rlua]tickbh/td_rlua -- Zero-cost
+            high-level lua 5.3 wrapper for Rust
+            [https://travis-ci.org/tickbh/td_rlua][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f7469636b62682f74645f726c75612e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/tomaka/hlua]tomaka/hlua -- Rust library to
+            interface with Lua
+            [https://travis-ci.org/tomaka/hlua][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f746f6d616b612f686c75612e7376673f6272
+            616e63683d6d6173746572]
+     * mruby
+          + [https://github.com/anima-engine/mrusty]anima-engine/mrusty --
+            mruby safe bindings for Rust
+            [https://travis-ci.org/anima-engine/mrusty][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f616e696d612d656e67696e652f6d
+            72757374792e7376673f6272616e63683d6d6173746572]
+     * Node.js
+          + [https://github.com/neon-bindings/neon]neon-bindings/neon --
+            use Rust from Node.js
+            [https://travis-ci.org/neon-bindings/neon][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f6e656f6e2d62696e64696e67732f6
+            e656f6e2e7376673f6272616e63683d6d6173746572]
+     * Objective-C
+          + [https://github.com/SSheldon/rust-objc]SSheldon/rust-objc --
+            Objective-C Runtime bindings and wrapper for Rust
+     * Perl
+          + [https://github.com/vickenty/mi-rust]vickenty/mi-rust - Adds
+            support to M::I for building modules with Cargo
+          + [https://github.com/vickenty/perl-xs]vickenty/perl-xs - Create
+            Perl XS modules using Rust
+            [https://travis-ci.org/vickenty/perl-xs][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f7669636b656e74792f7065726c2d787
+            32e7376673f6272616e63683d6d6173746572]
+     * Python
+          + [https://github.com/getsentry/milksnake]getsentry/milksnake -
+            extension for python setuptools that allows you to distribute
+            dynamic linked libraries in Python wheels in the most portable
+            way imaginable.
+          + [https://github.com/dgrunwald/rust-cpython]dgrunwald/rust-cpyt
+            hon -- Python bindings
+            [https://travis-ci.org/dgrunwald/rust-cpython][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f646772756e77616c642f72757
+            3742d63707974686f6e2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/PyO3/PyO3]PyO3/PyO3 -- Rust bindings for
+            the Python interpreter
+            [https://travis-ci.org/PyO3/pyo3][68747470733a2f2f6170692e7472
+            617669732d63692e6f72672f50794f332f70796f332e7376673f6272616e63
+            683d6d6173746572]
+     * R
+          + [https://github.com/rustr/rustr]rustr/rustr -- use Rust from
+            R, and use R in Rust
+            [https://travis-ci.org/rustr/rustr][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f72757374722f72757374722e7376673f6272
+            616e63683d6d6173746572]
+     * Ruby
+          + [https://github.com/d-unseductable/ruru]d-unseductable/ruru --
+            native Ruby extensions written in Rust
+            [https://travis-ci.org/d-unseductable/ruru][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f642d756e73656475637461626c65
+            2f727572752e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/tildeio/helix]tildeio/helix -- write Ruby
+            classes in Rust
+            [https://travis-ci.org/tildeio/helix][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f74696c6465696f2f68656c69782e737667
+            3f6272616e63683d6d6173746572]
+     * Web Assembly
+          + [https://github.com/rustwasm/wasm-bindgen]rustwasm/wasm-bindge
+            n A project for facilitating high-level interactions between
+            wasm modules and JS.
+            [https://travis-ci.org/rustwasm/wasm-bindgen][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f727573747761736d2f7761736d
+            2d62696e6467656e2e7376673f6272616e63683d6d6173746572] ]
+
+IDEs
+
+   See also [https://areweideyet.com/]Are we (I)DE yet? and
+   [https://www.rust-lang.org/ides.html]Rust and IDEs.
+     * [https://atom.io/]Atom
+          + [https://github.com/zargony/atom-language-rust]zargony/atom-la
+            nguage-rust
+     * [https://eclipse.org/]Eclipse
+          + [https://github.com/RustDT/RustDT]RustDT --
+            [https://travis-ci.org/RustDT/RustDT][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f5275737444542f5275737444542e737667
+            3f6272616e63683d6d6173746572]
+     * [https://www.gnu.org/software/emacs/]Emacs
+          + [https://github.com/rust-lang/rust-mode]rust-mode -- Rust
+            Major Mode
+          + [https://github.com/flycheck/flycheck-rust]flycheck-rust --
+            Rust support for
+            [https://github.com/flycheck/flycheck]Flycheck
+          + [https://github.com/racer-rust/emacs-racer]emacs-racer --
+            Autocompletion (see also
+            [https://company-mode.github.io/]company and
+            [https://github.com/auto-complete/auto-complete]auto-complete)
+     * [https://wiki.gnome.org/Apps/Builder]gnome-builder native support
+       for rust and cargo since Version 3.22.2
+     * [https://netbeans.org/]NetBeans
+          + [https://github.com/drrb/rust-netbeans]drrb/rust-netbeans
+     * [https://www.jetbrains.com/idea/]IntelliJ
+          + [https://github.com/intellij-rust/intellij-rust]intellij-rust/
+            intellij-rust --
+            [https://travis-ci.org/intellij-rust/intellij-rust][6874747073
+            3a2f2f6170692e7472617669732d63692e6f72672f696e74656c6c696a2d72
+            7573742f696e74656c6c696a2d727573742e7376673f6272616e63683d6d61
+            73746572]
+          + [https://github.com/intellij-rust/intellij-toml]intellij-rust/
+            intellij-toml -- basic Toml support
+     * [https://github.com/madeso/ride]Ride --
+       [https://travis-ci.org/madeso/ride][68747470733a2f2f6170692e7472617
+       669732d63692e6f72672f6d616465736f2f726964652e7376673f6272616e63683d
+       6d6173746572]
+     * [https://github.com/oakes/SolidOak]SolidOak -- a simple IDE for
+       Rust, based on GTK+ and [https://github.com/neovim/neovim]Neovim
+     * [https://www.sublimetext.com/]Sublime Text
+          + [https://github.com/rust-lang/rust-enhanced]rust-lang/rust-enh
+            anced -- official Rust package
+          + [https://github.com/sublimehq/Packages/tree/master/Rust]sublim
+            ehq/packages -- native Sublime support (already installed)
+     * [https://vim.sourceforge.io/]Vim -- the ubiquitous text editor
+          + [https://github.com/rust-lang/rust.vim]rust.vim -- provides
+            file detection, syntax highlighting, formatting, Syntastic
+            integration, and more.
+          + [https://github.com/timonv/vim-cargo]vim-cargo -- command
+            bindings to quickly run cargo stuff from vim.
+          + [https://github.com/racer-rust/vim-racer]vim-racer -- allows
+            vim to use [https://github.com/racer-rust/racer]Racer for Rust
+            code completion and navigation.
+     * Visual Studio
+          + [https://github.com/PistonDevelopers/VisualRust]PistonDevelope
+            rs/VisualRust -- a Visual Studio extension for Rust
+            [https://travis-ci.org/PistonDevelopers/VisualRust][6874747073
+            3a2f2f6170692e7472617669732d63692e6f72672f506973746f6e44657665
+            6c6f706572732f56697375616c527573742e7376673f6272616e63683d6d61
+            73746572]
+     * [https://code.visualstudio.com/]Visual Studio Code
+          + [https://marketplace.visualstudio.com/items?itemName=rust-lang
+            .rust]rust-lang-nursery/rls-vscode - Rust support for Visual
+            Studio Code
+          + [https://marketplace.visualstudio.com/items?itemName=vadimcn.v
+            scode-lldb]CodeLLDB -- a LLDB extension
+          + [https://marketplace.visualstudio.com/items?itemName=kalitaale
+            xey.vscode-rust]KalitaAlexey/vscode-rust -- a fork of
+            RustyCode
+          + [https://marketplace.visualstudio.com/items?itemName=saviorisd
+            ead.RustyCode]saviorisdead/RustyCode (unmaintained)
+
+Pattern Recognition
+
+     * [https://github.com/sfikas/rusteval]sfikas/rusteval -- A tool used
+       to evaluate the output of retrieval algorithms
+       [https://travis-ci.org/sfikas/rusteval]Build Status
+
+Profiling
+
+     * [https://github.com/performancecopilot/hornet]performancecopilot/ho
+       rnet -- a Performance Co-Pilot memory-mapped values instrumentation
+       library [https://crates.io/crates/hornet]crates.io badge
+       [https://travis-ci.org/performancecopilot/hornet][68747470733a2f2f6
+       170692e7472617669732d63692e6f72672f706572666f726d616e6365636f70696c
+       6f742f686f726e65742e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/ellisonch/rust-stopwatch]ellisonch/rust-stopwat
+       ch -- a stopwatch library
+       [https://travis-ci.org/ellisonch/rust-stopwatch][68747470733a2f2f61
+       70692e7472617669732d63692e6f72672f656c6c69736f6e63682f727573742d737
+       46f7077617463682e7376673f6272616e63683d6d6173746572]
+     * FlameGraphs
+          + [https://github.com/mrhooray/torch]mrhooray/torch -- generates
+            FlameGraphs based on DWARF Debug Info
+          + [https://github.com/TyOverby/flame]TyOverby/flame --
+            [https://travis-ci.org/TyOverby/flame][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f54794f76657262792f666c616d652e737
+            6673f6272616e63683d6d6173746572]
+
+Static Analysis
+
+   [[https://crates.io/keywords/assert]assert,
+   [https://crates.io/keywords/static]static]
+     * [https://github.com/nvzqz/static-assertions-rs/]nvzqz/static-assert
+       ions-rs
+       [[https://crates.io/crates/static_assertions]static_assertions]
+       Compile-time assertions to ensure that invariants are met
+       [https://travis-ci.org/nvzqz/static-assertions-rs/]Build Status
+
+Testing
+
+   [[https://crates.io/keywords/testing]testing]
+     * [https://github.com/llogiq/mutagen]llogiq/mutagen
+       [[https://crates.io/crates/mutagen]mutagen] -- A source-level
+       mutation testing framework (nightly only)
+       [https://travis-ci.org/llogiq/mutagen][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f6c6c6f6769712f6d75746167656e2e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/AlKass/polish]AlKass/polish -- Mini
+       Testing/Test-Driven Framework
+       [https://travis-ci.org/AlKass/polish]Build Status
+       [https://crates.io/crates/polish]Crates Package Status
+     * [https://github.com/altsysrq/proptest]altsysrq/proptest
+       [[https://crates.io/crates/proptest]proptest] -- property testing
+       framework inspired by the [https://hypothesis.works/]Hypothesis
+       framework for Python
+       [https://travis-ci.org/altsysrq/proptest][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f616c7473797372712f70726f70746573742e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/BurntSushi/quickcheck]BurntSushi/quickcheck
+       [[https://crates.io/crates/quickcheck]quickcheck] -- a Rust
+       implementation of
+       [https://wiki.haskell.org/Introduction_to_QuickCheck1]QuickCheck
+       [https://travis-ci.org/BurntSushi/quickcheck][68747470733a2f2f61706
+       92e7472617669732d63692e6f72672f4275726e7453757368692f717569636b6368
+       65636b2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/farcaller/shiny]farcaller/shiny -- a fancy
+       syntax similar to Ruby's Rspec or Objective-C' kiwi
+       [https://travis-ci.org/farcaller/shiny][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f66617263616c6c65722f7368696e792e7376673f62
+       72616e63683d6d6173746572]
+     * [https://github.com/lipanski/mockito]Mockito
+       [[https://crates.io/crates/mockito]mockito] -- HTTP mocking
+       [https://travis-ci.org/lipanski/mockito][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f6c6970616e736b692f6d6f636b69746f2e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/reem/stainless]reem/stainless
+       [[https://crates.io/crates/stainless]stainless] -- Organized,
+       flexible testing framework
+       [https://travis-ci.org/reem/stainless][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f7265656d2f737461696e6c6573732e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/rust-fuzz/afl.rs]rust-fuzz/afl.rs -- a Rust
+       fuzzer, using [http://lcamtuf.coredump.cx/afl/]AFL
+       [https://travis-ci.org/rust-fuzz/afl.rs][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f727573742d66757a7a2f61666c2e72732e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/japaric/trust]trust - A Travis CI and AppVeyor
+       template to test your Rust crate on 5 architectures and publish
+       binary releases of it for Linux, macOS and Windows
+     * [https://github.com/xd009642/tarpaulin]xd009642/tarpaulin
+       [[https://crates.io/crates/cargo-tarpaulin]tarpaulin] -- A code
+       coverage tool designed for Rust
+       [https://travis-ci.org/xd009642/tarpaulin][68747470733a2f2f6170692e
+       7472617669732d63692e6f72672f7265706f7369746f726965732f7864303039363
+       4322f7461727061756c696e2e7376673f6272616e63683d6d6173746572]
+
+Libraries
+
+Astronomy
+
+   [[https://crates.io/keywords/astronomy]astronomy]
+     * [https://github.com/saurvs/astro-rust]saurvs/astro-rust --
+       astronomy for Rust
+       [https://travis-ci.org/saurvs/astro-rust][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f7361757276732f617374726f2d727573742e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/mindriot101/rust-fitsio]mindriot101/rust-fitsio
+       [[https://crates.io/crates/fitsio]fitsio] -- fits interface library
+       wrapping cfitsio
+       [https://travis-ci.org/mindriot101/rust-fitsio][68747470733a2f2f617
+       0692e7472617669732d63692e6f72672f6d696e6472696f743130312f727573742d
+       66697473696f2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/flosse/rust-sun]flosse/rust-sun -- A rust port
+       of the JS library suncalc
+       [https://travis-ci.org/flosse/rust-sun][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f666c6f7373652f727573742d73756e2e7376673f62
+       72616e63683d6d6173746572]
+
+Asynchronous
+
+     * [https://github.com/zonyitoo/coio-rs]zonyitoo/coio-rs -- a
+       coroutine I/O library with a working-stealing scheduler
+       [https://travis-ci.org/zonyitoo/coio-rs][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f7a6f6e7969746f6f2f636f696f2d72732e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/dpc/mioco]dpc/mioco -- Scalable,
+       coroutine-based, asynchronous IO handling library
+       [https://travis-ci.org/dpc/mioco]Travis CI Build Status
+     * [https://github.com/rust-lang-nursery/futures-rs]rust-lang-nursery/
+       futures-rs -- Zero-cost futures in Rust
+       [https://travis-ci.org/rust-lang-nursery/futures-rs]Travis CI Build
+       Status
+     * [https://github.com/carllerche/mio]carllerche/mio -- MIO is a
+       lightweight IO library for Rust with a focus on adding as little
+       overhead as possible over the OS abstractions
+       [https://travis-ci.org/carllerche/mio][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f6361726c6c65726368652f6d696f2e7376673f62726
+       16e63683d6d6173746572]
+
+Audio
+
+   [[https://crates.io/keywords/audio]audio]
+     * [https://github.com/GuillaumeGomez/rust-fmod]GuillaumeGomez/rust-fm
+       od -- [https://www.fmod.com/]FMOD bindings
+       [https://travis-ci.org/GuillaumeGomez/rust-fmod]Build Status
+     * [https://github.com/jhasse/ears]jhasse/ears -- a simple library to
+       play Sounds and Musics, on top of OpenAL and libsndfile
+       [https://travis-ci.org/jhasse/ears][68747470733a2f2f6170692e7472617
+       669732d63692e6f72672f6a68617373652f656172732e7376673f6272616e63683d
+       6d6173746572]
+     * [https://github.com/jpernst/alto]jpernst/alto --
+       [http://www.openal.org/]OpenAL 1.1 bindings
+       [https://travis-ci.org/jpernst/alto][68747470733a2f2f6170692e747261
+       7669732d63692e6f72672f6a7065726e73742f616c746f2e7376673f6272616e636
+       83d6d6173746572]
+     * [https://github.com/musitdev/portmidi-rs]musitdev/portmidi-rs --
+       [http://portmedia.sourceforge.net/portmidi/]PortMidi bindings
+       [https://travis-ci.org/musitdev/portmidi-rs][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f6d757369746465762f706f72746d6964692d7
+       2732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/ruuda/hound]ruuda/hound
+       [[https://crates.io/crates/hound]Hound] -- A WAV encoding and
+       decoding library
+       [https://travis-ci.org/ruuda/hound][68747470733a2f2f6170692e7472617
+       669732d63692e6f72672f72757564612f686f756e642e7376673f6272616e63683d
+       6d6173746572]
+     * [https://github.com/tomaka/rodio]tomaka/rodio - A Rust audio
+       playback library [https://travis-ci.org/tomaka/rodio]Build Status
+     * [https://github.com/RustAudio]RustAudio
+          + [https://github.com/RustAudio/rust-portaudio]RustAudio/rust-po
+            rtaudio -- [http://www.portaudio.com/]PortAudio bindings
+            [https://travis-ci.org/RustAudio/rust-portaudio][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f52757374417564696f2f727
+            573742d706f7274617564696f2e7376673f6272616e63683d6d6173746572]
+
+Authentication
+
+     * [https://github.com/hngnaig/rust-accountkit]hngnaig/rust-accountkit
+       -- An implementation
+       [https://developers.facebook.com/docs/accountkit]Facebook
+       AccountKit for Rust
+       [https://travis-ci.org/hngnaig/rust-accountkit]Build Status
+     * [https://github.com/Keats/jsonwebtoken]Keats/jsonwebtoken --
+       [https://en.wikipedia.org/wiki/JSON_Web_Token]JSON Web Token lib in
+       rust [https://travis-ci.org/Keats/jsonwebtoken]Build Status
+
+Bioinformatics
+
+     * [https://github.com/rust-bio]Rust-Bio -- bioinformatics libraries
+       in Rust.
+
+Caching
+
+     * [https://github.com/jaysonsantos/bmemcached-rs]jaysonsantos/bmemcac
+       hed-rs -- Memcached library written in pure rust
+       [https://travis-ci.org/jaysonsantos/bmemcached-rs][68747470733a2f2f
+       6170692e7472617669732d63692e6f72672f6a6179736f6e73616e746f732f626d6
+       56d6361636865642d72732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/jaemk/cached]jaemk/cached -- Simple function
+       caching/memoization
+     * [https://github.com/aisk/rust-memcache]aisk/rust-memcache -
+       Memcached client library
+       [https://travis-ci.org/aisk/rust-memcache][68747470733a2f2f6170692e
+       7472617669732d63692e6f72672f6169736b2f727573742d6d656d63616368652e7
+       376673f6272616e63683d6d6173746572]
+
+Concurrency
+
+     * [https://github.com/crossbeam-rs/crossbeam]crossbeam-rs/crossbeam -
+       Support for parallelism and low-level concurrency in Rust
+       [https://travis-ci.org/crossbeam-rs/crossbeam][68747470733a2f2f6170
+       692e7472617669732d63692e6f72672f63726f73736265616d2d72732f63726f737
+       36265616d2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/rayon-rs/rayon]Rayon - A data parallelism
+       library for Rust
+       [https://travis-ci.org/rayon-rs/rayon][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f7261796f6e2d72732f7261796f6e2e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/rustcc/coroutine-rs]rustcc/coroutine-rs -
+       Coroutine Library in Rust
+       [https://travis-ci.org/rustcc/coroutine-rs][68747470733a2f2f696d672
+       e736869656c64732e696f2f7472617669732f7275737463632f636f726f7574696e
+       652d72732e737667]
+     * [https://github.com/zonyitoo/coio-rs]zonyitoo/coio-rs - Coroutine
+       I/O for Rust
+       [https://travis-ci.org/zonyitoo/coio-rs][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f7a6f6e7969746f6f2f636f696f2d72732e7376673
+       f6272616e63683d6d6173746572]
+
+Cloud
+
+     * AWS [[https://crates.io/keywords/aws]aws]
+          + [https://github.com/rusoto/rusoto]rusoto/rusoto --
+            [https://travis-ci.org/rusoto/rusoto][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f7275736f746f2f7275736f746f2e737667
+            3f6272616e63683d6d6173746572]
+     * DigitalOcean
+          + [https://github.com/kbknapp/doapi-rs]kbknapp/doapi --
+            DigitalOcean v2 API bindings
+            [https://travis-ci.org/kbknapp/doapi-rs][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f6b626b6e6170702f646f6170692d727
+            32e7376673f6272616e63683d6d6173746572]
+
+Command-line
+
+     * Argument parsing
+          + [https://github.com/kbknapp/clap-rs]kbknapp/clap-rs
+            [[https://crates.io/crates/clap]clap] -- a simple to use, full
+            featured command-line argument parser
+            [https://travis-ci.org/kbknapp/clap-rs][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f6b626b6e6170702f636c61702d72732e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/docopt/docopt.rs]docopt/docopt.rs
+            [[https://crates.io/crates/docopt]docopt] -- a Rust
+            implementation of [http://docopt.org/]DocOpt
+            [https://travis-ci.org/docopt/docopt.rs][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f646f636f70742f646f636f70742e727
+            32e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/TeXitoi/structopt]TeXitoi/structopt
+            [[https://crates.io/crates/structopt]structopt] -- parse
+            command line argument by defining a struct
+            [https://travis-ci.org/TeXitoi/structopt][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f54655869746f692f7374727563746f
+            70742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/killercup/quicli]killercup/quicli
+            [[https://crates.io/crates/quicli]quicli] -- quickly build
+            cool CLI apps in Rust
+            [https://travis-ci.org/killercup/quicli][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f6b696c6c65726375702f717569636c6
+            92e737667]
+     * Line editor
+          + [https://github.com/srijs/rust-copperline]srijs/rust-copperlin
+            e [[https://crates.io/crates/copperline]copperline] --
+            pure-Rust command line editing library
+          + [https://github.com/MovingtoMars/liner]MovingtoMars/liner
+            [[https://crates.io/crates/liner]liner] -- a library offering
+            readline-like functionality
+            [https://travis-ci.org/MovingtoMars/liner][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f4d6f76696e67746f4d6172732f6c6
+            96e65722e737667]
+          + [https://github.com/kkawakam/rustyline]kkawakam/rustyline
+            [[https://crates.io/crates/rustyline]rustyline] -- readline
+            implementation in Rust
+            [https://travis-ci.org/kkawakam/rustyline][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f6b6b6177616b616d2f72757374796
+            c696e652e7376673f6272616e63683d6d6173746572]
+     * Pipeline
+          + [https://gitlab.com/imp/pager-rs]imp/pager-rs
+            [[https://crates.io/crates/pager]pager] -- pipe your output
+            through an external pager
+            [https://gitlab.com/imp/pager-rs/pipelines][68747470733a2f2f67
+            69746c61622e636f6d2f696d702f70616765722d72732f6261646765732f6d
+            61737465722f6275696c642e737667]
+          + [https://github.com/hniksic/rust-subprocess]hniksic/rust-subpr
+            ocess [[https://crates.io/crates/subprocess]subprocess] --
+            facilities for interaction with external pipelines
+            [https://travis-ci.org/hniksic/rust-subprocess][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f686e696b7369632f72757374
+            2d73756270726f636573732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/philippkeller/rexpect]philippkeller/rexpec
+            t [[https://crates.io/crates/rexpect]rexpect] -- automate
+            interactive applications such as ssh, ftp, passwd, etc
+            [https://travis-ci.org/philippkeller/rexpect][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f7068696c6970706b656c6c6572
+            2f726578706563742e7376673f6272616e63683d6d6173746572]
+     * Progress
+          + [https://github.com/mitsuhiko/indicatif]mitsuhiko/indicatif
+            [[https://crates.io/crates/indicatif]indicatif] -- indicate
+            progress to users
+          + [https://github.com/a8m/pb]a8m/pb
+            [[https://crates.io/crates/pbr]pbr] -- console progress bar
+            for Rust
+          + [https://github.com/FGRibreau/spinners]FGRibreau/spinners
+            [[https://crates.io/crates/spinners]spinners] -- 60+ elegant
+            terminal spinners
+     * Prompt
+          + [https://github.com/hashmismatch/terminal_cli.rs]hashmismatch/
+            terminal_cli.rs
+            [[https://crates.io/crates/terminal_cli]terminal_cli] -- build
+            an interactive command prompt
+            [https://travis-ci.org/hashmismatch/terminal_cli.rs][687474707
+            33a2f2f6170692e7472617669732d63692e6f72672f686173686d69736d617
+            463682f7465726d696e616c5f636c692e72732e7376673f6272616e63683d6
+            d6173746572]
+     * Style
+          + [https://github.com/ogham/rust-ansi-term]ogham/rust-ansi-term
+            [[https://crates.io/crates/ansi_term]ansi_term] -- control
+            colours and formatting on ANSI terminals
+            [https://travis-ci.org/ogham/rust-ansi-term][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f6f6768616d2f727573742d616e7
+            3692d7465726d2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/LukasKalbertodt/term-painter]LukasKalberto
+            dt/term-painter
+            [[https://crates.io/crates/term-painter]term-painter] --
+            cross-platform styled terminal output
+            [https://travis-ci.org/LukasKalbertodt/term-painter][687474707
+            33a2f2f696d672e736869656c64732e696f2f7472617669732f4c756b61734
+            b616c626572746f64742f7465726d2d7061696e7465722f6d61737465722e7
+            37667]
+          + [https://github.com/vitiral/termstyle]vitiral/termstyle
+            [[https://docs.rs/termstyle/0.1.2/termstyle/]termstyle] --
+            build (and test) formatted and styled command line
+            applications
+          + [https://github.com/SergioBenitez/yansi]SergioBenitez/yansi
+            [[https://crates.io/crates/yansi]yansi] -- a dead simple ANSI
+            terminal color painting library
+     * TUI
+          + [https://github.com/TimonPost/crossterm]TimonPost/crossterm
+            [[https://crates.io/crates/crossterm]crossterm] --
+            crossplatform terminal library
+          + [https://github.com/gyscos/Cursive]gyscos/Cursive
+            [[https://crates.io/crates/cursive]cursive] -- build rich TUI
+            applications
+            [https://travis-ci.org/gyscos/Cursive][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f677973636f732f437572736976652e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/ticki/termion]ticki/termion
+            [[https://crates.io/crates/termion]termion] -- bindless
+            library for controlling terminals/TTY
+            [https://travis-ci.org/ticki/termion][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f7469636b692f7465726d696f6e2e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/fdehau/tui-rs]fdehau/tui-rs
+            [[https://crates.io/crates/tui]tui] -- a TUI library inspired
+            by [https://github.com/yaronn/blessed-contrib]blessed-contrib
+            and [https://github.com/gizak/termui]termui
+            [https://travis-ci.org/fdehau/tui-rs][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f6664656861752f7475692d72732e737667
+            3f6272616e63683d6d6173746572]
+          + BearLibTerminal
+               o [https://github.com/nabijaczleweli/BearLibTerminal.rs]cfy
+                 zium/bearlibterminal
+                 [[https://crates.io/crates/bear-lib-terminal]bear-lib-ter
+                 minal] --
+                 [https://bitbucket.org/cfyzium/bearlibterminal]BearLibTer
+                 minal bindings
+                 [https://travis-ci.org/nabijaczleweli/BearLibTerminal.rs]
+                 [68747470733a2f2f6170692e7472617669732d63692e6f72672f6e61
+                 62696a61637a6c6577656c692f426561724c69625465726d696e616c2
+                 e72732e7376673f6272616e63683d6d6173746572]
+          + ncurses
+               o [https://github.com/jeaye/ncurses-rs]jeaye/ncurses-rs
+                 [[https://crates.io/crates/ncurses]ncurses] --
+                 [https://www.gnu.org/software/ncurses/]ncurses bindings
+                 [https://travis-ci.org/jeaye/ncurses-rs][68747470733a2f2f
+                 6170692e7472617669732d63692e6f72672f6a656179652f6e6375727
+                 365732d72732e7376673f6272616e63683d6d6173746572]
+               o [https://github.com/ihalila/pancurses]ihalila/pancurses
+                 [[https://crates.io/crates/pancurses]pancurses] -- curses
+                 library, supports linux and windows
+                 [https://travis-ci.org/ihalila/pancurses][68747470733a2f2
+                 f6170692e7472617669732d63692e6f72672f6968616c696c612f7061
+                 6e6375727365732e7376673f6272616e63683d6d6173746572]
+          + Termbox
+               o [https://github.com/gchp/rustbox]gchp/rustbox
+                 [[https://crates.io/crates/rustbox]rustbox] -- bindings
+                 to [https://github.com/nsf/termbox]Termbox
+                 [https://travis-ci.org/gchp/rustbox][68747470733a2f2f6170
+                 692e7472617669732d63692e6f72672f676368702f72757374626f782
+                 e7376673f6272616e63683d6d6173746572]
+
+Compression
+
+     * [https://opensource.googleblog.com/2015/09/introducing-brotli-new-c
+       ompression.html]Brotli
+          + [https://github.com/ende76/brotli-rs]ende76/brotli-rs --
+            implementation of Brotli compression
+          + [https://github.com/dropbox/rust-brotli]dropbox/rust-brotli --
+            Brotli decompressor in Rust that optionally avoids the stdlib
+     * bzip2
+          + [https://github.com/alexcrichton/bzip2-rs]alexcrichton/bzip2-r
+            s -- [http://www.bzip.org/]libbz2 bindings
+            [https://travis-ci.org/alexcrichton/bzip2-rs][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f616c65786372696368746f6e2f
+            627a6970322d72732e7376673f6272616e63683d6d6173746572]
+     * gzip
+          + [https://github.com/carols10cents/zopfli]carols10cents/zopfli
+            -- implementation of the
+            [https://github.com/google/zopfli]Zopfli compression algorithm
+            for higher quality deflate or zlib compression
+     * miniz
+          + [https://github.com/alexcrichton/flate2-rs]alexcrichton/flate2
+            -rs -- [https://code.google.com/archive/p/miniz]miniz bindings
+            [https://travis-ci.org/alexcrichton/flate2-rs][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f616c65786372696368746f6e2
+            f666c617465322d72732e7376673f6272616e63683d6d6173746572]
+     * snappy
+          + [https://github.com/JeffBelgum/rust-snappy]JeffBelgum/rust-sna
+            ppy -- [https://github.com/google/snappy]snappy bindings
+            [https://travis-ci.org/JeffBelgum/rust-snappy][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f4a65666642656c67756d2f727
+            573742d736e617070792e7376673f6272616e63683d6d6173746572]
+     * tar
+          + [https://github.com/alexcrichton/tar-rs]alexcrichton/tar-rs --
+            tar archive reading/writing in Rust
+            [https://travis-ci.org/alexcrichton/tar-rs][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f616c65786372696368746f6e2f74
+            61722d72732e7376673f6272616e63683d6d6173746572]
+     * zip
+          + [https://github.com/mvdnes/zip-rs]mvdnes/zip-rs -- read and
+            write ZIP archives [https://travis-ci.org/mvdnes/zip-rs]Build
+            Status
+
+Computation
+
+     * [https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms]BLA
+       S [[https://crates.io/keywords/blas]blas]
+          + [https://github.com/mikkyang/rust-blas]mikkyang/rust-blas --
+            BLAS bindings
+          + [https://github.com/blas-lapack-rs/blas]stainless-steel/blas
+            -- BLAS bindings
+            [https://travis-ci.org/blas-lapack-rs/blas][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f626c61732d6c617061636b2d7273
+            2f626c61732e7376673f6272616e63683d6d6173746572]
+     * [https://en.wikipedia.org/wiki/Limited-memory_BFGS]Conjugate
+       Gradient
+          + [https://github.com/noshu/cg-sys]noshu/cg-sys -- Rust binding
+            of fortran CG+ subroutine
+     * [https://gmplib.org/]GMP
+          + [https://github.com/fizyk20/rust-gmp]fizyk20/rust-gmp --
+            libgmp bindings
+            [https://travis-ci.org/fizyk20/rust-gmp][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f66697a796b32302f727573742d676d7
+            02e7376673f6272616e63683d6d6173746572]
+     * [http://www.gnu.org/software/gsl/]GSL
+          + [https://github.com/GuillaumeGomez]GuillaumeGomez/rust-GSL --
+            GSL bindings
+            [https://travis-ci.org/GuillaumeGomez/rust-GSL][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f4775696c6c61756d65476f6d
+            657a2f727573742d47534c2e7376673f6272616e63683d6d6173746572]
+     * [https://en.wikipedia.org/wiki/LAPACK]LAPACK
+          + [https://github.com/blas-lapack-rs/lapack]stainless-steel/lapa
+            ck -- LAPACK bindings
+            [https://travis-ci.org/blas-lapack-rs/lapack][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f626c61732d6c617061636b2d72
+            732f6c617061636b2e7376673f6272616e63683d6d6173746572]
+     * [https://en.wikipedia.org/wiki/Limited-memory_BFGS]L-BFGS-B
+          + [https://github.com/noshu/lbfgsb-sys]noshu/lbfgsb-sys -- Rust
+            binding of fortran L-BFGS-B subroutine
+     * [https://github.com/sebcrozet/nalgebra]sebcrozet/nalgebra --
+       low-dimensional linear algebra library
+       [https://travis-ci.org/sebcrozet/nalgebra][68747470733a2f2f6170692e
+       7472617669732d63692e6f72672f73656263726f7a65742f6e616c67656272612e7
+       376673f6272616e63683d6d6173746572]
+     * Parallel
+          + [https://github.com/arrayfire/arrayfire-rust]arrayfire/arrayfi
+            re-rust -- [https://arrayfire.com/]Arrayfire bindings
+          + [https://github.com/autumnai/collenchyma]autumnai/collenchyma
+            -- An extensible, pluggable, backend-agnostic framework for
+            parallel, high-performance computations on CUDA, OpenCL and
+            common host CPU.
+            [https://travis-ci.org/autumnai/collenchyma][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f617574756d6e61692f636f6c6c6
+            56e6368796d612e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/luqmana/rust-opencl]luqmana/rust-opencl --
+            [https://www.khronos.org/opencl/]OpenCL bindings
+            [https://travis-ci.org/luqmana/rust-opencl][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f6c75716d616e612f727573742d6f
+            70656e636c2e7376673f6272616e63683d6d6173746572]
+     * Scirust
+          + [https://github.com/indigits/scirust]indigits/scirust --
+            scientific computing library in Rust
+            [https://travis-ci.org/indigits/scirust]Build Status
+     * Statrs
+          + [https://github.com/boxtown/statrs]boxtown/statrs -- Robust
+            statistical computation library in Rust
+            [https://travis-ci.org/boxtown/statrs]Build Status
+     * Rustimization
+       [[https://crates.io/crates/rustimization]rustimization]
+          + [https://github.com/noshu/rustimization]noshu/rustimization --
+            A rust optimization library which includes L-BFGS-B and
+            Conjugate Gradient algorithm
+
+Configuration
+
+     * [https://github.com/mehcode/config-rs]mehcode/config-rs
+       [[https://crates.io/crates/config]config] -- Layered configuration
+       system for Rust applications (with strong support for 12-factor
+       applications).
+       [https://travis-ci.org/mehcode/config-rs][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f6d6568636f64652f636f6e6669672d72732e7376
+       673f6272616e63683d6d6173746572]
+
+Cryptography
+
+   [[https://crates.io/keywords/crypto]crypto,
+   [https://crates.io/keywords/cryptography]cryptography]
+     * [https://github.com/briansmith/ring]briansmith/ring -- Safe, fast,
+       small crypto using Rust and BoringSSL's cryptography primitives.
+       [https://travis-ci.org/briansmith/ring][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f627269616e736d6974682f72696e672e7376673f62
+       72616e63683d6d6173746572]
+     * [https://github.com/briansmith/webpki]briansmith/webpki -- Web PKI
+       TLS X.509 certificate validation in Rust.
+       [https://travis-ci.org/briansmith/webpki][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f627269616e736d6974682f776562706b692e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/ctz/rustls]ctz/rustls -- a Rust implementation
+       of TLS
+     * [https://github.com/DaGenix/rust-crypto]DaGenix/rust-crypto --
+       cryptographic algorithms in Rust
+       [https://travis-ci.org/DaGenix/rust-crypto][68747470733a2f2f6170692
+       e7472617669732d63692e6f72672f446147656e69782f727573742d63727970746f
+       2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/dnaq/sodiumoxide]dnaq/sodiumoxide --
+       [https://github.com/jedisct1/libsodium]libsodium bindings
+       [https://travis-ci.org/dnaq/sodiumoxide][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f646e61712f736f6469756d6f786964652e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/doublify/libblockchain]doublify/libblockchain
+       -- A Blockchain implementation
+       [https://travis-ci.org/doublify/libblockchain][68747470733a2f2f6170
+       692e7472617669732d63692e6f72672f646f75626c6966792f6c6962626c6f636b6
+       36861696e2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/exonum/exonum]exonum/exonum
+       [[https://crates.io/crates/exonum]exonum] -- extensible framework
+       for blockchain projects
+       [https://travis-ci.org/exonum/exonum][68747470733a2f2f6170692e74726
+       17669732d63692e6f72672f65786f6e756d2f65786f6e756d2e7376673f6272616e
+       63683d6d6173746572]
+     * [https://github.com/klutzy/suruga]klutzy/suruga -- a Rust
+       implementation of [https://tools.ietf.org/html/rfc5246]TLS 1.2
+     * [https://github.com/libOctavo/octavo]libOctavo/octavo -- Modular
+       hash and crypto library in Rust
+       [https://travis-ci.org/libOctavo/octavo][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f6c69624f637461766f2f6f637461766f2e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/rustindia/mpw-rs]rustindia/mpw-rs -- Pure Rust
+       implementation of the Master Password password manager
+       [https://travis-ci.org/rustindia/mpw-rs][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f72757374696e6469612f6d70772d72732e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/racum/rust-djangohashers]racum/rust-djangohashe
+       rs -- A Rust port of the password primitives used in the Django
+       Project. It doesn't require Django, only hashes and validates
+       passwords according to its style.
+       [https://travis-ci.org/Racum/rust-djangohashers][68747470733a2f2f61
+       70692e7472617669732d63692e6f72672f526163756d2f727573742d646a616e676
+       f686173686572732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/RNCryptor/rncryptor-rs]RNCryptor/rncryptor-rs
+       -- Pure Rust implementation of the RNCryptor AES file format
+     * [https://github.com/sfackler/rust-native-tls]sfackler/rust-native-t
+       ls -- Bindings for native TLS libraries
+     * [https://github.com/sfackler/rust-openssl]sfackler/rust-openssl --
+       [https://www.openssl.org/]OpenSSL bindings
+       [https://travis-ci.org/sfackler/rust-openssl][68747470733a2f2f61706
+       92e7472617669732d63692e6f72672f736661636b6c65722f727573742d6f70656e
+       73736c2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/sfackler/rust-security-framework]sfackler/rust-
+       security-framework -- Bindings for Security Framework (OSX native
+       crypto)
+     * [https://github.com/steffengy/schannel-rs]steffengy/schannel-rs --
+       Bindings for Schannel (Windows native TLS)
+     * [https://github.com/zebradil/rustotpony]zebradil/rustotpony -- CLI
+       manager of one-time password generators aka Google Authenticator
+       (TOTP)
+
+Database
+
+   [[https://crates.io/keywords/database]database]
+     * [https://github.com/sfackler/r2d2]sfackler/r2d2 -- generic
+       connection pool
+       [https://travis-ci.org/sfackler/r2d2][68747470733a2f2f6170692e74726
+       17669732d63692e6f72672f736661636b6c65722f723264322e7376673f6272616e
+       63683d6d6173746572]
+     * NoSQL [[https://crates.io/keywords/nosql]nosql]
+          + [http://cassandra.apache.org/]Cassandra
+            [[https://crates.io/keywords/cassandra]cassandra,
+            [https://crates.io/keywords/cql]cql]
+               o [https://github.com/AlexPikalov/cdrs]AlexPikalov/cdrs
+                 [[https://crates.io/crates/cdrs]cdrs] -- native client
+                 written in Rust
+                 [https://travis-ci.org/AlexPikalov/cdrs][68747470733a2f2f
+                 6170692e7472617669732d63692e6f72672f416c657850696b616c6f7
+                 62f636472732e7376673f6272616e63683d6d6173746572]
+               o [https://github.com/Metaswitch/cassandra-rs]Metaswitch/ca
+                 ssandra-rs -- bindings to the DataStax C/C++ client
+                 [https://travis-ci.org/Metaswitch/cassandra-rs][687474707
+                 33a2f2f6170692e7472617669732d63692e6f72672f4d657461737769
+                 7463682f63617373616e6472612d72732e7376673f6272616e63683d6
+                 d6173746572]
+          + CouchDB [[https://crates.io/keywords/couchdb]couchdb]
+               o [https://github.com/chill-rs/chill]chill-rs/chill
+                 [[https://crates.io/crates/chill]couchdb] -- a Rust
+                 client for the CouchDB REST API
+                 [https://travis-ci.org/chill-rs/chill][68747470733a2f2f61
+                 70692e7472617669732d63692e6f72672f6368696c6c2d72732f63686
+                 96c6c2e7376673f6272616e63683d6d6173746572]
+          + Elasticsearch
+            [[https://crates.io/keywords/elasticsearch]elasticsearch]
+               o [https://github.com/benashford/rs-es]benashford/rs-es
+                 [[https://crates.io/crates/rs-es]rs-es] -- a Rust client
+                 for the [https://www.elastic.co/]Elastic REST API
+                 [https://travis-ci.org/benashford/rs-es][68747470733a2f2f
+                 6170692e7472617669732d63692e6f72672f62656e617368666f72642
+                 f72732d65732e7376673f6272616e63683d6d6173746572]
+               o [https://github.com/elastic-rs/elastic-reqwest]elastic-rs
+                 /elastic-reqwest
+                 [[https://crates.io/crates/elastic_reqwest]elastic_reqwes
+                 t] -- a lightweight implementation of the Elasticsearch
+                 API based on Reqwest
+                 [https://travis-ci.org/elastic-rs/elastic-reqwest][687474
+                 70733a2f2f6170692e7472617669732d63692e6f72672f656c6173746
+                 9632d72732f656c61737469632d726571776573742e737667]
+          + etcd
+               o [https://github.com/jimmycuadra/rust-etcd]jimmycuadra/rus
+                 t-etcd [[https://crates.io/crates/etcd]etcd] -- A client
+                 library for CoreOS's etcd.
+                 [https://travis-ci.org/jimmycuadra/rust-etcd][68747470733
+                 a2f2f6170692e7472617669732d63692e6f72672f6a696d6d79637561
+                 6472612f727573742d657463642e7376673f6272616e63683d6d61737
+                 46572]
+          + ForestDB
+               o [https://github.com/vhbit/sherwood]vhbit/sherwood --
+                 [https://github.com/couchbase/forestdb]ForestDB bindings
+                 [https://travis-ci.org/vhbit/sherwood][68747470733a2f2f61
+                 70692e7472617669732d63692e6f72672f76686269742f73686572776
+                 f6f642e7376673f6272616e63683d6d6173746572]
+          + [https://www.influxdata.com/]InfluxDB
+               o [https://github.com/panoptix-za/influxdb-rs]panoptix-za/i
+                 nfluxdb-rs -- asynchronous interface
+                 [https://travis-ci.org/panoptix-za/influxdb-rs][687474707
+                 33a2f2f6170692e7472617669732d63692e6f72672f70616e6f707469
+                 782d7a612f696e666c757864622d72732e7376673f6272616e63683d6
+                 d6173746572]
+               o [https://github.com/driftluo/InfluxDBClient-rs]driftluo/I
+                 nfluxDBClient-rs - Synchronization interface
+                 [https://travis-ci.org/driftluo/InfluxDBClient-rs][687474
+                 70733a2f2f6170692e7472617669732d63692e6f72672f64726966746
+                 c756f2f496e666c75784442436c69656e742d72732e7376673f627261
+                 6e63683d6d6173746572]
+          + LevelDB
+               o [https://github.com/skade/leveldb]skade/leveldb --
+                 [https://github.com/google/leveldb]LevelDB bindings
+                 [https://travis-ci.org/skade/leveldb][68747470733a2f2f617
+                 0692e7472617669732d63692e6f72672f736b6164652f6c6576656c64
+                 622e7376673f6272616e63683d6d6173746572]
+          + LMDB [[https://crates.io/keywords/lmdb]lmdb]
+               o [https://github.com/vhbit/lmdb-rs]vhbit/lmdb-rs
+                 [[https://crates.io/crates/lmdb-rs]lmdb-rs] --
+                 [https://symas.com/lmdb/]LMDB bindings
+                 [https://travis-ci.org/vhbit/lmdb-rs][68747470733a2f2f617
+                 0692e7472617669732d63692e6f72672f76686269742f6c6d64622d72
+                 732e7376673f6272616e63683d6d6173746572]
+          + MongoDB [[https://crates.io/keywords/mongodb]mongodb]
+               o [https://github.com/mongodb-labs/mongo-rust-driver-protot
+                 ype]mongodb-labs/mongo-rust-driver-prototype
+                 [[https://crates.io/crates/mongodb]mongodb] --
+                 [https://www.mongodb.com/]MongoDB bindings
+                 [https://travis-ci.org/mongodb-labs/mongo-rust-driver-pro
+                 totype][68747470733a2f2f6170692e7472617669732d63692e6f726
+                 72f6d6f6e676f64622d6c6162732f6d6f6e676f2d727573742d647269
+                 7665722d70726f746f747970652e737667]
+          + Neo4j [[https://crates.io/keywords/cypher]cypher,
+            [https://crates.io/keywords/neo4j]neo4j]
+          + Redis [[https://crates.io/keywords/redis]redis]
+               o [https://github.com/mitsuhiko/redis-rs]mitsuhiko/redis-rs
+                 -- [https://redis.io/]Redis library in Rust
+                 [https://travis-ci.org/mitsuhiko/redis-rs][68747470733a2f
+                 2f6170692e7472617669732d63692e6f72672f6d6974737568696b6f2
+                 f72656469732d72732e7376673f6272616e63683d6d6173746572]
+          + [http://rocksdb.org/]RocksDB
+               o [https://github.com/spacejam/rust-rocksdb]spacejam/rust-r
+                 ocksdb -- RocksDB bindings
+                 [https://travis-ci.org/spacejam/rust-rocksdb][68747470733
+                 a2f2f6170692e7472617669732d63692e6f72672f73706163656a616d
+                 2f727573742d726f636b7364622e7376673f6272616e63683d6d61737
+                 46572]
+          + [https://unqlite.org/]UnQLite
+               o [https://github.com/zitsen/unqlite.rs]zitsen/unqlite.rs
+                 -- UnQLite bindings
+                 [https://travis-ci.org/zitsen/unqlite.rs][68747470733a2f2
+                 f6170692e7472617669732d63692e6f72672f7a697473656e2f756e71
+                 6c6974652e72732e7376673f6272616e63683d6d6173746572]
+          + [https://zookeeper.apache.org/]ZooKeeper
+               o [https://github.com/bonifaido/rust-zookeeper]bonifaido/ru
+                 st-zookeeper
+                 [[https://crates.io/crates/zookeeper]zookeeper] -- A
+                 client library for Apache ZooKeeper.
+                 [https://travis-ci.org/bonifaido/rust-zookeeper][68747470
+                 733a2f2f6170692e7472617669732d63692e6f72672f626f6e6966616
+                 9646f2f727573742d7a6f6f6b65657065722e7376673f6272616e6368
+                 3d6d6173746572]
+     * SQL [[https://crates.io/keywords/sql]sql]
+          + Microsoft SQL
+               o [https://github.com/steffengy/tiberius]steffengy/tiberius
+                 --
+                 [https://travis-ci.org/steffengy/tiberius][68747470733a2f
+                 2f6170692e7472617669732d63692e6f72672f7374656666656e67792
+                 f74696265726975732e7376673f6272616e63683d6d6173746572]
+          + MySql [[https://crates.io/keywords/mysql]mysql]
+               o [https://github.com/AgilData/mysql-proxy-rs]AgilData/mysq
+                 l-proxy-rs -- a MySQL Proxy
+                 [https://travis-ci.org/AgilData/mysql-proxy-rs][687474707
+                 33a2f2f6170692e7472617669732d63692e6f72672f4167696c446174
+                 612f6d7973716c2d70726f78792d72732e7376673f6272616e63683d6
+                 d6173746572]
+               o [https://github.com/blackbeam/mysql_async]blackbeam/mysql
+                 _async
+                 [[https://crates.io/crates/mysql_async]mysql_async] --
+                 asyncronous Rust Mysql driver based on Tokio.
+                 [https://travis-ci.org/blackbeam/mysql_async][68747470733
+                 a2f2f6170692e7472617669732d63692e6f72672f626c61636b626561
+                 6d2f6d7973716c5f6173796e632e7376673f6272616e63683d6d61737
+                 46572]
+               o [https://github.com/blackbeam/rust-mysql-simple]blackbeam
+                 /rust-mysql-simple
+                 [[https://crates.io/crates/mysql]mysql] -- a native MySql
+                 client
+                 [https://travis-ci.org/blackbeam/rust-mysql-simple][68747
+                 470733a2f2f6170692e7472617669732d63692e6f72672f626c61636b
+                 6265616d2f727573742d6d7973716c2d73696d706c652e7376673f627
+                 2616e63683d6d6173746572]
+          + PostgreSql [[https://crates.io/keywords/postgres]postgres,
+            [https://crates.io/keywords/postgresql]postgresql]
+               o [https://github.com/sfackler/rust-postgres]sfackler/rust-
+                 postgres [[https://crates.io/crates/postgres]postgres] --
+                 a native [https://www.postgresql.org/]PostgreSQL client
+                 [https://travis-ci.org/sfackler/rust-postgres][6874747073
+                 3a2f2f6170692e7472617669732d63692e6f72672f736661636b6c657
+                 22f727573742d706f7374677265732e7376673f6272616e63683d6d61
+                 73746572]
+          + Sqlite [[https://crates.io/keywords/sqlite]sqlite]
+               o [https://github.com/jgallagher/rusqlite]jgallagher/rusqli
+                 te -- [https://www.sqlite.org/index.html]Sqlite3 bindings
+                 [https://travis-ci.org/jgallagher/rusqlite][68747470733a2
+                 f2f6170692e7472617669732d63692e6f72672f6a67616c6c61676865
+                 722f727573716c6974652e7376673f6272616e63683d6d6173746572]
+     * ORM [[https://crates.io/keywords/orm]orm]
+          + [https://github.com/diesel-rs/diesel]diesel-rs/diesel -- an
+            ORM and Query builder for Rust
+            [https://travis-ci.org/diesel-rs/diesel]Build Status
+          + [https://github.com/ivanceras/rustorm]ivanceras/rustorm -- an
+            ORM for Rust [https://travis-ci.org/ivanceras/rustorm]Build
+            Status
+
+Data processing
+
+     * [https://github.com/bluss/ndarray]bluss/ndarray -- N-dimensional
+       array with array views, multidimensional slicing, and efficient
+       operations
+     * [https://github.com/kernelmachine/utah]kernelmachine/utah --
+       Dataframe structure and operations in Rust
+     * [https://github.com/weld-project/weld]weld-project/weld -
+       High-performance runtime for data analytics applications
+
+Data structures
+
+     * [https://github.com/bluss/rust-itertools]bluss/rust-itertools --
+       [https://travis-ci.org/bluss/rust-itertools][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f626c7573732f727573742d69746572746f6f6
+       c732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/contain-rs]contain-rs -- Extension of Rust's
+       std::collections
+     * [https://github.com/danielpclark/array_tool]danielpclark/array_tool
+       -- Array helpers for Rust. Some of the most common methods you
+       would use on Arrays made available on Vectors. Polymorphic
+       implementations for handling most of your use cases.
+       [https://travis-ci.org/danielpclark/array_tool][68747470733a2f2f617
+       0692e7472617669732d63692e6f72672f64616e69656c70636c61726b2f61727261
+       795f746f6f6c2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/fizyk20/generic-array]fizyk20/generic-array - a
+       hack to allow for arrays sized by typenums
+       [https://travis-ci.org/fizyk20/generic-array][68747470733a2f2f61706
+       92e7472617669732d63692e6f72672f66697a796b32302f67656e657269632d6172
+       7261792e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/Nemo157/roaring-rs]Nemo157/roaring-rs - Roaring
+       Bitmaps in Rust
+       [https://travis-ci.org/Nemo157/roaring-rs][68747470733a2f2f6170692e
+       7472617669732d63692e6f72672f4e656d6f3135372f726f6172696e672d72732e7
+       376673f6272616e63683d6d6173746572]
+     * [https://github.com/orium/rpds]orium/rpds
+       [[https://crates.io/crates/rpds]rpds] -- Persistent data structures
+       in Rust.
+       [https://travis-ci.org/orium/rpds][68747470733a2f2f6170692e74726176
+       69732d63692e6f72672f6f7269756d2f727064732e7376673f6272616e63683d6d6
+       173746572]
+     * [https://github.com/reem/rust-typemap]reem/rust-typemap --
+       [https://travis-ci.org/reem/rust-typemap][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f7265656d2f727573742d747970656d61702e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/xfix/enum-map]xfix/enum-map
+       [[https://crates.io/crates/enum-map]enum-map] -- An optimized map
+       implementation for enums using an array to store values.
+       [https://travis-ci.org/xfix/enum-map][68747470733a2f2f6170692e74726
+       17669732d63692e6f72672f786669782f656e756d2d6d61702e7376673f6272616e
+       63683d6d6173746572]
+
+Data Visualization
+
+     * [https://github.com/saresend/Gust]saresend/gust -
+       [https://travis-ci.org/saresend/Gust][68747470733a2f2f6170692e74726
+       17669732d63692e6f72672f7361726573656e642f477573742e7376673f6272616e
+       63683d6d6173746572]
+
+Date and time
+
+   [[https://crates.io/keywords/date]date,
+   [https://crates.io/keywords/time]time]
+     * [https://github.com/chronotope/chrono]chronotope/chrono --
+       [https://travis-ci.org/chronotope/chrono][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f6368726f6e6f746f70652f6368726f6e6f2e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/yaa110/rust-persian-calendar]yaa110/rust-persia
+       n-calendar --
+       [https://travis-ci.org/yaa110/rust-persian-calendar][68747470733a2f
+       2f6170692e7472617669732d63692e6f72672f7961613131302f727573742d70657
+       27369616e2d63616c656e6461722e7376673f6272616e63683d6d6173746572]
+
+Distributed Systems
+
+     * Antimony
+          + [https://github.com/antimonyproject/antimony]antimonyproject/a
+            ntimony [[https://crates.io/crates/antimony]antimony] --
+            stream processing / distributed computation platform
+            [https://travis-ci.org/antimonyproject/antimony][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f616e74696d6f6e7970726f6
+            a6563742f616e74696d6f6e792e7376673f6272616e63683d6d6173746572]
+     * Apache Kafka
+          + [https://github.com/fede1024/rust-rdkafka]fede1024/rust-rdkafk
+            a [[https://crates.io/crates/rdkafka]rdkafka] --
+            [https://github.com/edenhill/librdkafka]librdkafka bindings
+            [https://travis-ci.org/fede1024/rust-rdkafka][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f66656465313032342f72757374
+            2d72646b61666b612e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/spicavigo/kafka-rust]spicavigo/kafka-rust
+            --
+            [https://travis-ci.org/spicavigo/kafka-rust][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f73706963617669676f2f6b61666
+            b612d727573742e7376673f6272616e63683d6d6173746572]
+     * Beanstalkd
+          + [https://github.com/schickling/rust-beanstalkd]schickling/rust
+            -beanstalkd -- [https://github.com/kr/beanstalkd]Beanstalkd
+            bindings
+            [https://travis-ci.org/schickling/rust-beanstalkd][68747470733
+            a2f2f6170692e7472617669732d63692e6f72672f73636869636b6c696e672
+            f727573742d6265616e7374616c6b642e7376673f6272616e63683d6d61737
+            46572]
+     * HDFS
+          + [https://github.com/hyunsik/hdfs-rs]hyunsik/hdfs-rs -- libhdfs
+            bindings
+            [https://travis-ci.org/hyunsik/hdfs-rs][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f6879756e73696b2f686466732d72732e
+            7376673f6272616e63683d6d6173746572]
+
+Email
+
+   [[https://crates.io/keywords/email]email,
+   [https://crates.io/keywords/imap]imap,
+   [https://crates.io/keywords/smtp]smtp]
+     * [https://github.com/GildedHonour/atarashii_imap]GildedHonour/ataras
+       hii_imap -- °sii5 (atarashii/new) IMAP client in Rust. It supports
+       plain and secure connections
+       [https://travis-ci.org/GildedHonour/atarashii_imap][68747470733a2f2
+       f6170692e7472617669732d63692e6f72672f47696c646564486f6e6f75722f6174
+       617261736869695f696d61702e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/gsquire/sendgrid-rs]gsquire/sendgrid-rs --
+       unofficial Rust library for SendGrid API
+       [https://travis-ci.org/gsquire/sendgrid-rs][68747470733a2f2f6170692
+       e7472617669732d63692e6f72672f677371756972652f73656e64677269642d7273
+       2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/lettre/lettre]lettre/lettre -- an SMTP-library
+       for Rust
+       [https://travis-ci.org/lettre/lettre][68747470733a2f2f6170692e74726
+       17669732d63692e6f72672f6c65747472652f6c65747472652e7376673f6272616e
+       63683d6d6173746572]
+     * [https://github.com/staktrace/mailparse]staktrace/mailparse
+       [[https://crates.io/crates/mailparse]mailparse] -- a library for
+       parsing real-world email files
+       [https://travis-ci.org/staktrace/mailparse][68747470733a2f2f6170692
+       e7472617669732d63692e6f72672f7374616b74726163652f6d61696c7061727365
+       2e7376673f6272616e63683d6d6173746572]
+
+Encoding
+
+   [[https://crates.io/keywords/encoding]encoding]
+     * ASN.1
+          + [https://github.com/alex/rust-asn1]alex/rust-asn1 -- a Rust
+            ASN.1 (DER) serializer
+            [https://travis-ci.org/alex/rust-asn1][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f616c65782f727573742d61736e312e737
+            6673f6272616e63683d6d6173746572]
+     * Bencode
+          + [https://github.com/arjantop/rust-bencode]arjantop/rust-bencod
+            e -- [https://en.wikipedia.org/wiki/Bencode]Bencode
+            implementation in Rust
+            [https://travis-ci.org/arjantop/rust-bencode][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f61726a616e746f702f72757374
+            2d62656e636f64652e7376673f6272616e63683d6d6173746572]
+     * Binary
+          + [https://github.com/arcnmx/nue]arcnmx/nue -- I/O and binary
+            data encoding for Rust
+            [https://travis-ci.org/arcnmx/nue][68747470733a2f2f6170692e747
+            2617669732d63692e6f72672f6172636e6d782f6e75652e7376673f6272616
+            e63683d6d6173746572]
+          + [https://github.com/TyOverby/bincode]TyOverby/bincode -- a
+            binary encoder/decoder in Rust
+            [https://travis-ci.org/TyOverby/bincode][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f54794f76657262792f62696e636f646
+            52e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/m4b/goblin]m4b/goblin
+            [[https://crates.io/crates/goblin]goblin] -- cross-platform,
+            zero-copy, and endian-aware binary parsing
+            [https://travis-ci.org/m4b/goblin][68747470733a2f2f6170692e747
+            2617669732d63692e6f72672f6d34622f676f626c696e2e7376673f6272616
+            e63683d6d6173746572]
+     * BSON
+          + [https://github.com/zonyitoo/bson-rs]zonyitoo/bson-rs --
+            [https://travis-ci.org/zonyitoo/bson-rs][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f7a6f6e7969746f6f2f62736f6e2d727
+            32e7376673f6272616e63683d6d6173746572]
+     * Byte swapping
+          + [https://github.com/BurntSushi/byteorder]BurntSushi/byteorder
+            -- Supports big-endian, little-endian and native byte orders
+            [https://travis-ci.org/BurntSushi/byteorder][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f4275726e7453757368692f62797
+            4656f726465722e7376673f6272616e63683d6d6173746572]
+     * Cap'n Proto
+          + [https://github.com/capnproto/capnproto-rust]capnproto/capnpro
+            to-rust --
+            [https://travis-ci.org/capnproto/capnproto-rust][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f6361706e70726f746f2f636
+            1706e70726f746f2d727573742e7376673f6272616e63683d6d6173746572]
+     * CBOR
+          + [https://github.com/BurntSushi/rust-cbor]BurntSushi/rust-cbor
+            -- Supports JSON conversion and type-based encoding/decoding
+            [https://travis-ci.org/BurntSushi/rust-cbor][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f4275726e7453757368692f72757
+            3742d63626f722e7376673f6272616e63683d6d6173746572]
+     * Character Encoding
+          + [https://github.com/hsivonen/encoding_rs]hsivonen/encoding_rs
+            [[https://crates.io/crates/encoding_rs]encoding_rs] -- A
+            Gecko-oriented implementation of the Encoding Standard in Rust
+            [https://travis-ci.org/hsivonen/encoding_rs][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f687369766f6e656e2f656e636f6
+            4696e675f72732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/lifthrasiir/rust-encoding]lifthrasiir/rust
+            -encoding --
+            [https://travis-ci.org/lifthrasiir/rust-encoding][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f6c69667468726173696972
+            2f727573742d656e636f64696e672e7376673f6272616e63683d6d61737465
+            72]
+     * CRC
+          + [https://github.com/mrhooray/crc-rs]mrhooray/crc-rs --
+            [https://travis-ci.org/mrhooray/crc-rs][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f6d72686f6f7261792f6372632d72732e
+            7376673f6272616e63683d6d6173746572]
+     * CSV
+          + [https://github.com/BurntSushi/rust-csv]BurntSushi/rust-csv --
+            [https://travis-ci.org/BurntSushi/rust-csv][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f4275726e7453757368692f727573
+            742d6373762e7376673f6272616e63683d6d6173746572]
+     * HTML
+          + [https://github.com/servo/html5ever]servo/html5ever --
+            High-performance browser-grade HTML5 parser
+            [https://travis-ci.org/servo/html5ever][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f736572766f2f68746d6c35657665722e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/veddan/rust-htmlescape]veddan/rust-htmlesc
+            ape -- encoding/decoding HTML entities
+            [https://travis-ci.org/veddan/rust-htmlescape][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f76656464616e2f727573742d6
+            8746d6c6573636170652e7376673f6272616e63683d6d6173746572]
+     * JSON
+          + [https://github.com/pikkr/pikkr]pikkr/pikkr
+            [[https://crates.io/crates/pikkr]pikkr] -- JSON parser which
+            picks up values directly without performing tokenization in
+            Rust
+          + [https://github.com/serde-rs/json]serde-rs/json
+            [[https://crates.io/crates/serde_json]serde_json] -- JSON
+            support for [https://github.com/serde-rs/serde]Serde framework
+            [https://travis-ci.org/serde-rs/json][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f73657264652d72732f6a736f6e2e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/maciejhirsz/json-rust]maciejhirsz/json-rus
+            t [[https://crates.io/crates/json]json] -- JSON implementation
+            in Rust
+            [https://travis-ci.org/maciejhirsz/json-rust][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f6d616369656a686972737a2f6a
+            736f6e2d727573742e7376673f6272616e63683d6d6173746572]
+     * Jsonnet
+          + [https://github.com/Qihoo360/rust-jsonnet]Qihoo360/rust-jsonne
+            t --
+            [https://travis-ci.org/Qihoo360/rust-jsonnet][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f5169686f6f3336302f72757374
+            2d6a736f6e6e65742e7376673f6272616e63683d6d6173746572]
+     * MsgPack
+          + [https://github.com/3Hren/msgpack-rust]3Hren/msgpack-rust -- a
+            pure Rust low/high level MessagePack implementation
+            [https://travis-ci.org/3Hren/msgpack-rust][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f334872656e2f6d73677061636b2d7
+            27573742e7376673f6272616e63683d6d6173746572]
+     * PEM
+          + [https://github.com/jcreekmore/pem-rs]jcreekmore/pem-rs
+            [[https://crates.io/crates/pem]pem] - a Rust based way to
+            parse and encode PEM-encoded data
+            [https://travis-ci.org/jcreekmore/pem-rs][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f6a637265656b6d6f72652f70656d2d
+            72732e7376673f6272616e63683d6d6173746572]
+     * ProtocolBuffers
+          + [https://github.com/danburkert/prost]danburkert/prost --
+            [https://travis-ci.org/danburkert/prost][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f64616e6275726b6572742f70726f737
+            42e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/stepancheg/rust-protobuf]stepancheg/rust-p
+            rotobuf --
+            [https://travis-ci.org/stepancheg/rust-protobuf][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f73746570616e636865672f7
+            27573742d70726f746f6275662e7376673f6272616e63683d6d6173746572]
+     * RON (Rusty Object Notation)
+          + [https://github.com/ron-rs/ron]https://github.com/ron-rs/ron
+            --
+            [https://travis-ci.org/https://github.com/ron-rs/ron][68747470
+            733a2f2f6170692e7472617669732d63692e6f72672f726f6e2d72732f726f
+            6e2e7376673f6272616e63683d6d6173746572]
+     * Tnetstring
+          + [https://github.com/erickt/rust-tnetstring]erickt/rust-tnetstr
+            ing --
+            [https://travis-ci.org/erickt/rust-tnetstring][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f657269636b742f727573742d7
+            46e6574737472696e672e7376673f6272616e63683d6d6173746572]
+     * TOML
+          + [https://github.com/alexcrichton/toml-rs]alexcrichton/toml-rs
+            --
+            [https://travis-ci.org/alexcrichton/toml-rs][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f616c65786372696368746f6e2f7
+            46f6d6c2d72732e7376673f6272616e63683d6d6173746572]
+     * XML
+          + [https://github.com/Florob/RustyXML]Florob/RustyXML -- an XML
+            parser written in Rust
+            [https://travis-ci.org/Florob/RustyXML][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f466c6f726f622f5275737479584d4c2e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/shepmaster/sxd-document]shepmaster/sxd-doc
+            ument -- An XML library in Rust
+            [https://travis-ci.org/shepmaster/sxd-document][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f736865706d61737465722f73
+            78642d646f63756d656e742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/shepmaster/sxd-xpath]shepmaster/sxd-xpath
+            -- An XPath library in Rust
+            [https://travis-ci.org/shepmaster/sxd-xpath][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f736865706d61737465722f73786
+            42d78706174682e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/netvl/xml-rs]netvl/xml-rs -- a streaming
+            XML library
+            [https://travis-ci.org/netvl/xml-rs][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f6e6574766c2f786d6c2d72732e7376673f6
+            272616e63683d6d6173746572]
+     * YAML
+          + [https://github.com/chyh1990/yaml-rust]chyh1990/yaml-rust --
+            The missing YAML 1.2 implementation for Rust.
+            [https://travis-ci.org/chyh1990/yaml-rust][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f63687968313939302f79616d6c2d7
+            27573742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/dtolnay/serde-yaml]dtolnay/serde-yaml
+            [[https://crates.io/crates/serde_yaml]serde_yaml] -- YAML
+            support for [https://github.com/serde-rs/serde]Serde framework
+            [https://travis-ci.org/dtolnay/serde-yaml][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f64746f6c6e61792f73657264652d7
+            9616d6c2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kimhyunkang/libyaml-rust]kimhyunkang/libya
+            ml-rust -- [http://pyyaml.org/wiki/LibYAML]libyaml bindings
+            [https://travis-ci.org/kimhyunkang/libyaml-rust][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f6b696d6879756e6b616e672
+            f6c696279616d6c2d727573742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/vitiral/stfu8]vitiral/stfu8 -- Sorta Text
+            Format in UTF-8
+            [https://travis-ci.org/vitiral/stfu8][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f7669746972616c2f73746675382e737667
+            3f6272616e63683d6d6173746572]
+
+Filesystem
+
+   [[https://crates.io/keywords/filesystem]filesystem]
+     * Operations
+          + [https://github.com/vitiral/path_abs]vitiral/path_abs --
+            Absolute serializable path types and associated methods.
+            [https://travis-ci.org/webdesus/fs_extr://travis-ci.org/vitira
+            l/path_abs][68747470733a2f2f6170692e7472617669732d63692e6f7267
+            2f7669746972616c2f706174685f6162732e7376673f6272616e63683d6d61
+            73746572]
+          + [https://github.com/webdesus/fs_extra]webdesus/fs_extra --
+            expanding opportunities standard library std::fs and std::io
+            [https://travis-ci.org/webdesus/fs_extra][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f77656264657375732f66735f657874
+            72612e7376673f6272616e63683d6d6173746572]
+     * Temporary Files
+          + [https://github.com/rust-lang-nursery/tempdir]rust-lang-nurser
+            y/tempdir -- temporary directory library
+            [https://travis-ci.org/rust-lang-nursery/tempdir][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f727573742d6c616e672d6e
+            7572736572792f74656d706469722e7376673f6272616e63683d6d61737465
+            72]
+          + [https://github.com/Stebalien/tempfile]Stebalien/tempfile --
+            temporary file library
+            [https://travis-ci.org/Stebalien/tempfile][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f53746562616c69656e2f74656d706
+            6696c652e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/Stebalien/xattr]Stebalien/xattr
+            [[https://crates.io/crates/xattr]xattr] -- list and manipulate
+            unix extended file attributes
+            [https://travis-ci.org/Stebalien/xattr][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f53746562616c69656e2f78617474722e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/zboxfs/zbox]zboxfs/zbox
+            [[https://crates.io/crates/zbox]zbox] -- Zero-details,
+            privacy-focused embeddable file system.
+            [https://travis-ci.org/zboxfs/zbox][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f7a626f7866732f7a626f782e7376673f6272
+            616e63683d6d6173746572]
+
+Game development
+
+   See also [http://arewegameyet.com/]Are we game yet?
+     * Allegro
+          + [https://github.com/SiegeLord/RustAllegro]SiegeLord/RustAllegr
+            o -- [http://liballeg.org/]Allegro 5 bindings
+            [https://travis-ci.org/SiegeLord/RustAllegro][68747470733a2f2f
+            6170692e7472617669732d63692e6f72672f53696567654c6f72642f527573
+            74416c6c6567726f2e7376673f6272616e63683d6d6173746572]
+     * Challonge
+          + [https://github.com/vityafx/challonge-rs]vityafx/challonge-rs
+            [[https://crates.io/crates/challonge]challonge] -- Client
+            library for the Challonge REST API. Helps to organize
+            tournaments.
+            [https://travis-ci.org/vityafx/challonge-rs][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f766974796166782f6368616c6c6
+            f6e67652d72732e7376673f6272616e63683d6d6173746572]
+     * Corange
+          + [https://github.com/lucidscape/corange-rs]lucidscape/corange-r
+            s -- [https://github.com/orangeduck/Corange]Corange bindings
+     * Entity-Component Systems (ECS)
+          + [https://github.com/slide-rs/specs]slide-rs/specs -- Specs
+            Parallel ECS
+            [file://localhost/rust-unofficial/awesome-rust/blob/master/htt
+            psL/github.com/travis-ci.org/slide-rs/specs][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f736c6964652d72732f737065637
+            32e737667]
+     * Game Engines
+          + [https://www.amethyst.rs/]Amethyst -- Data-oriented game
+            engine
+            [https://travis-ci.org/amethyst/amethyst][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f616d6574687973742f616d65746879
+            73742e7376673f6272616e63683d6d6173746572]
+          + [http://www.piston.rs/]Piston --
+            [https://travis-ci.org/PistonDevelopers/piston][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f506973746f6e446576656c6f
+            706572732f706973746f6e2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/ggez/ggez]ggez - a lightweight game
+            framework for making 2D games with minimum friction
+            [https://travis-ci.org/ggez/ggez][68747470733a2f2f6170692e7472
+            617669732d63692e6f72672f6767657a2f6767657a2e7376673f6272616e63
+            683d6d6173746572]
+     * [http://www.libsdl.org/]SDL [[https://crates.io/keywords/sdl]sdl]
+          + [https://github.com/brson/rust-sdl]brson/rust-sdl -- SDL1
+            bindings
+            [https://travis-ci.org/brson/rust-sdl][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f6272736f6e2f727573742d73646c2e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/Rust-SDL2/rust-sdl2]Rust-SDL2/rust-sdl2 --
+            SDL2 bindings
+            [https://travis-ci.org/Rust-SDL2/rust-sdl2][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f527573742d53444c322f72757374
+            2d73646c322e7376673f6272616e63683d6d6173746572]
+     * SFML
+          + [https://github.com/jeremyletang/rust-sfml]jeremyletang/rust-s
+            fml -- [https://www.sfml-dev.org/]SFML bindings
+            [https://travis-ci.org/jeremyletang/rust-sfml][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f6a6572656d796c6574616e672
+            f727573742d73666d6c2e7376673f6272616e63683d6d6173746572]
+     * Tcod-rs
+          + [https://github.com/tomassedovic/tcod-rs]tomassedovic/tcod-rs
+            -- Libtcod bindings for Rust.
+     * Voxlap
+          + [https://github.com/bbodi/rust-voxlap]bbodi/rust-voxlap --
+            [http://advsys.net/ken/voxlap.htm]Voxlap bindings
+
+Geospatial
+
+   [[https://crates.io/keywords/geo]geo,
+   [https://crates.io/keywords/gis]gis]
+     * [https://github.com/georust]Georust -- geospatial tools and
+       libraries written in Rust
+     * [https://github.com/llambda/rust-reverse-geocoder]rust-reverse-geoc
+       oder -- a fast, offline reverse geocoder in Rust, inspired by
+       [https://github.com/thampiman/reverse-geocoder]https://github.com/t
+       hampiman/reverse-geocoder
+
+Graphics
+
+   [[https://crates.io/keywords/graphics]graphics]
+     * [https://github.com/gfx-rs/gfx]gfx-rs/gfx -- A high-performance,
+       bindless graphics API for Rust.
+       [https://travis-ci.org/gfx-rs/gfx][68747470733a2f2f696d672e73686965
+       6c64732e696f2f7472617669732f6766782d72732f6766782f6d61737465722e737
+       667]
+     * Font
+          + [https://github.com/redox-os/rusttype]redox-os/rusttype -- a
+            pure Rust alternative to libraries like FreeType
+            [https://travis-ci.org/redox-os/rusttype][68747470733a2f2f696d
+            672e736869656c64732e696f2f7472617669732f647265646f782d6f732f72
+            757374747970652f6d61737465722e737667]
+     * OpenGL [[https://crates.io/keywords/opengl]opengl]
+          + [https://github.com/brendanzab/gl-rs]brendanzab/gl-rs --
+            [https://travis-ci.org/brendanzab/gl-rs][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f6272656e64616e7a61622f676c2d727
+            32e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/glium/glium]glium/glium -- safe OpenGL
+            wrapper for the Rust language.
+            [https://travis-ci.org/glium/glium][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f676c69756d2f676c69756d2e7376673f6272
+            616e63683d6d6173746572]
+          + [http://kiss3d.org/]Kiss3d -- draw simple geometric figures
+            and play with them with one-liners
+            [https://api.travis-ci.org/repositories/sebcrozet/kiss3d.json]
+            [68747470733a2f2f6170692e7472617669732d63692e6f72672f7265706f7
+            369746f726965732f73656263726f7a65742f6b69737333642e6a736f6e2e7
+            376673f6272616e63683d6d6173746572]
+          + [https://github.com/PistonDevelopers/glfw-rs]PistonDevelopers/
+            glfw-rs --
+            [https://travis-ci.org/PistonDevelopers/glfw-rs][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f506973746f6e446576656c6
+            f706572732f676c66772d72732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/tomaka/glutin]tomaka/glutin -- Rust
+            alternative to [http://www.glfw.org/]GLFW
+            [https://travis-ci.org/tomaka/glutin][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f746f6d616b612f676c7574696e2e737667
+            3f6272616e63683d6d6173746572]
+     * PDF
+          + [https://github.com/kaj/rust-pdf]kaj/rust-pdf --
+            [https://travis-ci.org/kaj/rust-pdf][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f6b616a2f727573742d7064662e7376673f6
+            272616e63683d6d6173746572]
+          + [https://github.com/fschutt/printpdf]fschutt/printpdf -- PDF
+            writing library
+            [https://travis-ci.org/fschutt/printpdf][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f667363687574742f7072696e7470646
+            62e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/J-F-Liu/lopdf]J-F-Liu/lopdf -- PDF
+            document manipulation
+            [https://travis-ci.org/J-F-Liu/lopdf][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f4a2d462d4c69752f6c6f7064662e737667
+            3f6272616e63683d6d6173746572]
+     * [https://www.khronos.org/vulkan/]Vulkan
+       [[https://crates.io/keywords/vulkan]vulkan]
+          + [https://github.com/vulkano-rs/vulkano]vulkano
+            [[https://crates.io/crates/vulkano]vulkano] --
+            [https://travis-ci.org/vulkano-rs/vulkano][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f76756c6b616e6f2d72732f76756c6
+            b616e6f2e7376673f6272616e63683d6d6173746572]
+
+Graph processing
+
+     * [https://github.com/kud1ing/tinkerpop-rs]kud1ing/tinkerpop-rs -- an
+       example how to use Apache TinkerPop from Rust
+       [https://travis-ci.org/kud1ing/tinkerpop-rs][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f6b756431696e672f74696e6b6572706f702d7
+       2732e7376673f6272616e63683d6d6173746572]
+
+GUI
+
+   [[https://crates.io/keywords/gui]gui]
+     * [https://github.com/PistonDevelopers/conrod/]PistonDevelopers/conro
+       d -- An easy-to-use, immediate-mode, 2D GUI library written
+       entirely in Rust
+       [https://travis-ci.org/PistonDevelopers/conrod][68747470733a2f2f617
+       0692e7472617669732d63692e6f72672f506973746f6e446576656c6f706572732f
+       636f6e726f642e7376673f6272616e63683d6d6173746572]
+     * Cocoa
+          + [https://github.com/kylewlacy/sorbet-cocoa]kylewlacy/sorbet-co
+            coa --
+            [https://travis-ci.org/kylewlacy/sorbet-cocoa][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f6b796c65776c6163792f736f7
+            26265742d636f636f612e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/servo/cocoa-rs]servo/cocoa-rs
+     * [https://www.gtk.org/]GTK+ [[https://crates.io/keywords/gtk]gtk]
+          + [https://github.com/gtk-rs/gtk]gtk-rs/gtk -- GTK+ bindings
+            [https://travis-ci.org/gtk-rs/gtk][68747470733a2f2f6170692e747
+            2617669732d63692e6f72672f67746b2d72732f67746b2e7376673f6272616
+            e63683d6d6173746572]
+          + [https://github.com/antoyo/relm]relm -- Asynchronous,
+            GTK+-based, GUI library, inspired by Elm
+            [https://travis-ci.org/antoyo/relm][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f616e746f796f2f72656c6d2e7376673f6272
+            616e63683d6d6173746572]
+     * [https://github.com/ocornut/imgui]ImGui
+          + [https://github.com/Gekkio/imgui-rs]imgui-rs -- Rust bindings
+            for ImGui
+            [https://travis-ci.org/Gekkio/imgui-rs][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f47656b6b696f2f696d6775692d72732e
+            7376673f6272616e63683d6d6173746572]
+     * [http://webserver2.tecgraf.puc-rio.br/iup/]IUP
+          + [https://github.com/jminer/clear-coat]clear-coat -- Clear Coat
+            is a Rust wrapper for the IUP GUI library
+          + [https://github.com/dcampbell24/iup-rust]dcampbell24/iup-rust
+            -- IUP bindings
+            [https://travis-ci.org/dcampbell24/iup-rust][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f6463616d7062656c6c32342f697
+            5702d727573742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/KISS-UI/kiss-ui]Kiss-ui -- a simple UI
+            framework built on IUP
+            [https://travis-ci.org/cybergeek94/kiss-ui]Build Status
+     * [https://github.com/andlabs/libui]libui
+          + [https://github.com/pcwalton/libui-rs]pcwalton/libui-rs --
+            libui bindings
+            [https://travis-ci.org/pcwalton/libui-rs][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f706377616c746f6e2f6c696275692d
+            72732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/vurtun/nuklear]Nuklear
+          + [https://github.com/snuk182/nuklear-rust]nuklear-rust -- Rust
+            bindings for Nuklear
+            [https://travis-ci.org/snuk182/nuklear-rust][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f736e756b3138322f6e756b6c656
+            1722d727573742e7376673f6272616e63683d6d6173746572]
+     * [http://doc.qt.io/]Qt
+          + [https://github.com/cyndis/qmlrs]cyndis/qmlrs -- QtQuick
+            bindings
+            [https://travis-ci.org/cyndis/qmlrs][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f63796e6469732f716d6c72732e7376673f6
+            272616e63683d6d6173746572]
+          + [https://github.com/kitech/qt.rs]kitech/qt.rs -- Qt5 bindings
+            [https://travis-ci.org/kitech/qt.rs][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f6b69746563682f71742e72732e7376673f6
+            272616e63683d6d6173746572]
+          + [https://phabricator.kde.org/source/rust-qt-binding-generator/
+            ]Rust Qt Binding Generator -- Binding generator hosted by KDE.
+          + [https://github.com/rust-qt]rust-qt --
+          + [https://github.com/White-Oak/qml-rust]White-Oak/qml-rust --
+            QML bindings.
+            [https://travis-ci.org/White-Oak/qml-rust][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f57686974652d4f616b2f716d6c2d7
+            27573742e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/saurvs/nfd-rs]saurvs/nfd-rs --
+       [https://github.com/mlabbe/nativefiledialog]nativefiledialog
+       bindings
+     * [https://sciter.com/]Sciter
+          + [https://github.com/sciter-sdk/rust-sciter]sciter-sdk/rust-sci
+            ter -- Sciter bindings
+            [https://ci.appveyor.com/project/sciter-sdk/rust-sciter][68747
+            470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656
+            374732f7374617475732f6769746875622f7363697465722d73646b2f72757
+            3742d7363697465723f7376673d74727565]
+
+Image processing
+
+     * [https://github.com/abonander/img_hash]abonander/img_hash --
+       Perceptual image hashing and comparison for equality and
+       similarity.
+     * [https://github.com/chyh1990/imageproc]chyh1990/imageproc -- An
+       advanced image processing library for Rust.
+       [https://travis-ci.org/chyh1990/imageproc]Build Status
+     * [https://github.com/PistonDevelopers/image]PistonDevelopers/image
+       -- Basic imaging processing functions and methods for converting to
+       and from image formats
+       [https://travis-ci.org/PistonDevelopers/image][68747470733a2f2f6170
+       692e7472617669732d63692e6f72672f506973746f6e446576656c6f706572732f6
+       96d6167652e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/kali/opencv-rust]kali/opencv-rust -- Rust
+       bindings for OpenCV
+       [https://travis-ci.org/kali/opencv-rust][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f6b616c692f6f70656e63762d727573742e7376673
+       f6272616e63683d637632]
+     * [https://github.com/teovoinea/steganography]teovoinea/steganography
+       [[https://crates.io/crates/steganography]steganography] -- A simple
+       steganography library
+       [https://travis-ci.org/teovoinea/steganography][68747470733a2f2f617
+       0692e7472617669732d63692e6f72672f74656f766f696e65612f73746567616e6f
+       6772617068792e7376673f6272616e63683d6d6173746572]
+
+Language specification
+
+     * [https://github.com/shnewto/bnf]shnewto/bnf -- A library for
+       parsing Backus-Naur form context-free grammars.
+       [https://travis-ci.org/shnewto/bnf][68747470733a2f2f6170692e7472617
+       669732d63692e6f72672f73686e6577746f2f626e662e7376673f6272616e63683d
+       6d6173746572]
+
+Logging
+
+   [[https://crates.io/keywords/log]log]
+     * [https://github.com/rust-lang-nursery/log]rust-lang-nursery/log --
+       Logging implementation for Rust
+       [https://travis-ci.org/rust-lang-nursery/log]Build Status
+     * [https://github.com/slog-rs/slog]slog-rs/slog -- Structured,
+       composable logging for Rust
+       [https://travis-ci.org/slog-rs/slog]Build Status
+     * [https://github.com/sfackler/log4rs]sfackler/log4rs -- highly
+       configurable logging framework modeled after Java's Logback and
+       log4j libraries [https://travis-ci.org/sfackler/log4rs]Build Status
+
+Machine learning
+
+   [[https://crates.io/keywords/machine-learning]machine learning]
+
+   See also
+   [https://medium.com/@autumn_eng/about-rust-s-machine-learning-community
+   -4cda5ec8a790#.hvkp56j3f]About Rust's Machine Learning Community.
+     * [https://github.com/AtheMathmo/rusty-machine]AtheMathmo/rusty-machi
+       ne -- Machine learning library for Rust
+       [https://travis-ci.org/AtheMathmo/rusty-machine]Build Status
+     * [https://github.com/autumnai/leaf]autumnai/leaf -- Open Machine
+       Intelligence framework. [https://travis-ci.org/autumnai/leaf]Build
+       Status
+     * [https://github.com/tensorflow/rust]tensorflow/rust -- Rust
+       language bindings for TensorFlow.
+       [https://travis-ci.org/tensorflow/rust]Build Status
+     * [https://github.com/maciejkula/rustlearn]maciejkula/rustlearn --
+       Machine learning crate for Rust.
+       [https://circleci.com/gh/maciejkula/rustlearn]Circle CI
+
+macro
+
+     * cute
+          + [https://github.com/mattgathu/cute]mattgathu/cute - Macro for
+            Python-esque list comprehensions in Rust.
+            [https://travis-ci.org/tensorflow/rust]Build Status
+     * hado
+          + [https://github.com/ludat/hado-rs]ludat/hado-rs - A little
+            macro for writing haskell-like do expressions without too much
+            ceremony
+
+Markup language
+
+     * CommonMark
+          + [https://github.com/google/pulldown-cmark]google/pulldown-cmar
+            k -- [http://commonmark.org/]CommonMark parser in Rust
+
+Mobile
+
+   [https://github.com/Geal/rust_on_mobile]Geal/rust_on_mobile
+     * Android
+          + [https://github.com/tomaka/android-rs-glue]tomaka/android-rs-g
+            lue -- glue between Rust and Android
+            [https://travis-ci.org/tomaka/android-rs-glue][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f746f6d616b612f616e64726f6
+            9642d72732d676c75652e7376673f6272616e63683d6d6173746572]
+     * iOS
+          + [https://github.com/TimNN/cargo-lipo]TimNN/cargo-lipo -- a
+            cargo lipo subcommand which automatically creates a universal
+            library for use with your iOS application.
+            [https://travis-ci.org/TimNN/cargo-lipo][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f54696d4e4e2f636172676f2d6c69706
+            f2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/vhbit/ObjCrust]vhbit/ObjCrust -- using
+            Rust to create an iOS static library
+            [https://travis-ci.org/vhbit/ObjCrust][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f76686269742f4f626a43727573742e737
+            6673f6272616e63683d6d6173746572]
+     * Pebble
+          + [https://github.com/andars/pebble.rs]andars/pebble.rs -- a
+            crate that allows Rust to be used to develop Pebble
+            applications.
+
+Network programming
+
+     * FTP
+          + [https://github.com/mattnenterprise/rust-ftp]mattnenterprise/r
+            ust-ftp -- an
+            [https://en.wikipedia.org/wiki/File_Transfer_Protocol]FTP
+            client for Rust
+            [https://travis-ci.org/mattnenterprise/rust-ftp][68747470733a2
+            f2f6170692e7472617669732d63692e6f72672f6d6174746e656e746572707
+            26973652f727573742d6674702e7376673f6272616e63683d6d6173746572]
+     * IPNetwork
+          + [https://github.com/achanda/ipnetwork]achanda/ipnetwork -- A
+            library to work with IP networks in pure Rust
+            [https://travis-ci.org/achanda/ipnetwork][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f616368616e64612f69706e6574776f
+            726b2e7376673f6272616e63683d6d6173746572]
+     * Low level
+          + [https://github.com/libpnet/libpnet]libpnet/libpnet -- a
+            cross-platform, low level networking
+            [https://travis-ci.org/libpnet/libpnet][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f6c6962706e65742f6c6962706e65742e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/tokio-rs/tokio]tokio-rs/tokio -- a network
+            application framework for rapid development and highly
+            scalable production deployments of clients and servers.
+          + [https://github.com/dylanmckay/protocol]dylanmckay/protocol --
+            Custom TCP/UDP protocol definitions
+          + [https://github.com/actix/actix]actix/actix -- Actor library
+            for Rust
+            [https://travis-ci.org/actix/actix][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f61637469782f61637469782e7376673f6272
+            616e63683d6d6173746572]
+     * NanoMsg
+          + [https://github.com/thehydroimpulse/nanomsg.rs]thehydroimpulse
+            /nanomsg.rs -- [http://nanomsg.org/]nanomsg bindings
+            [https://travis-ci.org/thehydroimpulse/nanomsg.rs][68747470733
+            a2f2f6170692e7472617669732d63692e6f72672f746865687964726f696d7
+            0756c73652f6e616e6f6d73672e72732e7376673f6272616e63683d6d61737
+            46572]
+     * NNTP
+          + [https://github.com/mattnenterprise/rust-nntp]mattnenterprise/
+            rust-nntp -- an
+            [https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol]
+            NNTP client for Rust
+            [https://travis-ci.org/mattnenterprise/rust-nntp][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f6d6174746e656e74657270
+            726973652f727573742d6e6e74702e7376673f6272616e63683d6d61737465
+            72]
+     * POP3
+          + [https://github.com/mattnenterprise/rust-pop3]mattnenterprise/
+            rust-pop3 -- a
+            [https://en.wikipedia.org/wiki/Post_Office_Protocol]POP3
+            client for Rust
+            [https://travis-ci.org/mattnenterprise/rust-pop3][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f6d6174746e656e74657270
+            726973652f727573742d706f70332e7376673f6272616e63683d6d61737465
+            72]
+     * SSH
+          + [https://github.com/alexcrichton/ssh2-rs]alexcrichton/ssh2-rs
+            -- [https://www.libssh2.org/]libssh2 bindings
+            [https://travis-ci.org/alexcrichton/ssh2-rs][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f616c65786372696368746f6e2f7
+            37368322d72732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/pijul-scm/thrussh/]Thrussh -- an SSH
+            library written from scratch in Rust, backed by
+            [https://download.libsodium.org/doc/]libsodium
+     * Stomp
+          + [https://github.com/zslayton/stomp-rs]zslayton/stomp-rs -- a
+            [http://stomp.github.io/stomp-specification-1.2.html]STOMP 1.2
+            client implementation in Rust
+            [https://travis-ci.org/zslayton/stomp-rs][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f7a736c6179746f6e2f73746f6d702d
+            72732e7376673f6272616e63683d6d6173746572]
+     * uTP
+          + [https://github.com/meqif/rust-utp]meqif/rust-utp -- a
+            [http://www.bittorrent.org/beps/bep_0029.html]uTP (Micro
+            Transport Protocol) library for Rust.
+            [https://travis-ci.org/meqif/rust-utp][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f6d657169662f727573742d7574702e737
+            6673f6272616e63683d6d6173746572]
+     * ZeroMQ
+          + [https://github.com/erickt/rust-zmq]erickt/rust-zmq --
+            [http://zeromq.org/]ZeroMQ bindings
+            [https://travis-ci.org/erickt/rust-zmq][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f657269636b742f727573742d7a6d712e
+            7376673f6272616e63683d6d6173746572]
+
+Parser
+
+     * [https://github.com/Geal/nom]Geal/nom -- parser combinator library
+       [https://travis-ci.org/Geal/nom][68747470733a2f2f6170692e7472617669
+       732d63692e6f72672f4765616c2f6e6f6d2e7376673f6272616e63683d6d6173746
+       572]
+     * [https://github.com/ivanceras/inquerest]ivanceras/inquerest -- an
+       URL parameter parser for rest filter inquiry
+       [https://travis-ci.org/ivanceras/inquerest]Build Status
+     * [https://github.com/kevinmehall/rust-peg]kevinmehall/rust-peg --
+       Parsing Expression Grammar (PEG) parser generator
+     * [https://github.com/m4rw3r/chomp]m4rw3r/chomp - A fast
+       monadic-style parser combinator
+       [https://travis-ci.org/m4rw3r/chomp][68747470733a2f2f6170692e747261
+       7669732d63692e6f72672f6d34727733722f63686f6d702e7376673f6272616e636
+       83d6d6173746572]
+     * [https://github.com/Marwes/combine]Marwes/combine -- parser
+       combinator library
+       [https://travis-ci.org/Marwes/combine][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f4d61727765732f636f6d62696e652e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/lalrpop/lalrpop]lalrpop/lalrpop -- LR(1) parser
+       generator for Rust [https://travis-ci.org/lalrpop/lalrpop]Build
+       status
+     * [https://github.com/nrc/zero]nrc/zero -- zero-allocation parsing of
+       binary data
+       [https://travis-ci.org/nrc/zero][68747470733a2f2f6170692e7472617669
+       732d63692e6f72672f6e72632f7a65726f2e7376673f6272616e63683d6d6173746
+       572]
+     * [https://github.com/pest-parser/pest]pest-parser/pest -- The
+       Elegant Parser [https://travis-ci.org/pest-parser/pest]Build Status
+     * [https://github.com/ptal/oak]ptal/oak -- a typed PEG parser
+       generator (compiler plugin)
+     * [https://github.com/rustless/queryst]rustless/queryst -- a query
+       string parsing library for Rust inspired by
+       [https://github.com/ljharb/qs]https://github.com/ljharb/qs
+       [https://travis-ci.org/rustless/queryst]Build Status
+
+Platform specific
+
+     * Linux
+          + [https://github.com/inotify-rs/inotify]inotify-rs/inotify --
+            [https://en.wikipedia.org/wiki/Inotify]inotify bindings
+            [https://travis-ci.org/inotify-rs/inotify][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f696e6f746966792d72732f696e6f7
+            46966792e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/yaa110/rust-iptables]yaa110/rust-iptables
+            --
+            [https://www.netfilter.org/projects/iptables/index.html]iptabl
+            es bindings
+            [https://travis-ci.org/yaa110/rust-iptables][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f7961613131302f727573742d697
+            07461626c65732e7376673f6272616e63683d6d6173746572]
+     * Unix-like
+          + [https://github.com/nix-rust/nix]nix-rust/nix -- Unix-like API
+            bindings
+            [https://travis-ci.org/nix-rust/nix][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f6e69782d727573742f6e69782e7376673f6
+            272616e63683d6d6173746572]
+          + [https://github.com/zargony/rust-fuse]zargony/rust-fuse --
+            [https://github.com/libfuse/libfuse]FUSE bindings
+            [https://camo.githubusercontent.com/01527396ae773918a572d736c1
+            da0ac7723218b9/68747470733a2f2f6170692e7472617669732d63692e6f7
+            2672f7a6172676f6e792f727573742d667573652e7376673f6272616e63683
+            d6d6173746572][68747470733a2f2f6170692e7472617669732d63692e6f7
+            2672f7a6172676f6e792f727573742d667573652e7376673f6272616e63683
+            d6d6173746572]
+     * Windows
+          + [https://github.com/retep998/winapi-rs]retep998/winapi-rs --
+            Windows API bindings
+            [https://travis-ci.org/retep998/winapi-rs][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f72657465703939382f77696e61706
+            92d72732e7376673f6272616e63683d6d6173746572]
+
+Scripting
+
+   [[https://crates.io/keywords/scripting]scripting]
+     * [https://github.com/PistonDevelopers/dyon]PistonDevelopers/dyon --
+       A rusty dynamically typed scripting language
+     * [https://github.com/gluon-lang/gluon]gluon-lang/gluon -- A small,
+       statically-typed, functional programming language
+     * [https://github.com/murarth/ketos]murarth/ketos -- A Lisp dialect
+       functional programming language serving as a scripting and
+       extension language for rust
+     * [https://github.com/JohnBSmith/moss]JohnBSmith/moss
+       [[https://crates.io/crates/moss]moss] -- A dynamically typed
+       scripting language
+     * [https://github.com/jonathandturner/rhai]jonathandturner/rhai -- A
+       tiny and fast embedded scripting language resembling a combination
+       of JS and Rust
+
+Template engine
+
+     * Handlebars
+          + [https://github.com/sunng87/handlebars-rust]sunng87/handlebars
+            -rust -- Handlebars template engine with inheritance, custom
+            helper support.
+            [https://travis-ci.org/sunng87/handlebars-rust][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f73756e6e6738372f68616e64
+            6c65626172732d727573742e7376673f6272616e63683d6d6173746572]
+     * HTML
+          + [https://github.com/lfairy/maud]lfairy/maud -- compile-time
+            HTML templates
+            [https://travis-ci.org/lfairy/maud][68747470733a2f2f6170692e74
+            72617669732d63692e6f72672f6c66616972792f6d6175642e7376673f6272
+            616e63683d6d6173746572]
+          + [https://github.com/Stebalien/horrorshow-rs]Stebalien/horrorsh
+            ow-rs -- compile-time HTML templates
+            [https://travis-ci.org/Stebalien/horrorshow-rs][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f53746562616c69656e2f686f
+            72726f7273686f772d72732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/kaj/ructe]kaj/ructe -- HTML template
+            system for Rust
+            [https://travis-ci.org/kaj/ructe][68747470733a2f2f6170692e7472
+            617669732d63692e6f72672f6b616a2f72756374652e7376673f6272616e63
+            683d6d6173746572]
+          + [https://github.com/Keats/tera]Keats/tera -- template engine
+            based on Jinja2 and the Django template language.
+            [https://travis-ci.org/Keats/tera][68747470733a2f2f6170692e747
+            2617669732d63692e6f72672f4b656174732f746572612e7376673f6272616
+            e63683d6d6173746572]
+          + [https://github.com/djc/askama]djc/askama -- template
+            rendering engine based on Jinja
+            [https://travis-ci.org/djc/askama][68747470733a2f2f6170692e747
+            2617669732d63692e6f72672f646a632f61736b616d612e7376673f6272616
+            e63683d6d6173746572]
+     * Mustache
+          + [https://github.com/rustache/rustache]rustache/rustache --
+            [https://travis-ci.org/rustache/rustache][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f72757374616368652f727573746163
+            68652e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/tailhook/marafet]tailhook/marafet -- Compiler
+       for Jade-like template language to cito.js-based virtual dom
+
+Text processing
+
+     * [https://github.com/BurntSushi/suffix]BurntSushi/suffix -- Linear
+       time suffix array construction (with Unicode support)
+       [https://travis-ci.org/BurntSushi/suffix][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f4275726e7453757368692f7375666669782e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/BurntSushi/tabwriter]BurntSushi/tabwriter --
+       Elastic tab stops (i.e., text column alignment)
+       [https://travis-ci.org/BurntSushi/tabwriter][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f4275726e7453757368692f746162777269746
+       5722e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/dguo/strsim-rs]dguo/strsim-rs
+       [[https://crates.io/crates/strsim]strsim-rs] -- String similarity
+       metrics
+       [https://travis-ci.org/dguo/strsim-rs][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f6467756f2f73747273696d2d72732e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/mgeisler/textwrap]mgeisler/textwrap
+       [[https://crates.io/crates/textwrap]textwrap] -- Word wrap text
+       (with support for hyphenation)
+       [https://travis-ci.org/mgeisler/textwrap][68747470733a2f2f6170692e7
+       472617669732d63692e6f72672f6d676569736c65722f74657874777261702e7376
+       673f6272616e63683d6d6173746572]
+     * [https://github.com/pwoolcoc/ngrams]pwoolcoc/ngrams -- Construct
+       [https://en.wikipedia.org/wiki/N-gram]n-grams from arbitrary
+       iterators
+       [https://travis-ci.org/pwoolcoc/ngrams][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f70776f6f6c636f632f6e6772616d732e7376673f62
+       72616e63683d6d6173746572]
+     * [https://github.com/rust-lang/regex]rust-lang/regex -- Regular
+       expressions (RE2 style)
+       [https://travis-ci.org/rust-lang/regex][68747470733a2f2f6170692e747
+       2617669732d63692e6f72672f727573742d6c616e672f72656765782e7376673f62
+       72616e63683d6d6173746572]
+     * [https://github.com/greyblake/whatlang-rs]greyblake/whatlang-rs --
+       Natural language detection library based on trigrams
+       [https://travis-ci.org/greyblake/whatlang-rs][68747470733a2f2f61706
+       92e7472617669732d63692e6f72672f67726579626c616b652f776861746c616e67
+       2d72732e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/yaa110/rake-rs]yaa110/rake-rs -- Multilingual
+       implementation of RAKE algorithm for Rust
+       [https://travis-ci.org/yaa110/rake-rs][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f7961613131302f72616b652d72732e7376673f62726
+       16e63683d6d6173746572]
+
+Text search
+
+     * [https://github.com/BurntSushi/fst]BurntSushi/fst
+       [[https://crates.io/crates/fst]fst] --
+       [https://travis-ci.org/BurntSushi/fst][68747470733a2f2f6170692e7472
+       617669732d63692e6f72672f4275726e7453757368692f6673742e7376673f62726
+       16e63683d6d6173746572]
+     * [https://github.com/CurrySoftware/perlin]CurrySoftware/perlin
+       [[https://crates.io/crates/perlin]perlin] --
+       [https://travis-ci.org/CurrySoftware/perlin][68747470733a2f2f617069
+       2e7472617669732d63692e6f72672f4375727279536f6674776172652f7065726c6
+       96e2e7376673f6272616e63683d6d6173746572]
+     * [https://github.com/tantivy-search/tantivy]tantivy-search/tantivy
+       [[https://crates.io/crates/tantivy]tantivy] --
+       [https://travis-ci.org/tantivy-search/tantivy][68747470733a2f2f6170
+       692e7472617669732d63692e6f72672f74616e746976792d7365617263682f74616
+       e746976792e7376673f6272616e63683d6d6173746572]
+
+Virtualization
+
+     * [https://github.com/beneills/quantum]beneills/quantum -- Advanced
+       Rust quantum computer simulator
+       [https://travis-ci.org/beneills/quantum][68747470733a2f2f6170692e74
+       72617669732d63692e6f72672f62656e65696c6c732f7175616e74756d2e7376673
+       f6272616e63683d6d6173746572]
+     * [https://github.com/ekse/unicorn-rs]ekse/unicorn-rs -- Rust
+       bindings for the unicorn CPU emulator
+     * [https://github.com/saurvs/hypervisor-rs]saurvs/hypervisor-rs --
+       Hardware-accelerated virtualization on OS X
+
+Web programming
+
+   See also [http://www.arewewebyet.org/]Are we web yet? and
+   [https://github.com/flosse/rust-web-framework-comparison]Rust web
+   framework comparison.
+     * Client-side / WASM
+          + [https://github.com/DenisKolodin/yew]DenisKolodin/yew
+            [[https://crates.io/crates/yew]yew] -- Rust framework for
+            making client web apps
+          + [https://github.com/koute/cargo-web]koute/cargo-web
+            [[https://crates.io/crates/cargo-web]cargo-web] -- A Cargo
+            subcommand for the client-side Web
+            [https://travis-ci.org/koute/cargo-web]Build Status
+          + [https://github.com/koute/stdweb]koute/stdweb
+            [[https://crates.io/crates/stdweb]stdweb] -- A standard
+            library for the client-side Web
+            [https://travis-ci.org/koute/stdweb]Build Status
+     * HTTP Client
+          + [https://github.com/alexcrichton/curl-rust]alexcrichton/curl-r
+            ust -- [https://curl.haxx.se/libcurl/]libcurl bindings
+            [https://travis-ci.org/alexcrichton/curl-rust][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f616c65786372696368746f6e2
+            f6375726c2d727573742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/hyperium/hyper]hyperium/hyper -- an HTTP
+            implementation
+            [https://travis-ci.org/hyperium/hyper][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f687970657269756d2f68797065722e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/seanmonstar/reqwest]seanmonstar/reqwest --
+            an ergonomic HTTP Client for Rust.
+            [https://travis-ci.org/seanmonstar/reqwest][68747470733a2f2f61
+            70692e7472617669732d63692e6f72672f7365616e6d6f6e737461722f7265
+            71776573742e7376673f6272616e63683d6d6173746572]
+     * HTTP Server
+          + [https://github.com/gotham-rs/gotham]Gotham -- A flexible web
+            framework that does not sacrifice safety, security or speed.
+            [https://travis-ci.org/gotham-rs/gotham][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f676f7468616d2d72732f676f7468616
+            d2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/hyperium/hyper]hyperium/hyper -- an HTTP
+            implementation
+            [https://travis-ci.org/hyperium/hyper][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f687970657269756d2f68797065722e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/GildedHonour/frank_jwt]GildedHonour/frank_
+            jwt -- JSON Web Token implementation in Rust.
+            [https://travis-ci.org/GildedHonour/frank_jwt][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f47696c646564486f6e6f75722
+            f6672616e6b5f6a77742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/iron/iron]Iron -- a middleware-based
+            server framework
+            [https://travis-ci.org/GildedHonour/frank_jwt][68747470733a2f2
+            f6170692e7472617669732d63692e6f72672f47696c646564486f6e6f75722
+            f6672616e6b5f6a77742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/sunng87/handlebars-iron]sunng87/handlebars
+            -iron --
+            [https://github.com/sunng87/handlebars-rust]Handlebars-rust as
+            an Iron web framework middleware.
+            [https://travis-ci.org/sunng87/handlebars-iron][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f73756e6e6738372f68616e64
+            6c65626172732d69726f6e2e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/nickel-org/nickel.rs/]Nickel -- inspired
+            by [http://expressjs.com/]Express
+            [https://travis-ci.org/nickel-org/nickel.rs][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f6e69636b656c2d6f72672f6e696
+            36b656c2e72732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/Ogeon/rustful]Ogeon/rustful -- a RESTful
+            web framework for Rust
+            [https://travis-ci.org/Ogeon/rustful][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f4f67656f6e2f7275737466756c2e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/SergioBenitez/Rocket]Rocket -- Rocket is
+            web framework for Rust (nightly) with a focus on ease-of-use,
+            expressability, and speed
+            [https://travis-ci.org/SergioBenitez/Rocket][68747470733a2f2f6
+            170692e7472617669732d63692e6f72672f53657267696f42656e6974657a2
+            f526f636b65742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/rustless/rustless]Rustless -- a REST-like
+            API micro-framework inspired by
+            [https://github.com/ruby-grape/grape]Grape and
+            [https://github.com/hyperium/hyper]Hyper
+            [https://travis-ci.org/rustless/rustless][68747470733a2f2f6170
+            692e7472617669732d63692e6f72672f727573746c6573732f727573746c65
+            73732e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/sappworks/sapper]sappworks/sapper -- A
+            lightweight web framework built on async hyper, implemented in
+            Rust language.
+            [https://travis-ci.org/sappworks/sapper][68747470733a2f2f61706
+            92e7472617669732d63692e6f72672f73617070776f726b732f73617070657
+            22e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/tiny-http/tiny-http]tiny-http -- Low level
+            HTTP server library
+            [https://travis-ci.org/frewsxcv/tiny-http][68747470733a2f2f617
+            0692e7472617669732d63692e6f72672f66726577737863762f74696e792d6
+            87474702e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/tomaka/rouille]tomaka/rouille -- Web
+            framework in Rust
+            [https://travis-ci.org/tomaka/rouille][68747470733a2f2f6170692
+            e7472617669732d63692e6f72672f746f6d616b612f726f75696c6c652e737
+            6673f6272616e63683d6d6173746572]
+          + [https://github.com/oltdaniel/zap]oltdaniel/zap - A lightning
+            fast http framework for Rust
+            [https://travis-ci.org/oltdaniel/zap][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f6f6c7464616e69656c2f7a61702e737667
+            3f6272616e63683d6d6173746572]
+          + [https://github.com/actix/actix-web]actix/actix-web -- A
+            lightweight async web framework for Rust with websocket
+            support
+            [https://travis-ci.org/actix/actix-web][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f61637469782f61637469782d7765622e
+            7376673f6272616e63683d6d6173746572]
+          + [https://github.com/mitum/sincere]mitum/sincere -- A micro web
+            framework for Rust(stable) based on hyper and multithreading.
+            [https://travis-ci.org/mitum/sincere][68747470733a2f2f6170692e
+            7472617669732d63692e6f72672f6d6974756d2f73696e636572652e737667
+            3f6272616e63683d6d6173746572]
+     * [https://datatracker.ietf.org/doc/rfc6455/]WebSocket
+          + [https://github.com/cyderize/rust-websocket]cyderize/rust-webs
+            ocket -- a framework for dealing with WebSocket connections
+            (both clients and servers)
+            [https://travis-ci.org/cyderize/rust-websocket][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f6379646572697a652f727573
+            742d776562736f636b65742e7376673f6272616e63683d6d6173746572]
+          + [https://github.com/housleyjk/ws-rs]housleyjk/ws-rs --
+            lightweight, event-driven WebSockets for Rust
+            [https://travis-ci.org/housleyjk/ws-rs][68747470733a2f2f617069
+            2e7472617669732d63692e6f72672f686f75736c65796a6b2f77732d72732e
+            7376673f6272616e63683d737461626c65]
+          + [https://github.com/snapview/tungstenite-rs]snapview/tungsteni
+            te-rs -- Lightweight stream-based WebSocket implementation for
+            Rust.
+          + [https://github.com/actix/sockjs]actix/sockjs --
+            [https://github.com/sockjs]SockJS server for Rust
+            [https://travis-ci.org/actix/sockjs][68747470733a2f2f6170692e7
+            472617669732d63692e6f72672f61637469782f736f636b6a732e7376673f6
+            272616e63683d6d6173746572]
+          + [https://github.com/vityafx/urlshortener-rs]vityafx/urlshorten
+            er-rs [[https://crates.io/crates/urlshortener]urlshortener] --
+            A very simple urlshortener library for Rust.
+            [https://travis-ci.org/vityafx/urlshortener-rs][68747470733a2f
+            2f6170692e7472617669732d63692e6f72672f766974796166782f75726c73
+            686f7274656e65722d72732e7376673f6272616e63683d6d6173746572]
+     * Miscellaneous
+          + [https://github.com/cargonauts-rs/cargonauts]cargonauts -- A
+            web framework intended for building maintainable,
+            well-factored web apps.
+          + [https://github.com/doublifyapis/toolkit-rust]doublifyapis/too
+            lkit-rust -- Doublify API toolkit for Rust
+            [https://travis-ci.org/doublifyapis/toolkit-rust][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f646f75626c696679617069
+            732f746f6f6c6b69742d727573742e7376673f6272616e63683d6d61737465
+            72]
+          + [https://github.com/pyros2097/rust-embed]pyros2097/rust-embed
+            -- A macro to embed static assets into the rust binary
+     * Reverse Proxy
+          + [https://github.com/sozu-proxy/sozu]sozu-proxy/sozu
+            [[https://crates.io/crates/sozu]sozu] - A HTTP reverse proxy.
+            [https://api.travis-ci.org/sozu-proxy/sozu]Build Status
+     * Static Site Generators
+          + [https://github.com/Keats/gutenberg]Keats/gutenberg
+            [[https://www.getgutenberg.io/]gutenberg] -- An opinionated
+            static site generator with everything built-in.
+            [https://travis-ci.org/Keats/gutenberg]Build Status
+
+Resources
+
+     * Benchmarks
+          + [https://github.com/TeXitoi/benchmarksgame-rs]TeXitoi/benchmar
+            ksgame-rs -- Rust implementations for the
+            [http://benchmarksgame.alioth.debian.org/]The Computer
+            Language Benchmarks Game
+            [https://travis-ci.org/TeXitoi/benchmarksgame-rs][68747470733a
+            2f2f6170692e7472617669732d63692e6f72672f54655869746f692f62656e
+            63686d61726b7367616d652d72732e7376673f6272616e63683d6d61737465
+            72]
+     * Decks & Presentations
+          + [https://speakerdeck.com/jvns/learning-systems-programming-wit
+            h-rust]Learning systems programming with Rust -- Presented by
+            [https://twitter.com/@b0rk]Julia Evans @ Rustconf 2016.
+          + [https://www.youtube.com/watch?v=t4CyEKb-ywA]Shipping a Solid
+            Rust Crate -- Presented by
+            [https://github.com/mgattozzi]Michael Gattozzi @ RustConf 2017
+          + [https://www.youtube.com/watch?v=lO1z-7cuRYI]Rust: Hack
+            Without Fear! -- Presented by
+            [https://github.com/nikomatsakis]Nicholas Matsakis @ C++Now
+            2018
+     * Learning
+          + [https://hackr.io/tutorials/learn-rust]Programming Community
+            Curated Resources for Learning Rust - A list of recommended
+            resources voted by the programming community.
+          + [http://exercism.io/languages/rust/about]exercism.io --
+            programming exercises that help you learn new concepts in
+            Rust.
+          + [https://github.com/mre/idiomatic-rust]Idiomatic Rust -- A
+            peer-reviewed collection of articles/talks/repos which teach
+            idiomatic Rust.
+          + [http://cglab.ca/%7Eabeinges/blah/too-many-lists/book/]Learnin
+            g Rust With Entirely Too Many Linked Lists -- in-depth
+            exploration of Rust's memory management rules, through
+            implementing a few different types of list structures.
+          + [https://rustbyexample.com/]Rust by Example
+          + [https://rust-lang-nursery.github.io/rust-cookbook/]Rust
+            Cookbook -- a collection of simple examples that demonstrate
+            good practices to accomplish common programming tasks, using
+            the crates of the Rust ecosystem.
+          + [https://github.com/ctjhoa/rust-learning]rust-learning -- a
+            collection of useful resources to learn Rust
+          + [https://github.com/carols10cents/rustlings]Rustlings -- small
+            exercises to get you used to reading and writing Rust code
+          + [https://github.com/brson/stdx]stdx -- Learn these crates
+            first as an extension to std
+          + [http://cis198-2016s.github.io/schedule/]University of
+            Pennsylvania's Comp Sci Rust Programming Course
+     * Podcasts
+          + [https://newrustacean.com/]New Rustacean -- a podcast about
+            learning Rust
+     * [http://confreaks.tv/events/rustcamp2015]RustCamp 2015 Talks
+     * [https://github.com/rust-unofficial/patterns]Rust Design Patterns
+     * [http://aturon.github.io/]Rust Guidelines
+     * [https://github.com/sger/RustBooks]RustBooks -- list of RustBooks
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Relo
+   ad to refresh your session. You signed out in another tab or window.
+   Relo
+   ad to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

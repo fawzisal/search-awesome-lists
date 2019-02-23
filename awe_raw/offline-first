@@ -1,0 +1,1467 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - pazguille/offline-first: Everything you need to know to create offline-first web apps.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/250856?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="pazguille/offline-first" /><meta property="og:url" content="https://github.com/pazguille/offline-first" /><meta property="og:description" content=":electric_plug: Everything you need to know to create offline-first web apps." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E2E6:5D4D:1883D04:2F4C1B9:5AD2F791" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E2E6:5D4D:1883D04:2F4C1B9:5AD2F791" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YWQwM2Y0NjRlYjAxN2Y0YWE2NzZhOTNhMzAxZDk5ZWJkMmQxN2I1ZTE2MGQwYjhkY2YxZTg2OTJmYzAwZjM1NHx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTJFNjo1RDREOjE4ODNEMDQ6MkY0QzFCOTo1QUQyRjc5MSIsInRpbWVzdGFtcCI6MTUyMzc3NTM3NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a769094fbe29055c8fbdabcc7a823ce8e722849b">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/pazguille/offline-first/commits/master.atom" rel="alternate" title="Recent Commits to offline-first:master" type="application/atom+xml">
+
+  <meta name="description" content=":electric_plug: Everything you need to know to create offline-first web apps.">
+  <meta name="go-import" content="github.com/pazguille/offline-first git https://github.com/pazguille/offline-first.git">
+
+  <meta name="octolytics-dimension-user_id" content="250856" /><meta name="octolytics-dimension-user_login" content="pazguille" /><meta name="octolytics-dimension-repository_id" content="22706666" /><meta name="octolytics-dimension-repository_nwo" content="pazguille/offline-first" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="22706666" /><meta name="octolytics-dimension-repository_network_root_nwo" content="pazguille/offline-first" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/pazguille/offline-first" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/pazguille/offline-first/search" data-unscoped-search-url="/search" action="/pazguille/offline-first/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/pazguille/offline-first">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fpazguille%2Foffline-first" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fpazguille%2Foffline-first"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/pazguille/offline-first/watchers"
+     aria-label="135 users are watching this repository">
+    135
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpazguille%2Foffline-first"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/pazguille/offline-first/stargazers"
+      aria-label="2381 users starred this repository">
+      2,381
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpazguille%2Foffline-first"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/pazguille/offline-first/network" class="social-count"
+       aria-label="170 users forked this repository">
+      170
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/pazguille">pazguille</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/pazguille/offline-first">offline-first</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /pazguille/offline-first" href="/pazguille/offline-first">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /pazguille/offline-first/issues" href="/pazguille/offline-first/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /pazguille/offline-first/pulls" href="/pazguille/offline-first/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /pazguille/offline-first/projects" href="/pazguille/offline-first/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /pazguille/offline-first/pulse" href="/pazguille/offline-first/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QZdn8bxvknvJq649J36479RFdLJ0PfL2aZvDqKL711712ZJ8HGEqG0LH4QhtFHRzqE7F8wgU35DsNpXlMqZJtw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> Everything you need to know to create offline-first web apps.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/pazguille/offline-first/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/offline-first" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:offline-first">
+        offline-first
+      </a>
+      <a href="/topics/service-worker" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:service-worker">
+        service-worker
+      </a>
+      <a href="/topics/offline-data" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:offline-data">
+        offline-data
+      </a>
+      <a href="/topics/appcache" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:appcache">
+        appcache
+      </a>
+      <a href="/topics/indexeddb" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:indexeddb">
+        indexeddb
+      </a>
+      <a href="/topics/offline" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:offline">
+        offline
+      </a>
+      <a href="/topics/serviceworkers" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:serviceworkers">
+        serviceworkers
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/pazguille/offline-first/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                365
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/pazguille/offline-first/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/pazguille/offline-first/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/pazguille/offline-first/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      23
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/pazguille/offline-first/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/pazguille/offline-first.git" aria-label="Clone this repository at https://github.com/pazguille/offline-first.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/pazguille/offline-first.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/pazguille/offline-first/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/pazguille/offline-first/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/pazguille/offline-first/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/pazguille/offline-first/commit/78057c9f67012fcc2a1d041d352602b8e74db58c" data-pjax>
+        78057c9
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-11-26T13:34:28Z">Nov 26, 2017</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="pazguille">
+
+        <a href="/pazguille" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars0.githubusercontent.com/u/250856?s=40&amp;v=4" width="20" height="20" alt="@pazguille">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="/pazguille/offline-first/commits?author=pazguille"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by pazguille">pazguille</a>
+
+
+  committed
+  <relative-time datetime="2017-11-26T13:34:28Z">Nov 26, 2017</relative-time>
+
+
+
+      <a href="/pazguille/offline-first/commit/78057c9f67012fcc2a1d041d352602b8e74db58c" class="message" data-pjax="true" title="Add a new post.">Add a new post.</a>
+
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/pazguille/offline-first/tree/78057c9f67012fcc2a1d041d352602b8e74db58c">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-b69fd0621c3bf3fa7f0235008ed8b3aa90942945" href="/pazguille/offline-first/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add allow-redirect." class="message" href="/pazguille/offline-first/commit/b7fbd1aaed924afd7d37de0cd5e279239e62e951">Add allow-redirect.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-17T11:31:11Z">Nov 17, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-fb1c64f58ba293ebc72c184ba2c804460e22857b" href="/pazguille/offline-first/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update CONTRIBUTING.md" class="message" href="/pazguille/offline-first/commit/c58be0b0fac4bb7ca5826477041141c297460527">Update CONTRIBUTING.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-24T11:51:24Z">Oct 24, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-670154e3538863b2d9891fd5483160fbdfc89164" itemprop="license" href="/pazguille/offline-first/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update LICENSE" class="message" href="/pazguille/offline-first/commit/cb6b5b52bbed67464e710443403ae437f179423b">Update LICENSE</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-11-19T13:05:00Z">Nov 19, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-7a410a8e3d2ab4a97b8d8b7962a676ca8e6e7e21" href="/pazguille/offline-first/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add a new post." class="message" href="/pazguille/offline-first/commit/78057c9f67012fcc2a1d041d352602b8e74db58c">Add a new post.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-26T13:34:28Z">Nov 26, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#offline-first--" aria-hidden="true" class="anchor" id="user-content-offline-first--"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline-First <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a> <a href="https://travis-ci.org/pazguille/offline-first" rel="nofollow"><img src="https://camo.githubusercontent.com/928121947a975709077eea67ed36f45829f6965e/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f70617a6775696c6c652f6f66666c696e652d66697273742e737667" alt="Build Status" data-canonical-src="https://img.shields.io/travis/pazguille/offline-first.svg" style="max-width:100%;"></a></h1>
+<blockquote>
+<p>Useful resources for creating Offline-First web apps</p>
+</blockquote>
+<blockquote>
+<p>"Web" and "online" are two closely associated terms, downright synonymous to many people. So why on earth would we talk about "offline" web technologies, and what does the term even mean?</p>
+</blockquote>
+<blockquote>
+<p>via <a href="https://www.html5rocks.com/en/features/offline" rel="nofollow">https://www.html5rocks.com/en/features/offline</a></p>
+</blockquote>
+<p>Inspired by the <a href="https://github.com/sindresorhus/awesome">awesome</a> list thing.</p>
+<h2><a href="#table-of-contents" aria-hidden="true" class="anchor" id="user-content-table-of-contents"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#w3c-specification">W3C Specification</a></li>
+<li><a href="#newsletter">Newsletter</a></li>
+<li><a href="#posts">Posts</a></li>
+<li><a href="#presentations">Presentations</a>
+<ul>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#slides">Slides</a></li>
+</ul>
+</li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#showcase">Showcase</a></li>
+<li><a href="#who-to-follow">Who to Follow</a></li>
+<li><a href="#contributing">Contributing</a></li>
+</ul>
+<h2><a href="#w3c-specification" aria-hidden="true" class="anchor" id="user-content-w3c-specification"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>W3C Specification</h2>
+<p><a href="http://www.w3.org/TR/offline-webapps/" rel="nofollow">Offline Web Applications</a></p>
+<blockquote>
+<p>This specification highlights features (SQL, offline application caching APIs as well as online/offline events, status, and the localStorage API) from HTML5 and provides brief tutorials on how these features might be used to create Web applications that work offline.</p>
+</blockquote>
+<p><a href="http://www.w3.org/TR/service-workers/" rel="nofollow">Service Workers</a></p>
+<blockquote>
+<p>This specification describes a method that enables applications to take advantage of persistent background processing, including hooks to enable bootstrapping of web applications while offline.</p>
+</blockquote>
+<p><a href="http://www.w3.org/TR/IndexedDB/" rel="nofollow">IndexedDB</a></p>
+<blockquote>
+<p>This specification defines APIs for a database of records holding simple values and hierarchical objects. Each record consists of a key and some value. Moreover, the database maintains indexes over records it stores. An application developer directly uses an API to locate records either by their key or by using an index. A query language can be layered on this API. An indexed database can be implemented using a persistent B-tree data structure.</p>
+</blockquote>
+<p><a href="http://www.w3.org/TR/webstorage/" rel="nofollow">WebStorage</a></p>
+<blockquote>
+<p>This specification defines an API for persistent data storage of key-value pair data in Web clients.</p>
+</blockquote>
+<h2><a href="#newsletter" aria-hidden="true" class="anchor" id="user-content-newsletter"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Newsletter</h2>
+<p><a href="http://offlinefirst.us4.list-manage1.com/subscribe?u=12d36bbe9418ed6a43127cd62&amp;id=7fc00bfaef" rel="nofollow">The Offline First Reader</a>. A monthly reader featuring all things Offline First, covering theory, technology and user experience for new offline use cases.</p>
+<h2><a href="#posts" aria-hidden="true" class="anchor" id="user-content-posts"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Posts</h2>
+<p><a href="https://medium.com/ibm-watson-data-lab/accessibility-testing-for-offline-first-applications-d8d2bfd24a6e" rel="nofollow">Accessibility Testing for Offline First Applications</a>
+(Maureen McElaney - Nov 6, 2017)</p>
+<p><a href="https://medium.com/@argo49/how-to-add-an-offline-notification-to-your-pwa-c11ee640822b" rel="nofollow">How to add an “Offline” notification to your PWA</a>
+(Tyler Argo - Oct 28, 2017)</p>
+<p><a href="https://proandroiddev.com/offline-apps-its-easier-than-you-think-9ff97701a73f" rel="nofollow">Building Offline-First App using MVVM, RxJava, Room and Priority Job Queue</a>
+(James Shvarts - Oct 8, 2017)</p>
+<p><a href="https://medium.com/offline-camp/supporting-offline-users-what-happens-when-it-breaks-562f7dcea0a9" rel="nofollow">Supporting Offline Users — What Happens When it Breaks?</a>
+(John Kleinschmidt - Sep 27, 2017)</p>
+<p><a href="https://medium.com/offline-camp/using-react-and-preact-to-build-my-first-offline-first-apps-8df4a1e5471b" rel="nofollow">Using React and Preact to Build My First Offline First Apps</a>
+(Nick Kasten - Sep 5, 2017)</p>
+<p><a href="https://mxb.at/blog/offline-forms/" rel="nofollow">Offline-Friendly Forms</a>
+(Max Böck - Aug 23, 2017)</p>
+<p><a href="https://hackernoon.com/service-worker-one-fallback-offline-image-for-any-aspect-ratio-b427c0f897fb" rel="nofollow">Service Worker: One fallback offline image for any aspect ratio</a>
+(Sebastian Eberlein - Aug 14, 2017)</p>
+<p><a href="https://mxb.at/blog/youre-offline/" rel="nofollow">You're Offline</a>
+(Max Böck - Jul 12, 2017)</p>
+<p><a href="https://medium.com/onehourcode/part-2-get-rapid-offline-capability-in-your-angular-app-with-service-worker-954f17109dd0" rel="nofollow">[Part 2] Get rapid offline capability in your Angular app with service worker</a>
+(Hugo Dolan - Jun 28, 2017)</p>
+<p><a href="https://deanhume.com/Home/BlogPost/persistent-storage-api--building-for-the-offline-web/10161" rel="nofollow">Persistent Storage API: Building for the offline web</a>
+(Dean Hume - Jun 26, 2017)</p>
+<p><a href="https://medium.com/onehourcode/part-1-get-rapid-offline-capability-in-your-angular-app-with-service-worker-762a889a503d" rel="nofollow">[Part 1] Get rapid offline capability in your Angular app with service worker</a>
+(Hugo Dolan - Jun 21, 2017)</p>
+<p><a href="https://medium.com/progressive-web-apps/building-offline-webapp-using-serviceworkers-8939a694cc5" rel="nofollow">Building an offline Web App that works in very low internet conditions using ServiceWorkers</a>
+(Hari krishna - Jun 16, 2017)</p>
+<p><a href="https://medium.com/@nitish404/offline-post-in-progressive-web-apps-3d02f893b223" rel="nofollow">Offline POSTs in Progressive Web Apps</a>
+(Nitish Thakur - Jun 23, 2017)</p>
+<p><a href="https://medium.com/offline-camp/offline-first-design-patterns-engineering-1c66821137d3" rel="nofollow">Offline First Design Patterns : Engineering</a>
+(Anirudha Bedre - Mar 28, 2017)</p>
+<p><a href="https://hackernoon.com/introducing-redux-offline-offline-first-architecture-for-progressive-web-applications-and-react-68c5167ecfe0" rel="nofollow">Introducing Redux Offline: Offline-First Architecture for Progressive Web Applications and React Native</a>
+(Jani Eväkallio - Mar 28, 2017)</p>
+<p><a href="https://medium.com/offline-camp/rethinking-offline-first-sync-for-service-workers-da4727b6dee" rel="nofollow">Rethinking Offline First sync for Service Workers</a>
+(Nolan Lawson - Mar 16, 2017)</p>
+<p><a href="https://medium.com/@yonatanvlevin/offline-support-try-again-later-no-more-afc33eba79dc" rel="nofollow">Offline support: "Try again, later", no more.</a>
+(Yonatan V. Levin - Mar 2, 2017)</p>
+<p><a href="https://blog.yld.io/2017/03/01/optimize-with-http-2-server-push-and-service-workers" rel="nofollow">Optimize with HTTP/2 Server Push and Service Workers!</a>
+(Daniela Matos de Carvalho - Mar 1, 2017)</p>
+<p><a href="https://medium.com/@coreflodev/understand-offline-first-and-offline-last-in-android-71191e92b426" rel="nofollow">Understand offline first and offline last in Android</a>
+(Florent Guillemot - Feb 27, 2017)</p>
+<p><a href="https://medium.com/buildit/why-offline-first-20470604ee36" rel="nofollow">Why Offline First?</a>
+(Zachary Smith - Feb 22, 2017)</p>
+<p><a href="https://www.twilio.com/blog/2017/02/send-messages-when-youre-back-online-with-service-workers-and-background-sync.html" rel="nofollow">Send messages when you’re back online with Service Workers and Background Sync</a>
+(Phil Nash - Feb 17, 2017)</p>
+<p><a href="https://dev.to/kayis/easy-offline-first-apps-with-webpacks-offline-plugin" rel="nofollow">Easy Offline First Apps With Webpack's Offline Plugin</a>
+(Kay Plößer - Feb 12, 2017)</p>
+<p><a href="https://hackernoon.com/offline-first-react-native-meteor-apps-2bee8e976ec7" rel="nofollow">Offline First React Native + Meteor Apps</a>
+(Spencer Carli - Feb 8, 2017)</p>
+<p><a href="https://stories.jotform.com/offline-first-web-applications-d2d321444510" rel="nofollow">Offline-First Web Application Using Redux and PouchDB</a>
+(Berkay Aydın - Jan 30, 2017)</p>
+<p><a href="https://una.im/save-offline" rel="nofollow">Implementing "Save For Offline" with Service Workers.</a>
+(Una Kravets - Jan 26, 2017)</p>
+<p><a href="https://journal.standardnotes.org/moving-beyond-localstorage-991e3695be15#.wqzo3mpuz" rel="nofollow">Moving beyond localStorage</a>
+(Mo Bitar - Jan 17, 2017)</p>
+<p><a href="https://nicolas-hoizey.com/2017/01/how-much-data-should-my-service-worker-put-upfront-in-the-offline-cache.html" rel="nofollow">How much data should my Service Worker put upfront in the offline cache?</a>
+(Nicolas Hoizey- Jan 12, 2017)</p>
+<p><a href="https://medium.com/@adactio/making-resilient-web-design-work-offline-a5854781b75b#.8khh8bnio" rel="nofollow">Making Resilient Web Design work offline</a>
+(Jeremy Keith - Jan 11, 2017)</p>
+<p><a href="https://calendar.perfplanet.com/2016/service-workers-cache-web-performance-new-level/" rel="nofollow">Using Service Workers and Cache to Take Web Performance to a New Level</a>
+(Chris Love - Dec 23, 2016)</p>
+<p><a href="https://medium.com/remys-blog/faking-progress-service-worker-edition-4c3fa16e5b32#.coya1w3ki" rel="nofollow">Faking progress (service worker edition)</a>
+(Remy Sharp - Dec 22, 2016)</p>
+<p><a href="https://auth0.com/blog/introduction-to-progressive-apps-part-one/" rel="nofollow">Introduction to Progressive Web Apps (Offline First)</a>
+(Prosper Otemuyiwa - Dec 19, 2016)</p>
+<p><a href="https://medium.com/outsystems-engineering/wont-get-fooled-again-lessons-in-lie-fi-9097052ea66e#.texx2j9pd" rel="nofollow">Won’t Get Fooled Again: Lessons in Lie-Fi</a>
+(Ricardo Ferreira - Dec 15, 2016)</p>
+<p><a href="http://blog.getchop.io/2016/12/14/designing-for-accidental-disconnects-our-first-attempt-at-an-offline-approach/" rel="nofollow">Designing for Accidental Disconnects: Our first attempt at an offline approach</a>
+(Vivian Cromwell - Dec 14, 2016)</p>
+<p><a href="https://medium.com/offline-camp/offline-patterns-there-are-many-jobs-to-be-done-9f97f7e89304#.54tbekzbf" rel="nofollow">Offline Patterns: There are many jobs to be done</a>
+(Steve Trevathan - Dec 13, 2016)</p>
+<p><a href="https://medium.com/@aliafshar/writing-offline-web-apps-is-easy-bc5ece2ed16e#.26kewn4dd" rel="nofollow">Writing offline web apps is easy</a>
+(Ali Afshar - Dec 9, 2016)</p>
+<p><a href="https://blog.superhuman.com/architecting-a-web-app-to-just-work-offline-part-1-8697f316c0eb#.i6y75or3v" rel="nofollow">Architecting a web app to “just work” offline</a>
+(Islam Sharabash - Dec 6, 2016)</p>
+<p><a href="https://hackernoon.com/so-you-want-to-develop-for-the-next-billion-9eb072c26bc8#.30ev0831v" rel="nofollow">Offline App Architecture: how to build for the next billion</a>
+(Arun Sasidharan - Dec 4, 2016)</p>
+<p><a href="https://developers.google.com/web/updates/2016/09/foreign-fetch" rel="nofollow">Cross-origin Service Workers: Experimenting with Foreign Fetch</a>
+(Jeff Posnick - Dec 2016)</p>
+<p><a href="https://medium.com/@kosamari/service-worker-what-are-you-ca0f8df92b65#.wc6eggecd" rel="nofollow">Service Worker, what are you?</a>
+(Mariko Kosaka - Dec 1, 2016)</p>
+<p><a href="https://medium.com/hypertrack/designed-to-be-offline-first-def41a3668b8#.a0u11gp4j" rel="nofollow">Designed to be offline-first</a>
+(Arjun Attam - Nov 29, 2016)</p>
+<p><a href="https://medium.com/offline-camp/hack-time-service-workers-background-sync-and-pouchdb-3c8b71535823#.qlqbjm6dw" rel="nofollow">Hack Time: Service Workers, Background Sync, and PouchDB</a>
+(John Kleinschmidt - Nov 29, 2016)</p>
+<p><a href="https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux" rel="nofollow">Offline UX Considerations</a>
+(Mustafa Kurtuldu - 2016)</p>
+<p><a href="https://medium.com/offline-camp/storing-sensitive-data-offline-cec851df95e3#.g78qucejz" rel="nofollow">Storing Sensitive Data Offline</a>
+(Paul Frazee - Nov 17, 2016)</p>
+<p><a href="https://medium.com/differential/building-offline-first-react-native-apps-b958acac0009#.94hfszbig" rel="nofollow">Building Offline First React Native Apps</a>
+(Spencer Carli - Nov 16, 2016)</p>
+<p><a href="https://hackernoon.com/building-a-simple-offline-capable-notepad-app-using-serviceworker-97b9b50767a5#.k9zhvs3ep" rel="nofollow">Building a simple offline-capable Notepad app using ServiceWorker</a>
+(Amit Merchant - Nov 15, 2016)</p>
+<p><a href="https://developers.google.com/web/updates/2015/11/app-shell" rel="nofollow">Instant Loading Web Apps with an Application Shell Architecture by Google</a>
+(Addy Osmani &amp; Matt Gaunt - 2016)</p>
+<p><a href="https://medium.com/@jessebeach/my-biggest-takeaway-from-the-second-offline-camp-in-santa-margarita-ca-d0dd930cd02b#.di93bftj9" rel="nofollow">My biggest takeaway from the second Offline Camp in Santa Margarita, CA — plus toast!</a>
+(J. Renée Beach - Nov 8, 2016)</p>
+<p><a href="https://medium.com/@leofle/the-offline-experience-in-2016-83b1f00d7bfa#.nk8910brf" rel="nofollow">The offline experience in 2016</a>
+(Lio Fleishman - Oct 27, 2016)</p>
+<p><a href="https://medium.com/outsystems-engineering/i-was-wrong-about-offline-fe5426894740#.yb9hhitn0" rel="nofollow">I Was Wrong About Offline</a>
+(Tiago Simões - Oct 20, 2016)</p>
+<p><a href="https://hacks.mozilla.org/2016/10/offline-strategies-come-to-the-service-worker-cookbook/" rel="nofollow">Offline strategies come to the Service Worker Cookbook</a>
+(Salva - Oct 19, 2016)</p>
+<p><a href="https://bitsofco.de/bitsofcode-pwa-part-2-instant-loading-with-indexeddb/" rel="nofollow">"Instant Loading" with IndexedDB (Building a PWA, Part 2)</a>
+(Ire Aderinokun - Oct 18, 2016)</p>
+<p><a href="https://developers.google.com/web/fundamentals/instant-and-offline/service-worker/lifecycle" rel="nofollow">The Service Worker Lifecycle</a>
+(Jake Archibald - Oct 13, 2016)</p>
+<p><a href="https://bitsofco.de/bitsofcode-pwa-part-1-offline-first-with-service-worker/" rel="nofollow">"Offline First" with Service Worker (Building a PWA, Part 1)</a>
+(Ire Aderinokun - Oct 11, 2016)</p>
+<p><a href="https://codingbox.io/do-you-need-service-worker-in-your-web-app-d68131d65e2c?gi=666f4385e803" rel="nofollow">Do you need Service Worker in your web app?</a>
+(Valerii Iatsko - Oct 9, 2016)</p>
+<p><a href="https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-3-offline-support-and-network-resilience-c84db889162c?source=userActivityShare-136a881c591e-1475748613" rel="nofollow">Progressive Web Apps with React.js: Part 3 — Offline support and network resilience</a>
+(Addy Osmani - Oct 5, 2016)</p>
+<p><a href="https://chrisruppel.com/blog/service-worker-offline-content-list/" rel="nofollow">Offline Reading List</a>
+(Chris Ruppel - Oct 5, 2016)</p>
+<p><a href="https://github.com/homam/service-workers-example">Almost any web page can work offline</a>
+(Homam Hosseini - Sep 24, 2016)</p>
+<p><a href="https://medium.com/offline-camp/enabling-offline-first-experiences-on-the-web-with-service-workers-e4bc8c773dae#.c6ui0i9cs" rel="nofollow">Enabling Offline First Experiences on the Web with Service Workers</a>
+(Dan Zajdband - Sep 12, 2016)</p>
+<p><a href="http://thenewstack.io/build-better-customer-experience-applications-using-offline-first-principles/" rel="nofollow">Build More Reliable Web Apps with Offline</a>
+(Pedro Teixeira - Sep 7, 2016)</p>
+<p><a href="https://www.christianheilmann.com/2016/08/26/songsearch-using-serviceworker-to-make-a-4-mb-csv-easily-searchable-in-a-browser/" rel="nofollow">Songsearch – using ServiceWorker to make a 4 MB CSV easily searchable in a browser</a>
+(Christian Heilmann - Aug 26, 2016)</p>
+<p><a href="https://medium.com/dev-channel/offline-storage-for-progressive-web-apps-70d52695513c#.ryrpvq43r" rel="nofollow">Offline Storage for Progressive Web Apps</a>
+(Addy Osmani - Aug 15, 2016)</p>
+<p><a href="https://medium.com/google-developer-experts/add-offline-support-to-any-web-app-c20edc4bea0e#.jeseb4ovf" rel="nofollow">Add offline support to any Web app</a>
+(Wassim Chegham - Jul 23, 2016)</p>
+<p><a href="https://ponyfoo.com/articles/backgroundsync" rel="nofollow">ServiceWorker: A Basic Guide to BackgroundSync</a>
+(Dean Hume - Jul 19, 2016)</p>
+<p><a href="https://medium.com/offline-camp/offline-first-the-decentralized-web-and-peer-to-peer-technologies-b05b7fb3bcdd#.6xdfvy6on" rel="nofollow">Offline First, the Decentralized Web, and Peer-to-Peer Technologies</a>
+(Pedro Teixeira - Jul 15, 2016)</p>
+<p><a href="https://developers.google.com/web/updates/2016/07/offline-google-analytics" rel="nofollow">Offline Google Analytics Made Easy</a>
+(Jeff Posnick - Jul, 2016)</p>
+<p><a href="https://medium.com/offline-camp/offline-first-security-59bf4800e82a" rel="nofollow">Security in Offline First Apps</a>
+(Calvin Metcalf - Jul 8, 2016)</p>
+<p><a href="https://paul.kinlan.me/my-blogs-service-worker-and-caching-strategy/" rel="nofollow">My blog's Service Worker and Caching Strategy</a>
+(Paul Kinlan - Jun 15, 2016)</p>
+<p><a href="https://medium.com/offline-camp/offline-low-bandwidth-ux-design-patterns-51391230a79e#.sctlcxk4e" rel="nofollow">Offline/Low-bandwidth UX Design Patterns</a>
+(Steve Trevathan - Jul 8, 2016)</p>
+<p><a href="https://chrisruppel.com/blog/service-worker-offline-content/" rel="nofollow">Offline Content with Service Worker</a>
+(Chris Ruppel - Jun 6, 2016)</p>
+<p><a href="https://adactio.com/journal/10754" rel="nofollow">Taking an online book offline</a>
+(Jeremy Keith - Jun 3, 2016)</p>
+<p><a href="https://medium.com/@boopathi/service-workers-gotchas-44bec65eab3f#.4q0ncllos" rel="nofollow">Service Workers — Gotchas</a>
+(Boopathi Rajaa - May 9, 2016)</p>
+<p><a href="https://developer.ibm.com/clouddataservices/2016/05/05/offline-first-qr-code-badge-scanner/" rel="nofollow">Offline-first QR-code Badge Scanner</a>
+(Glynn Bird - May 5, 2016)</p>
+<p><a href="https://infrequently.org/2016/05/service-workers-and-pwas-its-about-reliable-performance-not-offline/" rel="nofollow">Service Workers and PWAs: It’s About Reliable Performance, Not “Offline”</a>
+(Alex Russell- May 4, 2016)</p>
+<p><a href="https://medium.com/@torgo/progressive-web-apps-eating-your-cake-c0a79797220f#.jp6qup8xg" rel="nofollow">Progressive Web Apps: Eating your Cake</a>
+(Daniel Appelquist - Apr 27, 2016)</p>
+<p><a href="http://blog.booking.com/progressive-web-apps-with-service-workers.html" rel="nofollow">Progressive Web Apps with Service Workers</a>
+(Jesse Yang - Apr 21, 2016)</p>
+<p><a href="http://gonehybrid.com/how-to-use-pouchdb-sqlite-for-local-storage-in-ionic-2/" rel="nofollow">How To Use PouchDB + SQLite For Local Storage In Ionic 2</a>
+(Ashteya Biharisingh - Apr 18, 2016)</p>
+<p><a href="https://tailordev.fr/blog/2016/04/15/le-lab-2-offline-first-document-sharing-templates-monod-is-back/" rel="nofollow">Offline-First, Document Sharing, Templates: Monod is Back (not in Black)</a>
+(Apr 15, 2016)</p>
+<p><a href="https://medium.com/totally-tooling-tears/issue-4-offline-badging-testing-travis-devtools-issues-web-storage-data-driven-development-8dd1cfbc410a#.mgur8g8n3" rel="nofollow">Issue 4: Offline badging, DevTools, Testing, Travis, Web Storage, Service Worker Scopes, Data-driven Development, Compute Engine</a>
+(Addy Osmani - Apr 15, 2016)</p>
+<p><a href="https://developer.ibm.com/tv/untappd-web-apps/" rel="nofollow">The New Builders Ep. 1: Craft Beer and Progressive Web Apps</a>
+(Douglas Flora - Apr 14, 2016)</p>
+<p><a href="https://medium.com/@firt/service-workers-replacing-appcache-a-sledgehammer-to-crack-a-nut-5db6f473cc9b#.sdp7iqxc3" rel="nofollow">Service Workers replacing AppCache: a sledgehammer to crack a nut</a>
+(Maximiliano Firtman - Apr 11, 2016)</p>
+<p><a href="https://medium.com/@greenido/progressive-web-apps-offline-and-add-to-home-screen-2187a2487a5c#.7m52kq892" rel="nofollow">Progressive Web Apps — Offline And Add To Home Screen</a>
+(Ido Green - Mar 28, 2016)</p>
+<p><a href="https://adactio.com/journal/10410" rel="nofollow">The web on my phone</a>
+(Jeremy Keith - Mar 23, 2016)</p>
+<p><a href="https://remysharp.com/2016/03/22/the-copy--paste-guide-to-your-first-service-worker" rel="nofollow">The copy &amp; paste guide to your first Service Worker</a>
+(Remy Sharp - Mar 22, 2016)</p>
+<p><a href="http://www.deanhume.com/Home/BlogPost/service-workers--save-your-users-data-using-the-save-data-header/10139" rel="nofollow">Service Workers: Save your User's Data using the Save-Data Header</a>
+(Dean Hume - Mar 8, 2016)</p>
+<p><a href="https://adactio.com/journal/10186" rel="nofollow">Service Worker notes</a>
+(Jeremy Keith - Feb 4, 2016)</p>
+<p><a href="https://www.smashingmagazine.com/2016/02/making-a-service-worker/" rel="nofollow">Making A Service Worker: A Case Study</a>
+(Lyza Danger Gardner - Feb 1, 2016)</p>
+<p><a href="http://deanhume.com/home/blogpost/create-a-really--really-simple-offline-page-using-service-workers/10135" rel="nofollow">Create a really, really simple offline page using Service Workers</a>
+(Dean Hume - Jan 25, 2016)</p>
+<p><a href="https://www.udacity.com/course/offline-web-applications--ud899" rel="nofollow">Offline Web Applications: Using IndexedDB &amp; Service Worker</a>
+(Michael Wales - Jan 20, 2016)</p>
+<p><a href="https://dev.opera.com/articles/offline-with-upup-service-workers/" rel="nofollow">Building Offline Sites with ServiceWorkers and UpUp</a>
+(Tal Ater - Jan 19, 2016)</p>
+<p><a href="https://glebbahmutov.com/blog/instant-web-application/" rel="nofollow">Instant Web Application</a>
+(Gleb Bahmutov - Dec 24, 2015)</p>
+<p><a href="https://developers.google.com/web/updates/2015/12/background-sync" rel="nofollow">Introducing Background Sync</a>
+(Jake Archibald - 2015)</p>
+<p><a href="https://hacks.mozilla.org/2015/12/beyond-offline/" rel="nofollow">Beyond Offline</a>
+(Salvador de la Puente González - Dec 21, 2015)</p>
+<p><a href="http://deanhume.com/Home/BlogPost/getting-started-with-the-service-worker-toolbox/10134" rel="nofollow">Getting started with the Service Worker Toolbox </a>
+(Dean Hume - Dec 17, 2015)</p>
+<p><a href="https://serviceworke.rs/" rel="nofollow">ServiceWorker Cookbook</a>
+(by Mozilla)</p>
+<p><a href="https://teamgaslight.com/blog/offline-web-applications-with-couchdb-pouchdb-and-ember-cli" rel="nofollow">Offline Web Applications with CouchDB, PouchDB and Ember CLI</a>
+(Chris Moore - Dec 10, 2015)</p>
+<p><a href="http://hood.ie/blog/minutes-offline-case-study" rel="nofollow">A Hoodie Case Study: How minutes.io does offline</a>
+(Alex Feyerke - Dec 1, 2015)</p>
+<p><a href="http://calendar.perfplanet.com/2015/reducing-single-point-of-failure-using-service-workers/" rel="nofollow">Reducing Single Point of Failure using Service Workers</a>
+(Dean Hume - Dec 1, 2015)</p>
+<p><a href="https://blog.yld.io/2015/11/30/building-realtime-collaborative-offline-first-apps-with-react-redux-pouchdb-and-web-sockets/" rel="nofollow">Building realtime collaborative offline-first apps with React, Redux, PouchDB and WebSockets</a>
+(Pedro Teixeira - Nov 30, 2015)</p>
+<p><a href="https://adactio.com/journal/9888" rel="nofollow">Cache-limiting in Service Workers …again</a>
+(Jeremy Keith - Nov 29, 2015)</p>
+<p><a href="http://www.pocketjavascript.com/blog/2015/11/23/introducing-pokedex-org" rel="nofollow">Introducing Pokedex.org: a progressive webapp for Pokémon fans</a>
+(Nolan Lawson - Nov 23, 2015)</p>
+<p><a href="https://adactio.com/journal/9844" rel="nofollow">Cache-limiting in Service Workers</a>
+(Jeremy Keith - Nov 19, 2015)</p>
+<p><a href="https://hacks.mozilla.org/2015/11/offline-service-workers/" rel="nofollow">Offline Recipes for Service Workers</a>
+(David Walsh - Nov 19, 2015)</p>
+<p><a href="https://medium.com/google-developers/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73" rel="nofollow">Instant Loading Web Apps With An Application Shell Architecture</a>
+(Addy Osmani - Nov 17, 2015)</p>
+<p><a href="http://brandonrozek.tumblr.com/post/135657690564/service-workers" rel="nofollow">An Offline Experience with Service Workers</a>
+(Brandon Rozek - Nov 14, 2015)</p>
+<p><a href="https://medium.com/@AdityaPunjani/building-flipkart-lite-a-progressive-web-app-2c211e641883" rel="nofollow">Building Flipkart Lite: A Progressive Web App</a>
+(Aditya Punjani - Nov 11, 2015)</p>
+<p><a href="https://developers.google.com/web/fundamentals/getting-started/codelabs/offline/" rel="nofollow">Your first offline web app</a>
+(Chrome Developer Team - 2015)</p>
+<p><a href="https://css-tricks.com/serviceworker-for-offline/" rel="nofollow">Making a Simple Site Work Offline with ServiceWorker</a>
+(Nicolas Bevacqua - Nov 10, 2015)</p>
+<p><a href="https://medium.com/@adactio/my-first-service-worker-5e5af0b1bdbb#.tsjcjzk2n" rel="nofollow">My first Service Worker</a>
+(Jeremy Keith - Nov 7, 2015)</p>
+<p><a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom" rel="nofollow">Building an offline page for theguardian.com</a>
+(Oliver Joseph Ash - Nov 4, 2015)</p>
+<p><a href="https://auth0.com/blog/2015/10/30/creating-offline-first-web-apps-with-service-workers/" rel="nofollow">Creating Offline-First Web Apps with Service Workers</a>
+(Ryan Chenkie - Oct 30, 2015)</p>
+<p><a href="https://medium.com/@roman01la/cache-sandboxed-http-requests-with-service-worker-6bb3801237d1#.3jjklzohz" rel="nofollow">Cache sandboxed HTTP requests with Service Worker</a>
+(Roman Liutikov - Oct 26, 2015)</p>
+<p><a href="https://medium.com/@d.gieselaar/the-offline-experience-or-saying-goodbye-to-imperative-data-fetching-9b2fa487eea7" rel="nofollow">The offline experience (or, saying goodbye to imperative data fetching)</a>
+(Dario Gieselaar - Oct 25, 2015)</p>
+<p><a href="https://ponyfoo.com/articles/serviceworker-revolution" rel="nofollow">ServiceWorker: Revolution of the Web Platform</a>
+(Nicolas Bevacqua - Oct 21, 2015)</p>
+<p><a href="https://mobiforge.com/design-development/taking-web-offline-service-workers" rel="nofollow">Taking the web offline with service workers</a>
+(Ruadhan O'Donoghue - Oct 21, 2015)</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers" rel="nofollow">Using Service Workers</a>
+(MDN - Oct 18, 2015)</p>
+<p><a href="https://davidwalsh.name/dont-wait-serviceworker-adding-offline-support-oneline" rel="nofollow">Don’t Wait for ServiceWorker: Adding Offline Support with One-Line</a>
+(Kenneth Ormandy - Oct 14, 2015)</p>
+<p><a href="https://developers.google.com/web/showcase/2015/service-workers-iowa" rel="nofollow">Service Workers in Production</a>
+(Jeff Posnick - Oct 01, 2015)</p>
+<p><a href="http://alistapart.com/column/how-do-we-get-it-done-now" rel="nofollow">How Do We Get It Done, Now?</a>
+(Lyza Danger Gardner - Sep 30, 2015)</p>
+<p><a href="https://unoyunodiez.wordpress.com/2015/08/23/modern-mobile-web-development-01/" rel="nofollow">The Role of Workers and Offline Cache</a>
+(Sep 7, 2015)</p>
+<p><a href="http://sakurity.com/blog/2015/07/28/appcache.html" rel="nofollow">Let's make Offline Web Applications secure!</a>
+(Egor Homakov - Jul 28, 2015)</p>
+<p><a href="https://blog.wanderview.com/blog/2015/07/28/service-worker-meeting-highlights/" rel="nofollow">Service Worker Meeting Highlights</a>
+(Ben Kelly - Jul 28, 2015)</p>
+<p><a href="http://www.cbronline.com/news/mobility/apps/qa-offline-first-not-just-mobile-first-says-couchbase-4609613" rel="nofollow">Q&amp;A: Offline first, not just mobile first says Couchbase</a>
+(James Nunns - Jun 26, 2015)</p>
+<p><a href="https://logbook.hanno.co/offline-first-matters-developers-know/" rel="nofollow">Why offline-first matters, and what developers should know about it</a>
+(Marcel Kalveram - Jun 2, 2015)</p>
+<p><a href="https://www.iandevlin.com/blog/2015/06/html5/getting-appcaches-fallback-to-work-crossbrowser" rel="nofollow">Getting Appcache’s Fallback to work, crossbrowser</a>
+(Ian Devlin - Jun 1, 2015)</p>
+<p><a href="https://www.infoq.com/articles/mobile-apps-offline-support" rel="nofollow">Mobile Apps Offline Support</a>
+(Gustavo Machado - May 29, 2015)</p>
+<p><a href="https://medium.com/@patcito/making-react-europe-org-work-offline-with-service-workers-f54fb0457048" rel="nofollow">Making react-europe.org work offline with Service Workers and free SSL from Cloudflare</a>
+(Patrick Aljord - May 14, 2015)</p>
+<p><a href="https://frontmag.no/artikler/utvikling/offline-data-synchronization-ionic" rel="nofollow">Offline Data Synchronization in Ionic</a>
+(Marco Fernandes - Apr 29, 2015)</p>
+<p><a href="http://www.levvel.io/blog-post/offline-data-in-the-browser/" rel="nofollow">Offline Data in the Browser</a>
+(Assaf Weinberg - Mar, 2015)</p>
+<p><a href="https://uxdesign.cc/offline-93c2f8396124" rel="nofollow">Offline: When Your Apps Can’t Connect to the Internet</a>
+(Daniel Sauble - Mar 29, 2015)</p>
+<p><a href="http://betanews.com/2015/03/04/offline-is-not-just-another-mobile-feature/" rel="nofollow">Offline is not just another mobile feature</a>
+(Chuck Ganapathi - Mar 4, 2015)</p>
+<p><a href="https://developers.google.com/web/updates/2015/02/offline-first-with-sw-precache" rel="nofollow">Offline-first, fast, with the sw-precache module</a>
+(Jeff Posnick - Feb 23, 2015)</p>
+<p><a href="http://www.formotus.com/17221/blog-mobility/offline-is-not-a-feature" rel="nofollow">Offline is Not a Feature</a>
+(Feb 16, 2015)</p>
+<p><a href="http://appdevelopermagazine.com/2356/2015/2/9/The-Right-and-Wrong-Strategies-When-Taking-Your-App-Offline/" rel="nofollow">The Right and Wrong Strategies When Taking Your App Offline</a>
+(Martin Heller - Feb 9, 2015)</p>
+<p><a href="https://byrslf.co/three-takeaways-for-web-developers-after-two-weeks-of-painfully-slow-internet-9e7f6d47726e" rel="nofollow">Three takeaways for web developers after two weeks of painfully slow internet</a>
+(Gabor Lenard - Jan 25, 2015)</p>
+<p><a href="http://www.ae.be/blog-en/offline-first-simple-unplug-play/" rel="nofollow">Offline first: as simple as unplug &amp; play?</a>
+(Thomas Anciaux - Jan 15, 2015)</p>
+<p><a href="http://blog.lamplightdev.com/2015/01/06/A-Simple-ServiceWorker-App/" rel="nofollow">A simple ServiceWorker app</a>
+(Chris Haynes - Jan 6, 2015)</p>
+<p><a href="https://plus.google.com/+IlyaGrigorik/posts/WPZsWr4QGqR" rel="nofollow">ServiceWorker is available in Chrome 40 beta</a>
+(Ilya Grigorik - Dec 11, 2014)</p>
+<p><a href="http://infrequently.org/2014/12/psa-service-workers-are-coming/" rel="nofollow">PSA: Service Workers are Coming</a>
+(Alex Russell - Dec 11, 2014)</p>
+<p><a href="https://jakearchibald.com/2014/offline-cookbook/" rel="nofollow">The offline cookbook</a>
+(Jake Archibald - Dec 9, 2014)</p>
+<p><a href="https://www.christianheilmann.com/2014/12/08/the-next-ux-challenge-on-the-web-gaining-offline-trust/" rel="nofollow">The next UX challenge on the web: gaining offline trust</a>
+(Christian Heilmann -  Dec 8, 2014)</p>
+<p><a href="https://github.com/GoogleChrome/samples/tree/gh-pages/service-worker">Service Worker Recipes</a>
+(Cesar William Alvarenga - Dec 8, 2014)</p>
+<p><a href="https://developers.google.com/web/fundamentals/getting-started/primers/service-workers" rel="nofollow">Introduction to Service Worker</a>
+(Matt Gaunt - Dec 1, 2014)</p>
+<p><a href="http://substack.net/offline_decentralized_single_sign_on_in_the_browser" rel="nofollow">offline decentralized single sign-on in the browser</a>
+(James 'substack' Halliday - Nov 27, 2014)</p>
+<p><a href="https://subvisual.co/blog/posts/45-offline-web-apps-with-meteor" rel="nofollow">Offline Web Apps with Meteor</a>
+(Gabriel Poça, Nov 26, 2014)</p>
+<p><a href="http://www.theodo.fr/blog/2014/11/how-to-build-web-applications-work-offline-pouchdb/" rel="nofollow">How to build web applications that can work offline with PouchDB?</a>
+(Yann Jacquot - Nov 25, 2014)</p>
+<p><a href="https://quickleft.com/blog/making-your-app-work-offline-tips-and-cautionary-tales/" rel="nofollow">Making Your App Work Offline: Tips and Cautionary Tales</a>
+(David Aragon  - Nov 11, 2014)</p>
+<p><a href="http://www.techrepublic.com/article/how-google-and-mozilla-are-aiming-to-make-web-apps-work-as-well-offline-as-on/" rel="nofollow">How Google and Mozilla are aiming to make web apps shine offline</a>
+(Nick Heath - Oct 30, 2014)</p>
+<p><a href="https://nolanlawson.com/2014/10/03/offline-first-is-people-first/" rel="nofollow">Offline-first is people-first</a>
+(Nolan Lawson - Oct 3, 2014)</p>
+<p><a href="https://www.toptal.com/front-end/introducing-hoodie-full-stack-app-development-for-front-end-developers" rel="nofollow">Introducing Hoodie: Full Stack App Development for Front-End Developers</a>
+(Alvaro Oliveira - Sep 24, 2014)</p>
+<p>Offline-first: a new paradigm in web development
+(Boye Oomens - Sep 16, 2014)</p>
+<p><a href="https://www.smashingmagazine.com/2014/09/building-simple-cross-browser-offline-todo-list-indexeddb-websql/" rel="nofollow">Building A Simple Cross-Browser Offline To-Do List With IndexedDB And WebSQL</a>
+(Matt Andrews - Sep 2, 2014)</p>
+<p><a href="http://blog.humphd.org/introducing-makedrive/" rel="nofollow">Introducing MakeDrive</a>
+(David Humphrey - Aug 25, 2014)</p>
+<p><a href="https://medium.com/@papasimons/worklight-authentication-done-right-with-angularjs-768aa933329c" rel="nofollow">Worklight Authentication done right with AngularJs</a>
+(Gideon Simons - Aug 22, 2014)</p>
+<p><a href="https://medium.com/@papasimons/taking-your-worklight-apps-offline-e8c2c2d8533a" rel="nofollow">Taking your Worklight apps offline</a>
+(Gideon Simons - Aug 19, 2014)</p>
+<p><a href="https://developer.mozilla.org/en-US/Apps/Fundamentals/Offline" rel="nofollow">Working offline</a>
+(Aug 12, 2014)</p>
+<p><a href="http://scn.sap.com/community/developer-center/front-end/blog/2014/08/05/offline-first--the-new-paradigm-in-web-development-done-neptune-style" rel="nofollow">Offline First - the new paradigm in web development done Neptune style</a> (Njål Stabell - Augt 5, 2014)</p>
+<p><a href="http://www.lukew.com/ff/entry.asp?1902" rel="nofollow">Breaking Development: Offline First is the new Mobile First</a>
+(Luke Wroblewski - Jul 29, 2014)</p>
+<p><a href="https://www.ibm.com/developerworks/community/blogs/worklight/entry/offline_patterns?lang=en" rel="nofollow">Offline Patterns</a>
+(Carlos Andreu - Jul 3, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=pklpK55uQmE&amp;feature=youtu.be" rel="nofollow">Offline Web Apps,Web Storage,IndexedDB,AppCache,File API Futures</a>
+(Ali Alabbas - May 21, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=BKD7ZLRi9HI" rel="nofollow">Service Workers: Offline Now(ish)!</a>
+(Alex Russell - May 21, 2014)</p>
+<p><a href="https://jakearchibald.com/2014/service-worker-first-draft/" rel="nofollow">Service Worker - first draft published</a>
+(Jake Archibald - May 8, 2014)</p>
+<p><a href="http://dailyjs.com/2014/04/10/bmean/" rel="nofollow">The BMEAN Stack and Offline-First Design</a>
+(Daishi Kato - Apr 11, 2014)</p>
+<p><a href="https://www.christianheilmann.com/2014/03/23/do-html5-apps-have-to-be-online-all-the-time/" rel="nofollow">Do HTML5 apps have to be online all the time?</a>
+(Christian Heilmann - Mar 23rd, 2014)</p>
+<p><a href="https://www.sitepoint.com/building-offline-first-app-pouchdb/" rel="nofollow">Building an Offline First App with PouchDB</a>
+(Tiffany Brown - Mar 10, 2014)</p>
+<p><a href="https://developer.amazon.com/public/community/post/Tx21KG2QC7O71S9/Introduction-to-Offline-Web-Apps-on-the-Kindle-Fire.html" rel="nofollow">Introduction to Offline Web Apps on the Kindle Fire</a>
+(Russell Beattie - Jan 30, 2014)</p>
+<p><a href="http://alistapart.com/article/offline-first" rel="nofollow">Designing Offline-First Web Apps</a>
+(Alex Feyerke - Dec 4, 2013)</p>
+<p><a href="https://medium.com/@dalmaer/offline-first-learning-from-native-experiences-4a778ce8a445" rel="nofollow">Offline First: Learning from native experiences</a>
+(Dion Almaer - Dec 4, 2013)</p>
+<p><a href="http://www.kryogenix.org/days/2013/11/06/offline-first/" rel="nofollow">Offline First</a>
+(Stuart Langridge - Nov 6, 2013)</p>
+<p><a href="http://marcelkalveram.com/2013/11/developing-for-offline-first/" rel="nofollow">Making the web work offline first</a>
+(Marcel Kalveram - Nov 20, 2013)</p>
+<p><a href="http://hood.ie/blog/say-hello-to-offline-first.html" rel="nofollow">Say Hello to Offline First</a>
+(Dan Lash - Nov 5, 2013)</p>
+<p><a href="https://www.sitepoint.com/offline-first-next-progressive-enhancement-technique/" rel="nofollow">Offline First: Your Next Progressive Enhancement Technique?</a>
+(Craig Buckler - Oct 30, 2013)</p>
+<p><a href="http://www.webdirections.org/blog/appcache-not-so-much-a-douchebag-as-a-complete-pain-in-the/" rel="nofollow">Appcache, not so much a douchebag as a complete pain in the #$%^</a>
+(John Allsopp - Jul 19, 2013)</p>
+<p><a href="https://techblog.dorogin.com/2013/03/using-html5-appcache-with-single-page-apps.html" rel="nofollow">Using HTML5 AppCache with Single Page Applications</a>
+(Sergei Dorogin - Mar 29, 2013)</p>
+<p><a href="http://alistapart.com/article/application-cache-is-a-douchebag" rel="nofollow">Application Cache is a Douchebag</a>
+(Jake Archibald - May 08, 2012)</p>
+<p><a href="http://mmariani.github.io/appcachefacts/" rel="nofollow">Appcache Facts</a></p>
+<p><a href="https://developer.chrome.com/apps/offline_apps" rel="nofollow">Chrome Offline Apps</a></p>
+<p><a href="http://aanandprasad.com/articles/offline/" rel="nofollow">Offline Support is Valuable, and You Can’t Add it Later</a>
+(Aanand Prasad - Aug 13, 2011)</p>
+<p><a href="https://unhosted.org/practice/29/Offline-first-web-app-design.html" rel="nofollow">Offline-first web app design</a>
+(Michiel B. de Jong - 2011)</p>
+<p><a href="https://www.sitepoint.com/killer-offline-web-applications/" rel="nofollow">5 Reasons Why There are no Killer Offline Web Applications</a>
+(Craig Buckler - Feb 16, 2010</p>
+<p><a href="https://hacks.mozilla.org/2010/01/offline-web-applications/" rel="nofollow">Offline Web Applications</a>
+(Paul Rouget - Jan 7, 2010)</p>
+<p><a href="http://diveintohtml5.info/offline.html" rel="nofollow">Let's take this offline</a>
+(Mark Pilgrim)</p>
+<h2><a href="#presentations" aria-hidden="true" class="anchor" id="user-content-presentations"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Presentations</h2>
+<h3><a href="#videos" aria-hidden="true" class="anchor" id="user-content-videos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Videos</h3>
+<p><a href="https://www.youtube.com/watch?v=_kJMjJ1tm6o" rel="nofollow">Offline-first for Your Static Site</a>
+(Jeff Posnick - Jan 30, 2017)</p>
+<p><a href="http://www.thedotpost.com/2016/12/nolan-lawson-service-worker-and-the-appification-of-the-web" rel="nofollow">Service Worker and the Appification of the Web</a>
+(Nolan Lawson - Dec 05, 2016)</p>
+<p><a href="https://www.youtube.com/watch?v=J2dOTKBoTL4" rel="nofollow">Future App Model: Advanced Service Worker</a>
+(Jake Archibald- Nov 11, 2016)</p>
+<p><a href="https://vimeo.com/171317290" rel="nofollow">Offline is the new black</a>
+(Max Stoiber - Jun 19, 2016)</p>
+<p><a href="https://www.youtube.com/watch?v=fGTUIlEM0m8&amp;feature=youtu.be&amp;t=2200" rel="nofollow">Service workers at scale with Facebook and Flipkart</a>
+(Owen Campbell-Moore, Aditya Punjani and Nate Schloss - May 20, 2016)</p>
+<p><a href="https://www.youtube.com/watch?v=cmGr0RszHc8" rel="nofollow">Instant Loading: Building offline-first Progressive Web Apps</a>
+(Jake Archibald - May 20, 2016)</p>
+<p><a href="https://www.youtube.com/watch?v=NEferkZOGV4&amp;feature=youtu.be" rel="nofollow">Offline First – the good parts</a>
+(Gregor Martynus - May 12, 2016)</p>
+<p><a href="https://www.udacity.com/course/offline-web-applications--ud899" rel="nofollow">Offline Web Applications: Using IndexedDB &amp; Service Worker</a></p>
+<p><a href="https://www.youtube.com/watch?v=OBfLvqA_E4A" rel="nofollow">Totally Tooling Tips: Offline Support</a>
+(Addy Osmani &amp; Matt Gaunt - Apr 27, 2016)</p>
+<p><a href="http://confreaks.tv/videos/emberconf2016-using-service-workers-in-ember" rel="nofollow">Using Service Workers in Ember</a>
+(John Kleinschmidt - Mar 29, 2016)</p>
+<p><a href="https://www.youtube.com/watch?v=7L7esHWAjSU" rel="nofollow">Offline-First Apps with PouchDB</a>
+(Bradley Holt - Dec 11, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=5LAMbIlwilc" rel="nofollow">Worker as a Service</a>
+(Ola Gasidlo - Nov 19, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=EZF1EfjQlbo" rel="nofollow">Taking Your Web Apps Offline</a>
+(Mike Nitchie - Nov 16, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=etACK2qbHfc" rel="nofollow">There is a client-side proxy (ServiceWorker) in your browser!</a>
+(Ilya Grigorik - Nov 16, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=rw8Q9ZLDkEs" rel="nofollow">OnConnectionLost: The life of an offline web application</a>
+(Stefanie Grewenig - Oct 12, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=TGwjgmAqNRo" rel="nofollow">Offline First and Service Workers</a>
+(Maximilian Stoiber - Oct 5, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=tilH8jgLrXQ" rel="nofollow">Offline First Podcast</a>
+(The Web Platform Podcast - Sep 8, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=RQQNNP8tFro" rel="nofollow">The Once &amp; Future Web</a>
+(Jake Archibald - Jul 28, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=BucGrYACJdQ" rel="nofollow">Go Offline</a>
+(Rob Dodson - Jun 29, 2015)</p>
+<p><a href="https://www.youtube.com/watch?t=20&amp;v=VhZS4n2DMyU" rel="nofollow">Taking Ember Offline</a>
+(John Kleinschmidt - Jun 16, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=Yp1h3cd8dsg" rel="nofollow">Holy sync</a>
+(Eugenio Marletti - May 5, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=nqecpa6MtZ0" rel="nofollow">Making Offline Suck Less with Service Workers</a>
+(Bret Little - Mar 28, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=ZsMS_sviJs0" rel="nofollow">Say Hello to Offline First</a>
+(Ola Gasidlo - Mar 26, 2015)</p>
+<p><a href="https://vimeo.com/125479288" rel="nofollow">The UX Of Offline-First</a>
+(Jake Archibald - Mar 18, 2015)</p>
+<p><a href="https://vimeo.com/120474703" rel="nofollow">The Web's Future is Offline</a>
+(John Allsopp - Feb 24, 2015)</p>
+<p><a href="https://www.youtube.com/watch?v=Zb01eNS6-no" rel="nofollow">Building Offline First Applications with Backbone</a>
+(Gregor Martynus - Dec 17, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=fj49cSQ986k" rel="nofollow">Working connected to create offline</a>
+(Christian Heilmann - Nov 24, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=Rr2vXDIVerI" rel="nofollow">The ServiceWorker is coming, look busy!</a>
+(Jake Archibald - Sep 21, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=QPRqQH_30hU&amp;t=22m53s" rel="nofollow">The Next Challenge of the Web is Us</a>
+(Christian Heilmann - Aug 1, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=dPz_5-MEvcg" rel="nofollow">Offline First</a>
+(Alex Feyerke - Jul 17, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=4uQMl7mFB6g" rel="nofollow">The ServiceWorker: The network layer is yours to own</a>
+(Jake Archibald - Jun 25, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=AbixY3W8ayo" rel="nofollow">Offline Web Applications</a>
+(Jan Jongboom - May 23, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=nnLBdFLo2fc" rel="nofollow">The Offline Web</a>
+(Dale Harvey - Jun 20, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=qfC90DQEoeY" rel="nofollow">Bring NoSQL to your mobile</a>
+(Patrick Heneise - Dec 16, 2013)</p>
+<p><a href="https://www.youtube.com/watch?v=Z7sRMg0f5Hk" rel="nofollow">Network connectivity: optional</a>
+(Jake Archibald - Dec 4, 2013)</p>
+<p><a href="https://www.youtube.com/watch?v=Qg75x08Mtcs" rel="nofollow">Surviving the Offline Apocalypse</a>
+(John Kleinschmidt - Nov 29, 2014)</p>
+<p><a href="https://www.youtube.com/watch?v=7mdG-iAizVc" rel="nofollow">Offline First</a>
+(Jan Lehnardt - May 27, 2013)</p>
+<p><a href="https://vimeo.com/64201695" rel="nofollow">Offline rules: Bleeding edge web standards at the Financial Times</a>
+(Andrew Betts - Apr , 2013)</p>
+<p><a href="https://www.youtube.com/watch?v=Oic22dQMRXQ" rel="nofollow">What's the right way to build offline into a web application?</a>
+(Jake Archibald, Mark Christian, Alex Russell and Jonas Sicking - Feb 9, 2013)</p>
+<p><a href="https://www.youtube.com/watch?v=cR-TP6jOSQM" rel="nofollow">AppCache: Douchebag</a>
+(Jake Archibald - Jan 20, 2013)</p>
+<p><a href="https://www.youtube.com/watch?v=ceODU6z4-yc" rel="nofollow">Application Cache And Local Storage</a>
+(Scott Davis - Dec 7 , 2012)</p>
+<p><a href="https://www.youtube.com/watch?v=RrGo1Sz4IgQ" rel="nofollow">Offline Rules</a>
+(Andrew Betts - Dec 4, 2012)</p>
+<p><a href="https://www.youtube.com/watch?v=O3AukCYymEU" rel="nofollow">Building Web Apps of the future. Tomorrow, today and yesterday.</a>
+(Paul Kinlan - Nov 12, 2012)</p>
+<p><a href="https://www.youtube.com/watch?v=ejcJmeewtd4" rel="nofollow">Taking Web Apps Offline</a>
+(Kevin Markman - Nov 5, 2012)</p>
+<p><a href="https://www.youtube.com/watch?v=W41mvarupH0" rel="nofollow">Building Offline Web Apps with HTML5</a>
+(Jonathan Stark - Jul 25, 2012)</p>
+<p><a href="https://www.youtube.com/watch?v=dN8e-QdYyCk" rel="nofollow">Getting off(line): appcache, localStorage for HTML5 apps that work offline</a>
+(John Allsopp - Jul 3, 2012)</p>
+<h3><a href="#slides" aria-hidden="true" class="anchor" id="user-content-slides"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Slides</h3>
+<p><a href="https://nolanlawson.github.io/fronteers-2016/#/" rel="nofollow">Offline, progressive, and multithreaded</a>
+(Nolan Lawson - Oct 10, 2016)</p>
+<p><a href="http://blog.nparashuram.com/2016/09/rise-of-web-workers-nationjs.html" rel="nofollow">Rise of the Web Workers</a>
+(Parashuram N - Sep 16, 2016)</p>
+<p><a href="https://speakerdeck.com/oliverjash/building-an-offline-page-for-theguardian-dot-com-jsconf-budapest-may-2016" rel="nofollow">Building an Offline Page for theguardian.com</a>
+(Oliver Joseph Ash - May 14, 2016)</p>
+<p><a href="https://docs.google.com/presentation/d/1crh5m2aDdZPAL07Zo1FtuAliwwghW6FMOEtXviA_BZo/edit#slide=id.p" rel="nofollow">Go offline with Service Workers</a>
+(Emanuel Kluge - 2016)</p>
+<p><a href="https://speakerdeck.com/oliverjash/building-an-offline-page-for-theguardian-dot-com-london-web-perf-march-2016" rel="nofollow">Building an Offline Page for theguardian.com</a>
+(Oliver Joseph Ash - Mar, 2016)</p>
+<p><a href="https://speakerdeck.com/mstuart/service-workers-and-early-flushing" rel="nofollow">Insanely fast rendering w/ Service Workers and Early Flushing</a>
+(Mark Stuart - Dec 14, 2015)</p>
+<p><a href="https://speakerdeck.com/bradleyholt/offline-first-apps-with-pouchdb-at-node-dot-js-interactive" rel="nofollow">Offline-First Apps with PouchDB at Node.js Interactive</a>
+(Bradley Holt - Dec 9, 2015)</p>
+<p><a href="http://www.slideshare.net/NicRaboy/developing-for-offline-first-mobile-experiences" rel="nofollow">Developing for Offline First Mobile Experiences</a>
+(Nic Raboy - Dec 2, 2015)</p>
+<p><a href="http://delapuente.github.io/presentations/at-your-service/index.html" rel="nofollow">At your service! - More than appcache uses for Service Workers</a>
+(Salvador de la Puente González - Oct 21, 2015)</p>
+<p><a href="https://speakerdeck.com/espylaub/offline-first-web-apps-beuth-hochschule-berlin" rel="nofollow">Offline First (Web) Apps</a>
+(Alex Feyerke - Oct 20, 2015)</p>
+<p><a href="https://docs.google.com/presentation/d/1gDGIyGtXMSmtT8WsyXj7ADyUjNV679T1BF5QGEKqooc/mobilepresent" rel="nofollow">Offline-First Web Applications</a>
+(Peter Müller - 2015)</p>
+<p><a href="http://slides.com/flaki/server-in-the-client#/" rel="nofollow">Server in your Client - Service Workers' rise to fame</a>
+(Szmozsánszky István - Oct 7, 2015)</p>
+<p><a href="https://docs.google.com/presentation/d/1gDGIyGtXMSmtT8WsyXj7ADyUjNV679T1BF5QGEKqooc/mobilepresent?slide=id.gb7f243163_0_53" rel="nofollow">Offline-First Web Applications</a>
+(Peter Müller - Jun 27, 2015)</p>
+<p><a href="http://www.slideshare.net/IBMBluemix/offlinefirst-mobile-web-apps-with-pouchdb-ibm-cloudant-and-ibm-bluemix" rel="nofollow">Offline-first mobile web apps with PouchDB, IBM Cloudant, and IBM Bluemix</a>
+(Bradley Holt - Jun 22, 2015)</p>
+<p><a href="https://speakerdeck.com/bradleyholt/building-offline-enabled-apps-with-pouchdb-at-php-tek-2015" rel="nofollow">Building Offline-Enabled Apps with PouchDB</a>
+(Bradley Holt - May 20, 2015)</p>
+<p><a href="http://www.slideshare.net/ColdFusionConference/naked-and-afraid-48288396" rel="nofollow">Naked and afraid Offline Mobile</a>
+(Matt Woodward - May 18, 2015)</p>
+<p><a href="http://de.slideshare.net/MarcelKalveram/offline-first-the-painless-way" rel="nofollow">Offline first, the painless way</a>
+(Marcel Kalveram - May 17, 2015)</p>
+<p><a href="https://speakerdeck.com/joselitojunior1/nobackend-e-offline-first-foque-em-criar-experiencias-number-frontinfortaleza" rel="nofollow">noBackend e Offline First: focusing on creating experiences (pt-br)</a>
+(Joselito Júnior - May 16, 2015)</p>
+<p><a href="https://speakerdeck.com/takhion/holy-sync-a-sane-approach-to-offline-first-cross-platform-data-syncing" rel="nofollow">HOLY SYNC: a sane approach to offline-first cross-platform data syncing</a>
+(Eugenio Marletti - Apr 10, 2015)</p>
+<p><a href="https://slidr.io/lewiscowper/service-worker-and-the-offline-web-lightning-talk" rel="nofollow">Service Worker and the Offline Web</a>
+(Lewis Cowper - Mar 7, 2015)</p>
+<p><a href="https://docs.google.com/presentation/d/1LUuMYDi1ssmslQKnnX3cwrdLVy2YCqyww3PBtqEP0q8/edit" rel="nofollow">Service Workers on vacay...</a>
+(Natasha Rooney - Mar 6, 2015)</p>
+<p><a href="http://codekult.github.io/tgif-offline-first/" rel="nofollow">TGIF - Offline-first</a>
+(Diego Calderón - Jan 30, 2015)</p>
+<p><a href="https://huffduffer.com/AlanDalton/202718" rel="nofollow">ServiceWorkers and High Performance Offline Apps</a>
+(AlanDalton - Jan 13, 2015)</p>
+<p><a href="http://de.slideshare.net/MarcelKalveram/codemotion-talk-41932602" rel="nofollow">Leveraging hood.ie to build for the offline state</a>
+(Marcel Kalveram - Nov 24, 2014)</p>
+<p><a href="http://www.slideshare.net/dickolsson/lets-take-drupal-offline-41650712" rel="nofollow">Let's Take Drupal Offline!</a>
+(Dick Olsson - Nov 17, 2014)</p>
+<p><a href="http://www.slideshare.net/andrewsmatt/velocity-eu-2014" rel="nofollow">Offline-first web apps - Velocity EU 2014</a>
+(Matt Andrews - Nov 17, 2014)</p>
+<p><a href="http://www.slideshare.net/sandropaganotti/discover-serviceworker" rel="nofollow">Discover ServiceWorker</a>
+(Sandro Paganotti - Nov 16, 2014)</p>
+<p><a href="https://speakerdeck.com/zoepage/ayb14-offline-first-1" rel="nofollow">Offline first &lt;3</a>
+(Ola Gasidlo - Oct 17, 2014)</p>
+<p><a href="https://speakerdeck.com/wohali/scaling-down-the-offline-first-story" rel="nofollow">Scaling Down: The Offline First Story</a>
+(Joan Touzet - Sep 16, 2014)</p>
+<p><a href="https://www.infoq.com/presentations/status-web-offline" rel="nofollow">Status Web Offline</a>
+(Caolan McMahon -  Aug 21, 2014)</p>
+<p><a href="https://www.infoq.com/presentations/html5-offline-storage" rel="nofollow">Look Ma, No Connections! Building Offline-capable Web Apps with HTML5</a>
+(Bijan Vaez -  Aug 1, 2014)</p>
+<p><a href="https://speakerdeck.com/zoepage/say-hello-to-offline-first" rel="nofollow">Say hello to offline first!</a>
+(Ola Gasidlo - May 19, 2014)</p>
+<p><a href="https://speakerdeck.com/espylaub/offline-first-web-apps" rel="nofollow">Offline First (Web) Apps</a>
+(Alex Feyerke - May 2, 2014)</p>
+<p><a href="https://speakerdeck.com/gr2m/offline-first-made-simple" rel="nofollow">Offline First – Made Simple!</a>
+(Gregor Martynus - Apr 24, 2014)</p>
+<p><a href="https://qconlondon.com/london-2014/dl/qcon-london-2014/slides/CaolanMcMahon_OfflineFirstReImaginingWebDevelopmentForTheRealWorld.pdf" rel="nofollow">Offline First Re-Imagining Web Development For The Real World</a>
+(Caolan McMahon - Mar, 2014)</p>
+<h2><a href="#tools" aria-hidden="true" class="anchor" id="user-content-tools"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h2>
+<p><a href="https://github.com/NekR/offline-plugin/">offline-plugin</a>: Offline plugin (ServiceWorker, AppCache) for webpack.</p>
+<p><a href="https://github.com/pinterest/service-workers">Pinterest Service Workers</a>:A collection of utilities for creating/testing/experimenting with service workers.</p>
+<p><a href="http://www.kinto-storage.org/" rel="nofollow">Kinto</a>: Add synchronisation and sharing abilities to your Web application in seconds.</p>
+<p><a href="https://github.com/bahmutov/bottle-service">bottle-service</a>: Instant web applications restored from ServiceWorker cache.</p>
+<p><a href="https://github.com/mxstbr/react-boilerplate">react-boilerplate</a>: Quick setup for performance orientated, offline-first React.js applications.</p>
+<p><a href="https://github.com/omnia-salud/haywire">Haywire</a>: A minimal javascript library for network issues detection.</p>
+<p><a href="https://github.com/GoogleChrome/sw-toolbox">sw-toolbox</a>: A collection of tools for service workers.</p>
+<p><a href="https://www.talater.com/upup/" rel="nofollow">UpUp</a>: An Offline First library designed to be the easiest way to add offline capabilities to a site.</p>
+<p><a href="https://github.com/jakearchibald/simple-serviceworker-tutorial">simple-serviceworker-tutorial</a>: A really simple ServiceWorker example, designed to be an interactive introduction to ServiceWorker.</p>
+<p><a href="https://github.com/substack/hyperboot">Hyperboot</a>: Offline webapp bootloader.</p>
+<p><a href="https://github.com/mozilla/makedrive">MakeDrive</a>: A cloud-based Dropbox® equivalent for browser filesystems. Designed for use with Mozilla Webmaker tools and services.
+See the <a href="https://wiki.mozilla.org/Webmaker/MakeDrive" rel="nofollow">Mozilla MakeDrive Wiki page</a> for background info.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache" rel="nofollow">ApplicationCache</a>: HTML5 provides an application caching mechanism that lets web-based applications run offline.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API" rel="nofollow">IndexedDB</a>: IndexedDB is an API for client-side storage of significant amounts of structured data and for high performance searches on this data using indexes.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" rel="nofollow">ServiceWorkers</a>: A Service Worker acts like a proxy on the client. For page requests and requests made by pages, you get a fetch event that you can respond to yourself, creating offline experiences.</p>
+<p><a href="https://github.com/localForage/localForage">localForage</a>: Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.</p>
+<p><a href="https://remotestorage.io/" rel="nofollow">remoteStorage</a>: remoteStorage enabled apps automatically sync your data across all of your devices, from desktop to tablet to smartphone, and even your TV.</p>
+<p><a href="https://pouchdb.com/" rel="nofollow">pouchdb</a>: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.</p>
+<p><a href="http://github.hubspot.com/offline/docs/welcome/" rel="nofollow">Offline.js</a>: An awesome JavaScript library to improve the experience of your app when your users lose connection.</p>
+<p><a href="http://hood.ie/" rel="nofollow">Hoodie</a>: Hoodie is an Offline First and noBackend architecture for frontend-only web apps on the web and on iOS.</p>
+<p><a href="http://offlinestat.es/" rel="nofollow">Offline States</a>: What show applications when we have not internet connection.</p>
+<p><a href="https://github.com/gr2m/appcache-nanny">appCache Nanny</a>:  JavaScript APIs for appCache</p>
+<p><a href="https://github.com/vitalets/bro-fs">bro-fs</a>: Promise-based wrapper over <a href="https://www.w3.org/TR/file-system-api/" rel="nofollow">HTML5 Filesystem API</a> allowing to work with sandboxed filesystem in Chrome.</p>
+<p><a href="http://orbitjs.com/" rel="nofollow">Orbit.js</a>: Framework for orchestrating access, transformation, and synchronization between data sources.</p>
+<p><a href="https://github.com/GoogleChrome/workbox">workbox</a>: JavaScript libraries for Offline Caching</p>
+<h2><a href="#books" aria-hidden="true" class="anchor" id="user-content-books"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<p><a href="https://neighbourhood.ie/offline-first/book/" rel="nofollow">The Offline First Book</a>
+(by Neighbourhoodie)</p>
+<p><a href="https://www.packtpub.com/web-development/offline-first-web-development" rel="nofollow">Offline First Web Development</a>
+(by Daniel Sauble)</p>
+<p><a href="http://shop.oreilly.com/product/0636920052067.do" rel="nofollow">Building Progressive Web Apps</a>
+(by Tal Ater)</p>
+<p><a href="http://shop.oreilly.com/product/0636920043676.do" rel="nofollow">Client-Side Data Storage</a>
+(by Raymond Camden)</p>
+<p><a href="http://www.webdirections.org/offlineworkshop/ibooksDraft.pdf" rel="nofollow">Offline First: The book (draft)</a>
+(by John Allsopp)</p>
+<p><a href="http://apress.jensimmons.com/v5/pro-html5-programming/ch12.html" rel="nofollow">Pro HTML5 Programming - Chapter 12: Creating HTML5 Offline Web Applications</a>
+(by Peter Lubbers, Brian Albers and Frank Salim)</p>
+<h2><a href="#showcase" aria-hidden="true" class="anchor" id="user-content-showcase"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Showcase</h2>
+<p><a href="https://minutes.io" rel="nofollow">Minutes.io</a>: Awesome offline first minute taking app built with <a href="http://hood.ie/" rel="nofollow">Hoodie</a>.</p>
+<p><a href="https://gabrielecirulli.github.io/2048/" rel="nofollow">2048</a>: The original 2048 is a great game to pin to your homescreen.</p>
+<p><a href="http://hospitalrun.io/" rel="nofollow">hospitalrun.io</a>: Open source software for developing world hospitals.</p>
+<p><a href="https://www.pokedex.org/" rel="nofollow">pokedex.org</a>: An index of Pokémon, built as a client-side JavaScript webapp. Powered by ServiceWorker, PouchDB, virtual-dom, and web workers.</p>
+<p><a href="https://www.soundslice.com/" rel="nofollow">Soundslice</a>: Learn and teach music better with interactive notation with <a href="https://www.soundslice.com/blog/29/introducing-soundslice-offline-mode/" rel="nofollow">offline mode</a>.</p>
+<h2><a href="#who-to-follow" aria-hidden="true" class="anchor" id="user-content-who-to-follow"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Who to Follow</h2>
+<ul>
+<li><a href="https://github.com/tofumatt">Matthew Riley</a>: Works at mozilla, creator of localForage (localstroage, IndexedDb and WebSQL Wrapper)</li>
+<li><a href="https://github.com/jakearchibald">Jake Archibald</a>: Self described service worker fanatic, works at google helping make offline web apps a thing.</li>
+</ul>
+<h2><a href="#contributing" aria-hidden="true" class="anchor" id="user-content-contributing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Sharing, suggestions and contributions are always welcome! If you want to contribute, you are highly encouraged to do so. Please read the <a href="/pazguille/offline-first/blob/master/CONTRIBUTING.md">contribution guidelines</a>.</p>
+<p>Thanks to all <a href="https://github.com/pazguille/offline-first/graphs/contributors">contributors</a>.</p>
+<h2><a href="#maintained-by" aria-hidden="true" class="anchor" id="user-content-maintained-by"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maintained by</h2>
+<ul>
+<li>Guille Paz (Front-end developer | Web standards lover)</li>
+<li>E-mail: <a href="mailto:guille87paz@gmail.com">guille87paz@gmail.com</a></li>
+<li>Twitter: <a href="https://twitter.com/pazguille" rel="nofollow">@pazguille</a></li>
+<li>Web: <a href="https://pazguille.me/" rel="nofollow">https://pazguille.me/</a></li>
+</ul>
+<h2><a href="#license" aria-hidden="true" class="anchor" id="user-content-license"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/4df6de8c11e31c357bf955b12ab8c55f55c48823/68747470733a2f2f6c6963656e7365627574746f6e732e6e65742f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.20547s from unicorn-3751571531-16fz9">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

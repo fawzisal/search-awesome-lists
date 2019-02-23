@@ -1,0 +1,2347 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - papers-we-love/papers-we-love: Papers from the computer science community to read and discuss.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/6187757?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="papers-we-love/papers-we-love" /><meta property="og:url" content="https://github.com/papers-we-love/papers-we-love" /><meta property="og:description" content="papers-we-love - Papers from the computer science community to read and discuss." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E2E7:5D4F:31330A4:58BB592:5AD2F792" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E2E7:5D4F:31330A4:58BB592:5AD2F792" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="Yzc5ZWM4NmJhMDJlZmQ2YjI5MWRiNThiMDc2NzIzMmNhZTFmMTY1YWM2ZDBiZjQ0ODZhYzUxNzg0NzU5Y2E1Mnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTJFNzo1RDRGOjMxMzMwQTQ6NThCQjU5Mjo1QUQyRjc5MiIsInRpbWVzdGFtcCI6MTUyMzc3NTM3OCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="41dc3ed6d1a8640b53d79c6a82585ea72cc5aa4e">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/papers-we-love/papers-we-love/commits/master.atom" rel="alternate" title="Recent Commits to papers-we-love:master" type="application/atom+xml">
+
+  <meta name="description" content="papers-we-love - Papers from the computer science community to read and discuss.">
+  <meta name="go-import" content="github.com/papers-we-love/papers-we-love git https://github.com/papers-we-love/papers-we-love.git">
+
+  <meta name="octolytics-dimension-user_id" content="6187757" /><meta name="octolytics-dimension-user_login" content="papers-we-love" /><meta name="octolytics-dimension-repository_id" content="15204860" /><meta name="octolytics-dimension-repository_nwo" content="papers-we-love/papers-we-love" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="15204860" /><meta name="octolytics-dimension-repository_network_root_nwo" content="papers-we-love/papers-we-love" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/papers-we-love/papers-we-love" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/papers-we-love/papers-we-love/search" data-unscoped-search-url="/search" action="/papers-we-love/papers-we-love/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/papers-we-love/papers-we-love">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fpapers-we-love%2Fpapers-we-love" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fpapers-we-love%2Fpapers-we-love"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/papers-we-love/papers-we-love/watchers"
+     aria-label="2449 users are watching this repository">
+    2,449
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpapers-we-love%2Fpapers-we-love"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/papers-we-love/papers-we-love/stargazers"
+      aria-label="29544 users starred this repository">
+      29,544
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fpapers-we-love%2Fpapers-we-love"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/papers-we-love/papers-we-love/network" class="social-count"
+       aria-label="2791 users forked this repository">
+      2,791
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/papers-we-love">papers-we-love</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/papers-we-love/papers-we-love">papers-we-love</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /papers-we-love/papers-we-love" href="/papers-we-love/papers-we-love">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /papers-we-love/papers-we-love/issues" href="/papers-we-love/papers-we-love/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">9</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /papers-we-love/papers-we-love/pulls" href="/papers-we-love/papers-we-love/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /papers-we-love/papers-we-love/wiki" href="/papers-we-love/papers-we-love/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /papers-we-love/papers-we-love/pulse" href="/papers-we-love/papers-we-love/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T0tpizDt2wdvFEK/hLUQVcv6LoQUTlNajsC3iBSqgZghtfcda1Q98S5BjhaMt4vkniZHZhDtoAWadrneAIRZvQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            Papers from the computer science community to read and discuss.
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://paperswelove.org/">http://paperswelove.org/</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/papers-we-love/papers-we-love/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/computer-science" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:computer-science">
+        computer-science
+      </a>
+      <a href="/topics/read-papers" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:read-papers">
+        read-papers
+      </a>
+      <a href="/topics/meetup" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:meetup">
+        meetup
+      </a>
+      <a href="/topics/papers" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:papers">
+        papers
+      </a>
+      <a href="/topics/programming" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:programming">
+        programming
+      </a>
+      <a href="/topics/theory" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:theory">
+        theory
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/papers-we-love/papers-we-love/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                737
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/papers-we-love/papers-we-love/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/papers-we-love/papers-we-love/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/papers-we-love/papers-we-love/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      190
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/papers-we-love/papers-we-love.git" aria-label="Clone this repository at https://github.com/papers-we-love/papers-we-love.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/papers-we-love/papers-we-love.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/papers-we-love/papers-we-love/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/papers-we-love/papers-we-love/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/papers-we-love/papers-we-love/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/papers-we-love/papers-we-love/tree-commit/fbfa4ac8dbcf1523808903a11e4f3af0f7ee396c" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/papers-we-love/papers-we-love/tree/fbfa4ac8dbcf1523808903a11e4f3af0f7ee396c">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".github" id="01777e4a9846fea5f3fcc8fe40d44680-2c755d9e0c4bb825565da31b8f2c67d044f42732" href="/papers-we-love/papers-we-love/tree/master/.github">.github</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix broken link to ACM copyright link in CONTRIBUTING.md (#431)
+
+* fix broken link to acm copyright link
+
+* Add missing `/` to link
+
+Fix broken link to ACM's license 1" class="message" href="/papers-we-love/papers-we-love/commit/0fb9de52aee8b0324b26cbdea6e088fda6674a4e">Fix broken link to ACM copyright link in CONTRIBUTING.md (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/431" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="207105883" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/431">#431</a><a data-pjax="true" title="Fix broken link to ACM copyright link in CONTRIBUTING.md (#431)
+
+* fix broken link to acm copyright link
+
+* Add missing `/` to link
+
+Fix broken link to ACM's license 1" class="message" href="/papers-we-love/papers-we-love/commit/0fb9de52aee8b0324b26cbdea6e088fda6674a4e">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-13T16:18:39Z">Feb 13, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="affective-computing" id="c78e90e8cefa385dff65e62e735cd981-56b16f3d516749fe2266bd004730e69f70cfd14b" href="/papers-we-love/papers-we-love/tree/master/affective-computing">affective-computing</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added Picard first paper on affective computing (#507)" class="message" href="/papers-we-love/papers-we-love/commit/08e09979c0295c7a9298ea13004436b191419189">Added Picard first paper on affective computing (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/507" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="293139419" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/507">#507</a><a data-pjax="true" title="Added Picard first paper on affective computing (#507)" class="message" href="/papers-we-love/papers-we-love/commit/08e09979c0295c7a9298ea13004436b191419189">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-01T11:31:58Z">Feb 1, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="android" id="c31b32364ce19ca8fcd150a417ecce58-d7e58a988b2f665aed4d7b8fd6155f55d4400558" href="/papers-we-love/papers-we-love/tree/master/android">android</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="added space after a md formatted link
+
+bad: [my link](http://my.link.com): blahblah
+good: [my link](http://my.link.com) : blahblah
+
+bad: [my link](http://my.link.com)! blahblah
+good: [my link](http://my.link.com) ! blahblah
+
+without the space, url_checker_pwl.pl will get confused" class="message" href="/papers-we-love/papers-we-love/commit/84c68445f9e56160874e6e2f0c3dccc6322fa782">added space after a md formatted link</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-05-30T20:05:49Z">May 30, 2014</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="api_design" id="f6c029b3d059c8eac5452d4698476d1c-fadf47157c5bf02025a684d2dd07fdd9652bf6d0" href="/papers-we-love/papers-we-love/tree/master/api_design">api_design</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="artificial_intelligence" id="13346ec77c1d945c52ab464474b1f3a7-0a7b48d8516d6fc141c2a0595a1262fd970d4ac9" href="/papers-we-love/papers-we-love/tree/master/artificial_intelligence">artificial_intelligence</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md" class="message" href="/papers-we-love/papers-we-love/commit/0bf0d0791622eb3976f1c82ccf618252d6e2ef68">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-30T15:39:10Z">Oct 30, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="audio_comp_sci" id="6cb03eb383dee82466e72eefa412fefa-bc0adc4838acd0d782cdd914643f2ddd97c1f300" href="/papers-we-love/papers-we-love/tree/master/audio_comp_sci">audio_comp_sci</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Adding the Marsyas open source audio processing framework. (#492)" class="message" href="/papers-we-love/papers-we-love/commit/767a4751b0ca3511634658c0559e8b26eb40e89f">Adding the Marsyas open source audio processing framework. (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/492" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="268619824" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/492">#492</a><a data-pjax="true" title="Adding the Marsyas open source audio processing framework. (#492)" class="message" href="/papers-we-love/papers-we-love/commit/767a4751b0ca3511634658c0559e8b26eb40e89f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-26T12:16:48Z">Oct 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="biocomputing" id="ae3525869a1de8cf0fbad402ce23e279-e395aee443823632637954d61f6ada5550d3bd0a" href="/papers-we-love/papers-we-love/tree/master/biocomputing">biocomputing</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="List 'A DNA-Based Archival Storage System' (#427)" class="message" href="/papers-we-love/papers-we-love/commit/89f61d61a40dbcde503bf9b24283f3d69c14cd29">List 'A DNA-Based Archival Storage System' (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/427" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/427" data-id="190392734" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#427</a><a data-pjax="true" title="List 'A DNA-Based Archival Storage System' (#427)" class="message" href="/papers-we-love/papers-we-love/commit/89f61d61a40dbcde503bf9b24283f3d69c14cd29">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-19T22:05:48Z">Nov 19, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="caching" id="429f8e6e19e3887fdb9b70d9195bb3fd-dffc2e9ec74d7453e3534bc83803b2fb5d4fafeb" href="/papers-we-love/papers-we-love/tree/master/caching">caching</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="spartan distributed array framework / sqlcache (#465)
+
+* Adding paper for spartan distributed array framework.
+* Adding the sqlcache paper presented in papers we love Seattle on July
+2017." class="message" href="/papers-we-love/papers-we-love/commit/9be6ccf42f2c3246d94075f39e1abf59012d42fa">spartan distributed array framework / sqlcache (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/465" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/465" data-id="241541851" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#465</a><a data-pjax="true" title="spartan distributed array framework / sqlcache (#465)
+
+* Adding paper for spartan distributed array framework.
+* Adding the sqlcache paper presented in papers we love Seattle on July
+2017." class="message" href="/papers-we-love/papers-we-love/commit/9be6ccf42f2c3246d94075f39e1abf59012d42fa">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-09T18:05:23Z">Jul 9, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="clustering_algorithms" id="dfdcb5b08360e9bf10d3c1d4bc1c7b16-72649325c121d79b61585b6c78d4a583d39556bb" href="/papers-we-love/papers-we-love/tree/master/clustering_algorithms">clustering_algorithms</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md" class="message" href="/papers-we-love/papers-we-love/commit/c2e5f0159e33679503b666cf19793060eba230a3">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-11-14T16:11:46Z">Nov 14, 2014</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="combinatory_logic" id="9a699ca94bf7faf0d3745ee0e8d37ae7-b16c9d96080ea984e5059e3a4b9fcd4fa7caa2ee" href="/papers-we-love/papers-we-love/tree/master/combinatory_logic">combinatory_logic</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Combinatorial Analysis and Computers (1965) (#422)
+
+Changes:
+
+  - add: *Combinatorial Analysis and Computers* (1965) to
+         `combinatory_logic/README.md` list
+  - add: year to the other paper in the README
+  - fix: tweak format of papers README for readability
+
+Decisions:
+
+  - I put this in the `combinatory_logic` folder, but I think it would
+    also fit in the `comp_sci_fundamentals_and_history` folder (given
+    Knuth's historical importance to the field and the more
+    theoretical nature of the paper). This seemed more direct.
+
+---
+
+Paper Title:  Combinatorial Analysis and Computers
+Author(s):    Marshall Hall Jr. and Donald E. Knuth
+Paper Year:   1965
+
+Reasons for Including Paper:
+
+  Papers We Love DC/NoVA will be discussing this paper (and others) at our
+  November meetup.
+
+  This paper is included in Donald Knuth's book *Selected Papers
+  on Discrete Mathematics*. Knuth's writings have been extremely
+  important to the field of computer science, and I think that most of
+  his papers would fit in well here. This one introduces computational
+  complexity and the benefits/limits of computing, then it dives into
+  several combinatorial problems.
+
+  I find it interesting because 1) it's a neat view of the possibilities and
+  limitations of computation early on, and 2) the problems that he lays out
+  are interesting exercises even today." class="message" href="/papers-we-love/papers-we-love/commit/7d7ee69264f625753b9528ad0bae668dd02e7f0f">Add Combinatorial Analysis and Computers (1965) (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/422" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="186116856" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/422">#422</a><a data-pjax="true" title="Add Combinatorial Analysis and Computers (1965) (#422)
+
+Changes:
+
+  - add: *Combinatorial Analysis and Computers* (1965) to
+         `combinatory_logic/README.md` list
+  - add: year to the other paper in the README
+  - fix: tweak format of papers README for readability
+
+Decisions:
+
+  - I put this in the `combinatory_logic` folder, but I think it would
+    also fit in the `comp_sci_fundamentals_and_history` folder (given
+    Knuth's historical importance to the field and the more
+    theoretical nature of the paper). This seemed more direct.
+
+---
+
+Paper Title:  Combinatorial Analysis and Computers
+Author(s):    Marshall Hall Jr. and Donald E. Knuth
+Paper Year:   1965
+
+Reasons for Including Paper:
+
+  Papers We Love DC/NoVA will be discussing this paper (and others) at our
+  November meetup.
+
+  This paper is included in Donald Knuth's book *Selected Papers
+  on Discrete Mathematics*. Knuth's writings have been extremely
+  important to the field of computer science, and I think that most of
+  his papers would fit in well here. This one introduces computational
+  complexity and the benefits/limits of computing, then it dives into
+  several combinatorial problems.
+
+  I find it interesting because 1) it's a neat view of the possibilities and
+  limitations of computation early on, and 2) the problems that he lays out
+  are interesting exercises even today." class="message" href="/papers-we-love/papers-we-love/commit/7d7ee69264f625753b9528ad0bae668dd02e7f0f">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-30T12:38:53Z">Oct 30, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="comp_sci_fundamentals_and_history" id="b4badc569877cf9205ad3def9b91cbca-89d53fac3f445cedc192526178d06dafde8f06ad" href="/papers-we-love/papers-we-love/tree/master/comp_sci_fundamentals_and_history">comp_sci_fundamentals_and_history</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add link to article by Marvin Minsky (#482)" class="message" href="/papers-we-love/papers-we-love/commit/ee23b07786b5a8390469ad89316f869fcdabade1">Add link to article by Marvin Minsky (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/482" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="261865302" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/482">#482</a><a data-pjax="true" title="Add link to article by Marvin Minsky (#482)" class="message" href="/papers-we-love/papers-we-love/commit/ee23b07786b5a8390469ad89316f869fcdabade1">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-03T10:20:29Z">Oct 3, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="computational_creativity" id="cb8e88a95e66edf07a4c4abe897c2593-e2b80453f3ac691d27386b10444e2b51783dafae" href="/papers-we-love/papers-we-love/tree/master/computational_creativity">computational_creativity</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add for pwl-nyc april" class="message" href="/papers-we-love/papers-we-love/commit/5f70ff4e697cf591431cf9a76e4e65ec40d445ea">add for pwl-nyc april</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-03-18T18:19:07Z">Mar 18, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="computer_architecture" id="576ce819174d9c0fdac283f567228a83-798c447e80757d4f07bfb71098fe3b83c5a7ed77" href="/papers-we-love/papers-we-love/tree/master/computer_architecture">computer_architecture</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add papers referred to by @skamille" class="message" href="/papers-we-love/papers-we-love/commit/cbbf33c11aa081b9b0fe14fcca7263ed87c88437">add papers referred to by</a> <a href="https://github.com/skamille" class="user-mention">@skamille</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-07-18T04:03:12Z">Jul 18, 2014</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="computer_education" id="cda60d3878da002cd5dc8959616794f4-0ba435289a1a0defab4a201504d7ac3d6f061b9a" href="/papers-we-love/papers-we-love/tree/master/computer_education">computer_education</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="A Framework for Automated Generation of Questions Across Formal Domains" class="message" href="/papers-we-love/papers-we-love/commit/294ab5ca1a0c58ade598d24f49cd01438eaf4fe4">A Framework for Automated Generation of Questions Across Formal Domains</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-09T05:12:09Z">Oct 9, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="computer_graphics" id="a37003ed0821c1cb859c84376186df0b-97bf909f5acef332530867170a66e69f575edb9f" href="/papers-we-love/papers-we-love/tree/master/computer_graphics">computer_graphics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md" class="message" href="/papers-we-love/papers-we-love/commit/99d28985439222ec455b6d548724e99b952609bf">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-03T22:43:21Z">Sep 3, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="computer_vision" id="1d0f08d5383c7fe6ac507e87d1fd9f5e-9a19eedf787ea9bd9bea1ac5133b67b22ce9afb5" href="/papers-we-love/papers-we-love/tree/master/computer_vision">computer_vision</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="concurrency" id="1724529909565537523a32e123e88e3a-706381d2e8f901d3fa7f85f17ba773462ecbd251" href="/papers-we-love/papers-we-love/tree/master/concurrency">concurrency</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Corrects typos in filenames (#479)" class="message" href="/papers-we-love/papers-we-love/commit/22d73417bd85732737fbd5852a7ba5646a82ecbc">Corrects typos in filenames (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/479" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/479" data-id="255378575" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#479</a><a data-pjax="true" title="Corrects typos in filenames (#479)" class="message" href="/papers-we-love/papers-we-love/commit/22d73417bd85732737fbd5852a7ba5646a82ecbc">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-05T19:12:21Z">Sep 5, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="crash_only" id="e5003d4f853c7b5b2865fef5570a78e1-14387414918b7c13bc6979b1d44bdfb5a602f896" href="/papers-we-love/papers-we-love/tree/master/crash_only">crash_only</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add crash-only software dir + articles" class="message" href="/papers-we-love/papers-we-love/commit/adc87016011541f9d0324cf59c489e3af6d52937">Add crash-only software dir + articles</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-31T02:57:54Z">May 31, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="cryptography" id="e0d00b9f337d357c6faa2f8ceae4a60d-9c9dd3d3e5ef5673a7c7f9665cdac785eadc17ec" href="/papers-we-love/papers-we-love/tree/master/cryptography">cryptography</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add paper on key reinstallation attacks (#484)" class="message" href="/papers-we-love/papers-we-love/commit/917658ab094453381fa2cf2805a5a84ec51bbba6">Add paper on key reinstallation attacks (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/484" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="266464752" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/484">#484</a><a data-pjax="true" title="Add paper on key reinstallation attacks (#484)" class="message" href="/papers-we-love/papers-we-love/commit/917658ab094453381fa2cf2805a5a84ec51bbba6">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-18T11:57:10Z">Oct 18, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="data_compression" id="5b4fb91b7b96565d8f010a38f4c10f62-0cdf9953d03ea42a914c21a9b2edd5d2f54b44bb" href="/papers-we-love/papers-we-love/tree/master/data_compression">data_compression</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="data_fusion" id="8a19efacfd26efd9d5913d0b7710839f-bc7e47c3cc538764a7d18459922a0eee2e672184" href="/papers-we-love/papers-we-love/tree/master/data_fusion">data_fusion</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="kalman filter and category (#410)" class="message" href="/papers-we-love/papers-we-love/commit/2c1a0ca98f3fd808f6d0fd82cccec075d9508ae2">kalman filter and category (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/410" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="172980712" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/410">#410</a><a data-pjax="true" title="kalman filter and category (#410)" class="message" href="/papers-we-love/papers-we-love/commit/2c1a0ca98f3fd808f6d0fd82cccec075d9508ae2">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-24T15:18:00Z">Aug 24, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="data_replication" id="343c19dbe3ed59e369a8909eeb527282-ae42d4247dbc564a8a835f4c8a3af18249f5b787" href="/papers-we-love/papers-we-love/tree/master/data_replication">data_replication</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title='Add papers presented on SF chapter on Feb 23rd 2017 (#432)
+
+- NOTE: The paper "A Unified Theory of Garbage Collection" was already
+  present in the garbage collection section, so I just added a brief
+  summary.' class="message" href="/papers-we-love/papers-we-love/commit/3f23d13b7a09c2b08f278adfddc03cd4bb5f2bd7">Add papers presented on SF chapter on Feb 23rd 2017 (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/432" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="210250503" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/432">#432</a><a data-pjax="true" title='Add papers presented on SF chapter on Feb 23rd 2017 (#432)
+
+- NOTE: The paper "A Unified Theory of Garbage Collection" was already
+  present in the garbage collection section, so I just added a brief
+  summary.' class="message" href="/papers-we-love/papers-we-love/commit/3f23d13b7a09c2b08f278adfddc03cd4bb5f2bd7">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-26T14:14:21Z">Feb 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="data_science" id="221052b8d84f5e9ce07846d37eecce9c-e67c82a870e7bc607a1067da84fd17e75e68d3ff" href="/papers-we-love/papers-we-love/tree/master/data_science">data_science</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Tidy Data (2014) to list of articles (#414)
+
+The following major changes were made:
+
+  - Create the `./data_science` directory
+
+  - Add the *Tidy Data* pdf
+
+  - Create/update the `./data_science` README with the article
+    information (including the scroll icon, link to the source, author,
+    and publication year)
+
+Decisions:
+
+  - Since no relevant folder existed, I created the `./data_science`
+    directory. This is a broad subject, but until the number of articles
+    get to be unmanageable, I think that keeping them together will help
+    people find what they're interested in.
+
+  - The README does have a sub-category list (*Tidy Data* is under &quot;Data
+    Cleaning&quot;), but there is no corresponding subdirectory. This is
+    because there are few enough raw articles that someone browsing the
+    directory listing won't benefit from the subfolder (but it will cost
+    them an extra click), but someone skimming the README might want to
+    know more about the article categorization.
+
+  - The README listing includes scroll/title/author/link to source, but
+    it does not include any abstract/rationale. The different READMEs
+    take different approaches here, but this seems to be the best
+    trade-off between a concise listing and providing useful
+    information. I'm happy to add a rationale or summary if it would be
+    useful though.
+
+Paper Rationale:
+
+  This paper describes a subset of data cleaning that had previously
+  been largely neglected: data tidying, or the process of reforming data
+  into a standardized structure to allow for easier manipulation and the
+  development of better data tools.
+
+  The author is prominent in the data science community, being the chief
+  scientist at RStudio, having authored a number of highly-regarded and
+  very popular data science packages (ex. `ggplot2` and `reshape2`).
+  He was named a Fellow by the American Statistical Association in 2015
+  for &quot;pivotal contributions to statistical practice through innovative
+  and pioneering research in statistical graphics and computing.&quot; For
+  more on Hadley Wickham, see his website: http://hadley.nz/
+
+  This is a fairly popular paper as well; according to jstatsoft, it has
+  nearly 50k views. I've seen it mentioned in several other popular
+  media as well, including John Hopkin's very popular online Data
+  Science MOOC.
+
+  The main reason that I'm adding this paper, however, is because of
+  how well-written it is. I don't come from a data science background,
+  but after reading this paper, I walked away with a decent
+  understanding of the significance of Wickham's research and
+  standardization efforts, the current (circa 2014) state of the field,
+  and many of the technical details associated with his method of data
+  tidying. It was easy to read, despite my lacking data science
+  background, but it's clear that Wickham did not &quot;dumb down&quot; the
+  content in order to accomplish that.
+
+  I believe that other chapters and independent readers will find this
+  to be an interesting, enjoyable paper, and I believe that it will
+  continue to affect the field of data cleaning.
+
+  *This paper will be presented at the October meeting of Papers We Love
+  Washington, D.C. &amp; Northern VA.*
+
+Copyright Information:
+
+  The raw paper can be legally included in this repository. *Tidy Data*
+  falls under the [Creative Commons Attribution 3.0 Unported License],
+  which allows for sharing and adaptation with attribution.
+
+  [Creative Commons Attribution 3.0 Unported License]:
+    https://creativecommons.org/licenses/by/3.0/" class="message" href="/papers-we-love/papers-we-love/commit/3565b2ff013feb4497c6afa15b98ea5cc95bd181">Add Tidy Data (2014) to list of articles (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/414" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/414" data-id="173693008" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#414</a><a data-pjax="true" title="Add Tidy Data (2014) to list of articles (#414)
+
+The following major changes were made:
+
+  - Create the `./data_science` directory
+
+  - Add the *Tidy Data* pdf
+
+  - Create/update the `./data_science` README with the article
+    information (including the scroll icon, link to the source, author,
+    and publication year)
+
+Decisions:
+
+  - Since no relevant folder existed, I created the `./data_science`
+    directory. This is a broad subject, but until the number of articles
+    get to be unmanageable, I think that keeping them together will help
+    people find what they're interested in.
+
+  - The README does have a sub-category list (*Tidy Data* is under &quot;Data
+    Cleaning&quot;), but there is no corresponding subdirectory. This is
+    because there are few enough raw articles that someone browsing the
+    directory listing won't benefit from the subfolder (but it will cost
+    them an extra click), but someone skimming the README might want to
+    know more about the article categorization.
+
+  - The README listing includes scroll/title/author/link to source, but
+    it does not include any abstract/rationale. The different READMEs
+    take different approaches here, but this seems to be the best
+    trade-off between a concise listing and providing useful
+    information. I'm happy to add a rationale or summary if it would be
+    useful though.
+
+Paper Rationale:
+
+  This paper describes a subset of data cleaning that had previously
+  been largely neglected: data tidying, or the process of reforming data
+  into a standardized structure to allow for easier manipulation and the
+  development of better data tools.
+
+  The author is prominent in the data science community, being the chief
+  scientist at RStudio, having authored a number of highly-regarded and
+  very popular data science packages (ex. `ggplot2` and `reshape2`).
+  He was named a Fellow by the American Statistical Association in 2015
+  for &quot;pivotal contributions to statistical practice through innovative
+  and pioneering research in statistical graphics and computing.&quot; For
+  more on Hadley Wickham, see his website: http://hadley.nz/
+
+  This is a fairly popular paper as well; according to jstatsoft, it has
+  nearly 50k views. I've seen it mentioned in several other popular
+  media as well, including John Hopkin's very popular online Data
+  Science MOOC.
+
+  The main reason that I'm adding this paper, however, is because of
+  how well-written it is. I don't come from a data science background,
+  but after reading this paper, I walked away with a decent
+  understanding of the significance of Wickham's research and
+  standardization efforts, the current (circa 2014) state of the field,
+  and many of the technical details associated with his method of data
+  tidying. It was easy to read, despite my lacking data science
+  background, but it's clear that Wickham did not &quot;dumb down&quot; the
+  content in order to accomplish that.
+
+  I believe that other chapters and independent readers will find this
+  to be an interesting, enjoyable paper, and I believe that it will
+  continue to affect the field of data cleaning.
+
+  *This paper will be presented at the October meeting of Papers We Love
+  Washington, D.C. &amp; Northern VA.*
+
+Copyright Information:
+
+  The raw paper can be legally included in this repository. *Tidy Data*
+  falls under the [Creative Commons Attribution 3.0 Unported License],
+  which allows for sharing and adaptation with attribution.
+
+  [Creative Commons Attribution 3.0 Unported License]:
+    https://creativecommons.org/licenses/by/3.0/" class="message" href="/papers-we-love/papers-we-love/commit/3565b2ff013feb4497c6afa15b98ea5cc95bd181">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-30T14:47:06Z">Aug 30, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="data_structures" id="9466edd02bad586f9ccf200a84a4dafd-82dec3d649ecbba1109d1e52712e43087bb4f0bf" href="/papers-we-love/papers-we-love/tree/master/data_structures">data_structures</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix markup for data_structures" class="message" href="/papers-we-love/papers-we-love/commit/6b72177f3df7bfa71da5bf921318ae2df722f76f">Fix markup for data_structures</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-11-28T17:26:36Z">Nov 28, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="datastores" id="0e768c8183bcbfc87718f59d9dfd61eb-367f1a85d7eb154bdc4970da06c1fcdc07238090" href="/papers-we-love/papers-we-love/tree/master/datastores">datastores</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Adding paper for spartan distributed array framework. (#449)" class="message" href="/papers-we-love/papers-we-love/commit/dd326f95a90a5f0011f16ed1e31d9c4d12d760fe">Adding paper for spartan distributed array framework. (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/449" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/449" data-id="226823497" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#449</a><a data-pjax="true" title="Adding paper for spartan distributed array framework. (#449)" class="message" href="/papers-we-love/papers-we-love/commit/dd326f95a90a5f0011f16ed1e31d9c4d12d760fe">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-07T11:53:15Z">May 7, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="design" id="31c13f47ad87dd7baa2d558a91e0fbb9-385d84c7c5b6b738520bce995d45caf0498f546e" href="/papers-we-love/papers-we-love/tree/master/design">design</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add No Silver Bullet to readme
+
+I&#39;m not sure about the licensing, so I&#39;m adding it to the readme." class="message" href="/papers-we-love/papers-we-love/commit/2eb8d212f66aafc92ca7230038501199fb9ede91">add No Silver Bullet to readme</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-31T18:15:56Z">Jan 31, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="digital_currency" id="a3366d6513ab59d5141e30616705396f-6ad2701f19c01e4116c8f502e84798b2e926e3f8" href="/papers-we-love/papers-we-love/tree/master/digital_currency">digital_currency</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="distributed_systems" id="4784c7fe4f64485db23c990173072081-2ecf0271fde616dc9655af4eabf9690fd0be3255" href="/papers-we-love/papers-we-love/tree/master/distributed_systems">distributed_systems</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added the HashGraph distributed consensus paper. (#514)
+
+Hashgraph is a block-chain like algorithm with latencies similar to Paxos." class="message" href="/papers-we-love/papers-we-love/commit/fbfa4ac8dbcf1523808903a11e4f3af0f7ee396c">Added the HashGraph distributed consensus paper. (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="305379724" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/514" href="https://github.com/papers-we-love/papers-we-love/pull/514">#514</a><a data-pjax="true" title="Added the HashGraph distributed consensus paper. (#514)
+
+Hashgraph is a block-chain like algorithm with latencies similar to Paxos." class="message" href="/papers-we-love/papers-we-love/commit/fbfa4ac8dbcf1523808903a11e4f3af0f7ee396c">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-15T11:58:20Z">Mar 15, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="economics" id="6b9ed75dae7a1e692073fc400b558ea4-b1907dbff4a5a5385e27a8230b264915e7e61179" href="/papers-we-love/papers-we-love/tree/master/economics">economics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="fix link formatting (#512)" class="message" href="/papers-we-love/papers-we-love/commit/0a269000e36650baadae51dfa26810fe7060b0a1">fix link formatting (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/512" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="300018051" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/512">#512</a><a data-pjax="true" title="fix link formatting (#512)" class="message" href="/papers-we-love/papers-we-love/commit/0a269000e36650baadae51dfa26810fe7060b0a1">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-25T15:11:33Z">Feb 25, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="ethics" id="0fdfc5af25d6000471a2f39c268e823c-195356c6413c040149d6128440fb54d7df9cd157" href="/papers-we-love/papers-we-love/tree/master/ethics">ethics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="experimental_algorithmics" id="7f608188d696424d4e7464659dfac540-43f7bc69680d577a4148903bdf7c16faef5061ed" href="/papers-we-love/papers-we-love/tree/master/experimental_algorithmics">experimental_algorithmics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="gamification" id="e72689485a6fcd103e91d8b2df0fae1e-8109994a5b21b5e31ee216395c778b521694c206" href="/papers-we-love/papers-we-love/tree/master/gamification">gamification</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="garbage_collection" id="e397d6f557461ff29ebd6a2263a2e3ca-c77656b3125bb14aaac8d6010ca72c8296638507" href="/papers-we-love/papers-we-love/tree/master/garbage_collection">garbage_collection</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title='Add papers presented on SF chapter on Feb 23rd 2017 (#432)
+
+- NOTE: The paper "A Unified Theory of Garbage Collection" was already
+  present in the garbage collection section, so I just added a brief
+  summary.' class="message" href="/papers-we-love/papers-we-love/commit/3f23d13b7a09c2b08f278adfddc03cd4bb5f2bd7">Add papers presented on SF chapter on Feb 23rd 2017 (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/432" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="210250503" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/432">#432</a><a data-pjax="true" title='Add papers presented on SF chapter on Feb 23rd 2017 (#432)
+
+- NOTE: The paper "A Unified Theory of Garbage Collection" was already
+  present in the garbage collection section, so I just added a brief
+  summary.' class="message" href="/papers-we-love/papers-we-love/commit/3f23d13b7a09c2b08f278adfddc03cd4bb5f2bd7">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-26T14:14:21Z">Feb 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="gossip" id="cbab2b0ff9a8a5f7b39084060eef2eda-aedf968e4d92a8758392449399a66720062beaf9" href="/papers-we-love/papers-we-love/tree/master/gossip">gossip</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Replace ps link with a pdf link. (#436)" class="message" href="/papers-we-love/papers-we-love/commit/53d68456d4a42a9c3c11b254612f5969ab63d95e">Replace ps link with a pdf link. (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/436" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="217647932" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/436">#436</a><a data-pjax="true" title="Replace ps link with a pdf link. (#436)" class="message" href="/papers-we-love/papers-we-love/commit/53d68456d4a42a9c3c11b254612f5969ab63d95e">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-28T18:18:16Z">Mar 28, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="information_retrieval" id="698e21f8cd9bbaaa148d8231a6b2ab4f-0866e87161962bfc25dc25c9fac2f674ec2cbfbf" href="/papers-we-love/papers-we-love/tree/master/information_retrieval">information_retrieval</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Corrects typos in filenames (#479)" class="message" href="/papers-we-love/papers-we-love/commit/22d73417bd85732737fbd5852a7ba5646a82ecbc">Corrects typos in filenames (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/479" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/479" data-id="255378575" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#479</a><a data-pjax="true" title="Corrects typos in filenames (#479)" class="message" href="/papers-we-love/papers-we-love/commit/22d73417bd85732737fbd5852a7ba5646a82ecbc">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-05T19:12:21Z">Sep 5, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="information_theory" id="693887cfc0796733b5d52b04349d56fb-16501f96a4d87109c5df0a756e4b77791afb4c47" href="/papers-we-love/papers-we-love/tree/master/information_theory">information_theory</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="languages" id="f3e334d42863e8250c7d03efefbfd387-4e755ed10ba21a1776f99894d3a1922b749c6616" href="/papers-we-love/papers-we-love/tree/master/languages">languages</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="adds Composing Fractals to Haskell (#488)" class="message" href="/papers-we-love/papers-we-love/commit/4deb10cedefa5ff2270237849783fe73e5f748e9">adds Composing Fractals to Haskell (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/488" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="267869514" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/488">#488</a><a data-pjax="true" title="adds Composing Fractals to Haskell (#488)" class="message" href="/papers-we-love/papers-we-love/commit/4deb10cedefa5ff2270237849783fe73e5f748e9">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-24T10:55:18Z">Oct 24, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="logic_and_programming" id="d235038374ea58abfc1a03714b437248-14bf4ff38f4cd085f033034bc7201d7d7346f81f" href="/papers-we-love/papers-we-love/tree/master/logic_and_programming">logic_and_programming</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="spelling error in logic_and_programming readme" class="message" href="/papers-we-love/papers-we-love/commit/86de5a57d95a3900667bcaa44128c9ea9ccaa548">spelling error in logic_and_programming readme</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-09T18:35:32Z">Feb 9, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="machine_learning" id="30596c5bce0d1800c204dcc6fcb75149-24b79ada5d2bae756eed73704c01530989ab97d4" href="/papers-we-love/papers-we-love/tree/master/machine_learning">machine_learning</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Multiple Narrative Disentanglement: Unraveling Inﬁnite Jest (#504)" class="message" href="/papers-we-love/papers-we-love/commit/6ce7315e2dd8832e3490fbe11d3b5ca9af1b34d2">Multiple Narrative Disentanglement: Unraveling Inﬁnite Jest (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/504" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="290166109" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/504">#504</a><a data-pjax="true" title="Multiple Narrative Disentanglement: Unraveling Inﬁnite Jest (#504)" class="message" href="/papers-we-love/papers-we-love/commit/6ce7315e2dd8832e3490fbe11d3b5ca9af1b34d2">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-20T16:22:33Z">Jan 20, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="macros" id="264a818e305e0550c3ee63761dd3d911-37b35d71c7ce98eac6ae5e57ac55b99eccf5d4c7" href="/papers-we-love/papers-we-love/tree/master/macros">macros</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="mathematics" id="6ae28a55456b101be8261e5dee44cd3e-bfd12856d084972ef7cd422997d62274b1030103" href="/papers-we-love/papers-we-love/tree/master/mathematics">mathematics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Creating mathematics Folder and adding transcendence of pi paper (#473)
+
+* Creating mathematics folder and adding transcedence-of-pi.pdf
+* adding README.md" class="message" href="/papers-we-love/papers-we-love/commit/4a72d8ce678e8ca3f9b7a76516629fe10c5b23c8">Creating mathematics Folder and adding transcendence of pi paper (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/473" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/473" data-id="246273288" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#473</a><a data-pjax="true" title="Creating mathematics Folder and adding transcendence of pi paper (#473)
+
+* Creating mathematics folder and adding transcedence-of-pi.pdf
+* adding README.md" class="message" href="/papers-we-love/papers-we-love/commit/4a72d8ce678e8ca3f9b7a76516629fe10c5b23c8">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-31T17:33:34Z">Jul 31, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="memory_management" id="1caa4229f94fb1abaa2e18014e4400d0-2f3f79a9f05a74993ed902d7f70f30da901e4a1c" href="/papers-we-love/papers-we-love/tree/master/memory_management">memory_management</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixing readme entry in memory management (#416)
+
+Teaching Garbage Collection without Implementing Compilers or Interpreters was pointing to a broken link. I am making a change to put to a link still active with the same paper." class="message" href="/papers-we-love/papers-we-love/commit/2b26e0c707ecbbd38d4834bf4233c325d30d6570">Fixing readme entry in memory management (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/416" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="177623815" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/416">#416</a><a data-pjax="true" title="Fixing readme entry in memory management (#416)
+
+Teaching Garbage Collection without Implementing Compilers or Interpreters was pointing to a broken link. I am making a change to put to a link still active with the same paper." class="message" href="/papers-we-love/papers-we-love/commit/2b26e0c707ecbbd38d4834bf4233c325d30d6570">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-09-18T03:23:02Z">Sep 18, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="networks" id="3e11ca2215bada5ab235ee73e4ff7cd0-ce6ead894f2b83d282aca58df9f7559b6961de51" href="/papers-we-love/papers-we-love/tree/master/networks">networks</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Adding `B4: experience with a globally-deployed software defined wan` to networks (#513)" class="message" href="/papers-we-love/papers-we-love/commit/79f88e5ecae941f81e5b4936784488780ece8ccd">Adding `B4: experience with a globally-deployed software defined wan`…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-04T22:30:17Z">Mar 4, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="non_blocking_algorithms" id="87cc9d077530a9c90a26ef52c01b8cd9-9cc8d40556c56ba6d884fd3c915c23da24729056" href="/papers-we-love/papers-we-love/tree/master/non_blocking_algorithms">non_blocking_algorithms</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Cryptography, non-blocking algorithm, quantum computing (#409)" class="message" href="/papers-we-love/papers-we-love/commit/ff22097f799adc0cf1ea53a540030c3bd312d94a">Cryptography, non-blocking algorithm, quantum computing (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/409" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/409" data-id="171254133" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#409</a><a data-pjax="true" title="Cryptography, non-blocking algorithm, quantum computing (#409)" class="message" href="/papers-we-love/papers-we-love/commit/ff22097f799adc0cf1ea53a540030c3bd312d94a">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-08-18T14:16:55Z">Aug 18, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="operating_systems" id="be271009935d0128acb1b390692254c4-0e853d68fa74d985ed05437517ee429a3b4ecd64" href="/papers-we-love/papers-we-love/tree/master/operating_systems">operating_systems</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Adding kvm paper; sub-sections in operations_systems (#452)" class="message" href="/papers-we-love/papers-we-love/commit/4eef4b4379a3d69664f8b3a90531862baca088a1">Adding kvm paper; sub-sections in operations_systems (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/452" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="228548858" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/452">#452</a><a data-pjax="true" title="Adding kvm paper; sub-sections in operations_systems (#452)" class="message" href="/papers-we-love/papers-we-love/commit/4eef4b4379a3d69664f8b3a90531862baca088a1">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-15T10:55:27Z">May 15, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="organizational_simulation" id="3d33af26a33d9e9bcc6e397d728c1f0b-def4ac24d7a77924c4163fbd3b41036997dd729a" href="/papers-we-love/papers-we-love/tree/master/organizational_simulation">organizational_simulation</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="next paper nyc" class="message" href="/papers-we-love/papers-we-love/commit/22bbe7a08655407b34268e92676500b0b44b0bf9">next paper nyc</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-21T23:37:24Z">Apr 21, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="paradigms" id="07d45d08daccd0678b35de9922b5c9a5-5671df9f830b871eb75e82ce49ef6f7b05ab8d54" href="/papers-we-love/papers-we-love/tree/master/paradigms">paradigms</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add purely functional data structures to paradigms readme (#485)
+
+* add purely functional data structures
+* add purely functional data structures to paradigms readme" class="message" href="/papers-we-love/papers-we-love/commit/af6342495177cde44cdffba1ce4a9daf8e751097">add purely functional data structures to paradigms readme (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/485" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="266749673" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/485">#485</a><a data-pjax="true" title="add purely functional data structures to paradigms readme (#485)
+
+* add purely functional data structures
+* add purely functional data structures to paradigms readme" class="message" href="/papers-we-love/papers-we-love/commit/af6342495177cde44cdffba1ce4a9daf8e751097">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-19T10:49:17Z">Oct 19, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="pattern_matching" id="a7bb2a5741fd93dd92d124050aca054c-f5a3be826a4b2529e295d1a03537d764950c61b3" href="/papers-we-love/papers-we-love/tree/master/pattern_matching">pattern_matching</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="physics" id="8cfb10d3dd0ae49a87320653cbfa587e-509d45b0429ed176851c756084041ddf3a68443b" href="/papers-we-love/papers-we-love/tree/master/physics">physics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add paper for presentation 11/19 nyc pwl" class="message" href="/papers-we-love/papers-we-love/commit/aeff4ade80fb7ee7c6676e43b0ac3f3611be5982">add paper for presentation 11/19 nyc pwl</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-20T20:49:38Z">Oct 20, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="plt" id="60443f67c6816f5e64f33e62827883cf-0b89ffd0184e07c7ca9e292daf618717ce1f847a" href="/papers-we-love/papers-we-love/tree/master/plt">plt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixed typos" class="message" href="/papers-we-love/papers-we-love/commit/214d8de5d635c668382ec9a97efd5f327aa02834">Fixed typos</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-14T15:04:59Z">Apr 14, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="processes" id="530968b205d33b3869aa32e2933fbfad-4b517ca6c527b05b8a413063ca500c4128a411e7" href="/papers-we-love/papers-we-love/tree/master/processes">processes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix typo
+
+Changed `:scroll` to `:scroll:`" class="message" href="/papers-we-love/papers-we-love/commit/69eb679cf0f43ab772ca16e917828c4e7792995b">Fix typo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-19T18:03:07Z">Feb 19, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="program_verification" id="6e20f19ecec19664f2170aac36d6501f-fe031d9aa5b7753268023355d16a52a6efe914f9" href="/papers-we-love/papers-we-love/tree/master/program_verification">program_verification</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add epitaxis (#421)" class="message" href="/papers-we-love/papers-we-love/commit/0a69d3096b813b1380d2218ed19d052fe8e99bc4">add epitaxis (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/421" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="180708693" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/421">#421</a><a data-pjax="true" title="add epitaxis (#421)" class="message" href="/papers-we-love/papers-we-love/commit/0a69d3096b813b1380d2218ed19d052fe8e99bc4">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-04T11:07:18Z">Oct 4, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="quantum_computing" id="c4d3d4377e934dbdde1939e8a27ed0a0-b717b051f14ce0a07ead1349e7091cd1ca768dca" href="/papers-we-love/papers-we-love/tree/master/quantum_computing">quantum_computing</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title='Fix broken link in Quantum Computing (#470)
+
+Fix broken link to "Advances in quantum machine learning (2015)"' class="message" href="/papers-we-love/papers-we-love/commit/34406a9d48a14776655d86c71c158f5399405b78">Fix broken link in Quantum Computing (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/470" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/470" data-id="244811481" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#470</a><a data-pjax="true" title='Fix broken link in Quantum Computing (#470)
+
+Fix broken link to "Advances in quantum machine learning (2015)"' class="message" href="/papers-we-love/papers-we-love/commit/34406a9d48a14776655d86c71c158f5399405b78">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-07-22T12:33:41Z">Jul 22, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="robotics" id="9cafaa453dfe12efaa19f7aa6a0b61f3-0557e95cc962a45dfb70f0963b1b328ddb81471d" href="/papers-we-love/papers-we-love/tree/master/robotics">robotics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md
+
+Fixed dead link to &quot;RGB-D Mapping: Using Depth Cameras for Dense 3D Modeling of Indoor&quot;." class="message" href="/papers-we-love/papers-we-love/commit/60d6284a7724bf29ad87b22ff9cd7380e9d79847">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-25T21:01:00Z">Feb 25, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="security" id="e91e6348157868de9dd8b25c81aebfb9-e26da75200c41f7269e31ab9a0b8dee6c6a73c51" href="/papers-we-love/papers-we-love/tree/master/security">security</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Meltdown and Spectre papers (#506)
+
+Infosec papers, covering vulnerabilities in modern computers that can leak passwords and sensitive data." class="message" href="/papers-we-love/papers-we-love/commit/cc25fa86d114edc20817449df64ea46988acba14">Add Meltdown and Spectre papers (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/506" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="292611694" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/506">#506</a><a data-pjax="true" title="Add Meltdown and Spectre papers (#506)
+
+Infosec papers, covering vulnerabilities in modern computers that can leak passwords and sensitive data." class="message" href="/papers-we-love/papers-we-love/commit/cc25fa86d114edc20817449df64ea46988acba14">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-30T01:48:29Z">Jan 30, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="speech_recognition" id="20ea560669ce78487d3987302f389021-7226dec3f25e5825f4ce6f2bf00e1f4d378c0aa8" href="/papers-we-love/papers-we-love/tree/master/speech_recognition">speech_recognition</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added tutorial link back in with new URL as provided by @DarrenN" class="message" href="/papers-we-love/papers-we-love/commit/62cba0f5b58fe6a1b5dca6a4987a3a7041f55c2a">Added tutorial link back in with new URL as provided by</a> <a href="https://github.com/DarrenN" class="user-mention">@DarrenN</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-01-26T15:27:34Z">Jan 26, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="sports_analytics" id="f4b83239cc852f8e22cd0868d08ab906-8dc76937f1b1bdbb41562e8ed4eef316403dfdbc" href="/papers-we-love/papers-we-love/tree/master/sports_analytics">sports_analytics</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="streaming_algorithms" id="f1eb6824e23a68976305d114e41ecde8-94582fd2ae72713f87187bca1f8e1aa938e9c558" href="/papers-we-love/papers-we-love/tree/master/streaming_algorithms">streaming_algorithms</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Created Streaming Algorithms folder (#434)
+
+* Created Streaming Algorithms folder
+* Original link did not load" class="message" href="/papers-we-love/papers-we-love/commit/7d5d55604614b2f2fe832a0319566e125ee2fa57">Created Streaming Algorithms folder (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/434" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/434" data-id="216457745" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#434</a><a data-pjax="true" title="Created Streaming Algorithms folder (#434)
+
+* Created Streaming Algorithms folder
+* Original link did not load" class="message" href="/papers-we-love/papers-we-love/commit/7d5d55604614b2f2fe832a0319566e125ee2fa57">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-27T10:34:21Z">Mar 27, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="stringology" id="026903acef72d01b99236c2d9c5ff0a8-389c313ab9c28f95a9f55a9b57eff0ca6ec24ddd" href="/papers-we-love/papers-we-love/tree/master/stringology">stringology</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add &quot;Fast String Searching&quot;" class="message" href="/papers-we-love/papers-we-love/commit/b8fb4ef1ecde9c9349510fe56d1b9bffd99dd017">add "Fast String Searching"</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-03-06T12:18:18Z">Mar 6, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="sublinear_algorithms" id="ccd917c321f99276d68dd7f545e0bb78-a3d1f24ee5a46c23492ebe8649d818ed85568aac" href="/papers-we-love/papers-we-love/tree/master/sublinear_algorithms">sublinear_algorithms</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update to all READMEs for hosted content
+reorganization of so-called historical papers" class="message" href="/papers-we-love/papers-we-love/commit/d2acf0fc3b8fe06a3fc189df18902a0609f3f718">Update to all READMEs for hosted content</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T19:12:22Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="systematic_review" id="415e7eeae0bc70e0e971c52a2a6e263c-3c69c61bbba50948ba18757b7266db3dc4ba4156" href="/papers-we-love/papers-we-love/tree/master/systematic_review">systematic_review</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="create folder and add paper systematic_review (#433)
+
+* Create systematic_review
+
+* Delete systematic_review
+
+* Fixes PR issues" class="message" href="/papers-we-love/papers-we-love/commit/e5e028c867b8405064d25821c75f7b0773f084b4">create folder and add paper systematic_review (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/433" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="213855051" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/433">#433</a><a data-pjax="true" title="create folder and add paper systematic_review (#433)
+
+* Create systematic_review
+
+* Delete systematic_review
+
+* Fixes PR issues" class="message" href="/papers-we-love/papers-we-love/commit/e5e028c867b8405064d25821c75f7b0773f084b4">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-24T13:16:50Z">Apr 24, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="testing" id="ae2b1fca515949e5d54fb22b8ed95575-8cb32f00466671390a31ef7fcc321b4f09ff3f3a" href="/papers-we-love/papers-we-love/tree/master/testing">testing</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="fix: links to existing paper (#503)" class="message" href="/papers-we-love/papers-we-love/commit/24ed2f6de9076c45fcfa153f29239674fa5af99c">fix: links to existing paper (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/503" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="287580641" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/503">#503</a><a data-pjax="true" title="fix: links to existing paper (#503)" class="message" href="/papers-we-love/papers-we-love/commit/24ed2f6de9076c45fcfa153f29239674fa5af99c">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-12T00:12:22Z">Jan 12, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="time_series" id="8cf05aeb2391adb85c0f0eb0ab1cccd7-47d9adef5936e7a19c4a9f08dfbc02d003b1315b" href="/papers-we-love/papers-we-love/tree/master/time_series">time_series</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Time-series new paper: ASAP (#446)
+
+* Add entry for asap.
+* Add ASAP pdf" class="message" href="/papers-we-love/papers-we-love/commit/a22a21723ba13e6559a7d46e2808039af46b7a74">Time-series new paper: ASAP (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/446" class="issue-link js-issue-link" data-url="https://github.com/papers-we-love/papers-we-love/issues/446" data-id="225455656" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#446</a><a data-pjax="true" title="Time-series new paper: ASAP (#446)
+
+* Add entry for asap.
+* Add ASAP pdf" class="message" href="/papers-we-love/papers-we-love/commit/a22a21723ba13e6559a7d46e2808039af46b7a74">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-01T16:42:35Z">May 1, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="user_interfaces" id="2d0c731c078357ad70917525e15ec502-5d4b236289af6a731a5414f60e94cf430a5f17ea" href="/papers-we-love/papers-we-love/tree/master/user_interfaces">user_interfaces</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Adding projectional editor paper, presented in Seattle papers we love in May 2017. (#457)" class="message" href="/papers-we-love/papers-we-love/commit/a4f518be01b3cf459fc54c0c2fa9032a63488969">Adding projectional editor paper, presented in Seattle papers we love…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-01T10:42:28Z">Jun 1, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="virtual_machines" id="88d07fc65ea64e0b2ea1fde6f676584e-4977bab93ec2b6fabf1fc0873cab18aa694e1151" href="/papers-we-love/papers-we-love/tree/master/virtual_machines">virtual_machines</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="fastcommit" class="message" href="/papers-we-love/papers-we-love/commit/513ff1e2409b2e7d1862698cf8fd0e347fa27994">fastcommit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-07-06T22:04:27Z">Jul 6, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf" href="/papers-we-love/papers-we-love/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="primecoin" class="message" href="/papers-we-love/papers-we-love/commit/a90d6540e44802e742f06f50e8f0fb30db17c351">primecoin</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2013-11-30T17:15:01Z">Nov 30, 2013</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CODE_OF_CONDUCT.md" id="a1ee87dafebc22cbd96979f1b2b7e837-3fd5cabb005d173c7597d3a58afd3f04a2210c3a" href="/papers-we-love/papers-we-love/blob/master/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update CoC contacts" class="message" href="/papers-we-love/papers-we-love/commit/0f47953d574281d328c7342c337cc9bbc9e44b6d">Update CoC contacts</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-09T01:59:39Z">May 9, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-7592a3e494639e00ba3875499006eaf1f30f6a35" href="/papers-we-love/papers-we-love/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Porto to the chapter list (#511)" class="message" href="/papers-we-love/papers-we-love/commit/70414618591f8cb448af9fe07d43eda5d59f75d3">Add Porto to the chapter list (</a><a href="https://github.com/papers-we-love/papers-we-love/pull/511" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="299554321" data-permission-text="Issue title is private" data-url="https://github.com/papers-we-love/papers-we-love/issues/511">#511</a><a data-pjax="true" title="Add Porto to the chapter list (#511)" class="message" href="/papers-we-love/papers-we-love/commit/70414618591f8cb448af9fe07d43eda5d59f75d3">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-23T12:12:15Z">Feb 23, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="nautilus.db" id="e2770b5f3f5b5b3a24cd543e5a3e1e1a-cab6297cbf100ccf5fd3ca926918ae659d56106e" href="/papers-we-love/papers-we-love/blob/master/nautilus.db">nautilus.db</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="nautilus.db from branch nautilus-1520213103.462075" class="message" href="/papers-we-love/papers-we-love/commit/32e05724d067a4042467e16cefce8048aabf19a6">nautilus.db from branch nautilus-1520213103.462075</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-05T06:25:09Z">Mar 5, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h2><a href="#" aria-hidden="true" class="anchor" id=""><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://camo.githubusercontent.com/5c387976b2ea0897ea76eed52c762c712b4c38f3/687474703a2f2f70617065727377656c6f76652e6f72672f696d616765732f6c6f676f2d746f702e737667" target="_blank"><img src="https://camo.githubusercontent.com/5c387976b2ea0897ea76eed52c762c712b4c38f3/687474703a2f2f70617065727377656c6f76652e6f72672f696d616765732f6c6f676f2d746f702e737667" alt="Papers We Love" data-canonical-src="http://paperswelove.org/images/logo-top.svg" style="max-width:100%;"></a></h2>
+<p><strong>Papers We Love</strong> (<em>PWL</em>) is a community built around reading, discussing and learning more about academic computer science papers. This repository serves as a directory of some of the best papers the community can find, bringing together documents scattered across the web. You can also visit the <a href="http://paperswelove.org/" rel="nofollow">Papers We Love site</a> for more info.</p>
+<p>Due to <a href="https://github.com/papers-we-love/papers-we-love/blob/master/.github/CONTRIBUTING.md#respect-content-licenses">licenses</a> we cannot always host the papers themselves (when we do, you will see a <g-emoji class="g-emoji" alias="scroll" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dc.png">📜</g-emoji> emoji next to its title in the directory README) but we can provide links to their locations.</p>
+<p>If you enjoy the papers, perhaps stop by a local chapter meetup and join in on the vibrant discussions around them. You can also discuss <em>PWL</em> events, the content in this repository, and/or anything related to <em>PWL</em> on our <a href="https://paperswelove.slack.com/messages/general/" rel="nofollow">Slack</a>, after <a href="http://papersweloveslack.herokuapp.com/" rel="nofollow">signing-up</a> to join it, or on our <em>#paperswelove</em> IRC channel on freenode.</p>
+<h3><a href="#chapters" aria-hidden="true" class="anchor" id="user-content-chapters"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Chapters</h3>
+<p>Here are our official chapters. Let us know if you are interested in <a href="https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter">starting one</a> in your city!</p>
+<ul>
+<li><a href="http://www.meetup.com/papers-we-love-amsterdam/" rel="nofollow">Amsterdam</a></li>
+<li><a href="https://www.meetup.com/Papers-We-Love-Athens" rel="nofollow">Athens</a></li>
+<li><a href="https://www.meetup.com/Papers-We-Love-Atlanta" rel="nofollow">Atlanta</a></li>
+<li><a href="http://www.meetup.com/Papers-we-love-Bangalore/" rel="nofollow">Bangalore</a></li>
+<li><a href="https://www.meetup.com/papers-we-love-bcn/" rel="nofollow">Barcelona</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Belfast/" rel="nofollow">Belfast</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Berlin/" rel="nofollow">Berlin</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Boston-Cambridge/" rel="nofollow">Boston</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-bsb" rel="nofollow">Brasilia</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Boulder/" rel="nofollow">Boulder</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-bucharest/" rel="nofollow">Bucharest</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Chattanooga/" rel="nofollow">Chattanooga</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-chicago/" rel="nofollow">Chicago</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Columbus/" rel="nofollow">Columbus, Ohio</a></li>
+<li><a href="http://www.papersdallas.com/" rel="nofollow">Dallas</a></li>
+<li><a href="https://www.meetup.com/Papers-We-Love-Gothenburg/" rel="nofollow">Gothenburg</a></li>
+<li><a href="https://www.facebook.com/pwlgdl/" rel="nofollow">Guadalajara</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Hamburg/" rel="nofollow">Hamburg</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-hyderabad/" rel="nofollow">Hyderabad</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Iasi/" rel="nofollow">Iasi</a></li>
+<li><a href="https://www.meetup.com/techcorridorio" rel="nofollow">Iowa City</a></li>
+<li><a href="https://www.facebook.com/groups/PapersWeLoveKathmandu/" rel="nofollow">Kathmandu</a></li>
+<li><a href="https://www.facebook.com/groups/PapersWeLoveKyiv" rel="nofollow">Kyiv</a></li>
+<li><a href="http://www.paperswelovelb.club" rel="nofollow">Lebanon</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-london" rel="nofollow">London</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-la" rel="nofollow">Los Angeles</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Madrid/" rel="nofollow">Madrid</a></li>
+<li><a href="https://www.meetup.com/paperswelovemde/" rel="nofollow">Medellín</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Montreal/" rel="nofollow">Montreal</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Munich/" rel="nofollow">Munich</a></li>
+<li><a href="http://www.meetup.com/papers-we-love/" rel="nofollow">New York City</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Paris/" rel="nofollow">Paris</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Philadelphia/" rel="nofollow">Philadelphia</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-PDX/" rel="nofollow">Portland</a></li>
+<li><a href="https://www.meetup.com/Papers-We-Love-Porto" rel="nofollow">Porto</a></li>
+<li><a href="http://www.meetup.com/Doo-Things" rel="nofollow">Pune</a></li>
+<li><a href="https://www.meetup.com/Papers-We-Love-Raleigh-Durham/" rel="nofollow">Raleigh-Durham</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Reykjavik" rel="nofollow">Reykjavík</a></li>
+<li><a href="https://www.meetup.com/pt-BR/papers-we-love-rio-de-janeiro/" rel="nofollow">Rio de Janeiro</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-San-Diego/" rel="nofollow">San Diego</a></li>
+<li><a href="http://www.meetup.com/papers-we-love-too/" rel="nofollow">San Francisco</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Seattle/" rel="nofollow">Seattle</a></li>
+<li><a href="http://www.meetup.com/seoul-tech-society" rel="nofollow">Seoul, Korea</a></li>
+<li><a href="https://www.facebook.com/groups/paperswelovesg/" rel="nofollow">Singapore</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-in-saint-louis/" rel="nofollow">St. Louis</a></li>
+<li><a href="https://www.meetup.com/pt-BR/Papers-We-Love-Teresina/" rel="nofollow">Teresina</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Toronto/" rel="nofollow">Toronto</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-Vienna/" rel="nofollow">Vienna</a></li>
+<li><a href="http://www.meetup.com/Papers-We-Love-DC-NoVA/" rel="nofollow">Washington, DC</a></li>
+<li><a href="http://pwlwpg.ca/" rel="nofollow">Winnipeg</a></li>
+<li><a href="https://www.meetup.com/Papers-we-love-Zurich/" rel="nofollow">Zürich</a></li>
+</ul>
+<p>All of our meetups follow our <a href="/papers-we-love/papers-we-love/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>.</p>
+<h3><a href="#past-presentations" aria-hidden="true" class="anchor" id="user-content-past-presentations"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Past Presentations</h3>
+<p>Check out our <a href="https://www.youtube.com/user/PapersWeLove" rel="nofollow">Youtube</a> and <a href="https://www.mixcloud.com/paperswelove/" rel="nofollow">MixCloud</a> (audio-only format) channels.</p>
+<h2><a href="#info" aria-hidden="true" class="anchor" id="user-content-info"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Info</h2>
+<p>We're looking for pull requests related to papers we should add, better organization of the papers we do have, and/or links to other paper-repos we should point to.</p>
+<h3><a href="#other-good-places-to-find-papers" aria-hidden="true" class="anchor" id="user-content-other-good-places-to-find-papers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Good Places to Find Papers</h3>
+<ul>
+<li><a href="https://www.youtube.com/user/keeroyz" rel="nofollow">2 Minute Papers</a></li>
+<li><a href="https://www.alcatel-lucent.com/bell-labs-journals" rel="nofollow">Bell System Technical Journal, 1922-1983</a></li>
+<li><a href="http://jeffhuang.com/best_paper_awards.html" rel="nofollow">Best Paper Awards in Computer Science</a></li>
+<li><a href="https://research.fb.com/publications/" rel="nofollow">Facebook</a></li>
+<li><a href="http://scholar.google.com/citations?view_op=top_venues&amp;hl=en&amp;vq=eng" rel="nofollow">Google Scholar</a> (choose a subcategory)</li>
+<li><a href="http://research.microsoft.com/apps/catalog/default.aspx?t=publications" rel="nofollow">Microsoft Research</a></li>
+<li><a href="http://alexott.net/en/fp/books/" rel="nofollow">Functional Programming Books Review</a></li>
+<li><a href="http://dspace.mit.edu/handle/1721.1/39813" rel="nofollow">MIT's Artificial Intelligence Lab Publications</a></li>
+<li><a href="http://dsrg.pdos.csail.mit.edu/" rel="nofollow">MIT's Distributed System's Reading Group</a></li>
+<li><a href="http://arxiv.org/" rel="nofollow">arXiv Paper Repository</a></li>
+<li><a href="https://scirate.com/" rel="nofollow">SciRate</a></li>
+<li><a href="http://doc.cat-v.org/" rel="nofollow">cat-v.org</a></li>
+<li><a href="http://yarchive.net/comp/index.html" rel="nofollow">y-archive</a></li>
+<li><a href="http://www.netlib.org/" rel="nofollow">netlib</a></li>
+<li><a href="https://github.com/mmcgrana/services-engineering">Services Engineering Reading List</a></li>
+<li><a href="http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html" rel="nofollow">Readings in Distributed Systems</a></li>
+<li><a href="http://samth.github.io/gradual-typing-bib/" rel="nofollow">Gradual Typing Bibliography</a></li>
+<li><a href="http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/" rel="nofollow">Security Data Science Papers</a></li>
+<li><a href="http://www.cs.cmu.edu/%7Erwh/papers.html" rel="nofollow">Research Papers from Robert Harper, Carnegie Mellon University</a></li>
+<li><a href="https://lobste.rs/t/pdf" rel="nofollow">Lobste.rs tagged as PDF</a></li>
+<li><a href="http://blog.acolyer.org/" rel="nofollow">The Morning Paper</a></li>
+</ul>
+<p>Please check out our <a href="https://github.com/papers-we-love/papers-we-love/wiki/Other-Good-Sources-of-Reading-Material">wiki-page</a> for links to blogs, books, exchanges that are worth a good read.</p>
+<h3><a href="#how-to-read-a-paper" aria-hidden="true" class="anchor" id="user-content-how-to-read-a-paper"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How To Read a Paper</h3>
+<p>Reading a paper is not the same as reading a blogpost or a novel. Here are a few handy resources to help you get started.</p>
+<ul>
+<li><a href="http://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/" rel="nofollow">How to read an academic article</a></li>
+<li><a href="https://www.cc.gatech.edu/%7Eakmassey/posts/2012-02-15-advice-on-reading-academic-papers.html" rel="nofollow">Advice on reading academic papers</a></li>
+<li><a href="http://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/" rel="nofollow">How to read and understand a scientific paper</a></li>
+<li><a href="http://michaelrbernste.in/2014/10/21/should-i-read-papers.html" rel="nofollow">Should I Read Papers?</a></li>
+<li><a href="https://www.youtube.com/watch?v=8eRx5Wo3xYA" rel="nofollow">The Refreshingly Rewarding Realm of Research Papers</a></li>
+</ul>
+<h3><a href="#applicationsideas-built-around-papers-we-love" aria-hidden="true" class="anchor" id="user-content-applicationsideas-built-around-papers-we-love"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Applications/Ideas built around Papers We Love</h3>
+<ul>
+<li>Love a Paper - <a href="https://twitter.com/loveapaper" rel="nofollow">@loveapaper</a></li>
+</ul>
+<h2><a href="#contributing-guidelines" aria-hidden="true" class="anchor" id="user-content-contributing-guidelines"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing Guidelines</h2>
+<p>Please take a look at our <a href="https://github.com/papers-we-love/papers-we-love/blob/master/.github/CONTRIBUTING.md">CONTRIBUTING.md</a> file.</p>
+<h2><a href="#copyright" aria-hidden="true" class="anchor" id="user-content-copyright"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Copyright</h2>
+<p>The name "Papers We Love" and the logos for the organization are copyrighted, and under the ownership of Papers We Love Ltd, all rights reserved. When starting a chapter, please review <a href="https://github.com/papers-we-love/papers-we-love/wiki/Creating-a-PWL-chapter">our guidelines</a> and ask us about using the logo.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.47056s from unicorn-3751571531-1qdbw">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,455 @@
+   #Recent
+   Commits to awesome-dtrace:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in or
+   Sign up
+
+     * 8
+     * 73
+     * 11
+
+awesome-dtrace
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome DTrace books, articles, videos, tools and
+   resources. [https://awesome-dtrace.com/]https://awesome-dtrace.com
+   awesome-list
+   list
+     * 3 branches
+     * Fetching
+       contributors
+     * CC-BY-4.
+       0
+
+    1. Makefile
+       100.0%
+
+   Makefile
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/x
+   Download ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e]Tags
+
+   gh-pages
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Latest commit
+   [file://localhost/xen0l/awesome-dtrace/commit/a987734e7ca5ddc247f6711f1
+   e66aeeaca5a9899]a987734 Jul 21, 2017
+   @xen0l
+   xen0l
+   Add "FreeBSD DTrace mailing list"
+   Permalink
+   Failed to load latest commit information.
+   docs
+   Initial commit Jun 5, 2016
+   .gitignor
+   e
+   Initial commit Jun 5, 2016
+   .travis.
+   yml
+   Rework table of contents Jul 3, 2016
+   CONT
+   RIBUTING.md
+   Replace ToC with Contents Jul 30, 2016
+   LICENSE
+   [file://localhost/xen0l/awesome-dtrace/commit/f95dc28803d27739049033fcc
+   3af520d15d81f86]Include LICENSE text Jul 28, 2016
+   Makefile
+   Initial commit Jun 5, 2016
+   README.md
+   [file://localhost/xen0l/awesome-dtrace/commit/a987734e7ca5ddc247f6711f1
+   e66aeeaca5a9899]Add "FreeBSD DTrace mailing list" Jul 21, 2017
+   mkdocs.ym
+   l
+   [file://localhost/xen0l/awesome-dtrace/commit/ce22ebb5cbb176a4a538062cd
+   41716aa81364243]Switch to HTTPS Oct 6, 2016
+   req
+   uirements.txt
+   [file://localhost/xen0l/awesome-dtrace/commit/694dd2ff3b535144601bc392f
+   1039cc4cba11e3b]Initial commit Jun 5, 2016
+
+README.md
+
+Awesome
+
+   A curated list of awesome DTrace books, articles, videos, tools and
+   resources.
+
+Contents
+
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#learn]Learn
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#articles]Articles
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#videos]Videos
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#software]Software
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#tools]Tools
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#community]Community
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-dtrac
+       e#contributing]Contributing
+     __________________________________________________________________
+
+Learn
+
+   Recommended reading for learning DTrace.
+
+Books
+
+     * [http://dtrace.org/guide/preface.html]Dynamic Tracing Guide -
+       Illumos.org DTrace guide.
+     * [http://www.dtracebook.com/index.php/Main_Page]DTrace: Dynamic
+       Tracing in Oracle Solaris, Mac OS X, and FreeBSD - Official DTrace
+       book.
+     * [http://myaut.github.io/dtrace-stap-book/]Dynamic Tracing with
+       DTrace & SystemTap - A book introduces both DTrace and SystemTap.
+
+Other
+
+     * [https://illumos.org/man/1m/dtrace]dtrace(1m) man page - DTrace
+       manual page.
+     * [http://www.brendangregg.com/DTrace/DTrace-cheatsheet.pdf]DTrace
+       cheatsheet - DTrace cheatsheet by Brendan Gregg.
+     * [http://www.brendangregg.com/DTrace/dtrace_oneliners.txt]DTrace
+       one-liners - DTrace one liners. Handy commands.
+     * [https://wiki.freebsd.org/DTrace/One-Liners]DTrace one-liners
+       (FreeBSD) - DTrace one liners from FreeBSD.
+     * [http://www.tablespace.net/quicksheet/dtrace-quickstart.html]DTrace
+       QuickStart - DTrace quick starting guide.
+     * [https://github.com/NanXiao/using-dtrace-stories]Using DTrace
+       stories - A collection of using DTrace to debug system stories.
+     * [http://dtrace.org/resources/bmc/dtrace_tips.pdf]Advanced DTrace
+       Tips, Tricks and Gotchas - A collection of advanced tips for using
+       DTrace.
+
+Articles
+
+   Interesting articles about DTrace and real-world use cases.
+
+PID Provider
+
+     * [http://dtrace.org/blogs/brendan/2011/02/09/dtrace-pid-provider/]pi
+       d provider: entry probe - DTrace PID Provider.
+     * [http://dtrace.org/blogs/brendan/2011/02/11/dtrace-pid-provider-arg
+       uments/]pid provider: entry arguments - DTrace PID Provider
+       Arguments.
+     * [http://dtrace.org/blogs/brendan/2011/02/14/dtrace-pid-provider-ret
+       urn/]pid provider: return - DTrace PID Provider return.
+     * [http://dtrace.org/blogs/brendan/2011/02/16/dtrace-pid-provider-ins
+       tructions/]pid provider: instructions - DTrace PID Provider
+       Instructions.
+     * [http://dtrace.org/blogs/brendan/2011/02/18/dtrace-pid-provider-ove
+       rhead/]pid provider: overhead - DTrace PID Provider Overhead.
+     * [http://dtrace.org/blogs/ahl/2005/03/01/pid-provider-exposed/]pid
+       provider exposed - PID providers internals by Adam Leventhal.
+     * [http://dtrace.org/blogs/bmc/2011/03/09/when-magic-collides/]When
+       magic collides - PID provider bug deep dive by Bryan Cantrill.
+
+USDT provider
+
+     * [http://dtrace.org/blogs/dap/2013/11/20/understanding-dtrace-ustack
+       -helpers/]Understanding DTrace ustack helpers - DTrace ustack
+       helpers.
+     * [http://dtrace.org/blogs/dap/2011/12/13/usdt-providers-redux/]USDT
+       Providers Redux - Reference for building USDT providers in custom
+       applications.
+
+Sysevent provider
+
+     * [https://blogs.oracle.com/eschrock/entry/dtrace_sysevent_provider]D
+       Trace sysevent provider - Solaris/illumos sysevent provider for
+       DTrace.
+
+Ruby and DTrace
+
+     * [https://vaneyckt.io/posts/using_dtrace_to_measure_mutex_contention
+       _in_ruby/]Using DTrace to measure mutex contention in Ruby - Mutex
+       contention measuring in Ruby.
+
+Visualization methods
+
+     * [http://www.brendangregg.com/flamegraphs.html]Flamegraphs - A
+       visualization of profiled software, allowing the most frequent
+       code-paths to be identified quickly and accurately.
+     * [http://brendangregg.com/heatmaps.html]Heat Maps - Heat maps allow
+       three dimensions of data to be visualized, similar to weather radar
+       maps where color is used as a dimension.
+
+Videos
+
+   Interesting videos about DTrace.
+     * [https://www.youtube.com/watch?v=TgmA48fILq8]DTrace review - Bryan
+       Cantrill explains how to significantly improve debugging both for
+       development and live systems with DTrace.
+
+dtrace.conf
+
+     * [https://youtu.be/RvyP61WeFdM?list=PL8516982CBF9FADCC]dtrace.conf
+       2008
+          + [https://www.youtube.com/watch?v=sgBCz7bXkSo&index=4&list=PL85
+            16982CBF9FADCC]NFSv3 and iSCSI providers
+          + [https://www.youtube.com/watch?v=1Bc2Dz8aS6s&list=PL8516982CBF
+            9FADCC&index=5]DTrace for hardware
+          + [https://www.youtube.com/watch?v=D8_onK0pSvA&index=8&list=PL85
+            16982CBF9FADCC]Zones & DTrace
+          + [https://www.youtube.com/watch?v=e55iXXYj-74&index=10&list=PL8
+            516982CBF9FADCC]DTracing a Solaris build
+          + [https://www.youtube.com/watch?v=yR39YqVXQOM&index=11&list=PL8
+            516982CBF9FADCC]War Stories
+          + [https://www.youtube.com/watch?v=uK0DjEXo99w&list=PL8516982CBF
+            9FADCC&index=12]Sun Benchmarks
+          + [https://www.youtube.com/watch?v=PXIGE5GFAkE&index=13&list=PL8
+            516982CBF9FADCC]Erlang
+          + [https://www.youtube.com/watch?v=YTNiCv9Za2Y&index=14&list=PL8
+            516982CBF9FADCC]Erlang (continued)
+          + [https://www.youtube.com/watch?v=4astU1_X5xM&index=15&list=PL8
+            516982CBF9FADCC]Instrumenting Adobe AIR
+          + [https://www.youtube.com/watch?v=8kdJDHqiByI&list=PL8516982CBF
+            9FADCC&index=16]HotSpot Runtime & Java
+          + [https://www.youtube.com/watch?v=p5NKcxDny_4&list=PL8516982CBF
+            9FADCC&index=17]PostgreSQL: Looking Under the Hood with
+            Solaris
+          + [https://www.youtube.com/watch?v=SJykRURWgeU&list=PL8516982CBF
+            9FADCC&index=18]PostgreSQL Provider
+          + [https://www.youtube.com/watch?v=oYK1kgFwxk4&index=19&list=PL8
+            516982CBF9FADCC]Distributed DTrace
+          + [https://www.youtube.com/watch?v=OKSuox4eFrk&list=PL8516982CBF
+            9FADCC&index=21]Apple Port of DTrace
+     * [https://www.youtube.com/watch?v=l_7v7Fn7uMQ&list=PL973D48F273EB036
+       0]dtrace.conf 2012
+          + [https://www.youtube.com/watch?v=l_7v7Fn7uMQ&list=PL973D48F273
+            EB0360]DTrace State of the Union
+          + [https://www.youtube.com/watch?v=0QF04ivO_WE&list=PL973D48F273
+            EB0360&index=3]User-Level CTF
+          + [https://www.youtube.com/watch?v=CqLcj0lVnp4&index=4&list=PL97
+            3D48F273EB0360]Dynamic Translators
+          + [https://www.youtube.com/watch?v=6NqV_Uj8Ba4&index=7&list=PL97
+            3D48F273EB0360]Clang Parser for DTrace
+          + [https://www.youtube.com/watch?v=XD5hdaWnQM4&index=8&list=PL97
+            3D48F273EB0360]Visualizations
+          + [https://www.youtube.com/watch?v=3Sqa8mmtnMM&index=9&list=PL97
+            3D48F273EB0360]Visualizations, Enabling Toolchain for Seamless
+            USDT
+          + [https://www.youtube.com/watch?v=-B6u6wY3Iro&index=10&list=PL9
+            73D48F273EB0360]More Visualizations
+          + [https://www.youtube.com/watch?v=0ZMvSh7lUdM&list=PL973D48F273
+            EB0360&index=11]DTrace in Node.js
+          + [https://www.youtube.com/watch?v=4Si-7nAic2c&list=PL973D48F273
+            EB0360&index=12]DTrace and Erlang
+          + [https://www.youtube.com/watch?v=NElog3MvUC8&list=PL973D48F273
+            EB0360&index=13]DTrace on Linux
+          + [https://www.youtube.com/watch?v=m_V7yrrn49Y&index=14&list=PL9
+            73D48F273EB0360]ZFS Provider
+          + [https://www.youtube.com/watch?v=s5PpSiPfSNI&index=15&list=PL9
+            73D48F273EB0360]DTrace on FreeBSD
+          + [https://www.youtube.com/watch?v=P95LHZ-WOWw&index=16&list=PL9
+            73D48F273EB0360]Barriers to DTrace Adoption
+     * [https://www.joyent.com/about/events/2016/dtrace-conf]dtrace.conf
+       2016
+          + [https://player.vimeo.com/video/173346406]Introduction
+          + [https://player.vimeo.com/video/173346405](Useful!) DTrace
+            intro
+          + [https://player.vimeo.com/video/173346404]CTF Everywhere!
+          + [https://player.vimeo.com/video/173346403]Distributed DTrace
+          + [https://player.vimeo.com/video/173346402]DTracign Apps
+          + [https://player.vimeo.com/video/173346401]DTrace and JSON:
+            Together at last!
+          + [https://player.vimeo.com/video/173346400]ASSERT() as a DTrace
+            probe (and why I need some help)
+          + [https://player.vimeo.com/video/173346399]Implementing (or
+            not) fds[] in FreeBSD
+          + [https://player.vimeo.com/video/173346398]OpenDTrace
+          + [https://player.vimeo.com/video/173300658]DTrace Performance
+            Improvements with Always-on Instrumentation
+          + [https://player.vimeo.com/video/173300657]D language
+            improvements
+          + [https://player.vimeo.com/video/173300656]D Syntactic Sugar
+          + [https://player.vimeo.com/video/173300655]DTrace and Go
+          + [https://player.vimeo.com/video/173300654]DTrace and Postgres
+          + [https://player.vimeo.com/video/173300653]DTrace in the Zone
+          + [https://player.vimeo.com/video/173300651]DTrace ustack()
+            performance improvements
+          + [https://player.vimeo.com/video/173300650]DTrace Exploitation
+
+Software
+
+   List of software with DTrace support.
+
+Programming languages
+
+Erlang
+
+     * [http://erlang.org/doc/apps/runtime_tools/DTRACE.html]Erlang -
+       DTrace and Erlang/OTP.
+
+Lua
+
+     * [https://github.com/chrisa/lua-usdt]lua-usdt - Libusdt bindings for
+       Lua.
+
+Node.js
+
+     * [https://github.com/chrisa/node-dtrace-provider]node-dtrace-provide
+       r - Native DTrace probes for Node.js apps.
+
+Perl
+
+     * [https://github.com/chrisa/perl-Devel-DTrace-Provider]perl-Devel-DT
+       race-Provider - Perl wrapper for libusdt.
+
+PHP
+
+     * [https://secure.php.net/manual/en/features.dtrace.dtrace.php]PHP -
+       Using PHP and DTrace.
+
+Python
+
+     * [https://www.jcea.es/artic/python_dtrace.htm]Python - DTrace patch
+       for Python 2.7.x and 3.x.
+     * [https://github.com/nshalman/python-usdt]python-usdt - Libusdt
+       bindings for Python.
+
+Ruby
+
+     * [http://ruby-doc.org/core-2.3.1/doc/dtrace_probes_rdoc.html]Ruby -
+       Ruby DTrace probes.
+     * [https://github.com/kevinykchan/ruby-usdt]ruby-usdt - Native DTrace
+       probes for ruby apps.
+
+Databases
+
+     * [https://dev.mysql.com/doc/refman/5.7/en/dba-dtrace-mysqld-ref.html
+       ]MySQL - MySQL DTrace probes.
+     * [https://www.postgresql.org/docs/current/static/dynamic-trace.html]
+       PostgreSQL - PostgreSQL DTrace probes.
+
+Webservers
+
+     * [https://github.com/davepacheco/mod_usdt]mod_usdt - "httpd" DTrace
+       provider.
+
+Visualization
+
+     * [https://github.com/brendangregg/FlameGraph]FlameGraph - Stack
+       trace visualizer.
+     * [https://github.com/joyent/node-stackvis]node-stackvis - Stack
+       trace visualizer.
+
+Tools
+
+     * [http://www.brendangregg.com/dtracetoolkit.html]DTraceToolkit - A
+       collection of useful documented DTrace scripts.
+     * [https://github.com/brendangregg/dtrace-cloud-tools]dtrace-cloud-to
+       ols - DTrace tools written for the SmartOS/SmartDataCenter cloud
+       (illumos-based).
+     * [https://github.com/joyent/pgsqlstat]pgsql tools - Report top-level
+       PostgreSQL stats.
+     * [https://github.com/davepacheco/portsnoop]portsnoop - Trace event
+       port activity.
+     * [https://github.com/richardelling/tools]storage tools - Report NFS,
+       CIFS and iSCSI stats.
+
+Community
+
+     * [http://dtrace.org/]Community site - DTrace community site.
+     * [http://dtrace.org/blogs/mailing-list/]Mailing list - DTrace
+       community mailing list.
+     * [https://lists.freebsd.org/mailman/listinfo/freebsd-dtrace]FreeBSD
+       DTrace mailing list - FreeBSD DTrace community mailing list.
+     * [http://chinadtrace.org/]China DTrace - A Chinese DTrace site.
+
+Contributing
+
+   Contributions are more than welcome! Please see
+   [https://github.com/xen0l/awesome-dtrace/blob/master/CONTRIBUTING.md]co
+   ntribution guidelines first.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Re
+   load to refresh your session. You signed out in another tab or window.
+   Re
+   load to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

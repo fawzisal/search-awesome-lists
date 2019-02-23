@@ -1,0 +1,1599 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - kjw0612/awesome-deep-vision: A curated list of deep learning resources for computer vision</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/2831504?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="kjw0612/awesome-deep-vision" /><meta property="og:url" content="https://github.com/kjw0612/awesome-deep-vision" /><meta property="og:description" content="awesome-deep-vision - A curated list of deep learning resources for computer vision " />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E0A6:5D4D:18805E4:2F45734:5AD2F69E" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E0A6:5D4D:18805E4:2F45734:5AD2F69E" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MzU2NGJlOWZjYTM0NTk2YzljODM4MDVhYWI3NDcyM2Y2ZmMxNWEyNjUzNDQzMDMzZDFlYTUyYTY1ODZmZWQwYnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTBBNjo1RDREOjE4ODA1RTQ6MkY0NTczNDo1QUQyRjY5RSIsInRpbWVzdGFtcCI6MTUyMzc3NTEzNCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a2be92ae14a1d1698b9b2896da44ce6e548c6aef">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/kjw0612/awesome-deep-vision/commits/master.atom" rel="alternate" title="Recent Commits to awesome-deep-vision:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-deep-vision - A curated list of deep learning resources for computer vision ">
+  <meta name="go-import" content="github.com/kjw0612/awesome-deep-vision git https://github.com/kjw0612/awesome-deep-vision.git">
+
+  <meta name="octolytics-dimension-user_id" content="2831504" /><meta name="octolytics-dimension-user_login" content="kjw0612" /><meta name="octolytics-dimension-repository_id" content="35812923" /><meta name="octolytics-dimension-repository_nwo" content="kjw0612/awesome-deep-vision" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="35812923" /><meta name="octolytics-dimension-repository_network_root_nwo" content="kjw0612/awesome-deep-vision" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/kjw0612/awesome-deep-vision" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/kjw0612/awesome-deep-vision/search" data-unscoped-search-url="/search" action="/kjw0612/awesome-deep-vision/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/kjw0612/awesome-deep-vision">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fkjw0612%2Fawesome-deep-vision" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fkjw0612%2Fawesome-deep-vision"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/kjw0612/awesome-deep-vision/watchers"
+     aria-label="962 users are watching this repository">
+    962
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fkjw0612%2Fawesome-deep-vision"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/kjw0612/awesome-deep-vision/stargazers"
+      aria-label="6463 users starred this repository">
+      6,463
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fkjw0612%2Fawesome-deep-vision"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/kjw0612/awesome-deep-vision/network" class="social-count"
+       aria-label="1945 users forked this repository">
+      1,945
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/kjw0612">kjw0612</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/kjw0612/awesome-deep-vision">awesome-deep-vision</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /kjw0612/awesome-deep-vision" href="/kjw0612/awesome-deep-vision">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /kjw0612/awesome-deep-vision/issues" href="/kjw0612/awesome-deep-vision/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">10</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /kjw0612/awesome-deep-vision/pulls" href="/kjw0612/awesome-deep-vision/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">15</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /kjw0612/awesome-deep-vision/projects" href="/kjw0612/awesome-deep-vision/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /kjw0612/awesome-deep-vision/wiki" href="/kjw0612/awesome-deep-vision/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /kjw0612/awesome-deep-vision/pulse" href="/kjw0612/awesome-deep-vision/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HnMlrsgd0HMIzk+FN3YhYmLXQxrgRKEbE8ZWT3B8qPSckfV9/YhTCM8MunAFfdCKo7La33xs8WrzFkHVlOBVoQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of deep learning resources for computer vision 
+          </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/kjw0612/awesome-deep-vision/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                206
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/kjw0612/awesome-deep-vision/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/kjw0612/awesome-deep-vision/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/kjw0612/awesome-deep-vision/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      37
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/kjw0612/awesome-deep-vision.git" aria-label="Clone this repository at https://github.com/kjw0612/awesome-deep-vision.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/kjw0612/awesome-deep-vision.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/kjw0612/awesome-deep-vision/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/kjw0612/awesome-deep-vision/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/kjw0612/awesome-deep-vision/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/kjw0612/awesome-deep-vision/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/kjw0612/awesome-deep-vision/commit/42564247eba6f4d19ab7bdb2af535fc5c1b2f4cf" data-pjax>
+        4256424
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-03-13T16:18:55Z">Mar 13, 2017</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="myungsub">
+
+        <a href="/myungsub" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars0.githubusercontent.com/u/7778428?s=40&amp;v=4" width="20" height="20" alt="@myungsub">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="/kjw0612/awesome-deep-vision/commits?author=myungsub"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by myungsub">myungsub</a>
+
+
+  committed
+  <relative-time datetime="2017-03-13T16:18:55Z">Mar 13, 2017</relative-time>
+
+
+
+      <a href="/kjw0612/awesome-deep-vision/commit/42564247eba6f4d19ab7bdb2af535fc5c1b2f4cf" class="message" data-pjax="true" title="Added human pose estimation papers #71">Added human pose estimation papers</a> <a href="https://github.com/kjw0612/awesome-deep-vision/issues/71" class="issue-link js-issue-link" data-url="https://github.com/kjw0612/awesome-deep-vision/issues/71" data-id="210539762" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#71</a>
+
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/kjw0612/awesome-deep-vision/tree/42564247eba6f4d19ab7bdb2af535fc5c1b2f4cf">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-a181ed01975a686cc754fd1e29e7c3dcf74c5b69" href="/kjw0612/awesome-deep-vision/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added human pose estimation papers #71" class="message" href="/kjw0612/awesome-deep-vision/commit/42564247eba6f4d19ab7bdb2af535fc5c1b2f4cf">Added human pose estimation papers</a> <a href="https://github.com/kjw0612/awesome-deep-vision/issues/71" class="issue-link js-issue-link" data-url="https://github.com/kjw0612/awesome-deep-vision/issues/71" data-id="210539762" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#71</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-13T16:18:55Z">Mar 13, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#awesome-deep-vision-" aria-hidden="true" class="anchor" id="user-content-awesome-deep-vision-"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Deep Vision <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of deep learning resources for computer vision, inspired by <a href="https://github.com/ziadoz/awesome-php">awesome-php</a> and <a href="https://github.com/jbhuang0604/awesome-computer-vision">awesome-computer-vision</a>.</p>
+<p>Maintainers - <a href="https://github.com/kjw0612">Jiwon Kim</a>, <a href="https://github.com/hmyeong">Heesoo Myeong</a>, <a href="https://github.com/myungsub">Myungsub Choi</a>, <a href="https://github.com/deruci">Jung Kwon Lee</a>, <a href="https://github.com/jazzsaxmafia">Taeksoo Kim</a></p>
+<p>We are looking for a maintainer! Let me know (<a href="mailto:jiwon@alum.mit.edu">jiwon@alum.mit.edu</a>) if interested.</p>
+<h2><a href="#contributing" aria-hidden="true" class="anchor" id="user-content-contributing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Please feel free to <a href="https://github.com/kjw0612/awesome-deep-vision/pulls">pull requests</a> to add papers.</p>
+<p><a href="https://gitter.im/kjw0612/awesome-deep-vision?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" rel="nofollow"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Join the chat at https://gitter.im/kjw0612/awesome-deep-vision" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a></p>
+<h2><a href="#sharing" aria-hidden="true" class="anchor" id="user-content-sharing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sharing</h2>
+<ul>
+<li>[Share on Twitter](<a href="http://twitter.com/home?status=http://jiwonkim.org/awesome-deep-vision%0ADeep" rel="nofollow">http://twitter.com/home?status=http://jiwonkim.org/awesome-deep-vision%0ADeep</a> Learning Resources for Computer Vision)</li>
+<li><a href="http://www.facebook.com/sharer/sharer.php?u=https://jiwonkim.org/awesome-deep-vision" rel="nofollow">Share on Facebook</a></li>
+<li><a href="http://plus.google.com/share?url=https://jiwonkim.org/awesome-deep-vision" rel="nofollow">Share on Google Plus</a></li>
+<li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://jiwonkim.org/awesome-deep-vision&amp;title=Awesome%20Deep%20Vision&amp;summary=&amp;source=" rel="nofollow">Share on LinkedIn</a></li>
+</ul>
+<h2><a href="#table-of-contents" aria-hidden="true" class="anchor" id="user-content-table-of-contents"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#papers">Papers</a>
+<ul>
+<li><a href="#imagenet-classification">ImageNet Classification</a></li>
+<li><a href="#object-detection">Object Detection</a></li>
+<li><a href="#object-tracking">Object Tracking</a></li>
+<li><a href="#low-level-vision">Low-Level Vision</a>
+<ul>
+<li><a href="#super-resolution">Super-Resolution</a></li>
+<li><a href="#other-applications">Other Applications</a></li>
+</ul>
+</li>
+<li><a href="#edge-detection">Edge Detection</a></li>
+<li><a href="#semantic-segmentation">Semantic Segmentation</a></li>
+<li><a href="#visual-attention-and-saliency">Visual Attention and Saliency</a></li>
+<li><a href="#object-recognition">Object Recognition</a></li>
+<li><a href="#human-pose-estimation">Human Pose Estimation</a></li>
+<li><a href="#understanding-cnn">Understanding CNN</a></li>
+<li><a href="#image-and-language">Image and Language</a>
+<ul>
+<li><a href="#image-captioning">Image Captioning</a></li>
+<li><a href="#video-captioning">Video Captioning</a></li>
+<li><a href="#question-answering">Question Answering</a></li>
+</ul>
+</li>
+<li><a href="#image-generation">Image Generation</a></li>
+<li><a href="#other-topics">Other Topics</a></li>
+</ul>
+</li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#software">Software</a>
+<ul>
+<li><a href="#framework">Framework</a></li>
+<li><a href="#applications">Applications</a></li>
+</ul>
+</li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#blogs">Blogs</a></li>
+</ul>
+<h2><a href="#papers" aria-hidden="true" class="anchor" id="user-content-papers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Papers</h2>
+<h3><a href="#imagenet-classification" aria-hidden="true" class="anchor" id="user-content-imagenet-classification"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ImageNet Classification</h3>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8451949/327b9566-2022-11e5-8b34-53b4a64c13ad.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8451949/327b9566-2022-11e5-8b34-53b4a64c13ad.PNG" alt="classification" style="max-width:100%;"></a>
+(from Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, ImageNet Classification with Deep Convolutional Neural Networks, NIPS, 2012.)</p>
+<ul>
+<li>Microsoft (Deep Residual Learning) [<a href="http://arxiv.org/pdf/1512.03385v1.pdf" rel="nofollow">Paper</a>][<a href="http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf" rel="nofollow">Slide</a>]
+<ul>
+<li>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, Deep Residual Learning for Image Recognition, arXiv:1512.03385.</li>
+</ul>
+</li>
+<li>Microsoft (PReLu/Weight Initialization) <a href="http://arxiv.org/pdf/1502.01852" rel="nofollow">[Paper]</a>
+<ul>
+<li>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification, arXiv:1502.01852.</li>
+</ul>
+</li>
+<li>Batch Normalization <a href="http://arxiv.org/pdf/1502.03167" rel="nofollow">[Paper]</a>
+<ul>
+<li>Sergey Ioffe, Christian Szegedy, Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift, arXiv:1502.03167.</li>
+</ul>
+</li>
+<li>GoogLeNet <a href="http://arxiv.org/pdf/1409.4842" rel="nofollow">[Paper]</a>
+<ul>
+<li>Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich, CVPR, 2015.</li>
+</ul>
+</li>
+<li>VGG-Net <a href="http://www.robots.ox.ac.uk/%7Evgg/research/very_deep/" rel="nofollow">[Web]</a> <a href="http://arxiv.org/pdf/1409.1556" rel="nofollow">[Paper]</a>
+<ul>
+<li>Karen Simonyan and Andrew Zisserman, Very Deep Convolutional Networks for Large-Scale Visual Recognition, ICLR, 2015.</li>
+</ul>
+</li>
+<li>AlexNet <a href="http://papers.nips.cc/book/advances-in-neural-information-processing-systems-25-2012" rel="nofollow">[Paper]</a>
+<ul>
+<li>Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, ImageNet Classification with Deep Convolutional Neural Networks, NIPS, 2012.</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#object-detection" aria-hidden="true" class="anchor" id="user-content-object-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object Detection</h3>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8452063/f76ba500-2022-11e5-8db1-2cd5d490e3b3.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8452063/f76ba500-2022-11e5-8db1-2cd5d490e3b3.PNG" alt="object_detection" style="max-width:100%;"></a>
+(from Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, arXiv:1506.01497.)</p>
+<ul>
+<li>PVANET <a href="https://arxiv.org/pdf/1608.08021" rel="nofollow">[Paper]</a> <a href="https://github.com/sanghoon/pva-faster-rcnn">[Code]</a>
+<ul>
+<li>Kye-Hyeon Kim, Sanghoon Hong, Byungseok Roh, Yeongjae Cheon, Minje Park, PVANET: Deep but Lightweight Neural Networks for Real-time Object Detection, arXiv:1608.08021</li>
+</ul>
+</li>
+<li>OverFeat, NYU <a href="http://arxiv.org/pdf/1312.6229.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks, ICLR, 2014.</li>
+</ul>
+</li>
+<li>R-CNN, UC Berkeley <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf" rel="nofollow">[Paper-CVPR14]</a> <a href="http://arxiv.org/pdf/1311.2524" rel="nofollow">[Paper-arXiv14]</a>
+<ul>
+<li>Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik, Rich feature hierarchies for accurate object detection and semantic segmentation, CVPR, 2014.</li>
+</ul>
+</li>
+<li>SPP, Microsoft Research <a href="http://arxiv.org/pdf/1406.4729" rel="nofollow">[Paper]</a>
+<ul>
+<li>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, ECCV, 2014.</li>
+</ul>
+</li>
+<li>Fast R-CNN, Microsoft Research <a href="http://arxiv.org/pdf/1504.08083" rel="nofollow">[Paper]</a>
+<ul>
+<li>Ross Girshick, Fast R-CNN, arXiv:1504.08083.</li>
+</ul>
+</li>
+<li>Faster R-CNN, Microsoft Research <a href="http://arxiv.org/pdf/1506.01497" rel="nofollow">[Paper]</a>
+<ul>
+<li>Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, arXiv:1506.01497.</li>
+</ul>
+</li>
+<li>R-CNN minus R, Oxford <a href="http://arxiv.org/pdf/1506.06981" rel="nofollow">[Paper]</a>
+<ul>
+<li>Karel Lenc, Andrea Vedaldi, R-CNN minus R, arXiv:1506.06981.</li>
+</ul>
+</li>
+<li>End-to-end people detection in crowded scenes <a href="http://arxiv.org/abs/1506.04878" rel="nofollow">[Paper]</a>
+<ul>
+<li>Russell Stewart, Mykhaylo Andriluka, End-to-end people detection in crowded scenes, arXiv:1506.04878.</li>
+</ul>
+</li>
+<li>You Only Look Once: Unified, Real-Time Object Detection <a href="http://arxiv.org/abs/1506.02640" rel="nofollow">[Paper]</a>, <a href="https://arxiv.org/abs/1612.08242" rel="nofollow">[Paper Version 2]</a>, <a href="https://github.com/pjreddie/darknet">[C Code]</a>, <a href="https://github.com/thtrieu/darkflow">[Tensorflow Code]</a>
+<ul>
+<li>Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, You Only Look Once: Unified, Real-Time Object Detection, arXiv:1506.02640</li>
+<li>Joseph Redmon, Ali Farhadi (Version 2)</li>
+</ul>
+</li>
+<li>Inside-Outside Net <a href="http://arxiv.org/abs/1512.04143" rel="nofollow">[Paper]</a>
+<ul>
+<li>Sean Bell, C. Lawrence Zitnick, Kavita Bala, Ross Girshick, Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks</li>
+</ul>
+</li>
+<li>Deep Residual Network (Current State-of-the-Art) <a href="http://arxiv.org/abs/1512.03385" rel="nofollow">[Paper]</a>
+<ul>
+<li>Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun, Deep Residual Learning for Image Recognition</li>
+</ul>
+</li>
+<li>Weakly Supervised Object Localization with Multi-fold Multiple Instance Learning [<a href="http://arxiv.org/pdf/1503.00949.pdf" rel="nofollow">Paper</a>]</li>
+<li>R-FCN <a href="https://arxiv.org/abs/1605.06409" rel="nofollow">[Paper]</a> <a href="https://github.com/daijifeng001/R-FCN">[Code]</a>
+<ul>
+<li>Jifeng Dai, Yi Li, Kaiming He, Jian Sun, R-FCN: Object Detection via Region-based Fully Convolutional Networks</li>
+</ul>
+</li>
+<li>SSD <a href="https://arxiv.org/pdf/1512.02325v2.pdf" rel="nofollow">[Paper]</a> <a href="https://github.com/weiliu89/caffe/tree/ssd">[Code]</a>
+<ul>
+<li>Wei Liu1, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, Alexander C. Berg, SSD: Single Shot MultiBox Detector, arXiv:1512.02325</li>
+</ul>
+</li>
+<li>Speed/accuracy trade-offs for modern convolutional object detectors <a href="https://arxiv.org/pdf/1611.10012v1.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Jonathan Huang, Vivek Rathod, Chen Sun, Menglong Zhu, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, Kevin Murphy, Google Research, arXiv:1611.10012</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#video-classification" aria-hidden="true" class="anchor" id="user-content-video-classification"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video Classification</h3>
+<ul>
+<li>Nicolas Ballas, Li Yao, Pal Chris, Aaron Courville, "Delving Deeper into Convolutional Networks for Learning Video Representations", ICLR 2016. [<a href="http://arxiv.org/pdf/1511.06432v4.pdf" rel="nofollow">Paper</a>]</li>
+<li>Michael Mathieu, camille couprie, Yann Lecun, "Deep Multi Scale Video Prediction Beyond Mean Square Error", ICLR 2016. [<a href="http://arxiv.org/pdf/1511.05440v6.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+<h3><a href="#object-tracking" aria-hidden="true" class="anchor" id="user-content-object-tracking"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object Tracking</h3>
+<ul>
+<li>Seunghoon Hong, Tackgeun You, Suha Kwak, Bohyung Han, Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network, arXiv:1502.06796. <a href="http://arxiv.org/pdf/1502.06796" rel="nofollow">[Paper]</a></li>
+<li>Hanxi Li, Yi Li and Fatih Porikli, DeepTrack: Learning Discriminative Feature Representations by Convolutional Neural Networks for Visual Tracking, BMVC, 2014. <a href="http://www.bmva.org/bmvc/2014/files/paper028.pdf" rel="nofollow">[Paper]</a></li>
+<li>N Wang, DY Yeung, Learning a Deep Compact Image Representation for Visual Tracking, NIPS, 2013. <a href="http://winsty.net/papers/dlt.pdf" rel="nofollow">[Paper]</a></li>
+<li>Chao Ma, Jia-Bin Huang, Xiaokang Yang and Ming-Hsuan Yang, Hierarchical Convolutional Features for Visual Tracking, ICCV 2015 [<a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf" rel="nofollow">Paper</a>] [<a href="https://github.com/jbhuang0604/CF2">Code</a>]</li>
+<li>Lijun Wang, Wanli Ouyang, Xiaogang Wang, and Huchuan Lu, Visual Tracking with fully Convolutional Networks, ICCV 2015  [<a href="http://202.118.75.4/lu/Paper/ICCV2015/iccv15_lijun.pdf" rel="nofollow">Paper</a>] [<a href="https://github.com/scott89/FCNT">Code</a>]</li>
+<li>Hyeonseob Namand Bohyung Han, Learning Multi-Domain Convolutional Neural Networks for Visual Tracking, [<a href="http://arxiv.org/pdf/1510.07945.pdf" rel="nofollow">Paper</a>] [<a href="https://github.com/HyeonseobNam/MDNet">Code</a>] [<a href="http://cvlab.postech.ac.kr/research/mdnet/" rel="nofollow">Project Page</a>]</li>
+</ul>
+<h3><a href="#low-level-vision" aria-hidden="true" class="anchor" id="user-content-low-level-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Low-Level Vision</h3>
+<h4><a href="#super-resolution" aria-hidden="true" class="anchor" id="user-content-super-resolution"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Super-Resolution</h4>
+<ul>
+<li>Iterative Image Reconstruction
+<ul>
+<li>Sven Behnke: Learning Iterative Image Reconstruction. IJCAI, 2001. <a href="http://www.ais.uni-bonn.de/behnke/papers/ijcai01.pdf" rel="nofollow">[Paper]</a></li>
+<li>Sven Behnke: Learning Iterative Image Reconstruction in the Neural Abstraction Pyramid. International Journal of Computational Intelligence and Applications, vol. 1, no. 4, pp. 427-438, 2001. <a href="http://www.ais.uni-bonn.de/behnke/papers/ijcia01.pdf" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Super-Resolution (SRCNN) <a href="http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html" rel="nofollow">[Web]</a> <a href="http://personal.ie.cuhk.edu.hk/%7Eccloy/files/eccv_2014_deepresolution.pdf" rel="nofollow">[Paper-ECCV14]</a> <a href="http://arxiv.org/pdf/1501.00092.pdf" rel="nofollow">[Paper-arXiv15]</a>
+<ul>
+<li>Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang, Learning a Deep Convolutional Network for Image Super-Resolution, ECCV, 2014.</li>
+<li>Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang, Image Super-Resolution Using Deep Convolutional Networks, arXiv:1501.00092.</li>
+</ul>
+</li>
+<li>Very Deep Super-Resolution
+<ul>
+<li>Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee, Accurate Image Super-Resolution Using Very Deep Convolutional Networks, arXiv:1511.04587, 2015. <a href="http://arxiv.org/abs/1511.04587" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Deeply-Recursive Convolutional Network
+<ul>
+<li>Jiwon Kim, Jung Kwon Lee, Kyoung Mu Lee, Deeply-Recursive Convolutional Network for Image Super-Resolution, arXiv:1511.04491, 2015. <a href="http://arxiv.org/abs/1511.04491" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Casade-Sparse-Coding-Network
+<ul>
+<li>Zhaowen Wang, Ding Liu, Wei Han, Jianchao Yang and Thomas S. Huang, Deep Networks for Image Super-Resolution with Sparse Prior. ICCV, 2015. <a href="http://www.ifp.illinois.edu/%7Edingliu2/iccv15/iccv15.pdf" rel="nofollow">[Paper]</a> <a href="http://www.ifp.illinois.edu/%7Edingliu2/iccv15/" rel="nofollow">[Code]</a></li>
+</ul>
+</li>
+<li>Perceptual Losses for Super-Resolution
+<ul>
+<li>Justin Johnson, Alexandre Alahi, Li Fei-Fei, Perceptual Losses for Real-Time Style Transfer and Super-Resolution, arXiv:1603.08155, 2016. <a href="http://arxiv.org/abs/1603.08155" rel="nofollow">[Paper]</a> <a href="http://cs.stanford.edu/people/jcjohns/papers/fast-style/fast-style-supp.pdf" rel="nofollow">[Supplementary]</a></li>
+</ul>
+</li>
+<li>SRGAN
+<ul>
+<li>Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi, Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network, arXiv:1609.04802v3, 2016. <a href="https://arxiv.org/pdf/1609.04802v3.pdf" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Others
+<ul>
+<li>Osendorfer, Christian, Hubert Soyer, and Patrick van der Smagt, Image Super-Resolution with Fast Approximate Convolutional Sparse Coding, ICONIP, 2014. <a href="http://brml.org/uploads/tx_sibibtex/281.pdf" rel="nofollow">[Paper ICONIP-2014]</a></li>
+</ul>
+</li>
+</ul>
+<h4><a href="#other-applications" aria-hidden="true" class="anchor" id="user-content-other-applications"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Applications</h4>
+<ul>
+<li>Optical Flow (FlowNet) <a href="http://arxiv.org/pdf/1504.06852" rel="nofollow">[Paper]</a>
+<ul>
+<li>Philipp Fischer, Alexey Dosovitskiy, Eddy Ilg, Philip Häusser, Caner Hazırbaş, Vladimir Golkov, Patrick van der Smagt, Daniel Cremers, Thomas Brox, FlowNet: Learning Optical Flow with Convolutional Networks, arXiv:1504.06852.</li>
+</ul>
+</li>
+<li>Compression Artifacts Reduction <a href="http://arxiv.org/pdf/1504.06993" rel="nofollow">[Paper-arXiv15]</a>
+<ul>
+<li>Chao Dong, Yubin Deng, Chen Change Loy, Xiaoou Tang, Compression Artifacts Reduction by a Deep Convolutional Network, arXiv:1504.06993.</li>
+</ul>
+</li>
+<li>Blur Removal
+<ul>
+<li>Christian J. Schuler, Michael Hirsch, Stefan Harmeling, Bernhard Schölkopf, Learning to Deblur, arXiv:1406.7444 <a href="http://arxiv.org/pdf/1406.7444.pdf" rel="nofollow">[Paper]</a></li>
+<li>Jian Sun, Wenfei Cao, Zongben Xu, Jean Ponce, Learning a Convolutional Neural Network for Non-uniform Motion Blur Removal, CVPR, 2015 <a href="http://arxiv.org/pdf/1503.00593" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Image Deconvolution <a href="http://lxu.me/projects/dcnn/" rel="nofollow">[Web]</a> <a href="http://lxu.me/mypapers/dcnn_nips14.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Li Xu, Jimmy SJ. Ren, Ce Liu, Jiaya Jia, Deep Convolutional Neural Network for Image Deconvolution, NIPS, 2014.</li>
+</ul>
+</li>
+<li>Deep Edge-Aware Filter <a href="http://jmlr.org/proceedings/papers/v37/xub15.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Li Xu, Jimmy SJ. Ren, Qiong Yan, Renjie Liao, Jiaya Jia, Deep Edge-Aware Filters, ICML, 2015.</li>
+</ul>
+</li>
+<li>Computing the Stereo Matching Cost with a Convolutional Neural Network <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zbontar_Computing_the_Stereo_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Jure Žbontar, Yann LeCun, Computing the Stereo Matching Cost with a Convolutional Neural Network, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Colorful Image Colorization Richard Zhang, Phillip Isola, Alexei A. Efros, ECCV, 2016 <a href="http://arxiv.org/pdf/1603.08511.pdf" rel="nofollow">[Paper]</a>, <a href="https://github.com/richzhang/colorization">[Code]</a></li>
+<li>Ryan Dahl, <a href="http://tinyclouds.org/colorize/" rel="nofollow">[Blog]</a></li>
+<li>Feature Learning by Inpainting<a href="https://arxiv.org/pdf/1604.07379v1.pdf" rel="nofollow">[Paper]</a><a href="https://github.com/pathak22/context-encoder">[Code]</a>
+<ul>
+<li>Deepak Pathak, Philipp Krahenbuhl, Jeff Donahue, Trevor Darrell, Alexei A. Efros, Context Encoders: Feature Learning by Inpainting, CVPR, 2016</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#edge-detection" aria-hidden="true" class="anchor" id="user-content-edge-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Edge Detection</h3>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8452371/93ca6f7e-2025-11e5-90f2-d428fd5ff7ac.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8452371/93ca6f7e-2025-11e5-90f2-d428fd5ff7ac.PNG" alt="edge_detection" style="max-width:100%;"></a>
+(from Gedas Bertasius, Jianbo Shi, Lorenzo Torresani, DeepEdge: A Multi-Scale Bifurcated Deep Network for Top-Down Contour Detection, CVPR, 2015.)</p>
+<ul>
+<li>Holistically-Nested Edge Detection <a href="http://arxiv.org/pdf/1504.06375" rel="nofollow">[Paper]</a> <a href="https://github.com/s9xie/hed">[Code]</a>
+<ul>
+<li>Saining Xie, Zhuowen Tu, Holistically-Nested Edge Detection, arXiv:1504.06375.</li>
+</ul>
+</li>
+<li>DeepEdge <a href="http://arxiv.org/pdf/1412.1123" rel="nofollow">[Paper]</a>
+<ul>
+<li>Gedas Bertasius, Jianbo Shi, Lorenzo Torresani, DeepEdge: A Multi-Scale Bifurcated Deep Network for Top-Down Contour Detection, CVPR, 2015.</li>
+</ul>
+</li>
+<li>DeepContour <a href="http://mc.eistar.net/UpLoadFiles/Papers/DeepContour_cvpr15.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Wei Shen, Xinggang Wang, Yan Wang, Xiang Bai, Zhijiang Zhang, DeepContour: A Deep Convolutional Feature Learned by Positive-Sharing Loss for Contour Detection, CVPR, 2015.</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#semantic-segmentation" aria-hidden="true" class="anchor" id="user-content-semantic-segmentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Semantic Segmentation</h3>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8452076/0ba8340c-2023-11e5-88bc-bebf4509b6bb.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8452076/0ba8340c-2023-11e5-88bc-bebf4509b6bb.PNG" alt="semantic_segmantation" style="max-width:100%;"></a>
+(from Jifeng Dai, Kaiming He, Jian Sun, BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, arXiv:1503.01640.)</p>
+<ul>
+<li>PASCAL VOC2012 Challenge Leaderboard (01 Sep. 2016)
+<a href="https://cloud.githubusercontent.com/assets/3803777/18164608/c3678488-7038-11e6-9ec1-74a1542dce13.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/3803777/18164608/c3678488-7038-11e6-9ec1-74a1542dce13.png" alt="VOC2012_top_rankings" style="max-width:100%;"></a>
+(from PASCAL VOC2012 <a href="http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&amp;compid=6" rel="nofollow">leaderboards</a>)</li>
+<li>SEC: Seed, Expand and Constrain
+<ul>
+<li>Alexander Kolesnikov, Christoph Lampert, Seed, Expand and Constrain: Three Principles for Weakly-Supervised Image Segmentation, ECCV, 2016. <a href="http://pub.ist.ac.at/%7Eakolesnikov/files/ECCV2016/main.pdf" rel="nofollow">[Paper]</a> <a href="https://github.com/kolesman/SEC">[Code]</a></li>
+</ul>
+</li>
+<li>Adelaide
+<ul>
+<li>Guosheng Lin, Chunhua Shen, Ian Reid, Anton van dan Hengel, Efficient piecewise training of deep structured models for semantic segmentation, arXiv:1504.01013. <a href="http://arxiv.org/pdf/1504.01013" rel="nofollow">[Paper]</a> (1st ranked in VOC2012)</li>
+<li>Guosheng Lin, Chunhua Shen, Ian Reid, Anton van den Hengel, Deeply Learning the Messages in Message Passing Inference, arXiv:1508.02108. <a href="http://arxiv.org/pdf/1506.02108" rel="nofollow">[Paper]</a> (4th ranked in VOC2012)</li>
+</ul>
+</li>
+<li>Deep Parsing Network (DPN)
+<ul>
+<li>Ziwei Liu, Xiaoxiao Li, Ping Luo, Chen Change Loy, Xiaoou Tang, Semantic Image Segmentation via Deep Parsing Network, arXiv:1509.02634 / ICCV 2015 <a href="http://arxiv.org/pdf/1509.02634.pdf" rel="nofollow">[Paper]</a> (2nd ranked in VOC 2012)</li>
+</ul>
+</li>
+<li>CentraleSuperBoundaries, INRIA <a href="http://arxiv.org/pdf/1511.07386" rel="nofollow">[Paper]</a>
+<ul>
+<li>Iasonas Kokkinos, Surpassing Humans in Boundary Detection using Deep Learning, arXiv:1411.07386 (4th ranked in VOC 2012)</li>
+</ul>
+</li>
+<li>BoxSup <a href="http://arxiv.org/pdf/1503.01640" rel="nofollow">[Paper]</a>
+<ul>
+<li>Jifeng Dai, Kaiming He, Jian Sun, BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, arXiv:1503.01640. (6th ranked in VOC2012)</li>
+</ul>
+</li>
+<li>POSTECH
+<ul>
+<li>Hyeonwoo Noh, Seunghoon Hong, Bohyung Han, Learning Deconvolution Network for Semantic Segmentation, arXiv:1505.04366. <a href="http://arxiv.org/pdf/1505.04366" rel="nofollow">[Paper]</a> (7th ranked in VOC2012)</li>
+<li>Seunghoon Hong, Hyeonwoo Noh, Bohyung Han, Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation, arXiv:1506.04924. <a href="http://arxiv.org/pdf/1506.04924" rel="nofollow">[Paper]</a></li>
+<li>Seunghoon Hong,Junhyuk Oh,	Bohyung Han, and	Honglak Lee, Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network, arXiv:1512.07928 [<a href="http://arxiv.org/pdf/1512.07928.pdf" rel="nofollow">Paper</a>] [<a href="http://cvlab.postech.ac.kr/research/transfernet/" rel="nofollow">Project Page</a>]</li>
+</ul>
+</li>
+<li>Conditional Random Fields as Recurrent Neural Networks <a href="http://arxiv.org/pdf/1502.03240" rel="nofollow">[Paper]</a>
+<ul>
+<li>Shuai Zheng, Sadeep Jayasumana, Bernardino Romera-Paredes, Vibhav Vineet, Zhizhong Su, Dalong Du, Chang Huang, Philip H. S. Torr, Conditional Random Fields as Recurrent Neural Networks, arXiv:1502.03240. (8th ranked in VOC2012)</li>
+</ul>
+</li>
+<li>DeepLab
+<ul>
+<li>Liang-Chieh Chen, George Papandreou, Kevin Murphy, Alan L. Yuille, Weakly-and semi-supervised learning of a DCNN for semantic image segmentation, arXiv:1502.02734. <a href="http://arxiv.org/pdf/1502.02734" rel="nofollow">[Paper]</a> (9th ranked in VOC2012)</li>
+</ul>
+</li>
+<li>Zoom-out <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Mohammadreza Mostajabi, Payman Yadollahpour, Gregory Shakhnarovich, Feedforward Semantic Segmentation With Zoom-Out Features, CVPR, 2015</li>
+</ul>
+</li>
+<li>Joint Calibration <a href="http://arxiv.org/pdf/1507.01581" rel="nofollow">[Paper]</a>
+<ul>
+<li>Holger Caesar, Jasper Uijlings, Vittorio Ferrari, Joint Calibration for Semantic Segmentation, arXiv:1507.01581.</li>
+</ul>
+</li>
+<li>Fully Convolutional Networks for Semantic Segmentation <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf" rel="nofollow">[Paper-CVPR15]</a> <a href="http://arxiv.org/pdf/1411.4038" rel="nofollow">[Paper-arXiv15]</a>
+<ul>
+<li>Jonathan Long, Evan Shelhamer, Trevor Darrell, Fully Convolutional Networks for Semantic Segmentation, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Hypercolumn <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hariharan_Hypercolumns_for_Object_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Bharath Hariharan, Pablo Arbelaez, Ross Girshick, Jitendra Malik, Hypercolumns for Object Segmentation and Fine-Grained Localization, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Deep Hierarchical Parsing
+<ul>
+<li>Abhishek Sharma, Oncel Tuzel, David W. Jacobs, Deep Hierarchical Parsing for Semantic Segmentation, CVPR, 2015. <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sharma_Deep_Hierarchical_Parsing_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Learning Hierarchical Features for Scene Labeling <a href="http://yann.lecun.com/exdb/publis/pdf/farabet-icml-12.pdf" rel="nofollow">[Paper-ICML12]</a> <a href="http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf" rel="nofollow">[Paper-PAMI13]</a>
+<ul>
+<li>Clement Farabet, Camille Couprie, Laurent Najman, Yann LeCun, Scene Parsing with Multiscale Feature Learning, Purity Trees, and Optimal Covers, ICML, 2012.</li>
+<li>Clement Farabet, Camille Couprie, Laurent Najman, Yann LeCun, Learning Hierarchical Features for Scene Labeling, PAMI, 2013.</li>
+</ul>
+</li>
+<li>University of Cambridge <a href="http://mi.eng.cam.ac.uk/projects/segnet/" rel="nofollow">[Web]</a>
+<ul>
+<li>Vijay Badrinarayanan, Alex Kendall and Roberto Cipolla "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation." arXiv preprint arXiv:1511.00561, 2015. <a href="http://arxiv.org/abs/1511.00561" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Alex Kendall, Vijay Badrinarayanan and Roberto Cipolla "Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding." arXiv preprint arXiv:1511.02680, 2015. <a href="http://arxiv.org/abs/1511.00561" rel="nofollow">[Paper]</a></li>
+<li>Princeton
+<ul>
+<li>Fisher Yu, Vladlen Koltun, "Multi-Scale Context Aggregation by Dilated Convolutions", ICLR 2016, [<a href="http://arxiv.org/pdf/1511.07122v2.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+<li>Univ. of Washington, Allen AI
+<ul>
+<li>Hamid Izadinia, Fereshteh Sadeghi, Santosh Kumar Divvala, Yejin Choi, Ali Farhadi, "Segment-Phrase Table for Semantic Segmentation, Visual Entailment and Paraphrasing", ICCV, 2015, [<a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Izadinia_Segment-Phrase_Table_for_ICCV_2015_paper.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+<li>INRIA
+<ul>
+<li>Iasonas Kokkinos, "Pusing the Boundaries of Boundary Detection Using deep Learning", ICLR 2016, [<a href="http://arxiv.org/pdf/1511.07386v2.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+<li>UCSB
+<ul>
+<li>Niloufar Pourian, S. Karthikeyan, and B.S. Manjunath, "Weakly supervised graph based semantic segmentation by learning communities of image-parts", ICCV, 2015, [<a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Pourian_Weakly_Supervised_Graph_ICCV_2015_paper.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#visual-attention-and-saliency" aria-hidden="true" class="anchor" id="user-content-visual-attention-and-saliency"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visual Attention and Saliency</h3>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8492362/7ec65b88-2183-11e5-978f-017e45ddba32.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8492362/7ec65b88-2183-11e5-978f-017e45ddba32.png" alt="saliency" style="max-width:100%;"></a>
+(from Nian Liu, Junwei Han, Dingwen Zhang, Shifeng Wen, Tianming Liu, Predicting Eye Fixations using Convolutional Neural Networks, CVPR, 2015.)</p>
+<ul>
+<li>Mr-CNN <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Predicting_Eye_Fixations_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Nian Liu, Junwei Han, Dingwen Zhang, Shifeng Wen, Tianming Liu, Predicting Eye Fixations using Convolutional Neural Networks, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Learning a Sequential Search for Landmarks <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Singh_Learning_a_Sequential_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Saurabh Singh, Derek Hoiem, David Forsyth, Learning a Sequential Search for Landmarks, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Multiple Object Recognition with Visual Attention <a href="http://arxiv.org/pdf/1412.7755.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Jimmy Lei Ba, Volodymyr Mnih, Koray Kavukcuoglu, Multiple Object Recognition with Visual Attention, ICLR, 2015.</li>
+</ul>
+</li>
+<li>Recurrent Models of Visual Attention <a href="http://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu, Recurrent Models of Visual Attention, NIPS, 2014.</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#object-recognition" aria-hidden="true" class="anchor" id="user-content-object-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object Recognition</h3>
+<ul>
+<li>Weakly-supervised learning with convolutional neural networks <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Oquab_Is_Object_Localization_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Maxime Oquab, Leon Bottou, Ivan Laptev, Josef Sivic, Is object localization for free? – Weakly-supervised learning with convolutional neural networks, CVPR, 2015.</li>
+</ul>
+</li>
+<li>FV-CNN <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Cimpoi_Deep_Filter_Banks_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Mircea Cimpoi, Subhransu Maji, Andrea Vedaldi, Deep Filter Banks for Texture Recognition and Segmentation, CVPR, 2015.</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#human-pose-estimation" aria-hidden="true" class="anchor" id="user-content-human-pose-estimation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Human Pose Estimation</h3>
+<ul>
+<li>Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh, Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields, CVPR, 2017.</li>
+<li>Leonid Pishchulin, Eldar Insafutdinov, Siyu Tang, Bjoern Andres, Mykhaylo Andriluka, Peter Gehler, and Bernt Schiele, Deepcut: Joint subset partition and labeling for multi person pose estimation, CVPR, 2016.</li>
+<li>Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh, Convolutional pose machines, CVPR, 2016.</li>
+<li>Alejandro Newell, Kaiyu Yang, and Jia Deng, Stacked hourglass networks for human pose estimation, ECCV, 2016.</li>
+<li>Tomas Pfister, James Charles, and Andrew Zisserman, Flowing convnets for human pose estimation in videos, ICCV, 2015.</li>
+<li>Jonathan J. Tompson, Arjun Jain, Yann LeCun, Christoph Bregler, Joint training of a convolutional network and a graphical model for human pose estimation, NIPS, 2014.</li>
+</ul>
+<h3><a href="#understanding-cnn" aria-hidden="true" class="anchor" id="user-content-understanding-cnn"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Understanding CNN</h3>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8452083/1aaa0066-2023-11e5-800b-2248ead51584.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8452083/1aaa0066-2023-11e5-800b-2248ead51584.PNG" alt="understanding" style="max-width:100%;"></a>
+(from Aravindh Mahendran, Andrea Vedaldi, Understanding Deep Image Representations by Inverting Them, CVPR, 2015.)</p>
+<ul>
+<li>Karel Lenc, Andrea Vedaldi, Understanding image representations by measuring their equivariance and equivalence, CVPR, 2015. <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lenc_Understanding_Image_Representations_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a></li>
+<li>Anh Nguyen, Jason Yosinski, Jeff Clune, Deep Neural Networks are Easily Fooled:High Confidence Predictions for Unrecognizable Images, CVPR, 2015. <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a></li>
+<li>Aravindh Mahendran, Andrea Vedaldi, Understanding Deep Image Representations by Inverting Them, CVPR, 2015. <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mahendran_Understanding_Deep_Image_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a></li>
+<li>Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba, Object Detectors Emerge in Deep Scene CNNs, ICLR, 2015. <a href="http://arxiv.org/abs/1412.6856" rel="nofollow">[arXiv Paper]</a></li>
+<li>Alexey Dosovitskiy, Thomas Brox, Inverting Visual Representations with Convolutional Networks, arXiv, 2015. <a href="http://arxiv.org/abs/1506.02753" rel="nofollow">[Paper]</a></li>
+<li>Matthrew Zeiler, Rob Fergus, Visualizing and Understanding Convolutional Networks, ECCV, 2014. <a href="https://www.cs.nyu.edu/%7Efergus/papers/zeilerECCV2014.pdf" rel="nofollow">[Paper]</a></li>
+</ul>
+<h3><a href="#image-and-language" aria-hidden="true" class="anchor" id="user-content-image-and-language"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image and Language</h3>
+<h4><a href="#image-captioning" aria-hidden="true" class="anchor" id="user-content-image-captioning"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Captioning</h4>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8452051/e8f81030-2022-11e5-85db-c68e7d8251ce.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8452051/e8f81030-2022-11e5-85db-c68e7d8251ce.PNG" alt="image_captioning" style="max-width:100%;"></a>
+(from Andrej Karpathy, Li Fei-Fei, Deep Visual-Semantic Alignments for Generating Image Description, CVPR, 2015.)</p>
+<ul>
+<li>UCLA / Baidu <a href="http://arxiv.org/pdf/1410.1090" rel="nofollow">[Paper]</a>
+<ul>
+<li>Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Alan L. Yuille, Explain Images with Multimodal Recurrent Neural Networks, arXiv:1410.1090.</li>
+</ul>
+</li>
+<li>Toronto <a href="http://arxiv.org/pdf/1411.2539" rel="nofollow">[Paper]</a>
+<ul>
+<li>Ryan Kiros, Ruslan Salakhutdinov, Richard S. Zemel, Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models, arXiv:1411.2539.</li>
+</ul>
+</li>
+<li>Berkeley <a href="http://arxiv.org/pdf/1411.4389" rel="nofollow">[Paper]</a>
+<ul>
+<li>Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, Trevor Darrell, Long-term Recurrent Convolutional Networks for Visual Recognition and Description, arXiv:1411.4389.</li>
+</ul>
+</li>
+<li>Google <a href="http://arxiv.org/pdf/1411.4555" rel="nofollow">[Paper]</a>
+<ul>
+<li>Oriol Vinyals, Alexander Toshev, Samy Bengio, Dumitru Erhan, Show and Tell: A Neural Image Caption Generator, arXiv:1411.4555.</li>
+</ul>
+</li>
+<li>Stanford <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/" rel="nofollow">[Web]</a> <a href="http://cs.stanford.edu/people/karpathy/cvpr2015.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Andrej Karpathy, Li Fei-Fei, Deep Visual-Semantic Alignments for Generating Image Description, CVPR, 2015.</li>
+</ul>
+</li>
+<li>UML / UT <a href="http://arxiv.org/pdf/1412.4729" rel="nofollow">[Paper]</a>
+<ul>
+<li>Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, Kate Saenko, Translating Videos to Natural Language Using Deep Recurrent Neural Networks, NAACL-HLT, 2015.</li>
+</ul>
+</li>
+<li>CMU / Microsoft <a href="http://arxiv.org/pdf/1411.5654" rel="nofollow">[Paper-arXiv]</a> <a href="http://www.cs.cmu.edu/%7Exinleic/papers/cvpr15_rnn.pdf" rel="nofollow">[Paper-CVPR]</a>
+<ul>
+<li>Xinlei Chen, C. Lawrence Zitnick, Learning a Recurrent Visual Representation for Image Caption Generation, arXiv:1411.5654.</li>
+<li>Xinlei Chen, C. Lawrence Zitnick, Mind’s Eye: A Recurrent Visual Representation for Image Caption Generation, CVPR 2015</li>
+</ul>
+</li>
+<li>Microsoft <a href="http://arxiv.org/pdf/1411.4952" rel="nofollow">[Paper]</a>
+<ul>
+<li>Hao Fang, Saurabh Gupta, Forrest Iandola, Rupesh Srivastava, Li Deng, Piotr Dollár, Jianfeng Gao, Xiaodong He, Margaret Mitchell, John C. Platt, C. Lawrence Zitnick, Geoffrey Zweig, From Captions to Visual Concepts and Back, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Univ. Montreal / Univ. Toronto [<a href="http://kelvinxu.github.io/projects/capgen.html" rel="nofollow">Web</a>] [<a href="http://www.cs.toronto.edu/%7Ezemel/documents/captionAttn.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Kelvin Xu, Jimmy Lei Ba, Ryan Kiros, Kyunghyun Cho, Aaron Courville, Ruslan Salakhutdinov, Richard S. Zemel, Yoshua Bengio, Show, Attend, and Tell: Neural Image Caption Generation with Visual Attention, arXiv:1502.03044 / ICML 2015</li>
+</ul>
+</li>
+<li>Idiap / EPFL / Facebook [<a href="http://arxiv.org/pdf/1502.03671" rel="nofollow">Paper</a>]
+<ul>
+<li>Remi Lebret, Pedro O. Pinheiro, Ronan Collobert, Phrase-based Image Captioning, arXiv:1502.03671 / ICML 2015</li>
+</ul>
+</li>
+<li>UCLA / Baidu [<a href="http://arxiv.org/pdf/1504.06692" rel="nofollow">Paper</a>]
+<ul>
+<li>Junhua Mao, Wei Xu, Yi Yang, Jiang Wang, Zhiheng Huang, Alan L. Yuille, Learning like a Child: Fast Novel Visual Concept Learning from Sentence Descriptions of Images, arXiv:1504.06692</li>
+</ul>
+</li>
+<li>MS + Berkeley
+<ul>
+<li>Jacob Devlin, Saurabh Gupta, Ross Girshick, Margaret Mitchell, C. Lawrence Zitnick, Exploring Nearest Neighbor Approaches for Image Captioning, arXiv:1505.04467 [<a href="http://arxiv.org/pdf/1505.04467.pdf" rel="nofollow">Paper</a>]</li>
+<li>Jacob Devlin, Hao Cheng, Hao Fang, Saurabh Gupta, Li Deng, Xiaodong He, Geoffrey Zweig, Margaret Mitchell, Language Models for Image Captioning: The Quirks and What Works, arXiv:1505.01809 [<a href="http://arxiv.org/pdf/1505.01809.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+<li>Adelaide [<a href="http://arxiv.org/pdf/1506.01144.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Qi Wu, Chunhua Shen, Anton van den Hengel, Lingqiao Liu, Anthony Dick, Image Captioning with an Intermediate Attributes Layer, arXiv:1506.01144</li>
+</ul>
+</li>
+<li>Tilburg [<a href="http://arxiv.org/pdf/1506.03694.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Grzegorz Chrupala, Akos Kadar, Afra Alishahi, Learning language through pictures, arXiv:1506.03694</li>
+</ul>
+</li>
+<li>Univ. Montreal [<a href="http://arxiv.org/pdf/1507.01053.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Kyunghyun Cho, Aaron Courville, Yoshua Bengio, Describing Multimedia Content using Attention-based Encoder-Decoder Networks, arXiv:1507.01053</li>
+</ul>
+</li>
+<li>Cornell [<a href="http://arxiv.org/pdf/1508.02091.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Jack Hessel, Nicolas Savva, Michael J. Wilber, Image Representations and New Domains in Neural Image Captioning, arXiv:1508.02091</li>
+</ul>
+</li>
+<li>MS + City Univ. of HongKong [<a href="http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yao_Learning_Query_and_ICCV_2015_paper.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Ting Yao, Tao Mei, and Chong-Wah Ngo, "Learning Query and Image Similarities
+with Ranking Canonical Correlation Analysis", ICCV, 2015</li>
+</ul>
+</li>
+</ul>
+<h4><a href="#video-captioning" aria-hidden="true" class="anchor" id="user-content-video-captioning"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video Captioning</h4>
+<ul>
+<li>Berkeley <a href="http://jeffdonahue.com/lrcn/" rel="nofollow">[Web]</a> <a href="http://arxiv.org/pdf/1411.4389.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Jeff Donahue, Lisa Anne Hendricks, Sergio Guadarrama, Marcus Rohrbach, Subhashini Venugopalan, Kate Saenko, Trevor Darrell, Long-term Recurrent Convolutional Networks for Visual Recognition and Description, CVPR, 2015.</li>
+</ul>
+</li>
+<li>UT / UML / Berkeley <a href="http://arxiv.org/pdf/1412.4729" rel="nofollow">[Paper]</a>
+<ul>
+<li>Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond Mooney, Kate Saenko, Translating Videos to Natural Language Using Deep Recurrent Neural Networks, arXiv:1412.4729.</li>
+</ul>
+</li>
+<li>Microsoft <a href="http://arxiv.org/pdf/1505.01861" rel="nofollow">[Paper]</a>
+<ul>
+<li>Yingwei Pan, Tao Mei, Ting Yao, Houqiang Li, Yong Rui, Joint Modeling Embedding and Translation to Bridge Video and Language, arXiv:1505.01861.</li>
+</ul>
+</li>
+<li>UT / Berkeley / UML <a href="http://arxiv.org/pdf/1505.00487" rel="nofollow">[Paper]</a>
+<ul>
+<li>Subhashini Venugopalan, Marcus Rohrbach, Jeff Donahue, Raymond Mooney, Trevor Darrell, Kate Saenko, Sequence to Sequence--Video to Text, arXiv:1505.00487.</li>
+</ul>
+</li>
+<li>Univ. Montreal / Univ. Sherbrooke [<a href="http://arxiv.org/pdf/1502.08029.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Li Yao, Atousa Torabi, Kyunghyun Cho, Nicolas Ballas, Christopher Pal, Hugo Larochelle, Aaron Courville, Describing Videos by Exploiting Temporal Structure, arXiv:1502.08029</li>
+</ul>
+</li>
+<li>MPI / Berkeley [<a href="http://arxiv.org/pdf/1506.01698.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Anna Rohrbach, Marcus Rohrbach, Bernt Schiele, The Long-Short Story of Movie Description, arXiv:1506.01698</li>
+</ul>
+</li>
+<li>Univ. Toronto / MIT [<a href="http://arxiv.org/pdf/1506.06724.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, Sanja Fidler, Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books, arXiv:1506.06724</li>
+</ul>
+</li>
+<li>Univ. Montreal [<a href="http://arxiv.org/pdf/1507.01053.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Kyunghyun Cho, Aaron Courville, Yoshua Bengio, Describing Multimedia Content using Attention-based Encoder-Decoder Networks, arXiv:1507.01053</li>
+</ul>
+</li>
+<li>TAU / USC [<a href="https://arxiv.org/pdf/1612.06950.pdf" rel="nofollow">paper</a>]
+<ul>
+<li>Dotan Kaufman, Gil Levi, Tal Hassner, Lior Wolf, Temporal Tessellation for Video Annotation and Summarization, arXiv:1612.06950.</li>
+</ul>
+</li>
+</ul>
+<h4><a href="#question-answering" aria-hidden="true" class="anchor" id="user-content-question-answering"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Question Answering</h4>
+<p><a href="https://cloud.githubusercontent.com/assets/5226447/8452068/ffe7b1f6-2022-11e5-87ab-4f6d4696c220.PNG" target="_blank"><img src="https://cloud.githubusercontent.com/assets/5226447/8452068/ffe7b1f6-2022-11e5-87ab-4f6d4696c220.PNG" alt="question_answering" style="max-width:100%;"></a>
+(from Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, VQA: Visual Question Answering, CVPR, 2015 SUNw:Scene Understanding workshop)</p>
+<ul>
+<li>Virginia Tech / MSR <a href="http://www.visualqa.org/" rel="nofollow">[Web]</a> <a href="http://arxiv.org/pdf/1505.00468" rel="nofollow">[Paper]</a>
+<ul>
+<li>Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, VQA: Visual Question Answering, CVPR, 2015 SUNw:Scene Understanding workshop.</li>
+</ul>
+</li>
+<li>MPI / Berkeley <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/" rel="nofollow">[Web]</a> <a href="http://arxiv.org/pdf/1505.01121" rel="nofollow">[Paper]</a>
+<ul>
+<li>Mateusz Malinowski, Marcus Rohrbach, Mario Fritz, Ask Your Neurons: A Neural-based Approach to Answering Questions about Images, arXiv:1505.01121.</li>
+</ul>
+</li>
+<li>Toronto <a href="http://arxiv.org/pdf/1505.02074" rel="nofollow">[Paper]</a> <a href="http://www.cs.toronto.edu/%7Emren/imageqa/data/cocoqa/" rel="nofollow">[Dataset]</a>
+<ul>
+<li>Mengye Ren, Ryan Kiros, Richard Zemel, Image Question Answering: A Visual Semantic Embedding Model and a New Dataset, arXiv:1505.02074 / ICML 2015 deep learning workshop.</li>
+</ul>
+</li>
+<li>Baidu / UCLA <a href="http://arxiv.org/pdf/1505.05612" rel="nofollow">[Paper]</a> <a href="/kjw0612/awesome-deep-vision/blob/master">[Dataset]</a>
+<ul>
+<li>Hauyuan Gao, Junhua Mao, Jie Zhou, Zhiheng Huang, Lei Wang, Wei Xu, Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering, arXiv:1505.05612.</li>
+</ul>
+</li>
+<li>POSTECH [<a href="http://arxiv.org/pdf/1511.05756.pdf" rel="nofollow">Paper</a>] [<a href="http://cvlab.postech.ac.kr/research/dppnet/" rel="nofollow">Project Page</a>]
+<ul>
+<li>Hyeonwoo Noh, Paul Hongsuck Seo, and Bohyung Han, Image Question Answering using Convolutional Neural Network with Dynamic Parameter Prediction, arXiv:1511.05765</li>
+</ul>
+</li>
+<li>CMU / Microsoft Research [<a href="http://arxiv.org/pdf/1511.02274v2.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Yang, Z., He, X., Gao, J., Deng, L., &amp; Smola, A. (2015). Stacked Attention Networks for Image Question Answering. arXiv:1511.02274.</li>
+</ul>
+</li>
+<li>MetaMind [<a href="http://arxiv.org/pdf/1603.01417v1.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Xiong, Caiming, Stephen Merity, and Richard Socher. "Dynamic Memory Networks for Visual and Textual Question Answering." arXiv:1603.01417 (2016).</li>
+</ul>
+</li>
+<li>SNU + NAVER [<a href="http://arxiv.org/abs/1606.01455" rel="nofollow">Paper</a>]
+<ul>
+<li>Jin-Hwa Kim, Sang-Woo Lee, Dong-Hyun Kwak, Min-Oh Heo, Jeonghee Kim, Jung-Woo Ha, Byoung-Tak Zhang, <em>Multimodal Residual Learning for Visual QA</em>, arXiv:1606:01455</li>
+</ul>
+</li>
+<li>UC Berkeley + Sony [<a href="https://arxiv.org/pdf/1606.01847" rel="nofollow">Paper</a>]
+<ul>
+<li>Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach, <em>Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding</em>, arXiv:1606.01847</li>
+</ul>
+</li>
+<li>Postech [<a href="http://arxiv.org/pdf/1606.03647.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Hyeonwoo Noh and Bohyung Han, <em>Training Recurrent Answering Units with Joint Loss Minimization for VQA</em>, arXiv:1606.03647</li>
+</ul>
+</li>
+<li>SNU + NAVER [<a href="http://arxiv.org/abs/1610.04325" rel="nofollow">Paper</a>]
+<ul>
+<li>Jin-Hwa Kim, Kyoung Woon On, Jeonghee Kim, Jung-Woo Ha, Byoung-Tak Zhang, <em>Hadamard Product for Low-rank Bilinear Pooling</em>, arXiv:1610.04325.</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#image-generation" aria-hidden="true" class="anchor" id="user-content-image-generation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Generation</h3>
+<ul>
+<li>Convolutional / Recurrent Networks
+<ul>
+<li>Aäron van den Oord, Nal Kalchbrenner, Oriol Vinyals, Lasse Espeholt, Alex Graves, Koray Kavukcuoglu. "Conditional Image Generation with PixelCNN Decoders"<a href="https://arxiv.org/pdf/1606.05328v2.pdf" rel="nofollow">[Paper]</a><a href="https://github.com/kundan2510/pixelCNN">[Code]</a></li>
+<li>Alexey Dosovitskiy, Jost Tobias Springenberg, Thomas Brox, "Learning to Generate Chairs with Convolutional Neural Networks", CVPR, 2015. <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a></li>
+<li>Karol Gregor, Ivo Danihelka, Alex Graves, Danilo Jimenez Rezende, Daan Wierstra, "DRAW: A Recurrent Neural Network For Image Generation", ICML, 2015. [<a href="https://arxiv.org/pdf/1502.04623v2.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+<li>Adversarial Networks
+<ul>
+<li>Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, Generative Adversarial Networks, NIPS, 2014. <a href="http://arxiv.org/abs/1406.2661" rel="nofollow">[Paper]</a></li>
+<li>Emily Denton, Soumith Chintala, Arthur Szlam, Rob Fergus, Deep Generative Image Models using a ￼Laplacian Pyramid of Adversarial Networks, NIPS, 2015. <a href="http://arxiv.org/abs/1506.05751" rel="nofollow">[Paper]</a></li>
+<li>Lucas Theis, Aäron van den Oord, Matthias Bethge, "A note on the evaluation of generative models", ICLR 2016. [<a href="http://arxiv.org/abs/1511.01844" rel="nofollow">Paper</a>]</li>
+<li>Zhenwen Dai, Andreas Damianou, Javier Gonzalez, Neil Lawrence, "Variationally Auto-Encoded Deep Gaussian Processes", ICLR 2016. [<a href="http://arxiv.org/pdf/1511.06455v2.pdf" rel="nofollow">Paper</a>]</li>
+<li>Elman Mansimov, Emilio Parisotto, Jimmy Ba, Ruslan Salakhutdinov, "Generating Images from Captions with Attention", ICLR 2016, [<a href="http://arxiv.org/pdf/1511.02793v2.pdf" rel="nofollow">Paper</a>]</li>
+<li>Jost Tobias Springenberg, "Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks", ICLR 2016, [<a href="http://arxiv.org/pdf/1511.06390v1.pdf" rel="nofollow">Paper</a>]</li>
+<li>Harrison Edwards, Amos Storkey, "Censoring Representations with an Adversary", ICLR 2016, [<a href="http://arxiv.org/pdf/1511.05897v3.pdf" rel="nofollow">Paper</a>]</li>
+<li>Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, Ken Nakae, Shin Ishii, "Distributional Smoothing with Virtual Adversarial Training", ICLR 2016, [<a href="http://arxiv.org/pdf/1507.00677v8.pdf" rel="nofollow">Paper</a>]</li>
+<li>Jun-Yan Zhu, Philipp Krahenbuhl, Eli Shechtman, and Alexei A. Efros, "Generative Visual Manipulation on the Natural Image Manifold", ECCV 2016. [<a href="https://arxiv.org/pdf/1609.03552v2.pdf" rel="nofollow">Paper</a>] [<a href="https://github.com/junyanz/iGAN">Code</a>] [<a href="https://youtu.be/9c4z6YsBGQ0" rel="nofollow">Video</a>]</li>
+</ul>
+</li>
+<li>Mixing Convolutional and Adversarial Networks
+<ul>
+<li>Alec Radford, Luke Metz, Soumith Chintala, "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks", ICLR 2016. [<a href="http://arxiv.org/pdf/1511.06434.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#other-topics" aria-hidden="true" class="anchor" id="user-content-other-topics"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Topics</h3>
+<ul>
+<li>Visual Analogy [<a href="https://web.eecs.umich.edu/%7Ehonglak/nips2015-analogy.pdf" rel="nofollow">Paper</a>]
+<ul>
+<li>Scott Reed, Yi Zhang, Yuting Zhang, Honglak Lee, Deep Visual Analogy Making, NIPS, 2015</li>
+</ul>
+</li>
+<li>Surface Normal Estimation <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wang_Designing_Deep_Networks_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Xiaolong Wang, David F. Fouhey, Abhinav Gupta, Designing Deep Networks for Surface Normal Estimation, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Action Detection <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Gkioxari_Finding_Action_Tubes_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Georgia Gkioxari, Jitendra Malik, Finding Action Tubes, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Crowd Counting <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhang_Cross-Scene_Crowd_Counting_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Cong Zhang, Hongsheng Li, Xiaogang Wang, Xiaokang Yang, Cross-scene Crowd Counting via Deep Convolutional Neural Networks, CVPR, 2015.</li>
+</ul>
+</li>
+<li>3D Shape Retrieval <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wang_Sketch-Based_3D_Shape_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a>
+<ul>
+<li>Fang Wang, Le Kang, Yi Li, Sketch-based 3D Shape Retrieval using Convolutional Neural Networks, CVPR, 2015.</li>
+</ul>
+</li>
+<li>Weakly-supervised Classification
+<ul>
+<li>Samaneh Azadi, Jiashi Feng, Stefanie Jegelka, Trevor Darrell, "Auxiliary Image Regularization for Deep CNNs with Noisy Labels", ICLR 2016, [<a href="http://arxiv.org/pdf/1511.07069v2.pdf" rel="nofollow">Paper</a>]</li>
+</ul>
+</li>
+<li>Artistic Style <a href="http://arxiv.org/abs/1508.06576" rel="nofollow">[Paper]</a> <a href="https://github.com/jcjohnson/neural-style">[Code]</a>
+<ul>
+<li>Leon A. Gatys, Alexander S. Ecker, Matthias Bethge, A Neural Algorithm of Artistic Style.</li>
+</ul>
+</li>
+<li>Human Gaze Estimation
+<ul>
+<li>Xucong Zhang, Yusuke Sugano, Mario Fritz, Andreas Bulling, Appearance-Based Gaze Estimation in the Wild, CVPR, 2015. <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhang_Appearance-Based_Gaze_Estimation_2015_CVPR_paper.pdf" rel="nofollow">[Paper]</a> <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild-mpiigaze/" rel="nofollow">[Website]</a></li>
+</ul>
+</li>
+<li>Face Recognition
+<ul>
+<li>Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, Lior Wolf, DeepFace: Closing the Gap to Human-Level Performance in Face Verification, CVPR, 2014. <a href="https://www.cs.toronto.edu/%7Eranzato/publications/taigman_cvpr14.pdf" rel="nofollow">[Paper]</a></li>
+<li>Yi Sun, Ding Liang, Xiaogang Wang, Xiaoou Tang, DeepID3: Face Recognition with Very Deep Neural Networks, 2015. <a href="http://arxiv.org/abs/1502.00873" rel="nofollow">[Paper]</a></li>
+<li>Florian Schroff, Dmitry Kalenichenko, James Philbin, FaceNet: A Unified Embedding for Face Recognition and Clustering, CVPR, 2015. <a href="http://arxiv.org/abs/1503.03832" rel="nofollow">[Paper]</a></li>
+</ul>
+</li>
+<li>Facial Landmark Detection
+<ul>
+<li>Yue Wu, Tal Hassner, KangGeon Kim, Gerard Medioni, Prem Natarajan, Facial Landmark Detection with Tweaked Convolutional Neural Networks, 2015. <a href="http://arxiv.org/abs/1511.04031" rel="nofollow">[Paper]</a> <a href="http://www.openu.ac.il/home/hassner/projects/tcnn_landmarks/" rel="nofollow">[Project]</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#courses" aria-hidden="true" class="anchor" id="user-content-courses"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Courses</h2>
+<ul>
+<li>Deep Vision
+<ul>
+<li>[Stanford] <a href="http://cs231n.stanford.edu/" rel="nofollow">CS231n: Convolutional Neural Networks for Visual Recognition</a></li>
+<li>[CUHK] <a href="https://piazza.com/cuhk.edu.hk/spring2015/eleg5040/home" rel="nofollow">ELEG 5040: Advanced Topics in Signal Processing(Introduction to Deep Learning)</a></li>
+</ul>
+</li>
+<li>More Deep Learning
+<ul>
+<li>[Stanford] <a href="http://cs224d.stanford.edu/" rel="nofollow">CS224d: Deep Learning for Natural Language Processing</a></li>
+<li>[Oxford] <a href="https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/" rel="nofollow">Deep Learning by Prof. Nando de Freitas</a></li>
+<li>[NYU] <a href="http://cilvr.cs.nyu.edu/doku.php?id=courses:deeplearning2014:start" rel="nofollow">Deep Learning by Prof. Yann LeCun</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#books" aria-hidden="true" class="anchor" id="user-content-books"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<ul>
+<li>Free Online Books
+<ul>
+<li><a href="http://www.iro.umontreal.ca/%7Ebengioy/dlbook/" rel="nofollow">Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville</a></li>
+<li><a href="http://neuralnetworksanddeeplearning.com/" rel="nofollow">Neural Networks and Deep Learning by Michael Nielsen</a></li>
+<li><a href="http://deeplearning.net/tutorial/deeplearning.pdf" rel="nofollow">Deep Learning Tutorial by LISA lab, University of Montreal</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#videos" aria-hidden="true" class="anchor" id="user-content-videos"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Videos</h2>
+<ul>
+<li>Talks
+<ul>
+<li><a href="https://www.youtube.com/watch?v=n1ViNeWhC24" rel="nofollow">Deep Learning, Self-Taught Learning and Unsupervised Feature Learning By Andrew Ng</a></li>
+<li><a href="https://www.youtube.com/watch?v=vShMxxqtDDs" rel="nofollow">Recent Developments in Deep Learning By Geoff Hinton</a></li>
+<li><a href="https://www.youtube.com/watch?v=sc-KbuZqGkI" rel="nofollow">The Unreasonable Effectiveness of Deep Learning by Yann LeCun</a></li>
+<li><a href="https://www.youtube.com/watch?v=4xsVFLnHC_0" rel="nofollow">Deep Learning of Representations by Yoshua bengio</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#software" aria-hidden="true" class="anchor" id="user-content-software"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Software</h2>
+<h3><a href="#framework" aria-hidden="true" class="anchor" id="user-content-framework"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Framework</h3>
+<ul>
+<li>Tensorflow: An open source software library for numerical computation using data flow graph by Google [<a href="https://www.tensorflow.org/" rel="nofollow">Web</a>]</li>
+<li>Torch7: Deep learning library in Lua, used by Facebook and Google Deepmind [<a href="http://torch.ch/" rel="nofollow">Web</a>]
+<ul>
+<li>Torch-based deep learning libraries: [<a href="https://github.com/torchnet/torchnet">torchnet</a>],</li>
+</ul>
+</li>
+<li>Caffe: Deep learning framework by the BVLC [<a href="http://caffe.berkeleyvision.org/" rel="nofollow">Web</a>]</li>
+<li>Theano: Mathematical library in Python, maintained by LISA lab [<a href="http://deeplearning.net/software/theano/" rel="nofollow">Web</a>]
+<ul>
+<li>Theano-based deep learning libraries: [<a href="http://deeplearning.net/software/pylearn2/" rel="nofollow">Pylearn2</a>], [<a href="https://github.com/mila-udem/blocks">Blocks</a>], [<a href="http://keras.io/" rel="nofollow">Keras</a>], [<a href="https://github.com/Lasagne/Lasagne">Lasagne</a>]</li>
+</ul>
+</li>
+<li>MatConvNet: CNNs for MATLAB [<a href="http://www.vlfeat.org/matconvnet/" rel="nofollow">Web</a>]</li>
+<li>MXNet: A flexible and efficient deep learning library for heterogeneous distributed systems with multi-language support [<a href="http://mxnet.io/" rel="nofollow">Web</a>]</li>
+<li>Deepgaze: A computer vision library for human-computer interaction based on CNNs [<a href="https://github.com/mpatacchiola/deepgaze">Web</a>]</li>
+</ul>
+<h3><a href="#applications" aria-hidden="true" class="anchor" id="user-content-applications"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Applications</h3>
+<ul>
+<li>Adversarial Training
+<ul>
+<li>Code and hyperparameters for the paper "Generative Adversarial Networks" <a href="https://github.com/goodfeli/adversarial">[Web]</a></li>
+</ul>
+</li>
+<li>Understanding and Visualizing
+<ul>
+<li>Source code for "Understanding Deep Image Representations by Inverting Them," CVPR, 2015. <a href="https://github.com/aravindhm/deep-goggle">[Web]</a></li>
+</ul>
+</li>
+<li>Semantic Segmentation
+<ul>
+<li>Source code for the paper "Rich feature hierarchies for accurate object detection and semantic segmentation," CVPR, 2014. <a href="https://github.com/rbgirshick/rcnn">[Web]</a></li>
+<li>Source code for the paper "Fully Convolutional Networks for Semantic Segmentation," CVPR, 2015. <a href="https://github.com/longjon/caffe/tree/future">[Web]</a></li>
+</ul>
+</li>
+<li>Super-Resolution
+<ul>
+<li>Image Super-Resolution for Anime-Style-Art <a href="https://github.com/nagadomi/waifu2x">[Web]</a></li>
+</ul>
+</li>
+<li>Edge Detection
+<ul>
+<li>Source code for the paper "DeepContour: A Deep Convolutional Feature Learned by Positive-Sharing Loss for Contour Detection," CVPR, 2015. <a href="https://github.com/shenwei1231/DeepContour">[Web]</a></li>
+<li>Source code for the paper "Holistically-Nested Edge Detection", ICCV 2015. <a href="https://github.com/s9xie/hed">[Web]</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#tutorials" aria-hidden="true" class="anchor" id="user-content-tutorials"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorials</h2>
+<ul>
+<li>[CVPR 2014] <a href="https://sites.google.com/site/deeplearningcvpr2014/" rel="nofollow">Tutorial on Deep Learning in Computer Vision</a></li>
+<li>[CVPR 2015] <a href="https://github.com/soumith/cvpr2015">Applied Deep Learning for Computer Vision with Torch</a></li>
+</ul>
+<h2><a href="#blogs" aria-hidden="true" class="anchor" id="user-content-blogs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blogs</h2>
+<ul>
+<li><a href="http://www.computervisionblog.com/2015/06/deep-down-rabbit-hole-cvpr-2015-and.html" rel="nofollow">Deep down the rabbit hole: CVPR 2015 and beyond@Tombone's Computer Vision Blog</a></li>
+<li><a href="http://zoyathinks.blogspot.kr/2015/06/cvpr-recap-and-where-were-going.html" rel="nofollow">CVPR recap and where we're going@Zoya Bylinskii (MIT PhD Student)'s Blog</a></li>
+<li><a href="http://www.wired.com/2015/06/facebook-googles-fake-brains-spawn-new-visual-reality/" rel="nofollow">Facebook's AI Painting@Wired</a></li>
+<li><a href="http://googleresearch.blogspot.kr/2015/06/inceptionism-going-deeper-into-neural.html" rel="nofollow">Inceptionism: Going Deeper into Neural Networks@Google Research</a></li>
+<li><a href="http://peterroelants.github.io/" rel="nofollow">Implementing Neural networks</a></li>
+</ul>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.21719s from unicorn-3751571531-vq65q">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

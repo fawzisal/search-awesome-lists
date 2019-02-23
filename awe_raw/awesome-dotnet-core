@@ -1,0 +1,1627 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - thangchung/awesome-dotnet-core: A collection of awesome .NET core libraries, tools, frameworks and software</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/422341?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="thangchung/awesome-dotnet-core" /><meta property="og:url" content="https://github.com/thangchung/awesome-dotnet-core" /><meta property="og:description" content="awesome-dotnet-core - :honeybee: A collection of awesome .NET core libraries, tools, frameworks and software" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E0B8:5D4E:264E452:470ED05:5AD2F6A5" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E0B8:5D4E:264E452:470ED05:5AD2F6A5" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MDRlMTczZjlhMzQ2NDhiY2RmYWMxZTY4YzNlYTQ3M2NlOTg0MzVjNDBhYzQxNGUyMTk4MjdkOWFhNDZlNzhmNHx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTBCODo1RDRFOjI2NEU0NTI6NDcwRUQwNTo1QUQyRjZBNSIsInRpbWVzdGFtcCI6MTUyMzc3NTE0MiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="8dc09b1feffc935e0dc5a577ad4bab91aac1818d">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/thangchung/awesome-dotnet-core/commits/master.atom" rel="alternate" title="Recent Commits to awesome-dotnet-core:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-dotnet-core - :honeybee: A collection of awesome .NET core libraries, tools, frameworks and software">
+  <meta name="go-import" content="github.com/thangchung/awesome-dotnet-core git https://github.com/thangchung/awesome-dotnet-core.git">
+
+  <meta name="octolytics-dimension-user_id" content="422341" /><meta name="octolytics-dimension-user_login" content="thangchung" /><meta name="octolytics-dimension-repository_id" content="54086969" /><meta name="octolytics-dimension-repository_nwo" content="thangchung/awesome-dotnet-core" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="54086969" /><meta name="octolytics-dimension-repository_network_root_nwo" content="thangchung/awesome-dotnet-core" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/thangchung/awesome-dotnet-core" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/thangchung/awesome-dotnet-core/search" data-unscoped-search-url="/search" action="/thangchung/awesome-dotnet-core/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/thangchung/awesome-dotnet-core">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fthangchung%2Fawesome-dotnet-core" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fthangchung%2Fawesome-dotnet-core"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/thangchung/awesome-dotnet-core/watchers"
+     aria-label="522 users are watching this repository">
+    522
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fthangchung%2Fawesome-dotnet-core"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/thangchung/awesome-dotnet-core/stargazers"
+      aria-label="4620 users starred this repository">
+      4,620
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fthangchung%2Fawesome-dotnet-core"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/thangchung/awesome-dotnet-core/network" class="social-count"
+       aria-label="607 users forked this repository">
+      607
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/thangchung">thangchung</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/thangchung/awesome-dotnet-core">awesome-dotnet-core</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /thangchung/awesome-dotnet-core" href="/thangchung/awesome-dotnet-core">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /thangchung/awesome-dotnet-core/issues" href="/thangchung/awesome-dotnet-core/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">2</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /thangchung/awesome-dotnet-core/pulls" href="/thangchung/awesome-dotnet-core/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">43</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /thangchung/awesome-dotnet-core/projects" href="/thangchung/awesome-dotnet-core/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /thangchung/awesome-dotnet-core/wiki" href="/thangchung/awesome-dotnet-core/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /thangchung/awesome-dotnet-core/pulse" href="/thangchung/awesome-dotnet-core/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="t3jDO0D3L6ZhCLuh01PUqiOvaTDW34QBsYymPUlmHd3eSmeHkQWOT0G4Ea+PuaDFWnXoFdjv52mZhlRJcDUX9w==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<g-emoji class="g-emoji" alias="bee" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f41d.png">🐝</g-emoji> A collection of awesome .NET core libraries, tools, frameworks and software
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/thangchung/awesome-dotnet-core/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/dotnet-core" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:dotnet-core">
+        dotnet-core
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/csharp" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:csharp">
+        csharp
+      </a>
+      <a href="/topics/microsoft" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:microsoft">
+        microsoft
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/thangchung/awesome-dotnet-core/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                751
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/thangchung/awesome-dotnet-core/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/thangchung/awesome-dotnet-core/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/thangchung/awesome-dotnet-core/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      104
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/thangchung/awesome-dotnet-core/search?l=c%23"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#178600;"></span>
+                  <span class="lang">C#</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="C# 100.0%" style="width:100.0%; background-color:#178600;" itemprop="keywords">C#</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/thangchung/awesome-dotnet-core.git" aria-label="Clone this repository at https://github.com/thangchung/awesome-dotnet-core.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/thangchung/awesome-dotnet-core.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/thangchung/awesome-dotnet-core/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/thangchung/awesome-dotnet-core/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/thangchung/awesome-dotnet-core/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/thangchung/awesome-dotnet-core/tree-commit/d910a35f6b4624bfa4ec61553c14b90cf67add37" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/thangchung/awesome-dotnet-core/tree/d910a35f6b4624bfa4ec61553c14b90cf67add37">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-94420dc1ce23b623d17047946883ff7017112cb8" href="/thangchung/awesome-dotnet-core/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Initial commit" class="message" href="/thangchung/awesome-dotnet-core/commit/8ae9720b0207d5142424d10b61fe5912e33abad2">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-03-17T03:52:10Z">Mar 17, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-608938159b6cd687843f00e4ca5536a86c78ef17" href="/thangchung/awesome-dotnet-core/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Create .travis.yml" class="message" href="/thangchung/awesome-dotnet-core/commit/f02d50918d9255200b5225dbf2bbb179725734e4">Create .travis.yml</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-06T08:58:33Z">Mar 6, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Program.cs" id="34cffdae1474e839ffac88fe019a0155-e5f6ecbf8423d6268b37d7b884b1090e89bcf1b3" href="/thangchung/awesome-dotnet-core/blob/master/Program.cs">Program.cs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add c# file" class="message" href="/thangchung/awesome-dotnet-core/commit/a7e961fcb5e326d27136799a9a48e0f263e2c4d0">add c# file</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-11T07:02:54Z">Feb 11, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-a6682627541a465cc1969d0ef7388fdc9487bc14" href="/thangchung/awesome-dotnet-core/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add prometheus-net" class="message" href="/thangchung/awesome-dotnet-core/commit/d910a35f6b4624bfa4ec61553c14b90cf67add37">add prometheus-net</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-15T05:37:54Z">Apr 15, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="contributing.md" id="cc4aac3e9be04e0413c9520f223b493c-ba482645458dc6445122d0adcb255d313fe99e63" href="/thangchung/awesome-dotnet-core/blob/master/contributing.md">contributing.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update contributing.md" class="message" href="/thangchung/awesome-dotnet-core/commit/c7f5502ee4b749681989d0de836829ac12b2d1b7">Update contributing.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-05-15T07:11:34Z">May 15, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-net-core-" class="anchor" aria-hidden="true" href="#awesome-net-core-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome .NET Core <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<blockquote>
+<p>A collection of awesome <a href="#frameworks-libraries-and-tools">.NET Core</a> frameworks, libraries, tools, resources and software.</p>
+</blockquote>
+<p>Inspired by <a href="https://github.com/sindresorhus/awesome">awesome</a>, <a href="https://github.com/quozd/awesome-dotnet">awesome-dotnet</a>,  <a href="https://github.com/sindresorhus/awesome-nodejs">awesome-nodejs</a>, <a href="https://github.com/dypsilon/frontend-dev-bookmarks">frontend-dev-bookmarks</a>.</p>
+<p>Contributions are always welcome! Please take a look at the <a href="https://github.com/thangchung/awesome-dotnet-core/blob/master/contributing.md">contribution guidelines</a> pages first. We accept proprietary and commercial software too.</p>
+<p>Thanks to all <a href="https://github.com/thangchung/awesome-dotnet-core/graphs/contributors">contributors</a>, you're awesome and wouldn't be possible without you! The goal is to build a categorized community-driven collection of very well-known resources.</p>
+<h2><a id="user-content-contents" class="anchor" aria-hidden="true" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#general">General</a></li>
+<li><a href="#frameworks-libraries-and-tools">Frameworks, Libraries and Tools</a>
+<ul>
+<li><a href="#api">API</a></li>
+<li><a href="#application-frameworks">Application Frameworks</a></li>
+<li><a href="#application-templates">Application Templates</a></li>
+<li><a href="#authentication-and-authorization">Authentication and Authorization</a></li>
+<li><a href="#blockchain">Blockchain</a></li>
+<li><a href="#bot">Bot</a></li>
+<li><a href="#build-automation">Build Automation</a></li>
+<li><a href="#bundling-and-minification">Bundling and Minification</a></li>
+<li><a href="#caching">Caching</a></li>
+<li><a href="#cms">CMS</a></li>
+<li><a href="#code-analysis-and-metrics">Code Analysis and Metrics</a></li>
+<li><a href="#compression">Compression</a></li>
+<li><a href="#compilers-transpilers-and-languages">Compilers, Transpilers and Languages</a></li>
+<li><a href="#cryptography">Cryptography</a></li>
+<li><a href="#database">Database</a></li>
+<li><a href="#database-drivers">Database Drivers</a></li>
+<li><a href="#database-tools-and-utilities">Database Tools and Utilities</a></li>
+<li><a href="#date-and-time">Date and Time</a></li>
+<li><a href="#distributed-computing">Distributed Computing</a></li>
+<li><a href="#e-commerce-and-payments">E-Commerce and Payments</a></li>
+<li><a href="#exceptions">Exceptions</a></li>
+<li><a href="#functional-programming">Functional Programming</a></li>
+<li><a href="#graphics">Graphics</a></li>
+<li><a href="#gui">GUI</a></li>
+<li><a href="#ide">IDE</a></li>
+<li><a href="#internationalization">Internationalization</a></li>
+<li><a href="#ioc">IOC</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#machine-learning-and-data-science">Machine Learning and Data Science</a></li>
+<li><a href="#mail">Mail</a></li>
+<li><a href="#mathematics">Mathematics</a></li>
+<li><a href="#networking">Networking</a></li>
+<li><a href="#misc">Misc</a></li>
+<li><a href="#orm">ORM</a></li>
+<li><a href="#profiling">Profiling</a></li>
+<li><a href="#queue-and-messaging">Queue and Messaging</a></li>
+<li><a href="#query-builders">Query Builders</a></li>
+<li><a href="#scheduler-and-job">Scheduler and Job</a></li>
+<li><a href="#sdks">SDKs</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#searching">Searching</a></li>
+<li><a href="#serialization">Serialization</a></li>
+<li><a href="#template-engine">Template Engine</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#web-framework">Web Framework</a></li>
+<li><a href="#web-socket">Web Socket</a></li>
+<li><a href="#windows-service">Windows Service</a></li>
+<li><a href="#workflow">Workflow</a></li>
+</ul>
+</li>
+<li><a href="#starter-kits">Starter Kits</a></li>
+<li><a href="#sample-projects">Sample Projects</a></li>
+<li><a href="#articles">Articles</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#podcasts">Podcasts</a></li>
+<li><a href="#community">Community</a></li>
+</ul>
+<h2><a id="user-content-general" class="anchor" aria-hidden="true" href="#general"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General</h2>
+<ul>
+<li><a href="https://docs.asp.net/en/latest/" rel="nofollow">ASP.NET Core Documentation</a> - The official ASP.NET Core documentation site.</li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/articles/welcome" rel="nofollow">.NET Core Documentation</a> - Home of the technical documentation for .NET Core, C#, F# and Visual Basic, including basic concepts, getting started instructions, tutorials and samples.</li>
+<li><a href="https://www.microsoft.com/net/core" rel="nofollow">.NET Core SDK</a> - .NET Core SDK is a general purpose development platform maintained by Microsoft and the .NET community on <a href="https://github.com/dotnet/core">GitHub</a>.</li>
+<li><a href="https://github.com/dotnet/corefx/blob/master/Documentation/architecture/net-platform-standard.md">.NET Platform Standard</a> - The differrent between the old version and the new version of .NET.</li>
+<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard" rel="nofollow">Introducing .NET Standard 2.0</a> - The description of what will be going on for .NET Standard 2.0 and the roadmap for some missing parts of the current .NET Standard.</li>
+</ul>
+<h2><a id="user-content-frameworks-libraries-and-tools" class="anchor" aria-hidden="true" href="#frameworks-libraries-and-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frameworks, Libraries and Tools</h2>
+<h3><a id="user-content-api" class="anchor" aria-hidden="true" href="#api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API</h3>
+<ul>
+<li><a href="https://github.com/Azure/autorest">autorest</a> - Swagger (OpenAPI) Specification code generator featuring C# and Razor templates. Supports C#, Java, Node.js, TypeScript, Python and Ruby. <code>4.5.x or above</code></li>
+<li><a href="https://github.com/stefanprodan/AspNetCoreRateLimit">AspNetCoreRateLimit</a> - ASP.NET Core rate limiting middleware.</li>
+<li><a href="https://github.com/Drawaes/CondenserDotNet">CondenserDotNet</a> - API Condenser / Reverse Proxy using Kestrel and Consul, Including light weight consul library.</li>
+<li><a href="https://github.com/tmenier/Flurl">Flurl</a> - Fluent URL builder and testable HTTP for .NET <a href="http://tmenier.github.io/Flurl" rel="nofollow">http://tmenier.github.io/Flurl</a>.</li>
+<li>GraphQL
+<ul>
+<li><a href="https://github.com/JuergenGutsch/graphql-aspnetcore">graphql-aspnetcore</a> - ASP.NET Core MiddleWare to create a GraphQL end-point.</li>
+<li><a href="https://github.com/graphql-dotnet/conventions">graphql-convention</a> - This library is a complementary layer on top that allows you to automatically wrap your .NET classes into GraphQL schema definitions using existing property getters and methods as field resolvers</li>
+<li><a href="https://github.com/JosephWoodward/graphiql-dotnet">graphiql-dotnet</a> - GraphiQL middleware for ASP.NET Core.</li>
+<li><a href="https://github.com/mkmarek/graphql-dotnetcore">graphql-dotnetcore</a> - GraphQL for .NET Core based on <a href="https://github.com/graphql/graphql-js">https://github.com/graphql/graphql-js</a>.</li>
+<li><a href="https://github.com/graphql-dotnet/graphql-dotnet">graphql-dotnet</a> - GraphQL for .NET.</li>
+<li><a href="https://github.com/fsprojects/FSharp.Data.GraphQL">FSharp.Data.GraphQL</a> - FSharp implementation of Facebook GraphQL query language <a href="https://fsprojects.github.io/FSharp.Data.GraphQL" rel="nofollow">https://fsprojects.github.io/FSharp.Data.GraphQL</a>.</li>
+<li><a href="https://github.com/graphql-dotnet/parser">parser</a> - A lexer and parser for GraphQL in .NET.</li>
+</ul>
+</li>
+<li><a href="https://github.com/visualeyes/halcyon">halcyon</a> - HAL implementation for ASP.NET.</li>
+<li><a href="https://github.com/Research-Institute/json-api-dotnet-core">JSON API .NET Core</a> - Framework for building json:api compliant APIs with the goal of eliminating RESTful boilerplate.</li>
+<li><a href="https://github.com/neuecc/LightNode">LightNode</a> - Micro RPC/REST Framework built on OWIN <a href="http://neuecc.github.io/LightNode" rel="nofollow">http://neuecc.github.io/LightNode</a>.</li>
+<li><a href="https://github.com/NSwag/NSwag">NSwag</a> - The Swagger API toolchain for .NET, Web API and TypeScript <a href="http://NSwag.org" rel="nofollow">http://NSwag.org</a>.</li>
+<li><a href="https://github.com/OData/WebApi/tree/feature/netcore">OData</a> - The Open Data Protocol (OData) enables the creation of HTTP-based data services, which allow resources identified using Uniform Resource Identifiers (URIs) and defined in an abstract data model, to be published and edited by Web clients using simple HTTP messages.</li>
+<li><a href="https://github.com/paulcbetts/refit">refit</a> - The automatic type-safe REST library for Xamarin and .NET <a href="http://paulcbetts.github.io/refit/" rel="nofollow">http://paulcbetts.github.io/refit/</a>.</li>
+<li><a href="https://bitbucket.org/MelbourneDeveloper/restclient-.net" rel="nofollow">RESTClient .NET</a> - Simple REST Client for all .NET platforms.</li>
+<li><a href="https://github.com/canton7/RestEase">RestEase</a> - Easy-to-use typesafe REST API client library, which is simple and customisable.</li>
+<li><a href="https://github.com/letsar/RestLess">RestLess</a> - The automatic type-safe-reflectionless REST API client library for .Net Standard.</li>
+<li><a href="https://github.com/domaindrivendev/Ahoy">Swashbuckle</a> - Seamlessly adds a swagger to WebApi projects.</li>
+<li><a href="https://github.com/WebApiContrib/WebAPIContrib.Core">WebAPIContrib for ASP.NET CORE</a> - Community Contributions for ASP.NET Core.</li>
+</ul>
+<h3><a id="user-content-application-frameworks" class="anchor" aria-hidden="true" href="#application-frameworks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Application Frameworks</h3>
+<ul>
+<li><a href="https://github.com/aspnetboilerplate/aspnetboilerplate">ABP</a> - ASP.NET Boilerplate is a general purpose application framework especially designed for new modern web applications. It uses already familiar tools and implements best practices arround them to provide you a SOLID development experience.</li>
+<li><a href="https://github.com/AdaptiveConsulting/Aeron.NET">Aeron.NET</a> - Efficient reliable UDP unicast, UDP multicast, and IPC message transport - .NET port of Aeron.</li>
+<li><a href="https://github.com/akkadotnet/akka.net">akka.net</a> - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET &amp; Mono.</li>
+<li><a href="https://github.com/aspnet/Mvc">ASP.NET MVC</a> - Model view controller framework for building dynamic web sites with clean separation of concerns, including the merged MVC, Web API, and Web Pages w/ Razor.</li>
+<li><a href="https://github.com/gautema/CQRSlite">CQRSlite</a> - Lightweight framework for helping writing CQRS and Eventsourcing applications in C#.</li>
+<li><a href="https://github.com/Azure/DotNetty">DotNetty</a> - Port of netty, event-driven asynchronous network application framework.</li>
+<li><a href="https://github.com/unosquare/embedio">EmbedIO</a> - A tiny, cross-platform, module based web server for .NET Framework and .NET Core.</li>
+<li><a href="https://github.com/eventflow/EventFlow">EventFlow</a> - Async/await first CQRS+ES and DDD framework for .NET.</li>
+<li><a href="https://github.com/ExtCore">ExtCore</a> - Free, open source and cross-platform framework for creating modular and extendable web applications based on ASP.NET Core 1.0.</li>
+<li><a href="https://github.com/OctopusDeploy/Halibut">Halibut</a> - A secure communication stack for .NET using JSON-RPC over SSL.</li>
+<li><a href="https://github.com/grpc/grpc/tree/master/src/csharp">grpc</a> - Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services. The libraries in this repository provide a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.</li>
+<li><a href="https://github.com/MassTransit/MassTransit">MassTransit</a> - Distributed Application Framework for .NET.</li>
+<li><a href="https://github.com/gigya/microdot">microdot</a> - An open source .NET microservices framework.</li>
+<li><a href="https://github.com/NancyFx/Nancy">Nancy</a> - Lightweight, low-ceremony, framework for building HTTP based services on .NET and Mono.</li>
+<li><a href="https://github.com/dotnet/orleans">orleans</a> - Framework that provides a straight-forward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.</li>
+<li><a href="https://github.com/AsynkronIT/protoactor-dotnet">protoactor-dotnet</a> - Ultra fast distributed actors for Golang and C# <a href="http://proto.actor" rel="nofollow">http://proto.actor</a>.</li>
+<li><a href="https://github.com/Stoom/RService.IO">RService.io</a> - ASP.Net Core RESTful microservice framework that focusing on speed and ease of use.</li>
+<li><a href="https://github.com/ServiceStack/ServiceStack">ServiceStack</a> - Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all <a href="https://servicestack.net" rel="nofollow">https://servicestack.net</a>.</li>
+<li><a href="https://github.com/SteelToeOSS">Steeltoe OSS</a> - .NET toolkit for common microservice patterns.</li>
+</ul>
+<h3><a id="user-content-application-templates" class="anchor" aria-hidden="true" href="#application-templates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Application Templates</h3>
+<ul>
+<li><a href="https://github.com/ASP-NET-Core-Boilerplate/Templates">ASP.NET Core Boilerplate</a> - A professional ASP.NET MVC template for building secure, fast, robust and adaptable web applications or sites. It provides the minimum amount of code required on top of the default MVC template provided by Microsoft.</li>
+<li><a href="https://github.com/NikolayIT/ASP.NET-MVC-Template">ASP.NET-MVC-Template</a> - A ready-to-use templates for ASP.NET MVC 5 and ASP.NET Core with repositories, services, models mapping and DI and StyleCop warnings fixed.</li>
+<li><a href="https://github.com/OdeToCode/AddFeatureFolders">AddFeatureFolders</a> - Enable feature folders for MVC controllers and views in ASP.NET Core.</li>
+<li><a href="https://github.com/damienbod/AngularWebpackVisualStudio">Angular Visual Studio Webpack Starter</a> - Template for Webpack, Visual Studio, ASP.NET Core and Angular. Both the client and the server side of the application are implemented inside one ASP.NET Core project which makes it easier to deploy.</li>
+<li><a href="https://github.com/aspnet/JavaScriptServices">JavaScriptServices</a> - Microsoft ASP.NET Core JavaScript Services.</li>
+<li><a href="https://github.com/telerik/kendo-ui-core">kendo-ui-core</a> - An HTML5, jQuery-based widget library for building modern web apps. <a href="http://www.telerik.com/kendo-ui" rel="nofollow">http://www.telerik.com/kendo-ui</a>.</li>
+<li><a href="https://github.com/emonney/QuickApp">QuickApp</a> - ASP.NET Core / Angular4 startup project template with complete login, user and role management.</li>
+<li><a href="https://github.com/dncuug/scaffolder">Scaffolder</a> - Lets you create extensible data-driven Web applications by automatically generated UI for each table in the database and  lets create a applications for viewing and editing data based on the schema of the data.</li>
+<li><a href="https://github.com/volkanceylan/Serenity">Serenity</a> - Serenity is an ASP.NET MVC / TypeScript application platform designed to simplify and shorten development of data-centric business applications with a service based architecture.</li>
+<li><a href="https://github.com/mrellipse/toucan">Toucan</a> - Boilerplate for building single page apps. Server is multi-project .Net Core solution designed around SOLID principles. Client is TypeScript 2, Vuejs 2, Vuex 2.</li>
+</ul>
+<h3><a id="user-content-authentication-and-authorization" class="anchor" aria-hidden="true" href="#authentication-and-authorization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authentication and Authorization</h3>
+<ul>
+<li><a href="https://github.com/aspnet-contrib/AspNet.Security.OpenIdConnect.Server">AspNet.Security.OpenIdConnect.Server</a> - OpenID Connect/OAuth2 server framework for OWIN/Katana and ASP.NET Core.</li>
+<li><a href="https://github.com/auth0/auth0.net">Auth0</a> - Hosted, enterprise-grade platform for modern identity.</li>
+<li><a href="https://github.com/aspnet/Identity">Identity</a> - ASP.NET Core Identity is the membership system for building ASP.NET Core web applications, including membership, login, and user data.</li>
+<li><a href="https://github.com/IdentityServer/IdentityServer4">IdentityServer</a> - IdentityServer for ASP.NET Core 1.0 &amp; 2.0
+<ul>
+<li><a href="https://github.com/IdentityServer/IdentityServer4.EntityFramework">IdentityServer4.EntityFramework</a> - EntityFramework persistence layer</li>
+<li><a href="https://github.com/diogodamiani/IdentityServer4.MongoDB">IdentityServer4.MongoDB</a> - MongoDB persistence layer</li>
+<li><a href="https://github.com/2020IP/TwentyTwenty.IdentityServer4.EntityFrameworkCore">IdentityServer4.EntityFrameworkCore</a> - Entity Framework Core persistence layer</li>
+<li><a href="https://github.com/IdentityServer/IdentityServer4.Templates">IdentityServer4.Templates</a> - dotnet cli templates for IdentityServer4.</li>
+</ul>
+</li>
+<li><a href="https://github.com/openiddict/openiddict-core">openiddict</a> - Easy-to-use OpenID Connect server for ASP.NET Core.</li>
+<li><a href="https://github.com/stormpath/stormpath-sdk-dotnet">stormpath-sdk</a> - Build <a href="https://github.com/stormpath/stormpath-aspnetcore">simple, secure web applications</a> with Stormpath and ASP.NET Core.</li>
+<li><a href="https://github.com/ritterim/stuntman">stuntman</a> - Library for impersonating users during development leveraging ASP.NET Identity.</li>
+</ul>
+<h3><a id="user-content-blockchain" class="anchor" aria-hidden="true" href="#blockchain"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blockchain</h3>
+<ul>
+<li><a href="https://github.com/MetacoSA/NBitcoin">NBitcoin</a> - Comprehensive Bitcoin library for the .NET framework.</li>
+<li><a href="https://github.com/neo-project/neo">NEO</a> - Open Network For Smart Economy.</li>
+<li><a href="https://github.com/Nethereum">Nethereum</a> - Bringing the love of Ethereum to .NET.</li>
+<li><a href="https://github.com/stratisproject/StratisBitcoinFullNode">StratisBitcoinFullNode</a> - Simple and affordable end-to-end solutions for development, testing and deployment of native C# blockchain applications on the .Net framework.</li>
+</ul>
+<h3><a id="user-content-bot" class="anchor" aria-hidden="true" href="#bot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bot</h3>
+<ul>
+<li><a href="https://github.com/Kwoth/NadekoBot">NadekoBot</a> - Open source, general-purpose Discord chat bot written in C#.</li>
+</ul>
+<h3><a id="user-content-build-automation" class="anchor" aria-hidden="true" href="#build-automation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Build Automation</h3>
+<ul>
+<li><a href="https://github.com/cake-build/cake">cake-build</a> - Cross platform build automation system. <a href="http://cakebuild.net" rel="nofollow">http://cakebuild.net</a>.</li>
+<li><a href="https://github.com/tomakita/Colorful.Console">Colorful.Console</a> - Style your C# console output! <a href="http://colorfulconsole.com" rel="nofollow">http://colorfulconsole.com</a>.</li>
+<li><a href="https://github.com/dotnet/dotnet-docker">dotnet-docker</a> - The base Docker images for working with .NET Core and the .NET Core Tools.</li>
+<li><a href="https://github.com/matiasinsaurralde/go-dotnet">go-dotnet</a> - Go wrapper for the .NET Core Runtime.</li>
+<li><a href="https://github.com/Microsoft/msbuild">msbuild</a> - The Microsoft Build Engine is a platform for building applications.</li>
+<li><a href="https://github.com/Microsoft/vsts-agent/blob/master/README.md">vsts-agent</a> - Visual Studio Team Services Build and Release Agent.</li>
+</ul>
+<h3><a id="user-content-bundling-and-minification" class="anchor" aria-hidden="true" href="#bundling-and-minification"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bundling and Minification</h3>
+<ul>
+<li><a href="https://github.com/madskristensen/BundlerMinifier">BundlerMinifier</a> - Visual Studio extension that let's you configure bundling and minification of JS, CSS and HTML files.</li>
+<li><a href="https://github.com/pauldotknopf/JavaScriptViewEngine">JavaScriptViewEngine</a> - ASP.NET MVC ViewEngine for rendering markup in a JavaScript environment. Ideal for React and Angular server-side rendering.</li>
+<li><a href="https://github.com/Shazwazza/Smidge/">Smidge</a> - Lightweight runtime CSS/JavaScript file minification, combination, compression &amp; management library for ASP.NET Core.</li>
+<li><a href="https://github.com/Taritsyn/WebMarkupMin">Web Markup Minifier</a> - .NET library that contains a set of markup minifiers. The objective of this project is to improve the performance of web applications by reducing the size of HTML, XHTML and XML code.</li>
+</ul>
+<h3><a id="user-content-caching" class="anchor" aria-hidden="true" href="#caching"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caching</h3>
+<ul>
+<li><a href="https://github.com/MichaCo/CacheManager">CacheManager</a> - Open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features. <a href="http://cachemanager.michaco.net" rel="nofollow">http://cachemanager.michaco.net</a></li>
+<li><a href="https://github.com/exceptionless/Foundatio">Foundatio</a> - Pluggable foundation blocks for building distributed apps.</li>
+<li><a href="https://github.com/aspnet/Caching">Microsoft Caching</a> - Libraries for in-memory caching and distributed caching.</li>
+<li><a href="https://github.com/StackExchange/StackExchange.Redis">Stack Exchange Redis</a> - High performance general purpose redis client for .NET languages (C# etc).</li>
+</ul>
+<h3><a id="user-content-cms" class="anchor" aria-hidden="true" href="#cms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CMS</h3>
+<ul>
+<li><a href="https://github.com/blogifierdotnet/Blogifier.Core">Blogifier.Core</a> - ASP.NET applications to provide common blogging functionality.</li>
+<li><a href="https://github.com/cofoundry-cms/cofoundry">Cofoundry</a> - Open source .NET Core CMS and modular application framework. Code-first, unobtrusive and extensible.</li>
+<li><a href="https://github.com/jamesej/lyniconanc">Lynicon</a> - O/S ASP.Net Core/.Net Core CMS with paid for modules: JSON content, works with variety of data stores, c# content types</li>
+<li><a href="https://github.com/OrchardCMS/OrchardCore">Orchard Core CMS</a> - Open Source Content Management System built with ASP.NET Core on top of a Modular and Extensible Application Framework.</li>
+<li><a href="https://github.com/OnnoRokomSoftware/NetCoreCMS">NetCoreCMS</a> - An Open source ASP.NET Core 2.0 CMS. It currently supports MySQL and planned to implement MSSQL, SQLite and PostgreSQL. Also it is a modular CMS supports theme, skin, custom layout, widgets, multiple language (En, BN).</li>
+<li><a href="https://github.com/Platformus">Platformus</a> - Free, open source and cross-platform CMS based on ASP.NET Core 1.0 and ExtCore framework.</li>
+<li><a href="https://github.com/joeaudette/cloudscribe.SimpleContent">SimpleContent</a> - Simple, yet flexible content and blog engine for ASP.NET Core that can work with or without a database.</li>
+<li><a href="https://github.com/Squidex/squidex">Squidex</a> - Headless CMS, based on MongoDB, CQRS and Event Sourcing.</li>
+<li><a href="https://github.com/Weapsy/Weapsy">Weapsy</a> - Open source ASP.NET Core CMS based on DDD and CQRS. It supports MSSQL, MySQL, SQLite and PostgreSQL out of the box.</li>
+</ul>
+<h3><a id="user-content-code-analysis-and-metrics" class="anchor" aria-hidden="true" href="#code-analysis-and-metrics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code Analysis and Metrics</h3>
+<ul>
+<li><a href="https://github.com/mre/awesome-static-analysis">awesome-static-analysis</a> - Curated list of static analysis tools, linters and code quality checkers for various programming languages.</li>
+<li>Code Analysis
+<ul>
+<li><a href="https://github.com/Microsoft/DevSkim">DevSkim</a> - A set of IDE plugins and rules that provide security "linting" capabilities.</li>
+<li><a href="https://github.com/icsharpcode/RefactoringEssentials">RefactoringEssentials</a> - Refactoring Essentials for Visual Studio.</li>
+<li><a href="https://github.com/dotnet/roslyn-analyzers">roslyn-analyzers</a> - .NET Compiler Platform ("Roslyn") Analyzers.</li>
+<li><a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers">StyleCopAnalyzers</a> - StyleCop rules using the .NET Compiler Platform.</li>
+</ul>
+</li>
+<li>Metrics
+<ul>
+<li><a href="https://github.com/alhardy/AppMetrics">AppMetrics</a> - App Metrics is an open-source and cross-platform .NET library used to record and report metrics within an application and reports it's health.</li>
+<li><a href="https://github.com/thepirat000/Audit.NET">Audit.NET</a> - Small framework to audit .NET object changes.</li>
+<li><a href="https://github.com/PerfDotNet/BenchmarkDotNet">BenchmarkDotNet</a> - Powerful .NET library for benchmarking.</li>
+<li><a href="https://github.com/tonerdo/coverlet">coverlet</a> - Cross platform code coverage library for .NET Core.</li>
+<li><a href="https://github.com/exceptionless/Foundatio#metrics">Foundatio</a> - A common interface with in memory, redis, StatsD, and Metrics.NET implementations.</li>
+<li><a href="https://github.com/lucaslorentz/minicover">MiniCover</a> - Minimalist Code Coverage Tool for .NET Core.</li>
+<li><a href="https://github.com/petabridge/NBench">NBench</a> - Performance benchmarking and testing framework for .NET applications.</li>
+<li><a href="https://github.com/nexogen-international/Nexogen.Libraries.Metrics">Nexogen.Libraries.Metrics</a> - Library for collecting application metrics in .NET and exporting them to Prometheus.</li>
+<li><a href="https://github.com/OpenCover/opencover">OpenCover</a> - Code coverage tool for .NET 2 and above (WINDOWS OS only), support for 32 and 64 processes with both branch and sequence points.</li>
+<li><a href="https://github.com/prometheus-net/prometheus-net">prometheus-net</a> - .NET Client for <a href="https://prometheus.io" rel="nofollow">https://prometheus.io</a>.</li>
+</ul>
+</li>
+</ul>
+<h3><a id="user-content-compression" class="anchor" aria-hidden="true" href="#compression"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compression</h3>
+<ul>
+<li><a href="https://github.com/MiloszKrajewski/lz4net">lz4net</a> - Ultra fast compression algorithm for all .NET platforms.</li>
+<li><a href="https://github.com/adamhathcock/sharpcompress">sharpcompress</a> - Fully managed C# library to deal with many compression types and formats.</li>
+</ul>
+<h3><a id="user-content-compilers-transpilers-and-languages" class="anchor" aria-hidden="true" href="#compilers-transpilers-and-languages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compilers, Transpilers and Languages</h3>
+<ul>
+<li><a href="https://github.com/fable-compiler/Fable">Fable</a> - F# to JavaScript Compiler.</li>
+<li><a href="https://github.com/stephan-tolksdorf/fparsec">fparsec</a> - A parser combinatory library for F# and C#.</li>
+<li><a href="https://github.com/dotnet/roslyn">roslyn</a> - The .NET Compiler Platform ("Roslyn") provides open-source C# and Visual Basic compilers with rich code analysis APIs.</li>
+<li><a href="https://github.com/benjamin-hodgson/Pidgin">Pidgin</a> - A lightweight, fast and flexible parsing library for C#, developed at Stack Overflow.</li>
+<li><a href="https://github.com/sprache/Sprache">Sprache</a> - Tiny C# Monadic Parser Framework.</li>
+</ul>
+<h3><a id="user-content-cryptography" class="anchor" aria-hidden="true" href="#cryptography"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cryptography</h3>
+<ul>
+<li><a href="https://github.com/BcryptNet/bcrypt.net">BCrypt.Net</a> - Bringing updates to the original bcrypt package</li>
+<li><a href="https://github.com/neoKushan/BCrypt.Net-Core">BCrypt.NET-Core</a> - .NET Core port of BCrypt.NET used to store passwords securely.</li>
+<li><a href="https://github.com/onovotny/BouncyCastle-PCL">BouncyCastle PCL</a> - The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols.</li>
+</ul>
+<h3><a id="user-content-database" class="anchor" aria-hidden="true" href="#database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database</h3>
+<ul>
+<li><a href="https://github.com/hhblaze/DBreeze">DBreeze</a> - C# .NET MONO NOSQL (key value store embedded) ACID multi-paradigm database management system.</li>
+<li><a href="https://github.com/ttu/json-flatfile-datastore">JsonFlatFileDataStore</a> - Simple JSON flat file data store with support for typed and dynamic data.</li>
+<li><a href="https://github.com/mbdavid/LiteDB">LiteDB</a> - .NET NoSQL Document Store in a single data file - <a href="http://www.litedb.org" rel="nofollow">http://www.litedb.org</a>.</li>
+<li><a href="https://github.com/joeaudette/NoDb">NoDb</a> - "no database" file system storage for .NET Core/ASP.NET Core because not every project needs a database.</li>
+<li><a href="https://github.com/JasperFx/marten">marten</a> - Postgresql as a Document Database and Event Store for .NET Applications <a href="http://jasperfx.github.io/marten" rel="nofollow">http://jasperfx.github.io/marten</a>.</li>
+<li><a href="https://github.com/sebastienros/yessql">yessql</a> - .NET document database working on any RDBMS.</li>
+</ul>
+<h3><a id="user-content-database-drivers" class="anchor" aria-hidden="true" href="#database-drivers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database Drivers</h3>
+<ul>
+<li><a href="https://github.com/datastax/csharp-driver">cassandra-csharp-driver</a> - DataStax C# Driver for Apache Cassandra.</li>
+<li><a href="https://github.com/confluentinc/confluent-kafka-dotnet">confluent-kafka-dotnet</a> - Confluent's Apache Kafka .NET client.</li>
+<li><a href="https://github.com/couchbase/couchbase-lite-net">couchbase-lite-net</a> - A lightweight, document-oriented (NoSQL), syncable database engine for .NET.</li>
+<li><a href="https://github.com/mongodb/mongo-csharp-driver">MongoDB.Driver</a> - .NET Driver for MongoDB.</li>
+<li>MySQL
+<ul>
+<li><a href="https://github.com/mysql/mysql-connector-net/tree/8.0">mysql-connector-net</a> - Connector/Net is a fully-managed ADO.NET driver for MySQL.</li>
+<li><a href="https://github.com/mysql-net/MySqlConnector">MySqlConnector</a> - Async MySQL Connector for .NET and .NET Core.</li>
+</ul>
+</li>
+<li>Neo4j
+<ul>
+<li><a href="https://github.com/neo4j/neo4j-dotnet-driver">neo4j-dotnet-driver</a> - Neo4j Bolt driver for .NET.</li>
+<li><a href="https://github.com/Readify/Neo4jClient">Neo4jClient</a> - .NET client binding for Neo4j.</li>
+</ul>
+</li>
+<li><a href="https://github.com/npgsql/npgsql">npgsql</a> - .NET data provider for PostgreSQL. It allows any program developed for .NET framework to access a PostgreSQL database server. It is implemented in 100% C# code. PostgreSQL versions since 9.1 are officially supported, others may work. <a href="http://www.npgsql.org" rel="nofollow">http://www.npgsql.org</a></li>
+<li><a href="https://github.com/ayende/ravendb/tree/v4.0">ravendb</a> - Linq enabled document database for .NET.</li>
+<li><a href="https://github.com/bchavez/RethinkDb.Driver">RethinkDb.Driver</a> - C#/.NET RethinkDB driver with 100% ReQL API coverage.</li>
+<li><a href="https://github.com/progaudi/progaudi.tarantool">progaudi.tarantool</a> - .NET client for Tarantool NoSql database.</li>
+</ul>
+<h3><a id="user-content-database-tools-and-utilities" class="anchor" aria-hidden="true" href="#database-tools-and-utilities"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database Tools and Utilities</h3>
+<ul>
+<li><a href="https://github.com/DbUp/DbUp">DbUp</a> - .NET library that helps you to deploy changes to SQL Server databases. It tracks which SQL scripts have been run already, and runs the change scripts that are needed to get your database up to date.</li>
+<li><a href="https://www.nuget.org/packages/NReco.PivotData" rel="nofollow">NReco.PivotData</a> - In-memory data cube with OLAP operations and PivotTable data model.</li>
+</ul>
+<h3><a id="user-content-date-and-time" class="anchor" aria-hidden="true" href="#date-and-time"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Date and Time</h3>
+<ul>
+<li><a href="https://github.com/exceptionless/Exceptionless.DateTimeExtensions">Exceptionless.DateTimeExtensions</a> - DateTimeRange, Business Day and various DateTime, DateTimeOffset, TimeSpan extension methods.</li>
+<li><a href="https://github.com/FluentDateTime/FluentDateTime">FluentDateTime</a> - Allows you to write cleaner DateTime expressions and operation. Partially inspired by Ruby DateTime Extensions.</li>
+<li><a href="https://github.com/nodatime/nodatime">nodatime</a> - Better date and time API for .NET <a href="http://nodatime.org" rel="nofollow">http://nodatime.org</a>.</li>
+</ul>
+<h3><a id="user-content-distributed-computing" class="anchor" aria-hidden="true" href="#distributed-computing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Distributed Computing</h3>
+<ul>
+<li><a href="https://github.com/lurumad/aspnetcore-health">aspnetcore-health</a> - Enables load balancers to monitor the status of deployed Web applications.</li>
+<li><a href="https://github.com/exceptionless/Foundatio">Foundatio</a> - Pluggable foundation blocks for building distributed apps.</li>
+<li><a href="https://github.com/christopherread/Obvs">Obvs</a> - An observable microservice bus .NET library that wraps the underlying transport in simple Rx based interfaces.</li>
+<li><a href="https://github.com/TomPallister/Ocelot">Ocelot</a> - API Gateway created using .NET Core.</li>
+<li><a href="https://github.com/App-vNext/Polly">Polly</a> - .NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception and fault handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner.</li>
+</ul>
+<h3><a id="user-content-e-commerce-and-payments" class="anchor" aria-hidden="true" href="#e-commerce-and-payments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>E-Commerce and Payments</h3>
+<ul>
+<li><a href="https://github.com/simplcommerce/SimplCommerce">SimplCommerce</a> - Super simple ecommerce system built on .NET Core.</li>
+<li><a href="https://github.com/ServiceStack/Stripe">Stripe</a> - Typed .NET clients for stripe.com REST APIs.</li>
+</ul>
+<h3><a id="user-content-exceptions" class="anchor" aria-hidden="true" href="#exceptions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Exceptions</h3>
+<ul>
+<li><a href="https://github.com/exceptionless/Exceptionless.Net">Exceptionless</a> - Exceptionless .NET Client</li>
+<li><a href="https://github.com/JosephWoodward/GlobalExceptionHandlerDotNet">GlobalExceptionHandlerDotNet</a> - GlobalExceptionHandlerDotNet allows you to configure exception handling as a convention with your ASP.NET Core application pipeline as opposed to explicitly handling them within each controller action.</li>
+</ul>
+<h3><a id="user-content-functional-programming" class="anchor" aria-hidden="true" href="#functional-programming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functional Programming</h3>
+<ul>
+<li><a href="https://github.com/vkhorikov/CSharpFunctionalExtensions">CSharpFunctionalExtensions</a> - Functional Extensions for C#.</li>
+<li><a href="https://github.com/RolandPheasant/DynamicData">DynamicData</a> - Reactive collections based on Rx.NET.</li>
+<li><a href="https://github.com/louthy/echo-process">echo-process</a> - Actor library for C# with additional modules that support persistence to Redis, as well as JS integration.</li>
+<li><a href="https://github.com/fscheck/FsCheck">FsCheck</a> - Random Testing for .NET.</li>
+<li><a href="https://github.com/dustinmoris/Giraffe">Giraffe</a> - A native functional ASP.NET Core web framework for F# developers.</li>
+<li><a href="https://github.com/louthy/language-ext">language-ext</a> - C# functional language extensions and 'Erlang like' concurrency system.</li>
+<li><a href="https://github.com/la-yumba/functional-csharp-code">LaYumba.Functional</a> - Utility library for programming functionally in C#.</li>
+<li><a href="https://github.com/NetMQ/NetMQ.ReactiveExtensions">NetMQ.ReactiveExtensions</a> - Effortlessly send messages anywhere on the network using Reactive Extensions (RX). Transport protocol is ZeroMQ.</li>
+<li><a href="https://github.com/nlkl/Optional">Optional</a> - A robust option type for C#.</li>
+<li><a href="https://github.com/reactive-streams/reactive-streams-dotnet">reactive-streams-dotnet</a> - <a href="http://www.reactive-streams.org/" rel="nofollow">Reactive Streams</a> for .NET.</li>
+<li><a href="https://github.com/reactiveui/ReactiveUI">ReactiveUI</a> - A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform.</li>
+<li><a href="https://github.com/Reactive-Extensions/Rx.NET">Rx.NET</a> - The <a href="http://reactivex.io" rel="nofollow">Reactive Extensions</a> for .NET.</li>
+<li><a href="https://github.com/RxDave/Qactive">Qactive</a> - Reactive queryable observable framework. <code>4.x.x or above</code></li>
+<li><a href="https://github.com/SodiumFRP/sodium/tree/master/c%23">sodium</a> - Functional Reactive Programming (FRP) Library. <code>4.x.x or above</code></li>
+</ul>
+<h3><a id="user-content-graphics" class="anchor" aria-hidden="true" href="#graphics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graphics</h3>
+<ul>
+<li><a href="https://github.com/smack0007/GLFWDotNet">GLFWDotNet</a> - .NET bindings for GLFW.</li>
+<li><a href="https://github.com/JimBobSquarePants/ImageProcessor">ImageProcessor</a> - A fluent wrapper around System.Drawing for the processing of image files <a href="http://imageprocessor.org" rel="nofollow">http://imageprocessor.org</a>. <code>4.5.x or above</code></li>
+<li><a href="https://github.com/SixLabors/ImageSharp">ImageSharp</a> - Cross-platform library for processing of image files written in C#.</li>
+<li><a href="https://github.com/dlemstra/Magick.NET">Magick.NET</a> - The .NET library for ImageMagick.</li>
+<li><a href="https://github.com/codebude/QRCoder">QRCoder</a> - A pure C# Open Source QR Code implementation.</li>
+<li><a href="https://github.com/MikePopoloski/SharpBgfx">SharpBgfx</a> - C# bindings for the bgfx graphics library.</li>
+<li><a href="https://github.com/JaCraig/Structure.Sketching">Structure.Sketching</a> - Image processing library for use in .NET applications that supports .NET Core.</li>
+<li><a href="https://github.com/mellinoe/veldrid">veldrid</a> - A low-level, hardware-accelerated 3D graphics library for .NET.</li>
+</ul>
+<h3><a id="user-content-gui" class="anchor" aria-hidden="true" href="#gui"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GUI</h3>
+<ul>
+<li><a href="https://github.com/AvaloniaUI/Avalonia">Avalonia</a> - A multi-platform .NET UI framework (formerly known as Perspex).</li>
+<li><a href="https://github.com/AvaloniaUI/AvaloniaEdit/">AvaloniaEdit</a> - The Avalonia-based text editor component forked from <a href="https://github.com/icsharpcode/AvalonEdit">AvalonEdit</a></li>
+<li><a href="https://github.com/prasannavl/WinApi">WinApi</a> - A simple, direct, ultra-thin CLR library for high-performance Win32 Native Interop with automation, windowing, DirectX, OpenGL and Skia helpers.</li>
+</ul>
+<h3><a id="user-content-ide" class="anchor" aria-hidden="true" href="#ide"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IDE</h3>
+<ul>
+<li><a href="https://github.com/mono/monodevelop">Mono</a> - MonoDevelop enables developers to quickly write desktop and web applications on Linux, Windows and Mac OS X. It also makes it easy for developers to port .NET applications created with Visual Studio to Linux and Mac OS X maintaining a single code base for all platforms.</li>
+<li><a href="https://www.jetbrains.com/rider/" rel="nofollow">rider</a> - Cross-platform C# IDE based on the IntelliJ platform and ReSharper.</li>
+<li><a href="http://www.omnisharp.net/" rel="nofollow">Omnisharp</a> - Family of Open Source projects, each with one goal: To enable a great .NET experience in YOUR editor of choice.</li>
+<li><a href="https://github.com/icsharpcode/SharpDevelop">SharpDevelop</a> - SharpDevelop is a free Integrated Development Environment (IDE) for C#, VB.NET, Boo, IronPython, IronRuby and F# projects on Microsoft's .NET platform. It is written (almost) entirely in C#, and comes with features you would expect in an IDE plus a few more.</li>
+<li><a href="https://github.com/Microsoft/vscode">Visual Studio Code</a> - New type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. Code provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.</li>
+<li><a href="https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx" rel="nofollow">Visual Studio Community</a> - Free editor for individual developers, open source projects, academic research, education, and small professional teams.</li>
+</ul>
+<h3><a id="user-content-internationalization" class="anchor" aria-hidden="true" href="#internationalization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Internationalization</h3>
+<ul>
+<li><a href="https://github.com/aspnet/Localization">Localization</a> - Localization abstractions and implementations for ASP.NET Core applications.</li>
+</ul>
+<h3><a id="user-content-ioc" class="anchor" aria-hidden="true" href="#ioc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IOC</h3>
+<ul>
+<li><a href="https://github.com/Keboo/AutoDI">AutoDI</a> - Super-fast compile-time dependency injection using IL weaving.</li>
+<li><a href="https://github.com/autofac/Autofac">Autofac</a> - Addictive .NET IoC container.</li>
+<li><a href="https://github.com/castleproject/Windsor">Castle.Windsor</a> Castle Windsor is a best of breed, mature Inversion of Control container available for .NET.</li>
+<li><a href="https://bitbucket.org/dadhi/dryioc" rel="nofollow">DryIoc</a> - Fast, small, full-featured IoC Container for .NET.</li>
+<li><a href="https://github.com/seesharper/LightInject">LightInject</a> - Ultra lightweight IoC container <a href="http://www.lightinject.net" rel="nofollow">http://www.lightinject.net</a>.</li>
+<li><a href="https://github.com/simpleinjector/SimpleInjector">SimpleInjector</a> - Easy, flexible, and fast Dependency Injection library that promotes best practice to steer developers towards the pit of success.</li>
+<li><a href="https://github.com/z4kn4fein/stashbox">Stashbox</a> - A lightweight, portable dependency injection framework for .NET based solutions.</li>
+<li><a href="https://github.com/structuremap/structuremap">StructureMap</a> - Dependency Injection/Inversion of Control tool for .NET.</li>
+</ul>
+<h3><a id="user-content-logging" class="anchor" aria-hidden="true" href="#logging"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logging</h3>
+<ul>
+<li><a href="https://github.com/net-commons/common-logging">common-logging</a> - Portable logging abstraction for .NET <a href="http://net-commons.github.io/common-logging" rel="nofollow">http://net-commons.github.io/common-logging</a>.</li>
+<li><a href="https://github.com/jvandevelde/dnxcore-logging-logstash">dnxcore-logging-logstash</a> - Logstash logging extension for .NET Core applications with UDP and Redis transports.</li>
+<li><a href="https://github.com/exceptionless/Exceptionless.Net">Exceptionless</a> - Exceptionless .NET Client</li>
+<li><a href="https://github.com/exceptionless/Foundatio#logging">Foundatio</a> - A fluent logging api that can be used to log messages throughout your application.</li>
+<li><a href="https://github.com/damianh/LibLog">LibLog</a> - Single file for you to either copy/paste or install via nuget, into your library/ framework/ application to provide a logging abstraction.</li>
+<li><a href="https://github.com/apache/logging-log4net">log4net</a> - log4net is a port of the excellent Apache log4j™ framework to the Microsoft® .NET runtime.</li>
+<li><a href="https://github.com/NLog/NLog">NLog</a> - Advanced .NET, Silverlight and Xamarin Logging.</li>
+<li><a href="https://github.com/Q42/Q42.Logging.ApplicationInsights">Q42.Logging.ApplicationInsights</a> - Log appender for the build in ASP.NET Core logging to send all logs to Application Insights.</li>
+<li><a href="https://github.com/serilog/serilog">serilog</a> - Simple .NET logging with fully-structured events.</li>
+</ul>
+<h3><a id="user-content-machine-learning-and-data-science" class="anchor" aria-hidden="true" href="#machine-learning-and-data-science"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning and Data Science</h3>
+<ul>
+<li><a href="https://github.com/accord-net/framework">Accord</a> - Machine learning, computer vision, statistics and general scientific computing for .NET.</li>
+<li><a href="https://github.com/Spreads/Spreads/">Spreads</a> - Series and Panels for Real-time and Exploratory Analysis of Data Streams.</li>
+<li><a href="https://github.com/migueldeicaza/TensorFlowSharp">TensorFlowSharp</a> - TensorFlow API for .NET languages.</li>
+</ul>
+<h3><a id="user-content-mail" class="anchor" aria-hidden="true" href="#mail"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mail</h3>
+<ul>
+<li><a href="https://github.com/doxakis/MailBody">MailBody</a> - Create transactional email with a fluent interface (.NET).</li>
+<li><a href="https://github.com/jstedfast/MailKit">MailKit</a> - Cross-platform .NET library for IMAP, POP3, and SMTP.</li>
+<li><a href="https://github.com/axuno/MailMergeLib">MailMergeLib</a> - SMTP mail client library which provides comfortable mail merge capabilities for text, inline images and attachments, as well as good throughput and fault tolerance for sending mail messages.</li>
+<li><a href="https://github.com/jstedfast/MimeKit">MimeKit</a> - Cross-platform .NET MIME creation and parser library with support for S/MIME, PGP, DKIM, TNEF and Unix mbox spools.</li>
+<li><a href="https://github.com/milkshakesoftware/PreMailer.Net/tree/dotnet-core">PreMailer.Net</a> - C# library that moves your stylesheets to inline style attributes, for maximum compatibility with E-mail clients.</li>
+<li><a href="https://github.com/0xdeafcafe/sendgrid-dotnet">SendGrid Client</a> - C# library for the SendGrid v3 mail endpoint.</li>
+<li><a href="https://github.com/Jericho/StrongGrid">StrongGrid</a> - Client for SendGrid's v3 API. Not only allows you to send emails, but also allows you to bulk import contacts, manage lists and segments, create custom fields for your lists, etc. Also includes a parser for SendGrid Webhooks.</li>
+</ul>
+<h3><a id="user-content-mathematics" class="anchor" aria-hidden="true" href="#mathematics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mathematics</h3>
+<ul>
+<li><a href="https://github.com/Stratajet/UnitConversion">UnitConversion</a> - Expansible Unit Conversion Library for .NET Core and .NET Framework.</li>
+</ul>
+<h3><a id="user-content-misc" class="anchor" aria-hidden="true" href="#misc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Misc</h3>
+<ul>
+<li><a href="https://github.com/AngleSharp/AngleSharp">AngleSharp</a> - The ultimate angle brackets parser library. It parses HTML5, MathML, SVG and CSS to construct a DOM based on the official W3C specification. Comparable to beautifulsoup4 of python.</li>
+<li><a href="https://github.com/AutoMapper/AutoMapper">AutoMapper</a> - Convention-based object-object mapper in .NET.</li>
+<li><a href="https://github.com/castleproject/Core">Castle.Core</a> - Castle Core, including Castle DynamicProxy, Logging Services and DictionaryAdapter <a href="http://www.castleproject.org" rel="nofollow">http://www.castleproject.org</a>.</li>
+<li><a href="https://github.com/fsprojects/Chessie">Chessie</a> - Railway-oriented programming for .NET <a href="http://fsprojects.github.io/Chessie" rel="nofollow">http://fsprojects.github.io/Chessie</a>.</li>
+<li><a href="https://github.com/Tyrrrz/CliWrap">CliWrap</a> - Wrapper for command line interfaces.</li>
+<li><a href="https://github.com/Knagis/CommonMark.NET">CommonMark.NET</a> - The implementation of CommonMark specification in C# for converting Markdown documents to HTML.</li>
+<li><a href="https://github.com/minhhungit/ConsoleTableExt">ConsoleTableExt</a> - Fluent library to create table for .NET console application.</li>
+<li><a href="https://github.com/ALMMa/datatables.aspnet/tree/dev">datatables</a> - Microsoft ASP.NET server-side support and helpers for jQuery DataTables.</li>
+<li><a href="https://github.com/rdvojmoc/DinkToPdf">DinkToPdf</a> - C# .NET Core wrapper for wkhtmltopdf library that uses Webkit engine to convert HTML pages to PDF.</li>
+<li><a href="https://github.com/TylerBrinkley/Enums.NET">Enums.NET</a> - Enums.NET is a high-performance type-safe .NET enum utility library</li>
+<li><a href="https://github.com/robinrodricks/FluentFTP/">FluentFTP</a> - FTP and FTPS client, with extensive FTP commands, SSL/TLS connections, hashing/checksums and more.</li>
+<li><a href="https://github.com/HdrHistogram/HdrHistogram.NET">HdrHistogram.NET</a> - High Dynamic Range (HDR) Histogram.</li>
+<li><a href="https://github.com/justeat/httpclient-interception">httpclient-interception</a> - .NET Standard library for intercepting server-side HTTP dependencies.</li>
+<li><a href="https://github.com/Humanizr/Humanizer">Humanizer</a> - Humanizer meets all your .NET needs for manipulating and displaying strings, enums, dates, times, timespans, numbers and quantities.</li>
+<li><a href="https://github.com/jakejscott/Humidifier">Humidifier</a> - Write and maintain AWS Cloudformation templates using C#.</li>
+<li><a href="https://github.com/Taritsyn/LibSassHost">LibSass Host</a> - .NET wrapper around the <a href="http://sass-lang.com/libsass" rel="nofollow">libSass</a> library with the ability to support a virtual file system.</li>
+<li><a href="https://github.com/lunet-io/markdig">markdig</a> - Fast, powerfull, CommonMark compliant, extensible Markdown processor for .NET.</li>
+<li><a href="https://github.com/nreco/lambdaparser">NReco.LambdaParser</a> - Parses string expressions (formulas, methods calls, conditions) to LINQ expression tree that can be compiled to lambda and evaluated.</li>
+<li><a href="https://github.com/tsolarin/readline">readline</a> - Pure C# GNU-Readline like library for .NET/.NET Core.</li>
+<li><a href="https://github.com/re-motion/Relinq">Relinq</a> - With re-linq, it's now easier than ever to create full-featured LINQ providers.</li>
+<li><a href="https://github.com/mysticmind/reversemarkdown-net">ReverseMarkdown</a> - Html to Markdown converter library.</li>
+<li><a href="https://github.com/VahidN/PdfReport.Core">PdfReport.Core</a> - PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries.</li>
+<li><a href="https://github.com/github/Scientist.net">Scientist</a> - .NET library for carefully refactoring critical paths. It's a port of GitHub's Ruby Scientist library.</li>
+<li><a href="https://github.com/khellang/Scrutor">Scrutor</a> - Assembly scanning extensions for Microsoft.Extensions.DependencyInjection.</li>
+<li><a href="https://github.com/scottrippey/SmartFormat.NET">SmartFormat.NET</a> - An extensible replacement for string.Format.</li>
+<li>Stocks
+<ul>
+<li><a href="https://github.com/lppkarl/Trady">Trady</a> - Handy library for computing technical indicators, and it targets to be an automated trading system that provides stock data feeding, indicator computing, strategy building and automatic trading.</li>
+</ul>
+</li>
+<li><a href="https://github.com/StefH/System.Linq.Dynamic.Core">System.Linq.Dynamic.Core</a> - The .NET Standard (.NET Core) version from the System Linq Dynamic functionality.</li>
+<li>Validation
+<ul>
+<li><a href="https://github.com/JeremySkinner/FluentValidation">FluentValidation</a> - Small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules.</li>
+<li><a href="https://github.com/valit-stack/Valit">Valit</a> - A dead simple validation for .NET Core. No more if-statements all around your code. Write nice and clean fluent validators instead!</li>
+</ul>
+</li>
+<li><a href="https://github.com/warden-stack">warden-stack</a> - "health checks" for your applications, resources and infrastructure. Keep your Warden on the watch.</li>
+<li><a href="https://github.com/tomaszzmuda/Xabe.FFmpeg">Xabe.FFmpeg</a> - .NET Standard wrapper for FFmpeg. It allows to process media without know how FFmpeg works, and can be used to pass customized arguments to FFmpeg from C# application.</li>
+<li><a href="https://github.com/Tyrrrz/YoutubeExplode">YoutubeExplode</a> - Ultimate library for extracting metadata and downloading Youtube videos and playlists.</li>
+</ul>
+<h3><a id="user-content-networking" class="anchor" aria-hidden="true" href="#networking"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Networking</h3>
+<ul>
+<li><a href="https://github.com/stil/CurlThin">CurlThin</a> - Lightweight cURL binding library for C# with support for multiple simultaneous transfers through curl_multi interface.</li>
+<li><a href="https://github.com/StefH/NETStandard.HttpListener">NETStandard.HttpListener</a> - HttpListener for .NET Core (NETStandard).</li>
+</ul>
+<h3><a id="user-content-orm" class="anchor" aria-hidden="true" href="#orm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ORM</h3>
+<ul>
+<li><a href="https://github.com/aspnet/EntityFramework">Entity Framework Core</a> - Familiar developer experience to previous versions of EF, including LINQ, POCO, and Code First support.
+<ul>
+<li><a href="https://github.com/zzzprojects/EntityFramework-Plus">EntityFramework-Plus</a> - Entity Framework Utilities | Bulk Operations | Batch Delete | Batch Update | Query Cache | Query Filter | Query Future | Query Include | Audit.</li>
+<li><a href="https://github.com/NickStrupat/EntityFramework.Triggers">EntityFramework.Triggers</a> - Trigger events for EF.</li>
+<li><a href="https://github.com/NickStrupat/EntityFramework.Rx">EntityFramework.Rx</a> - Reactive <strong>hot</strong> observables of your EF operations.</li>
+<li><a href="https://github.com/NickStrupat/EntityFramework.PrimaryKey">EntityFramework.PrimaryKey</a> - Easily get the primary key of any entity (including composite keys).</li>
+<li><a href="https://github.com/NickStrupat/EntityFramework.TypedOriginalValues">EntityFramework.TypedOriginalValues</a> - Get a proxy object of the orginal values of your entity (typed access to Property("...").OriginalValue).</li>
+<li><a href="https://github.com/NickStrupat/EntityFramework.VersionedProperties">EntityFramework.VersionedProperties</a> - Classes which auto-magically keep an audit history of the changes to the specified property.</li>
+<li><a href="https://github.com/scottksmith95/LINQKit">LINQKit</a> - A free set of extensions for LINQ to SQL and Entity Framework power users.</li>
+<li><a href="https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql">Pomelo.EntityFrameworkCore.MySql</a> - Entity Framework Core provider for MySql built on top of mysql-net/MySqlConnector.</li>
+</ul>
+</li>
+<li><a href="https://github.com/StackExchange/Dapper">Dapper</a> - Simple object mapper for .NET.
+<ul>
+<li><a href="https://github.com/henkmollema/Dapper-FluentMap">Dapper-FluentMap</a> - Provides a simple API to fluently map POCO properties to database columns when using Dapper.</li>
+<li><a href="https://github.com/henkmollema/Dommel">Dommel</a> - Simple CRUD operations for Dapper.</li>
+<li><a href="https://github.com/phnx47/MicroOrm.Dapper.Repositories">MicroOrm.Dapper.Repositories</a> - CRUD for Dapper.</li>
+</ul>
+</li>
+<li><a href="https://nick-lucas.github.io/LimeBean/" rel="nofollow">Limebean</a> - Hybrid-ORM, designed to be simple to use and not totally hide SQL, while having all the nice things you expect from an ORM. Inspired by RedBeanPHP.</li>
+<li><a href="https://linq2db.github.io/" rel="nofollow">LINQ to DB (linq2db)</a> - The fastest LINQ database access library offering a simple, lightweight, fast, and type-safe layer between your POCO objects and your database for more than 10 database engines with full SQL support.</li>
+<li><a href="https://github.com/NEventStore/NEventStore/tree/feature/dotnetcore">NEventStore</a> - Persistence library used to abstract different storage implementations when using event sourcing as storage mechanism. This library is developed with a specific focus on DDD/CQRS applications.</li>
+<li><a href="https://github.com/schotime/NPoco">NPoco</a> - Simple microORM that maps the results of a query onto a POCO object. Project based on Schotime's branch of PetaPoco.</li>
+<li><a href="https://github.com/nreco/data">NReco.Data</a> - Lightweight provider-independent DAL for SQL commands generation, CRUD operations and simple POCO mapping.</li>
+<li><a href="https://github.com/ServiceStack/ServiceStack.OrmLite">ServiceStack.OrmLite</a> - Light, simple and fast convention-based POCO ORM.</li>
+<li><a href="https://github.com/sapiens/SqlFu">SqlFu</a> - Fast and versatile Micro-ORM.</li>
+<li><a href="https://github.com/SQLStreamStore/SQLStreamStore">SQLStreamStore</a> - Stream Store library targeting SQL based implementations for .NET.</li>
+</ul>
+<h3><a id="user-content-profiling" class="anchor" aria-hidden="true" href="#profiling"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profiling</h3>
+<ul>
+<li><a href="https://github.com/Glimpse/Glimpse.Prototype">Glimpse</a> - Lightweight, open-source, real-time diagnostics and insights profiler for .NET. <code>Unstable version</code></li>
+<li><a href="https://github.com/MiniProfiler/dotnet">MiniProfiler</a> - A simple but effective mini-profiler for ASP.NET websites.</li>
+</ul>
+<h3><a id="user-content-query-builders" class="anchor" aria-hidden="true" href="#query-builders"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Query Builders</h3>
+<ul>
+<li><a href="https://github.com/sqlkata/querybuilder">SqlKata</a> - Elegant Sql Query Builder, that supports complex queries, joins, sub queries, nested where conditions, vendor engine targets and more</li>
+</ul>
+<h3><a id="user-content-queue-and-messaging" class="anchor" aria-hidden="true" href="#queue-and-messaging"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Queue and Messaging</h3>
+<ul>
+<li><a href="https://emitter.io/" rel="nofollow">emitter</a> - Free open source real-time messaging service that connects all devices. This publish-subscribe messaging API is built for speed and security.</li>
+<li><a href="https://github.com/EventStore/EventStore">EventStore</a> - The open-source, functional database with Complex Event Processing in JavaScript.</li>
+<li><a href="https://github.com/exceptionless/Foundatio#queues">Foundatio</a> - A common interface with in memory, redis and azure implementations.</li>
+<li><a href="https://github.com/jbogard/MediatR">MediatR</a> - Simple, unambitious mediator implementation in .NET.</li>
+<li><a href="https://github.com/jbogard/MediatR.Extensions.Microsoft.DependencyInjection">MediatR.Extensions.Microsoft.DependencyInjection</a> - MediatR extensions for Microsoft.Extensions.DependencyInjection.</li>
+<li><a href="https://github.com/mayuanyang/Mediator.Net">Mediator.Net</a> - A simple mediator for .Net for sending command, publishing event and request response with pipelines supported.</li>
+<li><a href="https://github.com/Lavinski/Enexure.MicroBus">MicroBus</a> - Simple in process mediator for .NET.</li>
+<li><a href="https://github.com/zeromq/netmq">netmq</a> - 100% native C# implementation of ZeroMQ for .NET.</li>
+<li><a href="https://github.com/rabbitmq/rabbitmq-dotnet-client">rabbitmq-dotnet-client</a> - RabbitMQ .NET client <a href="https://www.rabbitmq.com" rel="nofollow">https://www.rabbitmq.com</a>.</li>
+<li><a href="https://github.com/pardahlman/RawRabbit">RawRabbit</a> - Modern .NET framework for communication over RabbitMq.</li>
+<li><a href="https://github.com/rebus-org/Rebus">Rebus</a> - Simple and lean service bus implementation for .NET.</li>
+<li><a href="http://restbus.org" rel="nofollow">Restbus</a> - Messaging library for RabbitMq.</li>
+<li><a href="https://github.com/turgayozgur/tossit">Tossit</a> - Simple, easy to use library for distributed job/worker logic. Distributed messages handled by built in RabbitMQ implementation.</li>
+</ul>
+<h3><a id="user-content-scheduler-and-job" class="anchor" aria-hidden="true" href="#scheduler-and-job"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scheduler and Job</h3>
+<ul>
+<li><a href="https://github.com/leosperry/Chroniton">Chroniton.NetCore</a> - Lightweight robust library for running tasks(jobs) on schedules.</li>
+<li><a href="https://github.com/fluentscheduler/FluentScheduler">FluentScheduler</a> - Automated job scheduler with fluent interface.</li>
+<li><a href="https://github.com/HangfireIO/Hangfire">HangfireIO</a> - Easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET apps <a href="http://hangfire.io" rel="nofollow">http://hangfire.io</a>.</li>
+<li><a href="https://github.com/prasannavl/LiquidState">LiquidState</a> - Efficient asynchronous and synchronous state machines for .NET</li>
+<li><a href="https://github.com/quartznet/quartznet/">quartznet</a> - Quartz Enterprise Scheduler .NET <a href="http://www.quartz-scheduler.net" rel="nofollow">http://www.quartz-scheduler.net</a>.</li>
+<li><a href="https://github.com/dotnet-state-machine/stateless">stateless</a> - Simple library for creating state machines in C# code.</li>
+</ul>
+<h3><a id="user-content-sdks" class="anchor" aria-hidden="true" href="#sdks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SDKs</h3>
+<ul>
+<li><a href="https://github.com/aws/aws-sdk-net">AWS SDK</a> - The Amazon Web Services (AWS) .NET Core SDK components. Each AWS service has its own NuGet package.</li>
+<li><a href="https://github.com/azure/azure-event-hubs-dotnet">azure-event-hubs-dotnet</a> - .NET Standard client library for Azure Event Hubs.</li>
+<li>Blockchain clients
+<ul>
+<li><a href="https://github.com/JKorf/Bittrex.Net">Bittrex.Net</a> - C# .Net wrapper for the Bittrex web API including all features easily accessible and usable.</li>
+<li><a href="https://github.com/JKorf/Binance.Net">Binance.Net</a> - .Net API wrapper for the Binance web API.</li>
+</ul>
+</li>
+<li><a href="https://github.com/PlayFab/consuldotnet/tree/develop">consuldotnet</a> - .NET API for Consul.</li>
+<li><a href="https://github.com/amweiss/dark-sky-core">DarkSkyCore</a> - A .NET Standard wrapper for the <a href="https://darksky.net/dev/docs" rel="nofollow">Dark Sky API</a>.</li>
+<li><a href="https://github.com/Microsoft/Docker.DotNet">Docker.DotNet</a> - .NET (C#) Client Library for Docker API.</li>
+<li><a href="https://github.com/GoogleCloudPlatform/google-cloud-dotnet">google-cloud-dotnet</a> - Google Cloud Client Libraries for .NET.</li>
+<li><a href="https://github.com/rogeralsing/Microphone">Microphone</a> - Lightweight framework to run self hosting REST services using Web Api or NancyFx ontop of a Consul or ETCD cluster.</li>
+<li><a href="https://github.com/justdmitry/NetTelegramBotApi">NetTelegramBotApi</a> - C# client library for building Telegram bot <a href="https://core.telegram.org/bots/api" rel="nofollow">https://core.telegram.org/bots/api</a>.</li>
+<li><a href="https://github.com/octokit/octokit.net">octokit.net</a> - GitHub API client library for .NET.</li>
+<li><a href="https://github.com/OfficeDev/Open-XML-SDK">Open-XML-SDK</a> - The Open XML SDK provides tools for working with Office Word, Excel, and PowerPoint documents.</li>
+<li><a href="https://github.com/jshirota/PreStorm">PreStorm</a> - Parallel REST Client for ArcGIS Server.</li>
+<li><a href="https://github.com/sendgrid/sendgrid-csharp">SendGrid-csharp</a> - C# client library for using the full SendGrid API.</li>
+<li><a href="https://github.com/Pereingo/statsd-csharp-client">statsd-csharp-client</a> - .NET Standard compatible C# client to interface with Etsy's excellent <a href="https://github.com/etsy/statsd">statsd</a> server.</li>
+<li><a href="https://github.com/linvi/tweetinvi">tweetinvi</a> - Intuitive .NET C# library to access the Twitter REST and STREAM API.</li>
+</ul>
+<h3><a id="user-content-security" class="anchor" aria-hidden="true" href="#security"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h3>
+<ul>
+<li><a href="https://github.com/mganss/HtmlSanitizer">HtmlSanitizer</a> - Cleans HTML to avoid XSS attacks.</li>
+<li><a href="https://github.com/dvsekhvalnov/jose-jwt">jose-jwt</a> - Library for processing JOSE objects (JWT, JWA, JWS and related).</li>
+<li><a href="https://github.com/NWebsec/NWebsec">NWebsec</a> - Security libraries for ASP.NET <a href="https://www.nwebsec.com" rel="nofollow">https://www.nwebsec.com</a>.</li>
+<li><a href="https://github.com/PaulMiami/reCAPTCHA">reCAPTCHA</a> - reCAPTCHA 2.0 for ASP.NET Core.</li>
+<li><a href="https://github.com/dotnet-security-guard/roslyn-security-guard">roslyn-security-guard</a> - Roslyn analyzers that aim to help security audit on .NET applications.</li>
+<li><a href="https://github.com/GaProgMan/OwaspHeaders.Core">OwaspHeaders</a> - .NET Core middleware for injecting the Owasp recommended HTTP Headers for increased security.</li>
+<li><a href="https://github.com/aspnet/Security">Security</a> - Middleware for security and authorization of web apps.</li>
+</ul>
+<h3><a id="user-content-searching" class="anchor" aria-hidden="true" href="#searching"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Searching</h3>
+<ul>
+<li><a href="https://github.com/omerfarukz/autocomplete">AutoComplete</a> - Persistent, simple, powerful and portable autocomplete library.</li>
+<li><a href="https://github.com/elastic/elasticsearch-net">Elasticsearch.Net &amp; NEST</a> - Repository for both NEST and Elasticsearch.NET, the two official elasticsearch .NET clients.</li>
+<li><a href="https://github.com/damienbod/ElasticsearchCRUD">ElasticsearchCRUD</a> - Elasticsearch .NET API.</li>
+<li><a href="https://github.com/StefH/SimMetrics.Net">SimMetrics.Net</a> - A Similarity Metric Library, e.g. from edit distance's (Levenshtein, Gotoh, Jaro etc) to other metrics, (e.g Soundex, Chapman)</li>
+<li><a href="https://github.com/solr-express/solr-express">SolrExpress</a> - Simple and lightweight query .NET library for Solr, in a controlled, buildable and fail fast way.</li>
+</ul>
+<h3><a id="user-content-serialization" class="anchor" aria-hidden="true" href="#serialization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Serialization</h3>
+<ul>
+<li><a href="https://github.com/Microsoft/bond">bond</a> - Cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services.</li>
+<li><a href="https://github.com/davidfowl/Channels">Channels</a> - Push based .NET Streams.</li>
+<li><a href="https://github.com/JoshClose/CsvHelper">CsvHelper</a> - Library to help reading and writing CSV files.</li>
+<li><a href="https://github.com/indice-co/EDI.Net">Edi.Net</a> - EDI Serializer/Deserializer. Supports EDIFact, X12 and TRADACOMS format.</li>
+<li><a href="https://github.com/wojtpl2/ExtendedXmlSerializer">ExtendedXmlSerializer</a> - Extended Xml Serializer for .NET.</li>
+<li><a href="https://github.com/kevin-montrose/Jil">Jil</a> - Fast .NET JSON (De)Serializer, Built On Sigil.</li>
+<li><a href="https://github.com/msgpack/msgpack-cli">msgpack-cli</a> - MessagePack implementation for Common Language Infrastructure / <a href="http://msgpack.org" rel="nofollow">msgpack.org</a>.</li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json">Newtonsoft.Json</a> - Popular high-performance JSON framework for .NET.</li>
+<li><a href="https://github.com/mgravell/protobuf-net/">protobuf-net</a> - Protocol Buffers library for idiomatic .NET.</li>
+<li><a href="https://github.com/RehanSaeed/Schema.NET">Schema.NET</a> - Schema.org objects turned into strongly typed C# POCO classes for use in .NET. All classes can be serialized into JSON/JSON-LD and XML, typically used to represent structured data in the head section of html page.</li>
+<li><a href="https://github.com/ServiceStack/ServiceStack.Text">ServiceStack.Text</a> - JSON, JSV and CSV Text Serializers.</li>
+<li><a href="https://github.com/bytefish/TinyCsvParser">TinyCsvParser</a> - Easy to use, easy to extend and high-performance library for CSV parsing with .NET.</li>
+<li><a href="https://github.com/rogeralsing/Wire">Wire</a> - Binary serializer for POCO objects.</li>
+<li><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> - .NET</li>
+<li><a href="https://github.com/neuecc/ZeroFormatter">ZeroFormatter</a> - Fast binary (de)serializer for .NET.</li>
+<li><a href="https://github.com/neuecc/Utf8Json">Utf8Json</a> - Definitely Fastest and Zero Allocation JSON Serializer for C#(NET, .NET Core, Unity, Xamarin).</li>
+<li><a href="https://github.com/sinairv/YAXLib">YAXLib</a> - XML Serialization Library for the .NET Framework and .NET Core. Extremely flexible and powerful.</li>
+</ul>
+<h3><a id="user-content-template-engine" class="anchor" aria-hidden="true" href="#template-engine"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Template Engine</h3>
+<ul>
+<li><a href="https://github.com/dotliquid/dotliquid">dotliquid</a> - .NET Port of Tobias Lütke's Liquid template language.</li>
+<li><a href="https://github.com/sebastienros/fluid">fluid</a> - Open-source .NET template engine that is as close as possible to the Liquid template language.</li>
+<li><a href="https://github.com/aspnet/Razor">Razor</a> - Parser and code generator for CSHTML files used in view pages for MVC web apps.</li>
+</ul>
+<h3><a id="user-content-testing" class="anchor" aria-hidden="true" href="#testing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Testing</h3>
+<ul>
+<li><a href="https://github.com/bchavez/Bogus">Bogus</a> - Simple and sane fake data generator for C#. Based on and ported from the famed faker.js.</li>
+<li><a href="https://github.com/FakeItEasy/FakeItEasy">FakeItEasy</a> - The easy mocking library for .NET.</li>
+<li><a href="https://github.com/dennisdoomen/FluentAssertions">FluentAssertions</a> - Set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test.</li>
+<li><a href="https://github.com/MisterJames/GenFu">GenFu</a> - Library you can use to generate realistic test data.</li>
+<li><a href="https://github.com/LightBDD/LightBDD">LightBDD</a> - BDD framework allowing to create easy to read and maintain tests.</li>
+<li><a href="https://github.com/richardszalay/mockhttp">mockhttp</a> - Testing layer for Microsoft's HttpClient library.</li>
+<li><a href="https://github.com/Moq/moq4">moq.netcore</a> - Most popular and friendly mocking framework for .NET.</li>
+<li><a href="https://github.com/machine/machine.specifications">MSpec</a> - Popular testing framework for writing BDD-style tests.</li>
+<li><a href="https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc">MyTested.AspNetCore.Mvc</a> - Fluent testing
+framework for ASP.NET Core MVC.</li>
+<li><a href="https://github.com/hallatore/Netling">Netling</a> - Load tester client for easy web testing.</li>
+<li><a href="https://github.com/nspec/NSpec">NSpec</a> - Battle hardened testing framework for C# that's heavily inspired by Mocha and RSpec.</li>
+<li><a href="https://github.com/nsubstitute/NSubstitute">NSubstitute</a> - A friendly substitute for .NET mocking frameworks.</li>
+<li><a href="https://github.com/nunit/dotnet-test-nunit">nunit</a> - NUnit test runner for .NET Core.</li>
+<li><a href="https://github.com/shouldly/shouldly">shouldly</a> - Should testing for .NET - the way Asserting <em>Should</em> be! <a href="http://shouldly.readthedocs.org/en/latest" rel="nofollow">http://shouldly.readthedocs.org/en/latest</a></li>
+<li><a href="https://github.com/techtalk/SpecFlow/tree/DotNetCore">SpecFlow</a> - Pragmatic BDD solution for .NET. It uses the Gherkin specification language and integrates to Visual Studio.</li>
+<li><a href="https://github.com/storyteller/Storyteller">Storyteller</a> - Executable Specifications for .NET <a href="http://storyteller.github.io" rel="nofollow">http://storyteller.github.io</a>.</li>
+<li><a href="https://markvincze.github.io/Stubbery/" rel="nofollow">Stubbery</a> - A simple library for creating and running Api stubs in .NET.</li>
+<li><a href="https://github.com/TestStack/TestStack.BDDfy">TestStack.BDDfy</a> - The simplest BDD framework EVER!</li>
+<li><a href="https://github.com/xbehave/xbehave.net">xBehave.net</a> - An xUnit.net extension for describing your tests using natural language. <a href="http://xbehave.github.io" rel="nofollow">http://xbehave.github.io</a></li>
+<li><a href="https://github.com/xunit/xunit">xUnit.net</a> - A free, open source, community-focused unit testing tool for the .NET Framework.</li>
+</ul>
+<h3><a id="user-content-tools" class="anchor" aria-hidden="true" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h3>
+<ul>
+<li><a href="https://catlight.io" rel="nofollow">CatLight</a> - Status notifier for developers that monitors builds and tasks in the project. Built using .Net Core and Electron.</li>
+<li><a href="https://github.com/natemcmaster/CommandLineUtils">CommandLineUtils</a> - Command line parsing and utilities for .NET Core and .NET Framework.</li>
+<li><a href="https://github.com/dotnet/docfx">docfx</a> - Tools for building and publishing API documentation for .NET projects <a href="http://dotnet.github.io/docfx" rel="nofollow">http://dotnet.github.io/docfx</a></li>
+<li><a href="https://dotnetfiddle.net" rel="nofollow">dotnetfiddle</a> - .NET sandbox for developers to quickly try out code and share code snippets.</li>
+<li><a href="https://github.com/Nick-Lucas/EntryPoint">EntryPoint</a> - Composable CLI (Command Line) Argument Parser for .Net Core &amp; .Net Framework 4.5+.</li>
+<li><a href="https://github.com/ttu/dotnet-fake-json-server">Fake JSON Server</a> - Fake REST API for prototyping or as a CRUD Back End. No need to define types, uses dynamic typing. Data is stored to a single JSON file. Has authentication, WebSocket notifications, async long running operations, random generation for errors/delays and experimental GraphQL support.</li>
+<li><a href="https://github.com/joeblau/gitignore.io">gitignore.io</a> - Create useful .gitignore files for your project <a href="https://www.gitignore.io" rel="nofollow">https://www.gitignore.io</a>.</li>
+<li><a href="https://github.com/kzu/GitInfo">GitInfo</a> - Git and SemVer Info from MSBuild, C# and VB.</li>
+<li><a href="https://github.com/OctopusDeploy/ICanHasDotnetCore">ICanHasDotnetCore</a> - Scans uploaded packages.config files or GitHub repository and determines whether the nuget packages target .NET Standard <a href="https://icanhasdot.net" rel="nofollow">https://icanhasdot.net</a>.</li>
+<li><a href="http://json2csharp.com" rel="nofollow">json2csharp</a> - Generate C# classes from JSON.</li>
+<li><a href="https://github.com/Lone-Coder/letsencrypt-win-simple">letsencrypt-win-simple</a> - A Simple ACME Client for Windows.</li>
+<li><a href="https://github.com/NuGetPackageExplorer/NuGetPackageExplorer">NuGetPackageExplorer</a> - Create, update and deploy Nuget Packages with a GUI.</li>
+<li><a href="https://github.com/OctoLinker/browser-extension">OctoLinker</a> - Navigate through <code>projects.json</code> files efficiently with the OctoLinker browser extension for GitHub.</li>
+<li><a href="https://github.com/opserver/Opserver">Opserver</a> - Stack Exchange's Monitoring System.</li>
+<li><a href="https://github.com/ShareX/ShareX">ShareX</a> - Free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to over 80 supported destinations you can choose from. <a href="https://getsharex.com" rel="nofollow">https://getsharex.com</a></li>
+<li><a href="https://github.com/ashmind/SharpLab">SharpLab</a> - .NET code playground that shows intermediate steps and results of code compilation. <a href="https://sharplab.io" rel="nofollow">https://sharplab.io</a></li>
+<li><a href="https://github.com/dncuug/X.Web.Sitemap">X.Web.Sitemap</a> – Simple sitemap generator for .NET and .NET Core</li>
+<li><a href="https://github.com/dncuug/X.Web.RSS">X.Web.RSS</a> – Simple RSS Feed generator for .NET and .NET Core</li>
+</ul>
+<h3><a id="user-content-web-framework" class="anchor" aria-hidden="true" href="#web-framework"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Framework</h3>
+<ul>
+<li>WebAssembly
+<ul>
+<li><a href="https://github.com/SteveSanderson/Blazor">Blazor</a> - UI framework running .NET in the browser via WebAssembly.</li>
+<li><a href="https://github.com/praeclarum/Ooui">Ooui</a> - Small cross-platform UI library that brings the simplicity of native UI development to the web.</li>
+</ul>
+</li>
+<li><a href="https://github.com/reactjs/React.NET">ReactJS.NET</a> - .NET library for JSX compilation and server-side rendering of React components.</li>
+<li><a href="https://github.com/GuillaumeSalles/redux.NET">redux.NET</a> - Predictable state container for .NET apps. Inspired by <a href="https://github.com/reactjs/redux">https://github.com/reactjs/redux</a>.</li>
+</ul>
+<h3><a id="user-content-web-socket" class="anchor" aria-hidden="true" href="#web-socket"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Socket</h3>
+<ul>
+<li><a href="https://github.com/aspnet/signalr">SignalR Server</a> - Real-time web functionality for web apps, including server-side push.</li>
+<li><a href="https://github.com/kerryjiang/SuperSocket">SuperSocket</a> - Light weight, cross platform and extensible socket server application framework.</li>
+<li><a href="https://github.com/Code-Sharp/WampSharp">WampSharp</a> - C# implementation of <a href="http://wamp-proto.org/" rel="nofollow">The Web Application Messaging Protocol</a> - Protocol that provides messaging patterns of Remote Procedure Calls and Publish/Subscribe over WebSockets.</li>
+<li><a href="https://github.com/radu-matei/websocket-manager">websocket-manager</a> - Real-Time library for ASP .NET Core.</li>
+</ul>
+<h3><a id="user-content-windows-service" class="anchor" aria-hidden="true" href="#windows-service"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Windows Service</h3>
+<ul>
+<li><a href="https://github.com/dasMulli/dotnet-win32-service">dotnet-win32-service</a> - Set up and run as Windows Service directly from .NET Core.</li>
+<li><a href="https://github.com/Topshelf/Topshelf">Topshelf</a> - Easy service hosting framework for building Windows services using .NET.</li>
+</ul>
+<h3><a id="user-content-workflow" class="anchor" aria-hidden="true" href="#workflow"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Workflow</h3>
+<ul>
+<li><a href="https://github.com/dmetzgar/corewf/">CoreWF</a> - Port of Windows Workflow Foundation (WF) to .NET Core.</li>
+<li><a href="https://github.com/danielgerlag/workflow-core">workflow-core</a> - Lightweight workflow engine for .NET Standard.</li>
+</ul>
+<h2><a id="user-content-starter-kits" class="anchor" aria-hidden="true" href="#starter-kits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Starter Kits</h2>
+<ul>
+<li><a href="https://github.com/Arch">Arch</a> - The collection of .NET Core libraries that are created by software architects who embrace all the new stuff in .NET Core.</li>
+<li><a href="https://github.com/MarkPieszak/aspnetcore-angular2-universal">AspNetCore-Angular2-Universal</a> - Cross-platform - w/ server-side rendering for SEO, Bootstrap, i18n internationalization (ngx-translate), Webpack, TypeScript, unit testing w/ Karma, WebAPI REST setup, SignalR, Swagger docs, and more!</li>
+<li><a href="https://github.com/kriasoft/aspnet-starter-kit">ASP.NET Core Starter Kit</a> - Opinionated boilerplate for web development based on .NET Core, Kestrel, GraphQL on the backend and Babel, Webpack, React and Redux on the frontend. This boilerplate comes in both C# and F# flavors.</li>
+<li><a href="https://github.com/aspnetboilerplate/aspnetboilerplate">ASP.NET Boilerplate</a> - ASP.NET Boilerplate is a starting point for new modern web applications using best practices and most popular tools. It's aimed to be a SOLID model, a general-purpose application framework and a project template. <code>4.5.x or above</code></li>
+<li><a href="https://github.com/aspnet/JavaScriptServices">aspnetcore-spa generator</a> - Yeoman generator to build a brand-new ASP.NET Core single page application that uses Angular 2 / React / React With Redux / Knockout / Aurelia on the client.</li>
+<li><a href="https://github.com/MarkPieszak/aspnetcore-Vue-starter">ASP.Net Core Vue Starter</a> - Asp.NETCore 2.0 Vue 2 (ES6) SPA Starter kit, contains routing, Vuex, and more!.</li>
+<li><a href="https://github.com/bitwarden/core">bitwarden-core</a> - The core infrastructure backend (API, database, etc) <a href="https://bitwarden.com" rel="nofollow">https://bitwarden.com</a>.</li>
+<li><a href="https://github.com/dsuryd/dotNetify">dotNetify</a> - Simple, lightweight, yet powerful way to build real-time HTML5/C# .NET web apps.</li>
+<li><a href="https://github.com/OmniSharp/generator-aspnet">generator-aspnet</a> - yo generator for ASP.NET Core.</li>
+<li><a href="https://github.com/pauldotknopf/react-aspnet-boilerplate">react-aspnet-boilerplate</a> - Starting point for building isomorphic React applications with ASP.NET Core 1, leveraging existing techniques.</li>
+<li><a href="https://github.com/saaskit/saaskit">saaskit</a> - Developer toolkit for building SaaS applications.</li>
+</ul>
+<h2><a id="user-content-sample-projects" class="anchor" aria-hidden="true" href="#sample-projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sample Projects</h2>
+<ul>
+<li><a href="https://github.com/RickStrahl/AlbumViewerVNext">AlbumViewerVNext</a> - West Wind Album Viewer ASP.NET 5 Sample.</li>
+<li><a href="https://github.com/HTBox/allReady">allReady</a> - Open-source solution focused on increasing awareness, efficiency and impact of preparedness campaigns as they are delivered by humanitarian and disaster response organizations in local communities. <a href="http://www.htbox.org/projects/allready" rel="nofollow">http://www.htbox.org/projects/allready</a></li>
+<li><a href="https://github.com/damienbod/AspNet5GeoElasticsearch">AspNet5GeoElasticsearch</a> - ASP.NET Core MVC Geo Elasticsearch Swashbuckle Swagger.</li>
+<li><a href="https://github.com/cecilphillip/aspnet-servicediscovery-patterns">aspnet-servicediscovery-patterns</a> - Samples of implementing Service Discovery patterns with ASP.NET Core.</li>
+<li><a href="https://github.com/blowdart/AspNetAuthorizationWorkshop">AspNetAuthorizationWorkshop</a> - A workshop for moving through the various new pieces in ASP.NET Core Authorization</li>
+<li><a href="https://blogs.msdn.microsoft.com/visualstudio/2016/12/14/connectdemos-2016-bikesharing360-on-github/" rel="nofollow">BikeSharing360 Suite of Apps from Microsoft</a> Presented December Connect 2016 Conference, a compreshsive set of interworking apps for both enterprise users and the consumers (bike riders):
+<a href="https://github.com/Microsoft/BikeSharing360_MobileApps">Mobile Apps</a>, <a href="https://github.com/Microsoft/BikeSharing360_BackendServices">Backend Services</a>, <a href="https://github.com/Microsoft/BikeSharing360_Websites">Websites</a>, <a href="https://github.com/Microsoft/BikeSharing360_SingleContainer">Single Container Apps</a>, <a href="https://github.com/Microsoft/BikeSharing360_MultiContainer">Multi Container Apps</a>, <a href="https://github.com/Microsoft/BikeSharing360_CognitiveServicesKioskApp">Cognitive Services Kiosk App</a>,
+<a href="https://github.com/Microsoft/BikeSharing360_BotApps">Azure Bot App</a>.</li>
+<li><a href="https://github.com/joeaudette/cloudscribe">cloudscribe</a> - ASP.NET Core Multi-tenant web application foundation.</li>
+<li><a href="https://github.com/shawnwildermuth/CoreCodeCamp">CoreCodeCamp</a> - An Open Source Website for running small, local development events.</li>
+<li><a href="https://github.com/jvandevelde/distributed-playground">distributed-playground</a> - Distributed service playground with Vagrant, Consul, Docker &amp; ASP.NET Core.</li>
+<li><a href="https://github.com/scheshan/DotNetClub">DotNetClub</a> - Tiny club written in ASP.NET Core.</li>
+<li><a href="https://github.com/aspnet/Entropy">Entropy</a> - Chaotic experimental playground for new features and ideas - check here for small and simple samples for individual features.</li>
+<li><a href="https://github.com/EduardoPires/EquinoxProject">EquinoxProject</a> - Full ASP.NET Core 2.0 application with DDD, CQRS and Event Sourcing.</li>
+<li><a href="https://github.com/dotnet/eShopOnContainers">eShopOnContainers</a> - Microservices Architecture and Containers based Reference Application.</li>
+<li><a href="https://github.com/Azure-Samples/guidance-identity-management-for-multitenant-apps">guidance-identity-management-for-multitenant-apps</a> - How to manage user identities in a multitenant app on Microsoft Azure, using Azure Active Directory for authentication.</li>
+<li><a href="https://github.com/thangchung/magazine-website">magazine-website</a> - Magazine website (using .NET Core, ASP.NET Core, EF Core) with DDD, CQRS, microservices, asynchronous programming applied.</li>
+<li><a href="https://github.com/Nootus/MegaMine">MegaMine</a> - Open source mining solution that helps miners in extracting Gold, Quartz, Granite etc. This solution is built using ASP.NET Core and AngularJS utilizing multiple light weight components in a Microservices way.</li>
+<li><a href="https://github.com/ealsur/minicompiler">minicompiler</a> - Minification, bundling and compiling sample.</li>
+<li><a href="https://github.com/aspnet/MusicStore">MusicStore</a> - Sample MusicStore application that uses MVC and Entity Framework.</li>
+<li><a href="https://github.com/cesarcastrocuba/nlayerappv3">NLayerAppV3</a> - NLayerAppV3 N-Layered Architecture with .NET Core Preview 2.</li>
+<li><a href="https://github.com/OrchardCMS/OrchardCore.Samples">Orchard Core - Modular and Multi-tenant applications</a> - Use Orchard Core Framework to create Modular and Multi-tenant applications.</li>
+<li><a href="https://github.com/AdaptiveConsulting/ReactiveTraderCloud">ReactiveTraderCloud</a> - Real-time trading platform demo showcasing reactive programming principles applied across the full application stack.</li>
+<li><a href="https://github.com/chsakell/aspnet5-angular2-typescript">PhotoGallery</a> - Cross-platform Single Page Applications with ASP.NET Core, Angular 2 &amp; TypeScript <a href="http://wp.me/p3mRWu-11L" rel="nofollow">http://wp.me/p3mRWu-11L</a>.</li>
+<li><a href="https://github.com/dodyg/practical-aspnetcore">Practical ASP.NET Core</a> - A daily updated micro samples of ASP.NET Core features and facilities.</li>
+<li><a href="https://github.com/mustakimali/JustA.ML">JustA.ML</a> - A web application that lets you share files/URL/text between your devices written in ASP.NET Core 2.0. Open source, live at <a href="https://justa.ml" rel="nofollow">https://justa.ml</a></li>
+</ul>
+<h2><a id="user-content-articles" class="anchor" aria-hidden="true" href="#articles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Articles</h2>
+<ul>
+<li>Basic knowledge
+<ul>
+<li><a href="https://blog.rendle.io/a-guide-to-the-net-projects-on-github/" rel="nofollow">A guide to the .NET Core projects on GitHub</a></li>
+<li><a href="https://blogs.msdn.microsoft.com/visualstudio/2016/12/14/connectdemos-2016-bikesharing360-on-github/" rel="nofollow">Microsoft architectual overview of comprehensive BikeSharing360 suite of demo apps with related videos</a></li>
+<li><a href="https://www.codeproject.com/Articles/1190475/Porting-a-NET-Framework-library-to-NET-Core" rel="nofollow">Porting a .NET Framework library to .NET Core</a></li>
+<li><a href="http://mattwarren.org/2017/02/07/The-68-things-the-CLR-does-before-executing-a-single-line-of-your-code/" rel="nofollow">The 68 things the CLR does before executing a single line of your code</a></li>
+<li>The comparison between .NET Core and Nodejs at <a href="https://manuel-rauber.com/2016/03/07/node-js-asp-net-core-1-0-a-usage-comparison/" rel="nofollow">here</a>, <a href="https://gist.github.com/ilyaigpetrov/f6df3e6f825ae1b5c7e2">here</a> and <a href="https://github.com/thinktecture/nodejs-aspnetcore-webapi">here</a></li>
+<li><a href="http://developer.telerik.com/featured/understanding-asp-net-core-initialization/" rel="nofollow">Understanding ASP.NET Core Initialization</a></li>
+<li><a href="https://codingblast.com/why-you-should-join-asp-net-core/" rel="nofollow">Why you should join .NET Core and ASP.NET Core train</a></li>
+</ul>
+</li>
+<li>Cloud Development
+<ul>
+<li><a href="https://aws.amazon.com/blogs/developer/configuring-aws-sdk-with-net-core/" rel="nofollow">Configuring the AWS SDK in .NET Core</a></li>
+<li><a href="https://www.codeproject.com/Articles/1178781/Serverless-Architecture-using-Csharp-and-AWS-Amazo" rel="nofollow">Serverless Architecture using C# and AWS Amazon Gateway Api/Lambda</a></li>
+<li><a href="https://aws.amazon.com/blogs/compute/announcing-c-sharp-support-for-aws-lambda/" rel="nofollow">Using C# and .NET Core in Amazon Web Services (AWS) Lambda</a></li>
+</ul>
+</li>
+<li>Configuration and deployment
+<ul>
+<li><a href="https://gist.github.com/davidfowl/ed7564297c61fe9ab814">.NET project structure</a></li>
+<li><a href="http://andrewlock.net/adding-travis-ci-to-a-net-core-app/" rel="nofollow">Adding Travis CI builds to a .NET Core app</a></li>
+<li><a href="http://social.technet.microsoft.com/wiki/contents/articles/35918.asp-net-core-1-0-configure-applicationinsights.aspx" rel="nofollow">ASP.NET Core 1.0 - Configure ApplicationInsights</a></li>
+<li><a href="http://tattoocoder.azurewebsites.net/legion-of-heroes-haproxy-nginx-angular2-aspnetcore-redis-docker/" rel="nofollow">haproxy, nginx, Angular 2, ASP.NET Core, Redis and Docker</a></li>
+<li><a href="http://www.natemcmaster.com/blog/2017/01/19/project-json-to-csproj/" rel="nofollow">Project.json to MSBuild conversion guide</a></li>
+<li><a href="https://few-lines-of-code.blogspot.com/2016/03/publishing-net-project-with-appveyor.html" rel="nofollow">Publishing a .NET project with Appveyor and NuGet</a></li>
+<li><a href="http://developer.telerik.com/featured/new-configuration-model-asp-net-core/" rel="nofollow">The New Configuration Model in ASP.NET Core</a></li>
+</ul>
+</li>
+<li>Entity Framework Core
+<ul>
+<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/11/09/net-core-data-access/" rel="nofollow">.NET Core Data Access</a></li>
+<li><a href="https://github.com/rowanmiller/Demo-EFCore">A very good example about EF Core</a></li>
+</ul>
+</li>
+<li>Miraculous
+<ul>
+<li><a href="http://www.ideliverable.com/blog/getting-started-with-orchard-core-as-a-nuget-package" rel="nofollow">Getting started with Orchard Core as a NuGet package</a></li>
+<li><a href="https://code.msdn.microsoft.com/How-to-export-HTML-to-PDF-c5afd0ce" rel="nofollow">How to export HTML to PDF in ASP.NET Core</a></li>
+<li><a href="http://mgyongyosi.com/2016/Vuejs-server-side-rendering-with-aspnet-core/" rel="nofollow">Vue.js server side rendering with ASP.NET Core</a></li>
+</ul>
+</li>
+<li>Security
+<ul>
+<li><a href="http://stackshare.io/tomstaijen/net-continuous-delivery-microservices" rel="nofollow">.NET Continuous Delivery Microservices</a></li>
+<li><a href="https://digitalmccullough.com/posts/aspnetcore-auth-system-demystified.html" rel="nofollow">ASP.NET Core 2.0 Authentication and Authorization System Demystified</a></li>
+<li><a href="https://github.com/blowdart/AspNetAuthorizationWorkshop">A walk-through for an ASP.NET Authorization Lab</a></li>
+<li><a href="https://stormpath.com/blog/authentication-asp-net-core" rel="nofollow">Authentication in ASP.NET Core</a></li>
+</ul>
+</li>
+<li>Testing
+<ul>
+<li><a href="http://www.dotnetcatch.com/2016/11/23/selenium-with-net-core/" rel="nofollow">Selenium with .NET Core</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-books" class="anchor" aria-hidden="true" href="#books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<ul>
+<li><a href="https://manning.com/books/dotnet-core-in-action" rel="nofollow">.NET Core in Action</a></li>
+<li><a href="https://www.amazon.com/ASP-NET-Core-Application-Development-application/dp/1509304061" rel="nofollow">ASP.NET Core Application Development: Building an application in four sprints (Developer Reference)</a></li>
+<li><a href="https://www.manning.com/books/asp-dot-net-core-in-action" rel="nofollow">ASP.NET Core in Action</a></li>
+<li><a href="https://www.amazon.com/ASP-NET-Core-1-0-High-Performance/dp/1785881892" rel="nofollow">ASP.NET Core 1.0 High Performance</a></li>
+<li><a href="https://www.amazon.com/Building-Microservices-ASP-NET-Core-Cross-Platform/dp/1491961732" rel="nofollow">Building Microservices with ASP.NET Core: Develop, Test, and Deploy Cross-Platform Services in the Cloud</a></li>
+<li><a href="https://www.amazon.com/NET-Core-1-0-Cross-Platform-Development/dp/1785285696" rel="nofollow">C# 6 and .NET Core 1.0: Modern Cross-Platform Development</a></li>
+<li><a href="https://www.manning.com/books/dependency-injection-in-dot-net-second-edition" rel="nofollow">Dependency Injection in .NET Core, 2nd edition</a></li>
+<li><a href="https://www.manning.com/books/exploring-dot-net-core" rel="nofollow">Exploring .NET Core with Microservices, ASP.NET Core, and Entity Framework Core - free eBook sampler</a></li>
+<li><a href="https://www.amazon.com/Microservices-NET-Core-framework-middleware/dp/1617293377" rel="nofollow">Microservices in .NET Core: with C#, the Nancy framework, and OWIN middleware</a></li>
+<li><a href="https://www.amazon.com/Professional-NET-Core-Christian-Nagel/dp/111909660X" rel="nofollow">Professional C# 6 and .NET Core 1.0</a></li>
+<li><a href="https://www.recaffeinate.co/book" rel="nofollow">The little ASP.NET Core</a></li>
+</ul>
+<h2><a id="user-content-videos" class="anchor" aria-hidden="true" href="#videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Videos</h2>
+<ul>
+<li><a href="https://channel9.msdn.com" rel="nofollow">Channel9</a></li>
+<li><a href="https://channel9.msdn.com/Series/aspnetmonsters" rel="nofollow">ASP.NET Monsters</a></li>
+<li><a href="https://www.youtube.com/user/VisualStudio/channels" rel="nofollow">Visual Studio</a></li>
+</ul>
+<h2><a id="user-content-podcasts" class="anchor" aria-hidden="true" href="#podcasts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Podcasts</h2>
+<ul>
+<li><a href="https://www.dotnetrocks.com" rel="nofollow">.NET Rocks</a></li>
+<li><a href="http://thesoundof.net/?q=.NET+Core" rel="nofollow">The sound of .NET</a></li>
+</ul>
+<h2><a id="user-content-community" class="anchor" aria-hidden="true" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Community</h2>
+<ul>
+<li><a href="https://forums.asp.net" rel="nofollow">ASP.NET</a></li>
+<li><a href="http://forums.dotnetfoundation.org" rel="nofollow">.NET Foundation</a></li>
+<li><a href="https://channel9.msdn.com" rel="nofollow">Channel9</a></li>
+<li><a href="http://tattoocoder.com/aspnet-slack-sign-up" rel="nofollow">Slack</a></li>
+<li>Stack Overflow
+<ul>
+<li><a href="https://stackoverflow.com/questions/tagged/.net-core" rel="nofollow">.NET Core</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/coreclr" rel="nofollow">CoreCLR</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/asp.net-core" rel="nofollow">ASP.NET Core</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/asp.net-core-mvc" rel="nofollow">ASP.NET Core MVC</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/asp.net-core-1.0" rel="nofollow">ASP.NET Core 1.0</a></li>
+<li><a href="https://stackoverflow.com/questions/tagged/entity-framework-core" rel="nofollow">Entity Framework Core</a></li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667" alt="CC0" data-canonical-src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="http://weblogs.asp.net/thangchung" rel="nofollow">thangchung</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.27682s from unicorn-3751571531-62913">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

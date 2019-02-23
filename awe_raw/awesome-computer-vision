@@ -1,0 +1,1597 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - jbhuang0604/awesome-computer-vision: A curated list of awesome computer vision resources</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/987204?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jbhuang0604/awesome-computer-vision" /><meta property="og:url" content="https://github.com/jbhuang0604/awesome-computer-vision" /><meta property="og:description" content="awesome-computer-vision - A curated list of awesome computer vision resources" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E07B:5D4C:F0864E:1D9F248:5AD2F68C" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E07B:5D4C:F0864E:1D9F248:5AD2F68C" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YjRjZDAwZmU1MDY3YTE1YzliZTA1OTI3MWE0YmVlYjc2Y2E4MjRjODQ1OWMyMzlkNTYzYzdmZjJjZThlM2UwYnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTA3Qjo1RDRDOkYwODY0RToxRDlGMjQ4OjVBRDJGNjhDIiwidGltZXN0YW1wIjoxNTIzNzc1MTE2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="8c30692de5511c0f238eb64bb784694c37d2d5a1">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/jbhuang0604/awesome-computer-vision/commits/master.atom" rel="alternate" title="Recent Commits to awesome-computer-vision:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-computer-vision - A curated list of awesome computer vision resources">
+  <meta name="go-import" content="github.com/jbhuang0604/awesome-computer-vision git https://github.com/jbhuang0604/awesome-computer-vision.git">
+
+  <meta name="octolytics-dimension-user_id" content="987204" /><meta name="octolytics-dimension-user_login" content="jbhuang0604" /><meta name="octolytics-dimension-repository_id" content="29357796" /><meta name="octolytics-dimension-repository_nwo" content="jbhuang0604/awesome-computer-vision" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="29357796" /><meta name="octolytics-dimension-repository_network_root_nwo" content="jbhuang0604/awesome-computer-vision" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/jbhuang0604/awesome-computer-vision" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/jbhuang0604/awesome-computer-vision/search" data-unscoped-search-url="/search" action="/jbhuang0604/awesome-computer-vision/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/jbhuang0604/awesome-computer-vision">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fjbhuang0604%2Fawesome-computer-vision" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fjbhuang0604%2Fawesome-computer-vision"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/jbhuang0604/awesome-computer-vision/watchers"
+     aria-label="738 users are watching this repository">
+    738
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fjbhuang0604%2Fawesome-computer-vision"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/jbhuang0604/awesome-computer-vision/stargazers"
+      aria-label="6593 users starred this repository">
+      6,593
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fjbhuang0604%2Fawesome-computer-vision"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/jbhuang0604/awesome-computer-vision/network" class="social-count"
+       aria-label="1736 users forked this repository">
+      1,736
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/jbhuang0604">jbhuang0604</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/jbhuang0604/awesome-computer-vision">awesome-computer-vision</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /jbhuang0604/awesome-computer-vision" href="/jbhuang0604/awesome-computer-vision">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /jbhuang0604/awesome-computer-vision/issues" href="/jbhuang0604/awesome-computer-vision/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">7</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /jbhuang0604/awesome-computer-vision/pulls" href="/jbhuang0604/awesome-computer-vision/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">14</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /jbhuang0604/awesome-computer-vision/projects" href="/jbhuang0604/awesome-computer-vision/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /jbhuang0604/awesome-computer-vision/pulse" href="/jbhuang0604/awesome-computer-vision/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gvPl3JH9My1W6j+WTTsJ/RQVx2H/4Cfjj7NxzV/eatvHGswtZmoisXaL74t/ejjqlGrpTfvkTUorzKlWSnBqeA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome computer vision resources
+          </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/jbhuang0604/awesome-computer-vision/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                184
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/jbhuang0604/awesome-computer-vision/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/jbhuang0604/awesome-computer-vision/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/jbhuang0604/awesome-computer-vision/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      23
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/jbhuang0604/awesome-computer-vision.git" aria-label="Clone this repository at https://github.com/jbhuang0604/awesome-computer-vision.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/jbhuang0604/awesome-computer-vision.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/jbhuang0604/awesome-computer-vision/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/jbhuang0604/awesome-computer-vision/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/jbhuang0604/awesome-computer-vision/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/jbhuang0604/awesome-computer-vision/commit/f889c45852613014201662ba94e3bb2d4d369206" data-pjax>
+        f889c45
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2018-01-21T21:08:27Z">Jan 22, 2018</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="jbhuang0604">
+
+        <a href="/jbhuang0604" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars3.githubusercontent.com/u/987204?s=40&amp;v=4" width="20" height="20" alt="@jbhuang0604">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="/jbhuang0604/awesome-computer-vision/commits?author=jbhuang0604"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by jbhuang0604">jbhuang0604</a>
+
+
+  committed
+  <relative-time datetime="2018-01-21T21:08:27Z">Jan 22, 2018</relative-time>
+
+
+
+      <a href="/jbhuang0604/awesome-computer-vision/commit/f889c45852613014201662ba94e3bb2d4d369206" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/jbhuang0604/awesome-computer-vision/tree/f889c45852613014201662ba94e3bb2d4d369206">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-845e0004fd4c2ab4d68fb1c4973a673658c94806" href="/jbhuang0604/awesome-computer-vision/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md" class="message" href="/jbhuang0604/awesome-computer-vision/commit/f889c45852613014201662ba94e3bb2d4d369206">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-01-21T21:08:27Z">Jan 21, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="people.md" id="409d35e455283866f433512e0ab60fb9-790739d9d83be73ebbd507562c77034461de51b9" href="/jbhuang0604/awesome-computer-vision/blob/master/people.md">people.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="remove a redundant &quot;[&quot;" class="message" href="/jbhuang0604/awesome-computer-vision/commit/d100850feae0a3938b11a1976ef7f93778876823">remove a redundant "["</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-01-20T17:56:54Z">Jan 20, 2015</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#awesome-computer-vision-" aria-hidden="true" class="anchor" id="user-content-awesome-computer-vision-"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Computer Vision: <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of awesome computer vision resources, inspired by <a href="https://github.com/ziadoz/awesome-php">awesome-php</a>.</p>
+<p>For a list people in computer vision listed with their academic genealogy, please visit <a href="https://github.com/jbhuang0604/awesome-computer-vision/blob/master/people.md">here</a></p>
+<h2><a href="#contributing" aria-hidden="true" class="anchor" id="user-content-contributing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Please feel free to send me <a href="https://github.com/jbhuang0604/awesome-computer-vision/pulls">pull requests</a> or email (<a href="mailto:jbhuang1@illinois.edu">jbhuang1@illinois.edu</a>) to add links.</p>
+<h2><a href="#table-of-contents" aria-hidden="true" class="anchor" id="user-content-table-of-contents"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#books">Books</a></li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#papers">Papers</a></li>
+<li><a href="#software">Software</a></li>
+<li><a href="#datasets">Datasets</a></li>
+<li><a href="#tutorials-and-talks">Tutorials and Talks</a></li>
+<li><a href="#resources-for-students">Resources for students</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#links">Links</a></li>
+<li><a href="#songs">Songs</a></li>
+</ul>
+<h2><a href="#books" aria-hidden="true" class="anchor" id="user-content-books"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<h4><a href="#computer-vision" aria-hidden="true" class="anchor" id="user-content-computer-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Computer Vision</h4>
+<ul>
+<li><a href="http://www.computervisionmodels.com/" rel="nofollow">Computer Vision:  Models, Learning, and Inference</a> - Simon J. D. Prince 2012</li>
+<li><a href="http://szeliski.org/Book/" rel="nofollow">Computer Vision: Theory and Application</a> - Rick Szeliski 2010</li>
+<li><a href="http://www.amazon.com/Computer-Vision-Modern-Approach-2nd/dp/013608592X/ref=dp_ob_title_bk" rel="nofollow">Computer Vision: A Modern Approach (2nd edition)</a> - David Forsyth and Jean Ponce 2011</li>
+<li><a href="http://www.robots.ox.ac.uk/%7Evgg/hzbook/" rel="nofollow">Multiple View Geometry in Computer Vision</a> - Richard Hartley and Andrew Zisserman 2004</li>
+<li><a href="http://www.amazon.com/Computer-Vision-Linda-G-Shapiro/dp/0130307963" rel="nofollow">Computer Vision</a> - Linda G. Shapiro 2001</li>
+<li><a href="http://www.amazon.com/Vision-Science-Phenomenology-Stephen-Palmer/dp/0262161834/" rel="nofollow">Vision Science: Photons to Phenomenology</a> - Stephen E. Palmer 1999</li>
+<li><a href="http://www.morganclaypool.com/doi/abs/10.2200/S00332ED1V01Y201103AIM011" rel="nofollow">Visual Object Recognition synthesis lecture</a> - Kristen Grauman and Bastian Leibe 2011</li>
+<li><a href="http://cvfxbook.com/" rel="nofollow">Computer Vision for Visual Effects</a> - Richard J. Radke, 2012</li>
+<li><a href="http://www.amazon.com/High-Dynamic-Range-Imaging-Second/dp/012374914X" rel="nofollow">High dynamic range imaging: acquisition, display, and image-based lighting</a> - Reinhard, E., Heidrich, W., Debevec, P., Pattanaik, S., Ward, G., Myszkowski, K 2010</li>
+<li><a href="https://people.csail.mit.edu/jsolomon/share/book/numerical_book.pdf" rel="nofollow">Numerical Algorithms: Methods for Computer Vision, Machine Learning, and Graphics</a> - Justin Solomon 2015</li>
+</ul>
+<h4><a href="#opencv-programming" aria-hidden="true" class="anchor" id="user-content-opencv-programming"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OpenCV Programming</h4>
+<ul>
+<li><a href="http://www.amazon.com/Learning-OpenCV-Computer-Vision-Library/dp/0596516134" rel="nofollow">Learning OpenCV: Computer Vision with the OpenCV Library</a> - Gary Bradski and Adrian Kaehler</li>
+<li><a href="https://www.pyimagesearch.com/practical-python-opencv/" rel="nofollow">Practical Python and OpenCV</a> - Adrian Rosebrock</li>
+<li><a href="http://www.amazon.com/OpenCV-Essentials-Oscar-Deniz-Suarez/dp/1783984244/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1424594237&amp;sr=1-1&amp;keywords=opencv+essentials#" rel="nofollow">OpenCV Essentials</a> - Oscar Deniz Suarez, Mª del Milagro Fernandez Carrobles, Noelia Vallez Enano, Gloria Bueno Garcia, Ismael Serrano Gracia</li>
+</ul>
+<h4><a href="#machine-learning" aria-hidden="true" class="anchor" id="user-content-machine-learning"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h4>
+<ul>
+<li><a href="http://research.microsoft.com/en-us/um/people/cmbishop/prml/index.htm" rel="nofollow">Pattern Recognition and Machine Learning</a> - Christopher M. Bishop 2007</li>
+<li><a href="http://www.engineering.upm.ro/master-ie/sacpi/mat_did/info068/docum/Neural%20Networks%20for%20Pattern%20Recognition.pdf" rel="nofollow">Neural Networks for Pattern Recognition</a> - Christopher M. Bishop 1995</li>
+<li><a href="http://pgm.stanford.edu/" rel="nofollow">Probabilistic Graphical Models: Principles and Techniques</a> - Daphne Koller and Nir Friedman 2009</li>
+<li><a href="http://www.amazon.com/Pattern-Classification-2nd-Richard-Duda/dp/0471056693" rel="nofollow">Pattern Classification</a> - Peter E. Hart, David G. Stork, and Richard O. Duda 2000</li>
+<li><a href="http://www.amazon.com/Machine-Learning-Tom-M-Mitchell/dp/0070428077/" rel="nofollow">Machine Learning</a> - Tom M. Mitchell 1997</li>
+<li><a href="http://www.gaussianprocess.org/gpml/" rel="nofollow">Gaussian processes for machine learning</a> - Carl Edward Rasmussen and Christopher K. I. Williams 2005</li>
+<li><a href="https://work.caltech.edu/telecourse.html" rel="nofollow">Learning From Data</a>- Yaser S. Abu-Mostafa, Malik Magdon-Ismail and Hsuan-Tien Lin 2012</li>
+<li><a href="http://neuralnetworksanddeeplearning.com/" rel="nofollow">Neural Networks and Deep Learning</a> - Michael Nielsen 2014</li>
+<li><a href="http://www.cs.ucl.ac.uk/staff/d.barber/brml/" rel="nofollow">Bayesian Reasoning and Machine Learning</a> - David Barber, Cambridge University Press, 2012</li>
+</ul>
+<h4><a href="#fundamentals" aria-hidden="true" class="anchor" id="user-content-fundamentals"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fundamentals</h4>
+<ul>
+<li><a href="http://www.amazon.com/Linear-Algebra-Its-Applications-4th/dp/0030105676/ref=sr_1_4?ie=UTF8&amp;qid=1421433773&amp;sr=8-4&amp;keywords=Linear+Algebra+and+Its+Applications" rel="nofollow">Linear Algebra and Its Applications</a> - Gilbert Strang 1995</li>
+</ul>
+<h2><a href="#courses" aria-hidden="true" class="anchor" id="user-content-courses"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Courses</h2>
+<h4><a href="#computer-vision-1" aria-hidden="true" class="anchor" id="user-content-computer-vision-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Computer Vision</h4>
+<ul>
+<li><a href="http://inside.mines.edu/%7Ewhoff/courses/EENG512/" rel="nofollow">EENG 512 / CSCI 512 - Computer Vision</a> - William Hoff (Colorado School of Mines)</li>
+<li><a href="https://sites.google.com/site/ucbcs29443/" rel="nofollow">Visual Object and Activity Recognition</a> - Alexei A. Efros and Trevor Darrell (UC Berkeley)</li>
+<li><a href="http://courses.cs.washington.edu/courses/cse455/12wi/" rel="nofollow">Computer Vision</a> - Steve Seitz (University of Washington)</li>
+<li>Visual Recognition <a href="http://vision.cs.utexas.edu/381V-spring2016/" rel="nofollow">Spring 2016</a>, <a href="http://vision.cs.utexas.edu/381V-fall2016/" rel="nofollow">Fall 2016</a> - Kristen Grauman (UT Austin)</li>
+<li><a href="http://www.tamaraberg.com/teaching/Spring_15/" rel="nofollow">Language and Vision</a> - Tamara Berg (UNC Chapel Hill)</li>
+<li><a href="http://vision.stanford.edu/teaching/cs231n/" rel="nofollow">Convolutional Neural Networks for Visual Recognition</a> - Fei-Fei Li and Andrej Karpathy (Stanford University)</li>
+<li><a href="http://cs.nyu.edu/%7Efergus/teaching/vision/index.html" rel="nofollow">Computer Vision</a> - Rob Fergus (NYU)</li>
+<li><a href="https://courses.engr.illinois.edu/cs543/sp2015/" rel="nofollow">Computer Vision</a> - Derek Hoiem (UIUC)</li>
+<li><a href="http://vision.stanford.edu/teaching/cs131_fall1415/index.html" rel="nofollow">Computer Vision: Foundations and Applications</a> - Kalanit Grill-Spector and Fei-Fei Li (Stanford University)</li>
+<li><a href="http://vision.stanford.edu/teaching/cs431_spring1314/" rel="nofollow">High-Level Vision: Behaviors, Neurons and Computational Models</a> - Fei-Fei Li (Stanford University)</li>
+<li><a href="http://6.869.csail.mit.edu/fa15/" rel="nofollow">Advances in Computer Vision</a> - Antonio Torralba and Bill Freeman (MIT)</li>
+<li><a href="http://www.vision.rwth-aachen.de/course/11/" rel="nofollow">Computer Vision</a> - Bastian Leibe (RWTH Aachen University)</li>
+<li><a href="http://www.vision.rwth-aachen.de/course/9/" rel="nofollow">Computer Vision 2</a> - Bastian Leibe (RWTH Aachen University)</li>
+<li><a href="http://klewel.com/conferences/epfl-computer-vision/" rel="nofollow">Computer Vision</a> Pascal Fua (EPFL):</li>
+<li><a href="http://cvlab-dresden.de/courses/computer-vision-1/" rel="nofollow">Computer Vision 1</a> Carsten Rother (TU Dresden):</li>
+<li><a href="http://cvlab-dresden.de/courses/CV2/" rel="nofollow">Computer Vision 2</a> Carsten Rother (TU Dresden):</li>
+<li><a href="https://youtu.be/RDkwklFGMfo?list=PLTBdjV_4f-EJn6udZ34tht9EVIW7lbeo4" rel="nofollow">Multiple View Geometry</a> Daniel Cremers (TU Munich):</li>
+</ul>
+<h4><a href="#computational-photography" aria-hidden="true" class="anchor" id="user-content-computational-photography"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Computational Photography</h4>
+<ul>
+<li><a href="http://inst.eecs.berkeley.edu/%7Ecs194-26/fa14/" rel="nofollow">Image Manipulation and Computational Photography</a> - Alexei A. Efros (UC Berkeley)</li>
+<li><a href="http://graphics.cs.cmu.edu/courses/15-463/2012_fall/463.html" rel="nofollow">Computational Photography</a> - Alexei A. Efros (CMU)</li>
+<li><a href="https://courses.engr.illinois.edu/cs498dh3/" rel="nofollow">Computational Photography</a> - Derek Hoiem (UIUC)</li>
+<li><a href="http://cs.brown.edu/courses/csci1290/" rel="nofollow">Computational Photography</a> - James Hays (Brown University)</li>
+<li><a href="http://stellar.mit.edu/S/course/6/sp12/6.815/" rel="nofollow">Digital &amp; Computational Photography</a> - Fredo Durand (MIT)</li>
+<li><a href="http://ocw.mit.edu/courses/media-arts-and-sciences/mas-531-computational-camera-and-photography-fall-2009/" rel="nofollow">Computational Camera and Photography</a> - Ramesh Raskar (MIT Media Lab)</li>
+<li><a href="https://www.udacity.com/course/computational-photography--ud955" rel="nofollow">Computational Photography</a> - Irfan Essa (Georgia Tech)</li>
+<li><a href="http://graphics.stanford.edu/courses/" rel="nofollow">Courses in Graphics</a> - Stanford University</li>
+<li><a href="http://cs.nyu.edu/%7Efergus/teaching/comp_photo/index.html" rel="nofollow">Computational Photography</a> - Rob Fergus (NYU)</li>
+<li><a href="http://www.cs.toronto.edu/%7Ekyros/courses/320/" rel="nofollow">Introduction to Visual Computing</a> - Kyros Kutulakos (University of Toronto)</li>
+<li><a href="http://www.cs.toronto.edu/%7Ekyros/courses/2530/" rel="nofollow">Computational Photography</a> - Kyros Kutulakos (University of Toronto)</li>
+<li><a href="https://www.ecse.rpi.edu/%7Erjradke/cvfxcourse.html" rel="nofollow">Computer Vision for Visual Effects</a> - Rich Radke (Rensselaer Polytechnic Institute)</li>
+<li><a href="https://www.ecse.rpi.edu/%7Erjradke/improccourse.html" rel="nofollow">Introduction to Image Processing</a> - Rich Radke (Rensselaer Polytechnic Institute)</li>
+</ul>
+<h4><a href="#machine-learning-and-statistical-learning" aria-hidden="true" class="anchor" id="user-content-machine-learning-and-statistical-learning"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning and Statistical Learning</h4>
+<ul>
+<li><a href="https://www.coursera.org/learn/machine-learning" rel="nofollow">Machine Learning</a> - Andrew Ng (Stanford University)</li>
+<li><a href="https://work.caltech.edu/telecourse.html" rel="nofollow">Learning from Data</a> - Yaser S. Abu-Mostafa (Caltech)</li>
+<li><a href="https://class.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about" rel="nofollow">Statistical Learning</a> - Trevor Hastie and Rob Tibshirani (Stanford University)</li>
+<li><a href="http://www.mit.edu/%7E9.520/fall14/" rel="nofollow">Statistical Learning Theory and Applications</a> - Tomaso Poggio, Lorenzo Rosasco, Carlo Ciliberto, Charlie Frogner, Georgios Evangelopoulos, Ben Deen (MIT)</li>
+<li><a href="http://www.stat.rice.edu/%7Egallen/stat640.html" rel="nofollow">Statistical Learning</a> - Genevera Allen (Rice University)</li>
+<li><a href="http://www.cs.berkeley.edu/%7Ejordan/courses/294-fall09/" rel="nofollow">Practical Machine Learning</a> - Michael Jordan (UC Berkeley)</li>
+<li><a href="http://videolectures.net/course_information_theory_pattern_recognition/" rel="nofollow">Course on Information Theory, Pattern Recognition, and Neural Networks</a> - David MacKay (University of Cambridge)</li>
+<li><a href="http://web.stanford.edu/%7Elmackey/stats306b/" rel="nofollow">Methods for Applied Statistics: Unsupervised Learning</a> - Lester Mackey (Stanford)</li>
+<li><a href="http://www.robots.ox.ac.uk/%7Eaz/lectures/ml/index.html" rel="nofollow">Machine Learning</a> - Andrew Zisserman (University of Oxford)</li>
+<li><a href="https://www.udacity.com/course/intro-to-machine-learning--ud120" rel="nofollow">Intro to Machine Learning</a> - Sebastian Thrun (Stanford University)</li>
+<li><a href="https://www.udacity.com/course/machine-learning--ud262" rel="nofollow">Machine Learning</a> - Charles Isbell, Michael Littman (Georgia Tech)</li>
+<li><a href="https://cs231n.github.io/" rel="nofollow">(Convolutional) Neural Networks for Visual Recognition</a> - Fei-Fei Li, Andrej Karphaty, Justin Johnson (Stanford University)</li>
+<li><a href="https://youtu.be/QZmZFeZxEKI?list=PLTBdjV_4f-EIiongKlS9OKrBEp8QR47Wl" rel="nofollow">Machine Learning for Computer Vision</a> - Rudolph Triebel (TU Munich)</li>
+</ul>
+<h4><a href="#optimization" aria-hidden="true" class="anchor" id="user-content-optimization"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optimization</h4>
+<ul>
+<li><a href="http://stanford.edu/class/ee364a/" rel="nofollow">Convex Optimization I</a> - Stephen Boyd (Stanford University)</li>
+<li><a href="http://stanford.edu/class/ee364b/" rel="nofollow">Convex Optimization II</a> - Stephen Boyd (Stanford University)</li>
+<li><a href="https://class.stanford.edu/courses/Engineering/CVX101/Winter2014/about" rel="nofollow">Convex Optimization</a> - Stephen Boyd (Stanford University)</li>
+<li><a href="http://optimization.mit.edu/classes.php" rel="nofollow">Optimization at MIT</a> - (MIT)</li>
+<li><a href="http://www.stat.cmu.edu/%7Eryantibs/convexopt/" rel="nofollow">Convex Optimization</a> - Ryan Tibshirani (CMU)</li>
+</ul>
+<h2><a href="#papers" aria-hidden="true" class="anchor" id="user-content-papers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Papers</h2>
+<h4><a href="#conference-papers-on-the-web" aria-hidden="true" class="anchor" id="user-content-conference-papers-on-the-web"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conference papers on the web</h4>
+<ul>
+<li><a href="http://www.cvpapers.com/" rel="nofollow">CVPapers</a> - Computer vision papers on the web</li>
+<li><a href="http://kesen.realtimerendering.com/" rel="nofollow">SIGGRAPH Paper on the web</a> - Graphics papers on the web</li>
+<li><a href="http://papers.nips.cc/" rel="nofollow">NIPS Proceedings</a> - NIPS papers on the web</li>
+<li><a href="http://www.cv-foundation.org/openaccess/menu.py" rel="nofollow">Computer Vision Foundation open access</a></li>
+<li><a href="http://iris.usc.edu/Vision-Notes/bibliography/contents.html" rel="nofollow">Annotated Computer Vision Bibliography</a> - Keith Price (USC)</li>
+<li><a href="http://iris.usc.edu/Information/Iris-Conferences.html" rel="nofollow">Calendar of Computer Image Analysis, Computer Vision Conferences</a> - (USC)</li>
+</ul>
+<h4><a href="#survey-papers" aria-hidden="true" class="anchor" id="user-content-survey-papers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Survey Papers</h4>
+<ul>
+<li><a href="http://surveys.visionbib.com/index.html" rel="nofollow">Visionbib Survey Paper List</a></li>
+<li><a href="http://www.nowpublishers.com/CGV" rel="nofollow">Foundations and Trends® in Computer Graphics and Vision</a></li>
+<li><a href="http://link.springer.com/book/10.1007/978-0-387-31439-6" rel="nofollow">Computer Vision: A Reference Guide</a></li>
+</ul>
+<h2><a href="#tutorials-and-talks" aria-hidden="true" class="anchor" id="user-content-tutorials-and-talks"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorials and talks</h2>
+<h4><a href="#computer-vision-2" aria-hidden="true" class="anchor" id="user-content-computer-vision-2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Computer Vision</h4>
+<ul>
+<li><a href="http://www.computervisiontalks.com/" rel="nofollow">Computer Vision Talks</a> - Lectures, keynotes, panel discussions on computer vision</li>
+<li><a href="https://www.youtube.com/watch?v=Mqg6eorYRIQ" rel="nofollow">The Three R's of Computer Vision</a> - Jitendra Malik (UC Berkeley) 2013</li>
+<li><a href="http://videolectures.net/epsrcws08_blake_amv/" rel="nofollow">Applications to Machine Vision</a> - Andrew Blake (Microsoft Research) 2008</li>
+<li><a href="http://videolectures.net/kdd08_malik_fis/?q=image" rel="nofollow">The Future of Image Search</a> - Jitendra Malik (UC Berkeley) 2008</li>
+<li><a href="https://www.youtube.com/watch?v=M17oGxh3Ny8" rel="nofollow">Should I do a PhD in Computer Vision?</a> - Fatih Porikli (Australian National University)</li>
+</ul>
+<ul>
+<li><a href="http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-computer-vision/?tab=schedule" rel="nofollow">Graduate Summer School 2013: Computer Vision</a> - IPAM, 2013</li>
+</ul>
+<h4><a href="#recent-conference-talks" aria-hidden="true" class="anchor" id="user-content-recent-conference-talks"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Recent Conference Talks</h4>
+<ul>
+<li><a href="http://www.pamitc.org/cvpr15/" rel="nofollow">CVPR 2015</a> - Jun 2015</li>
+<li><a href="http://videolectures.net/eccv2014_zurich/" rel="nofollow">ECCV 2014</a> - Sep 2014</li>
+<li><a href="http://techtalks.tv/cvpr-2014-oral-talks/" rel="nofollow">CVPR 2014</a> - Jun 2014</li>
+<li><a href="http://techtalks.tv/iccv2013/" rel="nofollow">ICCV 2013</a> - Dec 2013</li>
+<li><a href="http://techtalks.tv/icml/2013/" rel="nofollow">ICML 2013</a> - Jul 2013</li>
+<li><a href="http://techtalks.tv/cvpr2013/" rel="nofollow">CVPR 2013</a> - Jun 2013</li>
+<li><a href="http://videolectures.net/eccv2012_firenze/" rel="nofollow">ECCV 2012</a> - Oct 2012</li>
+<li><a href="http://techtalks.tv/icml/2012/orals/" rel="nofollow">ICML 2012</a> - Jun 2012</li>
+<li><a href="http://techtalks.tv/cvpr2012webcast/" rel="nofollow">CVPR 2012</a> - Jun 2012</li>
+</ul>
+<h4><a href="#3d-computer-vision" aria-hidden="true" class="anchor" id="user-content-3d-computer-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3D Computer Vision</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=kyIzMr917Rc" rel="nofollow">3D Computer Vision: Past, Present, and Future</a> - Steve Seitz (University of Washington) 2011</li>
+<li><a href="https://www.youtube.com/watch?v=04Kgg3QEXFI" rel="nofollow">Reconstructing the World from Photos on the Internet</a> - Steve Seitz (University of Washington) 2013</li>
+</ul>
+<h4><a href="#internet-vision" aria-hidden="true" class="anchor" id="user-content-internet-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Internet Vision</h4>
+<ul>
+<li><a href="http://www.technologyreview.com/video/426265/meet-2011-tr35-winner-noah-snavely/" rel="nofollow">The Distributed Camera</a> - Noah Snavely (Cornell University) 2011</li>
+<li><a href="https://www.youtube.com/watch?v=UHkCa9-Z1Ps" rel="nofollow">Planet-Scale Visual Understanding</a> - Noah Snavely (Cornell University) 2014</li>
+<li><a href="https://www.youtube.com/watch?v=6MWEfpKUfRc" rel="nofollow">A Trillion Photos</a> - Steve Seitz (University of Washington) 2013</li>
+</ul>
+<h4><a href="#computational-photography-1" aria-hidden="true" class="anchor" id="user-content-computational-photography-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Computational Photography</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=j90_0Ndk7XM" rel="nofollow">Reflections on Image-Based Modeling and Rendering</a> - Richard Szeliski (Microsoft Research) 2013</li>
+<li><a href="https://www.youtube.com/watch?v=ZvPaHZZVPRk" rel="nofollow">Photographing Events over Time</a> - William T. Freeman (MIT) 2011</li>
+<li><a href="http://videolectures.net/nipsworkshops2011_weiss_deconvolution/" rel="nofollow">Old and New algorithm for Blind Deconvolution</a> -  Yair Weiss (The Hebrew University of Jerusalem) 2011</li>
+<li><a href="http://videolectures.net/nipsworkshops2010_milanfar_tmi/" rel="nofollow">A Tour of Modern "Image Processing"</a> -  Peyman Milanfar (UC Santa Cruz/Google) 2010</li>
+<li><a href="http://videolectures.net/mlss07_blake_tiivp/" rel="nofollow">Topics in image and video processing</a> Andrew Blake (Microsoft Research) 2007</li>
+<li><a href="https://www.youtube.com/watch?v=HJVNI0mkmqk" rel="nofollow">Computational Photography</a> - William T. Freeman (MIT) 2012</li>
+<li><a href="https://www.youtube.com/watch?v=_BWnIQY_X98" rel="nofollow">Revealing the Invisible</a> - Frédo Durand (MIT) 2012</li>
+<li><a href="https://www.youtube.com/watch?v=rE-hVtytT-I" rel="nofollow">Overview of Computer Vision and Visual Effects</a> - Rich Radke (Rensselaer Polytechnic Institute) 2014</li>
+</ul>
+<h4><a href="#learning-and-vision" aria-hidden="true" class="anchor" id="user-content-learning-and-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Learning and Vision</h4>
+<ul>
+<li><a href="http://videolectures.net/colt2011_freeman_help/?q=computer%20vision" rel="nofollow">Where machine vision needs help from machine learning</a> - William T. Freeman (MIT) 2011</li>
+<li><a href="http://videolectures.net/mlss08au_lucey_linv/" rel="nofollow">Learning in Computer Vision</a> - Simon Lucey (CMU) 2008</li>
+<li><a href="http://videolectures.net/nips09_weiss_lil/?q=computer%20vision" rel="nofollow">Learning and Inference in Low-Level Vision</a> - Yair Weiss (The Hebrew University of Jerusalem) 2009</li>
+</ul>
+<h4><a href="#object-recognition" aria-hidden="true" class="anchor" id="user-content-object-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object Recognition</h4>
+<ul>
+<li><a href="http://research.microsoft.com/apps/video/dl.aspx?id=231358" rel="nofollow">Object Recognition</a> - Larry Zitnick (Microsoft Research)</li>
+<li><a href="http://videolectures.net/mlas06_li_gmvoo/?q=Fei-Fei%20Li" rel="nofollow">Generative Models for Visual Objects and Object Recognition via Bayesian Inference</a> - Fei-Fei Li (Stanford University)</li>
+</ul>
+<h4><a href="#graphical-models" aria-hidden="true" class="anchor" id="user-content-graphical-models"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graphical Models</h4>
+<ul>
+<li><a href="http://videolectures.net/uai2012_felzenszwalb_computer_vision/?q=computer%20vision" rel="nofollow">Graphical Models for Computer Vision</a> - Pedro Felzenszwalb (Brown University) 2012</li>
+<li><a href="http://videolectures.net/mlss09uk_ghahramani_gm/" rel="nofollow">Graphical Models</a> - Zoubin Ghahramani (University of Cambridge) 2009</li>
+<li><a href="http://videolectures.net/mlss06tw_roweis_mlpgm/" rel="nofollow">Machine Learning, Probability and Graphical Models</a> - Sam Roweis (NYU) 2006</li>
+<li><a href="http://videolectures.net/mlss09us_weiss_gma/?q=Graphical%20Models" rel="nofollow">Graphical Models and Applications</a> -  Yair Weiss (The Hebrew University of Jerusalem) 2009</li>
+</ul>
+<h4><a href="#machine-learning-1" aria-hidden="true" class="anchor" id="user-content-machine-learning-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h4>
+<ul>
+<li><a href="https://nikola-rt.ee.washington.edu/people/bulyko/papers/em.pdf" rel="nofollow">A Gentle Tutorial of the EM Algorithm</a> - Jeff A. Bilmes (UC Berkeley) 1998</li>
+<li><a href="http://videolectures.net/mlss09uk_bishop_ibi/" rel="nofollow">Introduction To Bayesian Inference</a> - Christopher Bishop (Microsoft Research) 2009</li>
+<li><a href="http://videolectures.net/mlss06tw_lin_svm/" rel="nofollow">Support Vector Machines</a> - Chih-Jen Lin (National Taiwan University) 2006</li>
+<li><a href="http://videolectures.net/mlss09uk_jordan_bfway/" rel="nofollow">Bayesian or Frequentist, Which Are You? </a> - Michael I. Jordan (UC Berkeley)</li>
+</ul>
+<h4><a href="#optimization-1" aria-hidden="true" class="anchor" id="user-content-optimization-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optimization</h4>
+<ul>
+<li><a href="http://videolectures.net/nips2010_wright_oaml/" rel="nofollow">Optimization Algorithms in Machine Learning</a> - Stephen J. Wright (University of Wisconsin-Madison)</li>
+<li><a href="http://videolectures.net/mlss07_vandenberghe_copt/?q=convex%20optimization" rel="nofollow">Convex Optimization</a> - Lieven Vandenberghe (University of California, Los Angeles)</li>
+<li><a href="https://www.youtube.com/watch?v=oZqoWozVDVg" rel="nofollow">Continuous Optimization in Computer Vision</a> - Andrew Fitzgibbon (Microsoft Research)</li>
+<li><a href="http://videolectures.net/sahd2014_bach_stochastic_gradient/" rel="nofollow">Beyond stochastic gradient descent for large-scale machine learning</a> - Francis Bach (INRIA)</li>
+<li><a href="https://www.youtube.com/playlist?list=PLTBdjV_4f-EJ7A2iIH5L5ztqqrWYjP2RI" rel="nofollow">Variational Methods for Computer Vision</a> - Daniel Cremers (Technische Universität München) (<a href="https://www.youtube.com/watch?v=GgcbVPNd3SI" rel="nofollow">lecture 18 missing from playlist</a>)</li>
+</ul>
+<h4><a href="#deep-learning" aria-hidden="true" class="anchor" id="user-content-deep-learning"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deep Learning</h4>
+<ul>
+<li><a href="http://videolectures.net/jul09_hinton_deeplearn/" rel="nofollow">A tutorial on Deep Learning</a> - Geoffrey E. Hinton (University of Toronto)</li>
+<li><a href="http://videolectures.net/kdd2014_salakhutdinov_deep_learning/?q=Hidden%20Markov%20model#" rel="nofollow">Deep Learning</a> -  Ruslan Salakhutdinov (University of Toronto)</li>
+<li><a href="http://videolectures.net/kdd2014_bengio_deep_learning/" rel="nofollow">Scaling up Deep Learning</a> - Yoshua Bengio (University of Montreal)</li>
+<li><a href="http://videolectures.net/machine_krizhevsky_imagenet_classification/?q=deep%20learning" rel="nofollow">ImageNet Classification with Deep Convolutional Neural Networks</a> -  Alex Krizhevsky (University of Toronto)</li>
+<li><a href="http://videolectures.net/sahd2014_lecun_deep_learning/" rel="nofollow">The Unreasonable Effectivness Of Deep Learning</a> Yann LeCun (NYU/Facebook Research) 2014</li>
+<li><a href="https://www.youtube.com/watch?v=qgx57X0fBdA" rel="nofollow">Deep Learning for Computer Vision</a> - Rob Fergus (NYU/Facebook Research)</li>
+<li><a href="http://videolectures.net/sahd2014_mallat_dimensional_learning/" rel="nofollow">High-dimensional learning with deep network contractions</a> - Stéphane Mallat (Ecole Normale Superieure)</li>
+<li><a href="http://www.ipam.ucla.edu/programs/summer-schools/graduate-summer-school-deep-learning-feature-learning/?tab=schedule" rel="nofollow">Graduate Summer School 2012: Deep Learning, Feature Learning</a> - IPAM, 2012</li>
+<li><a href="http://www.fields.utoronto.ca/programs/scientific/14-15/bigdata/machine/" rel="nofollow">Workshop on Big Data and Statistical Machine Learning</a></li>
+<li><a href="https://www.youtube.com/channel/UC3ywjSv5OsDiDAnOP8C1NiQ" rel="nofollow">Machine Learning Summer School</a> - Reykjavik, Iceland 2014
+<ul>
+<li><a href="https://www.youtube.com/watch?v=JuimBuvEWBg" rel="nofollow">Deep Learning Session 1</a> - Yoshua Bengio (Universtiy of Montreal)</li>
+<li><a href="https://www.youtube.com/watch?v=Fl-W7_z3w3o" rel="nofollow">Deep Learning Session 2</a> - Yoshua Bengio (University of Montreal)</li>
+<li><a href="https://www.youtube.com/watch?v=_cohR7LAgWA" rel="nofollow">Deep Learning Session 3</a> - Yoshua Bengio (University of Montreal)</li>
+</ul>
+</li>
+</ul>
+<h2><a href="#software" aria-hidden="true" class="anchor" id="user-content-software"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Software</h2>
+<h4><a href="#external-resource-links" aria-hidden="true" class="anchor" id="user-content-external-resource-links"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>External Resource Links</h4>
+<ul>
+<li><a href="https://sites.google.com/site/jbhuang0604/resources/vision" rel="nofollow">Computer Vision Resources</a> - Jia-Bin Huang (UIUC)</li>
+<li><a href="http://www.cvpapers.com/rr.html" rel="nofollow">Computer Vision Algorithm Implementations</a> - CVPapers</li>
+<li><a href="http://www.csee.wvu.edu/%7Exinl/reproducible_research.html" rel="nofollow">Source Code Collection for Reproducible Research</a> - Xin Li (West Virginia University)</li>
+<li><a href="http://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/v-source.html" rel="nofollow">CMU Computer Vision Page</a></li>
+</ul>
+<h4><a href="#general-purpose-computer-vision-library" aria-hidden="true" class="anchor" id="user-content-general-purpose-computer-vision-library"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General Purpose Computer Vision Library</h4>
+<ul>
+<li><a href="http://opencv.org/" rel="nofollow">Open CV</a></li>
+<li><a href="http://kyamagu.github.io/mexopencv/" rel="nofollow">mexopencv</a></li>
+<li><a href="http://simplecv.org/" rel="nofollow">SimpleCV</a></li>
+<li><a href="https://github.com/jesolem/PCV">Open source Python module for computer vision</a></li>
+<li><a href="https://github.com/liuliu/ccv">ccv: A Modern Computer Vision Library</a></li>
+<li><a href="http://www.vlfeat.org/" rel="nofollow">VLFeat</a></li>
+<li><a href="http://www.mathworks.com/products/computer-vision/" rel="nofollow">Matlab Computer Vision System Toolbox</a></li>
+<li><a href="http://vision.ucsd.edu/%7Epdollar/toolbox/doc/index.html" rel="nofollow">Piotr's Computer Vision Matlab Toolbox</a></li>
+<li><a href="http://pointclouds.org/" rel="nofollow">PCL: Point Cloud Library</a></li>
+<li><a href="https://gitorious.org/imageutilities" rel="nofollow">ImageUtilities</a></li>
+</ul>
+<h4><a href="#multiple-view-computer-vision" aria-hidden="true" class="anchor" id="user-content-multiple-view-computer-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multiple-view Computer Vision</h4>
+<ul>
+<li><a href="http://www.robots.ox.ac.uk/%7Evgg/hzbook/code/" rel="nofollow">MATLAB Functions for Multiple View Geometry</a></li>
+<li><a href="http://staffhome.ecm.uwa.edu.au/%7E00011811/Research/MatlabFns/index.html" rel="nofollow">Peter Kovesi's Matlab Functions for Computer Vision and Image Analysis</a></li>
+<li><a href="http://laurentkneip.github.io/opengv/" rel="nofollow">OpenGV </a> - geometric computer vision algorithms</li>
+<li><a href="http://cmp.felk.cvut.cz/mini/" rel="nofollow">MinimalSolvers</a> - Minimal problems solver</li>
+<li><a href="http://www.gcc.tu-darmstadt.de/home/proj/mve/" rel="nofollow">Multi-View Environment</a></li>
+<li><a href="http://ccwu.me/vsfm/" rel="nofollow">Visual SFM</a></li>
+<li><a href="http://www.cs.cornell.edu/%7Esnavely/bundler/" rel="nofollow">Bundler SFM</a></li>
+<li><a href="http://imagine.enpc.fr/%7Emoulonp/openMVG/" rel="nofollow">openMVG: open Multiple View Geometry</a> - Multiple View Geometry; Structure from Motion library &amp; softwares</li>
+<li><a href="http://www.di.ens.fr/pmvs/" rel="nofollow">Patch-based Multi-view Stereo V2</a></li>
+<li><a href="http://www.di.ens.fr/cmvs/" rel="nofollow">Clustering Views for Multi-view Stereo</a></li>
+<li><a href="http://www.gris.informatik.tu-darmstadt.de/projects/floating-scale-surface-recon/" rel="nofollow">Floating Scale Surface Reconstruction</a></li>
+<li><a href="http://www.gcc.tu-darmstadt.de/home/proj/texrecon/" rel="nofollow">Large-Scale Texturing of 3D Reconstructions</a></li>
+<li><a href="https://github.com/openMVG/awesome_3DReconstruction_list">Awesome 3D reconstruction list</a></li>
+</ul>
+<h4><a href="#feature-detection-and-extraction" aria-hidden="true" class="anchor" id="user-content-feature-detection-and-extraction"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Feature Detection and Extraction</h4>
+<ul>
+<li><a href="http://www.vlfeat.org/" rel="nofollow">VLFeat</a></li>
+<li><a href="http://www.cs.ubc.ca/%7Elowe/keypoints/" rel="nofollow">SIFT</a>
+<ul>
+<li>David G. Lowe, "Distinctive image features from scale-invariant keypoints," International Journal of Computer Vision, 60, 2 (2004), pp. 91-110.</li>
+</ul>
+</li>
+<li><a href="http://www.robots.ox.ac.uk/%7Evedaldi/code/siftpp.html" rel="nofollow">SIFT++</a></li>
+<li><a href="http://www.asl.ethz.ch/people/lestefan/personal/BRISK" rel="nofollow">BRISK</a>
+<ul>
+<li>Stefan Leutenegger, Margarita Chli and Roland Siegwart, "BRISK: Binary Robust Invariant Scalable Keypoints", ICCV 2011</li>
+</ul>
+</li>
+<li><a href="http://www.vision.ee.ethz.ch/%7Esurf/" rel="nofollow">SURF</a>
+<ul>
+<li>Herbert Bay, Andreas Ess, Tinne Tuytelaars, Luc Van Gool, "SURF: Speeded Up Robust Features", Computer Vision and Image Understanding (CVIU), Vol. 110, No. 3, pp. 346--359, 2008</li>
+</ul>
+</li>
+<li><a href="http://www.ivpe.com/freak.htm" rel="nofollow">FREAK</a>
+<ul>
+<li>A. Alahi, R. Ortiz, and P. Vandergheynst, "FREAK: Fast Retina Keypoint", CVPR 2012</li>
+</ul>
+</li>
+<li><a href="http://www.robesafe.com/personal/pablo.alcantarilla/kaze.html" rel="nofollow">AKAZE</a>
+<ul>
+<li>Pablo F. Alcantarilla, Adrien Bartoli and Andrew J. Davison, "KAZE Features", ECCV 2012</li>
+</ul>
+</li>
+<li><a href="https://github.com/nourani/LBP">Local Binary Patterns</a></li>
+</ul>
+<h4><a href="#high-dynamic-range-imaging" aria-hidden="true" class="anchor" id="user-content-high-dynamic-range-imaging"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>High Dynamic Range Imaging</h4>
+<ul>
+<li><a href="https://github.com/banterle/HDR_Toolbox">HDR_Toolbox</a></li>
+</ul>
+<h4><a href="#semantic-segmentation" aria-hidden="true" class="anchor" id="user-content-semantic-segmentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Semantic Segmentation</h4>
+<ul>
+<li><a href="http://www.it-caesar.com/list-of-contemporary-semantic-segmentation-datasets/" rel="nofollow">List of Semantic Segmentation algorithms</a></li>
+</ul>
+<h4><a href="#low-level-vision" aria-hidden="true" class="anchor" id="user-content-low-level-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Low-level Vision</h4>
+<h6><a href="#stereo-vision" aria-hidden="true" class="anchor" id="user-content-stereo-vision"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stereo Vision</h6>
+<ul>
+<li><a href="http://vision.middlebury.edu/stereo/" rel="nofollow">Middlebury Stereo Vision</a></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stero" rel="nofollow">The KITTI Vision Benchmark Suite</a></li>
+<li><a href="http://www.cvlibs.net/software/libelas/" rel="nofollow">LIBELAS: Library for Efficient Large-scale Stereo Matching</a></li>
+<li><a href="http://www.6d-vision.com/ground-truth-stixel-dataset" rel="nofollow">Ground Truth Stixel Dataset</a></li>
+</ul>
+<h6><a href="#optical-flow" aria-hidden="true" class="anchor" id="user-content-optical-flow"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optical Flow</h6>
+<ul>
+<li><a href="http://vision.middlebury.edu/flow/" rel="nofollow">Middlebury Optical Flow Evaluation</a></li>
+<li><a href="http://sintel.is.tue.mpg.de/" rel="nofollow">MPI-Sintel Optical Flow Dataset and Evaluation</a></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=flow" rel="nofollow">The KITTI Vision Benchmark Suite</a></li>
+<li><a href="http://hci.iwr.uni-heidelberg.de/Benchmarks/document/Challenging_Data_for_Stereo_and_Optical_Flow/" rel="nofollow">HCI Challenge</a></li>
+<li><a href="http://people.csail.mit.edu/celiu/OpticalFlow/" rel="nofollow">Coarse2Fine Optical Flow</a> - Ce Liu (MIT)</li>
+<li><a href="http://cs.brown.edu/%7Edqsun/code/cvpr10_flow_code.zip" rel="nofollow">Secrets of Optical Flow Estimation and Their Principles</a></li>
+<li><a href="http://people.csail.mit.edu/celiu/OpticalFlow/" rel="nofollow">C++/MatLab Optical Flow by C. Liu (based on Brox et al. and Bruhn et al.)</a></li>
+<li><a href="http://www.ctim.es/research_works/parallel_robust_optical_flow/" rel="nofollow">Parallel Robust Optical Flow by Sánchez Pérez et al.</a></li>
+</ul>
+<h6><a href="#image-denoising" aria-hidden="true" class="anchor" id="user-content-image-denoising"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Denoising</h6>
+<p>BM3D, KSVD,</p>
+<h6><a href="#super-resolution" aria-hidden="true" class="anchor" id="user-content-super-resolution"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Super-resolution</h6>
+<ul>
+<li><a href="http://www.robots.ox.ac.uk/%7Evgg/software/SR/" rel="nofollow">Multi-frame image super-resolution</a>
+<ul>
+<li>Pickup, L. C. Machine Learning in Multi-frame Image Super-resolution, PhD thesis 2008</li>
+</ul>
+</li>
+<li><a href="http://people.csail.mit.edu/billf/project%20pages/sresCode/Markov%20Random%20Fields%20for%20Super-Resolution.html" rel="nofollow">Markov Random Fields for Super-Resolution</a>
+<ul>
+<li>W. T Freeman and C. Liu. Markov Random Fields for Super-resolution and Texture Synthesis. In A. Blake, P. Kohli, and C. Rother, eds., Advances in Markov Random Fields for Vision and Image Processing, Chapter 10. MIT Press, 2011</li>
+</ul>
+</li>
+<li><a href="https://people.mpi-inf.mpg.de/%7Ekkim/supres/supres.htm" rel="nofollow">Sparse regression and natural image prior</a>
+<ul>
+<li>K. I. Kim and Y. Kwon, "Single-image super-resolution using sparse regression and natural image prior", IEEE Trans. Pattern Analysis and Machine Intelligence, vol. 32, no. 6, pp. 1127-1133, 2010.</li>
+</ul>
+</li>
+<li><a href="http://www.cs.technion.ac.il/%7Eelad/Various/SingleImageSR_TIP14_Box.zip" rel="nofollow">Single-Image Super Resolution via a Statistical Model</a>
+<ul>
+<li>T. Peleg and M. Elad, A Statistical Prediction Model Based on Sparse Representations for Single Image Super-Resolution, IEEE Transactions on Image Processing, Vol. 23, No. 6, Pages 2569-2582, June 2014</li>
+</ul>
+</li>
+<li><a href="http://www.cs.technion.ac.il/%7Eelad/Various/Single_Image_SR.zip" rel="nofollow">Sparse Coding for Super-Resolution</a>
+<ul>
+<li>R. Zeyde, M. Elad, and M. Protter On Single Image Scale-Up using Sparse-Representations, Curves &amp; Surfaces, Avignon-France, June 24-30, 2010 (appears also in Lecture-Notes-on-Computer-Science - LNCS).</li>
+</ul>
+</li>
+<li><a href="http://www.ifp.illinois.edu/%7Ejyang29/ScSR.htm" rel="nofollow">Patch-wise Sparse Recovery</a>
+<ul>
+<li>Jianchao Yang, John Wright, Thomas Huang, and Yi Ma. Image super-resolution via sparse representation. IEEE Transactions on Image Processing (TIP), vol. 19, issue 11, 2010.</li>
+</ul>
+</li>
+<li><a href="http://www.jdl.ac.cn/user/hchang/doc/code.rar" rel="nofollow">Neighbor embedding</a>
+<ul>
+<li>H. Chang, D.Y. Yeung, Y. Xiong. Super-resolution through neighbor embedding. Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR), vol.1, pp.275-282, Washington, DC, USA, 27 June - 2 July 2004.</li>
+</ul>
+</li>
+<li><a href="https://sites.google.com/site/yuzhushome/single-image-super-resolution-using-deformable-patches" rel="nofollow">Deformable Patches</a>
+<ul>
+<li>Yu Zhu, Yanning Zhang and Alan Yuille, Single Image Super-resolution using Deformable Patches, CVPR 2014</li>
+</ul>
+</li>
+<li><a href="http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html" rel="nofollow">SRCNN</a>
+<ul>
+<li>Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang, Learning a Deep Convolutional Network for Image Super-Resolution, in ECCV 2014</li>
+</ul>
+</li>
+<li><a href="http://www.vision.ee.ethz.ch/%7Etimofter/ACCV2014_ID820_SUPPLEMENTARY/index.html" rel="nofollow">A+: Adjusted Anchored Neighborhood Regression</a>
+<ul>
+<li>R. Timofte, V. De Smet, and L. Van Gool. A+: Adjusted Anchored Neighborhood Regression for Fast Super-Resolution, ACCV 2014</li>
+</ul>
+</li>
+<li><a href="https://sites.google.com/site/jbhuang0604/publications/struct_sr" rel="nofollow">Transformed Self-Exemplars</a>
+<ul>
+<li>Jia-Bin Huang, Abhishek Singh, and Narendra Ahuja, Single Image Super-Resolution using Transformed Self-Exemplars, IEEE Conference on Computer Vision and Pattern Recognition, 2015</li>
+</ul>
+</li>
+</ul>
+<h6><a href="#image-deblurring" aria-hidden="true" class="anchor" id="user-content-image-deblurring"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Deblurring</h6>
+<p>Non-blind deconvolution</p>
+<ul>
+<li><a href="http://homes.cs.washington.edu/%7Eshanqi/work/spvdeconv/" rel="nofollow">Spatially variant non-blind deconvolution</a></li>
+<li><a href="http://cg.postech.ac.kr/research/deconv_outliers/" rel="nofollow">Handling Outliers in Non-blind Image Deconvolution</a></li>
+<li><a href="http://cs.nyu.edu/%7Edilip/research/fast-deconvolution/" rel="nofollow">Hyper-Laplacian Priors</a></li>
+<li><a href="http://people.csail.mit.edu/danielzoran/epllcode.zip" rel="nofollow">From Learning Models of Natural Image Patches to Whole Image Restoration</a></li>
+<li><a href="http://lxu.me/projects/dcnn/" rel="nofollow">Deep Convolutional Neural Network for Image Deconvolution</a></li>
+<li><a href="http://webdav.is.mpg.de/pixel/neural_deconvolution/" rel="nofollow">Neural Deconvolution</a></li>
+</ul>
+<p>Blind deconvolution</p>
+<ul>
+<li><a href="http://www.cs.nyu.edu/%7Efergus/research/deblur.html" rel="nofollow">Removing Camera Shake From A Single Photograph</a></li>
+<li><a href="http://www.cse.cuhk.edu.hk/leojia/projects/motion_deblurring/" rel="nofollow">High-quality motion deblurring from a single image</a></li>
+<li><a href="http://www.cse.cuhk.edu.hk/leojia/projects/robust_deblur/" rel="nofollow">Two-Phase Kernel Estimation for Robust Motion Deblurring</a></li>
+<li><a href="http://people.csail.mit.edu/taegsang/Documents/RadonDeblurringCode.zip" rel="nofollow">Blur kernel estimation using the radon transform</a></li>
+<li><a href="http://cg.postech.ac.kr/research/fast_motion_deblurring/" rel="nofollow">Fast motion deblurring</a></li>
+<li><a href="http://cs.nyu.edu//%7Edilip/research/blind-deconvolution/" rel="nofollow">Blind Deconvolution Using a Normalized Sparsity Measure</a></li>
+<li><a href="http://www.cs.huji.ac.il/%7Eraananf/projects/deblur/" rel="nofollow">Blur-kernel estimation from spectral irregularities</a></li>
+<li><a href="http://www.wisdom.weizmann.ac.il/%7Elevina/papers/LevinEtalCVPR2011Code.zip" rel="nofollow">Efficient marginal likelihood optimization in blind deconvolution</a></li>
+<li><a href="http://www.cse.cuhk.edu.hk/leojia/projects/l0deblur/" rel="nofollow">Unnatural L0 Sparse Representation for Natural Image Deblurring</a></li>
+<li><a href="http://cs.brown.edu/%7Elbsun/deblur2013/deblur2013iccp.html" rel="nofollow">Edge-based Blur Kernel Estimation Using Patch Priors</a></li>
+<li><a href="http://www.wisdom.weizmann.ac.il/%7Evision/BlindDeblur.html" rel="nofollow">Blind Deblurring Using Internal Patch Recurrence</a></li>
+</ul>
+<p>Non-uniform Deblurring</p>
+<ul>
+<li><a href="http://www.di.ens.fr/willow/research/deblurring/" rel="nofollow">Non-uniform Deblurring for Shaken Images</a></li>
+<li><a href="http://grail.cs.washington.edu/projects/mdf_deblurring/" rel="nofollow">Single Image Deblurring Using Motion Density Functions</a></li>
+<li><a href="http://research.microsoft.com/en-us/um/redmond/groups/ivm/imudeblurring/" rel="nofollow">Image Deblurring using Inertial Measurement Sensors</a></li>
+<li><a href="http://webdav.is.mpg.de/pixel/fast_removal_of_camera_shake/" rel="nofollow">Fast Removal of Non-uniform Camera Shake</a></li>
+</ul>
+<h6><a href="#image-completion" aria-hidden="true" class="anchor" id="user-content-image-completion"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Completion</h6>
+<ul>
+<li><a href="http://registry.gimp.org/node/27986" rel="nofollow">GIMP Resynthesizer</a></li>
+<li><a href="http://lafarren.com/image-completer/" rel="nofollow">Priority BP</a></li>
+<li><a href="http://www.ece.ucsb.edu/%7Epsen/melding" rel="nofollow">ImageMelding</a></li>
+<li><a href="https://sites.google.com/site/jbhuang0604/publications/struct_completion" rel="nofollow">PlanarStructureCompletion</a></li>
+</ul>
+<h6><a href="#image-retargeting" aria-hidden="true" class="anchor" id="user-content-image-retargeting"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Retargeting</h6>
+<ul>
+<li><a href="http://people.csail.mit.edu/mrub/retargetme/" rel="nofollow">RetargetMe</a></li>
+</ul>
+<h6><a href="#alpha-matting" aria-hidden="true" class="anchor" id="user-content-alpha-matting"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alpha Matting</h6>
+<ul>
+<li><a href="http://www.alphamatting.com/" rel="nofollow">Alpha Matting Evaluation</a></li>
+<li><a href="http://people.csail.mit.edu/alevin/matting.tar.gz" rel="nofollow">Closed-form image matting</a></li>
+<li><a href="http://www.vision.huji.ac.il/SpectralMatting/" rel="nofollow">Spectral Matting</a></li>
+<li><a href="http://www.mathworks.com/matlabcentral/fileexchange/31412-learning-based-digital-matting" rel="nofollow">Learning-based Matting</a></li>
+<li><a href="http://www.alphamatting.com/ImprovingMattingComprehensiveSamplingSets_CVPR2013.zip" rel="nofollow">Improving Image Matting using Comprehensive Sampling Sets</a></li>
+</ul>
+<h6><a href="#image-pyramid" aria-hidden="true" class="anchor" id="user-content-image-pyramid"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Pyramid</h6>
+<ul>
+<li><a href="http://www.cns.nyu.edu/%7Eeero/steerpyr/" rel="nofollow">The Steerable Pyramid</a></li>
+<li><a href="http://www.curvelet.org/" rel="nofollow">CurveLab</a></li>
+</ul>
+<h6><a href="#edge-preserving-image-processing" aria-hidden="true" class="anchor" id="user-content-edge-preserving-image-processing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Edge-preserving image processing</h6>
+<ul>
+<li><a href="http://people.csail.mit.edu/sparis/bf/" rel="nofollow">Fast Bilateral Filter</a></li>
+<li><a href="http://www.cs.cityu.edu.hk/%7Eqiyang/publications/code/qx.cvpr09.ctbf.zip" rel="nofollow">O(1) Bilateral Filter</a></li>
+<li><a href="http://www.cs.cityu.edu.hk/%7Eqiyang/publications/eccv-12/" rel="nofollow">Recursive Bilateral Filtering</a></li>
+<li><a href="http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/" rel="nofollow">Rolling Guidance Filter</a></li>
+<li><a href="http://www.cse.cuhk.edu.hk/leojia/projects/texturesep/index.html" rel="nofollow">Relative Total Variation</a></li>
+<li><a href="http://www.cse.cuhk.edu.hk/leojia/projects/L0smoothing/index.html" rel="nofollow">L0 Gradient Optimization</a></li>
+<li><a href="http://www.inf.ufrgs.br/%7Eeslgastal/DomainTransform/" rel="nofollow">Domain Transform</a></li>
+<li><a href="http://inf.ufrgs.br/%7Eeslgastal/AdaptiveManifolds/" rel="nofollow">Adaptive Manifold</a></li>
+<li><a href="http://research.microsoft.com/en-us/um/people/kahe/eccv10/" rel="nofollow">Guided image filtering</a></li>
+</ul>
+<h4><a href="#intrinsic-images" aria-hidden="true" class="anchor" id="user-content-intrinsic-images"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intrinsic Images</h4>
+<ul>
+<li><a href="http://people.tuebingen.mpg.de/mkiefel/projects/intrinsic/" rel="nofollow">Recovering Intrinsic Images with a global Sparsity Prior on Reflectance</a></li>
+<li><a href="http://giga.cps.unizar.es/%7Eelenag/projects/EGSR2012_intrinsic/" rel="nofollow">Intrinsic Images by Clustering</a></li>
+</ul>
+<h4><a href="#contour-detection-and-image-segmentation" aria-hidden="true" class="anchor" id="user-content-contour-detection-and-image-segmentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contour Detection and Image Segmentation</h4>
+<ul>
+<li><a href="http://coewww.rutgers.edu/riul/research/code/EDISON/" rel="nofollow">Mean Shift Segmentation</a></li>
+<li><a href="http://cs.brown.edu/%7Epff/segment/" rel="nofollow">Graph-based Segmentation</a></li>
+<li><a href="http://www.cis.upenn.edu/%7Ejshi/software/" rel="nofollow">Normalized Cut</a></li>
+<li><a href="http://grabcut.weebly.com/background--algorithm.html" rel="nofollow">Grab Cut</a></li>
+<li><a href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html" rel="nofollow">Contour Detection and Image Segmentation</a></li>
+<li><a href="http://research.microsoft.com/en-us/downloads/389109f6-b4e8-404c-84bf-239f7cbf4e3d/" rel="nofollow">Structured Edge Detection</a></li>
+<li><a href="http://web.mit.edu/phillipi/pmi-boundaries/" rel="nofollow">Pointwise Mutual Information</a></li>
+<li><a href="http://ivrl.epfl.ch/research/superpixels" rel="nofollow">SLIC Super-pixel</a></li>
+<li><a href="http://www.vlfeat.org/overview/quickshift.html" rel="nofollow">QuickShift</a></li>
+<li><a href="http://www.cs.toronto.edu/%7Ebabalex/research.html" rel="nofollow">TurboPixels</a></li>
+<li><a href="http://mingyuliu.net/" rel="nofollow">Entropy Rate Superpixel</a></li>
+<li><a href="http://www.vsi.cs.uni-frankfurt.de/research/current-projects/research/superpixel-segmentation/" rel="nofollow">Contour Relaxed Superpixels</a></li>
+<li><a href="http://www.mvdblive.org/seeds/" rel="nofollow">SEEDS</a></li>
+<li><a href="https://github.com/davidstutz/seeds-revised">SEEDS Revised</a></li>
+<li><a href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/mcg/" rel="nofollow">Multiscale Combinatorial Grouping</a></li>
+<li><a href="https://github.com/pdollar/edges">Fast Edge Detection Using Structured Forests</a></li>
+</ul>
+<h4><a href="#interactive-image-segmentation" aria-hidden="true" class="anchor" id="user-content-interactive-image-segmentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interactive Image Segmentation</h4>
+<ul>
+<li><a href="http://cns.bu.edu/%7Elgrady/software.html" rel="nofollow">Random Walker</a></li>
+<li><a href="http://www.tc.umn.edu/%7Ebaixx015/" rel="nofollow">Geodesic Segmentation</a></li>
+<li><a href="http://research.microsoft.com/apps/pubs/default.aspx?id=69040" rel="nofollow">Lazy Snapping</a></li>
+<li><a href="http://powerwatershed.sourceforge.net/" rel="nofollow">Power Watershed</a></li>
+<li><a href="http://www.adobe.com/technology/people/san-jose/brian-price.html" rel="nofollow">Geodesic Graph Cut</a></li>
+<li><a href="http://www.cs.cmu.edu/%7Eolivierd/" rel="nofollow">Segmentation by Transduction</a></li>
+</ul>
+<h4><a href="#video-segmentation" aria-hidden="true" class="anchor" id="user-content-video-segmentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video Segmentation</h4>
+<ul>
+<li><a href="http://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/image-and-video-segmentation/video-segmentation-with-superpixels/" rel="nofollow">Video Segmentation with Superpixels</a></li>
+<li><a href="http://www.cc.gatech.edu/cpl/projects/videosegmentation/" rel="nofollow">Efficient hierarchical graph-based video segmentation</a></li>
+<li><a href="http://lmb.informatik.uni-freiburg.de/Publications/2011/OB11/" rel="nofollow">Object segmentation in video</a></li>
+<li><a href="http://www.cse.buffalo.edu/%7Ejcorso/r/supervoxels/" rel="nofollow">Streaming hierarchical video segmentation</a></li>
+</ul>
+<h4><a href="#camera-calibration" aria-hidden="true" class="anchor" id="user-content-camera-calibration"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Camera calibration</h4>
+<ul>
+<li><a href="http://www.vision.caltech.edu/bouguetj/calib_doc/" rel="nofollow">Camera Calibration Toolbox for Matlab</a></li>
+<li><a href="http://docs.opencv.org/trunk/doc/tutorials/calib3d/camera_calibration/camera_calibration.html#" rel="nofollow">Camera calibration With OpenCV</a></li>
+<li><a href="https://sites.google.com/site/prclibo/toolbox" rel="nofollow">Multiple Camera Calibration Toolbox</a></li>
+</ul>
+<h4><a href="#simultaneous-localization-and-mapping" aria-hidden="true" class="anchor" id="user-content-simultaneous-localization-and-mapping"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simultaneous localization and mapping</h4>
+<h6><a href="#slam-community" aria-hidden="true" class="anchor" id="user-content-slam-community"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SLAM community:</h6>
+<ul>
+<li><a href="https://www.openslam.org/" rel="nofollow">openSLAM</a></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/eval_odometry.php" rel="nofollow">Kitti Odometry: benchmark for outdoor visual odometry (codes may be available)</a></li>
+</ul>
+<h6><a href="#trackingodometry" aria-hidden="true" class="anchor" id="user-content-trackingodometry"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tracking/Odometry:</h6>
+<ul>
+<li><a href="http://www.cvlibs.net/software/libviso/" rel="nofollow">LIBVISO2: C++ Library for Visual Odometry 2</a></li>
+<li><a href="http://www.robots.ox.ac.uk/%7Egk/PTAM/" rel="nofollow">PTAM: Parallel tracking and mapping</a></li>
+<li><a href="https://github.com/GerhardR/kfusion">KFusion: Implementation of KinectFusion</a></li>
+<li><a href="https://github.com/Nerei/kinfu_remake">kinfu_remake: Lightweight, reworked and optimized version of Kinfu.</a></li>
+<li><a href="http://las-vegas.uni-osnabrueck.de/related-projects/lvr-kinfu/" rel="nofollow">LVR-KinFu: kinfu_remake based Large Scale KinectFusion with online reconstruction</a></li>
+<li><a href="http://www.robots.ox.ac.uk/%7Evictor/infinitam/" rel="nofollow">InfiniTAM: Implementation of multi-platform large-scale depth tracking and fusion</a></li>
+<li><a href="https://github.com/nachtmar/VoxelHashing">VoxelHashing: Large-scale KinectFusion</a></li>
+<li><a href="http://apt.cs.manchester.ac.uk/projects/PAMELA/tools/SLAMBench/" rel="nofollow">SLAMBench: Multiple-implementation of KinectFusion</a></li>
+<li><a href="https://github.com/uzh-rpg/rpg_svo">SVO: Semi-direct visual odometry</a></li>
+<li><a href="https://github.com/tum-vision/dvo_slam">DVO: dense visual odometry</a></li>
+<li><a href="https://code.google.com/p/fovis/" rel="nofollow">FOVIS: RGB-D visual odometry</a></li>
+</ul>
+<h6><a href="#graph-optimization" aria-hidden="true" class="anchor" id="user-content-graph-optimization"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graph Optimization:</h6>
+<ul>
+<li><a href="https://collab.cc.gatech.edu/borg/gtsam?destination=node%2F299" rel="nofollow">GTSAM: General smoothing and mapping library for Robotics and SFM</a> -- Georgia Institute of Technology</li>
+<li><a href="https://github.com/RainerKuemmerle/g2o">G2O: General framework for graph optomization</a></li>
+</ul>
+<h6><a href="#loop-closure" aria-hidden="true" class="anchor" id="user-content-loop-closure"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loop Closure:</h6>
+<ul>
+<li><a href="http://www.robots.ox.ac.uk/%7Emjc/Software.htm" rel="nofollow">FabMap: appearance-based loop closure system</a> - also available in <a href="http://docs.opencv.org/2.4/modules/contrib/doc/openfabmap.html" rel="nofollow">OpenCV2.4.11</a></li>
+<li><a href="http://webdiis.unizar.es/%7Edorian/index.php?p=32" rel="nofollow">DBoW2: binary bag-of-words loop detection system</a></li>
+</ul>
+<h6><a href="#localization--mapping" aria-hidden="true" class="anchor" id="user-content-localization--mapping"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Localization &amp; Mapping:</h6>
+<ul>
+<li><a href="https://code.google.com/p/ratslam/" rel="nofollow">RatSLAM</a></li>
+<li><a href="https://github.com/tum-vision/lsd_slam">LSD-SLAM</a></li>
+<li><a href="https://github.com/raulmur/ORB_SLAM">ORB-SLAM</a></li>
+</ul>
+<h4><a href="#single-view-spatial-understanding" aria-hidden="true" class="anchor" id="user-content-single-view-spatial-understanding"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Single-view Spatial Understanding</h4>
+<ul>
+<li><a href="http://web.engr.illinois.edu/%7Edhoiem/projects/software.html" rel="nofollow">Geometric Context</a> - Derek Hoiem (CMU)</li>
+<li><a href="http://web.engr.illinois.edu/%7Edhoiem/software/counter.php?Down=varsha_spatialLayout.zip" rel="nofollow">Recovering Spatial Layout</a> - Varsha Hedau (UIUC)</li>
+<li><a href="http://www.cs.cmu.edu/%7E./dclee/code/index.html" rel="nofollow">Geometric Reasoning</a> - David C. Lee (CMU)</li>
+<li><a href="https://github.com/arron2003/rgbd2full3d">RGBD2Full3D</a> - Ruiqi Guo (UIUC)</li>
+</ul>
+<h4><a href="#object-detection" aria-hidden="true" class="anchor" id="user-content-object-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object Detection</h4>
+<ul>
+<li><a href="http://pascal.inrialpes.fr/soft/olt/" rel="nofollow">INRIA Object Detection and Localization Toolkit</a></li>
+<li><a href="http://www.cs.berkeley.edu/%7Erbg/latent/" rel="nofollow">Discriminatively trained deformable part models</a></li>
+<li><a href="https://github.com/rbgirshick/voc-dpm">VOC-DPM</a></li>
+<li><a href="http://www.ics.uci.edu/%7Edramanan/software/sparse/" rel="nofollow">Histograms of Sparse Codes for Object Detection</a></li>
+<li><a href="https://github.com/rbgirshick/rcnn">R-CNN: Regions with Convolutional Neural Network Features</a></li>
+<li><a href="https://github.com/ShaoqingRen/SPP_net">SPP-Net</a></li>
+<li><a href="http://mmcheng.net/bing/comment-page-9/" rel="nofollow">BING: Objectness Estimation</a></li>
+<li><a href="https://github.com/pdollar/edges">Edge Boxes</a></li>
+<li><a href="https://github.com/Russell91/ReInspect">ReInspect</a></li>
+</ul>
+<h4><a href="#nearest-neighbor-search" aria-hidden="true" class="anchor" id="user-content-nearest-neighbor-search"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nearest Neighbor Search</h4>
+<h6><a href="#general-purpose-nearest-neighbor-search" aria-hidden="true" class="anchor" id="user-content-general-purpose-nearest-neighbor-search"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General purpose nearest neighbor search</h6>
+<ul>
+<li><a href="http://www.cs.umd.edu/%7Emount/ANN/" rel="nofollow">ANN: A Library for Approximate Nearest Neighbor Searching</a></li>
+<li><a href="http://www.cs.ubc.ca/research/flann/" rel="nofollow">FLANN - Fast Library for Approximate Nearest Neighbors</a></li>
+<li><a href="http://vincentfpgarcia.github.io/kNN-CUDA/" rel="nofollow">Fast k nearest neighbor search using GPU</a></li>
+</ul>
+<h6><a href="#nearest-neighbor-field-estimation" aria-hidden="true" class="anchor" id="user-content-nearest-neighbor-field-estimation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nearest Neighbor Field Estimation</h6>
+<ul>
+<li><a href="http://gfx.cs.princeton.edu/gfx/pubs/Barnes_2009_PAR/index.php" rel="nofollow">PatchMatch</a></li>
+<li><a href="http://gfx.cs.princeton.edu/pubs/Barnes_2010_TGP/index.php" rel="nofollow">Generalized PatchMatch</a></li>
+<li><a href="http://www.eng.tau.ac.il/%7Esimonk/CSH/" rel="nofollow">Coherency Sensitive Hashing</a></li>
+<li><a href="https://github.com/fbesse/pmbp">PMBP: PatchMatch Belief Propagation</a></li>
+<li><a href="http://www.eng.tau.ac.il/%7Eavidan/papers/TreeCANN_code_20121022.rar" rel="nofollow">TreeCANN</a></li>
+</ul>
+<h4><a href="#visual-tracking" aria-hidden="true" class="anchor" id="user-content-visual-tracking"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visual Tracking</h4>
+<ul>
+<li><a href="https://sites.google.com/site/trackerbenchmark/benchmarks/v10" rel="nofollow">Visual Tracker Benchmark</a></li>
+<li><a href="http://www.votchallenge.net/" rel="nofollow">Visual Tracking Challenge</a></li>
+<li><a href="http://www.ces.clemson.edu/%7Estb/klt/" rel="nofollow">Kanade-Lucas-Tomasi Feature Tracker</a></li>
+<li><a href="http://www.eng.tau.ac.il/%7Eoron/ELK/ELK.html" rel="nofollow">Extended Lucas-Kanade Tracking</a></li>
+<li><a href="http://www.vision.ee.ethz.ch/boostingTrackers/" rel="nofollow">Online-boosting Tracking</a></li>
+<li><a href="http://www4.comp.polyu.edu.hk/%7Ecslzhang/STC/STC.htm" rel="nofollow">Spatio-Temporal Context Learning</a></li>
+<li><a href="http://www.shengfenghe.com/visual-tracking-via-locality-sensitive-histograms.html" rel="nofollow">Locality Sensitive Histograms</a></li>
+<li><a href="http://www.cv-foundation.org/openaccess/content_iccv_workshops_2013/W03/papers/Xiao_An_Enhanced_Adaptive_2013_ICCV_paper.pdf" rel="nofollow">Enhanced adaptive coupled-layer LGTracker++</a></li>
+<li><a href="http://personal.ee.surrey.ac.uk/Personal/Z.Kalal/tld.html" rel="nofollow">TLD: Tracking - Learning - Detection</a></li>
+<li><a href="http://www.gnebehay.com/cmt/" rel="nofollow">CMT: Clustering of Static-Adaptive Correspondences for Deformable Object Tracking</a></li>
+<li><a href="http://home.isr.uc.pt/%7Ehenriques/circulant/" rel="nofollow">Kernelized Correlation Filters</a></li>
+<li><a href="http://www.cvl.isy.liu.se/en/research/objrec/visualtracking/scalvistrack/index.html" rel="nofollow">Accurate Scale Estimation for Robust Visual Tracking</a></li>
+<li><a href="http://cs-people.bu.edu/jmzhang/MEEM/MEEM.html" rel="nofollow">Multiple Experts using Entropy Minimization</a></li>
+<li><a href="http://www.dabi.temple.edu/%7Ehbling/code/TGPR.htm" rel="nofollow">TGPR</a></li>
+<li><a href="https://sites.google.com/site/jbhuang0604/publications/cf2" rel="nofollow">CF2: Hierarchical Convolutional Features for Visual Tracking</a></li>
+<li><a href="http://webdocs.cs.ualberta.ca/%7Evis/mtf/index.html" rel="nofollow">Modular Tracking Framework</a></li>
+</ul>
+<h4><a href="#saliency-detection" aria-hidden="true" class="anchor" id="user-content-saliency-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Saliency Detection</h4>
+<h4><a href="#attributes" aria-hidden="true" class="anchor" id="user-content-attributes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Attributes</h4>
+<h4><a href="#action-reconition" aria-hidden="true" class="anchor" id="user-content-action-reconition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Action Reconition</h4>
+<h4><a href="#egocentric-cameras" aria-hidden="true" class="anchor" id="user-content-egocentric-cameras"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Egocentric cameras</h4>
+<h4><a href="#human-in-the-loop-systems" aria-hidden="true" class="anchor" id="user-content-human-in-the-loop-systems"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Human-in-the-loop systems</h4>
+<h4><a href="#image-captioning" aria-hidden="true" class="anchor" id="user-content-image-captioning"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Captioning</h4>
+<ul>
+<li><a href="https://github.com/karpathy/neuraltalk%EF%BB%BF">NeuralTalk</a> -</li>
+</ul>
+<h4><a href="#optimization-2" aria-hidden="true" class="anchor" id="user-content-optimization-2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optimization</h4>
+<ul>
+<li><a href="http://ceres-solver.org/" rel="nofollow">Ceres Solver</a> - Nonlinear least-square problem and unconstrained optimization solver</li>
+<li><a href="http://ab-initio.mit.edu/wiki/index.php/NLopt" rel="nofollow">NLopt</a>- Nonlinear least-square problem and unconstrained optimization solver</li>
+<li><a href="http://hci.iwr.uni-heidelberg.de/opengm2/" rel="nofollow">OpenGM</a> - Factor graph based discrete optimization and inference solver</li>
+<li><a href="https://collab.cc.gatech.edu/borg/gtsam/" rel="nofollow">GTSAM</a> - Factor graph based lease-square optimization solver</li>
+</ul>
+<h4><a href="#deep-learning-1" aria-hidden="true" class="anchor" id="user-content-deep-learning-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deep Learning</h4>
+<ul>
+<li><a href="https://github.com/kjw0612/awesome-deep-vision">Awesome Deep Vision</a></li>
+</ul>
+<h4><a href="#machine-learning-2" aria-hidden="true" class="anchor" id="user-content-machine-learning-2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h4>
+<ul>
+<li><a href="https://github.com/josephmisiti/awesome-machine-learning">Awesome Machine Learning</a></li>
+<li><a href="http://idiap.github.io/bob/" rel="nofollow">Bob: a free signal processing and machine learning toolbox for researchers</a></li>
+<li><a href="https://www.csie.ntu.edu.tw/%7Ecjlin/libsvm/" rel="nofollow">LIBSVM -- A Library for Support Vector Machines</a></li>
+</ul>
+<h2><a href="#datasets" aria-hidden="true" class="anchor" id="user-content-datasets"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Datasets</h2>
+<h4><a href="#external-dataset-link-collection" aria-hidden="true" class="anchor" id="user-content-external-dataset-link-collection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>External Dataset Link Collection</h4>
+<ul>
+<li><a href="http://www.cvpapers.com/datasets.html" rel="nofollow">CV Datasets on the web</a> - CVPapers</li>
+<li><a href="http://rodrigob.github.io/are_we_there_yet/build/" rel="nofollow">Are we there yet?</a> - Which paper provides the best results on standard dataset X?</li>
+<li><a href="http://www.cvpapers.com/datasets.html" rel="nofollow">Computer Vision Dataset on the web</a></li>
+<li><a href="http://riemenschneider.hayko.at/vision/dataset/" rel="nofollow">Yet Another Computer Vision Index To Datasets</a></li>
+<li><a href="http://www.computervisiononline.com/datasets" rel="nofollow">ComputerVisionOnline Datasets</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/cgi/rbf/CVONLINE/entries.pl?TAG363" rel="nofollow">CVOnline Dataset</a></li>
+<li><a href="http://clickdamage.com/sourcecode/cv_datasets.php" rel="nofollow">CV datasets</a></li>
+<li><a href="http://datasets.visionbib.com/info-index.html" rel="nofollow">visionbib</a></li>
+<li><a href="http://www.visualdata.io/" rel="nofollow">VisualData</a></li>
+</ul>
+<h4><a href="#low-level-vision-1" aria-hidden="true" class="anchor" id="user-content-low-level-vision-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Low-level Vision</h4>
+<h6><a href="#stereo-vision-1" aria-hidden="true" class="anchor" id="user-content-stereo-vision-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stereo Vision</h6>
+<ul>
+<li><a href="http://vision.middlebury.edu/stereo/" rel="nofollow">Middlebury Stereo Vision</a></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stero" rel="nofollow">The KITTI Vision Benchmark Suite</a></li>
+<li><a href="http://www.cvlibs.net/software/libelas/" rel="nofollow">LIBELAS: Library for Efficient Large-scale Stereo Matching</a></li>
+<li><a href="http://www.6d-vision.com/ground-truth-stixel-dataset" rel="nofollow">Ground Truth Stixel Dataset</a></li>
+</ul>
+<h6><a href="#optical-flow-1" aria-hidden="true" class="anchor" id="user-content-optical-flow-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optical Flow</h6>
+<ul>
+<li><a href="http://vision.middlebury.edu/flow/" rel="nofollow">Middlebury Optical Flow Evaluation</a></li>
+<li><a href="http://sintel.is.tue.mpg.de/" rel="nofollow">MPI-Sintel Optical Flow Dataset and Evaluation</a></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=flow" rel="nofollow">The KITTI Vision Benchmark Suite</a></li>
+<li><a href="http://hci.iwr.uni-heidelberg.de/Benchmarks/document/Challenging_Data_for_Stereo_and_Optical_Flow/" rel="nofollow">HCI Challenge</a></li>
+</ul>
+<h6><a href="#video-object-segmentation" aria-hidden="true" class="anchor" id="user-content-video-object-segmentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video Object Segmentation</h6>
+<ul>
+<li><a href="http://davischallenge.org/" rel="nofollow">DAVIS: Densely Annotated VIdeo Segmentation</a></li>
+<li><a href="http://web.engr.oregonstate.edu/%7Elif/SegTrack2/dataset.html" rel="nofollow">SegTrack v2</a></li>
+</ul>
+<h6><a href="#change-detection" aria-hidden="true" class="anchor" id="user-content-change-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change Detection</h6>
+<ul>
+<li><a href="http://www.gti.ssr.upm.es/data/LASIESTA" rel="nofollow">Labeled and Annotated Sequences for Integral Evaluation of SegmenTation Algorithms</a></li>
+<li><a href="http://www.changedetection.net/" rel="nofollow">ChangeDetection.net</a></li>
+</ul>
+<h6><a href="#image-super-resolutions" aria-hidden="true" class="anchor" id="user-content-image-super-resolutions"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Super-resolutions</h6>
+<ul>
+<li><a href="https://eng.ucmerced.edu/people/cyang35/ECCV14/ECCV14.html" rel="nofollow">Single-Image Super-Resolution: A Benchmark</a></li>
+</ul>
+<h4><a href="#intrinsic-images-1" aria-hidden="true" class="anchor" id="user-content-intrinsic-images-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intrinsic Images</h4>
+<ul>
+<li><a href="http://www.mit.edu/%7Ekimo/publications/intrinsic/" rel="nofollow">Ground-truth dataset and baseline evaluations for intrinsic image algorithms</a></li>
+<li><a href="http://opensurfaces.cs.cornell.edu/intrinsic/" rel="nofollow">Intrinsic Images in the Wild</a></li>
+<li><a href="http://www.cic.uab.cat/Datasets/synthetic_intrinsic_image_dataset/" rel="nofollow">Intrinsic Image Evaluation on Synthetic Complex Scenes</a></li>
+</ul>
+<h4><a href="#material-recognition" aria-hidden="true" class="anchor" id="user-content-material-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Material Recognition</h4>
+<ul>
+<li><a href="http://opensurfaces.cs.cornell.edu/" rel="nofollow">OpenSurface</a></li>
+<li><a href="http://people.csail.mit.edu/celiu/CVPR2010/" rel="nofollow">Flickr Material Database</a></li>
+<li><a href="http://opensurfaces.cs.cornell.edu/publications/minc/" rel="nofollow">Materials in Context Dataset</a></li>
+</ul>
+<h4><a href="#multi-view-reconsturction" aria-hidden="true" class="anchor" id="user-content-multi-view-reconsturction"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multi-view Reconsturction</h4>
+<ul>
+<li><a href="http://vision.middlebury.edu/mview/" rel="nofollow">Multi-View Stereo Reconstruction</a></li>
+</ul>
+<h4><a href="#saliency-detection-1" aria-hidden="true" class="anchor" id="user-content-saliency-detection-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Saliency Detection</h4>
+<h4><a href="#visual-tracking-1" aria-hidden="true" class="anchor" id="user-content-visual-tracking-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visual Tracking</h4>
+<ul>
+<li><a href="https://sites.google.com/site/trackerbenchmark/benchmarks/v10" rel="nofollow">Visual Tracker Benchmark</a></li>
+<li><a href="https://sites.google.com/site/benchmarkpami/" rel="nofollow">Visual Tracker Benchmark v1.1</a></li>
+<li><a href="http://www.votchallenge.net/" rel="nofollow">VOT Challenge</a></li>
+<li><a href="http://tracking.cs.princeton.edu/" rel="nofollow">Princeton Tracking Benchmark</a></li>
+<li><a href="http://webdocs.cs.ualberta.ca/%7Evis/trackDB/" rel="nofollow">Tracking Manipulation Tasks (TMT)</a></li>
+</ul>
+<h4><a href="#visual-surveillance" aria-hidden="true" class="anchor" id="user-content-visual-surveillance"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visual Surveillance</h4>
+<ul>
+<li><a href="http://www.viratdata.org/" rel="nofollow">VIRAT</a></li>
+<li><a href="https://cam2.ecn.purdue.edu/" rel="nofollow">CAM2</a></li>
+</ul>
+<h4><a href="#saliency-detection-2" aria-hidden="true" class="anchor" id="user-content-saliency-detection-2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Saliency Detection</h4>
+<h4><a href="#change-detection-1" aria-hidden="true" class="anchor" id="user-content-change-detection-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change detection</h4>
+<ul>
+<li><a href="http://changedetection.net/" rel="nofollow">ChangeDetection.net</a></li>
+</ul>
+<h4><a href="#visual-recognition" aria-hidden="true" class="anchor" id="user-content-visual-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visual Recognition</h4>
+<h6><a href="#image-classification" aria-hidden="true" class="anchor" id="user-content-image-classification"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Classification</h6>
+<ul>
+<li><a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/" rel="nofollow">The PASCAL Visual Object Classes</a></li>
+<li><a href="http://www.image-net.org/challenges/LSVRC/2014/" rel="nofollow">ImageNet Large Scale Visual Recognition Challenge</a></li>
+</ul>
+<h6><a href="#scene-recognition" aria-hidden="true" class="anchor" id="user-content-scene-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scene Recognition</h6>
+<ul>
+<li><a href="http://groups.csail.mit.edu/vision/SUN/" rel="nofollow">SUN Database</a></li>
+<li><a href="http://places.csail.mit.edu/" rel="nofollow">Place Dataset</a></li>
+</ul>
+<h6><a href="#object-detection-1" aria-hidden="true" class="anchor" id="user-content-object-detection-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object Detection</h6>
+<ul>
+<li><a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/" rel="nofollow">The PASCAL Visual Object Classes</a></li>
+<li><a href="http://www.image-net.org/challenges/LSVRC/2014/" rel="nofollow">ImageNet Object Detection Challenge</a></li>
+<li><a href="http://mscoco.org/" rel="nofollow">Microsoft COCO</a></li>
+</ul>
+<h6><a href="#semantic-labeling" aria-hidden="true" class="anchor" id="user-content-semantic-labeling"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Semantic labeling</h6>
+<ul>
+<li><a href="http://dags.stanford.edu/projects/scenedataset.html" rel="nofollow">Stanford background dataset</a></li>
+<li><a href="http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/" rel="nofollow">CamVid</a></li>
+<li><a href="http://www.cs.unc.edu/%7Ejtighe/Papers/ECCV10/" rel="nofollow">Barcelona Dataset</a></li>
+<li><a href="http://www.cs.unc.edu/%7Ejtighe/Papers/ECCV10/siftflow/SiftFlowDataset.zip" rel="nofollow">SIFT Flow Dataset</a></li>
+</ul>
+<h6><a href="#multi-view-object-detection" aria-hidden="true" class="anchor" id="user-content-multi-view-object-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multi-view Object Detection</h6>
+<ul>
+<li><a href="http://cvgl.stanford.edu/resources.html" rel="nofollow">3D Object Dataset</a></li>
+<li><a href="http://cvlab.epfl.ch/data/pose" rel="nofollow">EPFL Car Dataset</a></li>
+<li><a href="http://www.cvlibs.net/datasets/kitti/eval_object.php" rel="nofollow">KTTI Dection Dataset</a></li>
+<li><a href="http://sun3d.cs.princeton.edu/" rel="nofollow">SUN 3D Dataset</a></li>
+<li><a href="http://cvgl.stanford.edu/projects/pascal3d.html" rel="nofollow">PASCAL 3D+</a></li>
+<li><a href="http://nyc3d.cs.cornell.edu/" rel="nofollow">NYU Car Dataset</a></li>
+</ul>
+<h6><a href="#fine-grained-visual-recognition" aria-hidden="true" class="anchor" id="user-content-fine-grained-visual-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fine-grained Visual Recognition</h6>
+<ul>
+<li><a href="https://sites.google.com/site/fgcomp2013/" rel="nofollow">Fine-grained Classification Challenge</a></li>
+<li><a href="http://www.vision.caltech.edu/visipedia/CUB-200.html" rel="nofollow">Caltech-UCSD Birds 200</a></li>
+</ul>
+<h6><a href="#pedestrian-detection" aria-hidden="true" class="anchor" id="user-content-pedestrian-detection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pedestrian Detection</h6>
+<ul>
+<li><a href="http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/" rel="nofollow">Caltech Pedestrian Detection Benchmark</a></li>
+<li><a href="https://data.vision.ee.ethz.ch/cvl/aess/dataset/" rel="nofollow">ETHZ Pedestrian Detection</a></li>
+</ul>
+<h4><a href="#action-recognition" aria-hidden="true" class="anchor" id="user-content-action-recognition"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Action Recognition</h4>
+<h6><a href="#image-based" aria-hidden="true" class="anchor" id="user-content-image-based"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image-based</h6>
+<h6><a href="#video-based" aria-hidden="true" class="anchor" id="user-content-video-based"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video-based</h6>
+<ul>
+<li><a href="http://www.di.ens.fr/%7Elaptev/actions/hollywood2/" rel="nofollow">HOLLYWOOD2 Dataset</a></li>
+<li><a href="http://crcv.ucf.edu/data/UCF_Sports_Action.php" rel="nofollow">UCF Sports Action Data Set</a></li>
+</ul>
+<h6><a href="#image-deblurring-1" aria-hidden="true" class="anchor" id="user-content-image-deblurring-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Deblurring</h6>
+<ul>
+<li><a href="http://cs.brown.edu/%7Elbsun/deblur2013/deblur2013iccp.html" rel="nofollow">Sun dataset</a></li>
+<li><a href="http://www.wisdom.weizmann.ac.il/%7Elevina/papers/LevinEtalCVPR09Data.rar" rel="nofollow">Levin dataset</a></li>
+</ul>
+<h4><a href="#image-captioning-1" aria-hidden="true" class="anchor" id="user-content-image-captioning-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Image Captioning</h4>
+<ul>
+<li><a href="http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html" rel="nofollow">Flickr 8K</a></li>
+<li><a href="http://shannon.cs.illinois.edu/DenotationGraph/" rel="nofollow">Flickr 30K</a></li>
+<li><a href="http://mscoco.org/" rel="nofollow">Microsoft COCO</a></li>
+</ul>
+<h4><a href="#scene-understanding" aria-hidden="true" class="anchor" id="user-content-scene-understanding"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scene Understanding</h4>
+<h1><a href="#sun-rgb-d---a-rgb-d-scene-understanding-benchmark-suite" aria-hidden="true" class="anchor" id="user-content-sun-rgb-d---a-rgb-d-scene-understanding-benchmark-suite"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://rgbd.cs.princeton.edu/" rel="nofollow">SUN RGB-D</a> - A RGB-D Scene Understanding Benchmark Suite</h1>
+<h1><a href="#nyu-depth-v2---indoor-segmentation-and-support-inference-from-rgbd-images" aria-hidden="true" class="anchor" id="user-content-nyu-depth-v2---indoor-segmentation-and-support-inference-from-rgbd-images"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://cs.nyu.edu/%7Esilberman/datasets/nyu_depth_v2.html" rel="nofollow">NYU depth v2</a> - Indoor Segmentation and Support Inference from RGBD Images</h1>
+<h4><a href="#aerial-images" aria-hidden="true" class="anchor" id="user-content-aerial-images"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aerial images</h4>
+<h1><a href="#aerial-image-segmentation---learning-aerial-image-segmentation-from-online-maps" aria-hidden="true" class="anchor" id="user-content-aerial-image-segmentation---learning-aerial-image-segmentation-from-online-maps"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://zenodo.org/record/1154821#.WmN9kHWnHIp" rel="nofollow">Aerial Image Segmentation</a> - Learning Aerial Image Segmentation From Online Maps</h1>
+<h2><a href="#resources-for-students" aria-hidden="true" class="anchor" id="user-content-resources-for-students"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources for students</h2>
+<h4><a href="#resource-link-collection" aria-hidden="true" class="anchor" id="user-content-resource-link-collection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resource link collection</h4>
+<ul>
+<li><a href="http://people.csail.mit.edu/fredo/student.html" rel="nofollow">Resources for students</a> - Frédo Durand (MIT)</li>
+<li><a href="http://www.dgp.toronto.edu/%7Ehertzman/advice/" rel="nofollow">Advice for Graduate Students</a> - Aaron Hertzmann (Adobe Research)</li>
+<li><a href="http://www.dgp.toronto.edu/%7Ehertzman/courses/gradSkills/2010/" rel="nofollow">Graduate Skills Seminars</a> - Yashar Ganjali, Aaron Hertzmann (University of Toronto)</li>
+<li><a href="http://research.microsoft.com/en-us/um/people/simonpj/papers/giving-a-talk/giving-a-talk.htm" rel="nofollow">Research Skills</a> - Simon Peyton Jones (Microsoft Research)</li>
+<li><a href="http://web.engr.illinois.edu/%7Etaoxie/advice.htm" rel="nofollow">Resource collection</a> - Tao Xie (UIUC) and Yuan Xie (UCSB)</li>
+</ul>
+<h4><a href="#writing" aria-hidden="true" class="anchor" id="user-content-writing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Writing</h4>
+<ul>
+<li><a href="http://people.csail.mit.edu/fredo/FredoGoodWriting.pdf" rel="nofollow">Write Good Papers</a> - Frédo Durand (MIT)</li>
+<li><a href="http://people.csail.mit.edu/fredo/PUBLI/writing.pdf" rel="nofollow">Notes on writing</a> - Frédo Durand (MIT)</li>
+<li><a href="http://people.csail.mit.edu/fredo/FredoBadWriting.pdf" rel="nofollow">How to Write a Bad Article</a> - Frédo Durand (MIT)</li>
+<li><a href="http://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf" rel="nofollow">How to write a good CVPR submission</a> - William T. Freeman (MIT)</li>
+<li><a href="https://www.youtube.com/watch?v=g3dkRsTqdDA" rel="nofollow">How to write a great research paper</a> - Simon Peyton Jones (Microsoft Research)</li>
+<li><a href="http://www.slideshare.net/jdily/how-to-write-a-siggraph-paper" rel="nofollow">How to write a SIGGRAPH paper</a> - SIGGRAPH ASIA 2011 Course</li>
+<li><a href="http://www.dgp.toronto.edu/%7Ehertzman/advice/writing-technical-papers.pdf" rel="nofollow">Writing Research Papers</a> - Aaron Hertzmann (Adobe Research)</li>
+<li><a href="http://www.computer.org/csdl/mags/cg/1987/12/mcg1987120062.pdf" rel="nofollow">How to Write a Paper for SIGGRAPH</a> - Jim Blinn</li>
+<li><a href="http://www.siggraph.org/sites/default/files/kajiya.pdf" rel="nofollow">How to Get Your SIGGRAPH Paper Rejected</a> - Jim Kajiya (Microsoft Research)</li>
+<li><a href="/jbhuang0604/awesome-computer-vision/blob/master/www.liyiwei.org/courses/how-siga11/liyiwei.pptx">How to write a SIGGRAPH paper</a> - Li-Yi Wei (The University of Hong Kong)</li>
+<li><a href="http://www-hagen.informatik.uni-kl.de/%7Ebertram/talks/getpublished.pdf" rel="nofollow">How to Write a Great Paper</a> - Martin Martin Hering Hering--Bertram (Hochschule Bremen University of Applied Sciences)</li>
+<li><a href="http://www-ui.is.s.u-tokyo.ac.jp/%7Etakeo/writings/siggraph.html" rel="nofollow">How to have a paper get into SIGGRAPH?</a> - Takeo Igarashi (The University of Tokyo)</li>
+<li><a href="http://www.cs.cmu.edu/%7Epausch/Randy/Randy/raibert.htm" rel="nofollow">Good Writing</a> - Marc H. Raibert (Boston Dynamics, Inc.)</li>
+<li><a href="http://web.engr.illinois.edu/%7Edhoiem/presentations/How%20to%20Write%20a%20Computer%20Vison%20Paper.ppt" rel="nofollow">How to Write a Computer Vision Paper</a> - Derek Hoiem (UIUC)</li>
+<li><a href="http://www.cs.dartmouth.edu/%7Ewjarosz/writing.html" rel="nofollow">Common mistakes in technical writing</a> - Wojciech Jarosz (Dartmouth College)</li>
+</ul>
+<h4><a href="#presentation" aria-hidden="true" class="anchor" id="user-content-presentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Presentation</h4>
+<ul>
+<li><a href="http://people.csail.mit.edu/fredo/TalkAdvice.pdf" rel="nofollow">Giving a Research Talk</a> - Frédo Durand (MIT)</li>
+<li><a href="http://www.dgp.toronto.edu/%7Ehertzman/courses/gradSkills/2010/GivingGoodTalks.pdf" rel="nofollow">How to give a good talk</a> - David Fleet (University of Toronto) and Aaron Hertzmann (Adobe Research)</li>
+<li><a href="http://colinpurrington.com/tips/poster-design" rel="nofollow">Designing conference posters</a> - Colin Purrington</li>
+</ul>
+<h4><a href="#research" aria-hidden="true" class="anchor" id="user-content-research"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Research</h4>
+<ul>
+<li><a href="http://people.csail.mit.edu/billf/www/papers/doresearch.pdf" rel="nofollow">How to do research</a> - William T. Freeman (MIT)</li>
+<li><a href="http://www.cs.virginia.edu/%7Erobins/YouAndYourResearch.html" rel="nofollow">You and Your Research</a> - Richard Hamming</li>
+<li><a href="http://yima.csl.illinois.edu/psfile/bogus.pdf" rel="nofollow">Warning Signs of Bogus Progress in Research in an Age of Rich Computation and Information</a> - Yi Ma (UIUC)</li>
+<li><a href="http://www.quackwatch.com/01QuackeryRelatedTopics/signs.html" rel="nofollow">Seven Warning Signs of Bogus Science</a> - Robert L. Park</li>
+<li><a href="https://www.youtube.com/watch?v=v2Qaf8t8I6c" rel="nofollow">Five Principles for Choosing Research Problems in Computer Graphics</a> - Thomas Funkhouser (Cornell University)</li>
+<li><a href="http://www.cs.indiana.edu/mit.research.how.to.html" rel="nofollow">How To Do Research In the MIT AI Lab</a> - David Chapman (MIT)</li>
+<li><a href="http://www.slideshare.net/antiw/recent-advances-in-computer-vision" rel="nofollow">Recent Advances in Computer Vision</a> - Ming-Hsuan Yang (UC Merced)</li>
+<li><a href="http://www.slideshare.net/jbhuang/how-to-come-up-with-new-research-ideas-4005840" rel="nofollow">How to Come Up with Research Ideas in Computer Vision?</a> - Jia-Bin Huang (UIUC)</li>
+<li><a href="http://www.slideshare.net/jbhuang/how-to-read-academic-papers" rel="nofollow">How to Read Academic Papers</a> - Jia-Bin Huang (UIUC)</li>
+</ul>
+<h4><a href="#time-management" aria-hidden="true" class="anchor" id="user-content-time-management"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Time Management</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=oTugjssqOT0" rel="nofollow">Time Management</a> - Randy Pausch (CMU)</li>
+</ul>
+<h2><a href="#blogs" aria-hidden="true" class="anchor" id="user-content-blogs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blogs</h2>
+<ul>
+<li><a href="http://www.learnopencv.com/" rel="nofollow">Learn OpenCV</a> - Satya Mallick</li>
+<li><a href="http://www.computervisionblog.com/" rel="nofollow">Tombone's Computer Vision Blog</a> - Tomasz Malisiewicz</li>
+<li><a href="http://www.visiondummy.com/" rel="nofollow">Computer vision for dummies</a> - Vincent Spruyt</li>
+<li><a href="http://karpathy.github.io/" rel="nofollow">Andrej Karpathy blog</a> - Andrej Karpathy</li>
+<li><a href="http://aishack.in/" rel="nofollow">AI Shack</a> - Utkarsh Sinha</li>
+<li><a href="http://computer-vision-talks.com/" rel="nofollow">Computer Vision Talks</a> - Eugene Khvedchenya</li>
+<li><a href="https://github.com/jrobchin/Computer-Vision-Basics-with-Python-Keras-and-OpenCV">Computer Vision Basics with Python Keras and OpenCV</a> - Jason Chin (University of Western Ontario)</li>
+</ul>
+<h2><a href="#links" aria-hidden="true" class="anchor" id="user-content-links"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Links</h2>
+<ul>
+<li><a href="http://www.cs.ubc.ca/%7Elowe/vision.html" rel="nofollow">The Computer Vision Industry</a> - David Lowe</li>
+<li><a href="http://hci.iwr.uni-heidelberg.de/Links/German_Vision/" rel="nofollow">German Computer Vision Research Groups &amp; Companies</a></li>
+<li><a href="https://github.com/ChristosChristofidis/awesome-deep-learning">awesome-deep-learning</a></li>
+<li><a href="https://github.com/josephmisiti/awesome-machine-learning">awesome-machine-learning</a></li>
+<li><a href="http://www.eecs.berkeley.edu/%7Ejunyanz/cat/cat_papers.html" rel="nofollow">Cat Paper Collection</a></li>
+<li><a href="http://www.rsipvision.com/computer-vision-news/" rel="nofollow">Computer Vision News</a></li>
+<li></li>
+</ul>
+<h2><a href="#songs" aria-hidden="true" class="anchor" id="user-content-songs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Songs</h2>
+<ul>
+<li><a href="http://danielwedge.com/fmatrix/" rel="nofollow">The Fundamental Matrix Song</a></li>
+<li><a href="http://danielwedge.com/ransac/" rel="nofollow">The RANSAC Song</a></li>
+<li><a href="https://www.youtube.com/watch?v=DQWI1kvmwRg" rel="nofollow">Machine Learning A Cappella - Overfitting Thriller</a></li>
+</ul>
+<h2><a href="#licenses" aria-hidden="true" class="anchor" id="user-content-licenses"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Licenses</h2>
+<p>License</p>
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/c5160f944848828fa33126d9a697e9abe43ea98f/687474703a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="/jbhuang0604/awesome-computer-vision/blob/master/www.jiabinhuang.com">Jia-Bin Huang</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.23135s from unicorn-3835523148-dk8hh">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,1452 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - qazbnm456/awesome-web-security: 🐶 A curated list of Web Security materials and resources.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/6451933?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="qazbnm456/awesome-web-security" /><meta property="og:url" content="https://github.com/qazbnm456/awesome-web-security" /><meta property="og:description" content="awesome-web-security - 🐶 A curated list of Web Security materials and resources." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E279:5D4D:1883155:2F4AB1F:5AD2F761" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E279:5D4D:1883155:2F4AB1F:5AD2F761" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZDdkZmI1MTU5NWVjNjEwZjI4OTVjYjU1ZTIxMDk5MDNjZjNiNjI0NDM3ZTQ1NTc5Mzc0Nzc0MTRlODczNzMzZnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTI3OTo1RDREOjE4ODMxNTU6MkY0QUIxRjo1QUQyRjc2MSIsInRpbWVzdGFtcCI6MTUyMzc3NTMyOSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="8a6e019b0957d4a007b8a7ca77fa616a4712e16c">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/qazbnm456/awesome-web-security/commits/master.atom" rel="alternate" title="Recent Commits to awesome-web-security:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-web-security - 🐶 A curated list of Web Security materials and resources.">
+  <meta name="go-import" content="github.com/qazbnm456/awesome-web-security git https://github.com/qazbnm456/awesome-web-security.git">
+
+  <meta name="octolytics-dimension-user_id" content="6451933" /><meta name="octolytics-dimension-user_login" content="qazbnm456" /><meta name="octolytics-dimension-repository_id" content="80358070" /><meta name="octolytics-dimension-repository_nwo" content="qazbnm456/awesome-web-security" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="80358070" /><meta name="octolytics-dimension-repository_network_root_nwo" content="qazbnm456/awesome-web-security" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/qazbnm456/awesome-web-security" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/qazbnm456/awesome-web-security/search" data-unscoped-search-url="/search" action="/qazbnm456/awesome-web-security/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/qazbnm456/awesome-web-security">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fqazbnm456%2Fawesome-web-security" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fqazbnm456%2Fawesome-web-security"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/qazbnm456/awesome-web-security/watchers"
+     aria-label="119 users are watching this repository">
+    119
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fqazbnm456%2Fawesome-web-security"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/qazbnm456/awesome-web-security/stargazers"
+      aria-label="1170 users starred this repository">
+      1,170
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fqazbnm456%2Fawesome-web-security"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/qazbnm456/awesome-web-security/network" class="social-count"
+       aria-label="269 users forked this repository">
+      269
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/qazbnm456">qazbnm456</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/qazbnm456/awesome-web-security">awesome-web-security</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /qazbnm456/awesome-web-security" href="/qazbnm456/awesome-web-security">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /qazbnm456/awesome-web-security/issues" href="/qazbnm456/awesome-web-security/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /qazbnm456/awesome-web-security/pulls" href="/qazbnm456/awesome-web-security/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /qazbnm456/awesome-web-security/projects" href="/qazbnm456/awesome-web-security/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /qazbnm456/awesome-web-security/pulse" href="/qazbnm456/awesome-web-security/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZrijsUbN05yMmHtc9DzQqrsVLCZnfPMfXapollXQB3Isp8uhMdY6uAhx7LxJb7QPE4PWHSMAtuJhStpf1PpVrg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<g-emoji class="g-emoji" alias="dog" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f436.png">🐶</g-emoji> A curated list of Web Security materials and resources.
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="https://awesomelists.top/#/repos/qazbnm456/awesome-web-security">https://awesomelists.top/#/repos/qazb…</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/qazbnm456/awesome-web-security/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/web" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:web">
+        web
+      </a>
+      <a href="/topics/security" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:security">
+        security
+      </a>
+      <a href="/topics/websecurity" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:websecurity">
+        websecurity
+      </a>
+      <a href="/topics/penetration-testing" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:penetration-testing">
+        penetration-testing
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/qazbnm456/awesome-web-security/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                194
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/qazbnm456/awesome-web-security/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/qazbnm456/awesome-web-security/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <include-fragment src="/qazbnm456/awesome-web-security/contributors_size">
+              <a href="/qazbnm456/awesome-web-security/graphs/contributors">
+                <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+                <span class="num text-emphasized"></span>
+                Fetching contributors
+              </a>
+</include-fragment>        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/qazbnm456/awesome-web-security.git" aria-label="Clone this repository at https://github.com/qazbnm456/awesome-web-security.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/qazbnm456/awesome-web-security.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/qazbnm456/awesome-web-security/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/qazbnm456/awesome-web-security/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/qazbnm456/awesome-web-security/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/qazbnm456/awesome-web-security/tree-commit/65cf2424d49972552310bc60307dc9b22bf4e173" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/qazbnm456/awesome-web-security/tree/65cf2424d49972552310bc60307dc9b22bf4e173">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".vscode" id="7fde71560fa9376d2d93a25b42d719f5-c14a209defa3ae3c32d0ca12bf2801846149250b" href="/qazbnm456/awesome-web-security/tree/master/.vscode">.vscode</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="lint" class="message" href="/qazbnm456/awesome-web-security/commit/32760dbc224f818f111aad11cc2ed80391346c3b">lint</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-23T02:01:18Z">Feb 23, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-63123fbe81571b48b7d65602f9828524f9d84b5f" href="/qazbnm456/awesome-web-security/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md" class="message" href="/qazbnm456/awesome-web-security/commit/b248115a582cba87d251cc91220bc5b2100b2b86">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-01-31T09:20:24Z">Jan 31, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-9e278d373bc33de866ebcf2ceadfb940b4c92418" href="/qazbnm456/awesome-web-security/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fixed broken link" class="message" href="/qazbnm456/awesome-web-security/commit/c8d13ed155d2f99ff5e6618540b1e6def3abe585">Fixed broken link</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-24T20:02:00Z">Feb 24, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README-jp.md" id="9e2c73c3f4f908514caa23489087c8e8-05e53699f68fc187ceed6af81ca73366739f8514" href="/qazbnm456/awesome-web-security/blob/master/README-jp.md">README-jp.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add an article" class="message" href="/qazbnm456/awesome-web-security/commit/65cf2424d49972552310bc60307dc9b22bf4e173">add an article</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-29T13:15:15Z">Mar 29, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README-zh.md" id="71d64167d5e129df68d2b6f50daafb8e-5f47ab3513291e0c9b064c37135b980fc3662816" href="/qazbnm456/awesome-web-security/blob/master/README-zh.md">README-zh.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add an article" class="message" href="/qazbnm456/awesome-web-security/commit/65cf2424d49972552310bc60307dc9b22bf4e173">add an article</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-29T13:15:15Z">Mar 29, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-379b5314983701d3bd320bf39e320432893fa346" href="/qazbnm456/awesome-web-security/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add an article" class="message" href="/qazbnm456/awesome-web-security/commit/65cf2424d49972552310bc60307dc9b22bf4e173">add an article</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-29T13:15:15Z">Mar 29, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="code-of-conduct.md" id="d3030a18b089fdb1fbfabf6e75e4aef0-9fc4d6749b9512f695fa3b84a2c618f3ed87cdf2" href="/qazbnm456/awesome-web-security/blob/master/code-of-conduct.md">code-of-conduct.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add code-of-conduct.md &amp; README.md and revise CONTRIBUTING.md" class="message" href="/qazbnm456/awesome-web-security/commit/e94f27bafbbcf7c765a578601b02fe95daa98beb">add code-of-conduct.md &amp; README.md and revise CONTRIBUTING.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-06-30T15:24:17Z">Jun 30, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-web-security-" class="anchor" aria-hidden="true" href="#awesome-web-security-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Web Security <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p><a href="https://www.w3.org/TR/html5/" rel="nofollow"><img src="https://camo.githubusercontent.com/e8ad02092d93a4817a61f1d25468fad28d4ccf80/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f362f36312f48544d4c355f6c6f676f5f616e645f776f72646d61726b2e737667" align="right" width="70" data-canonical-src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" style="max-width:100%;"></a></p>
+<blockquote>
+<p><g-emoji class="g-emoji" alias="dog" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f436.png">🐶</g-emoji> Curated list of Web Security materials and resources.</p>
+</blockquote>
+<p>Needless to say, most websites suffer from various types of bugs which may eventually lead to vulnerabilities. Why would this happen so often? There can be many factors involved including misconfiguration, shortage of engineers' security skills, etc. To combat this, here is a curated list of Web Security materials and resources for learning cutting edge penetrating techniques.</p>
+<p><em>Please read the <a href="/qazbnm456/awesome-web-security/blob/master/CONTRIBUTING.md">contribution guidelines</a> before contributing.</em></p>
+<hr>
+<p align="center"><b><g-emoji class="g-emoji" alias="rainbow" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f308.png">🌈</g-emoji> Want to strengthen your penetration skills?</b><br>I would recommend playing some <a href="https://github.com/apsdehal/awesome-ctf">awesome-ctf</a>s.</p>
+<hr>
+<p>If you enjoy this awesome list and would like to support it, check out my <a href="https://www.patreon.com/boik" rel="nofollow">Patreon</a> page :)<br>Also, don't forget to check out my <a href="https://github.com/qazbnm456">repos</a> <g-emoji class="g-emoji" alias="feet" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f43e.png">🐾</g-emoji> or say <em>hi</em> on my <a href="https://twitter.com/qazbnm456" rel="nofollow">Twitter</a>!</p>
+<h2><a id="user-content-contents" class="anchor" aria-hidden="true" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#forums">Forums</a></li>
+<li><a href="#resources">Resources</a>
+<ul>
+<li><a href="#tips">Tips</a></li>
+<li><a href="#xss---cross-site-scripting">XSS</a></li>
+<li><a href="#csv-injection">CSV Injection</a></li>
+<li><a href="#sql-injection">SQL Injection</a></li>
+<li><a href="#command-injection">Command Injection</a></li>
+<li><a href="#orm-injection">ORM Injection</a></li>
+<li><a href="#ftp-injection">FTP Injection</a></li>
+<li><a href="#xxe---xml-external-entity">XXE</a></li>
+<li><a href="#csrf---cross-site-request-forgery">CSRF</a></li>
+<li><a href="#ssrf---server-side-request-forgery">SSRF</a></li>
+<li><a href="#rails">Rails</a></li>
+<li><a href="#angularjs">AngularJS</a></li>
+<li><a href="#ssltls">SSL/TLS</a></li>
+<li><a href="#webmail">Webmail</a></li>
+<li><a href="#nfs">NFS</a></li>
+<li><a href="#aws">AWS</a></li>
+<li><a href="#fingerprint">Fingerprint</a></li>
+<li><a href="#sub-domain-enumeration">Sub Domain Enumeration</a></li>
+<li><a href="#crypto">Crypto</a></li>
+<li><a href="#web-shell">Web Shell</a></li>
+<li><a href="#osint">OSINT</a></li>
+<li><a href="#books">Books</a></li>
+</ul>
+</li>
+<li><a href="#evasions">Evasions</a>
+<ul>
+<li><a href="#evasions-csp">CSP</a></li>
+<li><a href="#evasions-waf">WAF</a></li>
+<li><a href="#evasions-jsmvc">JSMVC</a></li>
+<li><a href="#evasions-authentication">Authentication</a></li>
+</ul>
+</li>
+<li><a href="#tricks">Tricks</a>
+<ul>
+<li><a href="#tricks-csrf">CSRF</a></li>
+<li><a href="#tricks-rce">Remote Code Execution</a></li>
+<li><a href="#tricks-xss">XSS</a></li>
+<li><a href="#tricks-sql-injection">SQL Injection</a></li>
+<li><a href="#tricks-nosql-injection">NoSQL Injection</a></li>
+<li><a href="#tricks-ftp-injection">FTP Injection</a></li>
+<li><a href="#tricks-xxe">XXE</a></li>
+<li><a href="#tricks-ssrf">SSRF</a></li>
+<li><a href="#tricks-header-injection">Header Injection</a></li>
+<li><a href="#tricks-url">URL</a></li>
+<li><a href="#tricks-others">Others</a></li>
+</ul>
+</li>
+<li><a href="#browser-exploitation">Browser Exploitation</a></li>
+<li><a href="#pocs">PoCs</a>
+<ul>
+<li><a href="#pocs-javascript">JavaScript</a></li>
+</ul>
+</li>
+<li><a href="#tools">Tools</a>
+<ul>
+<li><a href="#tools-auditing">Auditing</a></li>
+<li><a href="#tools-reconnaissance">Reconnaissance</a>
+<ul>
+<li><a href="#tools-osint">OSINT</a></li>
+<li><a href="#tools-sub-domain-enumeration">Sub Domain Enumeration</a></li>
+</ul>
+</li>
+<li><a href="#tools-code-generating">Code Generating</a></li>
+<li><a href="#tools-fuzzing">Fuzzing</a></li>
+<li><a href="#tools-penetrating">Penetrating</a></li>
+<li><a href="#tools-leaking">Leaking</a></li>
+<li><a href="#tools-offensive">Offensive</a>
+<ul>
+<li><a href="#tools-xss">XSS</a></li>
+<li><a href="#tools-sql-injection">SQL Injection</a></li>
+<li><a href="#tools-template-injection">Template Injection</a></li>
+</ul>
+</li>
+<li><a href="#tools-detecting">Detecting</a></li>
+<li><a href="#tools-preventing">Preventing</a></li>
+<li><a href="#tools-proxy">Proxy</a></li>
+<li><a href="#tools-webshell">Webshell</a></li>
+<li><a href="#tools-disassembler">Disassembler</a></li>
+<li><a href="#tools-decompiler">Decompiler</a></li>
+<li><a href="#tools-others">Others</a></li>
+</ul>
+</li>
+<li><a href="#social-engineering-database">Social Engineering Database</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#twitter-users">Twitter Users</a></li>
+<li><a href="#practices">Practices</a>
+<ul>
+<li><a href="#practices-application">Application</a></li>
+<li><a href="#practices-aws">AWS</a></li>
+<li><a href="#practices-xss">XSS</a></li>
+<li><a href="#practices-modsecurity">ModSecurity / OWASP ModSecurity Core Rule Set</a></li>
+</ul>
+</li>
+<li><a href="#community">Community</a></li>
+<li><a href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+<h2><a id="user-content-forums" class="anchor" aria-hidden="true" href="#forums"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Forums</h2>
+<ul>
+<li><a href="http://www.phrack.org/" rel="nofollow">Phrack Magazine</a> - Ezine written by and for hackers.</li>
+<li><a href="https://thehackernews.com/" rel="nofollow">The Hacker News</a> - Security in a serious way.</li>
+<li><a href="https://securityweekly.com/" rel="nofollow">Security Weekly</a> - The security podcast network.</li>
+<li><a href="http://www.theregister.co.uk/" rel="nofollow">The Register</a> - Biting the hand that feeds IT.</li>
+<li><a href="https://www.darkreading.com/Default.asp" rel="nofollow">Dark Reading</a> - Connecting The Information Security Community.</li>
+<li><a href="http://en.hackdig.com/" rel="nofollow">HackDig</a> - Dig high-quality web security articles for hacker.</li>
+</ul>
+<h2><a id="user-content-resources" class="anchor" aria-hidden="true" href="#resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h2>
+<p><a name="user-content-tips"></a></p>
+<h3><a id="user-content-tips" class="anchor" aria-hidden="true" href="#tips"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h3>
+<ul>
+<li><a href="https://www.hacker101.com/" rel="nofollow">Hacker101</a> - Written by <a href="https://www.hackerone.com/start-hacking" rel="nofollow">hackerone</a>.</li>
+<li><a href="https://portswigger.net/daily-swig" rel="nofollow">The Daily Swig - Web security digest</a> - Written by <a href="https://portswigger.net/" rel="nofollow">PortSwigger</a>.</li>
+<li><a href="https://www.netsparker.com/blog/web-security/" rel="nofollow">Web Application Security Zone by Netsparker</a> - Written by <a href="https://www.netsparker.com/" rel="nofollow">Netsparker</a>.</li>
+<li><a href="https://www.sneakymonkey.net/2017/04/23/infosec-newbie/" rel="nofollow">Infosec Newbie</a> - Written by <a href="https://www.sneakymonkey.net/" rel="nofollow">Mark Robinson</a>.</li>
+<li><a href="https://bitvijays.github.io/" rel="nofollow">The Magic of Learning</a> - Written by <a href="https://bitvijays.github.io/aboutme.html" rel="nofollow">@bitvijays</a>.</li>
+<li><a href="https://trailofbits.github.io/ctf/" rel="nofollow">CTF Field Guide</a> - Written by <a href="https://www.trailofbits.com/" rel="nofollow">Trail of Bits</a>.</li>
+</ul>
+<p><a name="user-content-xss"></a></p>
+<h3><a id="user-content-xss---cross-site-scripting" class="anchor" aria-hidden="true" href="#xss---cross-site-scripting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XSS - Cross-Site Scripting</h3>
+<ul>
+<li><a href="https://www.google.com/intl/sw/about/appsecurity/learning/xss/" rel="nofollow">Cross-Site Scripting – Application Security – Google</a> - Introduction to XSS by <a href="https://www.google.com/" rel="nofollow">Google</a>.</li>
+<li><a href="https://github.com/cure53/H5SC">H5SC</a> - HTML5 Security Cheatsheet - Collection of HTML5 related XSS attack vectors by <a href="https://github.com/cure53">@cure53</a>.</li>
+<li><a href="https://github.com/jackmasa/XSS.png">XSS.png</a> - XSS mind map by <a href="https://github.com/jackmasa">@jackmasa</a>.</li>
+<li><a href="https://excess-xss.com/" rel="nofollow">C.XSS Guide</a> - Comprehensive tutorial on cross-site scripting by <a href="https://github.com/JakobKallin">@JakobKallin</a> and <a href="https://www.linkedin.com/in/irenelobovalbuena/" rel="nofollow">Irene Lobo Valbuena</a>.</li>
+</ul>
+<p><a name="user-content-csv-injection"></a></p>
+<h3><a id="user-content-csv-injection" class="anchor" aria-hidden="true" href="#csv-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSV Injection</h3>
+<ul>
+<li><a href="https://news.webamooz.com/wp-content/uploads/bot/offsecmag/147.pdf" rel="nofollow">CSV Injection -&gt; Meterpreter on Pornhub</a> - Written by <a href="https://blog.zsec.uk/" rel="nofollow">Andy</a>.</li>
+<li><a href="http://georgemauer.net/2017/10/07/csv-injection.html" rel="nofollow">The Absurdly Underestimated Dangers of CSV Injection</a> - Written by <a href="http://georgemauer.net/" rel="nofollow">George Mauer</a>.</li>
+</ul>
+<p><a name="user-content-sql-injection"></a></p>
+<h3><a id="user-content-sql-injection" class="anchor" aria-hidden="true" href="#sql-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQL Injection</h3>
+<ul>
+<li><a href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/" rel="nofollow">SQL Injection Cheat Sheet</a> - Written by <a href="https://twitter.com/netsparker" rel="nofollow">@netsparker</a>.</li>
+<li><a href="https://sqlwiki.netspi.com/" rel="nofollow">SQL Injection Wiki</a> - Written by <a href="https://www.netspi.com/" rel="nofollow">NETSPI</a>.</li>
+<li><a href="https://websec.ca/kb/sql_injection" rel="nofollow">SQL Injection Pocket Reference</a> - Written by <a href="https://twitter.com/LightOS" rel="nofollow">@LightOS</a>.</li>
+</ul>
+<p><a name="user-content-command-injection"></a></p>
+<h3><a id="user-content-command-injection" class="anchor" aria-hidden="true" href="#command-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Command Injection</h3>
+<ul>
+<li><a href="https://github.com/ruby/ruby/pull/1777">Potential command injection in resolv.rb</a> - Written by <a href="https://github.com/drigg3r">@drigg3r</a>.</li>
+</ul>
+<p><a name="user-content-orm-injection"></a></p>
+<h3><a id="user-content-orm-injection" class="anchor" aria-hidden="true" href="#orm-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ORM Injection</h3>
+<ul>
+<li><a href="http://blog.h3xstream.com/2014/02/hql-for-pentesters.html" rel="nofollow">HQL for pentesters</a> - Written by <a href="https://twitter.com/h3xstream/" rel="nofollow">@h3xstream</a>.</li>
+<li><a href="https://www.synacktiv.com/ressources/hql2sql_sstic_2015_en.pdf" rel="nofollow">HQL : Hyperinsane Query Language (or how to access the whole SQL API within a HQL injection ?)</a> - Written by <a href="https://twitter.com/_m0bius" rel="nofollow">@_m0bius</a>.</li>
+<li><a href="https://www.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm" rel="nofollow">ORM2Pwn: Exploiting injections in Hibernate ORM</a> - Written by <a href="https://0ang3el.blogspot.tw/" rel="nofollow">Mikhail Egorov</a>.</li>
+<li><a href="https://www.slideshare.net/simone.onofri/orm-injection" rel="nofollow">ORM Injection</a> - Written by <a href="https://onofri.org/" rel="nofollow">Simone Onofri</a>.</li>
+</ul>
+<p><a name="user-content-ftp-injection"></a></p>
+<h3><a id="user-content-ftp-injection" class="anchor" aria-hidden="true" href="#ftp-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FTP Injection</h3>
+<ul>
+<li><a href="http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html" rel="nofollow">Advisory: Java/Python FTP Injections Allow for Firewall Bypass</a> - Written by <a href="https://plus.google.com/105917618099766831589" rel="nofollow">Timothy Morgan</a>.</li>
+<li><a href="https://shiftordie.de/blog/2017/02/18/smtp-over-xxe/" rel="nofollow">SMTP over XXE − how to send emails using Java's XML parser</a> - Written by <a href="https://shiftordie.de/" rel="nofollow">Alexander Klink</a>.</li>
+</ul>
+<p><a name="user-content-xxe"></a></p>
+<h3><a id="user-content-xxe---xml-external-entity" class="anchor" aria-hidden="true" href="#xxe---xml-external-entity"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XXE - XML eXternal Entity</h3>
+<ul>
+<li><a href="https://phonexicum.github.io/infosec/xxe.html" rel="nofollow">XXE</a> - Written by <a href="https://twitter.com/phonexicum" rel="nofollow">@phonexicum</a>.</li>
+</ul>
+<p><a name="user-content-csrf"></a></p>
+<h3><a id="user-content-csrf---cross-site-request-forgery" class="anchor" aria-hidden="true" href="#csrf---cross-site-request-forgery"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSRF - Cross-Site Request Forgery</h3>
+<ul>
+<li><a href="https://medium.com/@jrozner/wiping-out-csrf-ded97ae7e83f" rel="nofollow">Wiping Out CSRF</a> - Written by <a href="https://medium.com/@jrozner" rel="nofollow">@jrozner</a>.</li>
+</ul>
+<p><a name="user-content-ssrf"></a></p>
+<h3><a id="user-content-ssrf---server-side-request-forgery" class="anchor" aria-hidden="true" href="#ssrf---server-side-request-forgery"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSRF - Server-Side Request Forgery</h3>
+<ul>
+<li><a href="https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit" rel="nofollow">SSRF bible. Cheatsheet</a> - Written by <a href="https://twitter.com/wallarm" rel="nofollow">@Wallarm</a>.</li>
+</ul>
+<p><a name="user-content-rails"></a></p>
+<h3><a id="user-content-rails" class="anchor" aria-hidden="true" href="#rails"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rails</h3>
+<ul>
+<li><a href="https://hackmd.io/s/SkuTVw5O-" rel="nofollow">Rails Security - First part</a> - Written by <a href="https://github.com/qazbnm456">@qazbnm456</a>.</li>
+</ul>
+<p><a name="user-content-angularjs"></a></p>
+<h3><a id="user-content-angularjs" class="anchor" aria-hidden="true" href="#angularjs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AngularJS</h3>
+<ul>
+<li><a href="http://blog.portswigger.net/2016/01/xss-without-html-client-side-template.html" rel="nofollow">XSS without HTML: Client-Side Template Injection with AngularJS</a> - Written by <a href="https://www.blogger.com/profile/10856178524811553475" rel="nofollow">Gareth Heyes</a>.</li>
+<li><a href="http://blog.portswigger.net/2017/05/dom-based-angularjs-sandbox-escapes.html" rel="nofollow">DOM based Angular sandbox escapes</a> - Written by <a href="https://twitter.com/garethheyes" rel="nofollow">@garethheyes</a></li>
+</ul>
+<p><a name="user-content-ssl-tls"></a></p>
+<h3><a id="user-content-ssltls" class="anchor" aria-hidden="true" href="#ssltls"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSL/TLS</h3>
+<ul>
+<li><a href="https://www.aptive.co.uk/blog/tls-ssl-security-testing/" rel="nofollow">SSL &amp; TLS Penetration Testing</a> - Written by <a href="https://www.aptive.co.uk/" rel="nofollow">APTIVE</a>.</li>
+</ul>
+<p><a name="user-content-webmail"></a></p>
+<h3><a id="user-content-webmail" class="anchor" aria-hidden="true" href="#webmail"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Webmail</h3>
+<p><a name="user-content-nfs"></a></p>
+<h3><a id="user-content-nfs" class="anchor" aria-hidden="true" href="#nfs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NFS</h3>
+<ul>
+<li><a href="https://pentestacademy.wordpress.com/2017/09/20/nfs/?t=1&amp;cn=ZmxleGlibGVfcmVjc18y&amp;refsrc=email&amp;iid=b34422ce15164e99a193fea0ccc7a02f&amp;uid=1959680352&amp;nid=244+289476616" rel="nofollow">NFS | PENETRATION TESTING ACADEMY</a> - Written by <a href="https://pentestacademy.wordpress.com/" rel="nofollow">PENETRATION ACADEMY</a>.</li>
+</ul>
+<p><a name="user-content-aws"></a></p>
+<h3><a id="user-content-aws" class="anchor" aria-hidden="true" href="#aws"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AWS</h3>
+<ul>
+<li><a href="https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/" rel="nofollow">PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET</a> - Written by Dwight Hohnstein from <a href="https://rhinosecuritylabs.com/" rel="nofollow">Rhino Security Labs</a>.</li>
+<li><a href="https://www.virtuesecurity.com/blog/aws-penetration-testing-s3-buckets/" rel="nofollow">AWS PENETRATION TESTING PART 1. S3 BUCKETS</a> - Written by <a href="https://twitter.com/VirtueSecurity" rel="nofollow">@VirtueSecurity</a>.</li>
+<li><a href="https://www.virtuesecurity.com/blog/aws-penetration-testing-part-2-s3-iam-ec2/" rel="nofollow">AWS PENETRATION TESTING PART 2. S3, IAM, EC2</a> - Written by <a href="https://twitter.com/VirtueSecurity" rel="nofollow">@VirtueSecurity</a>.</li>
+</ul>
+<p><a name="user-content-fingerprint"></a></p>
+<h3><a id="user-content-fingerprint" class="anchor" aria-hidden="true" href="#fingerprint"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fingerprint</h3>
+<p><a name="user-content-sub-domain-enumeration"></a></p>
+<h3><a id="user-content-sub-domain-enumeration" class="anchor" aria-hidden="true" href="#sub-domain-enumeration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sub Domain Enumeration</h3>
+<ul>
+<li><a href="https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6" rel="nofollow">A penetration tester’s guide to sub-domain enumeration</a> - Written by <a href="https://blog.appsecco.com/@yamakira_" rel="nofollow">Bharath</a>.</li>
+<li><a href="https://blog.sweepatic.com/art-of-subdomain-enumeration/" rel="nofollow">The Art of Subdomain Enumeration</a> - Written by <a href="https://blog.sweepatic.com/author/patrik/" rel="nofollow">Patrik Hudak</a>.</li>
+</ul>
+<p><a name="user-content-crypto"></a></p>
+<h3><a id="user-content-crypto" class="anchor" aria-hidden="true" href="#crypto"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crypto</h3>
+<ul>
+<li><a href="https://bettercrypto.org/static/applied-crypto-hardening.pdf" rel="nofollow">Applied Crypto Hardening</a> - Written by <a href="https://bettercrypto.org/" rel="nofollow">The bettercrypto.org Team</a>.</li>
+</ul>
+<p><a name="user-content-web-shell"></a></p>
+<h3><a id="user-content-web-shell" class="anchor" aria-hidden="true" href="#web-shell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Shell</h3>
+<ul>
+<li><a href="https://www.tenable.com/blog/hunting-for-web-shells" rel="nofollow">Hunting for Web Shells</a> - Written by <a href="https://www.tenable.com/profile/jacob-baines" rel="nofollow">Jacob Baines</a>.</li>
+<li><a href="https://blog.netspi.com/hacking-with-jsp-shells/" rel="nofollow">Hacking with JSP Shells</a> - Written by <a href="https://twitter.com/_nullbind" rel="nofollow">@_nullbind</a>.</li>
+</ul>
+<p><a name="user-content-osint"></a></p>
+<h3><a id="user-content-osint" class="anchor" aria-hidden="true" href="#osint"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OSINT</h3>
+<ul>
+<li><a href="https://medium.com/@s3yfullah/hacking-cryptocurrency-miners-with-osint-techniques-677bbb3e0157" rel="nofollow">Hacking Cryptocurrency Miners with OSINT Techniques</a> - Written by <a href="https://medium.com/@s3yfullah" rel="nofollow">@s3yfullah</a>.</li>
+<li><a href="https://www.slideshare.net/miaoski/osint-x-uccu-workshop-on-open-source-intelligence" rel="nofollow">OSINT x UCCU Workshop on Open Source Intelligence</a> - Written by <a href="https://www.slideshare.net/miaoski" rel="nofollow">Philippe Lin</a>.</li>
+<li><a href="https://www.youtube.com/watch?v=fzd3zkAI_o4" rel="nofollow">102 Deep Dive in the Dark Web OSINT Style Kirby Plessas</a> - Presented by <a href="https://twitter.com/kirbstr" rel="nofollow">@kirbstr</a>.</li>
+</ul>
+<h3><a id="user-content-books" class="anchor" aria-hidden="true" href="#books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h3>
+<ul>
+<li><a href="https://leanpub.com/xss" rel="nofollow">XSS Cheat Sheet - 2018 Edition</a> - Written by <a href="https://twitter.com/brutelogic" rel="nofollow">@brutelogic</a>.</li>
+</ul>
+<h2><a id="user-content-evasions" class="anchor" aria-hidden="true" href="#evasions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Evasions</h2>
+<p><a name="user-content-evasions-csp"></a></p>
+<h3><a id="user-content-csp" class="anchor" aria-hidden="true" href="#csp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSP</h3>
+<ul>
+<li><a href="https://labs.detectify.com/2016/04/04/csp-bypassing-form-action-with-reflected-xss/" rel="nofollow">CSP: bypassing form-action with reflected XSS</a> - Written by <a href="https://labs.detectify.com/" rel="nofollow">Detectify Labs</a>.</li>
+<li><a href="http://www.paulosyibelo.com/2017/05/twitter-xss-csp-bypass.html" rel="nofollow">TWITTER XSS + CSP BYPASS</a> - Written by <a href="http://www.paulosyibelo.com/" rel="nofollow">Paulos Yibelo</a>.</li>
+</ul>
+<p><a name="user-content-evasions-waf"></a></p>
+<h3><a id="user-content-waf" class="anchor" aria-hidden="true" href="#waf"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>WAF</h3>
+<ul>
+<li><a href="https://medium.com/secjuice/waf-evasion-techniques-718026d693d8" rel="nofollow">Web Application Firewall (WAF) Evasion Techniques</a> - Written by <a href="https://twitter.com/secjuice" rel="nofollow">@secjuice</a>.</li>
+<li><a href="https://medium.com/secjuice/web-application-firewall-waf-evasion-techniques-2-125995f3e7b0" rel="nofollow">Web Application Firewall (WAF) Evasion Techniques #2</a> - Written by <a href="https://twitter.com/secjuice" rel="nofollow">@secjuice</a>.</li>
+<li><a href="https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/" rel="nofollow">Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities</a> - Written by <a href="https://twitter.com/bbuerhaus" rel="nofollow">@Brett Buerhaus</a>.</li>
+<li><a href="https://medium.com/@d0znpp/how-to-bypass-libinjection-in-many-waf-ngwaf-1e2513453c0f" rel="nofollow">How to bypass libinjection in many WAF/NGWAF</a> - Written by <a href="https://medium.com/@d0znpp" rel="nofollow">@d0znpp</a>.</li>
+</ul>
+<p><a name="user-content-evasions-jsmvc"></a></p>
+<h3><a id="user-content-jsmvc" class="anchor" aria-hidden="true" href="#jsmvc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JSMVC</h3>
+<ul>
+<li><a href="http://www.slideshare.net/x00mario/jsmvcomfg-to-sternly-look-at-javascript-mvc-and-templating-frameworks" rel="nofollow">JavaScript MVC and Templating Frameworks</a> - Written by <a href="http://www.slideshare.net/x00mario" rel="nofollow">Mario Heiderich</a>.</li>
+</ul>
+<p><a name="user-content-evasions-authentication"></a></p>
+<h3><a id="user-content-authentication" class="anchor" aria-hidden="true" href="#authentication"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Authentication</h3>
+<ul>
+<li><a href="http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html" rel="nofollow">Trend Micro Threat Discovery Appliance - Session Generation Authentication Bypass (CVE-2016-8584)</a> - Written by <a href="https://twitter.com/malerisch" rel="nofollow">@malerisch</a> and <a href="https://twitter.com/steventseeley" rel="nofollow">@steventseeley</a>.</li>
+<li><a href="http://blog.mish.re/index.php/2017/04/29/yahoo-bug-bounty-chaining-3-minor-issues-to-takeover-flickr-accounts/" rel="nofollow">Yahoo Bug Bounty: Chaining 3 Minor Issues To Takeover Flickr Accounts</a> - Written by <a href="http://blog.mish.re/" rel="nofollow">Mishre</a>.</li>
+</ul>
+<h2><a id="user-content-tricks" class="anchor" aria-hidden="true" href="#tricks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tricks</h2>
+<p><a name="user-content-tricks-csrf"></a></p>
+<h3><a id="user-content-csrf" class="anchor" aria-hidden="true" href="#csrf"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSRF</h3>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/32716181" rel="nofollow">Neat tricks to bypass CSRF-protection</a> - Written by <a href="https://twosecurity.io/" rel="nofollow">Twosecurity</a>.</li>
+<li><a href="https://blog.appsecco.com/exploiting-csrf-on-json-endpoints-with-flash-and-redirects-681d4ad6b31b" rel="nofollow">Exploiting CSRF on JSON endpoints with Flash and redirects</a> - Written by <a href="https://blog.appsecco.com/@riyazwalikar" rel="nofollow">@riyazwalikar</a>.</li>
+<li><a href="https://github.com/dxa4481/cssInjection">Stealing CSRF tokens with CSS injection (without iFrames)</a> - Written by <a href="https://github.com/dxa4481">@dxa4481</a>.</li>
+</ul>
+<p><a name="user-content-tricks-rce"></a></p>
+<h3><a id="user-content-remote-code-execution" class="anchor" aria-hidden="true" href="#remote-code-execution"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remote Code Execution</h3>
+<ul>
+<li><a href="https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/" rel="nofollow">Exploiting Node.js deserialization bug for Remote Code Execution</a> - Written by <a href="https://opsecx.com/index.php/author/ajinabraham/" rel="nofollow">OpSecX</a>.</li>
+<li><a href="https://www.ambionics.io/blog/drupal-services-module-rce" rel="nofollow">DRUPAL 7.X SERVICES MODULE UNSERIALIZE() TO RCE</a> - Written by <a href="https://www.ambionics.io/" rel="nofollow">Ambionics Security</a>.</li>
+<li><a href="https://capacitorset.github.io/mathjs/" rel="nofollow">How we exploited a remote code execution vulnerability in math.js</a> - Written by <a href="https://github.com/capacitorset">@capacitorset</a>.</li>
+<li><a href="http://exablue.de/blog/2017-03-15-github-enterprise-remote-code-execution.html" rel="nofollow">GitHub Enterprise Remote Code Execution</a> - Written by <a href="https://github.com/iblue">@iblue</a>.</li>
+<li><a href="http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html" rel="nofollow">How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!</a> - Written by <a href="http://blog.orange.tw/" rel="nofollow">Orange</a>.</li>
+<li><a href="http://blog.pentestbegins.com/2017/07/21/hacking-into-paypal-server-remote-code-execution-2017/" rel="nofollow">How i Hacked into a PayPal's Server - Unrestricted File Upload to Remote Code Execution</a> - Written by <a href="http://blog.pentestbegins.com/" rel="nofollow">Vikas Anil Sharma</a>.</li>
+</ul>
+<p><a name="user-content-tricks-xss"></a></p>
+<h3><a id="user-content-xss" class="anchor" aria-hidden="true" href="#xss"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XSS</h3>
+<ul>
+<li><a href="https://hackerone.com/reports/293689" rel="nofollow">Query parameter reordering causes redirect page to render unsafe URL</a> - Written by <a href="https://hackerone.com/kenziy" rel="nofollow">kenziy</a>.</li>
+<li><a href="http://www.slideshare.net/x00mario/es6-en" rel="nofollow">ECMAScript 6 from an Attacker's Perspective - Breaking Frameworks, Sandboxes, and everything else</a> - Written by <a href="http://www.slideshare.net/x00mario" rel="nofollow">Mario Heiderich</a>.</li>
+<li><a href="https://medium.com/@marin_m/how-i-found-a-5-000-google-maps-xss-by-fiddling-with-protobuf-963ee0d9caff#.u50nrzhas" rel="nofollow">How I found a $5,000 Google Maps XSS (by fiddling with Protobuf)</a> - Written by <a href="https://medium.com/@marin_m" rel="nofollow">@marin_m</a>.</li>
+<li><a href="https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf" rel="nofollow">DON'T TRUST THE DOM: BYPASSING XSS MITIGATIONS VIA SCRIPT GADGETS</a> - Written by <a href="https://twitter.com/slekies" rel="nofollow">Sebastian Lekies</a>, <a href="https://twitter.com/kkotowicz" rel="nofollow">Krzysztof Kotowicz</a>, and <a href="https://twitter.com/sirdarckcat" rel="nofollow">Eduardo Vela</a>.</li>
+<li><a href="http://zhchbin.github.io/2017/08/30/Uber-XSS-via-Cookie/" rel="nofollow">Uber XSS via Cookie</a> - Written by <a href="http://zhchbin.github.io/" rel="nofollow">zhchbin</a>.</li>
+<li><a href="http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth_14.html" rel="nofollow">DOM XSS – auth.uber.com</a> - Written by <a href="http://stamone-bug-bounty.blogspot.tw/" rel="nofollow">StamOne_</a>.</li>
+<li><a href="https://opnsec.com/2018/03/stored-xss-on-facebook/" rel="nofollow">Stored XSS on Facebook</a> - Written by <a href="https://opnsec.com/" rel="nofollow">Enguerran Gillier</a>.</li>
+</ul>
+<p><a name="user-content-tricks-sql-injection"></a></p>
+<h3><a id="user-content-sql-injection-1" class="anchor" aria-hidden="true" href="#sql-injection-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQL Injection</h3>
+<ul>
+<li><a href="https://www.exploit-db.com/docs/37953.pdf" rel="nofollow">MySQL Error Based SQL Injection Using EXP</a> - Written by <a href="https://twitter.com/osandamalith" rel="nofollow">@osandamalith</a>.</li>
+<li><a href="http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html" rel="nofollow">SQL injection in an UPDATE query - a bug bounty story!</a> - Written by <a href="http://zombiehelp54.blogspot.jp/" rel="nofollow">Zombiehelp54</a>.</li>
+<li><a href="http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html" rel="nofollow">GitHub Enterprise SQL Injection</a> - Written by <a href="http://blog.orange.tw/" rel="nofollow">Orange</a>.</li>
+</ul>
+<p><a name="user-content-tricks-nosql-injection"></a></p>
+<h3><a id="user-content-nosql-injection" class="anchor" aria-hidden="true" href="#nosql-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NoSQL Injection</h3>
+<ul>
+<li><a href="https://medium.com/@east5th/graphql-nosql-injection-through-json-types-a1a0a310c759" rel="nofollow">GraphQL NoSQL Injection Through JSON Types</a> - Written by <a href="https://medium.com/@east5th" rel="nofollow">@east5th</a>.</li>
+</ul>
+<p><a name="user-content-tricks-ftp-injection"></a></p>
+<h3><a id="user-content-ftp-injection-1" class="anchor" aria-hidden="true" href="#ftp-injection-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FTP Injection</h3>
+<ul>
+<li><a href="https://media.blackhat.com/eu-13/briefings/Osipov/bh-eu-13-XML-data-osipov-slides.pdf" rel="nofollow">XML Out-Of-Band Data Retrieval</a> - Written by <a href="https://twitter.com/a66at" rel="nofollow">@a66at</a> and Alexey Osipov.</li>
+<li><a href="http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html" rel="nofollow">XXE OOB exploitation at Java 1.7+</a> - Written by <a href="http://lab.onsec.ru/" rel="nofollow">Ivan Novikov</a>.</li>
+</ul>
+<p><a name="user-content-tricks-xxe"></a></p>
+<h3><a id="user-content-xxe" class="anchor" aria-hidden="true" href="#xxe"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XXE</h3>
+<ul>
+<li><a href="https://mohemiv.com/all/evil-xml/" rel="nofollow">Evil XML with two encodings</a> - Written by <a href="https://mohemiv.com/" rel="nofollow">Arseniy Sharoglazov</a>.</li>
+</ul>
+<p><a name="user-content-tricks-ssrf"></a></p>
+<h3><a id="user-content-ssrf" class="anchor" aria-hidden="true" href="#ssrf"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSRF</h3>
+<ul>
+<li><a href="https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51" rel="nofollow">PHP SSRF Techniques</a> - Written by <a href="https://medium.com/@themiddleblue" rel="nofollow">@themiddleblue</a>.</li>
+<li><a href="https://hackerone.com/reports/115748" rel="nofollow">SSRF in https://imgur.com/vidgif/url</a> - Written by <a href="https://hackerone.com/aesteral" rel="nofollow">aesteral</a>.</li>
+<li><a href="https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf" rel="nofollow">A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!</a> - Written by <a href="http://blog.orange.tw/" rel="nofollow">Orange</a>.</li>
+<li><a href="http://blog.safebuff.com/2016/07/03/SSRF-Tips/" rel="nofollow">SSRF Tips</a> - Written by <a href="http://blog.safebuff.com/" rel="nofollow">xl7dev</a>.</li>
+</ul>
+<p><a name="user-content-tricks-header-injection"></a></p>
+<h3><a id="user-content-header-injection" class="anchor" aria-hidden="true" href="#header-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Header Injection</h3>
+<ul>
+<li><a href="http://blog.blindspotsecurity.com/2017/02/advisory-javapython-ftp-injections.html" rel="nofollow">Java/Python FTP Injections Allow for Firewall Bypass</a> - Written by <a href="https://plus.google.com/105917618099766831589" rel="nofollow">Timothy Morgan</a>.</li>
+</ul>
+<p><a name="user-content-tricks-url"></a></p>
+<h3><a id="user-content-url" class="anchor" aria-hidden="true" href="#url"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>URL</h3>
+<ul>
+<li><a href="https://noncombatant.org/2017/11/07/problems-of-urls/" rel="nofollow">Some Problems Of URLs</a> - Written by <a href="https://noncombatant.org/about/" rel="nofollow">Chris Palmer</a>.</li>
+<li><a href="https://www.xudongz.com/blog/2017/idn-phishing/" rel="nofollow">Phishing with Unicode Domains</a> - Written by <a href="https://www.xudongz.com/" rel="nofollow">Xudong Zheng</a>.</li>
+<li><a href="https://www.vgrsec.com/post20170219.html" rel="nofollow">Unicode Domains are bad and you should feel bad for supporting them</a> - Written by <a href="https://www.vgrsec.com/" rel="nofollow">VRGSEC</a>.</li>
+<li><a href="http://blog.blackfan.ru/2017/09/devtwittercom-xss.html" rel="nofollow">[dev.twitter.com] XSS</a> - Written by <a href="http://blog.blackfan.ru/" rel="nofollow">Sergey Bobrov</a>.</li>
+</ul>
+<p><a name="user-content-tricks-others"></a></p>
+<h3><a id="user-content-others" class="anchor" aria-hidden="true" href="#others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Others</h3>
+<ul>
+<li><a href="https://medium.freecodecamp.org/messing-with-the-google-buganizer-system-for-15-600-in-bounties-58f86cc9f9a5" rel="nofollow">How I hacked Google’s bug tracking system itself for $15,600 in bounties</a> - Written by <a href="https://medium.freecodecamp.org/@alex.birsan" rel="nofollow">@alex.birsan</a>.</li>
+<li><a href="https://www.leavesongs.com/SHARE/some-tricks-from-my-secret-group.html" rel="nofollow">Some Tricks From My Secret Group</a> - Written by <a href="https://www.leavesongs.com/" rel="nofollow">PHITHON</a>.</li>
+<li><a href="http://blog.mish.re/index.php/2017/09/06/uber-bug-bounty-gaining-access-to-an-internal-chat-system/" rel="nofollow">Uber Bug Bounty: Gaining Access To An Internal Chat System</a> - Written by <a href="http://blog.mish.re/" rel="nofollow">MISHRE</a>.</li>
+<li><a href="https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md">Inducing DNS Leaks in Onion Web Services</a> - Written by <a href="https://github.com/epidemics-scepticism">@epidemics-scepticism</a>.</li>
+<li><a href="https://s1gnalcha0s.github.io/dspl/2018/03/07/Stored-XSS-and-SSRF-Google.html" rel="nofollow">Stored XSS, and SSRF in Google using the Dataset Publishing Language</a> - Written by <a href="https://twitter.com/signalchaos" rel="nofollow">@signalchaos</a>.</li>
+</ul>
+<h2><a id="user-content-browser-exploitation" class="anchor" aria-hidden="true" href="#browser-exploitation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Browser Exploitation</h2>
+<h3><a id="user-content-frontend-like-csp-bypass-url-spoofing-and-something-like-that" class="anchor" aria-hidden="true" href="#frontend-like-csp-bypass-url-spoofing-and-something-like-that"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frontend (like CSP bypass, URL spoofing, and something like that)</h3>
+<ul>
+<li><a href="http://blog.portswigger.net/2016/11/json-hijacking-for-modern-web.html" rel="nofollow">JSON hijacking for the modern web</a> - Written by <a href="https://portswigger.net/" rel="nofollow">portswigger</a>.</li>
+<li><a href="https://www.facebook.com/ExploitWareLabs/photos/a.361854183878462.84544.338832389513975/1378579648872572/?type=3&amp;theater" rel="nofollow">IE11 Information disclosure - local file detection</a> - Written by James Lee.</li>
+<li><a href="https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/" rel="nofollow">SOP bypass / UXSS – Stealing Credentials Pretty Fast (Edge)</a> - Written by <a href="https://twitter.com/magicmac2000" rel="nofollow">Manuel</a>.</li>
+<li><a href="https://bo0om.ru/safari-client-side" rel="nofollow">Особенности Safari в client-side атаках</a> - Written by <a href="https://bo0om.ru/author/admin" rel="nofollow">Bo0oM</a>.</li>
+</ul>
+<h3><a id="user-content-backend-core-of-browser-implementation-and-often-refers-to-c-or-c-part" class="anchor" aria-hidden="true" href="#backend-core-of-browser-implementation-and-often-refers-to-c-or-c-part"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Backend (core of Browser implementation, and often refers to C or C++ part)</h3>
+<ul>
+<li><a href="http://www.phrack.org/papers/attacking_javascript_engines.html" rel="nofollow">Attacking JavaScript Engines - A case study of JavaScriptCore and CVE-2016-4622</a> - Written by <a href="/qazbnm456/awesome-web-security/blob/master/phrack@saelo.net">phrack@saelo.net</a>.</li>
+<li><a href="http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome-2/" rel="nofollow">Three roads lead to Rome</a> - Written by <a href="http://blogs.360.cn/360safe/author/xsecure/" rel="nofollow">Luke Viruswalker</a>.</li>
+<li><a href="https://halbecaf.com/2017/05/24/exploiting-a-v8-oob-write/" rel="nofollow">Exploiting a V8 OOB write.</a> - Written by <a href="https://twitter.com/halbecaf" rel="nofollow">@halbecaf</a>.</li>
+<li><a href="http://payatu.com/from-crash-to-exploit/" rel="nofollow">FROM CRASH TO EXPLOIT: CVE-2015-6086 – OUT OF BOUND READ/ASLR BYPASS</a> - Written by <a href="http://payatu.com/" rel="nofollow">payatu</a>.</li>
+<li><a href="https://blogs.securiteam.com/index.php/archives/3379" rel="nofollow">SSD Advisory – Chrome Turbofan Remote Code Execution</a> - Written by <a href="https://blogs.securiteam.com/" rel="nofollow">SecuriTeam Secure Disclosure (SSD)</a>.</li>
+<li><a href="https://labs.bluefrostsecurity.de/files/Look_Mom_I_Dont_Use_Shellcode-WP.pdf" rel="nofollow">Look Mom, I don't use Shellcode - Browser Exploitation Case Study for Internet Explorer 11</a> - Written by <a href="http://twitter.com/moritzj" rel="nofollow">@moritzj</a>.</li>
+</ul>
+<h2><a id="user-content-pocs" class="anchor" aria-hidden="true" href="#pocs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PoCs</h2>
+<p><a name="user-content-pocs-javascript"></a></p>
+<h3><a id="user-content-javascript" class="anchor" aria-hidden="true" href="#javascript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript</h3>
+<ul>
+<li><a href="https://github.com/tunz/js-vuln-db">js-vuln-db</a> - Collection of JavaScript engine CVEs with PoCs by <a href="https://github.com/tunz">@tunz</a>.</li>
+<li><a href="https://github.com/qazbnm456/awesome-cve-poc">awesome-cve-poc</a> - Curated list of CVE PoCs by <a href="https://github.com/qazbnm456">@qazbnm456</a>.</li>
+<li><a href="https://github.com/coffeehb/Some-PoC-oR-ExP">Some-PoC-oR-ExP</a> - 各种漏洞poc、Exp的收集或编写 by <a href="https://github.com/coffeehb">@coffeehb</a>.</li>
+</ul>
+<h2><a id="user-content-tools" class="anchor" aria-hidden="true" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h2>
+<p><a name="user-content-tools-auditing"></a></p>
+<h3><a id="user-content-auditing" class="anchor" aria-hidden="true" href="#auditing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Auditing</h3>
+<ul>
+<li><a href="https://github.com/Alfresco/prowler">prowler</a> - Tool for AWS security assessment, auditing and hardening by <a href="https://github.com/Alfresco">@Alfresco</a>.</li>
+<li><a href="https://github.com/hahwul/a2sv">A2SV</a> - Auto Scanning to SSL Vulnerability by <a href="https://github.com/hahwul">@hahwul</a>.</li>
+</ul>
+<p><a name="user-content-tools-reconnaissance"></a></p>
+<h3><a id="user-content-reconnaissance" class="anchor" aria-hidden="true" href="#reconnaissance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reconnaissance</h3>
+<p><a name="user-content-tools-osint"></a></p>
+<h4><a id="user-content-osint---open-source-intelligence" class="anchor" aria-hidden="true" href="#osint---open-source-intelligence"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OSINT - Open-Source Intelligence</h4>
+<ul>
+<li><a href="https://www.shodan.io/" rel="nofollow">Shodan</a> - Shodan is the world's first search engine for Internet-connected devices by <a href="https://twitter.com/shodanhq" rel="nofollow">@shodanhq</a>.</li>
+<li><a href="https://censys.io/" rel="nofollow">Censys</a> - Censys is a search engine that allows computer scientists to ask questions about the devices and networks that compose the Internet by <a href="https://umich.edu/" rel="nofollow">University of Michigan</a>.</li>
+<li><a href="https://urlscan.io/" rel="nofollow">urlscan.io</a> - Service which analyses websites and the resources they request by <a href="https://twitter.com/heipei" rel="nofollow">@heipei</a>.</li>
+<li><a href="https://www.zoomeye.org/" rel="nofollow">ZoomEye</a> - Cyberspace Search Engine by <a href="https://twitter.com/zoomeye_team" rel="nofollow">@zoomeye_team</a>.</li>
+<li><a href="https://fofa.so/?locale=en" rel="nofollow">FOFA</a> - Cyberspace Search Engine by <a href="http://baimaohui.net/" rel="nofollow">BAIMAOHUI</a>.</li>
+<li><a href="https://nti.nsfocus.com/" rel="nofollow">NSFOCUS</a> - THREAT INTELLIGENCE PORTAL by NSFOCUS GLOBAL.</li>
+<li><a href="https://github.com/ElevenPaths/FOCA">FOCA</a> - FOCA (Fingerprinting Organizations with Collected Archives) is a tool used mainly to find metadata and hidden information in the documents its scans by <a href="https://www.elevenpaths.com/index.html" rel="nofollow">ElevenPaths</a>.</li>
+<li><a href="http://www.spiderfoot.net/" rel="nofollow">SpiderFoot</a> - Open source footprinting and intelligence-gathering tool by <a href="https://twitter.com/binarypool" rel="nofollow">@binarypool</a>.</li>
+<li><a href="https://github.com/evilsocket/xray">xray</a> - XRay is a tool for recon, mapping and OSINT gathering from public networks by <a href="https://github.com/evilsocket">@evilsocket</a>.</li>
+<li><a href="https://github.com/michenriksen/Gitrob">gitrob</a> - Reconnaissance tool for GitHub organizations by <a href="https://github.com/michenriksen">@michenriksen</a>.</li>
+<li><a href="https://github.com/FeeiCN/GSIL">GSIL</a> - Github Sensitive Information Leakage（Github敏感信息泄露）by <a href="https://github.com/FeeiCN">@FeeiCN</a>.</li>
+<li><a href="https://github.com/0x09AL/raven">raven</a> - raven is a Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin by <a href="https://github.com/0x09AL">@0x09AL</a>.</li>
+<li><a href="https://github.com/UltimateHackers/ReconDog">ReconDog</a> - Recon Dog is an all in one tool for all your basic information gathering needs by <a href="https://github.com/UltimateHackers">@UltimateHackers</a>.</li>
+<li><a href="https://start.me/p/QRENnO/databases" rel="nofollow">Databases - start.me</a> - Various databases which you can use for your OSINT research by <a href="https://twitter.com/technisette" rel="nofollow">@technisette</a>.</li>
+<li><a href="https://peoplefindthor.dk/" rel="nofollow">peoplefindThor</a> - the easy way to find people on Facebook by [postkassen](mailto:<a href="mailto:postkassen@oejvind.dk">postkassen@oejvind.dk</a>?subject=peoplefindthor.dk comments).</li>
+</ul>
+<p><a name="user-content-tools-sub-domain-enumeration"></a></p>
+<h4><a id="user-content-sub-domain-enumeration-1" class="anchor" aria-hidden="true" href="#sub-domain-enumeration-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sub Domain Enumeration</h4>
+<ul>
+<li><a href="https://github.com/ChrisTruncer/EyeWitness">EyeWitness</a> - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible by <a href="https://github.com/ChrisTruncer">@ChrisTruncer</a>.</li>
+<li><a href="https://github.com/lijiejie/subDomainsBrute">subDomainsBrute</a> - A simple and fast sub domain brute tool for pentesters by <a href="https://github.com/lijiejie">@lijiejie</a>.</li>
+<li><a href="https://github.com/michenriksen/aquatone">AQUATONE</a> - Tool for Domain Flyovers by <a href="https://github.com/michenriksen">@michenriksen</a>.</li>
+<li><a href="https://github.com/eldraco/domain_analyzer">domain_analyzer</a> - Analyze the security of any domain by finding all the information possible by <a href="https://github.com/eldraco">@eldraco</a>.</li>
+<li><a href="https://www.virustotal.com/en/documentation/searching/#getting-domain-information" rel="nofollow">VirusTotal domain information</a> - Searching for domain information by <a href="https://www.virustotal.com/" rel="nofollow">VirusTotal</a>.</li>
+<li><a href="https://github.com/google/certificate-transparency">Certificate Transparency</a> - Google's Certificate Transparency project fixes several structural flaws in the SSL certificate system by <a href="https://github.com/google">@google</a>.</li>
+<li><a href="https://crt.sh/" rel="nofollow">Certificate Search</a> - Enter an Identity (Domain Name, Organization Name, etc), a Certificate Fingerprint (SHA-1 or SHA-256) or a crt.sh ID to search certificate(s) by <a href="https://github.com/crtsh">@crtsh</a>.</li>
+<li><a href="https://github.com/We5ter/GSDF">GSDF</a> - Domain searcher named GoogleSSLdomainFinder by <a href="https://github.com/We5ter">@We5ter</a>.</li>
+</ul>
+<p><a name="user-content-tools-code-generating"></a></p>
+<h3><a id="user-content-code-generating" class="anchor" aria-hidden="true" href="#code-generating"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code Generating</h3>
+<ul>
+<li><a href="https://github.com/qazbnm456/VWGen">VWGen</a> - Vulnerable Web applications Generator by <a href="https://github.com/qazbnm456">@qazbnm456</a>.</li>
+</ul>
+<p><a name="user-content-tools-fuzzing"></a></p>
+<h3><a id="user-content-fuzzing" class="anchor" aria-hidden="true" href="#fuzzing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fuzzing</h3>
+<ul>
+<li><a href="https://github.com/xmendez/wfuzz">wfuzz</a> - Web application bruteforcer by <a href="https://github.com/xmendez">@xmendez</a>.</li>
+<li><a href="https://github.com/hack-all-the-things/charsetinspect">charsetinspect</a> - Script that inspects multi-byte character sets looking for characters with specific user-defined properties by <a href="https://github.com/hack-all-the-things">@hack-all-the-things</a>.</li>
+<li><a href="https://github.com/OsandaMalith/IPObfuscator">IPObfuscator</a> - Simple tool to convert the IP to a DWORD IP by <a href="https://github.com/OsandaMalith">@OsandaMalith</a>.</li>
+<li><a href="https://github.com/wpscanteam/wpscan">wpscan</a> - WPScan is a black box WordPress vulnerability scanner by <a href="https://github.com/wpscanteam">@wpscanteam</a>.</li>
+<li><a href="https://github.com/drego85/JoomlaScan">JoomlaScan</a> - Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by <a href="https://github.com/drego85">@drego85</a>.</li>
+</ul>
+<p><a name="user-content-tools-penetrating"></a></p>
+<h3><a id="user-content-penetrating" class="anchor" aria-hidden="true" href="#penetrating"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Penetrating</h3>
+<ul>
+<li><a href="https://portswigger.net/burp/" rel="nofollow">Burp Suite</a> - Burp Suite is an integrated platform for performing security testing of web applications by <a href="https://portswigger.net/" rel="nofollow">portswigger</a>.</li>
+<li><a href="https://github.com/the-Infected-Drake/TIDoS-Framework">TIDoS-Framework</a> - Web-penetration testing toolkit, presently suited for reconnaissance purposes by <a href="https://github.com/the-Infected-Drake">@the-Infected-Drake</a>.</li>
+</ul>
+<p><a name="user-content-tools-offensive"></a></p>
+<h3><a id="user-content-offensive" class="anchor" aria-hidden="true" href="#offensive"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offensive</h3>
+<p><a name="user-content-tools-xss"></a></p>
+<h4><a id="user-content-xss---cross-site-scripting-1" class="anchor" aria-hidden="true" href="#xss---cross-site-scripting-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XSS - Cross-Site Scripting</h4>
+<ul>
+<li><a href="https://github.com/UltimateHackers/XSStrike">XSStrike</a> - XSStrike is a program which can fuzz and bruteforce parameters for XSS. It can also detect and bypass WAFs by <a href="https://github.com/UltimateHackers">@UltimateHackers</a>.</li>
+<li><a href="https://github.com/evilcos/xssor2">xssor2</a> - XSS'OR - Hack with JavaScript by <a href="https://github.com/evilcos">@evilcos</a>.</li>
+</ul>
+<p><a name="user-content-tools-sql-injection"></a></p>
+<h4><a id="user-content-sql-injection-2" class="anchor" aria-hidden="true" href="#sql-injection-2"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQL Injection</h4>
+<ul>
+<li><a href="https://github.com/sqlmapproject/sqlmap">sqlmap</a> - Automatic SQL injection and database takeover tool.</li>
+</ul>
+<p><a name="user-content-tools-template-injection"></a></p>
+<h4><a id="user-content-template-injection" class="anchor" aria-hidden="true" href="#template-injection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Template Injection</h4>
+<ul>
+<li><a href="https://github.com/epinna/tplmap">tqlmap</a> - Code and Server-Side Template Injection Detection and Exploitation Tool by <a href="https://github.com/epinna">@epinna</a>.</li>
+</ul>
+<p><a name="user-content-tools-leaking"></a></p>
+<h3><a id="user-content-leaking" class="anchor" aria-hidden="true" href="#leaking"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Leaking</h3>
+<ul>
+<li><a href="https://github.com/cure53/HTTPLeaks">HTTPLeaks</a> - All possible ways, a website can leak HTTP requests by <a href="https://github.com/cure53">@cure53</a>.</li>
+<li><a href="https://github.com/kost/dvcs-ripper">dvcs-ripper</a> - Rip web accessible (distributed) version control systems: SVN/GIT/HG... by <a href="https://github.com/kost">@kost</a>.</li>
+<li><a href="https://github.com/evilpacket/DVCS-Pillage">DVCS-Pillage</a> - Pillage web accessible GIT, HG and BZR repositories by <a href="https://github.com/evilpacket">@evilpacket</a>.</li>
+<li><a href="https://github.com/UnkL4b/GitMiner">GitMiner</a> - Tool for advanced mining for content on Github by <a href="https://github.com/UnkL4b">@UnkL4b</a>.</li>
+<li><a href="https://github.com/zricethezav/gitleaks">gitleaks</a> - Searches full repo history for secrets and keys by <a href="https://github.com/zricethezav">@zricethezav</a>.</li>
+<li><a href="https://github.com/maxchehab/CSS-Keylogging">CSS-Keylogging</a> - Chrome extension and Express server that exploits keylogging abilities of CSS by <a href="https://github.com/maxchehab">@maxchehab</a>.</li>
+<li><a href="https://github.com/allyshka/pwngitmanager">pwngitmanager</a> - Git manager for pentesters by <a href="https://github.com/allyshka">@allyshka</a>.</li>
+</ul>
+<p><a name="user-content-tools-detecting"></a></p>
+<h3><a id="user-content-detecting" class="anchor" aria-hidden="true" href="#detecting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Detecting</h3>
+<ul>
+<li><a href="https://sqlchop.chaitin.cn/" rel="nofollow">sqlchop</a> - SQL injection detection engine by <a href="http://chaitin.com" rel="nofollow">chaitin</a>.</li>
+<li><a href="https://xsschop.chaitin.cn/" rel="nofollow">xsschop</a> - XSS detection engine by <a href="http://chaitin.com" rel="nofollow">chaitin</a>.</li>
+<li><a href="https://github.com/RetireJS/retire.js">retire.js</a> - Scanner detecting the use of JavaScript libraries with known vulnerabilities by <a href="https://github.com/RetireJS">@RetireJS</a>.</li>
+<li><a href="https://github.com/HynekPetrak/malware-jail">malware-jail</a> - Sandbox for semi-automatic Javascript malware analysis, deobfuscation and payload extraction by <a href="https://github.com/HynekPetrak">@HynekPetrak</a>.</li>
+<li><a href="https://github.com/auth0/repo-supervisor">repo-supervisor</a> - Scan your code for security misconfiguration, search for passwords and secrets.</li>
+<li><a href="https://github.com/LewisArdern/bXSS">bXSS</a> - bXSS is a simple Blind XSS application adapted from <a href="https://cure53.de/m" rel="nofollow">cure53.de/m</a> by <a href="https://github.com/LewisArdern">@LewisArdern</a>.</li>
+</ul>
+<p><a name="user-content-tools-preventing"></a></p>
+<h3><a id="user-content-preventing" class="anchor" aria-hidden="true" href="#preventing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preventing</h3>
+<ul>
+<li><a href="https://github.com/leizongmin/js-xss">js-xss</a> - Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by <a href="https://github.com/leizongmin">@leizongmin</a>.</li>
+</ul>
+<p><a name="user-content-tools-proxy"></a></p>
+<h3><a id="user-content-proxy" class="anchor" aria-hidden="true" href="#proxy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Proxy</h3>
+<ul>
+<li><a href="https://www.charlesproxy.com/" rel="nofollow">Charles</a> - HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet.</li>
+<li><a href="https://github.com/mitmproxy/mitmproxy">mitmproxy</a> - Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by <a href="https://github.com/mitmproxy">@mitmproxy</a>.</li>
+</ul>
+<p><a name="user-content-tools-webshell"></a></p>
+<h3><a id="user-content-webshell" class="anchor" aria-hidden="true" href="#webshell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Webshell</h3>
+<ul>
+<li><a href="https://github.com/tennc/webshell">webshell</a> - This is a webshell open source project by <a href="https://github.com/tennc">@tennc</a>.</li>
+<li><a href="https://github.com/epinna/weevely3">Weevely</a> - Weaponized web shell by <a href="https://github.com/epinna">@epinna</a>.</li>
+<li><a href="https://github.com/WangYihang/Webshell-Sniper">Webshell-Sniper</a> - Manage your website via terminal by <a href="https://github.com/WangYihang">@WangYihang</a>.</li>
+<li><a href="https://github.com/WangYihang/Reverse-Shell-Manager">Reverse-Shell-Manager</a> - Reverse Shell Manager via Terminal <a href="https://github.com/WangYihang">@WangYihang</a>.</li>
+<li><a href="https://github.com/lukechilds/reverse-shell">reverse-shell</a> - Reverse Shell as a Service by <a href="https://github.com/lukechilds">@lukechilds</a>.</li>
+</ul>
+<p><a name="user-content-tools-disassembler"></a></p>
+<h3><a id="user-content-disassembler" class="anchor" aria-hidden="true" href="#disassembler"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disassembler</h3>
+<ul>
+<li><a href="https://github.com/plasma-disassembler/plasma">plasma</a> - Plasma is an interactive disassembler for x86/ARM/MIPS by <a href="https://github.com/plasma-disassembler">@plasma-disassembler</a>.</li>
+<li><a href="https://github.com/radare/radare2">radare2</a> - Unix-like reverse engineering framework and commandline tools by <a href="https://github.com/radare">@radare</a>.</li>
+<li><a href="https://github.com/hteso/iaito">Iaitō</a> - Qt and C++ GUI for radare2 reverse engineering framework by <a href="https://github.com/hteso">@hteso</a>.</li>
+</ul>
+<p><a name="user-content-tools-decompiler"></a></p>
+<h3><a id="user-content-decompiler" class="anchor" aria-hidden="true" href="#decompiler"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Decompiler</h3>
+<ul>
+<li><a href="http://www.benf.org/other/cfr/" rel="nofollow">CFR</a> - Another java decompiler by <a href="https://twitter.com/LeeAtBenf" rel="nofollow">@LeeAtBenf</a>.</li>
+</ul>
+<p><a name="user-content-tools-others"></a></p>
+<h3><a id="user-content-others-1" class="anchor" aria-hidden="true" href="#others-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Others</h3>
+<ul>
+<li><a href="https://wiki.skullsecurity.org/index.php?title=Dnslogger" rel="nofollow">Dnslogger</a> - DNS Logger by <a href="https://github.com/iagox86">@iagox86</a>.</li>
+<li><a href="https://github.com/gchq/CyberChef">CyberChef</a> - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis - by <a href="https://github.com/gchq">@GCHQ</a>.</li>
+</ul>
+<h2><a id="user-content-social-engineering-database" class="anchor" aria-hidden="true" href="#social-engineering-database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Social Engineering Database</h2>
+<p><strong>use at your own risk</strong></p>
+<ul>
+<li><a href="https://haveibeenpwned.com/" rel="nofollow">haveibeenpwned</a> - Check if you have an account that has been compromised in a data breach by <a href="https://www.troyhunt.com/" rel="nofollow">Troy Hunt</a>.</li>
+<li><a href="https://www.databases.today/index.php" rel="nofollow">databases.today</a> - The biggest free-to-download collection of publicly available website databases for security researchers and journalists by <a href="https://twitter.com/publicdbhost" rel="nofollow">@publicdbhost</a>.</li>
+<li><a href="http://www.mysql-password.com/database/1" rel="nofollow">mysql-password</a> - Database of MySQL hashes.</li>
+</ul>
+<h2><a id="user-content-blogs" class="anchor" aria-hidden="true" href="#blogs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blogs</h2>
+<ul>
+<li><a href="http://blog.orange.tw/" rel="nofollow">Orange</a> - Taiwan's talented web penetrator.</li>
+<li><a href="https://www.leavesongs.com/" rel="nofollow">leavesongs</a> - China's talented web penetrator.</li>
+<li><a href="http://albinowax.skeletonscribe.net/" rel="nofollow">James Kettle</a> - Head of Research at <a href="https://portswigger.net/" rel="nofollow">PortSwigger Web Security</a>.</li>
+<li><a href="https://www.brokenbrowser.com/" rel="nofollow">Broken Browser</a> - Fun with Browser Vulnerabilities.</li>
+<li><a href="https://datarift.blogspot.tw/" rel="nofollow">Scrutiny</a> - Internet Security through Web Browsers by Dhiraj Mishra.</li>
+<li><a href="https://osandamalith.com/" rel="nofollow">Blog of Osanda</a> - Security Researching and Reverse Engineering.</li>
+<li><a href="https://buer.haus/" rel="nofollow">BRETT BUERHAUS</a> - Vulnerability disclosures and rambles on application security.</li>
+<li><a href="https://www.n0tr00t.com/" rel="nofollow">n0tr00t</a> - ~# n0tr00t Security Team.</li>
+<li><a href="https://opnsec.com/" rel="nofollow">OpnSec</a> - Open Mind Security!</li>
+<li><a href="https://lorexxar.cn/" rel="nofollow">LoRexxar</a> - 带着对技术的敬畏之心成长，不安于一隅...</li>
+<li><a href="http://sec2hack.com/" rel="nofollow">Wfox</a> - 技术宅，热衷各种方面。</li>
+</ul>
+<h2><a id="user-content-twitter-users" class="anchor" aria-hidden="true" href="#twitter-users"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Twitter Users</h2>
+<ul>
+<li><a href="https://twitter.com/HackwithGithub" rel="nofollow">@HackwithGitHub</a> - Initiative to showcase open source hacking tools for hackers and pentesters</li>
+<li><a href="https://twitter.com/filedescriptor" rel="nofollow">@filedescriptor</a> - Active penetrator often tweets and writes useful articles</li>
+<li><a href="https://twitter.com/cure53berlin" rel="nofollow">@cure53berlin</a> - <a href="https://cure53.de/" rel="nofollow">Cure53</a> is a German cybersecurity firm.</li>
+<li><a href="https://twitter.com/XssPayloads" rel="nofollow">@XssPayloads</a> - The wonderland of JavaScript unexpected usages, and more.</li>
+<li><a href="https://twitter.com/kinugawamasato" rel="nofollow">@kinugawamasato</a> - Japanese web penetrator.</li>
+<li><a href="https://twitter.com/h3xstream/" rel="nofollow">@h3xstream</a> - Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero.</li>
+<li><a href="https://twitter.com/garethheyes" rel="nofollow">@garethheyes</a> - English web penetrator.</li>
+<li><a href="https://twitter.com/hasegawayosuke" rel="nofollow">@hasegawayosuke</a> - Japanese javascript security researcher.</li>
+</ul>
+<h2><a id="user-content-practices" class="anchor" aria-hidden="true" href="#practices"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Practices</h2>
+<p><a name="user-content-practices-application"></a></p>
+<h3><a id="user-content-application" class="anchor" aria-hidden="true" href="#application"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Application</h3>
+<ul>
+<li><a href="https://github.com/SecureSkyTechnology/BadLibrary">BadLibrary</a> - vulnerable web application for training - Written by <a href="https://github.com/SecureSkyTechnology">@SecureSkyTechnology</a>.</li>
+<li><a href="http://hackxor.net/" rel="nofollow">Hackxor</a> - realistic web application hacking game - Written by <a href="https://twitter.com/albinowax" rel="nofollow">@albinowax</a>.</li>
+<li><a href="http://selinuxgame.org/" rel="nofollow">SELinux Game</a> - Learn SELinux by doing. Solve Puzzles, show skillz - Written by <a href="https://twitter.com/selinuxgame" rel="nofollow">@selinuxgame</a>.</li>
+</ul>
+<p><a name="user-content-practices-aws"></a></p>
+<h3><a id="user-content-aws-1" class="anchor" aria-hidden="true" href="#aws-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AWS</h3>
+<ul>
+<li><a href="http://flaws.cloud/" rel="nofollow">FLAWS</a> - Amazon AWS CTF challenge - Written by <a href="https://twitter.com/0xdabbad00" rel="nofollow">@0xdabbad00</a>.</li>
+</ul>
+<p><a name="user-content-practices-xss"></a></p>
+<h3><a id="user-content-xss-1" class="anchor" aria-hidden="true" href="#xss-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XSS</h3>
+<ul>
+<li><a href="https://knock.xss.moe/index" rel="nofollow">XSS Thousand Knocks</a> - XSS Thousand Knocks - Written by <a href="https://twitter.com/yagihashoo" rel="nofollow">@yagihashoo</a>.</li>
+<li><a href="https://xss-game.appspot.com/" rel="nofollow">XSS game</a> - Google XSS Challenge - Written by Google.</li>
+<li><a href="http://prompt.ml/" rel="nofollow">prompt(1) to win</a> - Complex 16-Level XSS Challenge held in summer 2014 (+4 Hidden Levels) - Written by <a href="https://github.com/cure53">@cure53</a>.</li>
+<li><a href="https://alf.nu/alert1" rel="nofollow">alert(1) to win</a> - Series of XSS challenges - Written by <a href="https://twitter.com/steike" rel="nofollow">@steike</a>.</li>
+<li><a href="http://xss-quiz.int21h.jp/" rel="nofollow">XSS Challenges</a> - Series of XSS challenges - Written by yamagata21.</li>
+</ul>
+<p><a name="user-content-practices-modsecurity"></a></p>
+<h3><a id="user-content-modsecurity--owasp-modsecurity-core-rule-set" class="anchor" aria-hidden="true" href="#modsecurity--owasp-modsecurity-core-rule-set"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ModSecurity / OWASP ModSecurity Core Rule Set</h3>
+<ul>
+<li><a href="https://www.netnea.com/cms/apache-tutorials/" rel="nofollow">ModSecurity / OWASP ModSecurity Core Rule Set</a> - Series of tutorials to install, configure and tune ModSecurity and the Core Rule Set - Written by <a href="https://twitter.com/ChrFolini" rel="nofollow">@ChrFolini</a>.</li>
+</ul>
+<h2><a id="user-content-community" class="anchor" aria-hidden="true" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Community</h2>
+<ul>
+<li><a href="https://www.reddit.com/r/websecurity/" rel="nofollow">Reddit</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/security" rel="nofollow">Stack Overflow</a></li>
+</ul>
+<h2><a id="user-content-miscellaneous" class="anchor" aria-hidden="true" href="#miscellaneous"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h2>
+<ul>
+<li><a href="https://github.com/djadmin/awesome-bug-bounty">awesome-bug-bounty</a> - Comprehensive curated list of available Bug Bounty &amp; Disclosure Programs and write-ups by <a href="https://github.com/djadmin">@djadmin</a>.</li>
+<li><a href="https://github.com/ngalongc/bug-bounty-reference">bug-bounty-reference</a> - List of bug bounty write-up that is categorized by the bug nature by <a href="https://github.com/ngalongc">@ngalongc</a>.</li>
+<li><a href="https://sites.google.com/site/bughunteruniversity/behind-the-scenes/presentations/google-vrp-and-unicorns" rel="nofollow">Google VRP and Unicorns</a> - Written by <a href="https://www.linkedin.com/in/daniel-stelter-gliese-170a70a2/" rel="nofollow">Daniel Stelter-Gliese</a>.</li>
+<li><a href="http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html" rel="nofollow">Brute Forcing Your Facebook Email and Phone Number</a> - Written by <a href="http://pwndizzle.blogspot.jp/" rel="nofollow">PwnDizzle</a>.</li>
+<li><a href="https://gitleaks.com/" rel="nofollow">GITLEAKS</a> - Search engine for exposed secrets on lots of places.</li>
+<li><a href="http://i.imgur.com/Mr9pvq9.jpg" rel="nofollow">Pentest + Exploit dev Cheatsheet wallpaper</a> - Penetration Testing and Exploit Dev CheatSheet.</li>
+<li><a href="http://www.covert.io/the-definitive-security-datascience-and-machinelearning-guide/" rel="nofollow">The Definitive Security Data Science and Machine Learning Guide</a> - Written by JASON TROS.</li>
+<li><a href="https://github.com/x0rz/EQGRP">EQGRP</a> - Decrypted content of eqgrp-auction-file.tar.xz by <a href="https://github.com/x0rz">@x0rz</a>.</li>
+<li><a href="https://extensions.inrialpes.fr/" rel="nofollow">Browser Extension and Login-Leak Experiment</a> - Browser Extension and Login-Leak Experiment.</li>
+<li><a href="https://github.com/ChALkeR/notes">notes</a> - Some public notes by <a href="https://github.com/ChALkeR">@ChALkeR</a>.</li>
+<li><a href="https://githubengineering.com/githubs-bug-bounty-workflow/" rel="nofollow">A glimpse into GitHub's Bug Bounty workflow</a> - Written by <a href="https://github.com/gregose">@gregose</a>.</li>
+<li><a href="https://www.belfercenter.org/CyberPlaybook" rel="nofollow">Cybersecurity Campaign Playbook</a> - Written by <a href="https://www.belfercenter.org/" rel="nofollow">Belfer Center for Science and International Affairs</a>.</li>
+<li><a href="https://github.com/rmusser01/Infosec_Reference">Infosec_Reference</a> - Information Security Reference That Doesn't Suck by <a href="https://github.com/rmusser01">@rmusser01</a>.</li>
+<li><a href="http://iotscanner.bullguard.com/" rel="nofollow">Internet of Things Scanner</a> - Check if your internet-connected devices at home are public on Shodan by <a href="https://www.bullguard.com/" rel="nofollow">BullGuard</a>.</li>
+<li><a href="https://docs.google.com/presentation/d/1VpRT8dFyTaFpQa9jhehtmGaC7TqQniMSYbUdlHN6VrY/edit?usp=sharing" rel="nofollow">The Bug Hunters Methodology v2.1</a> - Written by <a href="https://twitter.com/jhaddix" rel="nofollow">@jhaddix</a>.</li>
+<li><a href="https://sites.google.com/site/testsitehacking/-7-5k-Google-services-mix-up" rel="nofollow">$7.5k Google services mix-up</a> - Written by <a href="https://sites.google.com/site/testsitehacking/" rel="nofollow">Ezequiel Pereira</a>.</li>
+<li><a href="https://labs.detectify.com/2018/01/12/how-i-exploited-acme-tls-sni-01-issuing-lets-encrypt-ssl-certs-for-any-domain-using-shared-hosting/" rel="nofollow">How I exploited ACME TLS-SNI-01 issuing Let's Encrypt SSL-certs for any domain using shared hosting</a> - Written by <a href="https://twitter.com/fransrosen" rel="nofollow">@fransrosen</a>.</li>
+<li><a href="https://voidsec.com/vpn-leak/" rel="nofollow">TL:DR: VPN leaks users’ IPs via WebRTC. I’ve tested seventy VPN providers and 16 of them leaks users’ IPs via WebRTC (23%)</a> - Written by <a href="https://voidsec.com/" rel="nofollow">voidsec</a>.</li>
+</ul>
+<h2><a id="user-content-code-of-conduct" class="anchor" aria-hidden="true" href="#code-of-conduct"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code of Conduct</h2>
+<p>Please note that this project is released with a <a href="/qazbnm456/awesome-web-security/blob/master/code-of-conduct.md">Contributor Code of Conduct</a>. By participating in this project you agree to abide by its terms.</p>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667" alt="CC0" data-canonical-src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="https://qazbnm456.github.io/" rel="nofollow">@qazbnm456</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.23165s from unicorn-3835523148-zvdrj">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,1589 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - CodyReichert/awesome-cl: A curated list of awesome Common Lisp frameworks, libraries and other shiny stuff.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/7034627?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="CodyReichert/awesome-cl" /><meta property="og:url" content="https://github.com/CodyReichert/awesome-cl" /><meta property="og:description" content="awesome-cl - A curated list of awesome Common Lisp frameworks, libraries and other shiny stuff." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E067:5D4E:264D5E5:470D2EC:5AD2F684" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E067:5D4E:264D5E5:470D2EC:5AD2F684" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MzBlOTQxMzZiOTI1YWJkN2YzMGIxYWEwMjUzNGE2ZmNlMjgxZmNmZGYxMWE2OTU2ODczNzdjMGE0MGZhNzc2OXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTA2Nzo1RDRFOjI2NEQ1RTU6NDcwRDJFQzo1QUQyRjY4NCIsInRpbWVzdGFtcCI6MTUyMzc3NTEwOCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="72a2da91d553f6fa0fc2e58cf59c3f6bb1fc72cf">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/CodyReichert/awesome-cl/commits/master.atom" rel="alternate" title="Recent Commits to awesome-cl:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-cl - A curated list of awesome Common Lisp frameworks, libraries and other shiny stuff.">
+  <meta name="go-import" content="github.com/CodyReichert/awesome-cl git https://github.com/CodyReichert/awesome-cl.git">
+
+  <meta name="octolytics-dimension-user_id" content="7034627" /><meta name="octolytics-dimension-user_login" content="CodyReichert" /><meta name="octolytics-dimension-repository_id" content="28573641" /><meta name="octolytics-dimension-repository_nwo" content="CodyReichert/awesome-cl" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="28573641" /><meta name="octolytics-dimension-repository_network_root_nwo" content="CodyReichert/awesome-cl" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/CodyReichert/awesome-cl" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/CodyReichert/awesome-cl/search" data-unscoped-search-url="/search" action="/CodyReichert/awesome-cl/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/CodyReichert/awesome-cl">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2FCodyReichert%2Fawesome-cl" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2FCodyReichert%2Fawesome-cl"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/CodyReichert/awesome-cl/watchers"
+     aria-label="56 users are watching this repository">
+    56
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FCodyReichert%2Fawesome-cl"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/CodyReichert/awesome-cl/stargazers"
+      aria-label="660 users starred this repository">
+      660
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FCodyReichert%2Fawesome-cl"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/CodyReichert/awesome-cl/network" class="social-count"
+       aria-label="59 users forked this repository">
+      59
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/CodyReichert">CodyReichert</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/CodyReichert/awesome-cl">awesome-cl</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /CodyReichert/awesome-cl" href="/CodyReichert/awesome-cl">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /CodyReichert/awesome-cl/issues" href="/CodyReichert/awesome-cl/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">8</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /CodyReichert/awesome-cl/pulls" href="/CodyReichert/awesome-cl/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">4</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /CodyReichert/awesome-cl/projects" href="/CodyReichert/awesome-cl/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /CodyReichert/awesome-cl/pulse" href="/CodyReichert/awesome-cl/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/QDiO1EhmMWH9RPJ97QnHfU6VtdHqEMGxBH5J8mDiviuaaoqH75MHpupUmqb5jr+ndcC4hMao4Ef5dO+Y/s2kw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome Common Lisp frameworks, libraries and other shiny stuff.
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://codyreichert.github.io/awesome-cl">http://codyreichert.github.io/awesome-cl</a></span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/CodyReichert/awesome-cl/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                335
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/CodyReichert/awesome-cl/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/CodyReichert/awesome-cl/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/CodyReichert/awesome-cl/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      18
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/CodyReichert/awesome-cl/search?l=makefile"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#427819;"></span>
+                  <span class="lang">Makefile</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Makefile 100.0%" style="width:100.0%; background-color:#427819;" itemprop="keywords">Makefile</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/CodyReichert/awesome-cl.git" aria-label="Clone this repository at https://github.com/CodyReichert/awesome-cl.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/CodyReichert/awesome-cl.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/CodyReichert/awesome-cl/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/CodyReichert/awesome-cl/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/CodyReichert/awesome-cl/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/CodyReichert/awesome-cl/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/CodyReichert/awesome-cl/tree-commit/a85467a5496d7db96fb112d2ccb45cf329077c04" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/CodyReichert/awesome-cl/tree/a85467a5496d7db96fb112d2ccb45cf329077c04">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-440791e8a48412a76278252c382b53e51f94add3" href="/CodyReichert/awesome-cl/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[travis] white list weblocks, dwim.hu" class="message" href="/CodyReichert/awesome-cl/commit/1b0ad1faf3e46d0d0710ef7b9064d020ce7d06ca">[travis] white list weblocks, dwim.hu</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-18T15:01:54Z">Apr 18, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-2f7e03ca51654a99576dccda67fdfd77bfa58760" itemprop="license" href="/CodyReichert/awesome-cl/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Initial commit" class="message" href="/CodyReichert/awesome-cl/commit/bb7fe9730b4a300e1803767a59652109550aaab8">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-12-28T23:04:07Z">Dec 28, 2014</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Makefile" id="b67911656ef5d18c4ae36cb6741b7965-b1db9c1090c6a39c3a6a2ddd2803859266d487b8" href="/CodyReichert/awesome-cl/blob/master/Makefile">Makefile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove new makefile rules" class="message" href="/CodyReichert/awesome-cl/commit/5f42c46159b60e36d876eaf65a6045e3a8d09899">Remove new makefile rules</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-28T05:59:18Z">Apr 28, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-4f97258edf5de5540f876d2a018417360d2eefaa" href="/CodyReichert/awesome-cl/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add cl-flow, data-flowish computation tree lib for non-blocking concurrent Lisp" class="message" href="/CodyReichert/awesome-cl/commit/a85467a5496d7db96fb112d2ccb45cf329077c04">add cl-flow, data-flowish computation tree lib for non-blocking concu…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-07T11:15:02Z">Apr 7, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><div align="center">
+  <a target="_blank" href="https://camo.githubusercontent.com/55218fc2efd5a0aa7e7628fb0588fd13e02500f2/687474703a2f2f692e696d6775722e636f6d2f6a4c56586870632e706e67"><img src="https://camo.githubusercontent.com/55218fc2efd5a0aa7e7628fb0588fd13e02500f2/687474703a2f2f692e696d6775722e636f6d2f6a4c56586870632e706e67" data-canonical-src="http://i.imgur.com/jLVXhpc.png" style="max-width:100%;"></a>
+</div>
+<h1><a id="user-content-awesome-common-lisp--" class="anchor" aria-hidden="true" href="#awesome-common-lisp--"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Common Lisp <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a> <a href="https://assertible.com/docs/guide/deployments" rel="nofollow"><img src="https://camo.githubusercontent.com/3ac0d583bf357b7e4fafd9ccb87e58c4be3523da/68747470733a2f2f61737365727469626c652e636f6d2f617069732f31303265333334642d663961382d343536352d393335332d3735373264653737356361652f7374617475733f6170695f746f6b656e3d386235356132383638333033323365666662" alt="Assertible status" data-canonical-src="https://assertible.com/apis/102e334d-f9a8-4565-9353-7572de775cae/status?api_token=8b55a286830323effb" style="max-width:100%;"></a></h1>
+<p>A curated list of <em>awesome</em> Common Lisp libraries.</p>
+<p>For awesome <em>software</em>, see <a href="http://lisp-lang.org/success/" rel="nofollow">lisp-lang.org's success stories</a> and the <a href="https://github.com/azzamsa/awesome-cl-software">awesome-cl-software</a> list.</p>
+<p>Add something new! See the <a href="#contributing">contributing</a> section for adding something to the
+list.</p>
+<p>All libraries listed here are available from <a href="https://www.quicklisp.org/beta/" rel="nofollow">Quicklisp</a> unless
+stated otherwise.</p>
+<p>This is released under the GNU Free Documentation License - its text
+is provided in the LICENSE file. This repository is also mirrored on
+<a href="https://notabug.org/CodyReichert/awesome-cl" rel="nofollow">NotABug</a> - a <strong>fully-free</strong> (as in libre)
+alternative to Github.  Preference is given to <a href="http://www.sbcl.org/manual/index.html#ANSI-Conformance" rel="nofollow">free software</a> and
+sellers who aren't evil for physical resources.</p>
+
+<p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#build-systems">Build Systems</a></li>
+<li><a href="#compilers-code-generators">Compilers, code generators</a>
+<ul>
+<li><a href="#c-c">C, C++</a></li>
+<li><a href="#javascript">Javascript</a></li>
+</ul>
+</li>
+<li><a href="#crypto">Crypto</a></li>
+<li><a href="#cryptocurrencies">Cryptocurrencies</a></li>
+<li><a href="#database">Database</a></li>
+<li><a href="#data-structures">Data Structures</a></li>
+<li><a href="#foreign-function-interface">Foreign Function Interface</a>
+<ul>
+<li><a href="#c">C</a></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#miscellaneous">Miscellaneous</a></li>
+<li><a href="#objective-c">Objective-C</a></li>
+<li><a href="#python">Python</a></li>
+</ul>
+</li>
+<li><a href="#game-development">Game Development</a></li>
+<li><a href="#graphics">Graphics</a></li>
+<li><a href="#gui">GUI</a></li>
+<li><a href="#implementations">Implementations</a></li>
+<li><a href="#json">JSON</a></li>
+<li><a href="#language-extensions">Language extensions</a>
+<ul>
+<li><a href="#clos-extensions">CLOS extensions</a></li>
+<li><a href="#non-deterministic-programming">Non-deterministic programming</a></li>
+</ul>
+</li>
+<li><a href="#learning-and-tutorials">Learning and Tutorials</a>
+<ul>
+<li><a href="#online">Online</a></li>
+<li><a href="#beginner">Beginner</a></li>
+<li><a href="#intermediate">Intermediate</a></li>
+<li><a href="#advanced">Advanced</a></li>
+<li><a href="#reference">Reference</a></li>
+<li><a href="#offline">Offline</a></li>
+<li><a href="#beginner">Beginner</a></li>
+<li><a href="#intermediate">Intermediate</a></li>
+<li><a href="#advanced">Advanced</a></li>
+</ul>
+</li>
+<li><a href="#library-manager">Library Manager</a>
+<ul>
+<li><a href="#interfaces-to-other-package-managers">Interfaces to other package managers</a></li>
+</ul>
+</li>
+<li><a href="#machine-learning">Machine Learning</a></li>
+<li><a href="#natural-language-processing">Natural Language Processing</a></li>
+<li><a href="#network-and-internet">Network and Internet</a>
+<ul>
+<li><a href="#http-clients">HTTP clients</a></li>
+<li><a href="#http-servers">HTTP Servers</a>
+<ul>
+<li><a href="#clack-plugins">Clack plugins</a></li>
+</ul>
+</li>
+<li><a href="#web-frameworks">Web frameworks</a></li>
+<li><a href="#assets-management">Assets management</a></li>
+<li><a href="#parsing-html">Parsing html</a></li>
+<li><a href="#querying-htmldom">Querying HTML/DOM</a></li>
+<li><a href="#html-generators-and-templates">HTML generators and templates</a></li>
+<li><a href="#uri-handling">URI handling</a></li>
+<li><a href="#javascript">Javascript</a></li>
+<li><a href="#websockets">Websockets</a></li>
+<li><a href="#static-site-generators">Static site generators</a></li>
+<li><a href="#third-party-apis">Third-party APIs</a></li>
+<li><a href="#others">Others</a></li>
+</ul>
+</li>
+<li><a href="#numerical-and-scientific">Numerical and Scientific</a></li>
+<li><a href="#parallelism-and-concurrency">Parallelism and Concurrency</a></li>
+<li><a href="#regex">Regex</a></li>
+<li><a href="#scripting">Scripting</a></li>
+<li><a href="#text-editor-resources">Text Editor Resources</a>
+<ul>
+<li><a href="#emacs">Emacs</a></li>
+<li><a href="#vim">Vim</a></li>
+<li><a href="#lem">Lem</a></li>
+<li><a href="#atom">Atom</a></li>
+<li><a href="#sublime-text">Sublime Text</a></li>
+<li><a href="#notebooks">Notebooks</a></li>
+<li><a href="#repls">REPLs</a></li>
+</ul>
+</li>
+<li><a href="#text-processing">Text Processing</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#unit-testing">Unit Testing</a></li>
+<li><a href="#utilities">Utilities</a>
+<ul>
+<li><a href="#caching">Caching</a></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#csv">CSV</a></li>
+<li><a href="#date-and-time">Date and time</a></li>
+<li><a href="#data-validation">Data validation</a></li>
+<li><a href="#documentation-builders">Documentation builders</a></li>
+<li><a href="#files-and-directories">Files and directories</a></li>
+<li><a href="#git">Git</a></li>
+<li><a href="#i18n">i18n</a></li>
+<li><a href="#linting">Linting</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#markdown">Markdown</a></li>
+<li><a href="#plotting">Plotting</a></li>
+<li><a href="#text-processing">Text Processing</a></li>
+<li><a href="#other">Other</a></li>
+</ul>
+</li>
+<li><a href="#xml">XML</a></li>
+<li><a href="#contributing">Contributing</a></li>
+</ul>
+
+<h1><a id="user-content-build-systems" class="anchor" aria-hidden="true" href="#build-systems"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Build Systems</h1>
+<ul>
+<li><a href="https://common-lisp.net/project/asdf/" rel="nofollow">ASDF</a> - Another System Definition Facility; a build system for Common Lisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/eudoxia0/asdf-linguist">asdf-linguist</a> - Extensions for ASDF. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/guicho271828/asdf-viz">asdf-viz</a> - a tool to visualize the library dependencies of ASDF systems, the call graph of a function and the class inheritances. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+</ul>
+<h1><a id="user-content-compilers-code-generators" class="anchor" aria-hidden="true" href="#compilers-code-generators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compilers, code generators</h1>
+<h2><a id="user-content-c-c" class="anchor" aria-hidden="true" href="#c-c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C, C++</h2>
+<ul>
+<li><a href="https://github.com/eudoxia0/cmacro">cmacro</a> - Lisp macros for C. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/kiselgra/c-mera">C-mera</a> - a source-to-source compiler that utilizes Lisp's macro system for meta programming of C-like languages. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>.</li>
+<li><a href="https://github.com/eratosthenesia/lispc">lispc</a> - a powerful "lispsy" macrolanguage for C. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-javascript" class="anchor" aria-hidden="true" href="#javascript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Javascript</h2>
+<ul>
+<li><a href="http://marijnhaverbeke.nl/cl-javascript/" rel="nofollow">cl-javascript</a> a JavaScript to Common Lisp translator, runtime, and standard library, ES3 compatible, with some ES5 extensions. Allows you to add user scripting to your Common Lisp application. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h1><a id="user-content-crypto" class="anchor" aria-hidden="true" href="#crypto"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crypto</h1>
+<ul>
+<li><a href="https://github.com/Shinmera/crypto-shortcuts">crypto-shortcuts</a> - Collection of common crypto shortcuts. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/sharplispers/ironclad">Ironclad</a> - A library of crypto functions for Common Lisp. Not considered secure, but is still useful for the message digest functions. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/eudoxia0/trivial-ssh">trivial-ssh</a> - An SSH client library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+</ul>
+<h1><a id="user-content-cryptocurrencies" class="anchor" aria-hidden="true" href="#cryptocurrencies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cryptocurrencies</h1>
+<ul>
+<li><a href="https://github.com/glv2/cl-monero-tools">cl-monero-tools</a> -  Common Lisp toolbox to work with the Monero cryptocurrency. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>. Not in Quicklisp.</li>
+<li><a href="https://github.com/emotiq/emotiq">emotiq</a> - a next-generation blockchain with an innovative natural-language approach to smart contracts. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/glv2/peercoin-blockchain-parser">peercoin-blockchain-parser</a> - parse the blockchain contained in a file and export some of its data to a text file, a SQL script or a database. It can also create a database using the RPC of a Peercoin daemon as source of data instead of a blockchain file. LGPL3. Not in Quicklisp.</li>
+<li><a href="https://github.com/glv2/peercoin-calculator">peercoin-calculator</a> - This program gives you the probability of generating a POS or POW block within 10 minutes, 24 hours, 31 days, 90 days and 1 year, as well as the reward that can be expected. GUI in Qt. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>. Not in Quicklisp.</li>
+<li><a href="https://github.com/glv2/peercoin-vote">peercoin-vote</a> -  A voting system based on data from the blockchain (addresses and balances). <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>. Not in Quicklisp.</li>
+</ul>
+<h1><a id="user-content-database" class="anchor" aria-hidden="true" href="#database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database</h1>
+<ul>
+<li><a href="https://github.com/fukamachi/cl-dbi">cl-dbi</a> - A database-independent interface for Common Lisp. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/quasi/cl-memcached">cl-memcached</a> - Fast, thread-safe interface to the Memcached object caching system. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/fons/cl-mongo">cl-mongo</a> - MongoDB client. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/vseloved/cl-redis">cl-redis</a> - Redis client. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/CodyReichert/cl-disque">cl-disque</a> - Disque client. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/orthecreedence/cl-rethinkdb">cl-rethinkdb</a> - RethinkDB client. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/dmitryvk/cl-sqlite">cl-sqlite</a> - Bindings for SQLite. Public domain.</li>
+<li><a href="http://www.cliki.net/CLSQL" rel="nofollow">clsql</a> - An SQL database with a Common Lisp interface. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://common-lisp.net/project/clouchdb/" rel="nofollow">clouchdb</a> - Library for interacting with CouchDB. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/eudoxia0/crane">crane</a> - Another ORM. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/fukamachi/datafly">datafly</a> - A lightweight database library. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/fukamachi/mito">mito</a> - An ORM for Common Lisp with migrations, relationships and PostgreSQL support <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>. <a href="https://github.com/fukamachi/mito-auth">mitho-auth</a>, a mixin class for use authorization; <a href="https://github.com/fukamachi/mito-attachment">mito-attachment</a>, a mixin class for file management outside of RDBMS.</li>
+<li><a href="http://marijnhaverbeke.nl/postmodern/" rel="nofollow">postmodern</a> - A library for interacting with PostgreSQL. <a href="http://directory.fsf.org/wiki/License:Zlib" rel="nofollow">zlib</a>.</li>
+<li><a href="https://github.com/dimitri/pgloader">pgloader</a> - a data loading tool for PostgreSQL. <a href="https://www.postgresql.org/about/licence/" rel="nofollow">PostgreSQL Licence</a>.</li>
+<li><a href="https://github.com/fukamachi/sxql">sxql</a> - A DSL for generating SQL. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/hanshuebner/bknr-datastore">bknr.datastore</a> - a CLOS-based lisp-only database in RAM with transaction logging persistence. <a href="http://bknr.net/html/license.html" rel="nofollow">licence</a>. (see also chap. 21 of "Common Lisp Recipes")</li>
+<li><a href="https://common-lisp.net/project/elephant/" rel="nofollow">elephant</a> - Elephant is a persistent object database for Common Lisp with full transaction semantics. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/Shinmera/ubiquitous">ubiquitous</a> - A library providing easy-to-use persistent configuration storage. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<p>To third parties:</p>
+<ul>
+<li><a href="https://github.com/Rudolph-Miller/dyna">dyna</a> - an AWS DynamoDB ORM. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/mmaul/cl-influxdb/">cl-influxdb</a> - an interface to the Time Series Database InfluxDB. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h1><a id="user-content-data-structures" class="anchor" aria-hidden="true" href="#data-structures"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Structures</h1>
+<ul>
+<li><a href="https://github.com/glv2/bst">bst</a> - Binary Search Tree. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>. Not in Quicklisp.</li>
+<li><a href="http://quickdocs.org/fset/" rel="nofollow">FSet</a> - A functional, set-theoretic collections data structure library. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="http://nikodemus.github.io/pileup/" rel="nofollow">pileup</a> - a portable, performant, and thread-safe binary heap for Common Lisp. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/ndantam/sycamore">sycamore</a> -  a fast, purely functional data structure library. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD_3Clause</a>.</li>
+</ul>
+<p>and see more on <a href="http://quickdocs.org/search?q=data+structure" rel="nofollow">Quickdocs</a>.</p>
+<h1><a id="user-content-foreign-function-interface" class="anchor" aria-hidden="true" href="#foreign-function-interface"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Foreign Function Interface</h1>
+<h2><a id="user-content-c" class="anchor" aria-hidden="true" href="#c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C</h2>
+<ul>
+<li><a href="https://github.com/cffi/cffi">CFFI</a> - Portable, easy-to-use C foreign function interface. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/rpav/cl-autowrap">cl-autowrap</a> - Automatically parses header files into CFFI definitions. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+</ul>
+<h2><a id="user-content-java" class="anchor" aria-hidden="true" href="#java"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java</h2>
+<ul>
+<li><a href="https://common-lisp.net/project/cl-plus-j/" rel="nofollow">cl+j</a> - A JNI-based interface to a JVM via CFFI. Not available on Quicklisp. Does not reliably work with all implementations. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+</ul>
+<h2><a id="user-content-miscellaneous" class="anchor" aria-hidden="true" href="#miscellaneous"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h2>
+<ul>
+<li><a href="http://foil.sourceforge.net/" rel="nofollow">Foil</a> - A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. <a href="http://directory.fsf.org/wiki/License:CPLv1.0" rel="nofollow">CPL 1.0</a>.</li>
+</ul>
+<h2><a id="user-content-objective-c" class="anchor" aria-hidden="true" href="#objective-c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Objective-C</h2>
+<ul>
+<li><a href="https://github.com/fiddlerwoaroof/objc-lisp-bridge">objc-lisp-bridge</a> -  A portable reader and bridge for interacting with Objective-C and Cocoa. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-python" class="anchor" aria-hidden="true" href="#python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Python</h2>
+<ul>
+<li><a href="https://github.com/pinterface/burgled-batteries">burgled-batteries</a> - A bridge between Python and Common Lisp. Not available on Quicklisp. No license specified.</li>
+</ul>
+<h1><a id="user-content-game-development" class="anchor" aria-hidden="true" href="#game-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Game Development</h1>
+<ul>
+<li><a href="http://xelf.me/" rel="nofollow">Xelf</a> - Extensible game library. Not available on Quicklisp. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="https://github.com/shirakumo/trial">Trial</a> - Trial is an OpenGL
+game engine with a heavy focus on modularity. It is supposed to
+provide a large toolkit of useful bits and pieces from which you can
+create a game. <a href="http://directory.fsf.org/wiki/License:CPLv1.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://shirakumo.github.io/cl-mpg123" rel="nofollow">cl-mpg123</a> and
+<a href="https://shirakumo.github.io/cl-out123" rel="nofollow">cl-out123</a>, bindings
+libraries for libmpg123 and libout123 respectively, giving you fast
+and easy to use mp3 decoding and cross-platform audio
+output. <a href="http://directory.fsf.org/wiki/License:CPLv1.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://borodust.org/projects/trivial-gamekit/getting-started/" rel="nofollow">trivial-gamekit</a> – with this small framework you would be able to make simple 2D games: draw basic geometric forms, images and text, play sounds and listen to mouse and keyboard input.</li>
+</ul>
+<h1><a id="user-content-graphics" class="anchor" aria-hidden="true" href="#graphics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graphics</h1>
+<p>These are libraries for working with graphics, rather than making GUIs (i.e. widget toolkits), which have their own section.</p>
+<ul>
+<li><a href="https://github.com/rpav/cl-cairo2">cl-cairo2</a> - Cairo bindings. <a href="http://directory.fsf.org/wiki/License:Boost1.0" rel="nofollow">Boost 1.0</a></li>
+<li><a href="http://weitz.de/cl-gd/" rel="nofollow">cl-gd</a> - A library providing an interface to the GD graphics library. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/anwyn/cl-horde3d/">cl-horde3d</a> - FFI bindings to the Horde3D graphics library. Not available on Quicklisp. <a href="http://directory.fsf.org/wiki/License:EPLv1.0" rel="nofollow">EPL 1.0</a></li>
+<li><a href="https://github.com/3b/cl-opengl">cl-opengl</a> - CFFI bindings to OpenGL, GLU and GLUT APIs. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/lispgames/cl-sdl2">cl-sdl2</a> - Bindings for SDL2 using C2FFI. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/wmannis/cl-svg">cl-svg</a> - A basic library for producing SVG files. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/BradWBeer/CLinch">CLinch</a> - Common Lisp 2D/3D graphics engine for OpenGL. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/tkych/donuts">donuts</a> - Graph drawing DSL for Common Lisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/privet-kitty/dufy">dufy</a> - exact color manipulation and conversion in various color models. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/lispbuilder/lispbuilder">lispbuilder-sdl</a> - A set of bindings for SDL. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="http://www.ii.uib.no/%7Eknute/lsystems/llisp.html" rel="nofollow">l-lisp</a> - A framework for generating and simulating plants and fractals. <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" rel="nofollow">GNU GPL2</a>.</li>
+<li><a href="https://github.com/aerique/okra">okra</a> - CFFI bindings to Ogre. Not available on Quicklisp. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/slyrus/opticl">opticl</a> - a library for representing and processing images. <a href="https://directory.fsf.org/wiki/License:BSD_2Clause" rel="nofollow">BSD_2Clause</a>.</li>
+<li><a href="https://github.com/cbaggers/varjo">Varjo</a> - Lisp to GLSL translator. <a href="https://directory.fsf.org/wiki/License:BSD_2Clause" rel="nofollow">BSD_2Clause</a>.</li>
+<li><a href="http://www.xach.com/lisp/vecto/" rel="nofollow">Vecto</a> - Simple vector drawing library. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="http://www.xach.com/lisp/zpng/" rel="nofollow">zpng</a> - A library for creating PNG files. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/vydd/sketch">Sketch</a> - A CL framework for the creation of electronic art, graphics, and lots more. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h1><a id="user-content-gui" class="anchor" aria-hidden="true" href="#gui"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GUI</h1>
+<ul>
+<li><a href="http://www.crategus.com/books/cl-cffi-gtk/" rel="nofollow">cl-cffi-gtk</a> - Binding for GTK+3. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="https://github.com/dmitryvk/cl-gtk2">cl-gtk2</a> - A binding for GTK+2. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/mmontone/cl-xul">cl-xul</a> - Mozilla XUL bindings. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/commonqt/commonqt">CommonQt</a> - A Common Lisp binding for Qt4 via QtSmoke. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/Shinmera/qtools/">Qtools</a> - A Qt toolkit, based on CommonQt. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a></li>
+<li><a href="http://www.peter-herth.de/ltk/" rel="nofollow">ltk</a> - A binding for the Tk toolkit. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a> or <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="https://ceramic.github.io/" rel="nofollow">ceramic</a> - Desktop web apps with Electron. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/plkrueger/CocoaInterface/">CocoaInterface</a> -
+Cocoa interface for Clozure Common Lisp. Build Cocoa user interface
+windows dynamically using Lisp code and bypass the typical Xcode
+processes. It has
+<a href="/CodyReichert/awesome-cl/blob/master/blob/master/Documentation/UserInterfaceTutorial.pdf">good documentation and a tutorial</a>.</li>
+<li><a href="https://common-lisp.net/project/mcclim/" rel="nofollow">McCLIM</a> - An implementation of the Common Lisp Interface Manager, version II. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="https://github.com/joachifm/cl-webkit">cl-webkit</a> - A binding to WebKitGTK+. Also adds web browsing capabilities to an application, leveraging the full power of the WebKit browsing engine. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h1><a id="user-content-implementations" class="anchor" aria-hidden="true" href="#implementations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Implementations</h1>
+<ul>
+<li><a href="https://common-lisp.net/project/armedbear/" rel="nofollow">ABCL</a> - Armed Bear Common Lisp; targets the JVM, compiles to bytecode. <a href="https://common-lisp.net/project/armedbear/faq.shtml#qa" rel="nofollow">Standard conformance</a>. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a> with <a href="http://www.gnu.org/software/classpath/license.html" rel="nofollow">Classpath exception</a>.</li>
+<li><a href="//ccl.clozure.com/" rel="nofollow">CCL</a> - Clozure Common Lisp; compiler-only implementation, generates native code.  <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/drmeister/clasp">CLASP</a> - a new Common Lisp implementation that seamlessly interoperates with C++ libraries and programs using LLVM for compilation to native code. This allows Clasp to take advantage of a vast array of preexisting libraries and programs, such as out of the scientific computing ecosystem. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">LGPL2.1</a> (and others).</li>
+<li><a href="//www.cons.org/cmucl/" rel="nofollow">CMUCL</a> - An implementation from Carnegie Mellon University. Public domain.</li>
+<li><a href="https://common-lisp.net/project/ecl/" rel="nofollow">ECL</a> - Embeddable Common Lisp; compiles to C. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="https://www.gnu.org/software/gcl/" rel="nofollow">GCL</a> - Another GNU implementation; not yet fully ANSI-compliant. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="//www.clisp.org/" rel="nofollow">GNU CLISP</a> - A GNU implementation; contains a compiler and an interpreter. <a href="http://www.gnu.org/software/clisp/impnotes.html" rel="nofollow">Standard conformance</a>. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>.</li>
+<li><a href="http://www.sbcl.org/index.html" rel="nofollow">SBCL</a> - A fork of CMUCL; compiles to machine code. <a href="http://www.sbcl.org/manual/index.html#ANSI-Conformance" rel="nofollow">Standard compliance</a>. Public domain, with some parts under <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a> and <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+</ul>
+<h1><a id="user-content-json" class="anchor" aria-hidden="true" href="#json"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JSON</h1>
+<ul>
+<li><a href="https://github.com/hankhero/cl-json">cl-json</a> - A JSON encoder and decoder. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/madnificent/jsown">jsown</a> - A reader and writer for the JSON format. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+</ul>
+<h1><a id="user-content-language-extensions" class="anchor" aria-hidden="true" href="#language-extensions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Language extensions</h1>
+<ul>
+<li><a href="https://github.com/cl21/cl21">cl21</a> - An experimental project to move Common Lisp into the 21st century. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://common-lisp.net/project/alexandria/" rel="nofollow">alexandria</a> - A general-purpose utility library. Public domain.</li>
+<li><a href="https://github.com/TBRSS/serapeum/">serapeum</a> - Another general-purpose utility library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://common-lisp.net/project/anaphora/" rel="nofollow">anaphora</a> - A collection of anaphoric macros. Public domain.</li>
+<li><a href="https://github.com/tarballs-are-good/cl-algebraic-data-type">cl-algebraic-data-type</a> - A library for defining algebraic data types in a similar spirit to Haskell or ML. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://common-lisp.net/project/iterate/" rel="nofollow">iterate</a> - An iteration construct for Common Lisp which is extensible and Lispier. No license specified.</li>
+<li><a href="/CodyReichert/awesome-cl/blob/master/shinmera.github.io/for">for</a> - A concise, lispy and extensible
+iteration macro. Unlike loop it is extensible and sensible, and
+unlike iterate it does not require code-walking and is easier to
+extend. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/tokenrove/series/wiki">series</a> - Functional style without any runtime penalty at all. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/m2ym/optima">optima</a> - Optimized pattern-matching library. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/vindarel/cl-str">str</a> - a modern, simple and consistent string manipulation library. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/m2ym/trivial-types">trivial-types</a> - Trivial type definitions. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://bitbucket.org/tarballs_are_good/interface" rel="nofollow">interface</a> - A protocol library. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/m2ym/cl-syntax">cl-syntax</a> - Reader syntax conventions. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="http://www.cliki.net/cl-2dsyntax" rel="nofollow">cl-2dsyntax</a> - An indentation-sensitive reader system. Not available on Quicklisp. No license specified.</li>
+<li><a href="https://github.com/m2ym/cl-annot">cl-annot</a> - Python-like annotations for Common Lisp. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="http://www.cliki.net/cl-interpol" rel="nofollow">cl-interpol</a> - A set of reader modifications to allow string interpolation. No license specified.</li>
+<li><a href="https://shinmera.github.io/dissect" rel="nofollow">dissect</a> - when a lot of
+projects use the “trivial-backtrace” system that just gives them a
+string with a backtrace, Dissect allows you to capture, step, and
+completely inspect the stack trace on a variety of Lisp
+implementations. Also very useful for logging and other situations
+where execution is automatically continued, but the information of
+the current stack is still useful to store
+somewhere. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<h2><a id="user-content-clos-extensions" class="anchor" aria-hidden="true" href="#clos-extensions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CLOS extensions</h2>
+<ul>
+<li><a href="https://github.com/kennytilton/cells">Cells</a> - "an implementation of the dataflow programming paradigm", or "reactive spreadsheet-like expressiveness for CLOS". Used to build an <a href="http://tiltontec.com/" rel="nofollow">algebra learning system</a>. With <a href="https://github.com/stefano/cells-doc/">documentation</a>. Lisp LGPL.</li>
+<li><a href="http://cliki.net/closer-mop" rel="nofollow">closer-mop</a> - A compatibility layer that rectifies many absent or incorrect MOP features. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/EuAndreh/defclass-std">defclass-std</a> - a shortcut macro to write DEFCLASS forms quickly. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+</ul>
+<h2><a id="user-content-non-deterministic-logic-programming" class="anchor" aria-hidden="true" href="#non-deterministic-logic-programming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Non-deterministic, logic programming</h2>
+<ul>
+<li><a href="https://github.com/nikodemus/screamer">Screamer</a> - augment Common
+Lisp with practically all of the functionality of both Prolog and
+constraint logic programming
+languages. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>. <a href="https://github.com/ysz/screamer-plus">Screamer+</a> -
+increasing the expressiveness of
+SCREAMER. <a href="https://chriskohlhepp.wordpress.com/reasoning-systems/specification-driven-programming-in-common-lisp/" rel="nofollow">Blog post</a>
+solving Project Euler puzzles.</li>
+<li><a href="https://sjl.bitbucket.io/temperance/" rel="nofollow">Temperance</a> - logic programming. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>. A focus on performance, with General Game Playing in mind.</li>
+</ul>
+<h1><a id="user-content-learning-and-tutorials" class="anchor" aria-hidden="true" href="#learning-and-tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Learning and Tutorials</h1>
+<h2><a id="user-content-online" class="anchor" aria-hidden="true" href="#online"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Online</h2>
+<h2><a id="user-content-beginner" class="anchor" aria-hidden="true" href="#beginner"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Beginner</h2>
+<ul>
+<li><a href="https://learnxinyminutes.com/docs/common-lisp/" rel="nofollow">Learn X in Y minutes | Where X = Common Lisp</a> - Small Common Lisp tutorial covering the essentials.</li>
+<li><a href="http://www.gigamonkeys.com/book/" rel="nofollow">Practical Common Lisp</a> - A good introductory text to Common Lisp, with practical examples.</li>
+<li><a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/dst/www/LispBook/index.html" rel="nofollow">Common LISP: A Gentle Introduction to Symbolic Computation</a> - A nice introduction into the language.</li>
+<li><a href="http://www.tutorialspoint.com/lisp/index.htm" rel="nofollow">Learn LISP: Simply Easy Learning</a> - A good set of introductory tutorials; includes interactive examples.</li>
+<li><a href="https://www.psg.com/%7Edlamkins/sl/cover.html" rel="nofollow">Successful Lisp</a> - A good book for beginners with some programming background.</li>
+<li><a href="https://github.com/google/lisp-koans">Common Lisp Koans</a> - The project guides the learner progressively through many Common Lisp language features.</li>
+<li><a href="https://cs.gmu.edu/%7Esean/lisp/LispTutorial.html" rel="nofollow">Lisp Quickstart</a> - A good tutorial to get up and code Common Lisp quickly.</li>
+<li><a href="http://www.lisperati.com/casting.html" rel="nofollow">Casting SPELs in LISP</a> - A fun way to learn LISP while reading a comic book.</li>
+</ul>
+<h2><a id="user-content-intermediate" class="anchor" aria-hidden="true" href="#intermediate"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intermediate</h2>
+<ul>
+<li><a href="https://lispcookbook.github.io/cl-cookbook/" rel="nofollow">The Common Lisp Cookbook</a></li>
+<li><a href="http://lisptips.com/" rel="nofollow">Common Lisp tips</a> - A blog with useful tips and tricks.</li>
+<li><a href="https://cheryllium.wordpress.com/2014/02/22/commonqt-tutorial-1/" rel="nofollow">CommonQt tutorial</a> - A nice introduction to CommonQt.</li>
+<li><a href="https://arxiv.org/abs/1209.5626" rel="nofollow">A tutorial for creating and publishing open-source Common Lisp software</a> - A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp.</li>
+</ul>
+<h2><a id="user-content-advanced" class="anchor" aria-hidden="true" href="#advanced"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Advanced</h2>
+<ul>
+<li><a href="http://letoverlambda.com/" rel="nofollow">Let Over Lambda</a> - A book on advanced macro techniques. The first six chapters are available online.</li>
+<li><a href="http://www.paulgraham.com/onlisp.html" rel="nofollow">On Lisp</a> - Paul Graham's amazing book on Lisp macros (and other interesting things).</li>
+</ul>
+<h2><a id="user-content-reference" class="anchor" aria-hidden="true" href="#reference"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reference</h2>
+<ul>
+<li><a href="http://clqr.boundp.org/index.html" rel="nofollow">Common Lisp Quick Reference</a> - A distilled, pocket-size version of the ANSI CL spec. Available for download as a PDF.</li>
+<li><a href="http://www.lispworks.com/documentation/lw50/CLHS/Front/index.htm" rel="nofollow">CLHS</a> - The Common Lisp HyperSpec; the ANSI CL standard, in hypertext form.</li>
+<li><a href="https://clos-mop.hexstreamsoft.com/" rel="nofollow">CLOS MOP specification</a> - A modern public domain online version of chapters 5 and 6 of The Art of the Metaobject Protocol</li>
+<li><a href="http://cvberry.com/tech_writings/notes/common_lisp_standard_draft.html" rel="nofollow">Common Lisp Standard Draft</a> - The final draft of the Common Lisp specifications, in a well formatted PDF.</li>
+<li><a href="http://www.cs.cmu.edu/Groups/AI/html/cltl/cltl2.html" rel="nofollow">Common Lisp the Language</a> - The original standard for Common Lisp before the ANSI spec.</li>
+<li><a href="https://lamberta.github.io/minispec/" rel="nofollow">Minispec</a> - A friendlier, but less-complete, version of CLHS. Also contains documentation for some commonly-used CL libraries (such as Alexandria).</li>
+<li><a href="http://jtra.cz/stuff/lisp/sclr/index.html" rel="nofollow">Simplified Common Lisp reference</a> - The simplified version of CLHS.</li>
+<li><a href="http://quickdocs.org/" rel="nofollow">Quickdocs</a> - A reference for the libraries provided by Quicklisp.</li>
+</ul>
+<h2><a id="user-content-offline" class="anchor" aria-hidden="true" href="#offline"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Offline</h2>
+<h2><a id="user-content-beginner-1" class="anchor" aria-hidden="true" href="#beginner-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Beginner</h2>
+<ul>
+<li><a href="http://landoflisp.com/" rel="nofollow">Land of Lisp</a> - A fun, game-oriented introduction to Common Lisp.</li>
+<li><a href="http://www.gigamonkeys.com/book/" rel="nofollow">Practical Common Lisp</a> - A good introductory text to Common Lisp, with practical examples.</li>
+<li><a href="https://github.com/google/lisp-koans">Common Lisp Koans</a> - The project guides the learner progressively through many Common Lisp language features.</li>
+</ul>
+<h2><a id="user-content-intermediate-1" class="anchor" aria-hidden="true" href="#intermediate-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intermediate</h2>
+<ul>
+<li><a href="http://www.paulgraham.com/acl.html" rel="nofollow">ANSI Common Lisp</a> - A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to <a href="http://www.cs.northwestern.edu/academics/courses/325/readings/graham/graham-notes.html" rel="nofollow">some caveats</a>.</li>
+<li><a href="http://weitz.de/cl-recipes/" rel="nofollow">Common Lisp Recipes</a> - <strong>Common Lisp Recipes</strong> is a collection of solutions to problems and answers to questions you are likely to encounter when writing real-world applications in Common Lisp. Published in 2015.</li>
+</ul>
+<h2><a id="user-content-advanced-1" class="anchor" aria-hidden="true" href="#advanced-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Advanced</h2>
+<ul>
+<li><a href="http://letoverlambda.com/" rel="nofollow">Let Over Lambda</a> - A book on advanced macro techniques. All eight chapters are available in the print copy.</li>
+<li><a href="http://www.goodreads.com/book/show/1175730.Object_Oriented_Programming_in_Common_LISP" rel="nofollow">Object-Oriented Programming in Common Lisp: A Programmer's Guide to CLOS</a> - An old, but very thorough book on CLOS.</li>
+<li><a href="http://norvig.com/paip.html" rel="nofollow">Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp</a> - A book on programming AI that covers some advanced Lisp.</li>
+</ul>
+<h1><a id="user-content-library-manager" class="anchor" aria-hidden="true" href="#library-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Library Manager</h1>
+<ul>
+<li><a href="https://github.com/roswell/roswell">Roswell</a> - a Lisp implementation installer, script launcher and more. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/fukamachi/qlot">qlot</a> - A project-local library installer, similar to Bundler or Carton. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://www.quicklisp.org/beta/" rel="nofollow">Quicklisp</a> - A library manager containing many libraries, with easy depencency management. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/tarballs-are-good/quickutil">Quickutil</a> - A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/CodyReichert/qi">Qi</a> - A package manager with a traditionnal approach. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD</a>.</li>
+</ul>
+<p>might help:</p>
+<ul>
+<li><a href="https://github.com/vindarel/print-licenses">print-licenses</a> - print licenses used by a project and its dependencies. Not in Quicklips. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h3><a id="user-content-interfaces-to-other-package-managers" class="anchor" aria-hidden="true" href="#interfaces-to-other-package-managers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interfaces to other package managers</h3>
+<ul>
+<li><a href="https://github.com/can3p/cl-brewer">cl-brewer</a> - Homebrew formula builder for (command line) common lisp applications. Public domain.</li>
+<li><a href="https://github.com/ralt/qldeb">qldeb</a> -  Quicklisp systems to debian packages, along with <a href="https://github.com/ralt/deb-packager">deb-packager</a> (simply create a debian package by defining an s-expression) and an introductory <a href="http://margaine.com/2015/12/22/quicklisp-packagecloud-debian-packages.html" rel="nofollow">blog post</a>. Both <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/dimitri/ql-to-deb">ql-to-deb</a> -  Update cl-* debian packages from Quicklisp releases. WTFPL.</li>
+</ul>
+<h1><a id="user-content-machine-learning" class="anchor" aria-hidden="true" href="#machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h1>
+<ul>
+<li><a href="https://github.com/mmaul/clml">clml</a> - originally developped by Mathematicl Systems Inc., a Japanese company. With a <a href="https://mmaul.github.io/clml.tutorials//2015/08/08/CLML-Time-Series-Part-1.html" rel="nofollow">tutorial</a>. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/melisgl/mgl">mgl</a> - used by its <a href="http://quotenil.com/" rel="nofollow">author</a> to <a href="https://github.com/melisgl/higgsml">win</a> the Higgs Boson Machine Learning Challenge. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://www.common-lisp.net/project/antik/" rel="nofollow">antik</a> -  a foundation for scientific and engineering computation in Common Lisp. GPL. Also <a href="https://github.com/melisgl/mgl-mat">mgl-mat</a> and <a href="https://github.com/tpapp/lla">LLA</a>.</li>
+</ul>
+<p>Credit: <a href="http://borretti.me/article/common-lisp-sotu-2015#machine-learning" rel="nofollow">borretti.me' state of CL ecosystem 2015</a>.</p>
+<h1><a id="user-content-natural-language-processing" class="anchor" aria-hidden="true" href="#natural-language-processing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Natural Language Processing</h1>
+<ul>
+<li><a href="https://github.com/vseloved/cl-nlp">cl-nlp</a> - Natural language processing toolset. <a href="http://directory.fsf.org/wiki/License:Apache2.0" rel="nofollow">Apache2.0</a>.</li>
+<li><a href="http://emergent-languages.org/Babel2/" rel="nofollow">babel2</a> - A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism <a href="http://directory.fsf.org/wiki/License:Apache2.0" rel="nofollow">Apache2.0</a>.</li>
+</ul>
+<h1><a id="user-content-network-and-internet" class="anchor" aria-hidden="true" href="#network-and-internet"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Network and Internet</h1>
+<p>See <a href="http://www.cliki.net/Web" rel="nofollow">Cliki</a> for more.</p>
+<h2><a id="user-content-http-clients" class="anchor" aria-hidden="true" href="#http-clients"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTTP clients</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/dexador">Dexador</a> - An HTTP client, that aims at <a href="http://quickdocs.org/dexador/" rel="nofollow">replacing Drakma</a>. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-http-servers" class="anchor" aria-hidden="true" href="#http-servers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTTP Servers</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/clack">Clack</a> - A web application environment inspired by Rack and WSGI. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.  Provides a unified interface to a webserver of choice (default is Hunchentoot).</li>
+<li><a href="http://weitz.de/hunchentoot/" rel="nofollow">Hunchentoot</a> - A web server. <a href="https://opensource.org/licenses/bsd-license.php" rel="nofollow">2-clause BSD</a></li>
+<li><a href="https://github.com/franzinc/aserve">aserve</a> - AllegroServe; a web server. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/orthecreedence/wookie">wookie</a> - Asynchronous HTTP server. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/fukamachi/woo">woo</a> - A fast non-blocking HTTP server on top of libev. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h3><a id="user-content-clack-plugins" class="anchor" aria-hidden="true" href="#clack-plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Clack plugins</h3>
+<ul>
+<li><a href="https://github.com/eudoxia0/clack-errors">clack-errors</a> - Error page middleware for Clack. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/BnMcGn/clath">clath</a> - a single sign-on
+middleware for Clack. It allows basic login with OAuth1.0a, OAuth2
+and OpenID. At the time of writing, it supports authentication from
+Google, Twitter, LinkedIn, StackExchange, Reddit and Github. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Apache2.0</a>.</li>
+<li><a href="https://github.com/BnMcGn/clack-pretend">clack-pretend</a> - a testing
+and debugging tool for clack. <a href="http://directory.fsf.org/wiki/License:Apache2.0" rel="nofollow">Apache2.0</a>.</li>
+<li><a href="https://github.com/eudoxia0/hermetic">hermetic</a> - Security for Clack-based web applications. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+</ul>
+<h2><a id="user-content-web-frameworks" class="anchor" aria-hidden="true" href="#web-frameworks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web frameworks</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/caveman">Caveman</a> - A powerful web framework. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.
+Example projects: <a href="https://github.com/quickdocs">Quickdocs</a></li>
+<li><a href="https://github.com/hargettp/hh-web">hh-web</a> - Framework for building modern web apps. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/fukamachi/ningle">ningle</a> - A super-micro web framework. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>. <a href="https://github.com/defunkydrummer/ninglex">ninglex</a>, an extended and noob-friendly ningle (mostly easier handling of query parameters). <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/Shirakumo/radiance">radiance</a> - An extensible framework library and multi-application CMS. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/eudoxia0/lucerne">Lucerne</a> - A minimal web framework built on Clack, inspired by Flask. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/joaotavora/snooze">Snooze</a> - A RESTful web framework, built on Clack, where routes are just functions and HTTP conditions are just Lisp conditions. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+</ul>
+<p>There are more projects, more or less discontinued but interesting. See the other ressources.</p>
+<h2><a id="user-content-assets-management" class="anchor" aria-hidden="true" href="#assets-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assets management</h2>
+<ul>
+<li><a href="https://github.com/eudoxia0/rock">Rock</a> - an asset manager for
+Common Lisp. It's basically a combination of Bower and
+webassets. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-parsing-html" class="anchor" aria-hidden="true" href="#parsing-html"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parsing html</h2>
+<ul>
+<li><a href="https://github.com/orthecreedence/http-parse">http-parse</a> - An HTTP parser in Common Lisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/Shinmera/plump">Plump</a> - A lenient HTTP/XML parser, tolerand on malformed markup. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>. Best used with <a href="https://github.com/Shinmera/lquery">lquery</a> and <a href="https://github.com/Shinmera/CLSS">clss</a>.</li>
+</ul>
+<h2><a id="user-content-querying-htmldom" class="anchor" aria-hidden="true" href="#querying-htmldom"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Querying HTML/DOM</h2>
+<ul>
+<li><a href="https://github.com/Shinmera/lquery">lquery</a> - A jQuery-like HTML/DOM manipulation library. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<p>See also XML below.</p>
+<h2><a id="user-content-html-generators-and-templates" class="anchor" aria-hidden="true" href="#html-generators-and-templates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTML generators and templates</h2>
+<ul>
+<li><a href="http://weitz.de/cl-who/" rel="nofollow">cl-who</a> - An HTML generator. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/ruricolist/spinneret">spinneret</a> - Common Lisp HTML5 generator. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/arielnetworks/cl-markup">cl-markup</a> - Modern markup generation library. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/mmontone/djula">Djula</a> - A port of Django's template engine to Common Lisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/eudoxia0/eco">eco</a> - Fast, flexible, designer-friendly template engine. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+</ul>
+<h2><a id="user-content-uri-handling" class="anchor" aria-hidden="true" href="#uri-handling"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>URI handling</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/quri">quri</a> - Another URI library for
+Common Lisp. Supports userinfo, IPv6 hostname, encoding/decoding
+utilities,… <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD_3Clause</a>.</li>
+<li><a href="https://github.com/eugeneia/purl">purl</a> - Provides a parser and defines a type for URLs as specified in RFC1738. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>.</li>
+<li><a href="https://github.com/EuAndreh/cl-slug">cl-slug</a> - a small library to make slugs, mainly for URIs, transform in CamelCase, remove accentuation and punctuation, for english and beyound. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+</ul>
+<h2><a id="user-content-javascript-1" class="anchor" aria-hidden="true" href="#javascript-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Javascript</h2>
+<ul>
+<li><a href="https://github.com/vsedach/Parenscript">Parenscript</a> - A translator from Common Lisp to Javascript. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>. See <a href="https://github.com/johnmastro/trident-mode.el">Trident-mode</a>, an Emacs mode that provides live interaction with the browser.<a href="http://unlicense.org/" rel="nofollow">unlicence</a>.</li>
+<li><a href="http://marijnhaverbeke.nl/parse-js/" rel="nofollow">parse-js</a> - A package for parsing ECMAScript 3. <a href="http://directory.fsf.org/wiki/License:Zlib" rel="nofollow">zlib</a>.</li>
+<li><a href="https://github.com/jscl-project/jscl">JSCL</a> - A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop.</li>
+<li><a href="http://marijnhaverbeke.nl/cl-javascript/" rel="nofollow">CL-JavaScript</a> - A translator from Javascript to Common Lisp. Not available on Quicklisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/mtravers/wuwei/">Wuwei</a> - A toolkit to build Ajax-based web pages. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>. See also <a href="https://github.com/fare-patches/wuwei">this fork</a> for <a href="https://github.com/mtravers/wuwei/pull/16">these improvements</a>.</li>
+<li><a href="https://github.com/aarvid/SmackJack">SmackJack</a> - An Ajax Common Lisp Library using parenscript to generate javascript and hunchentoot (for now) as the web server. Also allows a server-side lisp function to call a client-side parenscript one. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/michaeljforster/panic">Panic</a>, a Parenscript library for React. Not in Quicklisp. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>. Its <a href="https://github.com/40ants/todomvc/blob/common-lisp-example/examples/common-lisp-react/src/app.lisp">TodoMVC example</a>.</li>
+</ul>
+<h2><a id="user-content-websockets" class="anchor" aria-hidden="true" href="#websockets"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Websockets</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/websocket-driver">websocket-driver</a> - a WebSocket server/client implementation, backend agnostic (Clack). <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+</ul>
+<p>See more <a href="http://www.cliki.net/site/search?query=websockets" rel="nofollow">on cliki</a>.</p>
+<h2><a id="user-content-static-site-generators" class="anchor" aria-hidden="true" href="#static-site-generators"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Static site generators</h2>
+<ul>
+<li><a href="https://github.com/kingcons/coleslaw">coleslaw</a> and its
+<a href="https://github.com/40ants/coleslaw-cli">coleslaw-cli</a> - Flexible
+Lisp Blogware similar to Frog, Jekyll, or Hakyll. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD</a>.</li>
+</ul>
+<h2><a id="user-content-third-party-apis" class="anchor" aria-hidden="true" href="#third-party-apis"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Third-party APIs</h2>
+<ul>
+<li><a href="https://github.com/rotatef/aws-sign4">Aws-sign4</a> - Common Lisp library for Amazon Web Services signing version 4. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>.</li>
+<li><a href="https://shinmera.github.io/north" rel="nofollow">north</a> - The successor to the
+South (Simple OaUTH) library, implementing the full oAuth 1.0a
+protocol, both client and server sides. Using North you can easily
+become an oAuth provider or consumer. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/eudoxia0/avatar-api">avatar-api</a> - Get avatars from Google+, Gravatar and others. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/Shinmera/chirp">chirp</a> - A Twitter client library. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://www.common-lisp.net/project/cl-irc/" rel="nofollow">cl-irc</a> - An IRC client library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/AccelerationNet/cl-mediawiki">cl-mediawiki</a> - a wrapper around the MediaWiki api. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://common-lisp.net/project/cl-openid/darcs/cl-openid/" rel="nofollow">cl-openid</a> - An implementation of OpenID. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/TeMPOraL/cl-pushover">cl-pushover</a> -  Common Lisp bindings to Pushover. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/CodyReichert/cl-ses/">cl-ses</a> - Library for AWS SES. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/Shinmera/humbler">humbler</a> - A Tumblr API interface. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<h2><a id="user-content-others" class="anchor" aria-hidden="true" href="#others"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Others</h2>
+<ul>
+<li><a href="https://github.com/archimag/cl-closure-template">cl-closure-template</a> - Implementation of Google's Closure templates. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/Shinmera/colleen">colleen</a> - IRC bot with a modular framework. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/paddymul/css-lite">css-lite</a> - A CSS grammar. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/eudoxia0/find-port">find-port</a> -  Programmatically find open ports. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/mmontone/cl-forms">Cl-forms</a> -  Web forms handling library for Common lisp. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/eudoxia0/postmaster">Postmaster</a> - A simple, easy-to-use SMTP/IMAP library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/TatriX/cl-selenium-webdriver/">cl-selenium-webdriver</a> - a binding library to Selenium 2.0.</li>
+<li><a href="https://github.com/usocket/usocket">usocket</a> - A portable TCP and UDP socket interface. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+</ul>
+<h1><a id="user-content-numerical-and-scientific" class="anchor" aria-hidden="true" href="#numerical-and-scientific"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Numerical and Scientific</h1>
+<ul>
+<li><a href="https://github.com/tkych/cl-spark">cl-spark</a> - Generates sparkline strings for lists of numbers. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://common-lisp.net/project/gsll/" rel="nofollow">GSLL</a> - GNU Scientific Library for Lisp; allows the use of the GSL from Common Lisp. <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" rel="nofollow">GNU LGPL2.1</a>.</li>
+<li><a href="https://github.com/blindglobe/common-lisp-stat/">common-lisp-stat</a> - Common Lisp statistics library. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/rigetticomputing/magicl">magicl</a> - Matrix Algebra proGrams In Common Lisp based on BLAS/LAPACK and Expokit, by Rigetti Computing. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD_3Clause</a>.</li>
+<li><a href="http://maxima.sourceforge.net/" rel="nofollow">maxima</a> - Computer algebra system. Not available on Quicklisp. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>.</li>
+<li><a href="https://github.com/blindglobe/lisp-matrix">lisp-matrix</a> - A matrix package. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://shinmera.github.io/3d-matrices" rel="nofollow">3-matrices</a> - A library implementing
+common matrix calculations, with an emphasis on 2x2,3x3, and 4x4
+matrices as commonly used in graphics. It provides some numerical
+functions as well, but those are not the focus. The library is
+heavily optimised, so it is not made of pretty
+code. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<h1><a id="user-content-parallelism-and-concurrency" class="anchor" aria-hidden="true" href="#parallelism-and-concurrency"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parallelism and Concurrency</h1>
+<ul>
+<li><a href="https://common-lisp.net/project/bordeaux-threads/" rel="nofollow">BordeauxThreads</a> - Portable, shared-state concurrency. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/zkat/chanl">chanl</a> - Portable, channel-based concurrency. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>, with parts under <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/orthecreedence/cl-async">cl-async</a> - A library for general-purpose, non-blocking programming. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/eugeneia/erlangen">erlangen</a> - Distributed, asynchronous message passing system for Clozure Common Lisp. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>. See also the <a href="https://github.com/aarvid/Actors">Actors</a> package for LispWorks (<a href="https://www.reddit.com/r/Common_Lisp/comments/77vsft/david_mcclains_actors_package_for_lispworks/" rel="nofollow">discussion</a>) <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/fukamachi/lesque">lesque</a> - A clone of Resque. Not available on Quicklisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/lmj/lparallel">lparallel</a> - A library for parallel programming. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/pkhuong/Xecto">Xecto</a> - A library for regular array parallelism. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/TBRSS/moira">Moira</a> -  Monitor and restart background threads. In-lisp process supervisor. No license specified.</li>
+<li><a href="https://github.com/Shinmera/simple-tasks">simple-tasks</a> - A very
+simple task scheduling framework. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/Shinmera/deeds">deeds</a> - Deeds is an Extensible
+Event Delivery System. It allows for efficient event delivery to
+multiple handlers with a complex event filtering
+system. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/borodust/cl-flow/">cl-flow</a> -  Data-flowish computation tree library for non-blocking concurrent Common Lisp. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-job-processing" class="anchor" aria-hidden="true" href="#job-processing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Job processing</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/psychiq">psychiq</a> - redis-based background job processing for Common Lisp applications. Inspired by Ruby's Sidekiq and compatible with its web UI. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+</ul>
+<h1><a id="user-content-regex" class="anchor" aria-hidden="true" href="#regex"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Regex</h1>
+<ul>
+<li><a href="http://weitz.de/cl-ppcre/" rel="nofollow">cl-ppcre</a> - Portable, Perl-compatible regular expressions. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+</ul>
+<h1><a id="user-content-scripting" class="anchor" aria-hidden="true" href="#scripting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scripting</h1>
+<ul>
+<li><a href="https://github.com/roswell/roswell#scripting-with-roswell">Roswell</a> -
+a lisp installer and scripting environment (helper, launcher,
+installer) and more. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/fukamachi/shelly">Shelly</a> - execute Common Lisp
+functions like a shell command, without the need to write a command
+line arguments parser. And it also can be used as a Make-like
+build-tool. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/vindarel/cl-readline">cl-readline</a> - a set of
+functions to edit lines as they are typed in, to maintain a list of
+previously-entered command lines, to recall and reedit them and
+perform csh-like history expansion.  Emacs and vi editing
+modes. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>.</li>
+<li><a href="https://github.com/mrkkrp/unix-opts">Unix-opts</a> - a command line
+options parser with a concise declaration of options. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/didierverna/clon">CLON</a> - Command Line Options
+Nuker. <a href="https://github.com/didierverna/clon/blob/master/LICENSE">ISC</a>.</li>
+<li><a href="https://github.com/vindarel/cl-ansi-term">cl-ansi-term</a> - print
+colorized text, horizontal lines, progress bars, (un)ordered lists
+and tables on ANSI-compliant terminals. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>.</li>
+<li><a href="https://github.com/HiTECNOLOGYs/cl-charms">cl-charms</a> - an
+interface to <code>libcurses</code> in Common Lisp. It provides both a raw,
+low-level interface to libcurses via CFFI, and a more higher-level
+lispier interface. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/Shinmera/deploy">Deploy</a> - a system to help you
+easily and quickly deploy standalone common lisp applications as
+binaries. Specifically it is geared towards applications with
+foreign library dependencies that run some kind of
+GUI. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<h1><a id="user-content-text-editor-resources" class="anchor" aria-hidden="true" href="#text-editor-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Text Editor Resources</h1>
+<p>This contains plugins and other goodies for various text editors.</p>
+<ul>
+<li><a href="https://shaunlebron.github.io/parinfer/" rel="nofollow">Parinfer</a> - Parinfer is a way to edit lisp code that helps to keep both the indentation and the parenthesis balanced. It is easy to start with and yet it offers advanced features à la Paredit. It is available on many editors (Emacs, Vim, Neovim, Atom, Sublime Text, Visual Studio Code, LightTable, CodeMirror,…).</li>
+</ul>
+<h2><a id="user-content-emacs" class="anchor" aria-hidden="true" href="#emacs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emacs</h2>
+<ul>
+<li><a href="https://github.com/slime/slime">Slime</a> - Superior Lisp Interaction Mode for Emacs; a full-blown environment for Common Lisp inside of Emacs. Public domain.</li>
+<li><a href="https://github.com/joaotavora/sly">Sly</a> - SLY is a fork of SLIME and contains multiple improvements upon it.</li>
+<li><a href="https://shinmera.github.io/portacle/" rel="nofollow">Portacle</a> - A portable and multiplatform Common Lisp environment: SBCL, Quicklisp, Emacs, Slime, Git.</li>
+<li><a href="https://hub.docker.com/r/eshamster/cl-devel2/" rel="nofollow">cl-devel2</a> - a Docker container for Common Lisp development environment. Ships SBCL, CCL, Roswell and Emacs25 with Slime.</li>
+</ul>
+<h2><a id="user-content-vim" class="anchor" aria-hidden="true" href="#vim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vim</h2>
+<ul>
+<li><a href="https://github.com/kovisoft/slimv">SLIMV</a> - Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified.</li>
+<li><a href="https://github.com/l04m33/vlime">Vlime</a> - VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-lem" class="anchor" aria-hidden="true" href="#lem"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lem</h2>
+<ul>
+<li><a href="https://github.com/cxxxr/lem">Lem</a> - a ready to use, Emacs-like, Slime-based
+editor tailored for Common Lisp development. Ncurses and Electron interfaces. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-atom" class="anchor" aria-hidden="true" href="#atom"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Atom</h2>
+<ul>
+<li><a href="https://atom.io/packages/atom-slime" rel="nofollow">ATOM-SLIME</a> allows you to
+interactively develop Common Lisp code, helping turn Atom into a
+full-featured Lisp IDE. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-sublime-text" class="anchor" aria-hidden="true" href="#sublime-text"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sublime Text</h2>
+<ul>
+<li><a href="http://www.sublimetext.com/3" rel="nofollow">Sublime Text</a> has Common Lisp support
+with its "SublimeREPL" package. [Proprietary].</li>
+</ul>
+<h2><a id="user-content-notebooks" class="anchor" aria-hidden="true" href="#notebooks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notebooks</h2>
+<ul>
+<li><a href="https://github.com/fredokun/cl-jupyter">cl-jupyter</a> - A Common Lisp kernel for Jupyter notebooks <a href="https://github.com/fredokun/cl-jupyter/blob/master/LICENSE">custom licence</a>.</li>
+<li><a href="https://github.com/tamamu/darkmatter">Darkmatter</a> - A
+notebook-style Common Lisp environment. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-repls" class="anchor" aria-hidden="true" href="#repls"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>REPLs</h2>
+<ul>
+<li><a href="https://github.com/koji-kojiro/cl-repl">cl-repl</a> - an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>. With <a href="https://github.com/koji-kojiro/lem-pygments-colorthemes">colorthemes</a>.</li>
+</ul>
+<h1><a id="user-content-text-processing" class="anchor" aria-hidden="true" href="#text-processing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Text Processing</h1>
+<ul>
+<li><a href="https://github.com/sharplispers/montezuma/">montezuma</a> -  Full-text indexing and search for Common Lisp. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/cbaggers/mk-string-metrics">mk-string-metrics</a> -
+Calculate various string metrics efficiently in Common Lisp
+(Damerau-Levenshtein, Hamming, Jaro, Jaro-Winkler, Levenshtein,
+etc). <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/jech/cl-yacc">cl-yacc</a> - a LALR(1) parser generator. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h1><a id="user-content-tools" class="anchor" aria-hidden="true" href="#tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tools</h1>
+<p>These are applications or bits of code that make development in Common Lisp easier without being Common Lisp libraries themselves.</p>
+<ul>
+<li><a href="https://github.com/triclops200/quickapp">quickapp</a> - A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/triclops200/quickapp-cli">quickapp-cli</a> - <a href="https://github.com/triclops200/quickapp">quickapp</a> as a command-line utility. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/tkych/quicksearch">quicksearch</a> - Look up online libraries from the REPL. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="http://www.swig.org/" rel="nofollow">SWIG</a> - A tool for generating FFI code from C/C++ header files. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>.</li>
+<li><a href="https://github.com/fukamachi/cl-project">cl-project</a> - General modern project skeletons. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/takagi/lake">lake</a> - a GNU make like build utility. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h1><a id="user-content-unit-testing" class="anchor" aria-hidden="true" href="#unit-testing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unit Testing</h1>
+<ul>
+<li><a href="https://github.com/sionescu/fiveam">FiveAM</a> - Simple regression testing framework. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/tgutu/clunit">CLUnit</a> - A unit testing library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/fukamachi/prove">Prove</a> - Yet another unit testing framework <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/Shinmera/parachute">Parachute</a> - An extensible
+and cross-compatible testing framework. With test dependencies,
+conditions, fixtures and restarts. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/Chream/mockingbird">Mockingbird</a> - A small
+stubbing and mocking library for Common Lisp. Can also check wether
+a stubbed function was called, how many times and with which
+arguments. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/DalekBaldwin/check-it">Check-it</a> - A QuickCheck-style randomized property-based testing. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/fukamachi/cl-coveralls">cl-coveralls</a> - a helper
+library to post test coverage to Coveralls. See
+<a href="http://lisp-lang.org/learn/continuous-integration" rel="nofollow">continuous-integration on lisp-lang.org</a>
+and
+<a href="http://www.sbcl.org/manual/index.html#sb_002dcover" rel="nofollow">SBCL's code coverage tool</a>. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+</ul>
+<h1><a id="user-content-utilities" class="anchor" aria-hidden="true" href="#utilities"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Utilities</h1>
+<h2><a id="user-content-caching" class="anchor" aria-hidden="true" href="#caching"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Caching</h2>
+<ul>
+<li><a href="https://github.com/html/clache">clache</a> - General caching facility. No license specified.</li>
+</ul>
+<h2><a id="user-content-configuration" class="anchor" aria-hidden="true" href="#configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/envy">envy</a> - Configuration switcher. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://common-lisp.net/project/py-configparser/" rel="nofollow">py-configparser</a> - reads and writes Python's ConfigParser-like configuration files. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-csv" class="anchor" aria-hidden="true" href="#csv"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSV</h2>
+<ul>
+<li><a href="https://github.com/AccelerationNet/cl-csv">cl-csv</a> - A library for parsing CSV files. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+</ul>
+<h2><a id="user-content-date-and-time" class="anchor" aria-hidden="true" href="#date-and-time"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Date and time</h2>
+<ul>
+<li><a href="https://common-lisp.net/project/local-time/" rel="nofollow">localtime</a> - A development library for manipulating date and time information in a semi-standard manner. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/chaitanyagupta/chronicity">chronicity</a> - A natural language date and time parse, to parse strings like "3 days from now". <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD_3Clause</a>.</li>
+</ul>
+<h2><a id="user-content-data-validation" class="anchor" aria-hidden="true" href="#data-validation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data validation</h2>
+<ul>
+<li><a href="https://github.com/Shinmera/ratify">ratify</a> - A collection of utilities to ratify, validate and parse inputs. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<h2><a id="user-content-documentation-builders" class="anchor" aria-hidden="true" href="#documentation-builders"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation builders</h2>
+<ul>
+<li><a href="https://github.com/russell/sphinxcontrib-cldomain">sphinxcontrib-cldomain</a> -
+Extending Sphinx to cover Common Lisp. To build documentation with
+the same ease as sphinx would a Python project. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a></li>
+<li><a href="https://github.com/CommonDoc/codex">Codex</a> - A beautiful
+documentation system for Common Lisp. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/Shinmera/staple">Staple</a> - a tool to generate
+documentation pages using an HTML template. Uses the existing
+README, adds docstrings, crossreferences and links to the
+CLHS. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">ArtisticLicense2.0</a>.</li>
+</ul>
+<h2><a id="user-content-files-and-directories" class="anchor" aria-hidden="true" href="#files-and-directories"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Files and directories</h2>
+<ul>
+<li><a href="http://quickdocs.org/uiop/" rel="nofollow">uiop</a> and its <code>pathname</code> package
+(replaces <a href="http://weitz.de/cl-fad/" rel="nofollow">cl-fad</a>). uiop is part of ASDF3
+and as thus is shipped in many implementations. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://common-lisp.net/project/osicat/" rel="nofollow">osicat</a> - A lightweight operating system interface on POSIX-like systems (directory iteration and deletion, environment variables, file permissions, etc) <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/Shinmera/pathname-utils">pathname-utils</a> - A
+collection of utilities to help with pathname
+operations. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="https://github.com/froydnj/archive">archive</a> - a library for reading and creating archive (tar, cpio) files. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">BSD_3Clause</a>. A pure Common Lisp replacement for the 'tar' program.</li>
+</ul>
+<h2><a id="user-content-git" class="anchor" aria-hidden="true" href="#git"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git</h2>
+<ul>
+<li><a href="https://shinmera.github.io/legit/" rel="nofollow">legit</a> - an interface to the Git
+binary. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+</ul>
+<h2><a id="user-content-i18n" class="anchor" aria-hidden="true" href="#i18n"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>i18n</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/cl-locale">cl-locale</a> - A simple i18n library. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+</ul>
+<h2><a id="user-content-linting" class="anchor" aria-hidden="true" href="#linting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Linting</h2>
+<ul>
+<li><a href="https://github.com/fukamachi/sblint">sblint</a> - a linter for Common
+Lisp source code using SBCL, suited for Reviewdog (<a href="http://www.slideshare.net/fukamachi/sblint" rel="nofollow">slides</a>). <a href="https://directory.fsf.org/wiki/License:BSD_2Clause" rel="nofollow">BSD_2Clause</a>.</li>
+</ul>
+<h2><a id="user-content-logging" class="anchor" aria-hidden="true" href="#logging"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logging</h2>
+<ul>
+<li><a href="https://github.com/7max/log4cl">log4cl</a> - Logging framework modelled after Log4J. <a href="http://directory.fsf.org/wiki/License:Apache2.0" rel="nofollow">Apache2.0</a>. Advanced integration with Slime.</li>
+</ul>
+<p>To third parties:</p>
+<ul>
+<li><a href="https://github.com/fukamachi/cl-fluent-logger">cl-fluent-logger</a> - A Common Lisp structured logger for <a href="https://www.fluentd.org/" rel="nofollow">Fluentd</a>.</li>
+</ul>
+<h2><a id="user-content-markdown" class="anchor" aria-hidden="true" href="#markdown"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Markdown</h2>
+<ul>
+<li><a href="https://github.com/3b/3bmd">3bmd</a> - a markdown -&gt; html converter. <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+</ul>
+<h2><a id="user-content-plotting" class="anchor" aria-hidden="true" href="#plotting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Plotting</h2>
+<ul>
+<li><a href="https://github.com/volkers/vgplot">vgplot</a> - an interface to the
+gnuplot plotting utility with the intention to resemble some of
+the plot commands of octave or matlab. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GPL3</a>.</li>
+<li><a href="https://github.com/guicho271828/eazy-gnuplot">eazy-gnuplot</a> - a
+lispy, structure-less Gnuplot library. With its
+<a href="http://guicho271828.github.io/eazy-gnuplot/" rel="nofollow">cookbook</a>. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a></li>
+</ul>
+<h2><a id="user-content-other" class="anchor" aria-hidden="true" href="#other"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other</h2>
+<p>This contains anything which doesn't fit into another category.</p>
+<ul>
+<li><a href="https://github.com/cl-babel/babel">babel</a> - A charset encoding/decoding library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/froydnj/chipz">chipz</a> - A decompression library. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/takagi/cl-cuda">cl-cuda</a> - A library to use NVIDIA CUDA in Common Lisp programs. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/eudoxia0/corona">corona</a> -  Create and manage virtual machines from Common Lisp <a href="http://eudoxia.me/corona" rel="nofollow">http://eudoxia.me/corona</a> <a href="https://opensource.org/licenses/MIT" rel="nofollow">MIT</a>.</li>
+<li><a href="https://github.com/nikodemus/esrap">esrap</a> - Packrat parser. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/rpav/fast-io">fast-io</a> - Fast octet-vector/stream I/O. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/ahungry/glyphs/">glyphs</a> - A library for cutting down the verboseness of Common Lisp in places. <a href="http://www.gnu.org/copyleft/gpl.html" rel="nofollow">GNU GPL3</a>.</li>
+<li><a href="https://github.com/sionescu/iolib">iolib</a> - I/O library. <a href="http://directory.fsf.org/wiki/License:Expat" rel="nofollow">Expat</a>.</li>
+<li><a href="https://github.com/ahefner/mixalot">mixalot</a> - A loosely-coupled collection of audio libraries. No license specified.</li>
+<li><a href="https://github.com/melisgl/named-readtables">named-readtables</a> - Provides a readtable namespace, akin to package namespaces. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="http://github.com/nEXT-Browser/nEXT">nEXT-Browser</a> - A productivity focused, extensible/programmable web browser. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="http://www.xach.com/lisp/salza2/" rel="nofollow">Salza2</a> - A library for creating compressed data. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://github.com/a0-prw/simple-currency">simple-currency</a> - A currency conversion library using daily information published by the ECB. <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" rel="nofollow">FreeBSD</a>.</li>
+<li><a href="https://bitbucket.org/tarballs_are_good/template" rel="nofollow">template</a> - A library for templates and functions, similar to C++. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="http://mr.gy/software/texp/" rel="nofollow">texp</a> - A DSL to generate TeX. No license specified.</li>
+<li><a href="https://github.com/Shinmera/trivial-benchmark">trivial-benchmark</a> - Tiny benchmarking library. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic Licence 2.0</a>.</li>
+<li><a href="https://github.com/trivial-garbage/trivial-garbage">trivial-garbage</a> - A portable finalizer, weak hash-table and weak pointer API. Public domain.</li>
+<li><a href="https://common-lisp.net/project/trivial-utf-8/" rel="nofollow">trivial-utf8</a> - A small library for doing UTF-8-based I/O. Not available on Quicklisp. No license specified.</li>
+</ul>
+<h1><a id="user-content-xml" class="anchor" aria-hidden="true" href="#xml"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XML</h1>
+<ul>
+<li><a href="https://common-lisp.net/project/cxml/" rel="nofollow">CXML</a> - XML parser, with a range of extension libraries. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="https://github.com/Shinmera/plump">Plump</a> - A lenient XML parser. <a href="http://directory.fsf.org/wiki/License:ArtisticLicense2.0" rel="nofollow">Artistic License 2.0</a>.</li>
+<li><a href="http://cliki.net/S-XML" rel="nofollow">s-xml</a> - A basic parser. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a>.</li>
+<li><a href="http://quickdocs.org/xmls/" rel="nofollow">xmls</a> - A small, simple, non-validating XML parser. <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" rel="nofollow">3-clause BSD</a>.</li>
+<li><a href="https://github.com/TBRSS/cl-feedparser">cl-feedparser</a> - A Common Lisp (RSS, Atom) feed parser. <a href="http://opensource.franz.com/preamble.html" rel="nofollow">LLGPL</a></li>
+</ul>
+<h1><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h1>
+<p>Your contributions are always welcome! Please submit a pull request or create
+an issue to add a new framework, library or software to the list.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.23414s from unicorn-3751571531-xkgn8">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

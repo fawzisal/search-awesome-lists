@@ -1,0 +1,284 @@
+   #GitHub
+   [https://github.com/addyosmani/critical-path-css-tools/commits/master.a
+   tom]Recent Commits to critical-path-css-tools:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   [file://localhost/login?return_to=%2Faddyosmani%2Fcritical-path-css-too
+   ls]Sign in or Sign up
+
+     * Watch
+       59
+     * [file://localhost/login?return_to=%2Faddyosmani%2Fcritical-path-css
+       -tools]Star
+       961
+     * Fork
+       41
+
+critical-path-css-tools
+
+   Issues 4
+   Pull
+   requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   Tools to prioritize above-the-fold (critical-path) CSS
+     * [file://localhost/addyosmani/critical-path-css-tools/commits/master
+       ]30 commits
+     * 1
+       branch
+     * 0
+       releases
+     * [file://localhost/addyosmani/critical-path-css-tools/graphs/contrib
+       utors]6 contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/a
+   Download ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find
+   file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/critical-path
+       -css-tools]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/critical-path
+       -css-tools]Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Latest commit
+   [file://localhost/addyosmani/critical-path-css-tools/commit/afb78a5a191
+   fcbf10790c9b101f41ff9b8538012]afb78a5 Feb 27, 2016
+   @addyosmani
+   addyosmani committed Feb 27, 2016
+   Merge pull request
+   [https://github.com/addyosmani/critical-path-css-tools/pull/9]#9
+   [file://localhost/addyosmani/critical-path-css-tools/commit/afb78a5a191
+   fcbf10790c9b101f41ff9b8538012]from koistya/patch-1 (BUTTON) ...
+Add isomorphic-style-loader
+
+   [file://localhost/addyosmani/critical-path-css-tools/tree/afb78a5a191fc
+   bf10790c9b101f41ff9b8538012]Permalink
+   Failed to load latest commit information.
+   README.md
+   Merge pull request
+   [https://github.com/addyosmani/critical-path-css-tools/pull/9]#9
+   [file://localhost/addyosmani/critical-path-css-tools/commit/afb78a5a191
+   fcbf10790c9b101f41ff9b8538012]from koistya/patch-1 Feb 26, 2016
+
+README.md
+
+Awesome
+
+     Tools to help prioritize above-the-fold CSS
+
+Prioritize above-the-fold content first.
+
+   For best performance, PageSpeed Insights
+   [https://developers.google.com/speed/docs/insights/PrioritizeVisibleCon
+   tent]recommends inlining the critical (above-the-fold) CSS of your page
+   directly into your HTML. This eliminates additional roundtrips and
+   allows the browser to paint the above-fold experience to your user's
+   screen sooner. The main idea is:
+     * Determine the above-the-fold styles for a page and write them
+       between <style> tags in the head.
+     * Load all other stylesheets in the footer, ideally asynchronously.
+
+   The following is a list of tools to help generate, inline and report on
+   critical-path CSS.
+
+Node modules
+
+     * [https://github.com/pocketjoso/penthouse]Penthouse - by Jonas
+       Ohlsson generates critical-path CSS
+     * [https://github.com/addyosmani/critical]Critical - by Addy Osmani
+       generates & inlines critical-path CSS (uses Penthouse,
+       [https://github.com/addyosmani/oust]Oust and inline-styles)
+     * [https://github.com/filamentgroup/criticalcss]CriticalCSS - by
+       FilamentGroup finds & outputs critical CSS
+
+Server-side modules
+
+     * [https://github.com/pagespeed/mod_pagespeed]mod_pagespeed - Apache
+       module for automatic PageSpeed optimization
+     * [https://github.com/pagespeed/ngx_pagespeed]ngx_pagespeed - Nginx
+       module for automatic PageSpeed optimization
+
+Grunt tasks
+
+     * [https://github.com/fatso83/grunt-penthouse]grunt-penthouse
+     * [https://github.com/filamentgroup/grunt-criticalcss]grunt-critical-
+       css
+     * [https://github.com/bezoerb/grunt-critical]grunt-critical
+
+CasperJS
+
+     * [https://github.com/ibrennan/critical-css-casperjs]critical-css-cas
+       perjs - CasperJS script to pull critical CSS information from pages
+
+PhantomJS
+
+     * [https://github.com/drdk/dr-css-inliner]dr-css-inliner - PhantomJS
+       script to inline above-the-fold CSS on a page.
+
+Inline sources (styles, scripts)
+
+     * [https://github.com/maxogden/inline-styles]inline-styles - by Max
+       Ogden, replaces <link> tags with inline <style> tags + inlines CSS
+       url() calls with data URIs
+     * [https://github.com/fmal/gulp-inline-source]gulp-inline-source - by
+       Filip Malinowski, replaces <link> tags with inline <style> tags,
+       and replaces <script src=""> tags with their inline content
+     * [https://github.com/bezoerb/inline-critical]inline-critical - by
+       Ben Zörb, inline critical path CSS and load existing stylesheets
+       with loadCSS
+     * [https://github.com/kriasoft/isomorphic-style-loader/]isomorphic-st
+       yle-loader for Webpack - allows to extract critical CSS for any
+       given page/screen in React apps and inline it into HTML during
+       server-side rendering (SSR). See
+       [https://github.com/kriasoft/react-starter-kit]React Starter Kit as
+       an example.
+
+Async load CSS
+
+   Async loading should be used to fetch the rest of your site-wide styles
+   after you've inlined your critical-path CSS.
+     * [https://github.com/filamentgroup/loadCSS]loadCSS - loads CSS
+       asynchronously using JS.
+       [https://gist.github.com/scottjehl/87176715419617ae6994]Research
+       that led to this is also available.
+     * [https://gist.github.com/matt-bailey/602b40c77a5d3381ff26]async &
+       conditional loading - POC script for loading CSS files
+       asynchronously and conditionally based on body tag classes
+     * [https://github.com/n0mad01/asyncLoader]asyncLoader - async
+       script/stylesheet loader
+     * [http://addyosmani.github.io/basket.js/]basket.js - async
+       script/resource loader with support for localStorage caching. Can
+       be [https://github.com/andrewwakeling/basket-css-example]extended
+       to load stylesheets.
+
+   Note: The Guardian currently also cache their global styles into
+   localStorage for subsequent page loads. More info in this
+   [https://gist.github.com/scottjehl/87176715419617ae6994]comment.
+
+Online tools
+
+     * [https://jonassebastianohlsson.com/criticalpathcssgenerator/]Pentho
+       use online
+
+Bookmarklets/Extensions
+
+     * [https://gist.github.com/PaulKinlan/6284142]Snippet by Paul Kinlan.
+       Patrick Hamann has an
+       [http://patrickhamann.com/workshops/performance/tasks/2_Critical_Pa
+       th/2_2.html]exercise using the snippet you can try out.
+     * [https://gist.github.com/scottjehl/b6129da04733e4e0f9a4]Snippet by
+       Scott Jehl
+     * [https://github.com/ndreckshage/CSSVacuum]CSSVacuum by ndreckshage
+
+Render-blocking issues detection
+
+     * [https://developers.google.com/speed/pagespeed/insights/]PageSpeed
+       Insights - Online tool that measures the performance of a page for
+       mobile devices and desktop devices. It fetches the url twice, once
+       with a mobile user-agent, and once with a desktop-user agent.
+     * [https://github.com/addyosmani/psi]PSI - Node module for PageSpeed
+       Insights reporting as part of your build process. Use directly with
+       Gulp or use
+       [https://github.com/jrcryer/grunt-pagespeed]grunt-pagespeed if a
+       Grunt user. For local testing, a write-up using this task and
+       [http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-loc
+       ally-testing/]ngrok is available.
+     * [https://chrome.google.com/webstore/detail/pagespeed-insights-by-go
+       o/gplegfbjlmmehdoakndmohflojccocli?hl=en]PageSpeed Insights
+       DevTools extension - Chrome extension for running PageSpeed tests
+       from inside the browser.
+     * [https://chrome.google.com/webstore/detail/pagespeed-insights-check
+       e/mkjmodmicmpjedhoekkmafdgpocdkbna?hl=en]PageSpeed Insights Checker
+       for mobile extension - checks Mobile PageSpeed score for every page
+       and gives you a handy preview.
+
+Supplementary tools
+
+     * [https://github.com/giakki/uncss]UnCSS removes unused CSS from
+       pages, allowing you to reduce the global CSS you may need to load
+       in for your site. Tasks are available for
+       [https://github.com/addyosmani/grunt-uncss]Grunt,
+       [https://github.com/ben-eb/gulp-uncss]Gulp and
+       [https://addyosmani.com/blog/removing-unused-css/]other build
+       tools.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Reload to refresh your session. You signed out in another tab or
+   window.
+   [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/critical-path-css
+   -tools]Reload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

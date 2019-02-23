@@ -1,0 +1,1339 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - MaximAbramchuck/awesome-interview-questions: A curated awesome list of lists of interview questions. Feel free to contribute!</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/5942002?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="MaximAbramchuck/awesome-interview-questions" /><meta property="og:url" content="https://github.com/MaximAbramchuck/awesome-interview-questions" /><meta property="og:description" content="awesome-interview-questions - :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: " />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E135:5D4F:312D018:58B078D:5AD2F6DA" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E135:5D4F:312D018:58B078D:5AD2F6DA" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="Y2ZhNTZiNjM0OWE5YTEzYTRmNGRmODJhOWExNDM3NjZlODUxYWNiZjYwYjhiY2JkYjUwMmE3MzFhMzc0MWQwZHx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTEzNTo1RDRGOjMxMkQwMTg6NThCMDc4RDo1QUQyRjZEQSIsInRpbWVzdGFtcCI6MTUyMzc3NTE5NSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="a69d43e6609f85d53cb8b6e9dbb2fca6f19d41ba">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/MaximAbramchuck/awesome-interview-questions/commits/master.atom" rel="alternate" title="Recent Commits to awesome-interview-questions:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-interview-questions - :octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ">
+  <meta name="go-import" content="github.com/MaximAbramchuck/awesome-interview-questions git https://github.com/MaximAbramchuck/awesome-interview-questions.git">
+
+  <meta name="octolytics-dimension-user_id" content="5942002" /><meta name="octolytics-dimension-user_login" content="MaximAbramchuck" /><meta name="octolytics-dimension-repository_id" content="47018239" /><meta name="octolytics-dimension-repository_nwo" content="MaximAbramchuck/awesome-interview-questions" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="47018239" /><meta name="octolytics-dimension-repository_network_root_nwo" content="MaximAbramchuck/awesome-interview-questions" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/MaximAbramchuck/awesome-interview-questions" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/MaximAbramchuck/awesome-interview-questions/search" data-unscoped-search-url="/search" action="/MaximAbramchuck/awesome-interview-questions/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/MaximAbramchuck/awesome-interview-questions">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2FMaximAbramchuck%2Fawesome-interview-questions" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2FMaximAbramchuck%2Fawesome-interview-questions"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/MaximAbramchuck/awesome-interview-questions/watchers"
+     aria-label="1055 users are watching this repository">
+    1,055
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FMaximAbramchuck%2Fawesome-interview-questions"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/MaximAbramchuck/awesome-interview-questions/stargazers"
+      aria-label="18650 users starred this repository">
+      18,650
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FMaximAbramchuck%2Fawesome-interview-questions"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/MaximAbramchuck/awesome-interview-questions/network" class="social-count"
+       aria-label="2243 users forked this repository">
+      2,243
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/MaximAbramchuck">MaximAbramchuck</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/MaximAbramchuck/awesome-interview-questions">awesome-interview-questions</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /MaximAbramchuck/awesome-interview-questions" href="/MaximAbramchuck/awesome-interview-questions">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /MaximAbramchuck/awesome-interview-questions/issues" href="/MaximAbramchuck/awesome-interview-questions/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /MaximAbramchuck/awesome-interview-questions/pulls" href="/MaximAbramchuck/awesome-interview-questions/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /MaximAbramchuck/awesome-interview-questions/projects" href="/MaximAbramchuck/awesome-interview-questions/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /MaximAbramchuck/awesome-interview-questions/pulse" href="/MaximAbramchuck/awesome-interview-questions/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ap+MYoGidDFpIl2hLdFsCn2g9aWEqVZyLsS7MRXgk8vtWwjiuEGB/S0GmBOW6qmH3Hsqs9ryZqxd4uZYHuS4IQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            
+<img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20" align="absmiddle"> A curated awesome list of lists of interview questions. Feel free to contribute! <g-emoji class="g-emoji" alias="mortar_board" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f393.png">🎓</g-emoji> 
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="https://github.com/GetStoryline/awesome-alexa">https://github.com/GetStoryline/aweso…</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/MaximAbramchuck/awesome-interview-questions/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesomeness" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesomeness">
+        awesomeness
+      </a>
+      <a href="/topics/interview-questions" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:interview-questions">
+        interview-questions
+      </a>
+      <a href="/topics/interviewing" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:interviewing">
+        interviewing
+      </a>
+      <a href="/topics/interview-practice" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:interview-practice">
+        interview-practice
+      </a>
+      <a href="/topics/ruby" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ruby">
+        ruby
+      </a>
+      <a href="/topics/javascript" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:javascript">
+        javascript
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/python-interview-questions" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:python-interview-questions">
+        python-interview-questions
+      </a>
+      <a href="/topics/rails-interview" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rails-interview">
+        rails-interview
+      </a>
+      <a href="/topics/javascript-interview-questions" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:javascript-interview-questions">
+        javascript-interview-questions
+      </a>
+      <a href="/topics/angularjs-interview-questions" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:angularjs-interview-questions">
+        angularjs-interview-questions
+      </a>
+      <a href="/topics/android-interview-questions" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:android-interview-questions">
+        android-interview-questions
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/MaximAbramchuck/awesome-interview-questions/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                214
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/MaximAbramchuck/awesome-interview-questions/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/MaximAbramchuck/awesome-interview-questions/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/MaximAbramchuck/awesome-interview-questions/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      69
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/MaximAbramchuck/awesome-interview-questions.git" aria-label="Clone this repository at https://github.com/MaximAbramchuck/awesome-interview-questions.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/MaximAbramchuck/awesome-interview-questions.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/MaximAbramchuck/awesome-interview-questions/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/MaximAbramchuck/awesome-interview-questions/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/MaximAbramchuck/awesome-interview-questions/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/MaximAbramchuck/awesome-interview-questions/tree-commit/9a91969011e8ff900b19e7c25675bfdd45a1e2bd" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/MaximAbramchuck/awesome-interview-questions/tree/9a91969011e8ff900b19e7c25675bfdd45a1e2bd">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-1fa72d6a6841176f1211f3361b7f037417127cbb" href="/MaximAbramchuck/awesome-interview-questions/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="added_new_resource_for_React.js_interview_questions
+
+Why needed?
+Toptal&#39;s interview questions regarding React.js framework depict a more
+accurate picture of what kind of questions are asked against this
+framework in real life." class="message" href="/MaximAbramchuck/awesome-interview-questions/commit/b67ad694ce363fff318dc6ca1a9aa248ade651a5">added_new_resource_for_React.js_interview_questions</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-20T19:14:38Z">Mar 20, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="awesome.md" id="729de64585ac6720012c616edc04c621-e1b173dce35e139edfa1976fb2c128593db74d55" href="/MaximAbramchuck/awesome-interview-questions/blob/master/awesome.md">awesome.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add awesomeness explanation" class="message" href="/MaximAbramchuck/awesome-interview-questions/commit/21bd18d6411be597bab3630f77036b72c41de58a">Add awesomeness explanation</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-11-28T10:02:36Z">Nov 28, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="contributing.md" id="cc4aac3e9be04e0413c9520f223b493c-803bec00414d432a597bd1ef5f1a7367a526761a" href="/MaximAbramchuck/awesome-interview-questions/blob/master/contributing.md">contributing.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove type in file" class="message" href="/MaximAbramchuck/awesome-interview-questions/commit/a2a08b11c222893a8f93f9451480ee0b07972514">Remove type in file</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-26T09:16:46Z">Oct 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="create-list.md" id="c267209d5a22a3e2849d6c35fa60f662-4c911ffffd40f34e7d51d0556aceb48bc4d5e066" href="/MaximAbramchuck/awesome-interview-questions/blob/master/create-list.md">create-list.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix link leading to another repo" class="message" href="/MaximAbramchuck/awesome-interview-questions/commit/8fd44bc5d7023039cc05a45d3418afd6cc36cb93">Fix link leading to another repo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-12-02T11:51:28Z">Dec 2, 2015</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-interviews-" class="anchor" aria-hidden="true" href="#awesome-interviews-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Interviews <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<blockquote>
+<p>A curated list of lists of technical interview questions.</p>
+</blockquote>
+<p><a href="/MaximAbramchuck/awesome-interview-questions/blob/master/awesome.md">What makes for an awesome list?</a></p>
+<p>Please read the <a href="/MaximAbramchuck/awesome-interview-questions/blob/master/contributing.md">contribution guidelines</a> or the <a href="/MaximAbramchuck/awesome-interview-questions/blob/master/create-list.md">creating a list guide</a> if you want to contribute.</p>
+<p><strong>Check out my <a href="https://t.me/botcube" rel="nofollow">channel</a> or <a href="https://medium.com/@MaximAbramchuk" rel="nofollow">blog</a>.</strong></p>
+<h3><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h3>
+<ul>
+<li>
+<p><a href="#programming-languagesframeworksplatforms">Programming Languages/Frameworks/Platforms</a></p>
+<ul>
+<li><a href="#android">Android</a></li>
+<li><a href="#angularjs">AngularJS</a></li>
+<li><a href="#backbonejs">BackboneJS</a></li>
+<li><a href="#c">C++</a></li>
+<li><a href="#c-1">C</a></li>
+<li><a href="#c-2">C♯</a></li>
+<li><a href="#net">.NET</a></li>
+<li><a href="#clojure">Clojure</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#django">Django</a></li>
+<li><a href="#emberjs">EmberJS</a></li>
+<li><a href="#erlang">Erlang</a></li>
+<li><a href="#golang">Golang</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#ionic">Ionic</a></li>
+<li><a href="#ios">iOS</a></li>
+<li><a href="#java">Java</a></li>
+<li><a href="#javascript">JavaScript</a></li>
+<li><a href="#front-end-build-tools">Front-end build tools</a></li>
+<li><a href="#knockoutjs">KnockoutJS</a></li>
+<li><a href="#less">Less</a></li>
+<li><a href="#lisp">Lisp</a></li>
+<li><a href="#nodejs">NodeJS</a></li>
+<li><a href="#objective-c">Objective-C</a></li>
+<li><a href="#php">PHP</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#reactjs">ReactJS</a></li>
+<li><a href="#ruby-on-rails">Rails</a></li>
+<li><a href="#ruby">Ruby</a></li>
+<li><a href="#sass">Sass</a></li>
+<li><a href="#scala">Scala</a></li>
+<li><a href="#shell">Shell</a></li>
+<li><a href="#swift">Swift</a></li>
+<li><a href="#wordpress">Wordpress</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#database-technologies">Database technologies</a></p>
+<ul>
+<li><a href="#cassandra">Cassandra</a></li>
+<li><a href="#microsoft-access">Microsoft Access</a></li>
+<li><a href="#mongodb">MongoDB</a></li>
+<li><a href="#mysql">MySQL</a></li>
+<li><a href="#neo4j">Neo4j</a></li>
+<li><a href="#oracle">Oracle</a></li>
+<li><a href="#postgres">Postgres</a></li>
+<li><a href="#sql">SQL</a></li>
+<li><a href="#sql-lite">SQL Lite</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#os">OS</a></p>
+<ul>
+<li><a href="#linux">Linux</a></li>
+<li><a href="#windows">Windows</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#algorithms">Algorithms</a></p>
+</li>
+<li>
+<p><a href="#coding-exercises">Coding exercises</a></p>
+</li>
+<li>
+<p><a href="#comprehensive-lists">Comprehensive lists</a></p>
+</li>
+<li>
+<p><a href="#design-patterns">Design patterns</a></p>
+</li>
+<li>
+<p><a href="#data-structures">Data structures</a></p>
+</li>
+<li>
+<p><a href="#networks">Networks</a></p>
+</li>
+<li>
+<p><a href="#security">Security</a></p>
+</li>
+<li>
+<p><a href="#data-science">Data Science</a></p>
+</li>
+</ul>
+<h2><a id="user-content-programming-languagesframeworksplatforms" class="anchor" aria-hidden="true" href="#programming-languagesframeworksplatforms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programming Languages/Frameworks/Platforms</h2>
+<h3><a id="user-content-android" class="anchor" aria-hidden="true" href="#android"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Android</h3>
+<ul>
+<li><a href="http://www.careerride.com/android-interview-questions.aspx" rel="nofollow">10 Android interview question answers for Freshers</a></li>
+<li><a href="http://www.toptal.com/android/interview-questions" rel="nofollow">20 Essential Android Interview Questions from top 3% developers company</a></li>
+<li><a href="http://career.guru99.com/50-android-interview-questions-answers/" rel="nofollow">50 android interview questions &amp; answers</a>.</li>
+<li><a href="https://www.quora.com/What-are-good-job-interview-questions-for-an-Android-developer" rel="nofollow">A couple of Android questions posted by Quora users</a></li>
+<li><a href="http://www.tutorialspoint.com/android/android_interview_questions.htm" rel="nofollow">A great list of Android interview questions covering all the aspects of this career</a></li>
+<li><a href="https://github.com/derekargueta/Android-Interview-Questions">Collection of Android and Java related questions and topics, including general developer questions, Java core, Data structures, Build Tools, Programming Paradigms, Core Android, Databases and etc</a></li>
+<li><a href="https://medium.com/@neteinstein/not-another-android-interviews-article-the-questions-3dedafa30bec" rel="nofollow">Collection of Android and Java questions divided by experience</a></li>
+</ul>
+<h3><a id="user-content-angularjs" class="anchor" aria-hidden="true" href="#angularjs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>AngularJS</h3>
+<ul>
+<li><a href="http://www.toptal.com/angular-js/interview-questions" rel="nofollow">12 Essential AngularJS Interview Questions from top 3% developers company</a></li>
+<li><a href="https://github.com/gdi2290/ngExam">An AngularJS exam with questions from beginner to expert by @gdi2290 from @AngularClass</a></li>
+<li><a href="https://www.codementor.io/angularjs/tutorial/angularjs-interview-questions-sample-answers" rel="nofollow">29 AngularJS Interview Questions – Can You Answer Them All? Great Article from Codementor</a></li>
+<li><a href="http://www.web-technology-experts-notes.in/2014/11/angularjs-interview-questions-and-answers-for-experienced.html" rel="nofollow">AngularJS interview questions and answers for experienced developers</a></li>
+<li><a href="http://www.tutorialspoint.com/angularjs/angularjs_interview_questions.htm" rel="nofollow">AngularJS Interview Questions which have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of AngularJS</a></li>
+<li><a href="http://www.codeproject.com/Articles/891718/AngularJS-Interview-Questions-and-Answers" rel="nofollow">This article discusses the top 50 Most occurred AngularJS interview question with answers</a></li>
+<li><a href="http://career.guru99.com/top-25-angular-js-interview-questions/" rel="nofollow">Top 25 Angularjs Interview Questions and Quiz</a></li>
+</ul>
+<h3><a id="user-content-backbonejs" class="anchor" aria-hidden="true" href="#backbonejs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BackboneJS</h3>
+<ul>
+<li><a href="http://www.toptal.com/backbone-js/interview-questions" rel="nofollow">8 Essential Backbonejs Interview Questions from top 3% developers company</a></li>
+<li><a href="http://www.web-technology-experts-notes.in/2015/01/backbone-js-interview-questions-and-answers.html" rel="nofollow">Backbonejs Interview Questions And Answers from web technology experts notes</a></li>
+<li><a href="http://career.guru99.com/top-25-backbone-js-interview-questions/" rel="nofollow">Top 25 Backbone.js interview questions</a></li>
+</ul>
+<h3><a id="user-content-c" class="anchor" aria-hidden="true" href="#c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C++</h3>
+<ul>
+<li><a href="http://www.sanfoundry.com/cplusplus-interview-questions-answers/" rel="nofollow">1000+ Multiple Choice Questions &amp; Answers in C++ with explanations</a></li>
+<li><a href="http://www.careerride.com/C++-Interview-questions-Answer.aspx" rel="nofollow">200 C++ interview questions and answers</a></li>
+<li><a href="http://www.toptal.com/c-plus-plus/interview-questions" rel="nofollow">24 Essential C++ Interview Questions from top 3% developers company</a></li>
+<li><a href="http://a4academics.com/interview-questions/57-c-plus-plus/419-cpp-interview-questions-answers" rel="nofollow">C++ Interview Questions and Answers for Freshers and Experienced developers</a></li>
+<li><a href="http://www.geekinterview.com/Interview-Questions/Languages/C-Plus-Plus" rel="nofollow">C++ Interview Questions from GeekInterview</a></li>
+<li><a href="http://www.geeksforgeeks.org/c-plus-plus/" rel="nofollow">C++ Programming Q&amp;A and quizzes from computer science portal for geeks</a></li>
+<li><a href="http://www.indiabix.com/cpp-programming/questions-and-answers/" rel="nofollow">C++ Programming Questions and Answers related to such topics as OOPs concepts, Object and Classes, Functions, Constructors and Destructors, Inheritance and etc</a></li>
+<li><a href="https://github.com/haoel/leetcode">LeetCode Problems' Solutions written in C++</a></li>
+<li><a href="https://pangara.com/blog/cplusplus-interview-questions" rel="nofollow">25 Fundamental C++ Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-c-1" class="anchor" aria-hidden="true" href="#c-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C</h3>
+<ul>
+<li><a href="http://placement.freshersworld.com/power-preparation/technical-interview-questions/C-programming-answers-21419" rel="nofollow">165 C interview questions</a></li>
+<li><a href="http://www.cquestions.com/2010/10/c-interview-questions-and-answers.html" rel="nofollow">Basic C language technical frequently asked interview questions and answers It includes data structures, pointers interview questions and answers for experienced</a></li>
+<li><a href="http://www.indiabix.com/technical/c/" rel="nofollow">C Programming Interview Questions and Answers for such topics as Bits and Bytes, Preprocessors, Functions, Strings, Language basics and etc</a></li>
+<li><a href="http://www.tutorialspoint.com/cprogramming/cprogramming_interview_questions.htm" rel="nofollow">C Programming Interview Questions have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of C Programming</a></li>
+<li><a href="http://geeksquiz.com/commonly-asked-c-programming-interview-questions-set-1/" rel="nofollow">First set of commonly asked C programming interview questions from computer science portal for geeks</a></li>
+<li><a href="http://geeksquiz.com/commonly-asked-c-programming-interview-questions-set-2/" rel="nofollow">Second set of commonly asked C programming interview questions from computer science portal for geeks</a></li>
+</ul>
+<h3><a id="user-content-c-2" class="anchor" aria-hidden="true" href="#c-2"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C♯</h3>
+<ul>
+<li><a href="http://www.toptal.com/c-sharp/interview-questions" rel="nofollow">15 Essential C# Interview Question from top 3% developers company</a></li>
+<li><a href="http://www.dotnetfunda.com/interviews/cat/6/csharp" rel="nofollow">C# interview questions from dotnetfunda.com</a></li>
+<li><a href="http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers" rel="nofollow">Top 100 C# Interview Questions and Answers</a></li>
+<li><a href="http://career.guru99.com/top-50-c-sharp-interview-questions-answers/" rel="nofollow">Top 50 C# Interview Questions &amp; Answers</a></li>
+</ul>
+<h3><a id="user-content-net" class="anchor" aria-hidden="true" href="#net"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.NET</h3>
+<ul>
+<li><a href="http://www.careerride.com/ASPNet-Questions.aspx" rel="nofollow">300 ASPNET interview questions and answers</a></li>
+<li><a href="http://www.indiabix.com/technical/dotnet/" rel="nofollow">Great list of NET interview questions covering all the NET platform topics</a></li>
+<li><a href="http://www.dotnetcurry.com/dotnetinterview/70/dotnet-interview-questions-answers-beginners" rel="nofollow">NET Interview Questions and Answers for Beginners which consists of the most frequently asked questions in NET This list of 100+ questions and answers gauge your familiarity with the NET platform</a></li>
+<li><a href="http://stackoverflow.com/questions/365489/questions-every-good-net-developer-should-be-able-to-answer" rel="nofollow">Questions gathered by community of the StackOverflow</a></li>
+<li><a href="http://www.hanselman.com/blog/WhatGreatNETDevelopersOughtToKnowMoreNETInterviewQuestions.aspx" rel="nofollow">What Great NET Developers Ought To Know (More NET Interview Questions)</a></li>
+</ul>
+<h3><a id="user-content-clojure" class="anchor" aria-hidden="true" href="#clojure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Clojure</h3>
+<ul>
+<li><a href="http://www.learningclojure.com/2014/05/fizz-buzz-interview-question.html" rel="nofollow">Classic 'Fizz Buzz' interview question for Clojure developers</a></li>
+<li><a href="http://ita2zguide.blogspot.com.by/p/cc.html" rel="nofollow">Clojure Interview Questions for experienced devs</a></li>
+<li><a href="https://github.com/dpetrovics/coding-exercises">Coding exercises in Clojure, handy practice for technical interview questions</a></li>
+<li><a href="https://www.reddit.com/r/Clojure/comments/34qhha/clojure_coding_job_interview_experience/" rel="nofollow">Experience and questions from Clojure developer interview collected by Reddit users</a></li>
+<li><a href="https://github.com/DerekCuevas/interview-cake-clj">Interview cake Clojure solutions</a></li>
+</ul>
+<h3><a id="user-content-css" class="anchor" aria-hidden="true" href="#css"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS</h3>
+<ul>
+<li><a href="http://www.skilledup.com/articles/25-css-interview-questions-answers" rel="nofollow">25 helpful CSS interview questions and answers</a></li>
+<li><a href="http://www.careerride.com/Interview-Questions-CSS.aspx" rel="nofollow">CSS interview questions and answers for freshers and experienced candidates Also there you can find CSS online practice tests to fight written tests and certification exams on CSS</a></li>
+<li><a href="http://www.techrepublic.com/blog/software-engineer/css-interview-questions-and-answers/" rel="nofollow">Development hiring managers and potential interviewees may find there sample CSS proficiency interview Q&amp;As and code snippets useful</a></li>
+<li><a href="https://css-tricks.com/interview-questions-css/" rel="nofollow">Interview Questions and Exercises About CSS</a></li>
+<li><a href="http://career.guru99.com/top-50-csscascading-style-sheet-interview-questions/" rel="nofollow">Top 50 CSS(Cascading Style Sheet) Interview Questions covering the most of tricky CSS moments</a></li>
+<li><a href="https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md#css-questions">CSS Questions and Answers</a></li>
+</ul>
+<h3><a id="user-content-django" class="anchor" aria-hidden="true" href="#django"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Django</h3>
+<ul>
+<li><a href="http://insights.dice.com/2014/04/30/interview-questions-pythondjango-developers/" rel="nofollow">Some abstract interview questions for Python/Django developers</a></li>
+<li><a href="http://www.ilian.io/django-interview-questions/" rel="nofollow">Some Django basic interview questions to establish the basic level of the candidates</a></li>
+<li><a href="http://blog.jayapal.in/2010/11/django-interview-question.html" rel="nofollow">Some Django/Python interview questions from Jaypal personal blog</a></li>
+<li><a href="http://www.goodinterviewquestions.net/top-10-django-interview-questions-and-answers/" rel="nofollow">Top 10 Django interview questions with their answers that you can encounter during the job interview for web developer</a></li>
+<li><a href="http://www.f2finterview.com/web/Django/" rel="nofollow">Django interview questions from f2finterview.com</a></li>
+<li><a href="http://career.guru99.com/top-16-django-interview-questions/" rel="nofollow">Top 16 Django Interview Questions for both freshers and experienced developers</a></li>
+</ul>
+<h3><a id="user-content-emberjs" class="anchor" aria-hidden="true" href="#emberjs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>EmberJS</h3>
+<ul>
+<li><a href="http://www.toptal.com/emberjs/interview-questions" rel="nofollow">8 Essential Emberjs Interview Questions from top 3% developers company</a></li>
+<li><a href="http://career.guru99.com/top-25-ember-js-interview-questions/" rel="nofollow">Top 25 Emberjs Interview Questions for both freshers and experienced developers</a></li>
+</ul>
+<h3><a id="user-content-erlang" class="anchor" aria-hidden="true" href="#erlang"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Erlang</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-22-erlang-interview-questions/" rel="nofollow">Top 22 Erlang Interview Questions for both freshers and experienced developers</a></li>
+</ul>
+<h3><a id="user-content-golang" class="anchor" aria-hidden="true" href="#golang"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Golang</h3>
+<ul>
+<li><a href="https://github.com/mrekucci/epi">Solutions for Elements of Programming Interviews problems written in Golang</a></li>
+<li><a href="https://github.com/efischer19/golang_ctci">Solutions for some basic coding interview tasks written in Go</a></li>
+<li><a href="http://career.guru99.com/top-20-go-programming-interview-questions/" rel="nofollow">Top 20 GO Programming Interview Questions for both freshers and experienced developers</a></li>
+</ul>
+<h3><a id="user-content-html" class="anchor" aria-hidden="true" href="#html"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTML</h3>
+<ul>
+<li><a href="http://www.sitepoint.com/10-typical-html-interview-exercises/" rel="nofollow">10 Typical HTML Interview Exercises from SitePoint.com</a></li>
+<li><a href="http://www.toptal.com/html5/interview-questions" rel="nofollow">16 Essential HTML5 Interview Questions from top 3% developers company</a></li>
+<li><a href="http://www.skilledup.com/articles/html-html5-interview-questions-answers" rel="nofollow">35 Helpful HTML &amp; HTML5 Interview Questions &amp; Answers</a></li>
+<li><a href="http://www.codeproject.com/Articles/702051/important-HTML-Interview-questions-with-answe" rel="nofollow">40 important HTML 5 Interview questions with answers</a></li>
+<li><a href="http://www.careerride.com/Interview-Questions-HTML.aspx" rel="nofollow">HTML interview questions and answers for freshers and experienced candidates Also find HTML online practice tests to fight written tests and certification exams on HTML</a></li>
+<li><a href="http://career.guru99.com/top-50-html-interview-questions/" rel="nofollow">Top 50 HTML Interview Questions for both freshers and experienced developers</a></li>
+<li><a href="http://www.javatpoint.com/html-interview-questions" rel="nofollow">Common HTML interview questions for freshers</a></li>
+<li><a href="https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md#html-questions">HTML Questions and Answers</a></li>
+</ul>
+<h3><a id="user-content-ionic" class="anchor" aria-hidden="true" href="#ionic"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ionic</h3>
+<ul>
+<li><a href="http://www.codeandyou.com/p/ionic-interview-questions.html" rel="nofollow">23 Beginner Level Ionic Framework Questions</a></li>
+<li><a href="https://www.toptal.com/ionic/interview-questions" rel="nofollow">12 Essential Ionic Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-ios" class="anchor" aria-hidden="true" href="#ios"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>iOS</h3>
+<ul>
+<li><a href="http://www.toptal.com/ios/interview-questions" rel="nofollow">14 Essential iOS Interview Questions from top 3% developers company</a></li>
+<li><a href="https://www.codementor.io/ios/tutorial/ios-interview-tips-questions-answers-objective-c" rel="nofollow">20 iOS Developer Interview Questions and Answers for getting you ready for your interview</a></li>
+<li><a href="https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions">A small guide to help those looking to hire a developer or designer for iOS work While tailored for iOS, many questions could be used for Android developers or designers as well A great self-test if you're looking to keep current or practice for your own interview</a></li>
+<li><a href="http://www.raywenderlich.com/53962/ios-interview-questions" rel="nofollow">All you need to know about iOS technical interview including some tips for preparing, questions and some coding exercises</a></li>
+<li><a href="https://blackpixel.com/writing/2013/04/interview-questions-for-ios-and-mac-developers-1.html" rel="nofollow">Interview Questions for iOS and Mac Developers from the CEO of Black Pixel</a></li>
+<li><a href="http://www.geekinterview.com/Interview-Questions/iOS" rel="nofollow">iOS Interview Questions and Answers including such topics as Development Basics, App states and multitasking, App states, Core app objects</a></li>
+<li><a href="https://m.smartcloud.io/ios-interview-questions-for-senior-developers-in-2017-a94cc81c8205" rel="nofollow">iOS Interview Questions For Senior Developers</a></li>
+<li><a href="https://medium.com/ios-os-x-development/ios-interview-questions-13840247a57a" rel="nofollow">50 iOS Interview Questions And Answers 1</a></li>
+<li><a href="https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-2-45f952230b9f" rel="nofollow">50 iOS Interview Questions And Answers Part 2</a></li>
+<li><a href="https://medium.com/ios-os-x-development/50-ios-interview-questions-and-answers-part-3-3fad146b6c3d" rel="nofollow">50 iOS Interview Questions And Answers Part 3</a></li>
+<li><a href="https://medium.com/@duruldalkanat/50-ios-interview-questions-and-answers-part-4-6f26b26341a" rel="nofollow">50 iOS Interview Questions And Answers Part 4</a></li>
+<li><a href="https://www.upwork.com/i/interview-questions/ios/" rel="nofollow">10 iOS interview questions and answers</a></li>
+<li><a href="https://github.com/9magnets/iOS-Developer-and-Designer-Interview-Questions#tech">iOS Developer and Designer Interview Questions</a></li>
+<li><a href="http://www.thecrazyprogrammer.com/2015/11/ios-interview-questions-and-answers.html" rel="nofollow">IOS Interview Questions and Answers</a></li>
+</ul>
+<h3><a id="user-content-java" class="anchor" aria-hidden="true" href="#java"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java</h3>
+<ul>
+<li><a href="http://www.javacodegeeks.com/2014/04/java-interview-questions-and-answers.html" rel="nofollow">115 Java Interview Questions and Answers – The ULTIMATE List</a></li>
+<li><a href="https://www.codementor.io/java/tutorial/java-interview-sample-questions-answers" rel="nofollow">37 Java Interview Questions to Practice With from Codementor</a></li>
+<li><a href="http://www.toptal.com/java/interview-questions" rel="nofollow">21 Essential Java Interview Questions</a></li>
+<li><a href="https://github.com/svozniuk/java-interviews">A collection of Java interview questions and answers to them The questions were gathered all around the Internet The answers are partly written by the commiters, partly copy-pasted from all possible sources</a></li>
+<li><a href="https://github.com/donbeave/interview">Data Structures and Algorithms in Java which can be useful in interview process</a></li>
+<li><a href="https://blog.udemy.com/java-interview-questions/" rel="nofollow">Java Interview Questions: How to crack the TOP 15 questions</a></li>
+<li><a href="http://www.javatpoint.com/corejava-interview-questions" rel="nofollow">There is the list of 201 core java interview questions The answers of the core java interview questions are short and to the point The core java interview questions are categorized in Basics of java interview questions, OOPs interview questions, String Handling interview questions, Multithreading interview questions, collection interview questions, JDBC interview questions etc</a></li>
+<li><a href="http://java67.blogspot.com.by/2012/09/top-10-tricky-java-interview-questions-answers.html" rel="nofollow">Top 10 Tricky Java interview questions and Answers</a></li>
+<li><a href="http://javahungry.blogspot.com/2013/06/top-25-most-frequently-asked-core-java.html" rel="nofollow">Top 25 Most Frequently Asked Interview Core Java Interview Questions And Answers</a></li>
+<li><a href="http://java67.blogspot.sg/2015/03/top-40-core-java-interview-questions-answers-telephonic-round.html" rel="nofollow">Top 40 Core Java Interview Questions Answers from Telephonic Round</a></li>
+<li><a href="https://www.interviewcake.com/java-interview-questions" rel="nofollow">Interview Cake Java Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-javascript" class="anchor" aria-hidden="true" href="#javascript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript</h3>
+<ul>
+<li><a href="https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95" rel="nofollow">10 Interview Questions Every JavaScript Developer Should Know</a></li>
+<li><a href="https://www.codementor.io/javascript/tutorial/21-essential-javascript-tech-interview-practice-questions-answers" rel="nofollow">21 Essential JavaScript Interview Questions from best mentors all over the world</a></li>
+<li><a href="http://www.toptal.com/javascript/interview-questions" rel="nofollow">37 Essential JavaScript Interview Questions from top 3% developers company</a></li>
+<li><a href="http://www.sitepoint.com/5-javascript-interview-exercises/" rel="nofollow">5 More JavaScript Interview Exercises</a></li>
+<li><a href="http://www.sitepoint.com/5-typical-javascript-interview-exercises/" rel="nofollow">5 Typical JavaScript Interview Exercises</a></li>
+<li><a href="http://www.techrepublic.com/blog/software-engineer/javascript-interview-questions-and-answers/" rel="nofollow">Development hiring managers and potential interviewees may find these sample JavaScript proficiency interview Q&amp;As and code snippets useful</a></li>
+<li><a href="https://github.com/nishant8BITS/123-Essential-JavaScript-Interview-Question">123 Essential JavaScript Interview Question</a></li>
+<li><a href="http://www.tutorialspoint.com/javascript/javascript_interview_questions.htm" rel="nofollow">JavaScript Interview Questions have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of JavaScript</a></li>
+<li><a href="http://www.thatjsdude.com/interview/js2.html" rel="nofollow">JS: Basics and Tricky Questions</a></li>
+<li><a href="http://thatjsdude.com/interview/js1.html" rel="nofollow">JS: Interview Algorithm</a></li>
+<li><a href="https://github.com/kolodny/exercises">Some basic javascript coding challenges and interview questions</a></li>
+<li><a href="https://github.com/csvenja/javascript-exercises">Some JavaScript interview exercises</a></li>
+<li><a href="https://www.reddit.com/r/javascript/comments/3rb88w/ten_questions_ive_been_asked_most_more_than_once" rel="nofollow">Ten Questions I've Been Asked, Most More Than Once, Over Six Technical JavaScript / Front-End Engineer Job Interviews.</a></li>
+<li><a href="http://career.guru99.com/top-85-javascript-interview-questions/" rel="nofollow">Top 85 JavaScript Interview Questions</a></li>
+<li><a href="https://www.interviewcake.com/javascript-interview-questions" rel="nofollow">Interview Cake JavaScript Interview Questions</a></li>
+<li><a href="https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(written-by-a-Frontend-Engineer)" rel="nofollow">The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer)</a></li>
+<li><a href="https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md#js-questions">JavaScript Questions and Answers</a></li>
+<li><a href="https://dev.to/arnavaggarwal/10-javascript-concepts-you-need-to-know-for-interviews" rel="nofollow">10 JavaScript Concepts You Need to Know for Interviews</a></li>
+<li><a href="https://github.com/yangshun/front-end-interview-handbook">Front end interview handbook</a></li>
+</ul>
+<h3><a id="user-content-front-end-build-tools" class="anchor" aria-hidden="true" href="#front-end-build-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Front-end build tools</h3>
+<ul>
+<li><a href="https://github.com/styopdev/webpack-interview-questions">Webpack interview questions &amp; answers</a></li>
+<li><a href="https://www.codeproject.com/Articles/1065184/Latest-Gulp-js-interview-questions" rel="nofollow">Gulp js interview questions</a></li>
+<li><a href="http://www.talkingdotnet.com/grunt-js-interview-questions/" rel="nofollow">Grunt js interview questions for beginners</a></li>
+<li><a href="https://mindmajix.com/grunt-interview-questions" rel="nofollow">Grunt js interview questions</a></li>
+</ul>
+<h3><a id="user-content-knockoutjs" class="anchor" aria-hidden="true" href="#knockoutjs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>KnockoutJS</h3>
+<ul>
+<li><a href="http://www.code-sample.com/2014/01/knockout-js-interview-questions-and.html" rel="nofollow">15 interview questions from CodeSample.com</a></li>
+<li><a href="http://www.codeproject.com/Articles/987899/KnockoutJS-interview-questions" rel="nofollow">20 questions you might be asked about KnockoutJS in an interview for both freshers and experienced developers</a></li>
+</ul>
+<h3><a id="user-content-less" class="anchor" aria-hidden="true" href="#less"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Less</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-25-less-interview-questions/" rel="nofollow">Top 25 LESS Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-lisp" class="anchor" aria-hidden="true" href="#lisp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lisp</h3>
+<ul>
+<li><a href="http://www.sanfoundry.com/lisp-mcqs-class/" rel="nofollow">10 LISP Questions &amp; Answers</a></li>
+<li><a href="http://career.guru99.com/top-18-lisp-interview-questions/" rel="nofollow">Top 18 Lisp Interview Questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-nodejs" class="anchor" aria-hidden="true" href="#nodejs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NodeJS</h3>
+<ul>
+<li><a href="http://www.toptal.com/nodejs/interview-questions" rel="nofollow">8 Essential Nodejs Interview Questions from top 3% developers company</a></li>
+<li><a href="http://www.lazyquestion.com/interview-questions-and-answer/nodejs" rel="nofollow">Node.js Interview Questions &amp; Answers from LazyQuestion.com</a></li>
+<li><a href="http://www.tutorialspoint.com/nodejs/nodejs_interview_questions.htm" rel="nofollow">Node.JS Interview Questions have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of Node.JS</a></li>
+<li><a href="https://blog.risingstack.com/node-js-interview-questions/" rel="nofollow">There are two sides of the table: you either want to hire Nodejs developers or you want to get hired as a Nodejs developer This list helps you navigate a bit in this space, giving you some questions to ask, and a list of questions you should know the answer to</a></li>
+<li><a href="http://career.guru99.com/top-25-interview-questions-on-node-js/" rel="nofollow">Top 25 Nodejs Interview Questions &amp; Answers from Career Guru</a></li>
+<li><a href="http://www.techbeamers.com/top-30-node-js-interview-questions-answers/" rel="nofollow">Top 30 Node.Js Interview Questions With Answers</a></li>
+</ul>
+<h3><a id="user-content-objective-c" class="anchor" aria-hidden="true" href="#objective-c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Objective-C</h3>
+<ul>
+<li><a href="http://insights.dice.com/2015/07/21/interview-qs-objective-c-swift/" rel="nofollow">Interview Qs for Objective-C and Swift</a></li>
+<li><a href="http://andras.palfi.hu/iosobjc-interview-questions/" rel="nofollow">iOS/ObjC Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-php" class="anchor" aria-hidden="true" href="#php"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PHP</h3>
+<ul>
+<li><a href="http://www.careerride.com/PHP-Interview-Questions.aspx" rel="nofollow">100 PHP interview questions and answers from CareerRide.com</a></li>
+<li><a href="http://www.toptal.com/php/interview-questions" rel="nofollow">21 Essential PHP Interview Questions from top 3% developers company</a></li>
+<li><a href="http://www.woodstitch.com/resources/php-interview-questions.php" rel="nofollow">20 Common PHP Job Interview Questions and Answers</a></li>
+<li><a href="https://github.com/developerquestions/php-questions">Basic PHP interview questions</a></li>
+<li><a href="http://phpinterviewquestions.co.in/" rel="nofollow">PHP interview questions and answers for freshers</a></li>
+<li><a href="http://career.guru99.com/top-100-php-interview-questions-answers/" rel="nofollow">Top 100 PHP Interview Questions &amp; Answers from CareerGuru</a></li>
+<li><a href="https://www.codementor.io/php/tutorial/php-interview-questions-sample-answers" rel="nofollow">25 PHP Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-python" class="anchor" aria-hidden="true" href="#python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Python</h3>
+<ul>
+<li><a href="http://www.careerride.com/python-interview-questions.aspx" rel="nofollow">50 Python interview questions and answers</a></li>
+<li><a href="http://www.toptal.com/python/interview-questions" rel="nofollow">11 Essential Python Interview Questions from top 3% developers company</a></li>
+<li><a href="https://github.com/sigmavirus24/python-interview-questions">A listing of questions that could potentially be asked for a python job listing</a></li>
+<li><a href="http://www.bogotobogo.com/python/python_interview_questions.php" rel="nofollow">Interview Questions for both beginners and experts</a></li>
+<li><a href="https://www.interviewcake.com/python-interview-questions" rel="nofollow">Interview Cake Python Interview Questions</a></li>
+<li><a href="https://docs.python.org/2/faq/programming.html" rel="nofollow">Python Frequently Asked Questions (Programming)</a></li>
+<li><a href="https://www.reddit.com/r/Python/comments/1knw7z/python_interview_questions" rel="nofollow">Python interview questions collected by Reddit users</a></li>
+<li><a href="http://www.questionscompiled.com/python-interview-questions.html" rel="nofollow">Python Interview Questions from questionscompiled</a></li>
+<li><a href="http://career.guru99.com/top-25-python-interview-questions/" rel="nofollow">Top 25 Python Interview Questions from Career Guru</a></li>
+<li><a href="https://www.youtube.com/watch?v=DEwgZNC-KyE" rel="nofollow">Python Interview 10 questions from Corey Schafer</a></li>
+</ul>
+<h3><a id="user-content-ruby-on-rails" class="anchor" aria-hidden="true" href="#ruby-on-rails"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby on Rails</h3>
+<ul>
+<li><a href="http://www.careerride.com/ruby-on-rails-interview-questions.aspx" rel="nofollow">20 Ruby on Rails interview questions and answers from CareerRide.com</a></li>
+<li><a href="http://www.toptal.com/ruby-on-rails/interview-questions" rel="nofollow">9 Essential Ruby on Rails Interview Questions from top 3% developers company</a></li>
+<li><a href="https://github.com/rishiip/ruby-on-rails-interview-questions">A list of common questions with answers ask during interview of ruby on rails job</a></li>
+<li><a href="http://anilpunjabi.tumblr.com/post/25948339235/ruby-and-rails-interview-questions-and-answers" rel="nofollow">Ruby And Ruby On Rails interview Q&amp;A</a></li>
+<li><a href="https://srikantmahapatra.wordpress.com/2013/11/07/ruby-on-rails-interview-questions-and-answers/" rel="nofollow">Some of the most frequently asked Ruby on Rails questions and how to answer them confidently</a></li>
+<li><a href="https://www.codementor.io/ruby-on-rails/tutorial/ruby-on-rails-interview-questions" rel="nofollow">11 Ruby on Rails Interview Practice Questions</a></li>
+<li><a href="https://career.guru99.com/top-34-ruby-on-rail-interview-questions/" rel="nofollow">Top 53 Ruby on Rails Interview Questions &amp; Answers</a></li>
+<li><a href="https://www.upwork.com/i/interview-questions/ruby-on-rails/" rel="nofollow">10 Ruby on Rails interview questions and answers</a></li>
+</ul>
+<h3><a id="user-content-reactjs" class="anchor" aria-hidden="true" href="#reactjs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ReactJS</h3>
+<ul>
+<li><a href="https://www.reddit.com/r/reactjs/comments/3m5equ/react_what_interview_questions_to_expect/" rel="nofollow">Reddit users share their expectations from ReactJS interview</a></li>
+<li><a href="http://interview-questions-247.appspot.com/reactjs-interview-questions-set-1" rel="nofollow">This is a first in the series of interview questions related with ReactJS</a></li>
+<li><a href="http://interview-questions-247.appspot.com/reactjs-interview-questions-set-3" rel="nofollow">This quiz intends to test your understanding around ReactJS fundamentals (Set 3)</a></li>
+<li><a href="http://interview-questions-247.appspot.com/reactjs-interview-questions-set-2" rel="nofollow">This quiz intends to test your understanding around ReactJS fundamentals</a></li>
+<li><a href="https://www.codementor.io/reactjs/tutorial/5-essential-reactjs-interview-questions" rel="nofollow">5 Essential React.js Interview Questions</a></li>
+<li><a href="https://tylermcginnis.com/react-interview-questions/" rel="nofollow">React Interview Questions</a></li>
+<li><a href="https://www.toptal.com/react/interview-questions" rel="nofollow">Toptal's 13 Essential React.js Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-ruby" class="anchor" aria-hidden="true" href="#ruby"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby</h3>
+<ul>
+<li><a href="http://www.toptal.com/ruby/interview-questions" rel="nofollow">21 Essential Ruby Interview Questions from top 3% developers company</a></li>
+<li><a href="https://gist.github.com/ryansobol/5252653">15 Questions to Ask During a Ruby Interview</a></li>
+<li><a href="https://github.com/undr/ruby-trivia">A list of questions about Ruby programming you can use to quiz yourself</a></li>
+<li><a href="http://technology.customink.com/blog/2015/11/23/the-art-of-ruby-technical-interviews/" rel="nofollow">The Art of Ruby Technical Interview</a></li>
+<li><a href="https://www.interviewcake.com/ruby-interview-questions" rel="nofollow">Interview Cake Ruby Interview Questions</a></li>
+<li><a href="https://www.javatpoint.com/ruby-interview-questions" rel="nofollow">Frequently Asked Ruby Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-sass" class="anchor" aria-hidden="true" href="#sass"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sass</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-17-sass-interview-questions/" rel="nofollow">Top 17 Sass Interview Questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-scala" class="anchor" aria-hidden="true" href="#scala"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scala</h3>
+<ul>
+<li><a href="http://insights.dice.com/2014/09/12/4-interview-questions-scala-developers/" rel="nofollow">4 Interview Questions for Scala Developers</a></li>
+<li><a href="http://www.scala-lang.org/old/faq" rel="nofollow">A list of Frequently Asked Questions and their answers, sorted by category</a></li>
+<li><a href="https://github.com/Jarlakxen/Scala-Interview-Questions">A list of helpful Scala related questions you can use to interview potential candidates</a></li>
+<li><a href="http://programmers.stackexchange.com/questions/58145/how-scala-developers-are-being-interviewed" rel="nofollow">How Scala Developers Are Being Interviewed</a></li>
+<li><a href="https://github.com/peterarsentev/Scala-Interview-Questions-Answers">Scala Interview Questions/Answers including Language Questions, Functional Programming Questions, Reactive Programming Questions</a></li>
+<li><a href="http://career.guru99.com/top-25-interview-questions-on-scala/" rel="nofollow">Top 25 Scala Interview Questions &amp; Answers from top 3% developers company</a></li>
+</ul>
+<h3><a id="user-content-sharepoint" class="anchor" aria-hidden="true" href="#sharepoint"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SharePoint</h3>
+<ul>
+<li><a href="http://www.rajeshg.me/2013/05/sharepoint-developer-2010-interview.html" rel="nofollow">Sharepoint Interview Question For Developer</a></li>
+</ul>
+<h3><a id="user-content-shell" class="anchor" aria-hidden="true" href="#shell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Shell</h3>
+<ul>
+<li><a href="http://career.guru99.com/shell-scripting-interview-questions/" rel="nofollow">Top 50 Shell Scripting Interview Questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-swift" class="anchor" aria-hidden="true" href="#swift"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Swift</h3>
+<ul>
+<li><a href="http://www.toptal.com/swift/interview-questions" rel="nofollow">10 Essential Swift Interview Questions from top 3% developers company</a></li>
+<li><a href="https://github.com/diwu/LeetCode-Solutions-in-Swift">Get prepared for your next iOS job interview by studying high quality LeetCode solutions in Swift 2.1</a></li>
+<li><a href="http://www.raywenderlich.com/110982/swift-interview-questions-answers" rel="nofollow">Swift Interview Questions and Answers for both freshers and beginners</a></li>
+<li><a href="http://mycodetips.com/swift-ios/swift-programming-language-interview-questions-answers-987.html" rel="nofollow">Swift Programming Language Interview Questions And Answers from mycodetips.com</a></li>
+<li><a href="http://blog.udacity.com/2014/11/your-top-10-swift-questions-answered.html" rel="nofollow">Your top 10 Swift questions answered</a></li>
+</ul>
+<h3><a id="user-content-wordpress" class="anchor" aria-hidden="true" href="#wordpress"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wordpress</h3>
+<ul>
+<li><a href="https://pangara.com/blog/45-wordpress-interview-questions-and-answers" rel="nofollow">Top 45 Wordpress interview questions</a></li>
+</ul>
+<h2><a id="user-content-database-technologies" class="anchor" aria-hidden="true" href="#database-technologies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database technologies</h2>
+<h3><a id="user-content-cassandra" class="anchor" aria-hidden="true" href="#cassandra"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cassandra</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-23-cassandra-interview-questions/" rel="nofollow">Top 23 Cassandra Interview Questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-microsoft-access" class="anchor" aria-hidden="true" href="#microsoft-access"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Microsoft Access</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-16-ms-access-database-interview-questions/" rel="nofollow">Top 16 Microsoft Access Database Interview Questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-mongodb" class="anchor" aria-hidden="true" href="#mongodb"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MongoDB</h3>
+<ul>
+<li><a href="http://theprofessionalspoint.blogspot.com.by/2014/01/28-mongodb-nosql-database-interview.html" rel="nofollow">28 MongoDB NoSQL Database Interview Questions and Answers</a></li>
+<li><a href="http://www.globalguideline.com/interview_questions/Questions.php?sc=MongoDB%5D(http://www.globalguideline.com/interview_questions/Questions.php?sc=MongoDB)" rel="nofollow">MongoDB frequently Asked Questions by expert members with experience in MongoDB These questions and answers will help you strengthen your technical skills, prepare for the new job test and quickly revise the concepts</a></li>
+<li><a href="http://www.javatpoint.com/mongodb-interview-questions" rel="nofollow">MongoDB Interview Questions from JavaTPointcom</a></li>
+<li><a href="http://www.tutorialspoint.com/mongodb/mongodb_interview_questions.htm" rel="nofollow">MongoDB Interview Questions that have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of MongoDB</a></li>
+<li><a href="http://career.guru99.com/top-20-mongodb-interview-questions/" rel="nofollow">Top 20 MongoDB interview questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-mysql" class="anchor" aria-hidden="true" href="#mysql"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MySQL</h3>
+<ul>
+<li><a href="http://www.tecmint.com/10-mysql-database-interview-questions-for-beginners-and-intermediates/" rel="nofollow">10 MySQL Database Interview Questions for Beginners and Intermediates</a></li>
+<li><a href="http://www.careerride.com/MySQL-Interview-Questions.aspx" rel="nofollow">100 MySQL interview questions</a></li>
+<li><a href="http://www.tecmint.com/basic-mysql-interview-questions-for-database-administrators/" rel="nofollow">15 Basic MySQL Interview Questions for Database Administrators</a></li>
+<li><a href="http://www.javatpoint.com/mysql-interview-questions" rel="nofollow">28 MySQL interview questions from JavaTPoint.com</a></li>
+<li><a href="http://www.testingbrain.com/interview/mysql-interview-questions.html" rel="nofollow">40 Basic MySQL Interview Questions with Answers</a></li>
+<li><a href="http://career.guru99.com/top-50-mysql-interview-questions-answers/" rel="nofollow">Top 50 MySQL Interview Questions &amp; Answers from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-neo4j" class="anchor" aria-hidden="true" href="#neo4j"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Neo4j</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-20-ne04j-interview-questions/" rel="nofollow">Top 20 Neo4j Interview Questions from Career Guru</a></li>
+</ul>
+<h3><a id="user-content-oracle" class="anchor" aria-hidden="true" href="#oracle"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Oracle</h3>
+<ul>
+<li><a href="http://www.coolinterview.com/type.asp?iType=57" rel="nofollow">General Oracle Interview Questions &amp; Answers</a></li>
+</ul>
+<h3><a id="user-content-postgres" class="anchor" aria-hidden="true" href="#postgres"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Postgres</h3>
+<ul>
+<li><a href="http://www.dotnetfunda.com/interviews/cat/208/postgresql" rel="nofollow">13 PostgreSQL Interview Q&amp;A</a></li>
+<li><a href="http://nazafbtemplate.blogspot.com.by/2014/06/frequently-asked-basic-postgresql.html" rel="nofollow">Frequently Asked Basic PostgreSQL Interview Questions and Answers</a></li>
+<li><a href="http://www.globalguideline.com/interview_questions/Questions.php?sc=postgresqk_database_%5D(http://www.globalguideline.com/interview_questions/Questions.php?sc=postgresqk_database_)" rel="nofollow">PostgreSQL Interview Preparation Guide</a></li>
+<li><a href="http://www.coolinterview.com/type.asp?iType=411" rel="nofollow">PostgreSQL Interview Q&amp;A from CoolInterview.com</a></li>
+</ul>
+<h3><a id="user-content-sql" class="anchor" aria-hidden="true" href="#sql"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQL</h3>
+<ul>
+<li><a href="http://java67.blogspot.com.by/2013/04/10-frequently-asked-sql-query-interview-questions-answers-database.html" rel="nofollow">10 Frequently asked SQL Query Interview Questions</a></li>
+<li><a href="http://www.toptal.com/sql/interview-questions" rel="nofollow">45 Essential SQL Interview Questions from top 3% developers company</a></li>
+<li><a href="http://www.indiabix.com/technical/sql-server-common-questions/" rel="nofollow">Common Interview Questions and Answers</a></li>
+<li><a href="http://www.indiabix.com/technical/sql-server-general-questions/" rel="nofollow">General Interview Questions and Answers</a></li>
+<li><a href="https://github.com/XD-DENG/SQL-exercise">Schema, Questions &amp; Solutions for SQL Exercising</a></li>
+<li><a href="http://www.tutorialspoint.com/sql/sql_interview_questions.htm" rel="nofollow">SQL Interview Questions that have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of SQL</a></li>
+<li><a href="http://dwbi.org/database/sql/72-top-20-sql-interview-questions-with-answers" rel="nofollow">Top 20 SQL Interview Questions with Answers</a></li>
+</ul>
+<h3><a id="user-content-sql-lite" class="anchor" aria-hidden="true" href="#sql-lite"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQL Lite</h3>
+<ul>
+<li><a href="http://career.guru99.com/top-20-sql-lite-interview-questions/" rel="nofollow">Top 20 SQL LITE  Interview Questions from Career Guru</a></li>
+</ul>
+<h2><a id="user-content-os" class="anchor" aria-hidden="true" href="#os"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OS</h2>
+<h3><a id="user-content-linux" class="anchor" aria-hidden="true" href="#linux"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Linux</h3>
+<ul>
+<li><a href="https://www.linux.com/news/featured-blogs/200-libby-clark/842913-10-job-interview-questions-for-linux-sysadmins" rel="nofollow">10 Job Interview Questions for Linux System Administrators from Linux.com</a></li>
+<li><a href="http://www.tecmint.com/useful-random-linux-interview-questions-and-answers/" rel="nofollow">10 Useful Random Linux Interview Questions and Answers</a></li>
+<li><a href="http://www.tecmint.com/basic-linux-interview-questions-and-answers/" rel="nofollow">11 Basic Linux Interview Questions and Answers</a></li>
+<li><a href="http://www.toptal.com/linux/interview-questions" rel="nofollow">11 Essential Linux Interview Questions from top 3% developers company</a></li>
+<li><a href="http://computernetworkingnotes.com/rhce-interview-questions/linux-interview-questions-answers.html" rel="nofollow">Some basic Linux questions from ComputerNetworkingNotes.com</a></li>
+<li><a href="http://www.linuxtechi.com/experience-linux-admin-interview-questions/" rel="nofollow">Top 30 Linux System Admin Interview Questions &amp; Answers</a></li>
+<li><a href="http://career.guru99.com/top-50-linux-interview-questions/" rel="nofollow">Top 50 Linux Interview Questions from Career Guru</a></li>
+<li><a href="https://github.com/chassing/linux-sysadmin-interview-questions">Linux System Administrator/DevOps Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-windows" class="anchor" aria-hidden="true" href="#windows"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Windows</h3>
+<ul>
+<li><a href="http://www.brentozar.com/archive/2009/07/top-10-interview-questions-for-windows-sysadmins/" rel="nofollow">Top 10 Interview Questions for Windows Administrators</a></li>
+<li><a href="http://career.guru99.com/top-22-windows-server-interview-questions/" rel="nofollow">Top 22 Windows Server Interview Questions from Career Guru</a></li>
+<li><a href="http://www.01world.in/p/windows.html" rel="nofollow">Windows Admin Interview Questions &amp; Answers</a></li>
+</ul>
+<h2><a id="user-content-algorithms" class="anchor" aria-hidden="true" href="#algorithms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Algorithms</h2>
+<ul>
+<li><a href="http://java2novice.com/java-interview-programs/" rel="nofollow">A great list of Java interview questions</a></li>
+<li><a href="https://github.com/sagivo/algorithms">Algorithms playground for common interview questions written in Ruby</a></li>
+<li><a href="https://github.com/EvgenyKarkan/EKAlgorithms">EKAlgorithms contains some well known CS algorithms &amp; data structures</a></li>
+<li><a href="http://www.shiftedup.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour" rel="nofollow">Five programming problems every Software Engineer should be able to solve in less than 1 hour</a></li>
+<li><a href="http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/" rel="nofollow">Top 10 Algorithms for Coding Interview</a></li>
+<li><a href="http://javarevisited.blogspot.com.by/2013/03/top-15-data-structures-algorithm-interview-questions-answers-java-programming.html" rel="nofollow">Top 15 Data Structures and Algorithm Interview Questions for Java programmer</a></li>
+<li><a href="https://github.com/yangshun/tech-interview-handbook/blob/master/algorithms/README.md">Top Algorithms Questions by Topics</a></li>
+</ul>
+<h2><a id="user-content-coding-exercises" class="anchor" aria-hidden="true" href="#coding-exercises"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coding exercises</h2>
+<ul>
+<li><a href="https://github.com/mre/the-coding-interview">Common interview questions and puzzles solved in a number of languages</a></li>
+<li><a href="https://github.com/donnemartin/interactive-coding-challenges">Interactive, test-driven Python coding challenges (algorithms and data structures) typically found in coding interviews or coding competitions</a></li>
+<li><a href="https://github.com/roseperrone/interview-questions">Interview questions solved in python</a></li>
+</ul>
+<h2><a id="user-content-comprehensive-lists" class="anchor" aria-hidden="true" href="#comprehensive-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comprehensive lists</h2>
+<ul>
+<li><a href="https://github.com/h5bp/Front-end-Developer-Interview-Questions">A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore</a></li>
+<li><a href="http://www.aperfectmix.com/free_web_design/front-end-interview-questions.html" rel="nofollow">Front End Developer Interview Questions</a></li>
+<li><a href="https://github.com/yangshun/tech-interview-handbook/blob/master/front-end/interview-questions.md">Answers to Front End Developer Interview Questions</a></li>
+<li><a href="https://github.com/starandtina/backend-interview-questions">Some simple questions to interview potential backend candidates</a></li>
+<li><a href="https://www.recruityourninja.com/technical-interview-questions-frontend-candidates/" rel="nofollow">An Annotated List of Frontend Developer Technical Interview Questions</a></li>
+<li><a href="https://www.recruityourninja.com/technical-interview-questions-backend-candidates/" rel="nofollow">An Annotated List of Backend Developer Technical Interview Questions</a></li>
+<li><a href="https://www.recruityourninja.com/technical-interview-questions-devops-candidates/" rel="nofollow">An Annotated List of DevOps Technical Interview Questions</a></li>
+</ul>
+<h2><a id="user-content-design-patterns" class="anchor" aria-hidden="true" href="#design-patterns"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Design Patterns</h2>
+<ul>
+<li><a href="http://www.tutorialspoint.com/design_pattern/design_pattern_interview_questions.htm" rel="nofollow">Design Pattern Interview Questions that have been designed specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of Design Pattern</a></li>
+<li><a href="https://github.com/kamranahmedse/design-patterns-for-humans">Design Patterns for Humans™ - An ultra-simplified explanation</a></li>
+<li><a href="https://github.com/iluwatar/java-design-patterns">Design patterns implemented in Java</a></li>
+</ul>
+<h2><a id="user-content-data-structures" class="anchor" aria-hidden="true" href="#data-structures"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data structures</h2>
+<ul>
+<li><a href="http://javarevisited.blogspot.com.by/2013/03/top-15-data-structures-algorithm-interview-questions-answers-java-programming.html" rel="nofollow">Top 15 Data Structures and Algorithm Interview Questions for Java programmer</a></li>
+<li><a href="http://career.guru99.com/top-50-data-structure-interview-questions/" rel="nofollow">Top 50 Data Structure Interview Questions from Career Guru</a></li>
+</ul>
+<h2><a id="user-content-networks" class="anchor" aria-hidden="true" href="#networks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Networks</h2>
+<ul>
+<li><a href="http://career.guru99.com/top-100-networking-interview-questions-answers/" rel="nofollow">Top 100 Networking Interview Questions &amp; Answers from Career Guru</a></li>
+</ul>
+<h2><a id="user-content-security" class="anchor" aria-hidden="true" href="#security"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h2>
+<ul>
+<li><a href="http://careers.simplicable.com/careers/new/101-IT-security-interview-questions" rel="nofollow">101 IT Security Interview Questions</a></li>
+<li><a href="http://searchsecurity.techtarget.com/tip/How-to-prepare-for-an-information-security-job-interview" rel="nofollow">How to prepare for an information security job interview?</a></li>
+<li><a href="https://danielmiessler.com/study/infosec_interview_questions/" rel="nofollow">Information Security Interview Questions from Daniel Miessler</a></li>
+<li><a href="http://resources.infosecinstitute.com/top-50-information-security-interview-questions/" rel="nofollow">Top 50 Information Security Interview Questions for freshers and experts</a></li>
+</ul>
+<h2><a id="user-content-data-science" class="anchor" aria-hidden="true" href="#data-science"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Science</h2>
+<ul>
+<li><a href="https://www.dezyre.com/article/-data-science-interview-questions-for-top-tech-companies/189" rel="nofollow">Data Science Interview Questions for Top Tech Companies</a></li>
+<li><a href="http://www.datasciencecentral.com/profiles/blogs/66-job-interview-questions-for-data-scientists" rel="nofollow">66 Job Interview Questions for Data Scientists</a></li>
+<li><a href="https://www.recruityourninja.com/technical-interview-questions-data-scientist/" rel="nofollow">An Annotated List of Data Scientist Technical Interview Questions</a></li>
+</ul>
+<h3><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h3>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/da896acd40e1f4f275c2da6e1d830b2865803fc8/68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="https://i.creativecommons.org/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.18985s from unicorn-526741577-2b27b">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

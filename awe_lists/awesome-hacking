@@ -1,0 +1,487 @@
+   #Recen
+   t Commits to awesome-hacking:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign
+   in or Sign up
+
+     * 328
+     * 3,648
+     * 619
+
+awesome-hacking
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome Hacking tutorials, tools and resources
+   awesome
+   91
+       commits
+     * 1 branch
+     * 32
+       contributors
+     * MIT
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/c
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-hacki
+       ng]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-hacki
+       ng]Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   LICENSE
+   First commit Dec 16, 2014
+   READM
+   E.md
+   Added Hack The Box site in Web section Mar 30,
+   2018
+   books.
+   md
+   [file://localhost/carpedm20/awesome-hacking/commit/f918d71a1b092f81fd5a
+   e5b5f8ab879a51d8aa1b]reformat and add sources Dec 17, 2014
+
+README.md
+
+Awesome
+
+   A curated list of awesome Hacking. Inspired by
+   [https://github.com/josephmisiti/awesome-machine-learning/]awesome-mach
+   ine-learning
+
+   If you want to contribute to this list (please do), send me a pull
+   request or contact me [https://twitter.com/carpedm20]@carpedm20
+
+   For a list of free hacking books available for download, go
+   [https://github.com/Hack-with-Github/Free-Security-eBooks]here
+
+Table of Contents
+
+     * System
+          + Tutorials
+          + Tools
+          + Docker
+          + General
+     * Reverse Engineering
+          + Tutorials
+          + Tools
+          + General
+     * Web
+          + Tutorials
+          + Tools
+     * Network
+          + Tutorials
+          + Tools
+     * BugBounty
+     * Forensic
+          + Tutorials
+          + Tools
+     * Cryptography
+          + Tutorials
+          + Tools
+     * Wargame
+          + System
+          + Reverse Engineering
+          + Web
+          + Network
+          + Forensic
+          + Cryptography
+     * CTF
+          + Competition
+          + General
+     * OS
+          + Online resources
+     * ETC
+
+System
+
+Tutorials
+
+     * [https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutori
+       al-part-1-stack-based-overflows/]Corelan Team's Exploit writing
+       tutorial
+     * [http://www.punter-infosec.com/exploit-writing-tutorials-for-pentes
+       ters/]Exploit Writing Tutorials for Pentesters
+
+Tools
+
+     * [https://github.com/rapid7/metasploit-framework]Metasploit A
+       computer security project that provides information about security
+       vulnerabilities and aids in penetration testing and IDS signature
+       development.
+     * [https://github.com/gentilkiwi/mimikatz]mimikatz - A little tool to
+       play with Windows security
+
+Docker Images for Penetration Testing & Security
+
+     * docker pull kalilinux/kali-linux-docker
+       [https://hub.docker.com/r/kalilinux/kali-linux-docker/]official
+       Kali Linux
+     * docker pull owasp/zap2docker-stable -
+       [https://github.com/zaproxy/zaproxy]official OWASP ZAP
+     * docker pull wpscanteam/wpscan -
+       [https://hub.docker.com/r/wpscanteam/wpscan/]official WPScan
+     * docker pull pandrew/metasploit -
+       [https://hub.docker.com/r/pandrew/metasploit/]docker-metasploit
+     * docker pull citizenstig/dvwa -
+       [https://hub.docker.com/r/citizenstig/dvwa/]Damn Vulnerable Web
+       Application (DVWA)
+     * docker pull wpscanteam/vulnerablewordpress -
+       [https://hub.docker.com/r/wpscanteam/vulnerablewordpress/]Vulnerabl
+       e WordPress Installation
+     * docker pull hmlio/vaas-cve-2014-6271 -
+       [https://hub.docker.com/r/hmlio/vaas-cve-2014-6271/]Vulnerability
+       as a service: Shellshock
+     * docker pull hmlio/vaas-cve-2014-0160 -
+       [https://hub.docker.com/r/hmlio/vaas-cve-2014-0160/]Vulnerability
+       as a service: Heartbleed
+     * docker pull opendns/security-ninjas -
+       [https://hub.docker.com/r/opendns/security-ninjas/]Security Ninjas
+     * docker pull usertaken/archlinux-pentest-lxde -
+       [https://hub.docker.com/r/usertaken/archlinux-pentest-lxde/]Arch
+       Linux Penetration Tester
+     * docker pull diogomonica/docker-bench-security -
+       [https://hub.docker.com/r/diogomonica/docker-bench-security/]Docker
+       Bench for Security
+     * docker pull ismisepaul/securityshepherd -
+       [https://hub.docker.com/r/ismisepaul/securityshepherd/]OWASP
+       Security Shepherd
+     * docker pull danmx/docker-owasp-webgoat -
+       [https://hub.docker.com/r/danmx/docker-owasp-webgoat/]OWASP WebGoat
+       Project docker image
+     * docker-compose build && docker-compose up -
+       [https://github.com/owasp/nodegoat#option-3---run-nodegoat-on-docke
+       r]OWASP NodeGoat
+     * docker pull citizenstig/nowasp -
+       [https://hub.docker.com/r/citizenstig/nowasp/]OWASP Mutillidae II
+       Web Pen-Test Practice Application
+     * docker pull bkimminich/juice-shop -
+       [https://github.com/bkimminich/juice-shop#docker-container--]OWASP
+       Juice Shop
+
+General
+
+     * [https://www.exploit-db.com/]Exploit database - An ultimate archive
+       of exploits and vulnerable software
+
+Reverse Engineering
+
+Tutorials
+
+     * [https://tuts4you.com/download.php?list.17]Lenas Reversing for
+       Newbies
+     * [http://fumalwareanalysis.blogspot.kr/p/malware-analysis-tutorials-
+       reverse.html]Malware Analysis Tutorials: a Reverse Engineering
+       Approach
+
+Tools
+
+     * [https://github.com/lorenzoongithub/nudge4j]nudge4j - Java tool to
+       let the browser talk to the JVM
+     * [https://www.hex-rays.com/products/ida/]IDA - IDA is a Windows,
+       Linux or Mac OS X hosted multi-processor disassembler and debugger
+     * [http://www.ollydbg.de/]OllyDbg - A 32-bit assembler level
+       analysing debugger for Windows
+     * [http://x64dbg.com/]x64dbg - An open-source x64/x32 debugger for
+       Windows
+     * [https://github.com/pxb1988/dex2jar]dex2jar - Tools to work with
+       Android .dex and Java .class files
+     * [http://jd.benow.ca/]JD-GUI - A standalone graphical utility that
+       displays Java source codes of ".class" files
+     * [https://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler]proc
+       yon - A modern open-source Java decompiler
+     * [https://code.google.com/p/androguard/]androguard - Reverse
+       engineering, malware and goodware analysis of Android applications
+     * [http://varaneckas.com/jad/]JAD - JAD Java Decompiler
+       (closed-source, unmaintained)
+     * [https://www.jetbrains.com/decompiler/]dotPeek - a free-of-charge
+       .NET decompiler from JetBrains
+     * [https://github.com/icsharpcode/ILSpy/]ILSpy - an open-source .NET
+       assembly browser and decompiler
+     * [https://github.com/0xd4d/dnSpy]dnSpy - .NET assembly editor,
+       decompiler, and debugger
+     * [https://github.com/0xd4d/de4dot]de4dot - .NET deobfuscator and
+       unpacker.
+     * [https://github.com/0xd4d/antinet]antinet - .NET anti-managed
+       debugger and anti-profiler code
+     * [http://upx.sourceforge.net/]UPX - the Ultimate Packer for
+       eXecutables
+     * [https://github.com/radare/radare2]radare2 - A portable reversing
+       framework
+     * [https://github.com/joelpx/plasma]plasma - Interactive disassembler
+       for x86/ARM/MIPS. Generates indented pseudo-code with colored
+       syntax code.
+     * [https://www.hopperapp.com/]Hopper - A OS X and Linux
+       Disassembler/Decompiler for 32/64-bit Windows/Mac/Linux/iOS
+       executables.
+     * [https://github.com/pfalcon/ScratchABit]ScratchABit - Easily
+       retargetable and hackable interactive disassembler with
+       IDAPython-compatible plugin API
+
+General
+
+     * [http://www.offensivecomputing.net/]Open Malware
+
+Web
+
+Tools
+
+     * [https://github.com/sqlmapproject/sqlmap]sqlmap - Automatic SQL
+       injection and database takeover tool
+     * [http://tools.web-max.ca/encode_decode.php]tools.web-max.ca -
+       base64 base85 md4,5 hash, sha1 hash encoding/decoding
+
+Network
+
+Tools
+
+     * [https://www.wireshark.org/]Wireshark - A free and open-source
+       packet analyzer
+     * [http://www.netresec.com/?page=NetworkMiner]NetworkMiner - A
+       Network Forensic Analysis Tool (NFAT)
+     * [http://www.tcpdump.org/]tcpdump - A powerful command-line packet
+       analyzer; and libpcap, a portable C/C++ library for network traffic
+       capture
+     * [http://sourceforge.net/projects/paros/]Paros - A Java-based
+       HTTP/HTTPS proxy for assessing web application vulnerability
+     * [https://github.com/rafael-santiago/pig]pig - A Linux packet
+       crafting tool
+     * [https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project]ZAP
+       - The Zed Attack Proxy (ZAP) is an easy to use integrated
+       penetration testing tool for finding vulnerabilities in web
+       applications
+     * [https://mitmproxy.org/]mitmproxy - An interactive, SSL-capable
+       man-in-the-middle proxy for HTTP with a console interface
+     * [https://github.com/Akdeniz/mitmsocks4j]mitmsocks4j -
+       Man-in-the-middle SOCKS Proxy for Java
+     * [https://nmap.org/]nmap - Nmap (Network Mapper) is a security
+       scanner
+     * [http://www.aircrack-ng.org/]Aircrack-ng - An 802.11 WEP and
+       WPA-PSK keys cracking program
+     * [https://charlesproxy.com/]Charles Proxy - A cross-platform GUI web
+       debugging proxy to view intercepted HTTP and HTTPS/SSL live traffic
+     * [https://github.com/GouveaHeitor/nipe]Nipe - A script to make Tor
+       Network your default gateway.
+     * [https://github.com/portantier/habu]Habu - Python Network Hacking
+       Toolkit
+     * [https://n0where.net/wifijammer/]Wifi Jammer - Free program to jam
+       all wifi clients in range
+     * [https://codebutler.github.io/firesheep/]Firesheep - Free program
+       for HTTP session hijacking attacks.
+     * [https://github.com/secdev/scapy]Scapy - A Python tool and library
+       for low level packet creation and maniputalion
+
+Forensic
+
+Tools
+
+     * [http://www.sleuthkit.org/autopsy/]Autospy - A digital forensics
+       platform and graphical interface to
+       [http://www.sleuthkit.org/sleuthkit/index.php]The Sleuth Kit and
+       other digital forensics tools
+     * [https://github.com/sleuthkit/sleuthkit]sleuthkit - A library and
+       collection of command-line digital forensics tools
+     * [https://www.guidancesoftware.com/products/Pages/encase-forensic/ov
+       erview.aspx]EnCase - The shared technology within a suite of
+       digital investigations products by Guidance Software
+     * [http://malzilla.sourceforge.net/]malzilla - Malware hunting tool
+     * [http://wjradburn.com/software/]PEview - A quick and easy way to
+       view the structure and content of 32-bit Portable Executable (PE)
+       and Component Object File Format (COFF) files
+     * [http://mh-nexus.de/en/hxd/]HxD - A hex editor which, additionally
+       to raw disk editing and modifying of main memory (RAM), handles
+       files of any size
+     * [http://www.winhex.com/winhex/]WinHex - A hexadecimal editor,
+       helpful in the realm of computer forensics, data recovery,
+       low-level data processing, and IT security
+     * [http://www.mcafee.com/kr/downloads/free-tools/bintext.aspx]BinText
+       - A small, very fast and powerful text extractor that will be of
+       particular interest to programmers
+
+Cryptography
+
+Tools
+
+     * [https://github.com/hellman/xortool]xortool - A tool to analyze
+       multi-byte XOR cipher
+     * [http://www.openwall.com/john/]John the Ripper - A fast password
+       cracker
+     * [http://www.aircrack-ng.org/]Aircrack - Aircrack is 802.11 WEP and
+       WPA-PSK keys cracking program.
+
+Wargame
+
+System
+
+     * [http://overthewire.org/wargames/semtex/]OverTheWire - Semtex
+     * [http://overthewire.org/wargames/vortex/]OverTheWire - Vortex
+     * [http://overthewire.org/wargames/drifter/]OverTheWire - Drifter
+     * [http://pwnable.kr/]pwnable.kr - Provide various pwn challenges
+       regarding system security
+     * [https://exploit-exercises.com/nebula/]Exploit Exercises - Nebula
+     * [http://smashthestack.org/]SmashTheStack
+
+Reverse Engineering
+
+     * [http://www.reversing.kr/]Reversing.kr - This site tests your
+       ability to Cracking & Reverse Code Engineering
+     * [http://codeengn.com/challenges/]CodeEngn - (Korean)
+     * [http://simples.kr/]simples.kr - (Korean)
+     * [http://crackmes.de/]Crackmes.de - The world first and largest
+       community website for crackmes and reversemes.
+
+Web
+
+     * [https://www.hackthissite.org/]Hack This Site! - a free, safe and
+       legal training ground for hackers to test and expand their hacking
+       skills
+     * [https://www.hackthebox.eu/]Hack The Box - a free site to perform
+       pentesting in a variety of different systems.
+     * [http://webhacking.kr/]Webhacking.kr
+     * [https://0xf.at/]0xf.at - a website without logins or ads where you
+       can solve password-riddles (so called hackits).
+
+Cryptography
+
+     * [http://overthewire.org/wargames/krypton/]OverTheWire - Krypton
+
+Bug bounty
+
+     * [https://github.com/EdOverflow/bugbounty-cheatsheet]Awsome bug
+       bounty resourses by Edoverflow
+
+CTF
+
+Competition
+
+     * [https://legitbs.net/]DEF CON
+     * [https://ctf.isis.poly.edu/]CSAW CTF
+     * [http://hack.lu/]hack.lu CTF
+     * [http://www.plaidctf.com/]Pliad CTF
+     * [http://ructf.org/e/]RuCTFe
+     * [http://ghostintheshellcode.com/]Ghost in the Shellcode
+     * [http://www.phdays.com/]PHD CTF
+     * [http://secuinside.com/]SECUINSIDE CTF
+     * [http://ctf.codegate.org/html/Main.html?lang=eng]Codegate CTF
+     * [http://bostonkeyparty.net/]Boston Key Party CTF
+
+General
+
+     * [http://hack.plus/]Hack+ - An Intelligent network of bots that
+       fetch the latest InfoSec content.
+     * [https://ctftime.org/]CTFtime.org - All about CTF (Capture The
+       Flag)
+     * [http://www.wechall.net/]WeChall
+     * [http://shell-storm.org/repo/CTF/]CTF archives (shell-storm)
+     * [https://amzn.com/144962636X]Rookit Arsenal - OS RE and rootkit
+       development
+     * [https://github.com/coreb1t/awesome-pentest-cheat-sheets]Pentest
+       Cheat Sheets - Collection of cheat sheets useful for pentesting
+     * [https://github.com/k4m4/movies-for-hackers]Movies For Hacker - A
+       curated list of movies every hacker & cyberpunk must watch.
+
+OS
+
+Online resources
+
+     * [http://rawsec.ml/en/security-related-os/]Security related
+       Operating Systems @ Rawsec - Complete list of security related
+       operating systems
+     * [https://n0where.net/best-linux-penetration-testing-distributions/]
+       Best Linux Penetration Testing Distributions @ CyberPunk -
+       Description of main penetration testing distributions
+     * [http://distrowatch.com/search.php?category=Security]Security @
+       Distrowatch - Website dedicated to talking about, reviewing and
+       keeping up to date with open source operating systems
+
+ETC
+
+     * [http://sectools.org/]SecTools - Top 125 Network Security Tools
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   R
+   eload to refresh your session. You signed out in another tab or window.
+   R
+   eload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

@@ -1,0 +1,1191 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - dastergon/awesome-sre: A curated list of awesome Site Reliability and Production Engineering resources.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/1192342?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="dastergon/awesome-sre" /><meta property="og:url" content="https://github.com/dastergon/awesome-sre" /><meta property="og:description" content="awesome-sre - A curated list of awesome Site Reliability and Production Engineering resources." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E233:5D4E:265226E:471612B:5AD2F744" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E233:5D4E:265226E:471612B:5AD2F744" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NjRjZmM2Y2Q1NDA0MGE4MzA1OTg1MDliMzdhYzViMWFjZmI5ZTM2ZjNjZDMwMzEwOWVhZjJhNjQ1ODllZGNjNnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTIzMzo1RDRFOjI2NTIyNkU6NDcxNjEyQjo1QUQyRjc0NCIsInRpbWVzdGFtcCI6MTUyMzc3NTMwMCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="1800abe8c542a06eedd11010189027f3b51eff19">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/dastergon/awesome-sre/commits/master.atom" rel="alternate" title="Recent Commits to awesome-sre:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-sre - A curated list of awesome Site Reliability and Production Engineering resources.">
+  <meta name="go-import" content="github.com/dastergon/awesome-sre git https://github.com/dastergon/awesome-sre.git">
+
+  <meta name="octolytics-dimension-user_id" content="1192342" /><meta name="octolytics-dimension-user_login" content="dastergon" /><meta name="octolytics-dimension-repository_id" content="56103979" /><meta name="octolytics-dimension-repository_nwo" content="dastergon/awesome-sre" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="56103979" /><meta name="octolytics-dimension-repository_network_root_nwo" content="dastergon/awesome-sre" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/dastergon/awesome-sre" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/dastergon/awesome-sre/search" data-unscoped-search-url="/search" action="/dastergon/awesome-sre/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/dastergon/awesome-sre">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fdastergon%2Fawesome-sre" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fdastergon%2Fawesome-sre"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/dastergon/awesome-sre/watchers"
+     aria-label="215 users are watching this repository">
+    215
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fdastergon%2Fawesome-sre"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/dastergon/awesome-sre/stargazers"
+      aria-label="1828 users starred this repository">
+      1,828
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fdastergon%2Fawesome-sre"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/dastergon/awesome-sre/network" class="social-count"
+       aria-label="177 users forked this repository">
+      177
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/dastergon">dastergon</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/dastergon/awesome-sre">awesome-sre</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /dastergon/awesome-sre" href="/dastergon/awesome-sre">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /dastergon/awesome-sre/issues" href="/dastergon/awesome-sre/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /dastergon/awesome-sre/pulls" href="/dastergon/awesome-sre/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">2</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /dastergon/awesome-sre/pulse" href="/dastergon/awesome-sre/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="kbQ/1RPlL420pjH8SCpvB1KJd8oSXLLf3zCazFxr2OkZCL6A+YRvlIqsZQ66Bfq30dNRk5q+htGdapRB2xX1lw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome Site Reliability and Production Engineering resources.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/dastergon/awesome-sre/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/site-reliability-engineering" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:site-reliability-engineering">
+        site-reliability-engineering
+      </a>
+      <a href="/topics/production" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:production">
+        production
+      </a>
+      <a href="/topics/availability" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:availability">
+        availability
+      </a>
+      <a href="/topics/monitoring" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:monitoring">
+        monitoring
+      </a>
+      <a href="/topics/post-mortem" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:post-mortem">
+        post-mortem
+      </a>
+      <a href="/topics/reliability-engineering" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:reliability-engineering">
+        reliability-engineering
+      </a>
+      <a href="/topics/capacity-planning" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:capacity-planning">
+        capacity-planning
+      </a>
+      <a href="/topics/service-level-agreement" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:service-level-agreement">
+        service-level-agreement
+      </a>
+      <a href="/topics/scalability" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:scalability">
+        scalability
+      </a>
+      <a href="/topics/reliability" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:reliability">
+        reliability
+      </a>
+      <a href="/topics/alerting" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:alerting">
+        alerting
+      </a>
+      <a href="/topics/on-call" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:on-call">
+        on-call
+      </a>
+      <a href="/topics/site-reliability" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:site-reliability">
+        site-reliability
+      </a>
+      <a href="/topics/postmortem" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:postmortem">
+        postmortem
+      </a>
+      <a href="/topics/incident-response" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:incident-response">
+        incident-response
+      </a>
+      <a href="/topics/sre" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:sre">
+        sre
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/devops" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:devops">
+        devops
+      </a>
+      <a href="/topics/observability" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:observability">
+        observability
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/dastergon/awesome-sre/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                282
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/dastergon/awesome-sre/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/dastergon/awesome-sre/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/dastergon/awesome-sre/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      9
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/dastergon/awesome-sre/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/dastergon/awesome-sre.git" aria-label="Clone this repository at https://github.com/dastergon/awesome-sre.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/dastergon/awesome-sre.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/dastergon/awesome-sre/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/dastergon/awesome-sre/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/dastergon/awesome-sre/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/dastergon/awesome-sre/tree-commit/b208b3773d6230952e196fa7a434f1f2625225a7" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dastergon/awesome-sre/tree/b208b3773d6230952e196fa7a434f1f2625225a7">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-483959a3ad16c85dcf259dd84a91b156eec27635" href="/dastergon/awesome-sre/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="remove AP style requirement" class="message" href="/dastergon/awesome-sre/commit/dffbba318e59a010230a833f27728dc21148f28d">remove AP style requirement</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-16T12:18:43Z">Apr 16, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-670154e3538863b2d9891fd5483160fbdfc89164" itemprop="license" href="/dastergon/awesome-sre/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Initial commit" class="message" href="/dastergon/awesome-sre/commit/aa113bd589976a9f4f9b1a7e061cf8b5e46f6471">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-12T23:06:21Z">Apr 12, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-eaf24179808dadd42a23c2a7df00b432a4b3c3e2" href="/dastergon/awesome-sre/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add article about on-call management" class="message" href="/dastergon/awesome-sre/commit/b208b3773d6230952e196fa7a434f1f2625225a7">add article about on-call management</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-14T19:35:00Z">Apr 14, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-site-reliability-engineering--" class="anchor" aria-hidden="true" href="#awesome-site-reliability-engineering--"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Site Reliability Engineering  <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of awesome <a href="https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre" rel="nofollow">Site Reliability</a> and <a href="https://www.usenix.org/conference/srecon15/program/presentation/canahuati" rel="nofollow">Production</a> Engineering resources.</p>
+<h4><a id="user-content-what-is-site-reliability-engineering" class="anchor" aria-hidden="true" href="#what-is-site-reliability-engineering"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is Site Reliability Engineering?</h4>
+<blockquote>
+<p>"Fundamentally, it's what happens when you ask a software engineer to design an operations function." - Ben Treynor Sloss, VP Google Engineering, founder of Google SRE</p>
+</blockquote>
+<h2><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Please take a look at the <a href="/dastergon/awesome-sre/blob/master/CONTRIBUTING.md">contribution guidelines</a> first.
+Contributions are always welcome!</p>
+<h2><a id="user-content-contents" class="anchor" aria-hidden="true" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#culture">Culture</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#hiring">Hiring</a></li>
+<li><a href="#reliability">Reliability</a></li>
+<li><a href="#monitoring--observability--alerting">Monitoring &amp; Observability &amp; Alerting</a></li>
+<li><a href="#on-call">On-Call</a></li>
+<li><a href="#post-mortem">Post-Mortem</a></li>
+<li><a href="#capacity-planning">Capacity Planning</a></li>
+<li><a href="#service-level-agreement">Service Level Agreement</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#misc-articles">Misc Articles</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#conferences--meetups">Conferences &amp; Meetups</a></li>
+<li><a href="#twitter">Twitter</a></li>
+</ul>
+<h2><a id="user-content-culture" class="anchor" aria-hidden="true" href="#culture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Culture</h2>
+<ul>
+<li><a href="https://landing.google.com/sre/interview/ben-treynor.html" rel="nofollow">What is Site Reliability Engineering?</a></li>
+<li><a href="https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre" rel="nofollow">Keys To SRE by Ben Treynor</a></li>
+<li><a href="https://landing.google.com/sre/resources.html" rel="nofollow">Google SRE Resources</a></li>
+<li><a href="https://www.usenix.org/conference/srecon15/program/presentation/canahuati" rel="nofollow">Notes from Production Engineering by Pedro Canahuati</a></li>
+<li><a href="https://www.usenix.org/conference/srecon15europe/program/presentation/underwood" rel="nofollow">PostOps: Recovery from Operations</a></li>
+<li><a href="https://www.atlassian.com/it-service/site-reliability-engineering-sre" rel="nofollow">Love DevOps? Wait 'till you meet SRE</a> <a href="https://youtu.be/fsTpRx8Pt-k" rel="nofollow">[video]</a></li>
+<li><a href="https://www.youtube.com/watch?v=H4vMcD7zKM0" rel="nofollow">How Google Does Planet-Scale Engineering for Planet-Scale Infra</a></li>
+<li><a href="https://www.facebook.com/notes/facebook-engineering/site-reliability-engineering-at-facebook/291616313919/" rel="nofollow">Site Reliability Engineering at Facebook</a></li>
+<li><a href="https://www.youtube.com/watch?v=qJnS-EfIIIE&amp;nohtml5=False" rel="nofollow">A History of Site Reliability Engineering at Uber</a></li>
+<li><a href="https://www.usenix.org/conference/srecon15/program/presentation/limoncelli" rel="nofollow">Case Study: Adopting SRE Principles at StackOverflow</a></li>
+<li><a href="https://www.youtube.com/watch?v=ggizCjUCCqE" rel="nofollow">Site Reliability Engineering at Dropbox</a></li>
+<li><a href="https://www.youtube.com/watch?v=yXI7r0_J29M" rel="nofollow">Site Reliability Engineers — Keeping Google up and running 24/7</a></li>
+<li><a href="https://www.youtube.com/watch?v=JLkr6UHXN44&amp;nohtml5=False" rel="nofollow">Site Reliability Engineering at Salesforce</a></li>
+<li><a href="https://www.youtube.com/watch?v=lZI51YzIgVE" rel="nofollow">From Sys Admin to Netflix SRE</a></li>
+<li><a href="https://www.youtube.com/watch?v=iIuTnhdTzK0" rel="nofollow">SRE@Google: Thousands of DevOps Since 2004</a></li>
+<li><a href="https://www.usenix.org/conference/lisa15/conference-program/presentation/limoncelli" rel="nofollow">Transactional System Administration Is Killing Us and Must be Stopped</a></li>
+<li><a href="https://plus.google.com/+lizthegrey/posts/MLAJFVyEb2f" rel="nofollow">Maslow's hierarchy of SRE needs</a></li>
+<li><a href="https://www.usenix.org/conference/lisa13/technical-sessions/plenary/underwood" rel="nofollow">PostOps: A Non-Surgical Tale of Software, Fragility, and Reliability</a></li>
+<li><a href="https://www.socallinuxexpo.org/sites/default/files/presentations/Scale%20x14%20Slides.pdf" rel="nofollow">From SysAdmin to Netflix SRE</a></li>
+<li><a href="http://anthonycaiafa.com/2016/04/10/sre-cultural-narnia/" rel="nofollow">SRE: An incomplete guide to cultural Narnia</a> - <a href="https://www.youtube.com/watch?v=__wypEhdcrQ&amp;t=0s" rel="nofollow">[Video]</a></li>
+<li><a href="https://www.usenix.org/conference/srecon16/program/presentation/krishnan" rel="nofollow">Putting Together Great SRE Teams</a></li>
+<li><a href="https://www.youtube.com/watch?v=bwt6TZjefGM" rel="nofollow">Work at Google: Meet our Production Engineers for Site Reliability Hangout on Air</a></li>
+<li><a href="https://medium.com/production-ready/toil-a-word-every-engineer-should-know-f0b676e41c86" rel="nofollow">Toil: A Word Every Engineer Should Know</a></li>
+<li><a href="https://research.google.com/pubs/pub32583.html" rel="nofollow">Engineering Reliability into Web Sites: Google SRE</a></li>
+<li><a href="http://pages.catchpoint.com/DEVOPS-SRE-AMA-mkty.html" rel="nofollow">DEVOPS &amp; SRE AMA - Building High Performance Organizations</a></li>
+<li>Site Reliability Engineering with Paul Newson - <a href="https://www.gcppodcast.com/post/episode-38-site-reliability-engineering-with-paul-newson/" rel="nofollow">Part 1</a> &amp; <a href="https://gcppodcast.com/post/episode-59-sre-ii-with-paul-newson/" rel="nofollow">Part 2</a></li>
+<li><a href="https://queue.acm.org/detail.cfm?id=2891413" rel="nofollow">How SysAdmins Devalue Themselves</a></li>
+<li><a href="https://www.youtube.com/watch?v=ry51Llzil1I" rel="nofollow">The Softer Side of DevOps</a></li>
+<li><a href="https://medium.com/@kobolog/sre-noun-see-also-confidence-trust-e7e33e19efc1" rel="nofollow">SRE, noun. See also: confidence, trust.</a></li>
+<li><a href="https://youtu.be/24xb7oZgu-I?t=29m24s" rel="nofollow">Site Reliability Engineering with Stephen Weinberg</a></li>
+<li><a href="https://www.reddit.com/r/IAmA/comments/177267/we_are_the_google_site_reliability_team_we_make" rel="nofollow">We are the Google Site Reliability team. We make Google’s websites work. Ask us Anything!</a></li>
+<li><a href="https://www.reddit.com/r/IAmA/comments/1w1y5m/we_are_the_google_site_reliability_engineering/" rel="nofollow">We are the Google Site Reliability Engineering team. Ask us Anything!</a></li>
+<li><a href="http://www.susanjfowler.com/blog/2016/10/13/the-ops-identity-crisis" rel="nofollow">The Ops Identity Crisis</a></li>
+<li><a href="http://www.susanjfowler.com/blog/2016/11/2/the-irreproducibility-of-bugs-in-large-scale-production-systems" rel="nofollow">The Irreproducibility Of Bugs In Large-Scale Production Systems</a></li>
+<li><a href="http://www.se-radio.net/2016/12/se-radio-episode-276-bjorn-rabenstein-on-site-reliability-engineering/" rel="nofollow">SE-Radio Episode 276: Björn Rabenstein on Site Reliability Engineering</a></li>
+<li><a href="https://blog.netsil.com/microservices-devops-and-operational-complexity-be98cb01b660" rel="nofollow">Microservices, DevOps and Production Complexity</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2016/10/introducing-a-new-era-of-customer-support-Google-Customer-Reliability-Engineering.html" rel="nofollow">Introducing Google Customer Reliability Engineering</a></li>
+<li><a href="http://126kr.com/article/7vkoxnk6s01" rel="nofollow">Evolution or Rebellion? The rise of Site Reliability Engineers (SRE)</a></li>
+<li><a href="https://standalone-sysadmin.com/the-difference-between-site-reliability-engineering-system-administration-and-devops-d05031495499" rel="nofollow">The difference between Site Reliability Engineering, System Administration, and DevOps</a></li>
+<li><a href="https://www.usenix.org/conference/lisa16/conference-program/presentation/closing-plenary" rel="nofollow">SRE in the Small and in the Large</a></li>
+<li><a href="https://www.youtube.com/watch?v=zLXf0cKDOv0" rel="nofollow">SBSRE Meetup: Different SRE roles and challenges(Netflix)</a></li>
+<li><a href="https://www.usenix.org/conference/srecon16/program/presentation/definition-of-sre-panel" rel="nofollow">Panel: Who/What Is SRE?</a></li>
+<li><a href="https://medium.com/@jerub/hope-is-not-a-strategy-6a7d0a3b1c08" rel="nofollow">Hope Is Not a Strategy</a></li>
+<li><a href="https://medium.com/@jerub/tenets-of-sre-8af6238ae8a8" rel="nofollow">Tenets of SRE</a></li>
+<li><a href="https://medium.com/@venkatachalamrangasamy/site-reliability-engineering-demystified-ed676e0a7d56" rel="nofollow">Site Reliability Engineering Demystified</a></li>
+<li><a href="https://devops.com/site-reliability-engineering-sre-true-ops-devops/" rel="nofollow">Is Site Reliability Engineering the True ‘Ops’ in DevOps?</a></li>
+<li><a href="https://devops.com/sre-devops-cloud-native-server-cage-match/" rel="nofollow">SRE vs. DevOps vs. Cloud Native: The Server Cage Match</a></li>
+<li><a href="https://youtu.be/8dfYLRAWn_c" rel="nofollow">SRE: What’s The Big Idea?</a></li>
+<li><a href="https://engineering.linkedin.com/blog/2017/05/building-the-sre-culture-at-linkedin" rel="nofollow">Building the SRE Culture at LinkedIn</a></li>
+<li><a href="https://rackn.com/sre-white-paper/" rel="nofollow">SRE white paper by RackN</a></li>
+<li><a href="https://stackoverflow.blog/2017/06/12/podcast-111-sre-occasionally-maintaining-infrastructure-hate/" rel="nofollow">Podcast #111 – SRE: Occasionally Maintaining Infrastructure That You Hate</a></li>
+<li><a href="https://www.usenix.org/conference/srecon16europe/program/presentation/splicing-sre-dna-sequences-biggest-software-company" rel="nofollow">Splicing SRE DNA Sequences in the Biggest Software Company on the Planet</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/06/why-should-your-app-get-SRE-support-CRE-life-lessons.html" rel="nofollow">Why should your app get SRE support? - CRE life lessons</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/06/how-SREs-find-the-landmines-in-a-service-CRE-life-lessons.html" rel="nofollow">How SREs find the landmines in a service - CRE life lessons</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/07/making-the-most-of-an-SRE-service-takeover-CRE-life-lessons.html" rel="nofollow">Making the most of an SRE service takeover - CRE life lessons</a></li>
+<li><a href="https://dzone.com/articles/the-cloudcast-301-sre-and-infrastructure-operation" rel="nofollow">The Cloudcast #301: SRE and Infrastructure Operations (Podcast)</a></li>
+<li><a href="https://medium.com/@rakyll/the-sre-model-6e19376ef986" rel="nofollow">The SRE model</a></li>
+<li><a href="https://circleci.com/blog/onboarding-new-site-reliability-engineers/" rel="nofollow">Onboarding New Site Reliability Engineers</a></li>
+<li><a href="https://www.youtube.com/watch?v=nQv9ySa8MTU" rel="nofollow">Building Blocks for Site Reliability At Google</a></li>
+<li><a href="https://blog.netsil.com/beyond-google-sre-what-is-site-reliability-engineering-like-at-medium-71c65bd35f4e" rel="nofollow">Beyond Google SRE: What is Site Reliability Engineering like at Medium?</a></li>
+<li><a href="http://blog.adnanmasood.com/2016/05/19/intelligent-site-reliability-engineering-a-machine-learning-perspective/" rel="nofollow">Intelligent Site Reliability Engineering – A Machine Learning Perspective</a></li>
+<li><a href="https://engineering.linkedin.com/day-life/crash-course-linkedins-global-site-operations" rel="nofollow">A crash course in LinkedIn's global site operations</a></li>
+<li><a href="https://softwareengineeringdaily.com/2016/06/14/googles-site-reliability-engineering-todd-underwood/" rel="nofollow">Google’s Site Reliability Engineering with Todd Underwood</a></li>
+<li><a href="https://blog.newrelic.com/2017/10/30/site-reliability-engineer-sre" rel="nofollow">The Rise of the Site Reliability Engineer</a></li>
+<li><a href="https://blog.newrelic.com/2017/12/15/new-relic-sre/" rel="nofollow">Defining Modern Software Roles: SREs at New Relic</a></li>
+<li><a href="https://blog.newrelic.com/2018/01/23/best-sre-tools/" rel="nofollow">What Tools Do Site Reliability Engineers Use?</a></li>
+<li><a href="https://blogs.vmware.com/services-education-insights/2018/02/site-reliability-engineering.html" rel="nofollow">What is Site Reliability Engineering? (VMware)</a></li>
+<li><a href="http://geekologist.co/introduction-to-sre/" rel="nofollow">A Gentle Introduction to SRE</a></li>
+<li><a href="http://engineering.medallia.com/blog/posts/understanding-site-reliability-engineering-through-movies-and-books/" rel="nofollow">Understanding Site Reliability Engineering through Movies and Books</a></li>
+<li><a href="https://www.youtube.com/watch?v=Cxb7a8lTv8A" rel="nofollow">GOTO 2017 • Site Reliability Engineering at Google • Christof Leng</a></li>
+</ul>
+<h2><a id="user-content-education" class="anchor" aria-hidden="true" href="#education"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Education</h2>
+<ul>
+<li><a href="https://www.usenix.org/conference/srecon15/program/presentation/sebenik" rel="nofollow">Panel: Educating SRE</a></li>
+<li><a href="https://www.usenix.org/conference/srecon15/program/presentation/widdowson" rel="nofollow">From Zero to Hero: Recommended Practices for Training your Ever-Evolving SRE Teams</a></li>
+<li><a href="http://anthonycaiafa.com/2016/04/27/new-to-a-team/" rel="nofollow">New to an SRE team?</a></li>
+<li><a href="https://www.usenix.org/publications/login/june15/hixson" rel="nofollow">The Systems Engineering Side of Site Reliability Engineering</a></li>
+<li><a href="https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b" rel="nofollow">Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?</a></li>
+<li><a href="https://www.loomsystems.com/single-post/2016/03/23/So-you-want-to-be-a-Site-Reliability-Engineer" rel="nofollow">So you want to be a Site Reliability Engineer?</a></li>
+<li><a href="https://blog.loomsystems.com/2017/02/06/spiraling-ops-debt-the-sre-coding-imperative/" rel="nofollow">Spiraling Ops Debt &amp; the SRE Coding Imperative</a></li>
+<li><a href="https://hackernoon.com/so-you-want-to-be-an-sre-34e832357a8c" rel="nofollow">So you want to be an SRE?</a></li>
+<li><a href="https://www.khanacademy.org/college-careers-more/career-content/career-profile-videos/site-reliability-engineer/v/ruth-grace-site-reliability-engineer-what-i-do-and-how-much-i-make" rel="nofollow">Career Profiles/Site Reliability Engineer</a></li>
+<li><a href="https://cloudacademy.com/blog/what-is-the-role-of-a-site-reliability-engineer/" rel="nofollow">What is the role of a Site Reliability Engineer?</a></li>
+</ul>
+<h2><a id="user-content-books" class="anchor" aria-hidden="true" href="#books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h2>
+<ul>
+<li><a href="https://landing.google.com/sre/book.html" rel="nofollow">Site Reliability Engineering: How Google Runs Production Systems</a></li>
+<li><a href="http://the-cloud-book.com/" rel="nofollow">The Practice Of Cloud System Administration: Designing and Operating Large Distributed Systems</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920000136.do" rel="nofollow">Web Operations - Keeping the Data On Time</a></li>
+<li><a href="http://atulgawande.com/book/the-checklist-manifesto/" rel="nofollow">The Checklist Manifesto: How to Get Things Right</a></li>
+<li><a href="http://www.oreilly.com/programming/free/microservices-in-production.csp" rel="nofollow">Microservices in Production - Standard Principles and Requirements</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920053675.do" rel="nofollow">Production-Ready Microservices - Building Standardized Systems Across an Engineering Organization</a></li>
+<li><a href="https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098/" rel="nofollow">Systems Performance: Enterprise and the Cloud</a></li>
+<li><a href="http://www.oreilly.com/webops-perf/free/monitoring-distributed-systems.csp" rel="nofollow">Monitoring Distributed Systems: Case Studies from Google's SRE Teams</a></li>
+<li><a href="http://www.oreilly.com/webops-perf/free/the-human-side-of-postmortems.csp" rel="nofollow">The Human Side of Postmortems: Managing Stress and Cognitive Biases</a></li>
+<li><a href="http://www.oreilly.com/webops-perf/free/chaos-engineering.csp" rel="nofollow">Chaos Engineering: Building Confidence in System Behavior through Experiment</a></li>
+<li><a href="https://victorops.com/oreilly-post-incident-review/" rel="nofollow">Post-Incident Reviews: Learning from Failure for Improved Incident Responses</a></li>
+<li><a href="http://www.oreilly.com/webops-perf/free/antifragile-systems-and-teams.csp" rel="nofollow">Antifragile Systems and Teams</a></li>
+<li><a href="https://www.slideshare.net/OpsStack/how-to-monitoring-the-sre-golden-signals-ebook/" rel="nofollow">How to Monitoring the SRE Golden Signals (E-Book)</a></li>
+</ul>
+<h2><a id="user-content-hiring" class="anchor" aria-hidden="true" href="#hiring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hiring</h2>
+<ul>
+<li><a href="https://www.usenix.org/conference/srecon15/program/presentation/fong" rel="nofollow">SRE Hiring</a></li>
+<li><a href="https://engineering.linkedin.com/engineering-culture/hiring-sres-linkedin" rel="nofollow">Hiring SREs at LinkedIn</a></li>
+<li><a href="https://www.usenix.org/publications/login/june15/hiring-site-reliability-engineers" rel="nofollow">Hiring Site Reliability Engineers</a></li>
+<li><a href="https://sreally.com/hiring-your-first-sre-bdda38ee175d#.2m3sqyuw9" rel="nofollow">Hiring your first SRE</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZemNg9GYvOA" rel="nofollow">Growing the Site Reliability Team at LinkedIn: Hiring is Hard</a></li>
+</ul>
+<h2><a id="user-content-reliability" class="anchor" aria-hidden="true" href="#reliability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reliability</h2>
+<ul>
+<li><a href="https://www.usenix.org/conference/srecon16/program/presentation/kroll" rel="nofollow">The Realities of the Job of Delivering Reliability</a></li>
+<li><a href="http://queue.acm.org/detail.cfm?id=2839461" rel="nofollow">Fail at Scale by Ben Maurer</a></li>
+<li><a href="https://www.youtube.com/watch?v=wrY7XoOnysg" rel="nofollow">Embracing Failure: Fault-Injection and Service Reliability</a></li>
+<li><a href="https://www.usenix.org/conference/lisa15/conference-program/presentation/krishnan" rel="nofollow">10 Years of Crashing Google</a></li>
+<li><a href="https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing" rel="nofollow">How we break things at Twitter: failure testing</a></li>
+<li><a href="http://queue.acm.org/detail.cfm?id=2745840" rel="nofollow">Reliable Cron across the Planet</a></li>
+<li><a href="https://blog.twitter.com/2014/push-our-limits-reliability-testing-at-twitter" rel="nofollow">Push our limits - reliability testing at Twitter</a></li>
+<li><a href="http://queue.acm.org/detail.cfm?ref=rss&amp;id=2889274" rel="nofollow">The Verification of a Distributed System by Caitie McCaffrey</a></li>
+<li><a href="http://queue.acm.org/detail.cfm?id=2371516" rel="nofollow">Weathering the Unexpected</a></li>
+<li><a href="http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/The-Remediation-Ballet-Performing-the-Delicate-Dance-of-Clean-Up-Matt-Linton-Google.pdf" rel="nofollow">The Remediation Ballet</a></li>
+<li><a href="https://www.youtube.com/watch?v=YFDwdRVTg4g" rel="nofollow">SRE Hour: Tech Talks by Box &amp; Yelp</a></li>
+<li><a href="https://medium.com/production-ready/simplicity-a-prerequisite-for-reliability-8d000f8d18df#.74t9t0em2" rel="nofollow">Simplicity: A Prerequisite for Reliability</a></li>
+<li><a href="https://speakerdeck.com/garethr/the-two-sides-to-google-infrastructure-for-everyone-else" rel="nofollow">The Two Sides to Google Infrastructure for Everyone Else</a></li>
+<li><a href="https://www.usenix.org/conference/ures14west/summit-program/presentation/dickson" rel="nofollow">How Embracing Continuous Release Reduced Change Complexity</a></li>
+<li><a href="https://www.usenix.org/publications/login/october-2014-vol-39-no-5/making-push-green-reality" rel="nofollow">Making "Push On Green" a Reality</a></li>
+<li><a href="https://www.usenix.org/publications/login/dec14/ward" rel="nofollow">BeyondCorp: A New Approach to Enterprise Security</a></li>
+<li><a href="https://www.youtube.com/watch?v=dKe9S8u44Yk" rel="nofollow">Brainstorming Failure by Jeff Smith</a></li>
+<li><a href="http://cloudtweaks.com/2016/04/outages-and-downtime/" rel="nofollow">The Ripple Effect Of Outages And Downtime Cannot Be Underestimated</a></li>
+<li><a href="https://blog.twitter.com/2016/the-infrastructure-behind-twitter-efficiency-and-optimization" rel="nofollow">The infrastructure behind Twitter: efficiency and optimization</a></li>
+<li><a href="https://docs.google.com/drawings/d/1kshrK2RLkW-XV8enmWZxeRFRgADj6d4Ru_w5txz_k9I/edit" rel="nofollow">Dickerson's Hierarchy of Reliability</a></li>
+<li><a href="https://blog.acolyer.org/2016/09/21/the-morning-paper-on-operability/" rel="nofollow">The Morning Paper on Operability</a></li>
+<li><a href="http://naildrivin5.com/blog/2013/06/16/production-is-all-that-matters.html" rel="nofollow">Production is all that matters</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2016/12/using-load-shedding-to-survive-a-success-disaster-CRE-life-lessons.html" rel="nofollow">Using load shedding to survive a success disaster - CRE life lessons</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2016/11/how-to-avoid-a-self-inflicted-DDoS-Attack-CRE-life-lessons.html" rel="nofollow">How to avoid a self-inflicted DDoS Attack - CRE life lessons</a></li>
+<li><a href="https://www.oreilly.com/ideas/dont-gamble-when-it-comes-to-reliability" rel="nofollow">Don't gamble when it comes to reliability</a></li>
+<li><a href="https://queue.acm.org/detail.cfm?id=2371297" rel="nofollow">Resilience Engineering: Learning to Embrace Failure</a></li>
+<li><a href="https://blog.twitter.com/2017/the-infrastructure-behind-twitter-scale" rel="nofollow">The Infrastructure Behind Twitter: Scale</a></li>
+<li><a href="https://www.youtube.com/watch?v=hYu13kBenjE" rel="nofollow">Scaling Reliability at Twitter: So You Want to Add a 9</a></li>
+<li><a href="http://principlesofchaos.org/" rel="nofollow">Principles Of Chaos Engineering</a></li>
+<li><a href="https://www.infoq.com/articles/chaos-engineering" rel="nofollow">Chaos Engineering</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/01/available-or-not-that-is-the-question-CRE-life-lessons.html" rel="nofollow">Available...or not? That is the question - CRE life lessons</a></li>
+<li><a href="http://highscalability.com/blog/2014/2/3/how-google-backs-up-the-internet-along-with-exabytes-of-othe.html" rel="nofollow">How Google Backs Up The Internet Along With Exabytes Of Other Data</a></li>
+<li><a href="http://highscalability.com/blog/2017/2/2/performance-scalability-and-high-availability-3-key-infrastr.html" rel="nofollow">Performance, Scalability, And High Availability: 3 Key Infrastructure Adaptability Requirements</a></li>
+<li>The Production Environment at Google - <a href="https://medium.com/@jerub/the-production-environment-at-google-8a1aaece3767" rel="nofollow">Part 1</a> &amp; <a href="https://medium.com/@jerub/the-production-environment-at-google-part-2-610884268aaa" rel="nofollow">Part 2</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/03/reliable-releases-and-rollbacks-CRE-life-lessons.html" rel="nofollow">Reliable releases and rollbacks - CRE life lessons</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/03/how-release-canaries-can-save-your-bacon-CRE-life-lessons.html" rel="nofollow">How release canaries can save your bacon - CRE life lessons</a></li>
+<li><a href="https://zwischenzugs.wordpress.com/2017/04/04/things-i-learned-managing-site-reliability-for-some-of-the-worlds-busiest-gambling-sites/" rel="nofollow">Things I Learned Managing Site Reliability for Some of the World’s Busiest Gambling Sites</a></li>
+<li><a href="https://www.linkedin.com/pulse/introduction-every-day-monday-operations-benjamin-purgason" rel="nofollow">Every Day Is Monday in Operations</a></li>
+<li><a href="https://engineering.squarespace.com/blog/2017/under-the-hood-ensuring-site-reliability" rel="nofollow">Under the Hood: Ensuring Site Reliability</a></li>
+<li><a href="https://www.youtube.com/watch?v=7Hy_6SMn8pY" rel="nofollow">Designing reliable systems with cloud infrastructure (Google Cloud Next '17)</a></li>
+<li><a href="https://cloud.google.com/blog/big-data/2016/10/a-google-sre-explores-github-reliability-with-bigquery" rel="nofollow">A Google SRE explores GitHub reliability with BigQuery</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/03/how-release-canaries-can-save-your-bacon-CRE-life-lessons.html" rel="nofollow">How release canaries can save your bacon - CRE life lessons</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/05/know-thy-enemy-how-to-prioritize-and-communicate-risks-CRE-life-lessons.html" rel="nofollow">Know thy enemy: how to prioritize and communicate risks - CRE life lessons</a></li>
+<li><a href="https://github.com/dastergon/awesome-chaos-engineering">Chaos Engineering resources</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/08/CRE-life-lessons-what-is-a-dark-launch-and-what-does-it-do-for-me.html" rel="nofollow">CRE life lessons: What is a dark launch, and what does it do for me?</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2018/01/why-you-should-pick-strong-consistency-whenever-possible.html" rel="nofollow">Why you should pick strong consistency, whenever possible</a></li>
+<li><a href="https://queue.acm.org/detail.cfm?id=2655736" rel="nofollow">The Network is Reliable</a></li>
+<li><a href="https://queue.acm.org/detail.cfm?id=3028689" rel="nofollow">Are You Load Balancing Wrong?</a></li>
+<li><a href="https://code.facebook.com/posts/166966743929963/how-production-engineers-support-global-events-on-facebook/" rel="nofollow">How production engineers support global events on Facebook</a></li>
+</ul>
+<h2><a id="user-content-monitoring--observability--alerting" class="anchor" aria-hidden="true" href="#monitoring--observability--alerting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Monitoring &amp; Observability &amp; Alerting</h2>
+<ul>
+<li><a href="https://www.usenix.org/conference/lisa13/working-theory-monitoring" rel="nofollow">A Working Theory-of-Monitoring</a></li>
+<li><a href="https://vimeo.com/131484321" rel="nofollow">The Evolution of Monitoring Systems at Google - Tony Rippy</a></li>
+<li><a href="https://www.usenix.org/conference/srecon15/program/presentation/serebryany" rel="nofollow">Monitoring without Infrastructure @ Airbnb</a></li>
+<li><a href="https://www.oreilly.com/ideas/monitoring-distributed-systems" rel="nofollow">Monitoring distributed systems</a></li>
+<li><a href="https://www.youtube.com/watch?v=2JAnmzVwgP8" rel="nofollow">Observability at Uber Engineering: Past, Present, Future</a></li>
+<li><a href="https://blog.netsil.com/the-4-golden-signals-of-api-health-and-performance-in-cloud-native-applications-a6e87526e74" rel="nofollow">The 4 Golden Signals of API Health and Performance in Cloud-Native Applications</a></li>
+<li><a href="https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/preview#" rel="nofollow">My Philosophy on Alerting by Rob Ewaschuk</a></li>
+<li><a href="https://www.youtube.com/watch?v=wsgpV67MLFo" rel="nofollow">Time To Detect - Netflix</a></li>
+<li><a href="https://www.vividcortex.com/blog/why-percentiles-dont-work-the-way-you-think" rel="nofollow">Why Percentiles Don’t Work the Way you Think</a></li>
+<li><a href="https://www.youtube.com/watch?v=jQggG0qIjTM" rel="nofollow">Building Twitter’s Next-Gen Alerting System</a></li>
+<li><a href="https://honeycomb.io/blog/2017/01/instrumentation-worst-case-performance-matters/" rel="nofollow">Instrumentation: Worst case performance matters</a></li>
+<li><a href="https://honeycomb.io/blog/2017/01/instrumentation-what-does-uptime-mean/" rel="nofollow">Instrumentation: What does 'uptime' mean?</a></li>
+<li><a href="https://circleci.com/blog/incidents-outages-at-circleci-our-playbook-and-what-we-ve-learned/" rel="nofollow">Incidents + Outages at CircleCI: Our Playbook and What We’ve Learned</a></li>
+<li><a href="https://www.youtube.com/watch?v=gNmWzkGViAY" rel="nofollow">An introduction to monitoring and alerting with timeseries at scale, with Prometheus</a></li>
+<li><a href="https://www.youtube.com/watch?v=mG4ZpEhRKHA" rel="nofollow">Detecting outliers and anomalies in realtime at Datadog</a></li>
+<li><a href="https://medium.com/devopslinks/how-to-monitor-the-sre-golden-signals-1391cadc7524" rel="nofollow">How to Monitor the SRE Golden Signals</a></li>
+<li><a href="https://queue.acm.org/detail.cfm?id=3178371" rel="nofollow">Monitoring in a DevOps World</a></li>
+<li><a href="https://medium.com/@jerub/monitoring-your-monitorings-monitoring-51d479100f4c" rel="nofollow">Monitoring Your Monitoring’s Monitoring</a></li>
+<li><a href="https://medium.com/@dlite/observability-the-new-wave-or-buzzword-fc23a68abf72" rel="nofollow">Observability: the new wave or buzzword?</a></li>
+<li><a href="https://www.vividcortex.com/blog/monitoring-isnt-observability" rel="nofollow">Monitoring Isn't Observability</a></li>
+<li><a href="https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e" rel="nofollow">Monitoring in the time of Cloud Native</a></li>
+<li><a href="https://www.youtube.com/watch?v=2LNHv0JyBUk" rel="nofollow">Principles of Monitoring Microservices</a></li>
+<li><a href="https://www.usenix.org/node/197446" rel="nofollow">The Many Ways Your Monitoring Is Lying to You</a></li>
+</ul>
+<h2><a id="user-content-on-call" class="anchor" aria-hidden="true" href="#on-call"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>On-Call</h2>
+<ul>
+<li><a href="http://research.google.com/pubs/pub44813.html" rel="nofollow">Being an On-Call Engineer: A Google SRE Perspective</a></li>
+<li><a href="http://blogs.atlassian.com/2016/02/inside-atlassian-site-reliability-engineers-incident-management/" rel="nofollow">Inside Atlassian: how our site reliability engineers do incident management</a></li>
+<li><a href="http://blogs.atlassian.com/2016/02/inside-atlassian-sre-use-chatops-run-incident-management/" rel="nofollow">Inside Atlassian: how IT &amp; SRE use ChatOps to run incident management</a></li>
+<li><a href="https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku" rel="nofollow">Incident Response at Heroku</a></li>
+<li><a href="http://www.susanjfowler.com/blog/2016/9/6/whos-on-call" rel="nofollow">Who's On Call?</a></li>
+<li><a href="https://sysadvent.blogspot.com/2016/12/day-6-no-more-on-call-martyrs.html" rel="nofollow">SysAdvent - Day 6 - No More On-Call Martyrs</a></li>
+<li><a href="http://naildrivin5.com/blog/2016/12/07/on-call.html" rel="nofollow">On Being On Call</a></li>
+<li><a href="https://response.pagerduty.com/" rel="nofollow">PagerDuty Incident Response</a></li>
+<li><a href="https://github.com/alicegoldfuss/oncall-handbook">The On-Call Handbook</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/02/Incident-management-at-Google-adventures-in-SRE-land.html" rel="nofollow">Incident management at Google — adventures in SRE-land</a></li>
+<li><a href="https://blog.serverdensity.com/spotify-gov-uk-handle-on-call/" rel="nofollow">How Spotify and GOV.UK handle on call, and more</a></li>
+<li><a href="https://github.com/SkeltonThatcher/run-book-template">Run Book / Operations Manual template</a></li>
+<li><a href="https://engineering.linkedin.com/blog/2017/12/open-sourcing-fossor-and-ascii-etch" rel="nofollow">Automating Your Oncall: Open Sourcing Fossor and Ascii Etch</a></li>
+<li><a href="https://engineering.linkedin.com/blog/2018/01/project-star-streamlining-our-on-call-process" rel="nofollow">Project STAR*: Streamlining Our On-Call Process</a></li>
+<li><a href="https://devblog.xero.com/sre-xero-managing-incidents-part-i-7d02d650a71c" rel="nofollow">SRE@Xero: Managing Incidents Part I</a></li>
+<li><a href="https://devblog.xero.com/sre-xero-managing-incidents-part-ii-224a6e06f426" rel="nofollow">SRE@Xero: Managing Incidents Part II</a></li>
+<li><a href="https://www.gremlin.com/how-to-establish-a-high-severity-incident-management-program/" rel="nofollow">How To Establish a High Severity Incident Management Program</a></li>
+<li><a href="https://www.youtube.com/watch?v=xA5U85LSk0M" rel="nofollow">How Your Systems Keep Running Day After Day - John Allspaw</a></li>
+<li><a href="https://medium.com/@copyconstruct/on-call-b0bd8c5ea4e0" rel="nofollow">On-call doesn’t have to suck</a></li>
+<li><a href="https://medium.com/@awspyker/why-as-a-netflix-infrastructure-manager-am-i-on-call-bdc551ac01fe" rel="nofollow">Why, as a Netflix infrastructure manager, am I on call?</a></li>
+<li><a href="https://honeycomb.io/blog/2018/02/oncall-and-sustainable-software-development/" rel="nofollow">Oncall and Sustainable Software Development</a></li>
+<li><a href="https://thenewstack.io/call-rotations-best-wake-devs-middle-night/" rel="nofollow">On Call Rotations: How Best to Wake Devs Up in the Middle of the Night</a></li>
+<li><a href="https://www.gremlin.com/community/tutorials/understanding-the-role-of-the-incident-manager-on-call-imoc/" rel="nofollow">Understanding The Role Of The Incident Manager On-Call (IMOC)</a></li>
+<li><a href="https://devops.com/three-ways-to-minimize-the-impact-of-high-severity-incidents/" rel="nofollow">3 Ways to Minimize the Impact of High Severity Incidents</a></li>
+<li><a href="https://thenewstack.io/advice-management-teams-enrolling-changes-on-call-systems/" rel="nofollow">Advice to Management Teams While Enrolling Changes to On-Call Systems</a></li>
+</ul>
+<h2><a id="user-content-post-mortem" class="anchor" aria-hidden="true" href="#post-mortem"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Post-Mortem</h2>
+<ul>
+<li><a href="https://github.com/danluu/post-mortems">A collection of post-mortems</a></li>
+<li><a href="https://codeascraft.com/2012/05/22/blameless-postmortems/" rel="nofollow">Blameless PostMortems and a Just Culture</a></li>
+<li><a href="https://blog.box.com/blog/a-tale-of-postmortems/" rel="nofollow">A Tale of Postmortems</a></li>
+<li><a href="http://runasradio.com/Shows/Show/486" rel="nofollow">Building a Blameless Post-Mortem Culture with Jason Hand</a></li>
+<li><a href="https://www.oreilly.com/ideas/the-infinite-hows" rel="nofollow">The infinite hows</a></li>
+<li><a href="https://victorops.com/blog/blameless-culture/" rel="nofollow">Failure is Always An Option: How a Blameless Culture Leads to Better Results</a></li>
+<li><a href="https://sysadmincasts.com/episodes/20-how-to-write-an-incident-report-postmortem" rel="nofollow">How to write an Incident Report / Postmortem</a></li>
+<li><a href="https://sysadvent.blogspot.com/2016/12/day-1-why-you-need-postmortem-process.html" rel="nofollow">SysAdvent - Day 1 - Why You Need a Postmortem Process</a></li>
+<li><a href="https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/" rel="nofollow">Etsy’s Debriefing Facilitation Guide for Blameless Postmortems</a></li>
+<li><a href="https://medium.com/production-ready/writing-your-first-postmortem-8053c678b90f" rel="nofollow">Writing Your First Postmortem</a></li>
+<li><a href="https://artsy.github.io/blog/2014/11/19/how-to-write-great-outage-post-mortems/" rel="nofollow">How to Write Great Outage Post-Mortems</a></li>
+<li><a href="https://github.com/dastergon/postmortem-templates">A collection of postmortem templates</a></li>
+<li><a href="https://blog.heptio.com/embracing-feedback-2fd703da714f" rel="nofollow">Embracing Feedback</a></li>
+<li><a href="https://www.usenix.org/conference/srecon17americas/program/presentation/lueder" rel="nofollow">Postmortem Action Items: Plan the Work and Work the Plan</a></li>
+<li><a href="https://medium.com/@allspaw/social-issues-in-postmortems-d48dde624d18" rel="nofollow">Social Issues In Postmortems</a></li>
+</ul>
+<h2><a id="user-content-capacity-planning" class="anchor" aria-hidden="true" href="#capacity-planning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Capacity Planning</h2>
+<ul>
+<li><a href="https://www.usenix.org/system/files/login/articles/login_feb15_07_hixson.pdf" rel="nofollow">Capacity Planning</a></li>
+<li><a href="https://www.youtube.com/watch?v=MDQ0uEUmLOo" rel="nofollow">SouthBay SRE: Cloud Capacity Planning</a></li>
+</ul>
+<h2><a id="user-content-service-level-agreement" class="anchor" aria-hidden="true" href="#service-level-agreement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Service Level Agreement</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=tZ0-SISvCis" rel="nofollow">SLA Aware Maintenance for Operators - Joe Smith</a></li>
+<li><a href="http://er.educause.edu/articles/2010/6/if-its-in-the-cloud-get-it-on-paper-cloud-computing-contract-issues" rel="nofollow">If It's in the Cloud, Get It on Paper: Cloud Computing Contract Issues</a></li>
+<li><a href="http://www.wired.com/insights/2011/12/service-level-agreements-in-the-cloud-who-cares/" rel="nofollow">Service Level Agreements in the Cloud: Who cares?</a></li>
+<li><a href="https://blog.serverdensity.com/making-a-point-with-slas/" rel="nofollow">Making a point with SLAs</a></li>
+<li><a href="https://sysadvent.blogspot.com/2016/12/day-20-how-to-set-and-monitor-slas.html" rel="nofollow">SysAdvent- Day 20 - How to set and monitor SLAs</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/01/availability-part-deux--CRE-life-lessons.html" rel="nofollow">SLOs, SLIs, SLAs, oh my - CRE life lessons</a></li>
+<li><a href="https://www.usenix.org/conference/srecon16/program/presentation/jones" rel="nofollow">Service Levels and Error Budgets</a></li>
+<li><a href="https://www.usenix.org/system/files/login/articles/login_aug15_06_roth.pdf" rel="nofollow">(Un)Reliability Budgets - Finding Balance between Innovation and Reliability</a></li>
+<li><a href="https://queue.acm.org/detail.cfm?id=3096459&amp;__s=dnkxuaws9pogqdnxmx8i" rel="nofollow">The Calculus of Service Availability</a></li>
+<li><a href="https://dastergon.github.io/availability-calculator/" rel="nofollow">Availability Calculator: Calculate how much downtime should be permitted in your SLA</a></li>
+<li><a href="https://www.ibm.com/developerworks/cloud/library/cl-SLAloadbalance-numanalysis/" rel="nofollow">Standardize cloud SLA availability with numerical performance data</a></li>
+<li><a href="https://www.ibm.com/developerworks/cloud/library/cl-slastandards/" rel="nofollow">Best practices to develop SLAs for cloud computing</a></li>
+<li><a href="http://blog.catchpoint.com/2016/08/04/sla-practical-guide/" rel="nofollow">A Practical Guide to SLAs</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/10/building-good-SLOs-CRE-life-lessons.html" rel="nofollow">Building good SLOs - CRE life lessons</a></li>
+<li><a href="https://thenewstack.io/sre-lessons-google-no-grumpy-humans/" rel="nofollow">No Grumpy Humans and Other Site Reliability Engineering Lessons from Google</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2018/01/consequences-of-SLO-violations-CRE-life-lessons.html" rel="nofollow">Consequences of SLO violations — CRE life lessons</a></li>
+<li><a href="https://medium.com/@jerub/service-level-objectives-in-practice-ed1200502d5" rel="nofollow">Service Level Objectives in Practice</a></li>
+<li><a href="https://medium.com/@jerub/sre-consensus-building-36ad5d2e470b" rel="nofollow">SRE Consensus Building</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2018/01/an-example-escalation-policy-CRE-life-lessons.html" rel="nofollow">An example escalation policy — CRE life lessons</a></li>
+</ul>
+<h2><a id="user-content-performance" class="anchor" aria-hidden="true" href="#performance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Performance</h2>
+<ul>
+<li><a href="https://www.usenix.org/conference/srecon16/program/presentation/gregg" rel="nofollow">Performance Checklists for SREs</a></li>
+<li><a href="https://youtu.be/uQ0flQOtQEA" rel="nofollow">South Bay SRE Meetup - Netflix Cloud Performance Team</a></li>
+</ul>
+<h2><a id="user-content-programming" class="anchor" aria-hidden="true" href="#programming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programming</h2>
+<ul>
+<li><a href="http://www.oreilly.com/pub/e/2712" rel="nofollow">Go Language for Ops and Site Reliability Engineering</a></li>
+<li><a href="https://www.usenix.org/sites/default/files/conference/protected-files/srecon16_slides_hamilton.pdf" rel="nofollow">Go for SREs using Python</a></li>
+<li><a href="https://speakerdeck.com/ianschenck/operability-in-go" rel="nofollow">Operability in Go</a></li>
+<li><a href="https://www.youtube.com/watch?v=5doOcaMXx08" rel="nofollow">Go Reliability and Durability at Dropbox</a></li>
+</ul>
+<h2><a id="user-content-misc-articles" class="anchor" aria-hidden="true" href="#misc-articles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Misc Articles</h2>
+<ul>
+<li><a href="https://www.oreilly.com/ideas/what-is-sre-site-reliability-engineering" rel="nofollow">What is SRE (Site Reliability Engineering)?</a></li>
+<li><a href="http://www.wired.com/2016/04/google-ensures-services-almost-never-go/" rel="nofollow">Here’s How Google Makes Sure It (Almost) Never Goes Down</a></li>
+<li><a href="http://techcrunch.com/2016/03/02/are-site-reliability-engineers-the-next-data-scientists/" rel="nofollow">Are site reliability engineers the next data scientists?</a></li>
+<li><a href="http://googleresearch.blogspot.gr/2012/07/site-reliability-engineers-solving-most.html" rel="nofollow">Site Reliability Engineers: "solving the most interesting problems"</a></li>
+<li><a href="http://googleforstudents.blogspot.gr/2012/06/site-reliability-engineers-worlds-most.html" rel="nofollow">Site Reliability Engineers: the "world’s most intense pit crew"</a></li>
+<li><a href="http://searchitoperations.techtarget.com/feature/Site-reliability-engineering-kicks-rote-tasks-out-of-IT-ops" rel="nofollow">Site reliability engineering kicks rote tasks out of IT ops</a></li>
+<li><a href="http://danluu.com/google-sre-book/" rel="nofollow">Notes on Site Reliability Engineering</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2016/07/adventures-in-SRE-land-welcome-to-Google-Mission-Control.html" rel="nofollow">Adventures in SRE-land: Welcome to Google Mission Control</a></li>
+<li><a href="http://devops.com/2015/09/10/linkedin-preps-site-reliability-engineers-sres-exciting-careers/" rel="nofollow">LinkedIn Preps Site Reliability Engineers (SREs) For Exciting Careers</a></li>
+<li><a href="https://www.infoq.com/articles/site-reliability-engineering" rel="nofollow">Book Review: Site Reliability Engineering - How Google Runs Production Systems</a></li>
+<li><a href="https://www.google.com/about/careers/stories/site-reliability-engineering-profile-google/" rel="nofollow">Site Reliability Engineers: “We solve cooler problems”</a></li>
+<li><a href="http://www.networkworld.com/article/3182827/cloud-computing/srecon17-brave-new-world-of-site-reliability-engineering.html" rel="nofollow">SREcon17: Brave new world of site reliability engineering</a></li>
+<li><a href="https://github.com/open-guides/og-aws">Open AWS guide</a></li>
+<li><a href="https://twitter.com/i/moments/924656333495898112" rel="nofollow">20 SRE / Devops / System Engineer Tricks</a></li>
+<li><a href="https://medium.com/@jerub/commentary-on-site-reliability-engineering-9ba9e1be2a8c" rel="nofollow">Commentary on Site Reliability Engineering</a></li>
+</ul>
+<h2><a id="user-content-real-time-messaging" class="anchor" aria-hidden="true" href="#real-time-messaging"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Real-time Messaging</h2>
+<ul>
+<li><a href="https://hangops.slack.com/" rel="nofollow">#sre channel at Hangops Slack</a> - Discussion of Site Reliability Engineering generally.</li>
+<li><a href="https://hangops.slack.com/" rel="nofollow">#incident_response channel at Hangops Slack</a> - Discussion about Incident Response.</li>
+</ul>
+<h2><a id="user-content-blogs" class="anchor" aria-hidden="true" href="#blogs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blogs</h2>
+<ul>
+<li><a href="http://www.brendangregg.com/blog/index.html" rel="nofollow">Brendan Gregg's Blog</a> - Highly Techincal Blog Posts About Systems Internals, Performance and SRE.</li>
+<li><a href="http://everythingsysadmin.com/" rel="nofollow">Everything Sysadmin</a> - Blog Posts About SysAdmin/DevOps/SRE by Tom Limoncelli.</li>
+<li><a href="http://highscalability.com/" rel="nofollow">High Scalability</a> - Technical Blog Posts About Systems Architecture.</li>
+<li><a href="https://rachelbythebay.com/w/" rel="nofollow">rachelbythebay</a> - Techincal Blog Posts.</li>
+<li><a href="https://sreweekly.com/" rel="nofollow">SRE Weekly</a> - Weekly Site Reliability Newsletter.</li>
+<li><a href="https://tinyletter.com/production-ready" rel="nofollow">Production Ready</a> - A mailing list about building resilient infrastructure and tools.</li>
+<li><a href="http://www.susanjfowler.com/blog/" rel="nofollow">Susan J. Fowler</a> - Various blog posts about SRE, Software Engineering and Microservices.</li>
+<li><a href="https://sreally.com/" rel="nofollow">SREally?!</a></li>
+<li><a href="https://sysadvent.blogspot.com" rel="nofollow">SysAdvent</a> - One article for each day of December, ending on the 25th article.</li>
+<li><a href="http://some.ops4devs.info/" rel="nofollow">Operations for Developers</a> - A collection of resources for developers to strengthen their Ops skills.</li>
+<li><a href="http://prodops.guide/" rel="nofollow">ProdOps: From Product to Production</a></li>
+<li><a href="https://medium.com/@jerub" rel="nofollow">Stephen Thorne's Blog</a> - Blog Posts About SRE</li>
+<li><a href="https://increment.com/" rel="nofollow">Increment</a> - A digital magazine about how teams build and operate software systems at scale.</li>
+<li><a href="http://www.oreilly.com/webops-perf/newsletter.html" rel="nofollow">O’Reilly Systems Engineering and Operations Newsletter</a> - Weekly systems engineering and operations news and insights from industry insiders.</li>
+<li><a href="http://www.gophersre.com/" rel="nofollow">GopherSRE</a> - Blog Posts about Go and SRE.</li>
+</ul>
+<h2><a id="user-content-conferences--meetups" class="anchor" aria-hidden="true" href="#conferences--meetups"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conferences &amp; Meetups</h2>
+<ul>
+<li><a href="https://www.usenix.org/conferences/byname/925" rel="nofollow">SRECon Conferences</a> - The Official SRE Conference.</li>
+<li><a href="https://www.usenix.org/conferences/byname/5" rel="nofollow">LISA Conferences</a> - Prominent Conference About SysAdmin/DevOps/SRE.</li>
+<li><a href="https://developers.google.com/events/sre/" rel="nofollow">SRE Tech Talks</a> - SRE Talks Hosted by Google.</li>
+<li><a href="https://www.meetup.com/South-Bay-Site-Reliability-Engineering/" rel="nofollow">South Bay Site Reliability Engineering (Sunnyvale, CA) Meetup</a> - A Group For Individuals Who Tackle Reliability Challenges For Web-Scale Systems.</li>
+<li><a href="https://www.meetup.com/San-Francisco-Reliability-Engineering/" rel="nofollow">San Francisco Reliability Engineering</a> - A Group Of People Who Are Passionate About Reliable, Performant Software Systems.</li>
+<li><a href="https://www.meetup.com/site-reliability/" rel="nofollow">Front Range Site Reliability Engineering</a> - SRE Meetup in Boulder/Denver/Golden/DTC/FoCo area.</li>
+</ul>
+<h2><a id="user-content-twitter" class="anchor" aria-hidden="true" href="#twitter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Twitter</h2>
+<ul>
+<li><a href="https://twitter.com/alicegoldfuss" rel="nofollow">Alice Goldfuss</a></li>
+<li><a href="https://twitter.com/brendangregg" rel="nofollow">Brendan Gregg</a></li>
+<li><a href="https://twitter.com/caitie" rel="nofollow">Caitie McCaffrey</a></li>
+<li><a href="https://twitter.com/mipsytipsy" rel="nofollow">Charity Majors</a></li>
+<li><a href="https://twitter.com/relix42" rel="nofollow">Dave Hahn</a></li>
+<li><a href="https://twitter.com/highscal" rel="nofollow">Highscal</a></li>
+<li><a href="https://twitter.com/jennski" rel="nofollow">Jennifer Petoff</a></li>
+<li><a href="https://twitter.com/JesseDearing" rel="nofollow">Jesse Dearing</a></li>
+<li><a href="https://twitter.com/jonahhorowitz" rel="nofollow">Jonah Horowitz</a></li>
+<li><a href="https://twitter.com/b0rk" rel="nofollow">Julia Evans</a></li>
+<li><a href="https://twitter.com/khardsonhurley" rel="nofollow">Krishelle Hardson-Hurley</a></li>
+<li><a href="https://twitter.com/niallm" rel="nofollow">Niall Murphy</a></li>
+<li><a href="https://twitter.com/Nick_Craver" rel="nofollow">Nick Craver</a></li>
+<li><a href="https://twitter.com/SREBook" rel="nofollow">SREBook</a> - The Official Twitter Account of Site Reliability Engineering Book.</li>
+<li><a href="https://twitter.com/SREcon" rel="nofollow">SREcon</a> - SRECon's Official Twitter Account.</li>
+<li><a href="https://twitter.com/tammybutow" rel="nofollow">Tammy Bütow</a></li>
+<li><a href="https://twitter.com/yesthattom" rel="nofollow">Thomas A. Limoncelli</a></li>
+<li><a href="https://twitter.com/tmu" rel="nofollow">Todd Underwood</a></li>
+<li><a href="https://twitter.com/TwitterSRE" rel="nofollow">Twitter SRE</a> - The Official Twitter Account of Twitter's SRE team.</li>
+<li><a href="https://twitter.com/usenix" rel="nofollow">USENIX Association</a> - The Official USENIX Twitter Account.</li>
+</ul>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.21929s from unicorn-526741577-2b27b">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,1260 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - phanan/htaccess: A collection of useful .htaccess snippets.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/8056274?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="phanan/htaccess" /><meta property="og:url" content="https://github.com/phanan/htaccess" /><meta property="og:description" content="A collection of useful .htaccess snippets." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E2C5:5D4F:3132806:58BA614:5AD2F783" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E2C5:5D4F:3132806:58BA614:5AD2F783" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ODA4ZDJmMTcwMjBjM2MzYWNjYmU0ZjE4MjY0MmQwYjkzYzEyZjQyMTljZmE4NGI4YjZmNjk1YjY0YjljMGYwYXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTJDNTo1RDRGOjMxMzI4MDY6NThCQTYxNDo1QUQyRjc4MyIsInRpbWVzdGFtcCI6MTUyMzc3NTM2MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="064193b46f6f416dfcc63658ce35c59dcd5f0bd8">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/phanan/htaccess/commits/master.atom" rel="alternate" title="Recent Commits to htaccess:master" type="application/atom+xml">
+
+  <meta name="description" content="A collection of useful .htaccess snippets.">
+  <meta name="go-import" content="github.com/phanan/htaccess git https://github.com/phanan/htaccess.git">
+
+  <meta name="octolytics-dimension-user_id" content="8056274" /><meta name="octolytics-dimension-user_login" content="phanan" /><meta name="octolytics-dimension-repository_id" content="29900673" /><meta name="octolytics-dimension-repository_nwo" content="phanan/htaccess" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="29900673" /><meta name="octolytics-dimension-repository_network_root_nwo" content="phanan/htaccess" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/phanan/htaccess" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/phanan/htaccess/search" data-unscoped-search-url="/search" action="/phanan/htaccess/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/phanan/htaccess">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fphanan%2Fhtaccess" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fphanan%2Fhtaccess"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/phanan/htaccess/watchers"
+     aria-label="480 users are watching this repository">
+    480
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fphanan%2Fhtaccess"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/phanan/htaccess/stargazers"
+      aria-label="10372 users starred this repository">
+      10,372
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fphanan%2Fhtaccess"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/phanan/htaccess/network" class="social-count"
+       aria-label="1036 users forked this repository">
+      1,036
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/phanan">phanan</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/phanan/htaccess">htaccess</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /phanan/htaccess" href="/phanan/htaccess">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /phanan/htaccess/issues" href="/phanan/htaccess/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">1</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /phanan/htaccess/pulls" href="/phanan/htaccess/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">3</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /phanan/htaccess/projects" href="/phanan/htaccess/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /phanan/htaccess/pulse" href="/phanan/htaccess/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PqlxkvaiL5ZEvOACAJB+La/t8ETlvUc490+w54IVznE1gxBjjiImATByLBao91rrRnT+S6th6IQo+BbJbkGnzw==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A collection of useful .htaccess snippets.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/phanan/htaccess/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/apache" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:apache">
+        apache
+      </a>
+      <a href="/topics/dev-ops" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:dev-ops">
+        dev-ops
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/htaccess" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:htaccess">
+        htaccess
+      </a>
+      <a href="/topics/snippets" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:snippets">
+        snippets
+      </a>
+      <a href="/topics/htaccess-snippets" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:htaccess-snippets">
+        htaccess-snippets
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/phanan/htaccess/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                154
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/phanan/htaccess/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/phanan/htaccess/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/phanan/htaccess/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      30
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/phanan/htaccess.git" aria-label="Clone this repository at https://github.com/phanan/htaccess.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/phanan/htaccess.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/phanan/htaccess/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/phanan/htaccess/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/phanan/htaccess/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/phanan/htaccess/commit/7a90f19987ab9d3e134e2d5c978708c6f7ae88a7" data-pjax>
+        7a90f19
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-12-09T02:34:43Z">Dec 9, 2017</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="phanan">
+
+        <a href="/phanan" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars1.githubusercontent.com/u/8056274?s=40&amp;v=4" width="20" height="20" alt="@phanan">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="/phanan/htaccess/commits?author=phanan"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by phanan">phanan</a>
+
+
+  
+
+
+
+      <a href="/phanan/htaccess/commit/7a90f19987ab9d3e134e2d5c978708c6f7ae88a7" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/phanan/htaccess/tree/7a90f19987ab9d3e134e2d5c978708c6f7ae88a7">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Translations" id="0b8d92bc19b720bb1065649535463409-fb7111eee51a941d326969a45c62a6f04cc42a3d" href="/phanan/htaccess/tree/master/Translations">Translations</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Somes fixes in the French version (#85)
+
+* Corrected many French errors and improved readability
+
+* fix broken links" class="message" href="/phanan/htaccess/commit/d92d0345875fbb653eaed3d555ac8547b289f1bc">Somes fixes in the French version (</a><a href="https://github.com/phanan/htaccess/pull/85" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="264353012" data-permission-text="Issue title is private" data-url="https://github.com/phanan/htaccess/issues/85">#85</a><a data-pjax="true" title="Somes fixes in the French version (#85)
+
+* Corrected many French errors and improved readability
+
+* fix broken links" class="message" href="/phanan/htaccess/commit/d92d0345875fbb653eaed3d555ac8547b289f1bc">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-11T10:23:06Z">Oct 11, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".editorconfig" id="1e70daafb475c0ce3fef7d2728279182-dcd93a5a947e0faf062cd6e3992be2b2233953fc" href="/phanan/htaccess/blob/master/.editorconfig">.editorconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="indent using 4 spaces" class="message" href="/phanan/htaccess/commit/54301c96f3f1103e0b72f7f15ce69040ea2daa41">indent using 4 spaces</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-10T17:44:38Z">Feb 10, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-11a6df422ca9a9377e782d54be0a76cc97f13583" href="/phanan/htaccess/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Recommends to contribute only one snippet per PR" class="message" href="/phanan/htaccess/commit/caad42f515ddd5fdb866245ac1e9ff8df495534a">Recommends to contribute only one snippet per PR</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-23T12:55:40Z">Feb 23, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-60824550bbac826cb085a0f8354e303a1a89330d" itemprop="license" href="/phanan/htaccess/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Hardened and simplified the license" class="message" href="/phanan/htaccess/commit/c04601eb6bc4a34430bb96aadab57c1e8186d768">Hardened and simplified the license</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-02-10T14:58:40Z">Feb 10, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-aa6fa42d2cc1a86d716999d6ecb11e3140f882f7" href="/phanan/htaccess/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update README.md" class="message" href="/phanan/htaccess/commit/7a90f19987ab9d3e134e2d5c978708c6f7ae88a7">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-12-09T02:34:43Z">Dec 9, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#htaccess-snippets-" aria-hidden="true" class="anchor" id="user-content-htaccess-snippets-"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>.htaccess Snippets <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A collection of useful .htaccess snippets, all in one place.</p>
+<p><strong>NOTE</strong>: <code>.htaccess</code> files are for people that do not have rights to edit the main server configuration file. They are intrinsically slower and more complicated than using the main config. Please see the <a href="https://httpd.apache.org/docs/current/howto/htaccess.html" rel="nofollow">howto in the httpd documentation</a> for further details.</p>
+<p><strong>Disclaimer</strong>: While dropping the snippet into an <code>.htaccess</code> file is most of the time sufficient, there are cases when certain modifications might be required. Use at your own risk.</p>
+<p><strong>IMPORTANT</strong>: Apache 2.4 introduces a few breaking changes, most notably in access control configuration. For more information, check the <a href="https://httpd.apache.org/docs/2.4/upgrading.html" rel="nofollow">upgrading document</a> as well as <a href="https://github.com/phanan/htaccess/issues/2">this issue</a>.</p>
+<h2><a href="#credits" aria-hidden="true" class="anchor" id="user-content-credits"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Credits</h2>
+<p>What we are doing here is mostly collecting useful snippets from all over the interwebs (for example, a good chunk is from <a href="https://github.com/h5bp/server-configs-apache">Apache Server Configs</a>) into one place. While we’ve been trying to credit where due, things might be missing. If you believe anything here is your work and credits should be given, let us know, or just send a PR.</p>
+<h2><a href="#table-of-contents" aria-hidden="true" class="anchor" id="user-content-table-of-contents"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#rewrite-and-redirection">Rewrite and Redirection</a>
+<ul>
+<li><a href="#force-www">Force www</a></li>
+<li><a href="#force-www-in-a-generic-way">Force www in a Generic Way</a></li>
+<li><a href="#force-non-www">Force non-www</a></li>
+<li><a href="#force-non-www-in-a-generic-way">Force non-www in a Generic Way</a></li>
+<li><a href="#force-https">Force HTTPS</a></li>
+<li><a href="#force-https-behind-a-proxy">Force HTTPS Behind a Proxy</a></li>
+<li><a href="#force-trailing-slash">Force Trailing Slash</a></li>
+<li><a href="#remove-trailing-slash">Remove Trailing Slash</a></li>
+<li><a href="#redirect-a-single-page">Redirect a Single Page</a></li>
+<li><a href="#redirect-using-redirectmatch">Redirect Using RedirectMatch</a></li>
+<li><a href="#alias-a-single-directory">Alias a Single Directory</a></li>
+<li><a href="#alias-paths-to-script">Alias Paths to Script</a></li>
+<li><a href="#redirect-an-entire-site">Redirect an Entire Site</a></li>
+<li><a href="#alias-clean-urls">Alias "Clean" URLs</a></li>
+</ul>
+</li>
+<li><a href="#security">Security</a>
+<ul>
+<li><a href="#deny-all-access">Deny All Access</a></li>
+<li><a href="#deny-all-access-except-yours">Deny All Access Except Yours</a></li>
+<li><a href="#allow-all-access-except-spammers">Allow All Access Except Spammers'</a></li>
+<li><a href="#deny-access-to-hidden-files-and-directories">Deny Access to Hidden Files and Directories</a></li>
+<li><a href="#deny-access-to-backup-and-source-files">Deny Access to Backup and Source Files</a></li>
+<li><a href="#disable-directory-browsing">Disable Directory Browsing</a></li>
+<li><a href="#disable-image-hotlinking">Disable Image Hotlinking</a></li>
+<li><a href="#disable-image-hotlinking-for-specific-domains">Disable Image Hotlinking for Specific Domains</a></li>
+<li><a href="#password-protect-a-directory">Password Protect a Directory</a></li>
+<li><a href="#password-protect-a-file-or-several-files">Password Protect a File or Several Files</a></li>
+<li><a href="#block-visitors-by-referrer">Block Visitors by Referrer</a></li>
+<li><a href="#prevent-framing-the-site">Prevent Framing the Site</a></li>
+</ul>
+</li>
+<li><a href="#performance">Performance</a>
+<ul>
+<li><a href="#compress-text-files">Compress Text Files</a></li>
+<li><a href="#set-expires-headers">Set Expires Headers</a></li>
+<li><a href="#turn-etags-off">Turn eTags Off</a></li>
+</ul>
+</li>
+<li><a href="#miscellaneous">Miscellaneous</a>
+<ul>
+<li><a href="#set-php-variables">Set PHP Variables</a></li>
+<li><a href="#custom-error-pages">Custom Error Pages</a></li>
+<li><a href="#force-downloading">Force Downloading</a></li>
+<li><a href="#prevent-downloading">Prevent Downloading</a></li>
+<li><a href="#allow-cross-domain-fonts">Allow Cross-Domain Fonts</a></li>
+<li><a href="#auto-utf-8-encode">Auto UTF-8 Encode</a></li>
+<li><a href="#switch-to-another-php-version">Switch to Another PHP Version</a></li>
+<li><a href="#disable-internet-explorer-compatibility-view">Disable Internet Explorer Compatibility View</a></li>
+<li><a href="#serve-webp-images">Serve WebP Images</a></li>
+</ul>
+</li>
+</ul>
+<h2><a href="#rewrite-and-redirection" aria-hidden="true" class="anchor" id="user-content-rewrite-and-redirection"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rewrite and Redirection</h2>
+<p>Note: It is assumed that you have <code>mod_rewrite</code> installed and enabled.</p>
+<h3><a href="#force-www" aria-hidden="true" class="anchor" id="user-content-force-www"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force www</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_HOST}</span> <span class="pl-s">^example\.com</span> <span class="pl-sr">[NC]</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^(.*)$</span> <span class="pl-s">http://www.example.com/$1</span> <span class="pl-sr">[L,R=301,NC]</span></pre></div>
+<h3><a href="#force-www-in-a-generic-way" aria-hidden="true" class="anchor" id="user-content-force-www-in-a-generic-way"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force www in a Generic Way</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_HOST}</span> <span class="pl-s">!^$</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_HOST}</span> <span class="pl-s">!^www\.</span> <span class="pl-sr">[NC]</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTPS}</span><span class="pl-sr">s</span> <span class="pl-s">^on(s)|</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^</span> <span class="pl-s">http</span>%<span class="pl-s">1://www.</span><span class="pl-c1">%{HTTP_HOST}%{REQUEST_URI}</span> <span class="pl-sr">[R=301,L]</span></pre></div>
+<p>This works for <em>any</em> domain. <a href="https://stackoverflow.com/questions/4916222/htaccess-how-to-force-www-in-a-generic-way" rel="nofollow">Source</a></p>
+<h3><a href="#force-non-www" aria-hidden="true" class="anchor" id="user-content-force-non-www"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force non-www</h3>
+<p>It’s <a href="http://www.sitepoint.com/domain-www-or-no-www/" rel="nofollow">still</a> <a href="https://devcenter.heroku.com/articles/apex-domains" rel="nofollow">open</a> <a href="http://yes-www.org/" rel="nofollow">for</a> <a href="http://no-www.org/" rel="nofollow">debate</a> whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go:</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_HOST}</span> <span class="pl-s">^www\.example\.com</span> <span class="pl-sr">[NC]</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^(.*)$</span> <span class="pl-s">http://example.com/$1</span> <span class="pl-sr">[L,R=301]</span></pre></div>
+<h3><a href="#force-non-www-in-a-generic-way" aria-hidden="true" class="anchor" id="user-content-force-non-www-in-a-generic-way"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force non-www in a Generic Way</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_HOST}</span> <span class="pl-s">^www\.</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTPS}</span><span class="pl-sr">s</span> <span class="pl-s">^on(s)|off</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-sr">http</span>%<span class="pl-sr">1://</span><span class="pl-c1">%{HTTP_HOST}</span> <span class="pl-s">^(https?://)(www\.)?(.+)$</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^</span> %<span class="pl-s">1</span>%<span class="pl-s">3</span><span class="pl-c1">%{REQUEST_URI}</span> <span class="pl-sr">[R=301,L]</span></pre></div>
+<h3><a href="#force-https" aria-hidden="true" class="anchor" id="user-content-force-https"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force HTTPS</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTPS}</span> <span class="pl-s">!on</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">(.*)</span> <span class="pl-s">https://</span><span class="pl-c1">%{HTTP_HOST}%{REQUEST_URI}</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Note: It’s also recommended to enable HTTP Strict Transport Security (HSTS)</span>
+<span class="pl-c"><span class="pl-c">#</span> on your HTTPS website to help prevent man-in-the-middle attacks.</span>
+<span class="pl-c"><span class="pl-c">#</span> See https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security</span>
+&lt;<span class="pl-ent">IfModule</span> mod_headers.c&gt;
+    <span class="pl-c"><span class="pl-c">#</span> Remove "includeSubDomains" if you don't want to enforce HSTS on all subdomains</span>
+    <span class="pl-c1">Header</span> always set Strict-Transport-Security <span class="pl-s"><span class="pl-pds">"</span>max-age=31536000;includeSubDomains<span class="pl-pds">"</span></span>
+&lt;/<span class="pl-ent">IfModule</span>&gt;</pre></div>
+<h3><a href="#force-https-behind-a-proxy" aria-hidden="true" class="anchor" id="user-content-force-https-behind-a-proxy"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force HTTPS Behind a Proxy</h3>
+<p>Useful if you have a proxy in front of your server performing TLS termination.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP:X-Forwarded-Proto}</span> <span class="pl-s">!https</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">(.*)</span> <span class="pl-s">https://</span><span class="pl-c1">%{HTTP_HOST}%{REQUEST_URI}</span></pre></div>
+<h3><a href="#force-trailing-slash" aria-hidden="true" class="anchor" id="user-content-force-trailing-slash"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force Trailing Slash</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{REQUEST_URI}</span> <span class="pl-s">/+[^\.]+$</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^(.+[^/])$</span> <span class="pl-c1">%{REQUEST_URI}</span><span class="pl-s">/</span> <span class="pl-sr">[R=301,L]</span></pre></div>
+<h3><a href="#remove-trailing-slash" aria-hidden="true" class="anchor" id="user-content-remove-trailing-slash"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remove Trailing Slash</h3>
+<p>This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. <code>http://www.example.com/blog/</code> to <code>http://www.example.com/blog</code>. This is important for SEO, since it’s <a href="http://overit.com/blog/canonical-urls" rel="nofollow">recommended</a> to have a canonical URL for every page.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{REQUEST_FILENAME}</span> <span class="pl-s">!-d</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{REQUEST_URI}</span> <span class="pl-s">(.+)/$</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^</span> %<span class="pl-s">1</span> <span class="pl-sr">[R=301,L]</span></pre></div>
+<p><a href="https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788" rel="nofollow">Source</a></p>
+<h3><a href="#redirect-a-single-page" aria-hidden="true" class="anchor" id="user-content-redirect-a-single-page"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Redirect a Single Page</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">Redirect</span> 301 /oldpage.html http://www.example.com/newpage.html
+<span class="pl-c1">Redirect</span> 301 /oldpage2.html http://www.example.com/folder/</pre></div>
+<p><a href="http://css-tricks.com/snippets/htaccess/301-redirects/" rel="nofollow">Source</a></p>
+<h3><a href="#redirect-using-redirectmatch" aria-hidden="true" class="anchor" id="user-content-redirect-using-redirectmatch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Redirect Using RedirectMatch</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RedirectMatch</span> 301 /subdirectory(.*) http://www.newsite.com/newfolder/$1
+<span class="pl-c1">RedirectMatch</span> 301 ^/(.*).htm$ /$1.html
+<span class="pl-c1">RedirectMatch</span> 301 ^/200([0-9])/([^01])(.*)$ /$2$3
+<span class="pl-c1">RedirectMatch</span> 301 ^/category/(.*)$ /$1
+<span class="pl-c1">RedirectMatch</span> 301 ^/(.*)/htaccesselite-ultimate-htaccess-article.html(.*) /htaccess/htaccess.html
+<span class="pl-c1">RedirectMatch</span> 301 ^/(.*).html/1/(.*) /$1.html$2
+<span class="pl-c1">RedirectMatch</span> 301 ^/manual/(.*)$ http://www.php.net/manual/$1
+<span class="pl-c1">RedirectMatch</span> 301 ^/dreamweaver/(.*)$ /tools/$1
+<span class="pl-c1">RedirectMatch</span> 301 ^/z/(.*)$ http://static.askapache.com/$1</pre></div>
+<p><a href="http://www.askapache.com/htaccess/301-redirect-with-mod_rewrite-or-redirectmatch.html#301_Redirects_RedirectMatch" rel="nofollow">Source</a></p>
+<h3><a href="#alias-a-single-directory" aria-hidden="true" class="anchor" id="user-content-alias-a-single-directory"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alias a Single Directory</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> On
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^source-directory/(.*)</span> <span class="pl-s">/target-directory/$1</span> <span class="pl-sr">[R=301,L]</span></pre></div>
+<h3><a href="#alias-paths-to-script" aria-hidden="true" class="anchor" id="user-content-alias-paths-to-script"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alias Paths to Script</h3>
+<div class="highlight highlight-source-apache-config"><pre>FallbackResource /index.fcgi</pre></div>
+<p>This example has an <code>index.fcgi</code> file in some directory, and any requests within that directory that fail to resolve a filename/directory will be sent to the <code>index.fcgi</code> script. It’s good if you want <code>baz.foo/some/cool/path</code> to be handled by <code>baz.foo/index.fcgi</code> (which also supports requests to <code>baz.foo</code>) while maintaining <code>baz.foo/css/style.css</code> and the like. Get access to the original path from the PATH_INFO environment variable, as exposed to your scripting environment.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> On
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^$</span> <span class="pl-s">index.fcgi/</span> <span class="pl-sr">[QSA,L]</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{REQUEST_FILENAME}</span> <span class="pl-s">!-f</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{REQUEST_FILENAME}</span> <span class="pl-s">!-d</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^(.*)$</span> <span class="pl-s">index.fcgi/$1</span> <span class="pl-sr">[QSA,L]</span></pre></div>
+<p>This is a less efficient version of the FallbackResource directive (because using <code>mod_rewrite</code> is more complex than just handling the <code>FallbackResource</code> directive), but it’s also more flexible.</p>
+<h3><a href="#redirect-an-entire-site" aria-hidden="true" class="anchor" id="user-content-redirect-an-entire-site"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Redirect an Entire Site</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">Redirect</span> 301 / http://newsite.com/</pre></div>
+<p>This way does it with links intact. That is <code>www.oldsite.com/some/crazy/link.html</code> will become <code>www.newsite.com/some/crazy/link.html</code>. This is extremely helpful when you are just “moving” a site to a new domain. <a href="http://css-tricks.com/snippets/htaccess/301-redirects/" rel="nofollow">Source</a></p>
+<h3><a href="#alias-clean-urls" aria-hidden="true" class="anchor" id="user-content-alias-clean-urls"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alias “Clean” URLs</h3>
+<p>This snippet lets you use “clean” URLs -- those without a PHP extension, e.g. <code>example.com/users</code> instead of <code>example.com/users.php</code>.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> On
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{SCRIPT_FILENAME}</span> <span class="pl-s">!-d</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">^([^.]+)$</span> <span class="pl-s">$1.php</span> <span class="pl-sr">[NC,L]</span></pre></div>
+<p><a href="http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/" rel="nofollow">Source</a></p>
+<h2><a href="#security" aria-hidden="true" class="anchor" id="user-content-security"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h2>
+<h3><a href="#deny-all-access" aria-hidden="true" class="anchor" id="user-content-deny-all-access"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deny All Access</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c"><span class="pl-c">#</span># Apache 2.2</span>
+<span class="pl-c1">Deny</span> from all
+
+<span class="pl-c"><span class="pl-c">#</span># Apache 2.4</span>
+<span class="pl-c"><span class="pl-c">#</span> Require all denied</span></pre></div>
+<p>But wait, this will lock you out from your content as well! Thus introducing...</p>
+<h3><a href="#deny-all-access-except-yours" aria-hidden="true" class="anchor" id="user-content-deny-all-access-except-yours"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deny All Access Except Yours</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c"><span class="pl-c">#</span># Apache 2.2</span>
+<span class="pl-c1">Order</span> deny,allow
+<span class="pl-c1">Deny</span> from all
+<span class="pl-c1">Allow</span> from xxx.xxx.xxx.xxx
+
+<span class="pl-c"><span class="pl-c">#</span># Apache 2.4</span>
+<span class="pl-c"><span class="pl-c">#</span> Require all denied</span>
+<span class="pl-c"><span class="pl-c">#</span> Require ip xxx.xxx.xxx.xxx</span></pre></div>
+<p><code>xxx.xxx.xxx.xxx</code> is your IP. If you replace the last three digits with <code>0/12</code> for example, this will specify a range of IPs within the same network, thus saving you the trouble to list all allowed IPs separately. <a href="http://speckyboy.com/2013/01/08/useful-htaccess-snippets-and-hacks/" rel="nofollow">Source</a></p>
+<p>Now of course there's a reversed version:</p>
+<h3><a href="#allow-all-access-except-spammers" aria-hidden="true" class="anchor" id="user-content-allow-all-access-except-spammers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Allow All Access Except Spammers'</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c"><span class="pl-c">#</span># Apache 2.2</span>
+<span class="pl-c1">Order</span> deny,allow
+<span class="pl-c1">Deny</span> from xxx.xxx.xxx.xxx
+<span class="pl-c1">Deny</span> from xxx.xxx.xxx.xxy
+
+<span class="pl-c"><span class="pl-c">#</span># Apache 2.4</span>
+<span class="pl-c"><span class="pl-c">#</span> Require all granted</span>
+<span class="pl-c"><span class="pl-c">#</span> Require not ip xxx.xxx.xxx.xxx</span>
+<span class="pl-c"><span class="pl-c">#</span> Require not ip xxx.xxx.xxx.xxy</span></pre></div>
+<h3><a href="#deny-access-to-hidden-files-and-directories" aria-hidden="true" class="anchor" id="user-content-deny-access-to-hidden-files-and-directories"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deny Access to Hidden Files and Directories</h3>
+<p>Hidden files and directories (those whose names start with a dot <code>.</code>) should most, if not all, of the time be secured. For example: <code>.htaccess</code>, <code>.htpasswd</code>, <code>.git</code>, <code>.hg</code>...</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{SCRIPT_FILENAME}</span> <span class="pl-s">-d</span> <span class="pl-sr">[OR]</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{SCRIPT_FILENAME}</span> <span class="pl-s">-f</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">"(^|/)\."</span> <span class="pl-s">-</span> <span class="pl-sr">[F]</span></pre></div>
+<p>Alternatively, you can just raise a “Not Found” error, giving the attacker no clue:</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RedirectMatch</span> 404 /\..*$</pre></div>
+<h3><a href="#deny-access-to-backup-and-source-files" aria-hidden="true" class="anchor" id="user-content-deny-access-to-backup-and-source-files"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deny Access to Backup and Source Files</h3>
+<p>These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public.</p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">FilesMatch</span> "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$"&gt;
+    <span class="pl-c"><span class="pl-c">#</span># Apache 2.2</span>
+    <span class="pl-c1">Order</span> allow,deny
+    <span class="pl-c1">Deny</span> from all
+    <span class="pl-c1">Satisfy</span> All
+
+    <span class="pl-c"><span class="pl-c">#</span># Apache 2.4</span>
+    <span class="pl-c"><span class="pl-c">#</span> Require all denied</span>
+&lt;/<span class="pl-ent">FilesMatch</span>&gt;</pre></div>
+<p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+<h3><a href="#disable-directory-browsing" aria-hidden="true" class="anchor" id="user-content-disable-directory-browsing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disable Directory Browsing</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">Options</span> All -Indexes</pre></div>
+<h3><a href="#disable-image-hotlinking" aria-hidden="true" class="anchor" id="user-content-disable-image-hotlinking"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disable Image Hotlinking</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c"><span class="pl-c">#</span> Remove the following line if you want to block blank referrer too</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_REFERER}</span> <span class="pl-s">!^$</span>
+
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_REFERER}</span> <span class="pl-s">!^https?://(.+\.)?example.com</span> <span class="pl-sr">[NC]</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">\.(jpe?g|png|gif|bmp)$</span> <span class="pl-s">-</span> <span class="pl-sr">[NC,F,L]</span>
+
+<span class="pl-c"><span class="pl-c">#</span> If you want to display a “blocked” banner in place of the hotlinked image,</span>
+<span class="pl-c"><span class="pl-c">#</span> replace the above rule with:</span>
+<span class="pl-c"><span class="pl-c">#</span> RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]</span></pre></div>
+<h3><a href="#disable-image-hotlinking-for-specific-domains" aria-hidden="true" class="anchor" id="user-content-disable-image-hotlinking-for-specific-domains"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disable Image Hotlinking for Specific Domains</h3>
+<p>Sometimes you want to disable image hotlinking from some bad guys only.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_REFERER}</span> <span class="pl-s">^https?://(.+\.)?badsite\.com</span> <span class="pl-sr">[NC,OR]</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_REFERER}</span> <span class="pl-s">^https?://(.+\.)?badsite2\.com</span> <span class="pl-sr">[NC,OR]</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">\.(jpe?g|png|gif|bmp)$</span> <span class="pl-s">-</span> <span class="pl-sr">[NC,F,L]</span>
+
+<span class="pl-c"><span class="pl-c">#</span> If you want to display a “blocked” banner in place of the hotlinked image,</span>
+<span class="pl-c"><span class="pl-c">#</span> replace the above rule with:</span>
+<span class="pl-c"><span class="pl-c">#</span> RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]</span></pre></div>
+<h3><a href="#password-protect-a-directory" aria-hidden="true" class="anchor" id="user-content-password-protect-a-directory"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Password Protect a Directory</h3>
+<p>First you need to create a <code>.htpasswd</code> file somewhere in the system:</p>
+<div class="highlight highlight-source-shell"><pre>htpasswd -c /home/fellowship/.htpasswd boromir</pre></div>
+<p>Then you can use it for authentication:</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">AuthType</span> Basic
+<span class="pl-c1">AuthName</span> <span class="pl-s"><span class="pl-pds">"</span>One does not simply<span class="pl-pds">"</span></span>
+<span class="pl-c1">AuthUserFile</span> /home/fellowship/.htpasswd
+<span class="pl-c1">Require</span> valid-user</pre></div>
+<h3><a href="#password-protect-a-file-or-several-files" aria-hidden="true" class="anchor" id="user-content-password-protect-a-file-or-several-files"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Password Protect a File or Several Files</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">AuthName</span> <span class="pl-s"><span class="pl-pds">"</span>One still does not simply<span class="pl-pds">"</span></span>
+<span class="pl-c1">AuthType</span> Basic
+<span class="pl-c1">AuthUserFile</span> /home/fellowship/.htpasswd
+
+&lt;<span class="pl-ent">Files</span> "one-ring.o"&gt;
+<span class="pl-c1">Require</span> valid-user
+&lt;/<span class="pl-ent">Files</span>&gt;
+
+&lt;<span class="pl-ent">FilesMatch</span> ^((one|two|three)-rings?\.o)$&gt;
+<span class="pl-c1">Require</span> valid-user
+&lt;/<span class="pl-ent">FilesMatch</span>&gt;</pre></div>
+<h3><a href="#block-visitors-by-referrer" aria-hidden="true" class="anchor" id="user-content-block-visitors-by-referrer"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Block Visitors by Referrer</h3>
+<p>This denies access for all users who are coming from (referred by) a specific domain.
+<a href="http://www.htaccess-guide.com/deny-visitors-by-referrer/" rel="nofollow">Source</a></p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> on
+<span class="pl-c"><span class="pl-c">#</span> Options +FollowSymlinks</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_REFERER}</span> <span class="pl-s">somedomain\.com</span> <span class="pl-sr">[NC,OR]</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_REFERER}</span> <span class="pl-s">anotherdomain\.com</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">.*</span> <span class="pl-s">-</span> <span class="pl-sr">[F]</span></pre></div>
+<h3><a href="#prevent-framing-the-site" aria-hidden="true" class="anchor" id="user-content-prevent-framing-the-site"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prevent Framing the Site</h3>
+<p>This prevents the website to be framed (i.e. put into an <code>iframe</code> tag), when still allows framing for a specific URI.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">SetEnvIf</span> Request_URI <span class="pl-s"><span class="pl-pds">"</span>/starry-night<span class="pl-pds">"</span></span> allow_framing=true
+<span class="pl-c1">Header</span> set X-Frame-<span class="pl-c1">Options</span> SAMEORIGIN env=!allow_framing</pre></div>
+<h2><a href="#performance" aria-hidden="true" class="anchor" id="user-content-performance"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Performance</h2>
+<h3><a href="#compress-text-files" aria-hidden="true" class="anchor" id="user-content-compress-text-files"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compress Text Files</h3>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">IfModule</span> mod_deflate.c&gt;
+
+    <span class="pl-c"><span class="pl-c">#</span> Force compression for mangled headers.</span>
+    <span class="pl-c"><span class="pl-c">#</span> https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html</span>
+    &lt;<span class="pl-ent">IfModule</span> mod_setenvif.c&gt;
+        &lt;<span class="pl-ent">IfModule</span> mod_headers.c&gt;
+            <span class="pl-c1">SetEnvIfNoCase</span> ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            <span class="pl-c1">RequestHeader</span> append Accept-Encoding <span class="pl-s"><span class="pl-pds">"</span>gzip,deflate<span class="pl-pds">"</span></span> env=HAVE_Accept-Encoding
+        &lt;/<span class="pl-ent">IfModule</span>&gt;
+    &lt;/<span class="pl-ent">IfModule</span>&gt;
+
+    <span class="pl-c"><span class="pl-c">#</span> Compress all output labeled with one of the following MIME-types</span>
+    <span class="pl-c"><span class="pl-c">#</span> (for Apache versions below 2.3.7, you don't need to enable `mod_filter`</span>
+    <span class="pl-c"><span class="pl-c">#</span>  and can remove the `&lt;IfModule mod_filter.c&gt;` and `&lt;/IfModule&gt;` lines</span>
+    <span class="pl-c"><span class="pl-c">#</span>  as `AddOutputFilterByType` is still in the core directives).</span>
+    &lt;<span class="pl-ent">IfModule</span> mod_filter.c&gt;
+        <span class="pl-c1">AddOutputFilterByType</span> DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    &lt;/<span class="pl-ent">IfModule</span>&gt;
+
+&lt;/<span class="pl-ent">IfModule</span>&gt;</pre></div>
+<p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+<h3><a href="#set-expires-headers" aria-hidden="true" class="anchor" id="user-content-set-expires-headers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set Expires Headers</h3>
+<p><em>Expires headers</em> tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content's expires headers to something far in the future.</p>
+<p>If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. <a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">IfModule</span> mod_expires.c&gt;
+    <span class="pl-c1">ExpiresActive</span> on
+    <span class="pl-c1">ExpiresDefault</span>                                      <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> CSS</span>
+    <span class="pl-c1">ExpiresByType</span> text/css                              <span class="pl-s"><span class="pl-pds">"</span>access plus 1 year<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Data interchange</span>
+    <span class="pl-c1">ExpiresByType</span> application/json                      <span class="pl-s"><span class="pl-pds">"</span>access plus 0 seconds<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> application/xml                       <span class="pl-s"><span class="pl-pds">"</span>access plus 0 seconds<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> text/xml                              <span class="pl-s"><span class="pl-pds">"</span>access plus 0 seconds<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Favicon (cannot be renamed!)</span>
+    <span class="pl-c1">ExpiresByType</span> image/x-icon                          <span class="pl-s"><span class="pl-pds">"</span>access plus 1 week<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> HTML components (HTCs)</span>
+    <span class="pl-c1">ExpiresByType</span> text/x-component                      <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> HTML</span>
+    <span class="pl-c1">ExpiresByType</span> text/html                             <span class="pl-s"><span class="pl-pds">"</span>access plus 0 seconds<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> JavaScript</span>
+    <span class="pl-c1">ExpiresByType</span> application/javascript                <span class="pl-s"><span class="pl-pds">"</span>access plus 1 year<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Manifest files</span>
+    <span class="pl-c1">ExpiresByType</span> application/x-web-app-manifest+json   <span class="pl-s"><span class="pl-pds">"</span>access plus 0 seconds<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> text/cache-manifest                   <span class="pl-s"><span class="pl-pds">"</span>access plus 0 seconds<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Media</span>
+    <span class="pl-c1">ExpiresByType</span> audio/ogg                             <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> image/gif                             <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> image/jpeg                            <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> image/png                             <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> video/mp4                             <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> video/ogg                             <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> video/webm                            <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Web feeds</span>
+    <span class="pl-c1">ExpiresByType</span> application/atom+xml                  <span class="pl-s"><span class="pl-pds">"</span>access plus 1 hour<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> application/rss+xml                   <span class="pl-s"><span class="pl-pds">"</span>access plus 1 hour<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Web fonts</span>
+    <span class="pl-c1">ExpiresByType</span> application/font-woff2                <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> application/font-woff                 <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> application/vnd.ms-fontobject         <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> application/x-font-ttf                <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> font/opentype                         <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+    <span class="pl-c1">ExpiresByType</span> image/svg+xml                         <span class="pl-s"><span class="pl-pds">"</span>access plus 1 month<span class="pl-pds">"</span></span>
+&lt;/<span class="pl-ent">IfModule</span>&gt;</pre></div>
+<h3><a href="#turn-etags-off" aria-hidden="true" class="anchor" id="user-content-turn-etags-off"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Turn eTags Off</h3>
+<p>By removing the <code>ETag</code> header, you disable caches and browsers from being able to validate files, so they are forced to rely on your <code>Cache-Control</code> and <code>Expires</code> header. <a href="http://www.askapache.com/htaccess/apache-speed-etags.html" rel="nofollow">Source</a></p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">IfModule</span> mod_headers.c&gt;
+    <span class="pl-c1">Header</span> unset ETag
+&lt;/<span class="pl-ent">IfModule</span>&gt;
+<span class="pl-c1">FileETag</span> None</pre></div>
+<h2><a href="#miscellaneous" aria-hidden="true" class="anchor" id="user-content-miscellaneous"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous</h2>
+<h3><a href="#set-php-variables" aria-hidden="true" class="anchor" id="user-content-set-php-variables"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set PHP Variables</h3>
+<div class="highlight highlight-source-apache-config"><pre>php_value &lt;<span class="pl-ent">key</span>&gt; &lt;<span class="pl-ent">val</span>&gt;
+
+<span class="pl-c"><span class="pl-c">#</span> For example:</span>
+php_value upload_max_filesize 50M
+php_value max_execution_time 240</pre></div>
+<h3><a href="#custom-error-pages" aria-hidden="true" class="anchor" id="user-content-custom-error-pages"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom Error Pages</h3>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">ErrorDocument</span> 500 <span class="pl-s"><span class="pl-pds">"</span>Houston, we have a problem.<span class="pl-pds">"</span></span>
+<span class="pl-c1">ErrorDocument</span> 401 http://error.example.com/mordor.html
+<span class="pl-c1">ErrorDocument</span> 404 /errors/halflife3.html</pre></div>
+<h3><a href="#force-downloading" aria-hidden="true" class="anchor" id="user-content-force-downloading"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Force Downloading</h3>
+<p>Sometimes you want to force the browser to download some content instead of displaying it.</p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">Files</span> *.md&gt;
+    <span class="pl-c1">ForceType</span> application/octet-stream
+    <span class="pl-c1">Header</span> set Content-Disposition attachment
+&lt;/<span class="pl-ent">Files</span>&gt;</pre></div>
+<p>Now there is a yang to this yin:</p>
+<h3><a href="#prevent-downloading" aria-hidden="true" class="anchor" id="user-content-prevent-downloading"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prevent Downloading</h3>
+<p>Sometimes you want to force the browser to display some content instead of downloading it.</p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">FilesMatch</span> "\.(tex|log|aux)$"&gt;
+    <span class="pl-c1">Header</span> set Content-Type text/plain
+&lt;/<span class="pl-ent">FilesMatch</span>&gt;</pre></div>
+<h3><a href="#allow-cross-domain-fonts" aria-hidden="true" class="anchor" id="user-content-allow-cross-domain-fonts"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Allow Cross-Domain Fonts</h3>
+<p>CDN-served webfonts might not work in Firefox or IE due to <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" rel="nofollow">CORS</a>. This snippet solves the problem.</p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">IfModule</span> mod_headers.c&gt;
+    &lt;<span class="pl-ent">FilesMatch</span> "\.(eot|otf|ttc|ttf|woff|woff2)$"&gt;
+        <span class="pl-c1">Header</span> set Access-Control-<span class="pl-c1">Allow</span>-Origin <span class="pl-s"><span class="pl-pds">"</span>*<span class="pl-pds">"</span></span>
+    &lt;/<span class="pl-ent">FilesMatch</span>&gt;
+&lt;/<span class="pl-ent">IfModule</span>&gt;</pre></div>
+<p><a href="https://github.com/h5bp/server-configs-apache/issues/32">Source</a></p>
+<h3><a href="#auto-utf-8-encode" aria-hidden="true" class="anchor" id="user-content-auto-utf-8-encode"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Auto UTF-8 Encode</h3>
+<p>Your text content should always be UTF-8 encoded, no?</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c"><span class="pl-c">#</span> Use UTF-8 encoding for anything served text/plain or text/html</span>
+<span class="pl-c1">AddDefaultCharset</span> utf-8
+
+<span class="pl-c"><span class="pl-c">#</span> Force UTF-8 for a number of file formats</span>
+<span class="pl-c1">AddCharset</span> utf-8 .atom .css .js .json .rss .vtt .xml</pre></div>
+<p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+<h3><a href="#switch-to-another-php-version" aria-hidden="true" class="anchor" id="user-content-switch-to-another-php-version"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Switch to Another PHP Version</h3>
+<p>If you’re on a shared host, chances are there are more than one version of PHP installed, and sometimes you want a specific version for your website. The following snippet should switch the PHP version for you.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">AddHandler</span> application/x-httpd-php56 .php
+
+<span class="pl-c"><span class="pl-c">#</span> Alternatively, you can use AddType</span>
+<span class="pl-c1">AddType</span> application/x-httpd-php56 .php</pre></div>
+<h3><a href="#disable-internet-explorer-compatibility-view" aria-hidden="true" class="anchor" id="user-content-disable-internet-explorer-compatibility-view"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Disable Internet Explorer Compatibility View</h3>
+<p>Compatibility View in IE may affect how some websites are displayed. The following snippet should force IE to use the Edge Rendering Engine and disable the Compatibility View.</p>
+<div class="highlight highlight-source-apache-config"><pre>&lt;<span class="pl-ent">IfModule</span> mod_headers.c&gt;
+    <span class="pl-c1">BrowserMatch</span> MSIE is-msie
+    <span class="pl-c1">Header</span> set X-UA-Compatible IE=edge env=is-msie
+&lt;/<span class="pl-ent">IfModule</span>&gt;</pre></div>
+<h3><a href="#serve-webp-images" aria-hidden="true" class="anchor" id="user-content-serve-webp-images"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Serve WebP Images</h3>
+<p>If <a href="https://developers.google.com/speed/webp/?csw=1" rel="nofollow">WebP images</a> are supported and an image with a .webp extension and the same name is found at the same place as the jpg/png image that is going to be served, then the WebP image is served instead.</p>
+<div class="highlight highlight-source-apache-config"><pre><span class="pl-c1">RewriteEngine</span> On
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{HTTP_ACCEPT}</span> <span class="pl-s">image/webp</span>
+<span class="pl-c1">RewriteCond</span> <span class="pl-c1">%{DOCUMENT_ROOT}</span><span class="pl-sr">/$1.webp</span> <span class="pl-s">-f</span>
+<span class="pl-c1">RewriteRule</span> <span class="pl-sr">(.+)\.(jpe?g|png)$</span> <span class="pl-s">$1.webp</span> <span class="pl-sr">[T=image/webp,E=accept:1]</span></pre></div>
+<p><a href="https://github.com/vincentorback/WebP-images-with-htaccess">Source</a></p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.25661s from unicorn-3751571531-r1nbr">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,486 @@
+   #Recent
+   Commits to awesome-saltstack:develop
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 8
+     * 109
+     * 18
+
+awesome-saltstack
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A collaborative curated list of awesome SaltStack resources, tutorials
+   and other salted stuff.
+   configuration-managem
+   ent awesome
+   88
+       commits
+     * 2 branches
+     * Fetch
+       ing contributors
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/h
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: develop
+   Switch branches/tags
+   ____________________
+     * Branches
+     * Tags
+
+   develop
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   
+   CONTRIBUTING.md
+   [file://localhost/hbokh/awesome-saltstack/commit/0010bee375176a38ff1381
+   df6c9730ed9f3f6427]Small improvements Dec 16, 2016
+   README
+   .md
+   [file://localhost/hbokh/awesome-saltstack/commit/2cd29ec11482ef135f32f3
+   2fd9409d78cb01e367]Added link to Quick Guide Mar 18, 2018
+
+README.md
+
+Awesome
+
+     A collaborative curated list of awesome SaltStack resources,
+     tutorials and other salted stuff.
+
+   [https://SaltStack.com/][35341388-d8c0cf0e-0125-11e8-9831-51f13fab58c7.
+   jpg]
+
+   SaltStack is the other configuration management system built with
+   Python.
+   It takes a new approach to infrastructure management by developing
+   software that is easy enough to get running in seconds, scalable enough
+   to manage tens of thousands of servers, and fast enough to control and
+   communicate with them in milliseconds.
+   SaltStack software manages system infrastructure and the application
+   stacks that run on it and is used by web-scale application developers,
+   DevOps teams and systems administrators.
+
+   A means really awesome / useful.
+
+Contents
+
+     * Official resources
+     * Tutorials
+     * Code
+     * Books
+     * Videos
+     * Tools
+     * Presentations
+     * Blogposts and opinions
+     * Discussions
+     * Community
+     * Formulas
+     * Cheat sheets
+     * Uncategorized
+
+Official resources
+
+     * [https://saltstack.com/]SaltStack site - Company website.
+     * [https://github.com/saltstack/salt]GitHub repo - Salt's source
+       code, issues discussion and collaboration.
+     * [https://docs.saltstack.com/en/latest/]SaltStack Documentation -
+       Official documentation.
+     * [https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.
+       html]Salt in 10 minutes - Official walkthrough.
+     * [https://docs.saltstack.com/en/getstarted/]SaltStack Get Started -
+       These tutorials walk you through the basics of getting SaltStack up
+       and running.
+     * [https://saltstack.com/training/]Training and certification -
+       Official training.
+     * [http://jinja.pocoo.org/docs/latest/]Jinja2 documentation - This
+       official documentation covers the used templating language in Salt.
+
+Tutorials
+
+     * [https://blog.talpor.com/2014/07/saltstack-beginners-tutorial/]Salt
+       - Beginners Tutorial - One of the best tutorials to get you
+       started.
+     * [http://www.yet.org/2016/09/salt/]About SaltStack - Extensive
+       blogpost with lots of in-depth information.
+     * [https://techarena51.com/blog/getting-started-with-saltstack/]Manag
+       ing Linux server configs with the SaltStack - Managing Linux server
+       configs with the SaltStack.
+     * [https://opencredo.com/a-dive-into-salt-stack/]A dive into
+       SaltStack - SaltStack uncovered - Configuration management has been
+       a big leap forward for System Engineers.
+     * [https://www.digitalocean.com/community/tutorials/how-to-install-sa
+       lt-on-ubuntu-12-04]How To Install Salt on Ubuntu 12.04 - Part 1 of
+       2 in the series An Introduction to Salt.
+     * [https://www.digitalocean.com/community/tutorials/how-to-create-you
+       r-first-salt-formula]How To Create Your First Salt Formula - Part 2
+       in the series An Introduction to Salt.
+     * [https://www.digitalocean.com/community/tutorials/automated-provisi
+       oning-of-digitalocean-cloud-servers-with-salt-cloud-on-ubuntu-12-04
+       ]Automated Provisioning of DigitalOcean Cloud Servers with Salt
+       Cloud on Ubuntu 12.04 - Walkthrough on automated provisioning of
+       DigitalOcean Cloud Servers with Salt Cloud on Ubuntu 12.04.
+     * [https://www.digitalocean.com/community/tutorials/how-to-install-an
+       d-configure-salt-master-and-minion-servers-on-ubuntu-14-04]How To
+       Install and Configure Salt Master and Minion Servers on Ubuntu
+       14.04 - SaltStack installation walkthrough for Ubuntu 14.04.
+     * [https://www.digitalocean.com/community/tutorials/how-to-use-salt-c
+       loud-map-files-to-deploy-app-servers-and-an-nginx-reverse-proxy]How
+       To Use Salt Cloud Map Files to Deploy App Servers and an Nginx
+       Reverse Proxy - Walkthrough on how to use Salt Cloud Map Files to
+       deploy application servers and an Nginx reverse proxy.
+     * [https://www.digitalocean.com/community/tutorials/an-introduction-t
+       o-saltstack-terminology-and-concepts]An Introduction to SaltStack
+       Terminology and Concepts - Part 1 of 6 in the series Managing
+       Development Environments with SaltStack.
+     * [https://www.digitalocean.com/community/tutorials/saltstack-infrast
+       ructure-installing-the-salt-master]SaltStack Infrastructure:
+       Installing the Salt Master - Part 2 of 6 in the series Managing
+       Development Environments with SaltStack.
+     * [https://www.digitalocean.com/community/tutorials/saltstack-infrast
+       ructure-configuring-salt-cloud-to-spin-up-digitalocean-resources]Sa
+       ltStack Infrastructure: Configuring Salt-Cloud to Spin Up
+       DigitalOcean Resources - Part 3 of 6 in the series Managing
+       Development Environments with SaltStack.
+     * [https://www.digitalocean.com/community/tutorials/saltstack-infrast
+       ructure-creating-salt-states-for-nginx-web-servers]SaltStack
+       Infrastructure: Creating Salt States for Nginx Web Servers - Part 4
+       of 6 in the series Managing Development Environments with
+       SaltStack.
+     * [https://www.digitalocean.com/community/tutorials/saltstack-infrast
+       ructure-creating-salt-states-for-haproxy-load-balancers]SaltStack
+       Infrastructure: Creating Salt States for HAProxy Load Balancers -
+       Part 5 of 6 in the series Managing Development Environments with
+       SaltStack.
+     * [https://www.digitalocean.com/community/tutorials/saltstack-infrast
+       ructure-creating-salt-states-for-mysql-database-servers]SaltStack
+       Infrastructure: Creating Salt States for MySQL Database Servers -
+       Part 6 in the series Managing Development Environments with
+       SaltStack.
+     * [https://www.linuxjournal.com/content/getting-started-salt-stack-ot
+       her-configuration-management-system-built-python]Getting Started
+       with SaltStack - the Other Configuration Management System Built
+       with Python - A Linux Journal "Getting started" from 2013.
+     * [http://www.aaronbell.com/lets-make-salt-minions-on-digitalocean/]C
+       reate an army of Salt minions on DigitalOcean - Combine the
+       simplicity of Salt with DigitalOcean's snapshot and image feature.
+     * [http://hittaruki.info/post/vagrant-saltstack-tutorial/]Vagrant &
+       SaltStack Quickstart Tutorial - Getting started with SaltStack and
+       Vagrant.
+     * [https://thereluctanttecchie.blogspot.com/2014/01/salt-api-crash-co
+       urse.html]Salt-API, A Crash Course - Get a barebones salt-api proof
+       of concept up and running.
+     * [http://blog.infracloud.io/saltstack-tutorial-part-1/]Getting
+       Started with SaltStack - Part 1 - Simple setup and play around on
+       the command line.
+     * [http://blog.infracloud.io/saltstack-tutorial-part-2/]Getting
+       Started with SaltStack - Part 2 - Write a complete module for
+       installing and configure a web server.
+     * [https://www.unixmen.com/saltstack-examples/]SaltStack Examples -
+       Will teach you some of default functions in a quick way.
+     * [https://honza.ca/2013/12/masterless-saltstack]Masterless Saltstack
+       - A simple guide on how to use SaltStack in masterless mode.
+     * [https://blog.badgerops.net/2017/04/10/getting-started-with-salt-wo
+       rkspace/]Getting Started with Saltstack and salt-workspace -
+       Learning SaltStack by setting up a salt-workspace.
+     * [https://blog.badgerops.net/2017/04/22/getting-started-with-salt-st
+       ructure-2/]Getting started with Salt Structure - Learn how to setup
+       a structured SaltStack workspace.
+     * [https://blog.badgerops.net/2017/05/23/writing-a-custom-salt-grain/
+       ]Writing a custom Salt Grain - Writing a custom Salt Grain, and why
+       you might want to.
+     * [http://bencane.com/2014/12/30/building-self-healing-applications-w
+       ith-salt-api/]Building Self-Healing Applications - Automate the
+       detection and first action to correct errors in your
+       infrastructure.
+     * [https://github.com/redmage123/Introduction-to-Saltstack]Introducti
+       on to SaltStack - A two day course designed to quickly introduce
+       System Administrators and Application Developers on how to start
+       using Saltstack.
+     * [https://medium.com/@timlwhite/the-simplest-way-to-learn-saltstack-
+       cd9f5edbc967]The Simplest Way to Learn SaltStack - Start to learn
+       the basics of SaltStack by setting it up in Docker.
+     * [https://www.tutorialspoint.com/saltstack/saltstack_quick_guide.htm
+       ]SaltStack - Quick Guide - Part of the larger "Learn
+       SaltStack"-tutorial at Tutorials Point.
+
+Code
+
+     * [https://github.com/zulily/alkali]zulily/alkali - A collections of
+       SaltStack states and pillar data that provide just the basics for
+       provisioning Linux instances that may be built upon.
+     * [https://github.com/zulily/buoyant]zulily/buoyant - Leverages
+       docker to provide an alternative to VM-centric SaltStack
+       development environments.
+     * [https://k8s-salt.opsnotice.xyz/]valentin2105/Kubernetes-Saltstack
+       - Saltstack recipe to deploy Kubernetes cluster from scratch.
+     * [https://github.com/madflojo/masterless-salt-base]madflojo/masterle
+       ss-salt-base - Quickly bootstrap a generic(ish) Ubuntu server. One
+       that is ready to host Docker containers.
+
+Books
+
+     * [http://shop.oreilly.com/product/0636920033240.do]O'Reilly - Salt
+       Essentials by Craig Sebenik, Thomas Hatch.
+     * [https://leanpub.com/saltstackfordevops]Leanpub - SaltStack For
+       DevOps by Aymen El Amri.
+     * [https://leanpub.com/gettingstartedwithsaltstack]Leanpub - Getting
+       Started with SaltStack by Ben Hosmer.
+     * [https://www.packtpub.com/networking-and-servers/learning-saltstack
+       -second-edition]Packt - Learning SaltStack, 2nd ed. by Colton
+       Myers.
+     * [https://www.packtpub.com/networking-and-servers/mastering-saltstac
+       k-second-edition]Packt - Mastering SaltStack, 2nd ed. by Joseph
+       Hall.
+     * [https://www.packtpub.com/networking-and-servers/extending-saltstac
+       k]Packt - Extending SaltStack by Joseph Hall.
+     * [https://www.packtpub.com/networking-and-servers/salt-cookbook]Pack
+       t - Salt Cookbook by Anirban Saha.
+
+Videos
+
+     * [https://www.youtube.com/user/saltstack]SaltStack - SaltStack's
+       official YouTube channel.
+     * [https://www.youtube.com/watch?v=y-zQUqMHRX4&t=35s]Managing Your
+       Infrastructure with SaltStack - PyCon 2015 - April 11, 2015 -
+       Colton Myers.
+     * [https://www.youtube.com/watch?v=_xO7wj19OzI]Testing Salt States
+       with Docker - SaltStack PDX - June 23, 2015 - Jason Denning.
+     * [https://www.youtube.com/watch?v=cMCH6EizVVc]Beyond Configuration
+       Management with SaltStack for Event-Driven Infrastructure -
+       Southern California Linux Expo - January 23, 2016 - David Boucha.
+     * [https://vimeo.com/162183524]Automation and Orchestration with
+       SaltStack and Twilio - Devops Chicago - March 2, 2016 - Nathan
+       Brooks.
+     * [https://www.youtube.com/watch?v=HijG0hWebZk&list=PL5yV8umka8YQOr1w
+       m719In5LITdGzQMOF]SaltStack for FreeBSD - A 7-part video crash
+       course on SaltStack for FreeBSD.
+     * [https://www.youtube.com/playlist?list=PL9svBjLDUl_8BqpIDKlCTqHZI2m
+       kysTvZ]SaltConf15 - YouTube - There were more than 60 talks
+       delivered at SaltConf15 and we recorded all of them.
+     * [https://www.youtube.com/playlist?list=PL9svBjLDUl_-sVwcRliUQ-VGDb2
+       qvwpx_]SaltConf16 - YouTube - Video recordings of SaltConf16
+       presentations.
+     * [https://www.youtube.com/playlist?list=PL9svBjLDUl_-8yJxp-nSlmM9KYE
+       QH4fgj]SaltConf17 - YouTube - Video recordings of SaltConf17
+       presentations delivered by SaltStack customers and partners.
+
+Tools
+
+     * [https://github.com/Lothiraldan/saltpad]SaltPad - SaltPad is a GUI
+       tool to manage SaltStack deployments + orchestration.
+     * [https://github.com/yueyongyue/saltshaker]SaltShaker - Another good
+       looking GUI for SaltStack.
+     * [https://github.com/maerteijn/SaltGUI]SaltGUI - A web interface for
+       managing SaltStack based infrastructure.
+     * [https://github.com/webedia-dev/pepperboard]Pepperboard - A simple
+       and modular dashboard toolkit for SaltStack.
+
+Presentations
+
+     * [https://speakerdeck.com/pycon2014/getting-started-with-saltstack-b
+       y-peter-baumgartner]Getting Started with SaltStack - by Peter
+       Baumgartner.
+     * [https://www.slideshare.net/saltstack/an-overvisaltstack-presentati
+       on-clean]An introduction to infrastructure management with
+       SaltStack - by Aurelien Geron.
+     * [https://speakerdeck.com/lothiraldan/saltpad-a-saltstack-web-gui]Sa
+       ltpad: A SaltStack Web GUI - by Boris Feld.
+     * [http://www.justincarmony.com/slides/salt-tutorial/]Intro to
+       SaltStack - by Justin Carmony.
+
+Blogposts and opinions
+
+     * [http://www.salttofinish.com/]Salt To Finish - "the original
+       SaltStack blog".
+     * [https://opsnotice.xyz/docker-with-saltstack/]Docker with SaltStack
+       - How-to use SaltStack on a virtual cloud server based on Debian or
+       Ubuntu.
+     * [https://blog.ryandlane.com/2014/08/04/moving-away-from-puppet-salt
+       stack-or-ansible/]Moving away from Puppet: SaltStack or Ansible? -
+       Salt and Ansible as viable and excellent options for replacing
+       Puppet.
+     * [https://stevebennett.me/2014/02/17/one-week-of-salt-frustrations-a
+       nd-reflections/]One week of Salt: frustrations and reflections -
+       First hand experiences from a Chef user.
+     * [http://bencane.com/2013/09/03/getting-started-with-saltstack-by-ex
+       ample-automatically-installing-nginx/]Getting started with
+       SaltStack by example: Automatically Installing nginx - A good
+       getting started guide for both Salt master and minions.
+     * [https://makina-corpus.com/blog/metier/2014/saltstack-manage-entrie
+       s-in-unmanaged-files-with-file-blockreplace]SaltStack: Manage
+       entries in unmanaged files with File Blockreplace - How to use the
+       SaltStack's core file.blockreplace.
+     * [http://btmiller.com/2016/11/27/docker-swarm-1.12-cluster-orchestra
+       tion-with-saltstack.html]Docker Swarm 1.12 Cluster Orchestration
+       with SaltStack - Let's see how we can automate the spin-up of a
+       cluster using SaltStack.
+     * [https://www.amon.cx/blog/saltstack-review/]SaltStack - Review and
+       how it fares against Ansible and Puppet - As seen from the Salt
+       perspective.
+     * [http://fabianlee.org/2016/10/18/saltstack-keeping-salt-pillar-data
+       -encrypted-using-gpg/]SaltStack: Keeping Salt Pillar data encrypted
+       using GPG - On secure encryption/decryption of pillar data.
+     * [https://gijs.io/2017/02/28/secure-pillar-data-in-saltstack-with-gp
+       g/]Secure Pillar in SaltStack with GPG - Encrypting your pillar
+       data can be done with GPG.
+     * [http://blog.simonmetzger.de/2018/02/salt-napalm-k8s-network-automa
+       tion/]Network-Automation with Salt, NAPALM and Kubernetes - How to
+       manage legacy devices that are not able to install software
+       natively on themselves.
+     * [https://mirceaulinic.net/2017-12-19-salt-pure-python/]Python
+       development for infrastructure management using Salt - The
+       overlooked side of Salt and some best practices.
+     * [https://duncan.codes/2016/05/18/using-salt-like-ansible.html]Using
+       Salt like Ansible - How to use Salt in a way similar to Ansible.
+
+Discussions
+
+     * [https://www.reddit.com/r/sysadmin/comments/2fmkvq/vagrat_saltstack
+       _ansible_docker_chef_puppet/]Reddit: Vagrat, SaltStack, Ansible,
+       Docker, Chef, Puppet, Packer.. Something - Discussion on Reddit,
+       started Sept. 2014 in /r/sysadmin.
+
+Community
+
+     * [http://webchat.freenode.net/?channels=salt&uio=Mj10cnVlJjk9dHJ1ZSY
+       xMD10cnVl83]Salt IRC chat - IRC about Salt on Freenode.
+     * [https://twitter.com/saltstack]Twitter feed - Official Twitter
+       account.
+     * [https://groups.google.com/forum/#!forum/salt-users]Mailing list -
+       Salt-users mailinglist on Google Groups.
+     * [https://www.meetup.com/pro/saltstack/]SaltStack Meetups -
+       Worldwide Meetup groups.
+     * [http://saltconf.com/]SaltConf - Annual user conference for
+       SaltStack customers, users, partners, developers and community
+       members.
+     * [https://www.facebook.com/SaltStack/]Facebook - Official Facebook
+       account.
+
+Formulas
+
+     * [https://github.com/saltstack-formulas/]SaltStack Formulas - A
+       central collection of formula repositories for SaltStack.
+     * [https://github.com/salt-formulas]Salt Formulas - A community
+       developed SaltStack formulas ecosystem.
+     * [http://ryepup.unwashedmeme.com/blog/2015/03/16/writing-saltstack-f
+       ormulas/]Writing SaltStack formulas - An overview on writing
+       SaltStack formulas.
+     * [http://www.yet.org/2016/09/salt-formulas/]Salt Formulas - In-depth
+       blogpost about Salt Formulas.
+
+Cheat sheets
+
+     * [https://github.com/fmdlc/saltstack-cheatsheet]SaltStack Cheat
+       Sheet Plus - by Facu de la Cruz.
+     * [https://sites.google.com/site/bladelogicwiki/salt-stack/guides/sal
+       t-commands]Salt Commands cheat sheet - List of common Salt commands
+       (by "Bladelogic").
+     * [http://www.xenuser.org/saltstack-cheat-sheet/]SaltStack Cheat
+       Sheet - by Valentin Höbel.
+     * [https://github.com/saltstack/salt/wiki/Cheat-Sheet]SaltStack Wiki
+       - Cheat sheet in the SaltStack GitHub Wiki.
+
+Uncategorized
+
+     * [https://en.wikipedia.org/wiki/Salt_(software)]Salt (software) -
+       Wikipedia (English).
+     * [https://hubblestack.io/]HubbleStack: Security for DevOps - Hubble
+       is a modular, open-source security compliance framework built on
+       top of SaltStack.
+     * [http://aarontobler.com/marc-chen-ceoco-founder-salt-stack-inc/]Mar
+       c Chen - CEO/Co-Founder Salt Stack, Inc. - An interview with
+       SaltStack's CEO and co-founder.
+
+License
+
+   [https://creativecommons.org/publicdomain/zero/1.0/]CC0
+
+   To the extent possible under law, [https://hbokh.github.io/]Henk has
+   waived all copyright and related or neighboring rights to this work.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-saltstack
+   ]Reload to refresh your session. You signed out in another tab or
+   window.
+   Reload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

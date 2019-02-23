@@ -1,0 +1,1955 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - Fr0sT-Brutal/awesome-delphi: A curated list of awesome Delphi frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/1469388?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Fr0sT-Brutal/awesome-delphi" /><meta property="og:url" content="https://github.com/Fr0sT-Brutal/awesome-delphi" /><meta property="og:description" content="awesome-delphi - A curated list of awesome Delphi frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E0A9:5D4D:1880620:2F457AE:5AD2F69F" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E0A9:5D4D:1880620:2F457AE:5AD2F69F" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NmNmN2RhNDNjNzY2OGNmMDc2NTU0MWRhZGZlYzhhZGE1YmQ5MTRjNGI4YzJhNzM1MjJlY2E3YzJiNmZlZjZkMXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTBBOTo1RDREOjE4ODA2MjA6MkY0NTdBRTo1QUQyRjY5RiIsInRpbWVzdGFtcCI6MTUyMzc3NTEzNSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="994eb60e0d7d74d6e5b762432e6bdeb45c214a43">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/Fr0sT-Brutal/awesome-delphi/commits/master.atom" rel="alternate" title="Recent Commits to awesome-delphi:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-delphi - A curated list of awesome Delphi frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.">
+  <meta name="go-import" content="github.com/Fr0sT-Brutal/awesome-delphi git https://github.com/Fr0sT-Brutal/awesome-delphi.git">
+
+  <meta name="octolytics-dimension-user_id" content="1469388" /><meta name="octolytics-dimension-user_login" content="Fr0sT-Brutal" /><meta name="octolytics-dimension-repository_id" content="23147424" /><meta name="octolytics-dimension-repository_nwo" content="Fr0sT-Brutal/awesome-delphi" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="23147424" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Fr0sT-Brutal/awesome-delphi" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/Fr0sT-Brutal/awesome-delphi" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/Fr0sT-Brutal/awesome-delphi/search" data-unscoped-search-url="/search" action="/Fr0sT-Brutal/awesome-delphi/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/Fr0sT-Brutal/awesome-delphi">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2FFr0sT-Brutal%2Fawesome-delphi" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2FFr0sT-Brutal%2Fawesome-delphi"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/Fr0sT-Brutal/awesome-delphi/watchers"
+     aria-label="164 users are watching this repository">
+    164
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FFr0sT-Brutal%2Fawesome-delphi"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/Fr0sT-Brutal/awesome-delphi/stargazers"
+      aria-label="456 users starred this repository">
+      456
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FFr0sT-Brutal%2Fawesome-delphi"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/Fr0sT-Brutal/awesome-delphi/network" class="social-count"
+       aria-label="96 users forked this repository">
+      96
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/Fr0sT-Brutal">Fr0sT-Brutal</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/Fr0sT-Brutal/awesome-delphi">awesome-delphi</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Fr0sT-Brutal/awesome-delphi" href="/Fr0sT-Brutal/awesome-delphi">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /Fr0sT-Brutal/awesome-delphi/issues" href="/Fr0sT-Brutal/awesome-delphi/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">3</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /Fr0sT-Brutal/awesome-delphi/pulls" href="/Fr0sT-Brutal/awesome-delphi/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /Fr0sT-Brutal/awesome-delphi/projects" href="/Fr0sT-Brutal/awesome-delphi/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /Fr0sT-Brutal/awesome-delphi/pulse" href="/Fr0sT-Brutal/awesome-delphi/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OePIRBZ3sNIEKerXmLnuLJlDszNUruKxryWqGV6uBG72JjflSYgEBId7aB11++tD2CwKOhef1JsmxB8ntwKc/g==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome Delphi frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/Fr0sT-Brutal/awesome-delphi/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/pascal-language" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:pascal-language">
+        pascal-language
+      </a>
+      <a href="/topics/delphi-component" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:delphi-component">
+        delphi-component
+      </a>
+      <a href="/topics/delphi-library" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:delphi-library">
+        delphi-library
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/Fr0sT-Brutal/awesome-delphi/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                131
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/Fr0sT-Brutal/awesome-delphi/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/Fr0sT-Brutal/awesome-delphi/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/Fr0sT-Brutal/awesome-delphi/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      13
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/Fr0sT-Brutal/awesome-delphi/search?l=pascal"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#E3F171;"></span>
+                  <span class="lang">Pascal</span>
+                  <span class="percent">91.9%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/Fr0sT-Brutal/awesome-delphi/search?l=ruby"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#701516;"></span>
+                  <span class="lang">Ruby</span>
+                  <span class="percent">8.1%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Pascal 91.9%" style="width:91.9%; background-color:#E3F171;" itemprop="keywords">Pascal</span>
+      <span class="language-color" aria-label="Ruby 8.1%" style="width:8.1%; background-color:#701516;" itemprop="keywords">Ruby</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/Fr0sT-Brutal/awesome-delphi.git" aria-label="Clone this repository at https://github.com/Fr0sT-Brutal/awesome-delphi.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/Fr0sT-Brutal/awesome-delphi.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/Fr0sT-Brutal/awesome-delphi/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/Fr0sT-Brutal/awesome-delphi/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/Fr0sT-Brutal/awesome-delphi/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070" data-pjax>
+        8a1e527
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2018-02-15T16:04:39Z">Feb 15, 2018</relative-time></span>
+    </span>
+
+
+    <div class="d-flex no-wrap">
+      
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="Fr0sT-Brutal">
+
+        <img src="https://camo.githubusercontent.com/aa14566aabc036ceaf1d8a21ee876fcbe0becd56/68747470733a2f2f312e67726176617461722e636f6d2f6176617461722f39616631393264663231386562353838343139376239623539303831616265363f643d68747470732533412532462532466173736574732d63646e2e6769746875622e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d3430" width="20" height="20" class="avatar" alt="Fr0sT-Brutal">
+  </div>
+</div>
+
+      <div class="flex-auto f6">
+        
+        <span class="commit-author user-mention">Fr0sT-Brutal</span>
+
+
+  
+
+
+          <a href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070" class="message" data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller">+ SpTBXLib (</a><span aria-label="This commit closes issue #54." class="issue-keyword tooltipped tooltipped-se"><a href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070" class="message" data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller">closes</a></span> <a href="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/54" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="296481891" data-permission-text="Issue title is private" data-url="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/54">#54</a><a href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070" class="message" data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller">), two AT components (</a><span aria-label="This commit closes issue #53." class="issue-keyword tooltipped tooltipped-se"><a href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070" class="message" data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller">closes</a></span> <a href="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/53" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="294110604" data-permission-text="Issue title is private" data-url="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/53">#53</a><a href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070" class="message" data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller">), chakracore-d…</a>
+            <span class="hidden-text-expander inline">
+              <button type="button" class="ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+            </span>
+
+          <div class="commit-desc"><pre class="text-small">…elphi from Zeef and Silverpoint MultiInstaller</pre></div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Fr0sT-Brutal/awesome-delphi/tree/8a1e527327ed31f4b8de14486f9f7f0575fbb070">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitattributes" id="fc723d30b02a4cca7a534518111c1a66-890d9bce4ce9c97c14cc858620656823329cc957" href="/Fr0sT-Brutal/awesome-delphi/blob/master/.gitattributes">.gitattributes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="+ try to make Linguist thing it&#39;s a Pascal repo" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/f3728f5130caeeadff99d0d5d336c3e383039215">+ try to make Linguist thing it's a Pascal repo</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-10T16:26:55Z">Nov 10, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-8647be0718b99d59961c68c7afe44f3700e902bc" href="/Fr0sT-Brutal/awesome-delphi/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update .travis.yml
+
+Try to make Danger work" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/889b9b8129929adebc3070685b6a15642697dff7">Update .travis.yml</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-28T13:54:12Z">Oct 28, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="Dangerfile" id="16417461de376720abfe05ef4cb7d73a-f093407e1f35c4217b0e54f491f4582f22d9e36d" href="/Fr0sT-Brutal/awesome-delphi/blob/master/Dangerfile">Dangerfile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="+ Danger support
+.travis.yml:
++ Danger, allow dupes" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/f5a2c85d3b9d45c9247a62819a059757b36125c9">+ Danger support</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-28T07:48:20Z">Oct 28, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-f57c5084a08721e52fdb32ff0a96af05e330fe24" href="/Fr0sT-Brutal/awesome-delphi/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070">+ SpTBXLib (</a><span aria-label="This commit closes issue #54." class="issue-keyword tooltipped tooltipped-se"><a data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070">closes</a></span> <a href="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/54" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="296481891" data-permission-text="Issue title is private" data-url="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/54">#54</a><a data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070">), two AT components (</a><span aria-label="This commit closes issue #53." class="issue-keyword tooltipped tooltipped-se"><a data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070">closes</a></span> <a href="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/53" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="294110604" data-permission-text="Issue title is private" data-url="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/53">#53</a><a data-pjax="true" title="+ SpTBXLib (closes #54), two AT components (closes #53), chakracore-delphi from Zeef and Silverpoint MultiInstaller" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/8a1e527327ed31f4b8de14486f9f7f0575fbb070">), chakracore-d…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-15T16:04:39Z">Feb 15, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="contributing.md" id="cc4aac3e9be04e0413c9520f223b493c-b77194c8de3e3abecc900362e775ec7ed9d218af" href="/Fr0sT-Brutal/awesome-delphi/blob/master/contributing.md">contributing.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="+ Castle Engine, TileEngine, SDL2, SFML (from PR #44, I believe I extracted all new items from it).
++ More additions to contributing rules" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/1adbe06e55fdf7f62e931ded1fec482a6f1d5295">+ Castle Engine, TileEngine, SDL2, SFML (from PR</a> <a href="https://github.com/Fr0sT-Brutal/awesome-delphi/pull/44" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="236415723" data-permission-text="Issue title is private" data-url="https://github.com/Fr0sT-Brutal/awesome-delphi/issues/44">#44</a><a data-pjax="true" title="+ Castle Engine, TileEngine, SDL2, SFML (from PR #44, I believe I extracted all new items from it).
++ More additions to contributing rules" class="message" href="/Fr0sT-Brutal/awesome-delphi/commit/1adbe06e55fdf7f62e931ded1fec482a6f1d5295">, I believe I ext…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-12-07T14:19:02Z">Dec 7, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#awesome-delphi-" aria-hidden="true" class="anchor" id="user-content-awesome-delphi-"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Delphi <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of awesome Delphi frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.</p>
+<p><strong>Note that only open-source projects are considered. Dead projects (not updated for 3 years or more) are mainly ignored except for those which do not have alive analogs.</strong>
+Feel free to suggest other missing nice projects either by comments or pull requests.</p>
+<p>This awesome collection is also available on <a href="https://delphi.zeef.com/anton.frost" rel="nofollow">Delphi.ZEEF.com</a></p>
+<h2><a href="#contents" aria-hidden="true" class="anchor" id="user-content-contents"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#awesome-delphi">Awesome Delphi</a>
+<ul>
+<li><a href="#general-libraries">General Libraries</a></li>
+<li><a href="#multimedia">Multimedia</a>
+<ul>
+<li><a href="#audio">Audio</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#graphic">Graphic</a></li>
+</ul>
+</li>
+<li><a href="#game-dev">Game dev</a></li>
+<li><a href="#communications">Communications</a>
+<ul>
+<li><a href="#network">Network</a></li>
+<li><a href="#serial-port">Serial port</a></li>
+</ul>
+</li>
+<li><a href="#gui">GUI</a>
+<ul>
+<li><a href="#control-packs">Control packs</a></li>
+<li><a href="#single-controls">Single controls</a></li>
+<li><a href="#editors">Editors</a></li>
+<li><a href="#viewers">Viewers</a></li>
+<li><a href="#other-gui">Other GUI</a></li>
+</ul>
+</li>
+<li><a href="#database">Database</a></li>
+<li><a href="#scripting">Scripting</a></li>
+<li><a href="#non-visual-classesutils">Non-visual Classes/Utils</a>
+<ul>
+<li><a href="#compression">Compression</a></li>
+<li><a href="#encryption">Encryption</a></li>
+<li><a href="#xmljsonyaml">XML/JSON/YAML</a></li>
+<li><a href="#language">Language</a></li>
+<li><a href="#memory-managers">Memory managers</a></li>
+<li><a href="#system">System</a></li>
+<li><a href="#template">Template</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#other-non-visual">Other non-visual</a></li>
+</ul>
+</li>
+<li><a href="#os">OS</a></li>
+<li><a href="#report-generating">Report generating</a></li>
+<li><a href="#unit-testing">Unit Testing</a></li>
+<li><a href="#debugging--error-handling">Debugging / error handling</a></li>
+<li><a href="#utilities">Utilities</a>
+<ul>
+<li><a href="#ide-pluginswizards">IDE plugins/wizards</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#code-checkreview-debug">Code check/review, debug</a></li>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#other">Other</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2><a href="#general-libraries" aria-hidden="true" class="anchor" id="user-content-general-libraries"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General Libraries</h2>
+<p><em>Big general-purpose libraries</em></p>
+<ul>
+<li>
+<p><a href="https://github.com/project-jedi/jcl">JCL</a>. Set of thoroughly tested and fully documented utility functions and non-visual classes which can be instantly reused in your Delphi and C++ Builder projects. The library is grouped into several categories such as Strings, Files and I/O, Security, Math and many, many more.</p>
+</li>
+<li>
+<p><a href="https://github.com/project-jedi/jvcl">JVCL</a>. Library of over 600 Delphi components developed by "Project JEDI" members.
+// <em>GUI, algorithms, classes, API headers etc.</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/alcinoe" rel="nofollow">Alcinoe</a>. Components suite for Delphi.
+// <em>Network: FTP/Http/NNTP/POP3/SMTP, ISAPI, WinInet Http/FTP clients; DB: Firebird/MySQL/SQLite3/Memcached/MongoDb/SphinxQL; XML/JSON Parser; ZLIB; Cryptography: AES, Blowfish, MD5, SHA, secure keyed MD5/SHA; Other: Self-Balancing Binary Trees, expression evaluator</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/fundementals" rel="nofollow">Fundamentals Code Library</a>. Collection of Delphi / FreePascal code units. Includes libraries for Unicode, Strings, Data Structures, Sockets and Mathematics.
+// <em>Utils: ZLIB compression; JSON; XML; ProtocolBuffers; Hashes: XOR, CRC, Adler, MD5, SHA, secure keyed MD5/SHA, etc; Network: blocking TCP client/server, HTTP(S) via SSL3/TLS1.0/TLS1.1/TLS1.2 (fully native); SQL parser; BitCoin MtGox client; Blaise script engine; Cipher: AES, DES, FUNE, RC2/4, RSA; Maths: matrix, complex, statistics</em></p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/sglienke/spring4d" rel="nofollow">Spring4D</a>. Open-source code library for Embarcadero Delphi 2010 and higher. It consists of a number of different modules that contain a base class library (common types, interface based collection types, reflection extensions) and a dependency injection framework. Includes Encryption Library.
+// <em>Collections and other containers using Generics and based on IEnumerable, probably more accurate and featured than RTL analogs; crypto: CRC, DES, MD5, SHA; file utils etc</em></p>
+</li>
+<li>
+<p><a href="https://github.com/chaosben/theunknownones">TheUnknownOnes</a>. Huge heap of classes, components, utilities for almost every purpose. Nearly undocumented and seems not very up-to-date though.</p>
+</li>
+<li>
+<p><a href="https://github.com/cnpack/cnvcl">CNVCL</a>. CnPack Component Package. Large collection of visual components, classes and utilities. // <em>Lots of useful stuff; documentation and comments mainly in Chinese</em></p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot">mORMot</a>. Client-Server ORM/ODM SOA MVC framework for Delphi 6 and higher, or FPC 2.7. Direct SQL/NoSQL database access, ORM/ODM over objects, RESTful ORM and SOA services via interfaces over high performance HTTP server, MVC/MVVM web sites, testing including mocks and stubs, logging, cryptography, compression, huge documentation.</p>
+</li>
+<li>
+<p><a href="https://github.com/andrea-magni/MARS">MARS - Curiosity</a>. Delphi REST Library. Pure REST approach, standard concepts in a familiar Delphi flavor (including a component based client library). Known compatibility: Delphi versions from XE to 10 Seattle. Some functionalities requires FireDAC.</p>
+</li>
+<li>
+<p><a href="https://github.com/LaKraven/LKSL">LKSL</a>. LaKraven Studios Standard Library. Special Common Base Types each containing a Thread-Safe Locking Mechanism. Event Engine - a very powerful system for producing Multi-Threaded, Asynchronous and Event-Driven programs. Generics Collections 	Highly efficient, Thread-Safe Collection Types (lists, trees etc.). Stream Handling Library- makes working with Streams much easier! Handles Deleting, Inserting, Reading and Writing data.</p>
+</li>
+<li>
+<p><a href="https://github.com/pierrejean-coudert/ReduxDelphi">Redux Delphi</a> ReduxDelphi is a predictable state container for Delphi apps utilizing a unidirectional data flow. Inspired by ReduxJS. Comes with Immutable Generic List.</p>
+</li>
+<li>
+<p><a href="https://github.com/grijjy/GrijjyFoundation">GrijjyFoundation</a>. Foundation classes and utilities that are used throughout the other Grijjy Repositories.
+// <em>BSON/JSON, IOCP/EPOLL sockets, socket pools, HTTP, HTTP/2, OpenSSL, ProtocolBuffers.</em></p>
+</li>
+</ul>
+<h2><a href="#multimedia" aria-hidden="true" class="anchor" id="user-content-multimedia"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multimedia</h2>
+<h2><a href="#audio" aria-hidden="true" class="anchor" id="user-content-audio"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Audio</h2>
+<ul>
+<li>
+<p><a href="http://mac.sourceforge.net/atl" rel="nofollow">Audio Tools Library</a>. For manipulating many audio formats file information.
+//<strong>Abandoned since 2005.</strong></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/delphiasiovst" rel="nofollow">Delphi ASIO &amp; VST Project</a>. Framework for writing applications using the ASIO interface and VST plugins. It comes with countless DSP algorithms all demonstrated in dozens of examples.
+//<em>Not very active lately, but the trunk is in a usable state .</em></p>
+</li>
+<li>
+<p><a href="http://code.google.com/p/newac" rel="nofollow">NewAC - New Audio Components</a>. Designed to help your Delphi programs perform different sound processing tasks. With NewAC you can play audio stored in many formats (wav, Ogg Vorbis, FLAC, Monkey Audio, WavPack, MP3, Windows WMA, DTS, AC-3 (Dobly Surround), VOB (DVD files)).
+// <em>Playback, recording, tag read/write, some audio editing tasks and conversions</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/audorra" rel="nofollow">Audorra</a>. Digital audio library for Delphi and Freepascal. Using a flexible plugin architecture, it allows you to exchange the audio backend (e.g. WaveOut, OpenAL), add protocol classes (e.g. file, http) and decoders.</p>
+</li>
+</ul>
+<h2><a href="#video" aria-hidden="true" class="anchor" id="user-content-video"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Video</h2>
+<ul>
+<li>
+<p><a href="https://code.google.com/p/dspack" rel="nofollow">DSPack</a>. Set of components and classes to write Multimedia Applications using MS Direct Show and DirectX technologies.</p>
+</li>
+<li>
+<p><a href="https://github.com/Laex/Delphi-OpenCV">Delphi-OpenCV</a>. Translation of OpenCV library header files in Delphi
+// <em>Includes FFMPEG headers</em></p>
+</li>
+<li>
+<p><a href="http://www.delphiffmpeg.com/headers" rel="nofollow">FFmpeg Delphi/Pascal Headers</a>. Open source translation of FFMPEG headers.</p>
+</li>
+<li>
+<p><a href="http://prog.olsztyn.pl/paslibvlc" rel="nofollow">PasLibVlc</a>. Interface to VideoLAN libvlc.dll and VCL player component for Delphi / FreePascal based on VideoLAN</p>
+</li>
+</ul>
+<h2><a href="#graphic" aria-hidden="true" class="anchor" id="user-content-graphic"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Graphic</h2>
+<ul>
+<li>
+<p><a href="https://github.com/graphics32/graphics32">Graphics32</a>. Designed for fast 32-bit graphics handling on Delphi, Kylix and Lazarus. Optimized for 32-bit pixel formats, it provides fast operations with pixels and graphic primitives, and in most cases Graphics32 outperforms the standard TCanvas classes. It is almost a hundred times faster in per-pixel access and about 2-5 times faster in drawing lines.</p>
+</li>
+<li>
+<p><a href="http://www.delphi-gems.com/index.php/libs/graphicex-library" rel="nofollow">GraphicEx</a>. Addendum to Delphi's Graphics.pas to enable your application to load many common image formats. This library is primarily designed to load images as background (buttons, forms, toolbars) and textures (DirectX, OpenGL) or for image browsing and editing purposes as long as you don't need to save images.</p>
+</li>
+<li>
+<p><a href="http://imaginglib.sourceforge.net" rel="nofollow">Vampyre Imaging Library</a>. Cross-platform native Object Pascal (Delphi and Free Pascal) image loading, saving, and manipulation library.</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/ccr-exif" rel="nofollow">CCR-EXIF</a>. Library to read and write Exif, IPTC and XMP metadata from JPEG, TIFF and PSD images.</p>
+</li>
+<li>
+<p><a href="http://www.tkweb.eu/en/delphicomp/kicon.html" rel="nofollow">KIcon</a>. This component makes sense if a more complex manipulation with icons (or better icon files *.ico) than just viewing is needed. Full PNG icon image support, correct rendering, icons with alpha channel.</p>
+</li>
+<li>
+<p><a href="http://www.kluug.net/delphitwain.php" rel="nofollow">Delphi Twain</a>. The library allows you to easily access scanning functions from Delphi and Lazarus.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/SynPDF">Synopse PDF</a>. Fully featured Open Source PDF document creation library for Delphi, embedded in one unit. Pure Delphi code, Delphi 5 up to XE7, for Win32 and Win64 platforms.</p>
+</li>
+<li>
+<p><a href="https://github.com/TurboPack/PowerPDF">PowerPDF</a>. VCL component to create PDF docment visually. Like Forms, you can design PDF document easily on Delphi or C++Builder IDE.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/igdiplus" rel="nofollow">IGDI+</a>. The free open source library allows quick and easy implementations of complex GDI+ applications, in a natural Delphi-friendly code.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/glscene" rel="nofollow">GLScene</a>. OpenGL based 3D library for Delphi. It provides visual components and objects allowing description and rendering of 3D scenes in an easy, no-hassle, yet powerful manner. GLScene is not just an OpenGL wrapper or utility library, it has grown to become a set of founding classes for a generic 3D engine with Rapid Application Development in mind. GLScene allows you to quickly design and render 3D scenes without having to learn the intricacies of OpenGL, if you know how to design a TForm, you'll easily master the basic operations of GLScene. The library comes with a large collections of demos showcasing the ease of use, and demonstrating RAD wasn't done at the expense of CPU/GPU horsepower.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynGdiPlus.pas">SynGdiPlus</a>. Enables an application to load and save GIF, TIF, PNG and JPG pictures. It also allows anti-aliased drawing from any TMetaFile. That is, you can play a .emf content using GDI+ instead of GDI, for much better rendering result.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SQLite3/mORMotReport.pas">mORMotReport</a> (<a href="http://synopse.info/files/html/api-1.18/mORMotReport.html" rel="nofollow">docs</a>). Fast and efficient code-based reporting component, with preview form and PDF export.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/andorra" rel="nofollow">Andorra 2D</a>. New generation 2D Engine for Delphi and Lazarus. Andorra 2D is capable to use DirectX or OpenGL through graphic plugins. Andorra 2D is built in a very modular way and is yet easy to use.</p>
+</li>
+<li>
+<p><a href="https://github.com/vintagedave/transparent-canvas">Transparent-canvas</a>. Delphi VCL / Windows project for drawing semi-transparent alphablended graphics. It provides a class similar to TCanvas.</p>
+</li>
+<li>
+<p><a href="https://github.com/vintagedave/fully-justified-text">Fully-justified-text</a>. Delphi VCL / Windows project for text output, allowing printing of fully justified text with a variety of options.</p>
+</li>
+<li>
+<p><a href="https://github.com/Memnarch/AsciiImage">AsciiImage</a>. AsciiImage-Implementation for Delphi by Alexander Benikowski based on AsciiImage by Charles Parnot. Read more on <a href="http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring" rel="nofollow">his article</a>.
+// <em>Creates scalable monochrome image from ASCII pixel map</em></p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/uweraabe/pngcomponents" rel="nofollow">PngComponents</a>. PngComponents is a set of components that allows you to include in your application real PNG files. PNG files on their own do not generate an enourmous advantage, but their support for an alpha-channel does indeed have quite a charm to it.</p>
+</li>
+<li>
+<p><a href="https://github.com/CWBudde/AggPasMod">AggPasMod</a>. Modernized Pascal Anti-Grain Geometry. Based on AggPas, which is itself based on the Anti-Grain Geometry, this project offers support for the latest Delphi Versions (XE and above) and contains some helper classes (VCL components and FireMonkey interface). 2D vector graphics library. Basically, you can think of AggPas as of a rendering engine that produces pixel images in memory from some vectorial data. But of course, AGG can do much more than that.
+// <em>Vector graphic library, renders SVG and much more</em></p>
+</li>
+<li>
+<p><a href="https://github.com/WouterVanNifterick/delphi-shader">delphi-shader</a>. Hundreds of graphical effects, and a library that provides GLSL functionality in pure Delphi code. This project produces an executable with more than a hundred real-time graphical effects. All that is a 100% pascal implementation, without the use of exernal libraries or hardware acceleration.</p>
+</li>
+<li>
+<p><a href="https://github.com/SaschaWillems/dglOpenGL">dglOpenGL</a>. Delphi / Pascal OpenGL header translation.</p>
+</li>
+</ul>
+<h2><a href="#game-dev" aria-hidden="true" class="anchor" id="user-content-game-dev"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Game dev</h2>
+<ul>
+<li>
+<p><a href="https://github.com/Kromster80/RecastNavigationDelphi">RecastNavigation</a>. Recast is state of the art navigation mesh construction toolset for games. Recast is accompanied with Detour, path-finding and spatial reasoning toolkit. You can use any navigation mesh with Detour, but of course the data generated with Recast fits perfectly. This is a port of the original RecastNavigation written in C++.</p>
+</li>
+<li>
+<p><a href="https://github.com/BeRo1985/kraft">Kraft Physics Engine</a>. Open source Object Pascal physics engine library that can be used in 3D games. Compatible with: Delphi 7-XE7 (but not with the Android and iOS targets), FreePascal &gt;= 2.6.2 (with almost all FPC-supported targets including Android and iOS)</p>
+</li>
+<li>
+<p><a href="https://github.com/andru-kun/zengl">ZenGL</a>. OpenGL Cross-platform game development library written in Pascal, designed to provide necessary functionality for rendering 2D-graphics, handling input, sound output, etc.
+// <em>Not updated lately, but is working ok</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/asphyre" rel="nofollow">Platform eXtended Library (PXL)</a>. Cross-platform framework for developing 2D/3D video games, interactive and scientific applications. It aids the developer with mathematics, hardware control, resource management, displaying real-time graphics and text, handle user input and network communication capabilities.</p>
+</li>
+<li>
+<p><a href="https://github.com/d-mozulyov/CrystalPathFinding">CrystalPathFinding</a>. Simple and effective library with an open source intended for the searching of the shortest paths by algorithms A*/WA* for maps based on tiles with 4 (simple), 8 (diagonal/diagonalex) or 6 (hexagonal) neighbors.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/allegro-pas" rel="nofollow">Allegro-Pas</a> (<a href="https://github.com/niuniomartinez/allegro-pas">GitHub</a>). Wrapper to use the Allegro game library with Pascal/Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/castle-engine/castle-engine">Castle Engine</a>. Complete Pascal Game Engine. Cross-platform 3D and 2D game engine with a lot of graphic effects and a scene graph based on X3D.</p>
+</li>
+<li>
+<p><a href="https://github.com/megamarc/Tilengine">TileEngine</a>. Wrapper to use the Tilengine game library with Pascal/Delphi. Tilengine is a cross-platform 2D graphics engine for creating classic/retro games with tilemaps, sprites and palettes. Its scanline-based rendering algorithm makes raster effects a core feature, a technique used by many games running on real 2D graphics chips.</p>
+</li>
+<li>
+<p><a href="http://www.freepascal-meets-sdl.net/" rel="nofollow">SDL2</a> (<a href="https://github.com/ev1313/Pascal-SDL-2-Headers">GitHub</a>). Pascal SDL 2 Headers. Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.</p>
+</li>
+<li>
+<p><a href="https://github.com/CWBudde/PasSFML">SFML</a>. Pascal SFML Headers. SFML provides a simple interface to the various components of your PC, to ease the development of games and multimedia applications. It is composed of five modules: system, window, graphics, audio and network. Currently Delphi and FPC/Lazarus are supported. However, due to a compiler incompatibility with the Delphi compiler (solved with workarounds), FPC is recommended at the moment.</p>
+</li>
+</ul>
+<h2><a href="#communications" aria-hidden="true" class="anchor" id="user-content-communications"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Communications</h2>
+<h2><a href="#network" aria-hidden="true" class="anchor" id="user-content-network"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Network</h2>
+<p><em>Socket communication, network protocols, encodings, etc</em></p>
+<ul>
+<li>
+<p><a href="http://www.overbyte.be/frame_index.html" rel="nofollow">Internet Component Suite</a>. Asynchronous-based library composed of various Internet components and applications. Clients/servers for TCP, UDP, raw sockets, FTP, SMTP, POP3, NNTP, HTTP, Telnet and more. Supports SSL and TLS with the help of OpenSSL. Also includes Mime Decoder, SHA1/MD4/MD5 hashes, DES encryption.</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/indyproject" rel="nofollow">Indy</a>. Network components for Delphi, C++Builder, Delphi.NET, and FreePascal
+// <em>All-in-one network library based on blocking sockets and threads. Included in default RAD studio installation since 2006.</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/p/synalist" rel="nofollow">Ararat Synapse</a>. Pascal TCP/IP Library for Dephi, C++Builder, Kylix and FreePascal. Deals with network communication by means of blocking (synchronous) sockets or with limited non-blocking mode. This project not using asynchronous sockets! The Project contains simple low level non-visual objects for easiest programming without problems (no required multithread synchronisation, no need for windows message processing,â€¦) Great for command line utilities, visual projects, NT services,â€¦
+// <em>TCP, UDP, ICMP, RAW; ICMP, DNS, SMTP, HTTP, SNMP, NTP, FTP, LDAP, NNTP, Telnet;  IPv6; SOCKS proxy; SSL/TLS (via OpenSSL or Windows CryptoApi); PING; character code transcoding; MIME coding and decoding; CRC16, CRC32, MD5 and HMAC-MD5.</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tpipro2010" rel="nofollow">Internet Professional</a>. Set of VCL components providing Internet connectivity for Borland Delphi &amp; C++Builder. iPRO includes POP3, SMTP, NNTP, FTP, HTTP, Instant Messaging, &amp; HTML viewer components, as well as components for low-level socket access.
+// <em>Seems abandoned but contains pretty large set of features incl ICMP, POP, SMTP, HTTP, NNTP, NTP, FTP, SMTP; HTML parser and viewer; MIME utils; cookies, certificates, caching, encryption etc</em></p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynCrtSock.pas">SynCrtSock</a>. Features several sockets and HTTP client-server classes, including a high-performance http.sys based server under Windows, and a new thread-pool powered socket server.
+// <em>Also implements http.sys binding under Windows and cURL binding under nix</em></p>
+</li>
+<li>
+<p><a href="http://www.libtml.org/docs/libtml-pascal" rel="nofollow">TML Messaging Suite</a> is a network messaging library for rapid development of extensible and scalable interfaces. Based on the peer to peer standard protocol <a href="http://www.beepcore.org" rel="nofollow">BEEP (Blocks Extensible Exchange Protocol)</a>, defined in <a href="https://tools.ietf.org/html/rfc3080" rel="nofollow">RFC3080</a> and <a href="https://tools.ietf.org/html/rfc3081" rel="nofollow">RFC3081</a>. libTML is suitable for many use cases and communication patterns. Equipped with a type safe data API, TML can transport hierarchical data structures fast and reliable.
+// <em>The libTML Object Pascal Components are not only a language binding to the core library but a complete set of non visual components to simplify the usage of libTML with Embarcadero RAD Studio and Lazarus.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/danieleteti/delphimvcframework">DMVCFramework</a> is a popular and powerful framework for web solution in Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/ymofen/diocp-v5">Delphi IOCP</a> implements several network classes based on Windows IOCP technology. Socket, HTTP, Ntrip servers and clients.
+// <em>Quite well documented and good styled code but Chinese only.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/monde-sistemas/delphi-aws-ses">delphi-aws-ses</a>. Amazon Simple Email Service (AWS SES) library for Delphi applications.</p>
+</li>
+<li>
+<p><a href="https://github.com/monde-sistemas/delphi-slackbot">delphi-slackbot</a>. Delphi library to send messages on <a href="https://slack.com" rel="nofollow">Slack</a> using slackbot.</p>
+</li>
+<li>
+<p><a href="https://github.com/nandod/kitto">Kitto</a>. Allows to create Rich Internet Applications based on a data model that can be mapped onto any database. The client-side part uses ExtJS (through the ExtPascal library) to create a fully AJAX application, allowing you to build standard and advanced data-manipulating forms in a fraction of the time. Kitto is aimed at Delphi developers that need to create web application without delving into the intricacies of HTML, CSS, Javascript or learning to use a particular library such as ExtJS, yet it allows access to the bare metal if required.</p>
+</li>
+<li>
+<p><a href="https://github.com/michaelJustin/daraja-framework">Daraja Framework</a>. Lightweight HTTP server framework for Object Pascal (Delphi 2009+ / Free Pascal 3.0). Implementing RESTful services is supported via the <a href="https://github.com/michaelJustin/daraja-restful">daraja-restful</a> extension.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Alcinoe</a>. FTP/Http/NNTP/POP3/SMTP, ISAPI, WinInet Http/FTP clients.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Fundamentals Code Library</a>. Blocking TCP client/server, HTTP(S) via SSL3/TLS1.0/TLS1.1/TLS1.2 (fully native).</p>
+</li>
+<li>
+<p><a href="#general-libraries">mORMot</a>. RESTful ORM and SOA services via interfaces over high performance HTTP server, MVC/MVVM web sites</p>
+</li>
+<li>
+<p><a href="https://github.com/andrea-magni/SDriver">SDriver</a>. Delphi wrapper for <a href="https://slack.com" rel="nofollow">Slack</a> API.</p>
+</li>
+<li>
+<p><a href="https://github.com/hprose/hprose-delphi">Hprose for Delphi/Lazarus</a>. Hprose is a High Performance Remote Object Service Engine. It is a modern, lightweight, cross-language, cross-platform, object-oriented, high performance, remote dynamic communication middleware. It is not only easy to use, but powerful. This project is the implementation of Hprose for Delphi/Lazarus.</p>
+</li>
+<li>
+<p><a href="https://github.com/ms301/TelegAPI">TelegAPI</a>. Library for working with Telegram messenger Bot API in Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/grijjy/DelphiZeroMQ">DelphiZeroMQ</a>. Delphi implementation of ZeroMQ Majordomo protocol and CZMQ high level binding.</p>
+</li>
+<li>
+<p><a href="#general-libraries">GrijjyFoundation</a>. IOCP/EPOLL sockets, socket pools, HTTP, HTTP/2, OpenSSL, ProtocolBuffers.</p>
+</li>
+</ul>
+<h2><a href="#serial-port" aria-hidden="true" class="anchor" id="user-content-serial-port"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Serial port</h2>
+<ul>
+<li>
+<p><a href="http://sourceforge.net/p/synalist/code/HEAD/tree/trunk/synaser.pas" rel="nofollow">Synaser</a>. Library for blocking communication on serial ports. It is non-visual class as in Synapse, and programmer interface is very similar to Synapse.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tpapro" rel="nofollow">Async Professional</a> (<a href="https://github.com/TurboPack/AsyncPro">Newest</a> and maintained version for recent compiler version only). Comprehensive communications toolkit for Embarcadero Delphi, C++Builder, &amp; ActiveX environments. It provides direct access to serial ports, TAPI and the Microsoft Speech API (TTS/Speech recognition). It supports faxing, terminal emulation, VOIP, RAS dial &amp; more.
+// <em>Seems outdated (last update in 2011) but adapted to XE and should be easy to use in newer versions. The project is also very thoroughly documented. Second link points to an adapted version for newest compiler versions.</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/comport" rel="nofollow">TComPort</a>. Delphi/C++ Builder serial communications components. It is generally easy to use for basic Serial Communications purposes.
+// <em>Seems abandoned since 2011</em></p>
+</li>
+</ul>
+<h2><a href="#gui" aria-hidden="true" class="anchor" id="user-content-gui"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GUI</h2>
+<p><em>Visual components</em></p>
+<h2><a href="#control-packs" aria-hidden="true" class="anchor" id="user-content-control-packs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Control packs</h2>
+<p><em>Large sets of GUI controls</em></p>
+<ul>
+<li>
+<p><a href="http://sourceforge.net/projects/tcycomponents" rel="nofollow">Cindy components</a>. Packages with 71 components: VCL controls (labels, buttons, panels, Edits, TabControls, StaticText) with features like background gradient, colored bevels, wallpaper, shadowText, caption orientation etc...</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tporpheus" rel="nofollow">Orpheus</a> (<a href="https://github.com/TurboPack/Orpheus">Newest</a> and maintained version for recent compiler version only). Award-winning UI toolkit for Borland Delphi &amp; C++Builder. It contains over 120 components covering everything from data entry to calendars and clocks. Other noteworthy components include an Object Inspector, LookOut bar &amp; report views.
+// <em>Advanced edits, comboboxes, grids + component (de)serializers. GUI components look rather old-style, theme support might be limited. Package contains many demos but no docs seem available. Second link points to an adapted version for newest compiler versions.</em></p>
+</li>
+<li>
+<p><a href="http://www.tkweb.eu/en/delphicomp/kcontrols.html" rel="nofollow">KControls</a>. Control components. All controls have been written with the aim to become both cross-IDE compatible (Delphi/C++Builder VCL and Lazarus LCL) and cross-platform compatible in Lazarus.
+// <em>Most useful are TKGrid with its DB-aware heritage TKDBGrid — a very full-featured grid implementation incl. inplace editors. There's also hex editor, print preview, editors, labels, buttons etc.</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/dpfdelphiandroid" rel="nofollow">D.P.F Delphi Android</a> / <a href="http://sourceforge.net/projects/dpfdelphiios" rel="nofollow">D.P.F Delphi iOS</a> native components. D.P.F Delphi Native Components, 100% iOS Performance and styles. Develop iPhone &amp; iPad &amp; iPod Touch applications with fast native performance and native styles. Use native Android controls and services. Fast native performance. Mixed with FM VCL controls. Can be quick updated with latest Android controls &amp; features.</p>
+</li>
+<li>
+<p><a href="https://github.com/TurboPack/Essentials">Essentials</a>. Contains 13 native VCL controls for Embarcadero Delphi and C++Builder. The controls include drop-down calendars and calculators, roll-up dialogs, 3-D labels, tiled backgrounds, scrolling messages, menu buttons, and more.</p>
+</li>
+<li>
+<p><a href="https://github.com/errorcalc/FreeEsVCLComponents">FreeEsVCLComponents</a>. Free Errorsoft Vcl Components - a free library of VCL components for Delphi and C++Builder. This new controls and components to improve the appearance applications and to better user experience. Components support visual styles and has modern style. All components has best support transparency, not flicker, and has support Interesting possibility for double buffering for TGraphicControl heirs.</p>
+</li>
+<li>
+<p><a href="https://github.com/SilverpointDev/sptbxlib">SpTBXLib</a>. Add on package for Toolbar2000 components, it adds the following features: Skins, Unicode support, Custom painting events and many more.</p>
+</li>
+</ul>
+<h2><a href="#single-controls" aria-hidden="true" class="anchor" id="user-content-single-controls"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Single controls</h2>
+<ul>
+<li>
+<p><a href="http://code.google.com/p/mustangpeakeasylistview" rel="nofollow">EasyListView</a>. Part of VirtualShellTools for the Listview but can be used for a TListview Replacement that is faster and more customizable.
+// <em>Feature-rich Listview implementing virtual (callback-based) MVC paradigm.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/Virtual-TreeView/Virtual-TreeView">VirtualTreeView</a>. Treeview control built from ground up. Many years of development made it one of the most flexible and advanced tree controls available today.
+// <em>Extremely flexible visual component implementing virtual (callback-based) MVC paradigm. Could be also used as a listview or grid. Used in RAD Studio GUI.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/hgourvest/dcef3/commits/master">Delphi Chromium Embedded</a>. Embedding Chromium in Delphi, tested on Delphi 2010, XE, XE2, Delphi 7.
+// <em>Several Chromium DLLs required</em></p>
+</li>
+<li>
+<p><a href="https://github.com/norgepaul/tchrometabs">TChromeTabs</a>. Comprehensive implementation of Google Chrome's tabs for Delphi 6 - Delphi 10.1 Berlin</p>
+</li>
+<li>
+<p><a href="https://github.com/andrea-magni/TFrameStand">TFrameStand</a>. Easily use TFrame(s) in your FireMonkey (FMX) applications to gain visual consistency though the whole user experience and easily add modern looking elements like effects and transitions.</p>
+</li>
+<li>
+<p><a href="https://github.com/landrix/TPrintPreview-for-Delphi">TPrintPreview</a>. Print Preview Component for Delphi Vcl Win32/Win64</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/volgadb" rel="nofollow">VolgaDB</a>. Pretty customizable DBgrid for Delphi. TCustomGrid descendant. CheckBox, ComboBox column styles. Also includes TVolgaDBEdit that replaces TDBEdit, TDBComboBox, TDBLookupCombo, TDBLookupTree andTDBDatePicker in one component. TVolgaDBEdit may be DB-aware and non DB-aware.
+// <em>Seems abandoned since 2013</em></p>
+</li>
+<li>
+<p><a href="http://github.com/benibela/treelistview">TTreeListView</a>. This component is a mix between TTreeView and TListView and can paint a tree whose nodes have additional information sorted in columns.</p>
+</li>
+<li>
+<p><a href="https://github.com/jkour/neTabControl">neTabControl</a>. FireMonkey control for Delphi. It builds on the native TabControl and adds a number of features.</p>
+</li>
+<li>
+<p><a href="https://github.com/Alexey-T/ATTabs">ATTabs</a>. Delphi/Lazarus component for lite tabs. OS independent, fully custom drawn.</p>
+</li>
+</ul>
+<h2><a href="#editors" aria-hidden="true" class="anchor" id="user-content-editors"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Editors</h2>
+<ul>
+<li>
+<p><a href="https://sourceforge.net/projects/synedit" rel="nofollow">SynEdit</a> (<a href="https://github.com/TurboPack/SynEdit">mirror at GitHub</a>). Syntax highlighting edit control, not based on the Windows common controls. SynEdit is compatible with both Delphi and Kylix</p>
+</li>
+<li>
+<p><a href="https://github.com/bonecode/BCEditor">BCEditor</a>. Syntax highlighting edit control with code folding, minimap, external JSON highlighter and color scheme files, etc.
+// <em>Very powerful and feature-rich component. Supports Delphi XE4..XE8, C++ Builder XE7, backport to XE available</em></p>
+</li>
+</ul>
+<h2><a href="#viewers" aria-hidden="true" class="anchor" id="user-content-viewers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Viewers</h2>
+<ul>
+<li>
+<p><a href="https://sourceforge.net/projects/atviewer" rel="nofollow">ATViewer</a> (<a href="https://github.com/Alexey-T/ATViewer">mirror at GitHub</a>). Delphi components to view various file types: text, binary, images, multimedia, webpages, etc.
+// <em>Used in Universal Viewer software. Could be used to display hex dumps, features fast display of unlimited size files/streams. Supports Total Commander Lister plugins.</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/atviewer/files/ATImageMap" rel="nofollow">ATImageMap</a> (<a href="https://github.com/Alexey-T/ATViewer">mirror at GitHub</a>). Component designed to show many images (parts of the whole image) as a single map. For example, you may have array of images, 200 by X, and 100 by Y and control will show them as a single map. Component also allows to draw paths: each path consists of many lines, points, and icons.</p>
+</li>
+<li>
+<p><a href="https://github.com/BerndGabriel/HtmlViewer">HtmlViewer</a>. Delphi/Lazarus HtmlViewer/FrameViewer.
+// <em>Html visualiser supporting majority of tags, inline styles and CSS.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/da-baranov/SciDe">SciDe</a>. <a href="https://sciter.com" rel="nofollow">Sciter</a> (Embeddable HTML/CSS/script engine) wrapper for Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/Alexey-T/ATViewer">ATBinHex</a>. Viewer for files of unlimited size like in Total Commander.</p>
+</li>
+</ul>
+<h2><a href="#other-gui" aria-hidden="true" class="anchor" id="user-content-other-gui"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other GUI</h2>
+<ul>
+<li>
+<p><a href="https://code.google.com/p/gmlibrary" rel="nofollow">GMLib</a> (Google Maps Library). Components for Delphi/C++ Builder that encapsulate the GoogleMaps API to administrate a map, markers, polygons, rectangles, polylines,... All objects that you can put into a map.</p>
+</li>
+<li>
+<p><a href="https://github.com/rruz/vcl-styles-utils">VCL Styles Utils</a>. Collection of classes and style hooks, which extend, fix QC reports and add new features to the VCL Styles.
+// <em>Collection of patches/enhancements that promote stock VCL style engine to a new level. Styling for Inno setup and NSIS also available.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/chaosben/theunknownones">TaskbarListComponents</a>. Set of components designed as Delphi wrappers for the Windows 7 Taskbarlist Interfaces (e.g. ITaskbarlist3)
+// <em>Requires JVCL</em></p>
+</li>
+<li>
+<p><a href="https://github.com/vintagedave/firemonkey-container">TFireMonkeyContainer</a>. Delphi VCL component to host a FMX HD or 3D form. It means you can embed a FireMonkey (FMX) form as a control in a VCL form, so you can design a FMX form and use it in your VCL app.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/pascalscada" rel="nofollow">PascalSCADA</a>. Set of components (framework) for Delphi/Lazarus to make easy the development of industrial applications (HMI=Human Machine Interface/SCADA=System Control And Data Acquisition). It runs on Windows, Linux and FreeBSD.</p>
+</li>
+<li>
+<p><a href="https://github.com/turbopack/ribbonframework">Windows Ribbon Framework for Delphi</a>. This Delphi library allows Delphi developers to use of the Windows Ribbon Framework in their Delphi applications. This library uses the native Windows library to implement the Ribbon functionality. It does not emulate the Ribbon user interface like other Delphi component sets do (or Delphi's built-in Ribbon emulation components).</p>
+</li>
+<li>
+<p><a href="https://github.com/yktoo/dklang">DKLang</a>. DKLang Localization Package is a set of classes intended to simplify the localization of applications written in Delphi.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/dxgettext/" rel="nofollow">GNU Gettext for Delphi, C++ and Kylix</a>. GNU GetText translation tools for Borland Delphi and Borland C++ Builder.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/openwireproject" rel="nofollow">OpenWire</a>. The library allows writing advanced VCL and FireMonkey components for rapid codeless application development. The components developed with the library allow creation of complex applications with zero lines of program code.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynTaskDialog.pas">SynTaskDialog</a>. Implement TaskDialog window (native on Vista/Seven, emulated on XP)</p>
+</li>
+<li>
+<p><a href="https://github.com/WladiD/AnyiQuack">AnyiQuack</a>. jQuery-like control animation framework.</p>
+</li>
+</ul>
+<h2><a href="#database" aria-hidden="true" class="anchor" id="user-content-database"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Database</h2>
+<ul>
+<li>
+<p><a href="http://sourceforge.net/projects/zeoslib" rel="nofollow">ZeosLib</a>. Set of database components for MySQL, PostgreSQL, Interbase, Firebird, MS SQL, Sybase, Oracle and SQLite.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/uib" rel="nofollow">Unified Interbase</a>. Set of components to use Interbase, FireBird and YAFFIL. These components were born from the need to use Interbase, FireBird or Yaffil indifferently as fast as possible in a Multithreading environment, a Server for example.</p>
+</li>
+<li>
+<p><a href="https://github.com/remobjects/ASQLite3">ASQLite</a>. Delphi SQLite set of DAC components from aducom software, based on their latest release for Delphi 2009, and updated to support newer editions of Delphi as included in RemObjects Data Abstract for Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/ccy/txquery">TxQuery</a>. TDataSet descendant component that can be used to query one or more TDataSet descendant components using SQL statements. It is implemented in Delphi 100% source code, no DLL required, because it implements its own SQL syntax parser and SQL engine.</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/delphi-orm" rel="nofollow">Delphi-ORM</a>. Object-Relational Mapping for Delphi XE7, XE6, XE5, XE4, XE3 and XE2 (Win32). Supports for FirebirdSQL, SQLServer and SQLite3.</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/delphimemcache" rel="nofollow">delphimemcache</a>. Implements a thread safe client for memcached.
+// <em>Requires Indy 10</em></p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot">SynDB</a> (<a href="http://synopse.info/files/html/Synopse%20mORMot%20Framework%20SAD%201.18.html#TITL_126" rel="nofollow">docs</a>). High performance direct access to SQLite3, Oracle, MSSQL, PostgreSQL, Firebird, MySQL, ODBC, OleDB, including remote HTTP connection and direct JSON support.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynMongoDB.pas">SynMongoDB</a> (<a href="http://blog.synopse.info/post/2014/05/07/MongoDB-database-access" rel="nofollow">docs</a>). Offers direct low-level access to any MongoDB server, its custom data types, JSON or via <code>TDocVariant</code> custom variant document storage.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/sglienke/dsharp" rel="nofollow">DSharp</a>. Small library for providing data binding in Delphi. It does not require special components to data bind to properties. It also provides dependency injection, MVVM and more interesting utilities.</p>
+</li>
+<li>
+<p><a href="https://github.com/leledumbo/ghORM">ghORM</a>. Object Relational Mapping unit to ease database access from Free Pascal, by abstracting the backend and simple data retrieval (with filtering), insertion and update.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/p/tdbf/code/HEAD/tree" rel="nofollow">tDBF</a>. TDBF is a native dBASE III+, dBase IV and dBase 2k data access component for Delphi, BCB, Kylix, FreePascal. It allows you to create very compact database programs which don't need any special installer programs. The DB engine code is compiled right into your executable.</p>
+</li>
+<li>
+<p><a href="https://github.com/danieleteti/delphiredisclient">Redis client</a> for Delphi 10.1 Berlin, Delphi 10 Seattle, XE8, XE7, XE6 and XE5 (should works also with older versions). This client is able to send all Redis commands and read the response using an internal parser.</p>
+</li>
+<li>
+<p>[QDAC3] (SVN: svn://<a href="http://www.qdac.cc/QDAC3">www.qdac.cc/QDAC3</a>, <a href="http://blog.qdac.cc/?page_id=139" rel="nofollow">Web</a>) stands for quick data access components. Useful units such as QJson ( easy to use json unit), QWorker(job delivery) etc.
+// <em>Description and comments in Chinese, author is not good at English. Haven't tested this library by myself.</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/instantobjects" rel="nofollow">InstantObjects</a>. Integrated framework for developing object-oriented business solutions in Delphi. The framework provides the foundation for the development process as well as the engine that powers the final application. InstantObjects offers: Model realization in the Delphi IDE via integrated two-way tools; Object persistence in the most common relational databases or flat XML-based files; Object presentation via standard data-aware controls.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Alcinoe</a>. Firebird/MySQL/SQLite3/Memcached/MongoDb/SphinxQL.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynBigTable.pas">SynBigTable</a>. Class used to store huge amount of data with fast retrieval.</p>
+</li>
+<li>
+<p><a href="https://github.com/graemeg/tiopf">tiOPF</a>. Object Persistent Framework written in Object Pascal, for use with Delphi and Free Pascal (FPC) compilers. tiOPF simplifies the mapping of an object oriented business model into a relational database. Persistence layers are available for Firebird, Oracle, MS SQL Server, MySQL, PostgreSQL, SQLite, NexusDB, XML, CSV, TAB, Remote (via HTTP) and many more. It also allows you to use your choice of database connection components, like IBX, dbExpress, DOA, SqlDB, FBLib etc.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/larryhengensopf" rel="nofollow">hcOPF</a>. Object Persistent Framework written in Embarcadero's Delphi (Object Pascal). This Value Type Framework provides a base class (ThcObject) composed of attribute objects that can be automatically persisted to an object store (normally an RDBMS).</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/soundvibe/marshmallow/wiki/Home" rel="nofollow">Marshmallow</a>. Object-Relational Mapping for Delphi XE7, XE6, XE5, XE4, XE3 and XE2 (Win32) inspired by .NET micro ORM's (mostly by PetaPoco) and Java Hibernate. Developed  by Linas Naginionis. Supports SQLite, Sybase ASA, SQL Server, Firebird, Oracle, MySQL, PostgreSQL, MongoDB. Uses <a href="http://code.google.com/p/delphi-spring-framework/" rel="nofollow">Spring</a> Framework. In active development.</p>
+</li>
+<li>
+<p><a href="https://github.com/grijjy/DelphiCassandra">DelphiCassandra</a>. Delphi driver classes to communicate with Cassandra database.</p>
+</li>
+<li>
+<p><a href="https://github.com/grijjy/DelphiCouchbase">DelphiCouchbase</a>. Delphi driver classes to communicate with Couchbase database.</p>
+</li>
+<li>
+<p><a href="https://github.com/grijjy/DelphiMongoDB">DelphiMongoDB</a>. Delphi driver classes to communicate with MongoDB database.</p>
+</li>
+</ul>
+<h2><a href="#scripting" aria-hidden="true" class="anchor" id="user-content-scripting"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scripting</h2>
+<p><em>Using script engine in your applications</em></p>
+<ul>
+<li>
+<p><a href="https://github.com/remobjects/pascalscript">Pascal Script</a>. Free scripting engine that allows you to use most of the Object Pascal language within your Delphi or Free Pascal projects at runtime. Written completely in Delphi, it is composed of a set of units that can be compiled into your executable, eliminating the need to distribute any external files. Pascal Script started out as a need for a good working script, when there were none available at the time.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/egrange/dwscript" rel="nofollow">DWScript</a>. Object-oriented scripting engine for Delphi based on the Delphi language, with extensions borrowed from other Pascal languages (FreePascal, Prism, etc.). It introduces a few Pascal language extensions of its own as well.</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/delphi-javascript" rel="nofollow">Delphi-Javascript</a>. Javascript engine for delphi based on Mozilla's Spidermonkey.
+// <em>Spidermonkey DLL required</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/blaise" rel="nofollow">Blaise</a>. Open-source object-oriented scripting language. Language features: Object-oriented; Unicode support; Optional typing, ie dynamic or static typing; Richly typed; Higher-level mathematics support, for example Complex numbers, Rational numbers and Matrices; Virtual Machine architecture; Co-routines; Familiar language syntax, influenced by Object Pascal, Python and Ada.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynSM.pas">SpiderMonkey</a>. Binding for Mozilla JavaScript engine, including JIT and multi-threading, with easy objects access via Delphi variants.
+// <em>Spidermonkey DLL required</em></p>
+</li>
+<li>
+<p><a href="https://github.com/BeRo1985/besen">BESEN</a>. Complete ECMAScript Fifth Edition Implemention in Object Pascal, which is compilable with Delphi &gt;=7 and Free Pascal &gt;= 2.5.1 (maybe also 2.4.1).</p>
+</li>
+<li>
+<p><a href="https://github.com/pyscripter/python4delphi">Python for Delphi (P4D)</a>. Set of free components that wrap up the Python dll into Delphi and Lazarus (FPC). They let you easily execute Python scripts, create new Python modules and new Python types. You can create Python extensions as dlls and much more</p>
+</li>
+<li>
+<p><a href="https://github.com/d-mozulyov/CrystalLUA">CrystalLUA</a>. Lua binding (Delphi6-2007).
+// <em>LUA DLL required</em></p>
+</li>
+<li>
+<p><a href="https://github.com/danieleteti/lua4delphi">lua4delphi</a>. Delphi binding for Lua 5.1 language.
+// <em>LUA DLL required</em></p>
+</li>
+<li>
+<p><a href="https://github.com/tondrej/chakracore-delphi">chakracore-delphi</a>. Delphi and Free Pascal bindings and classes for Microsoft's ChakraCore JavaScript engine library.</p>
+</li>
+</ul>
+<h2><a href="#non-visual-classesutils" aria-hidden="true" class="anchor" id="user-content-non-visual-classesutils"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Non-visual Classes/Utils</h2>
+<h2><a href="#compression" aria-hidden="true" class="anchor" id="user-content-compression"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compression</h2>
+<ul>
+<li>
+<p><a href="https://github.com/AlexanderBagel/FWZip">FWZip</a>. Classes to work with Zip archives using Store and Deflate methods, supports ZIP64, DataDescryptors, PKWARE encryption, NTFS attributes, Utf8 in filenames.
+// <em>Uses stock ZLIB.obj that gets compiled into binary</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/p/tpabbrevia" rel="nofollow">Abbrevia</a> (<a href="https://github.com/TurboPack/Abbrevia">Newest</a> and maintained version for recent compiler version only). Advanced data compression toolkit for Delphi and C++Builder. Supports PKZIP, Microsoft CAB, tar, gzip, and bzip2 archives, and can create self-extracting executables. On Windows it also provides Delphi wrappers for the LZMA, Bzip2, and WavPack SDKs, and PPMd decompression. Abbrevia also has several visual controls that simplify displaying and manipulating archives, including treeview and listview components. Features: Unicode filenames in all archive formats; Decompress most .zipx and legacy (PKZIP v1) zips; ZIP64 support for archives larger than 2GB; Spanned and split zip archives; Cross-platform (Windows, OS X, and Linux); No DLLs required; Includes COM component; Extensive documentation
+// <em>Second link points to an adapted version for newest compiler versions.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot">SynLZ SynLZO SynZip PasZip</a>. Several high speed compression units, featuring ZIP/LZ77 Deflate/Inflate, LZO and SynLZ algorithm, in pascal and optimized assembler.</p>
+</li>
+<li>
+<p><a href="http://www.base2ti.com/?id=delphi.zlib" rel="nofollow">Delphi zlib</a>. Wrapper for zlib.obj originally used by Borland. Delphi up to XE3 supported.</p>
+</li>
+<li>
+<p><a href="http://www.yunqa.de/delphi/products/ucl/index" rel="nofollow">DIUcl</a>. DIUcl is a lossless compression library with extremely fast and small (200 bytes only!) ASM decompressor. Compression times and ratios are similar to those of deflate/zip and bzip2. Delphi port of the popular UCL Compression Library, which is also used by the popular and well known UPX Ultimate Packer for eXecutables.</p>
+</li>
+</ul>
+<h2><a href="#encryption" aria-hidden="true" class="anchor" id="user-content-encryption"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Encryption</h2>
+<ul>
+<li>
+<p><a href="https://github.com/winkelsdorf/DelphiEncryptionCompendium/releases">Delphi Encryption Compendium (DEC)</a>. Cryptographic library for Delphi &amp; C++ Builder. Symmetric cryptographic functions: Blowfish, Twofish, IDEA, Cast128, Cast256, Mars, RC2, RC4, RC5, RC6, Rijndael / AES, Square, SCOP, Sapphire, 1DES, 2DES, 3DES, 2DDES, 3DDES, 3TDES, 3Way, Gost, Misty, NewDES, Q128, SAFER, Shark, Skipjack, TEA, TEAN; Block cipher modes of operation: CTSx, CBCx, CFB8, CFBx, OFB8, OFBx, CFSx, ECBx; Hashes: MD2, MD4, MD5, RipeMD128, RipeMD160, RipeMD256, RipeMD320, SHA, SHA1, SHA256, SHA384, SHA512, Haval128, Haval160, Haval192, Haval224, Haval256, Tiger, Panama, Whirlpool, Whirlpool1, Square, Snefru128, Snefru256, Sapphire.
+// <em>No updates since 2010 but features list so huge that it couldn't be ignored</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tplockbox" rel="nofollow">LockBox</a> (<a href="https://github.com/TurboPack/LockBox3">Newest</a> and maintained version for recent compiler version only). Delphi library for cryptography. Currently supported Delphi XE6. It provides support for AES, DES, 3DES, Blowfish, Twofish, SHA2 (including the new SHA-512/224 &amp; SHA-512/256), MD5; ECB, CBC, CFB8, CFB, CTR, ECB, OFB, PCBC chaining modes, RSA digital signature and verification. Has interface to OpenSSL library.
+// <em>Check out <a href="https://github.com/jarto/lockbox2">this</a> page as well for alternative version.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynCrypto.pas">SynCrypto</a>. Fast cryptographic routines (hashing and cypher), implementing AES, XOR, RC4, ADLER32, MD5, SHA1, SHA256 algorithms, optimized for speed (tuned assembler and VIA PADLOCK optional support).</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/sergworks/tforge" rel="nofollow">TForge</a>. Open-source crypto library written in Delphi, compatible with Free Pascal Compiler. MD5, SHA1, SHA256, CRC32, Jenkins-One-At-Time, HMAC, PBKDF1, PBKDF2, AES, DES, RC4, RC5, Salsa20.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Spring4D</a>. CRC, DES, MD5, SHA</p>
+</li>
+<li>
+<p><a href="#general-libraries">Fundamentals Code Library</a>. Hashes: XOR, CRC, Adler, MD5, SHA, secure keyed MD5/SHA, etc; Cipher: AES, DES, FUNE, RC2/4, RSA.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Alcinoe</a>. AES, Blowfish, MD5, SHA, secure keyed MD5/SHA.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/dcpcrypt" rel="nofollow">DCPcrypt (fork #1)</a>, <a href="https://bitbucket.org/wpostma/dcpcrypt2010" rel="nofollow">DCPcrypt (fork #2)</a>. Suite of cryptographic components for Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/Xor-el/HashLib4Pascal">HashLib4Pascal</a>. Delphi/FreePascal compatible library that provides an easy to use interface for computing hashes and checksums of strings (with a specified encoding), files, streams, byte arrays and untyped data to mention but a few. It also supports Incremental Hashing.</p>
+</li>
+</ul>
+<h2><a href="#xmljsonyaml" aria-hidden="true" class="anchor" id="user-content-xmljsonyaml"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>XML/JSON/YAML</h2>
+<ul>
+<li>
+<p><a href="https://github.com/mremec/omnixml">OmniXML</a>. XML parser written in Delphi. Full support for Document Object Model (DOM) Level 1 specification; Supports Extensible Markup Language (XML) 1.0 (Second Edition) specification; Has built-in support for different code pages (main 8-bit code pages, UTF-8, UTF-16); Is compatible with MS XML parser; Fast parsing even large and highly structured documents; Includes helper functions to ease processing XML documents; Simplified XPath support.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/saxforpascal" rel="nofollow">SAX for Pascal</a>. Designed to implement the Simple API for XML Parsing in Pascal/Delphi.
+// <em>Callback-based XML parser, useful for processing huge XML streams. Abandoned since 2004 but is almost the only SAX implementation available.</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/kdsxml" rel="nofollow">KDS XML</a>. Class library for streamed parsing, validating and generating XML. It is written in Object Pascal/Delphi and works on Win32 (Delphi) and Linux (Kylix). Parts of it depend on the SAX for Pascal interface specifications.
+// <em>Seems dead.</em></p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tpxmlpartner" rel="nofollow">XML Partner</a>. Helps add the power of XML to Borland Delphi, C++ Builder, and Kylix projects through native, easy to use VCL and CLX components. These powerful components simplify the process of creating, modifying, and parsing XML data documents.
+// <em>Seems dead, check out <a href="http://www.songbeamer.com/delphi" rel="nofollow">this</a> page for probably newer version.</em></p>
+</li>
+<li>
+<p><a href="http://www.philo.de/xml/downloads.shtml" rel="nofollow">Open XML</a>. Provides a wide range of methods, components and foundation classes. It can be used for Win32/Kylix as well as for .NET development.</p>
+</li>
+<li>
+<p><a href="https://github.com/hgourvest/superobject">SuperObject</a>. Parser/writer for JSON data format. This toolkit is designed to work with Delphi and FreePascal (win32, win64, linux32, linux64, MacOSX Intel). Supports reading/writing XML as well.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/libxml2-pas" rel="nofollow">Libxml2 for pascal</a>. Pascal units accessing the popular XML API from Daniel Veillard. This should be usable at least from Kylix and Delphi, but hopefully also from other Pascal compilers (like freepascal).</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/simdesign" rel="nofollow">NativeXml</a>. This component contains a small-footprint Object Pascal (Delphi) XML implementation that allows to read and write XML documents. You basically only need one unit and you can simply add it to the "uses" clause. You can use this software to read XML documents from files, streams or strings. The load routine generates events that can be used to display load progress on the fly. You can also use it to create and save XML documents.</p>
+</li>
+<li>
+<p><a href="https://github.com/the-Arioch/Delphi-XmlLite">Delphi-XmlLite</a>. Header translation for Microsoft XmlLite. XmlLite is a native C++ implementation of .NET XmlReader+Writer for stream-based, forward-only XML parsing and creation. XmlLite.dll is required. It is included with all new versions of Windows, and service packs for old versions. XmlReader's pull-based interface is cleaner to use than SAX's event-based interface.
+// <em>Seems abandoned and reported to be somewhat buggy.</em></p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/sivv/chimera" rel="nofollow">Chimera</a>. Open Source (MIT License) library for Delphi XE2 which provides a fast and cross platform JSON generator/parser (serializer/deserializer) under a license that doesn't suck.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynCommons.pas">SynCommons</a>. High speed JSON library, using <code>TDocVariant</code> custom variant type for storage and access.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/CrossPlatform/SynCrossPlatformJSON.pas">SynCrossPlatformJSON</a>. High speed cross-platform JSON library, using <code>TJSONVariant</code> custom variant type for storage and access.</p>
+</li>
+<li>
+<p><a href="https://github.com/ahausladen/JsonDataObjects">Json Data Objects</a>. This Delphi unit contains a JSON parser that supports Delphi 2009-10Seattle and the platforms Win32, Win64 and ARM Android (MacOS and iOS may work).</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tinyjson" rel="nofollow">TinyJSON</a>. This is a small (about 1600 lines of code) unit for Delphi, which realizes parsing and generating JSON format. Can be used in combination with FastMM and FastCode for even faster speed.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/lkjson" rel="nofollow">JSON delphi library</a>. This is a delphi library implementing JSON. Lightweight and fast.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/egrange/dwscript/src/b9f99d4b8187defac3f3713e2ae0f7b83b63d516/Source/dwsJSON.pas?at=master" rel="nofollow">dwsJSON</a>. dwsJSON is a unit that supports JSON parsing/creating, it's part of DWScript but relatively "standalone", in that if you add it in your Delphi (or FPC) projects, it won't pull the whole of DWScript library, and thus can be used anywhere you need.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Fundamentals Code Library</a>. JSON, XML.</p>
+</li>
+<li>
+<p><a href="#general-libraries">Alcinoe</a>. XML/JSON Parser.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/OCTAGRAM/delphi-yaml" rel="nofollow">delphi-yaml</a>. Delphi 7 compatible bindings for libyaml, YAML parser and emitter library implemented in C. Four layers of bindings are proposed.</p>
+</li>
+<li>
+<p><a href="#general-libraries">GrijjyFoundation</a>. JSON/BSON.</p>
+</li>
+</ul>
+<h2><a href="#language" aria-hidden="true" class="anchor" id="user-content-language"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Language</h2>
+<p><em>Tools for Pascal and other languages</em></p>
+<ul>
+<li>
+<p><a href="https://github.com/RomanYankovsky/ndyacclex">Next Delphi Yacc &amp; Lex</a>. Parser generator toolset for Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/RomanYankovsky/DelphiAST">Abstract Syntax Tree Builder</a>. With DelphiAST you can take real Delphi code and get an abstract syntax tree. One unit at time and without a symbol table though.</p>
+</li>
+<li>
+<p><a href="https://github.com/jacobthurman/Castalia-Delphi-Parser">Castalia-Delphi-Parser</a>. These files make up a hand-written high speed parser for the Object Pascal dialect known as "Delphi". The original work was done by Martin Waldenburg in the late 1990s, and the project was abandoned sometime before 2003, when I found the code and began working on it.  I have kept it updated as necessary to work with my project, called "Castalia".</p>
+</li>
+<li>
+<p><a href="https://github.com/BeRo1985/crosspascal">CrossPascal</a>. aims to be a Delphi 7 compatible cross-platform source-to-source compiler (together with the new unicode string types from XE3 but where ansistring is still the default string type for to be still Delphi 7 compatible) which generates intermediate C code.
+// <em>Quite interesting project though seems abandoned</em></p>
+</li>
+</ul>
+<h2><a href="#memory-managers" aria-hidden="true" class="anchor" id="user-content-memory-managers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Memory managers</h2>
+<p><em>Libraries that implement dynamic memory allocation</em></p>
+<ul>
+<li>
+<p><a href="https://github.com/pleriche/FastMM4">FastMM</a>. Lightning fast replacement memory manager for Embarcadero Delphi Win32 and Win64 applications that is not prone to memory fragmentation, and supports shared memory without the use of external .DLL files.
+// <em>Used as stock memory manager since 2006 but in simplified version. Provides powerful memory leak/corruption detection instruments.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/andremussche/scalemm">ScaleMM</a>. Fast scaling memory manager for Delphi</p>
+</li>
+<li>
+<p><a href="https://github.com/d-mozulyov/BrainMM">BrainMM</a>. Extremely fast memory manager for Delphi.
+// <em>Advanced memory allocation functions for faster aligned operations.</em></p>
+</li>
+</ul>
+<h2><a href="#system" aria-hidden="true" class="anchor" id="user-content-system"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>System</h2>
+<p><em>Low-level helper stuff: memory, threading etc</em></p>
+<ul>
+<li>
+<p><a href="https://github.com/gabr42/OmniThreadLibrary">OmniThreadLibrary</a>. Simple to use threading library for Delphi.
+// <em>Easy integration of async processes in your app</em></p>
+</li>
+<li>
+<p><a href="https://github.com/mahdisafsafi/delphi-detours-library">Delphi Detours Library</a>. Library allowing you to hook Delphi functions and object methods and Windows API functions. It provides an easy way to insert and remove hook.
+// <em>Supports x64, calling original functions, multi hooks, COM/Interfaces/win32api, object methods hooking, fully thread-safe, Delphi 7/2005-2010/XE-XE7 &amp; Lazarus/FPC, 64 bit address is supported.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/Fr0sT-Brutal/Delphi_MemoryModule">MemoryModule</a>. With the MemoryModule engine you can store all required DLLs inside your binary to keep it standalone. Additional hook units allow transparent using of MM engine thus allowing switching MM/WinAPI loading as well as enabling 3rd party dynamic-load DLL interfaces that are unaware of MM (tested with Interbase Express components and Firebird client library). MemoryModule is a Pascal port of Joachim Bauch's C MemoryModule.</p>
+</li>
+</ul>
+<h2><a href="#template" aria-hidden="true" class="anchor" id="user-content-template"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Template</h2>
+<p><em>Engines to generate text output based on templates</em></p>
+<ul>
+<li>
+<p><a href="https://github.com/synopse/dmustache">SynMustache</a>. Delphi implementation of the Mustache template language, supporting Delphi 6 up to Delphi 10 Seattle (and FPC/Lazarus compilation).</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/delphi-templeng" rel="nofollow">Delphi Template Engine</a>. Template engine designed to be used as a library in Delphi (mainly Delphi 7) applications, allowing developers to use templating on their software with no worry about implementing it.</p>
+</li>
+</ul>
+<h2><a href="#logging" aria-hidden="true" class="anchor" id="user-content-logging"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logging</h2>
+<ul>
+<li>
+<p><a href="https://github.com/landrix/Log4d-for-Delphi">Log4d</a>. Implementation of logging system for Delphi, based on Log4j.</p>
+</li>
+<li>
+<p><a href="http://tracetool.sourceforge.net/" rel="nofollow">TraceTool</a>. C#, C++, Delphi, ActiveX and Java trace framework and a trace viewer.</p>
+</li>
+<li>
+<p><a href="https://github.com/danieleteti/loggerpro">LoggerPro</a>. An modern and pluggable logging framework for Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynLog.pas">SynLog</a>. Logging functions used by Synopse projects.</p>
+</li>
+<li>
+<p><a href="https://github.com/michaelJustin/slf4p">slf4p</a>. A simple logging facade with support for LazLogger, Log4D, and other logging frameworks.</p>
+</li>
+<li>
+<p><a href="https://github.com/grijjy/GrijjyCloudLogger">GrijjyCloudLogger</a>. Remote logging tool that allows you to send log messages over the Intranet or Internet from Windows, Linux, iOS, Android and macOS devices to a viewer running on Windows. Besides sending messages along with any data, it has numerous features including custom live watches, remote live views of objects, tracking live memory usage, object allocations, growth leaks and more.</p>
+</li>
+</ul>
+<h2><a href="#other-non-visual" aria-hidden="true" class="anchor" id="user-content-other-non-visual"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other non-visual</h2>
+<ul>
+<li>
+<p><a href="https://github.com/ashumkin/RegExpr">TRegExpr</a>. Easy to use and powerful tool for sophisticated search and substitutioning and for template-based text input check.
+// <em>Abandoned since 2004 but unlike stock RAD Studio implementation doesn't use PCRE obj files that add dependency on msvcrt.dll</em></p>
+</li>
+<li>
+<p><a href="https://github.com/BeRo1985/flre">FLRE</a>. FLRE ( F ast L ight R egular E xpressions) is a fast, safe and efficient regular expression library, which is implemented in Object Pascal (Delphi and Free Pascal) but which is even usable from other languages like C/C++ and so on.</p>
+</li>
+<li>
+<p><a href="http://sourceforge.net/projects/tponguard" rel="nofollow">OnGuard</a> (<a href="https://github.com/TurboPack/OnGuard-VCL">Alternate</a> and maintained version for recent compiler version only). Library to create demo versions of your Borland Delphi &amp; C++Builder applications. Create demo versions that are time-limited, feature-limited, limited to a certain number of uses, or limited to a certain # of concurrent network users.
+// <em>Second link points to an adapted version for newest compiler versions.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/chaosben/theunknownones">StringSimilarity</a>. Package designed for some fuzzy and phonetic string comparison algorithms. So far implemented are the following algorithms: DamerauLevenshtein, Koelner Phonetik, SoundEx, Metaphone, DoubleMetaphone, NGram, Dice, JaroWinkler, NeedlemanWunch, SmithWatermanGotoh, MongeElkan.</p>
+</li>
+<li>
+<p><a href="https://github.com/danieleteti/delphistompclient">STOMP Client</a>. STOMP client for Embarcadero Delphi and FreePascal. The project can use INDY (Delphi) or Synapse (Delphi or FreePascal).</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/pubsubchimera" rel="nofollow">PubSub Chimera</a>. Open Source (MIT License) library for Delphi which provides a fast and cross platform PubSub and Message Queue implementation under a license that doesn't suck.</p>
+</li>
+<li>
+<p><a href="https://code.google.com/p/duckduckdelphi" rel="nofollow">DuckDuckDelphi</a>. Adds simple duck typing to Delphi Objects and provides an RTTI helper class to simplify many common RTTI tasks.</p>
+</li>
+<li>
+<p><a href="https://github.com/quartexNOR/byterage">byterage</a>. Object pascal class library designed to remove some of the limitations of streams. The framework is very simple to use, with only one common ancestor class (TBRBuffer) which defines a set of storage agnostic mechanisms for allocating, scaling, inserting, deleting and otherwise manipulating a segment of raw binary data.</p>
+</li>
+<li>
+<p><a href="https://github.com/SirRufo/stateless">stateless</a>. Simple library for creating state machines in Delphi code.</p>
+</li>
+<li>
+<p><a href="https://github.com/davidberneda/GenericTree">GenericTree</a>. Delphi implementation of a generic Tree structure.</p>
+</li>
+<li>
+<p><a href="https://github.com/spinettaro/delphi-event-bus">Delphi Event Bus</a> (for short DEB) is an Event Bus framework for Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/thecocce/delphi-hibernate">DHibernate</a> Object Persistent Framework based on Hibernate and NHibernate for Delphi.
+// <em>Abandoned since 2012</em></p>
+</li>
+<li>
+<p><a href="https://github.com/d-mozulyov/UniConv">UniConv</a>. Universal text conversion library is a universal quick and compact library intended for conversion, comparison and change of the register of text in concordance with the latest standards of the Unicode Consortium. The librarys function greatly resembles ICU, libiconv and Windows.kernel which are de facto standard for popular operating systems.</p>
+</li>
+<li>
+<p><a href="https://github.com/d-mozulyov/CachedBuffers">CachedBuffers</a>. The library is irreplaceable for the tasks of sequential data reading or writing, especially if the requirements for the performance are increased and there are much data.</p>
+</li>
+<li>
+<p><a href="https://github.com/d-mozulyov/CachedTexts">CachedTexts</a>. Powerful and compact cross-platform library aimed at parsing and generating of text data with the maximum possible performance. Depends on the two other libraries: CachedBuffers and UniConv.</p>
+</li>
+<li>
+<p><a href="https://github.com/Avemey/zexmlss">ZEXMLSS</a>. Lazarus/Delphi component for read/write ods, excel xml, xlsx.</p>
+</li>
+<li>
+<p><a href="https://github.com/BeRo1985/pasmp">PasMP</a>. Parallel-processing/multi-processing library for Object Pascal.</p>
+</li>
+<li>
+<p><a href="https://github.com/benibela/rcmdline">TCommandLineReader</a>. This unit provides an advanced, platform-independent command line parser for Lazarus and Delphi. It checks for allowed options, automatically prints a help with a list of all of them, and - contrary to the parser in the rtl - behaves the same on Windows and Linux.</p>
+</li>
+<li>
+<p><a href="https://github.com/benibela/bigdecimalmath">Big Decimal Math</a>. This unit provides a arbitrary precision BCD float number type. It can be used like any numeric type and supports: At least numbers between 10-2147483647 to 102147483647 with 2147483647 decimal digit precision; All standard arithmetic and comparison operators; Rounding functions (floor, ceil, to-even, ..); Some more advanced operations, e.g. power and sqrt.</p>
+</li>
+<li>
+<p><a href="http://www.crossgl.com/icu4pas/index.html" rel="nofollow">ICU4PAS</a>. Object Pascal, cross platform, Direct Class Wrapper over the mature and widely used set of C/C++ ICU libraries providing Unicode support, software internationalization (i18n) and globalization (g11n), giving applications the same results on all platforms. You can use it on Windows with Delphi and FreePascal and on Linux with Kylix and FreePascal.
+// <em>Hadn't been updated since 2007 but ICU interface probably remains the same...</em></p>
+</li>
+<li>
+<p><a href="https://github.com/VSoftTechnologies/VSoft.CommandLineParser">CommandLineParser</a>. Simple Command Line Options Parser - spawned from the DUnitX Project.</p>
+</li>
+<li>
+<p><a href="https://github.com/gabr42/GpDelphiUnits/blob/master/src/GpCommandLineParser.pas">GpCommandLineParser</a>. Attribute based command line parser.</p>
+</li>
+<li>
+<p><a href="https://github.com/gabr42/GpDelphiUnits">GpDelphiUnits</a>. Collection of useful Delphi units. Various TList descendants, TList-compatible, and TList-similar classes. Dynamically allocated, O(1) enqueue and dequeue, threadsafe, microlocking queue. Interface to 64-bit file functions with some added functionality. String hash, table and dictionary. Collection of Win32/Win64 wrappers and helper functions. Time Zone Routines. Embedded file system.</p>
+</li>
+<li>
+<p><a href="https://github.com/Xor-el/IntXLib4Pascal">TIntX</a>. Pascal port of IntX arbitrary precision Integer library with fast, about O(N * log N) multiplication/division algorithms implementation. It provides all the basic arithmetic operations on Integers, comparing, bitwise shifting etc. It also allows parsing numbers in different bases and converting them to string, also in any base. The advantage of this library is its fast multiplication, division and from base/to base conversion algorithms. all the fast versions of the algorithms are based on fast multiplication of big Integers using Fast Hartley Transform which runs for O(N * log N * log log N) time instead of classic O(N^2).</p>
+</li>
+<li>
+<p><a href="https://github.com/Xor-el/BaseNcodingPascal">BaseNcodingPascal</a>. Library for encoding of binary data into strings using base32, base85, base128 and other algorithms for FPC and Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/Xor-el/ByteSizeLibPascal">ByteSizeLibPascal</a>. TByteSize is a utility "record" that makes byte size representation in code easier by removing ambiguity of the value being represented.</p>
+</li>
+<li>
+<p><a href="https://github.com/Xor-el/DelphiBigNumberXLib">DelphiBigNumberXLib</a>. Arbitrary Precision Library for Delphi with Support for Integer and Floating Point Computations.</p>
+</li>
+<li>
+<p><a href="https://github.com/Xor-el/EmailValidationPascal">EmailValidationPascal</a>. Simple Class for Validating Email Address Syntax in Pascal/Delphi.</p>
+</li>
+<li>
+<p><a href="https://github.com/neslib/FastMath">FastMath</a>. Delphi math library that is optimized for fast performance (sometimes at the cost of not performing error checking or losing a little accuracy). It uses hand-optimized assembly code to achieve much better performance then the equivalent functions provided by the Delphi RTL.
+// <em>Floating-point, vector, matrix operations.</em></p>
+</li>
+</ul>
+<h2><a href="#os" aria-hidden="true" class="anchor" id="user-content-os"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OS</h2>
+<p><em>Tools that help dealing with OS-specific internals</em></p>
+<ul>
+<li>
+<p><a href="http://sourceforge.net/projects/glibwmi" rel="nofollow">GLibWMI</a>. Component Library for Delphi that encapsulate the classes for access to WMI of Windows in a set of VCL. BiosInfo, PrinterInfo, DiskInfo,... Allow access WMI Classes: WIN32_Bios, WIN32_Printers, WIN32_DiskDrive.</p>
+</li>
+<li>
+<p><a href="https://github.com/AlexanderBagel/ProcessMemoryMap/tree/master/MemoryMap">MemoryMap</a>. Set of classes to get all the info about a memory of a running process.</p>
+</li>
+<li>
+<p><a href="https://github.com/DelphiPraxis/The-Drag-and-Drop-Component-Suite-for-Delphi">The new Drag and Drop Component Suite</a>. VCL component library that enables your Delphi and C++Builder applications to support COM based drag and drop and integrate with the Windows clipboard.</p>
+</li>
+<li>
+<p><a href="https://github.com/RRUZ/tsmbios">TSMBIOS</a>. Allows access the System Management BIOS (SMBIOS) using the Object Pascal language (Delphi or Free Pascal). The SMBIOS (System Management BIOS) is a standard developed by the DMTF. The information stored in the SMBIOS includes devices manufacturer, model name, serial number, BIOS version, asset tag, processors, ports and device memory installed.</p>
+</li>
+<li>
+<p><a href="http://melander.dk/articles/versioninfo" rel="nofollow">VersionInfo for Delphi</a>. The library makes it very easy to read values from the Version Info resource of Windows executables and DLLs. Optionally extends the TApplication class with a version info property via class helper.</p>
+</li>
+<li>
+<p><a href="http://www.magsys.co.uk/delphi/magwmi.asp" rel="nofollow">Magenta Systems WMI and SMART Component</a>. Contains WMI, SMART and SCSI PassThrough functions, of particular use for getting hard disk information and configuring network adaptors, but also for many other general uses. MagWMI provides general view access to any WMI information using SQL like commands, and also a number of dedicated function relating to TCP/IP configuration, such as setting the adaptor IP addresses, the computer name, domain/workgroup, BIOS and disk drive information.</p>
+</li>
+<li>
+<p><a href="http://help.madshi.net/madKernel.htm" rel="nofollow">madKernel</a>. The package is about Kernel Objects for the biggest part. The most important object types are wrapped up in  interfaces, utilizing all the specific kernel32 APIs. Has interface wrappers for: Events, Mutexes, Threads, Processes, Windows, Modules, Tray Icons, shared memory buffers.
+// <em>Free with source for non-commercial usage (only) with some <a href="http://help.madshi.net/License.htm" rel="nofollow">conditions</a>. Available to download as part of <code>madCollection</code> installer. Pretty well documented. Requires <code>madBasic</code> package.</em></p>
+</li>
+<li>
+<p><a href="http://help.madshi.net/madSecurity.htm" rel="nofollow">madSecurity</a>. The package makes it easily possible to handle Shares and other Security Objects like file security or registry security. To be able to do so, this package also features functionality around Accounts and ACEs and ACLs.
+// <em>Free with source for non-commercial usage (only) with some <a href="http://help.madshi.net/License.htm" rel="nofollow">conditions</a>. Available to download as part of <code>madCollection</code> installer. Pretty well documented. Requires <code>madBasic</code> package.</em></p>
+</li>
+<li>
+<p><a href="http://help.madshi.net/madShell.htm" rel="nofollow">madShell</a>. The package implements often needed shell functionality, beginning with Special Folders like the "Windows" folder or the "Program Files" folder, continuing with Shell ID Lists, Shell Objects and Shell Events. Then you'll find functionality around ShortCuts/ShellLinks and finally everything about Display Modes.
+// <em>Free with source for non-commercial usage (only) with some <a href="http://help.madshi.net/License.htm" rel="nofollow">conditions</a>. Available to download as part of <code>madCollection</code> installer. Pretty well documented. Requires <code>madBasic</code> package.</em></p>
+</li>
+</ul>
+<h2><a href="#report-generating" aria-hidden="true" class="anchor" id="user-content-report-generating"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Report generating</h2>
+<ul>
+<li>
+<p><a href="http://reportman.sourceforge.net/" rel="nofollow">Report Manager</a>. Report manager is a reporting application (Report Manager Designer) and a set of libraries and utilities to preview, export or print reports. Include native .Net and Delphi/C++Builder libraries, ActiveX component and also standard dynamic link library for use in any language like GNU C.</p>
+</li>
+<li>
+<p><a href="https://github.com/fortesinformatica/fortesreport-ce">FortesReport</a>. The FortesReport is a powerful report generator available as a package of components for Delphi.</p>
+</li>
+</ul>
+<h2><a href="#unit-testing" aria-hidden="true" class="anchor" id="user-content-unit-testing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unit Testing</h2>
+<ul>
+<li>
+<p><a href="https://github.com/VSoftTechnologies/DUnitX">DUnitX</a>. New test framework, taking ideas from DUnit, NUnit and other test frameworks. It is designed to work with Delphi 2010 or later, it makes use of language/RTL features that are not available in older versions of Delphi.</p>
+</li>
+<li>
+<p><a href="http://dunit.sourceforge.net" rel="nofollow">DUnit</a>. Unit Testing Framework, that has been the standard testing framework for years, the Delphi IDE now ships with this library.
+// <em>Included since XE, deprecated since XE8 in favor of DUnitX; seems abandoned.</em></p>
+</li>
+<li>
+<p><a href="http://dunit2.sourceforge.net" rel="nofollow">DUnit2</a>. Fork of the DUnit Project that adds several new features.
+// <em>Seems abandoned, lacks some features from last DUnit version.</em></p>
+</li>
+<li>
+<p><a href="https://github.com/RomanYankovsky/DelphiSpec">DelphiSpec</a>. Library for running automated tests written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, you can use them to help improve communication, collaboration and trust on your team.</p>
+</li>
+<li>
+<p><a href="https://github.com/VSoftTechnologies/Delphi-Mocks">Delphi-Mocks</a>. Simple mocking framework for Delphi XE2 or later. Allow you to mock both classes and interfaces for testing.</p>
+</li>
+<li>
+<p><a href="https://github.com/VSoftTechnologies/DUnit-XML">DUnit-XML</a>. Test runner that allows DUnit Tests to output NUnit compatible XML.</p>
+</li>
+<li>
+<p><a href="https://github.com/deltics/delphi.libs/tree/master/smoketest">Smoketest</a>. Framework for writing tests and performance benchmarks using the Delphi language for Microsoft Windows. It has been tested on all versions of Delphi from 7 thru to 2010.</p>
+</li>
+<li>
+<p><a href="https://github.com/synopse/mORMot/blob/master/SynTests.pas">SynTests</a>. Unit test functions including mocks and stubs.</p>
+</li>
+<li>
+<p><a href="http://openctf.sourceforge.net" rel="nofollow">OpenCTF</a>. Test framework add-on for Embarcadero Delphi which performs automatic checks of all components in Forms (or DataModules). It provides an easy way to build automatic quality checks for large projects where many components have to pass repeated tests. OpenCTF is based on the DUnit open source test framework and extends it by specialized test classes and helper functions.</p>
+</li>
+</ul>
+<h2><a href="#debugging--error-handling" aria-hidden="true" class="anchor" id="user-content-debugging--error-handling"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Debugging / error handling</h2>
+<ul>
+<li>
+<p><a href="https://bitbucket.org/shadow_cs/delphi-leakcheck/" rel="nofollow">Delphi LeakCheck</a> is a free code library to check the memory leaks in the DUnit and DUnit2 tests. Supports Delphi XE-XE7.</p>
+</li>
+<li>
+<p><a href="#memory-managers">FastMM</a>. Provides powerful memory leak/corruption detection instruments.</p>
+</li>
+<li>
+<p><a href="https://github.com/project-jedi/jcl/blob/master/jcl/source/windows/JclDebug.pas">JclDebug (part of Project JEDI)</a>. Tracing, MAP file parser, exception report generation, exception stack traces.</p>
+</li>
+</ul>
+<h2><a href="#utilities" aria-hidden="true" class="anchor" id="user-content-utilities"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Utilities</h2>
+<p><em>Free but non-opensource products allowed here.</em></p>
+<h2><a href="#ide-pluginswizards" aria-hidden="true" class="anchor" id="user-content-ide-pluginswizards"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IDE plugins/wizards</h2>
+<ul>
+<li>
+<p><a href="https://github.com/rruz/delphi-ide-theme-editor">Delphi IDE theme editor / Delphi IDE Colorizer</a>. Tool to change the IDE color highlighting of several Object Pascal IDE's like Delphi (RAD Studio), Appmethod, Lazarus  and Smart Mobile Studio. DITE supports Delphi 5-7, 2005-2010, XE-XE8, Appmethod 1.13-1.14, Lazarus v1.0.1.3 and Smart Mobile Studio IDE v1.1.2.17. The Delphi IDE Colorizer (DIC) is a plugin which allows to customize the look and feel of the workspace of the RAD Studio IDE and Appmethod.</p>
+</li>
+<li>
+<p><a href="http://andy.jgknet.de/blog/ide-tools/ddevextensions" rel="nofollow">DDevExtensions</a>. Extends the Delphi/C++Builder IDE by adding some new productivity features
+// <em>Many useful IDE tweaks, must have.</em></p>
+</li>
+<li>
+<p><a href="http://andy.jgknet.de/blog/bugfix-units/vclfixpack-10" rel="nofollow">VCL Fix Pack</a>. Delphi unit that fixes VCL and RTL bugs at runtime by patching the original functions. If you want all IDE Fix Pack fixes in your application this unit is what you are looking for. Adding the unit to your project (Delphi and C++Builder) automatically installs the patches that are available for your Delphi/C++Builder version.
+// <em>Actual for Delphi/C++ 6..2009</em></p>
+</li>
+<li>
+<p><a href="http://andy.jgknet.de/blog/ide-tools/ide-fix-pack" rel="nofollow">IDE Fix Pack</a>. Collection of unofficial bug fixes and performance optimizations for the RAD Studio IDE, Win32/Win64 compiler and Win32 debugger. IDE Fix Pack is an IDE plugin for RAD Studio 2009-XE6 that fixes IDE bugs at runtime. All changes are done in memory. No files on disk are modified. None of your projects are modified or benefit from the IDE Fix Pack other than being compiled faster. Only the IDE gets the fixes and optimizations.
+// <em>Supports all RAD Studio versions since 2007. Removes lots of annoying bugs that EMBT haven't fixed for years. Yay!</em></p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/gexperts" rel="nofollow">GExperts</a>. Free set of tools built to increase the productivity of Delphi and C++Builder programmers by adding several features to the IDE. GExperts is developed as Open Source software and we encourage user contributions to the project. Grep search and replace supporting unicode files, DFMs, etc; Automatically rename components, insert text macros, open recent files; Easily backup your projects, with custom additional file lists; Keep nested lists of favorite files for quick access; Track dependencies between units in your project; Quickly jump to any procedure in the current unit; And much, much more...</p>
+</li>
+<li>
+<p><a href="https://github.com/cnpack">CnWizards</a>. Free Plug-in Tool Set for Delphi/C++ Builder/CodeGear RAD Studio to Improve Development Efficiency.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/idursun/delphipi" rel="nofollow">Delphi Package Installer (DelphiPI)</a>. Tool which aids you installing components to your Delphi IDE. DelphiPI automatically resolves dependencies between packages, compiles, installs and adds source paths to your IDE.</p>
+</li>
+<li>
+<p><a href="https://github.com/chaosben/theunknownones">ResEd</a>. Expert for Delphi 2005, 2006, 2007, 2009, 2010 and XE. This expert is designed for editing the resource files (.res; .resx) that are linked to the active project. It will automatically search for all occurrences of {$R xyz.res} lines and will open/create resourcefiles for them. The expert registers itself in the menubar of Delphi under View.</p>
+</li>
+<li>
+<p><a href="https://parnassus.co/delphi-tools/bookmarks" rel="nofollow">Parnassus Bookmarks</a>. IDE plugin that extends bookmark functionality.</p>
+</li>
+<li>
+<p><a href="https://github.com/Arvur/DelphiSettingManager">DelphiSettingManager</a>. Multiple IDE profiles for Delphi (up to XE6). Allows to install multiple versions of the same component or different component sets for different projects.</p>
+</li>
+<li>
+<p><a href="https://github.com/Memnarch/Delphinus">Delphinus</a>. New Packagemanager which runs on Delphi XE and newer and uses Github as a Backend to Provide the packages.</p>
+</li>
+<li>
+<p><a href="https://parnassus.co/delphi-tools/bookmarks" rel="nofollow">Parnassus Bookmarks</a>. IDE plugin that extends bookmark functionality.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/sglienke/testinsight/wiki/Home" rel="nofollow">TestInsight</a>. Unit testing IDE Plugin for Delphi. It supports all versions from XE to 10 Seattle. Supports DUnit, DUnit2, DUnitX frameworks.</p>
+</li>
+<li>
+<p><a href="https://github.com/DGH2112/Delphi-IDE-Explorer">Delphi IDE Explorer</a>. Wizard / expert / plugin that allows you to browser the internal fields, methods, properties and events of the IDE.
+// <em>Mainly useful for developers of IDE experts</em></p>
+</li>
+<li>
+<p><a href="http://www.davidghoyle.co.uk/WordPress/?page_id=1361" rel="nofollow">Multi-RAD Studio IDE Expert Manager</a>. Application is for editing the installed experts in all versions of RAD Studio (and older Delphi and C++ Builder) on a machine.</p>
+</li>
+<li>
+<p><a href="https://github.com/DGH2112/OTA-Interface-Search">OTA Interface Search</a>. Application helps to find Open Tools API (OTA) interfaces, methods and properties and understand how to get to those interfaces or methods / properties of the interfaces.</p>
+</li>
+<li>
+<p><a href="https://github.com/DGH2112/Auto-Save">AutoSave</a>. Expert that periodically auto saves all the open modified IDE files.</p>
+</li>
+<li>
+<p><a href="http://www.davidghoyle.co.uk/WordPress/?page_id=872" rel="nofollow">Browse and Doc It</a>. Plug-in allows you to document and browse your code from within the IDE.</p>
+</li>
+<li>
+<p><a href="http://www.davidghoyle.co.uk/WordPress/?page_id=874" rel="nofollow">Integrated Testing Helper</a>. Plugin for Delphi and RAD Studio that allows you to run command-line application before and after the compilation of you projects. It also provides the ability to zip you projects files into an archive on each compile/build and manage the application's version information.</p>
+</li>
+</ul>
+<h2><a href="#documentation" aria-hidden="true" class="anchor" id="user-content-documentation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<ul>
+<li>
+<p><a href="https://github.com/synopse/SynProject">SynProject</a> (<a href="http://synopse.info/fossil/wiki?name=SynProject" rel="nofollow">docs</a>). Tool for code source versioning and automated documentation of Delphi projects.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/pasdoc" rel="nofollow">PasDoc</a>. Documentation tool for ObjectPascal (FreePascal and Delphi) source code. Documentation is generated from comments found in source code. Available output formats are HTML, HtmlHelp, LaTeX, latex2rtf, simplexml. More output formats may be added in the future.</p>
+</li>
+<li>
+<p><a href="http://www.yunqa.de/delphi/products/pasdoc/index" rel="nofollow">DIPasDoc</a>. Generates HTML documentation from comments in Pascal source code files. It outputs browsable help as standard HTML files or customizable MS HTML Help projects.</p>
+</li>
+</ul>
+<h2><a href="#code-checkreview-debug" aria-hidden="true" class="anchor" id="user-content-code-checkreview-debug"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code check/review, debug</h2>
+<ul>
+<li>
+<p><a href="https://www.delphitools.info/samplingprofiler" rel="nofollow">SamplingProfiler</a> is a performance profiling tool for Delphi 5 to 32bits Delphi XE4. Its purpose is to help locate bottlenecks, even in final, optimized code running at full-speed.</p>
+</li>
+<li>
+<p><a href="https://sourceforge.net/projects/delphicodecoverage" rel="nofollow">Delphi Code Coverage</a>. Simple Code Coverage tool for Delphi that creates code coverage reports based on detailed MAP files.</p>
+</li>
+<li>
+<p><a href="http://www.peganza.com/products_pal.html" rel="nofollow">Pascal Analyzer</a> (free Lite version available). Pascal Analyzer, or PAL for short, parses Delphi or Borland Pascal source code. It builds large internal tables of identifiers, and collects other information such as calls between subprograms. When the parsing is completed, extensive reports are produced. These reports contain a great deal of important information about the source code. This information will help you understand your source code better, and assist you in producing code of higher quality and reliability.</p>
+</li>
+<li>
+<p><a href="http://madshi.net/madExceptShop.htm" rel="nofollow">madExcept</a>. madExcept was built to help you locate bugs in your software. Whenever there's a crash/exception in your program, madExcept will automatically catch it, analyze it, collect lots of useful information, and give the end user the possibility to send you a full bug report. madExcept is also able to find memory leaks, resource leaks and buffer overruns for you.
+// *<em>Free <strong>without source</strong> for non-commercial usage (only) with some <a href="http://help.madshi.net/License.htm" rel="nofollow">conditions</a>. Available to download as part of <code>madCollection</code> installer (you'll need to install <code>madExcept</code> item). Pretty well documented.</em></p>
+</li>
+</ul>
+<h2><a href="#setup" aria-hidden="true" class="anchor" id="user-content-setup"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setup</h2>
+<ul>
+<li>
+<p><a href="https://bitbucket.org/tdelphi/lazy-delphi-builder-downloads" rel="nofollow">Lazy Delphi Builder</a>. Build tool for Delphi. Recompile projects/packages from sources with all dependencies, without need to mess around with configs. Quickly (re-)install components from sources into IDE, with no need to change your Library Path.
+// <em>Powerful automating tool. Freeware but not open source</em></p>
+</li>
+<li>
+<p><a href="http://www.jrsoftware.org/isinfo.php" rel="nofollow">Inno Setup</a>. Free installer for Windows programs. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.</p>
+</li>
+<li>
+<p><a href="https://winsparkle.org" rel="nofollow">WinSparkle</a> and its <a href="https://github.com/jkour/neSparkleComponent">Delphi wrapper</a>. WinSparkle is an easy-to-use software update library for Windows developers. WinSparkle is a heavily (to the point of being its almost-port) inspired by the Sparkle framework originally by Andy Matuschak that became the de facto standard for software updates on macOS.</p>
+</li>
+<li>
+<p><a href="http://www.silverpointdevelopment.com/multiinstaller/index.htm" rel="nofollow">Silverpoint MultiInstaller</a>. Multi component package installer for Embarcadero Delphi and C++Builder, it was created to ease the components installation on the IDE.</p>
+</li>
+</ul>
+<h2><a href="#other" aria-hidden="true" class="anchor" id="user-content-other"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other</h2>
+<ul>
+<li>
+<p><a href="https://github.com/RRUZ/wmi-delphi-code-creator">WMI Delphi Code Creator</a>. Allows you to generate Object Pascal, Oxygene, C++ and C# code to access the WMI (Windows Management Instrumentation) classes, events and methods. Also includes a set of tools to explorer and Query the content of the WMI.</p>
+</li>
+<li>
+<p><a href="https://github.com/RRUZ/delphi-preview-handler">Delphi Preview Handler</a>. Preview handler for Windows Vista, 7 and 8 which allow you read your object pascal, C++ and Assembly code with Syntax highlighting without open in a editor</p>
+</li>
+<li>
+<p><a href="https://github.com/RRUZ/delphi-dev-shell-tools">Delphi Dev. Shell Tools</a>. Windows shell extension with useful tasks for Object Pascal Developers (Delphi, Free Pascal).</p>
+</li>
+<li>
+<p><a href="https://github.com/github/gitignore">Delphi.gitignore</a>. .gitignore templates for Delphi. There is also one for Lazarus.</p>
+</li>
+<li>
+<p><a href="http://omnipascal.com" rel="nofollow">OmniPascal</a>. Project that enables Delphi and Free Pascal developers to write and maintain code using the modern editor <a href="https://code.visualstudio.com" rel="nofollow">Visual Studio Code</a>.</p>
+</li>
+<li>
+<p><a href="https://bitbucket.org/NickHodges/delphi-unit-tests" rel="nofollow">Delphi Unit Tests</a>. Set of unit tests for Delphi's libraries. Delphi community members are encouraged to fork the repository, add tests, and create a pull request. Embarcadero employees are particularly encouraged to add tests from the internal tests that are run with official Delphi builds.</p>
+</li>
+<li>
+<p><a href="http://help.madshi.net/madDisAsm.htm" rel="nofollow">madDisAsm</a>. The package features a full x86 disassembler including MMX, 3dNow enhanced, SSE and SSE2 support. The disassembler can examine a single x86 instruction (see ParseCode) or a full function (see ParseFunction) and either return a short analysis or a full text disassembly. Register contents are watched/followed if possible, this improves the analyses for jump/call targets. Case/switch jump tables are automatically detected and handled correctly.
+// <em>Free <strong>without source</strong> for non-commercial usage (only) with some <a href="http://help.madshi.net/License.htm" rel="nofollow">conditions</a>. Available to download as part of <code>madCollection</code> installer (you'll need to install <code>madExcept</code> item). Pretty well documented.</em></p>
+</li>
+</ul>
+<h2><a href="#license" aria-hidden="true" class="anchor" id="user-content-license"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0" rel="nofollow"><img src="https://camo.githubusercontent.com/c5160f944848828fa33126d9a697e9abe43ea98f/687474703a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.24993s from unicorn-3751571531-xgbc8">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

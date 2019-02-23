@@ -1,0 +1,1549 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - mfornos/awesome-microservices: A curated list of Microservice Architecture related principles and technologies.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/663840?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="mfornos/awesome-microservices" /><meta property="og:url" content="https://github.com/mfornos/awesome-microservices" /><meta property="og:description" content="awesome-microservices - A curated list of Microservice Architecture related principles and technologies." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E18C:5D4F:312E28E:58B28CD:5AD2F6FF" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E18C:5D4F:312E28E:58B28CD:5AD2F6FF" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="Y2ZlZDFmYThiOThkZTQ4ZWFlMWIxZDg3MDM2OWE0ZTI5YzBjMTQwYTNkYzg3ZmZhOGU5OTkwODJlMzg5MDgxZHx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTE4Qzo1RDRGOjMxMkUyOEU6NThCMjhDRDo1QUQyRjZGRiIsInRpbWVzdGFtcCI6MTUyMzc3NTIzMiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="ccd0f8e84dfb6d6f58991e32abf0ab7bcacc1593">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/mfornos/awesome-microservices/commits/master.atom" rel="alternate" title="Recent Commits to awesome-microservices:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-microservices - A curated list of Microservice Architecture related principles and technologies.">
+  <meta name="go-import" content="github.com/mfornos/awesome-microservices git https://github.com/mfornos/awesome-microservices.git">
+
+  <meta name="octolytics-dimension-user_id" content="663840" /><meta name="octolytics-dimension-user_login" content="mfornos" /><meta name="octolytics-dimension-repository_id" content="34987697" /><meta name="octolytics-dimension-repository_nwo" content="mfornos/awesome-microservices" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="34987697" /><meta name="octolytics-dimension-repository_network_root_nwo" content="mfornos/awesome-microservices" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/mfornos/awesome-microservices" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/mfornos/awesome-microservices/search" data-unscoped-search-url="/search" action="/mfornos/awesome-microservices/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/mfornos/awesome-microservices">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fmfornos%2Fawesome-microservices" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fmfornos%2Fawesome-microservices"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/mfornos/awesome-microservices/watchers"
+     aria-label="488 users are watching this repository">
+    488
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmfornos%2Fawesome-microservices"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/mfornos/awesome-microservices/stargazers"
+      aria-label="5870 users starred this repository">
+      5,870
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmfornos%2Fawesome-microservices"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/mfornos/awesome-microservices/network" class="social-count"
+       aria-label="795 users forked this repository">
+      795
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/mfornos">mfornos</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/mfornos/awesome-microservices">awesome-microservices</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /mfornos/awesome-microservices" href="/mfornos/awesome-microservices">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /mfornos/awesome-microservices/issues" href="/mfornos/awesome-microservices/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">9</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /mfornos/awesome-microservices/pulls" href="/mfornos/awesome-microservices/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">18</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /mfornos/awesome-microservices/projects" href="/mfornos/awesome-microservices/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /mfornos/awesome-microservices/pulse" href="/mfornos/awesome-microservices/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tH62F25vRu3XVXlwB4JlP+KERkg82SsB5gFchPt28Bndk/5CPvYtgCUlcrdYyv/EYUG3uDosWhH2Ahbg2OcT7Q==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of Microservice Architecture related principles and technologies.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/mfornos/awesome-microservices/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/microservices" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:microservices">
+        microservices
+      </a>
+      <a href="/topics/microservices-architecture" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:microservices-architecture">
+        microservices-architecture
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/mfornos/awesome-microservices/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                552
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/mfornos/awesome-microservices/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/mfornos/awesome-microservices/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <include-fragment src="/mfornos/awesome-microservices/contributors_size">
+              <a href="/mfornos/awesome-microservices/graphs/contributors">
+                <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+                <span class="num text-emphasized"></span>
+                Fetching contributors
+              </a>
+</include-fragment>        </li>
+          <li>
+            <a href="/mfornos/awesome-microservices/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/mfornos/awesome-microservices.git" aria-label="Clone this repository at https://github.com/mfornos/awesome-microservices.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/mfornos/awesome-microservices.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/mfornos/awesome-microservices/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/mfornos/awesome-microservices/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/mfornos/awesome-microservices/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/mfornos/awesome-microservices/commit/5bbbcaf88c67200053e8b0f79c45d16988c49967" data-pjax>
+        5bbbcaf
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2018-02-10T16:54:19Z">Feb 10, 2018</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="mfornos">
+
+        <a href="/mfornos" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars1.githubusercontent.com/u/663840?s=40&amp;v=4" width="20" height="20" alt="@mfornos">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="/mfornos/awesome-microservices/commits?author=mfornos"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by mfornos">mfornos</a>
+
+
+  
+
+
+
+      <a href="/mfornos/awesome-microservices/commit/5bbbcaf88c67200053e8b0f79c45d16988c49967" class="message" data-pjax="true" title="Merge pull request #140 from taik0/fix_links
+
+Fix links">Merge pull request</a> <a href="https://github.com/mfornos/awesome-microservices/pull/140" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="292396216" data-permission-text="Issue title is private" data-url="https://github.com/mfornos/awesome-microservices/issues/140">#140</a> <a href="/mfornos/awesome-microservices/commit/5bbbcaf88c67200053e8b0f79c45d16988c49967" class="message" data-pjax="true" title="Merge pull request #140 from taik0/fix_links
+
+Fix links">from taik0/fix_links</a>
+        <span class="hidden-text-expander inline">
+          <button type="button" class="ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+        </span>
+
+      <div class="commit-desc"><pre class="text-small">Fix links</pre></div>
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/mfornos/awesome-microservices/tree/5bbbcaf88c67200053e8b0f79c45d16988c49967">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".editorconfig" id="1e70daafb475c0ce3fef7d2728279182-00eff271cf34e02f7091cc79b2a7b13f508d3c6a" href="/mfornos/awesome-microservices/blob/master/.editorconfig">.editorconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added .editorconfig" class="message" href="/mfornos/awesome-microservices/commit/2359f9bd2fc8fef17d7d0c20d7a68aab330bc1ee">Added .editorconfig</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-17T19:39:23Z">Oct 17, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-6e5eebceb0f896bb73ee96a11722ffd3c7df125c" href="/mfornos/awesome-microservices/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Allow SSL errors in awesome_bot checks" class="message" href="/mfornos/awesome-microservices/commit/5d3a72ca0f37d13543754e705f71b3d4239fee8a">Allow SSL errors in awesome_bot checks</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-25T11:43:32Z">Feb 25, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-132e7b879f3b18c506d55aec9523fafe1710686e" href="/mfornos/awesome-microservices/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Added Contribution Guidelines document." class="message" href="/mfornos/awesome-microservices/commit/65629edd8c544cc96e28a651eb6e4310cf20af78">Added Contribution Guidelines document.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-14T19:11:24Z">Oct 14, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-2c4afabdb632b5d68e60c9fe9fe0b0819676a729" itemprop="license" href="/mfornos/awesome-microservices/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Initial commit" class="message" href="/mfornos/awesome-microservices/commit/4acc0e21857ddc551830657478bc4ea02a1802a0">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-03T13:56:04Z">May 3, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-6ffc96ba6f1f144e6808df94935e7fcce1fea2e7" href="/mfornos/awesome-microservices/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge pull request #140 from taik0/fix_links
+
+Fix links" class="message" href="/mfornos/awesome-microservices/commit/5bbbcaf88c67200053e8b0f79c45d16988c49967">Merge pull request</a> <a href="https://github.com/mfornos/awesome-microservices/pull/140" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="292396216" data-permission-text="Issue title is private" data-url="https://github.com/mfornos/awesome-microservices/issues/140">#140</a> <a data-pjax="true" title="Merge pull request #140 from taik0/fix_links
+
+Fix links" class="message" href="/mfornos/awesome-microservices/commit/5bbbcaf88c67200053e8b0f79c45d16988c49967">from taik0/fix_links</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-02-10T16:54:19Z">Feb 10, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a href="#awesome-microservices-" aria-hidden="true" class="anchor" id="user-content-awesome-microservices-"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Microservices <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of Microservice Architecture related principles and technologies.</p>
+<p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#platforms">Platforms</a></li>
+<li><a href="#frameworks--runtimes">Frameworks / Runtimes</a></li>
+<li><a href="#service-toolkits">Service Toolkits</a>
+<ul>
+<li><a href="#polyglot">Polyglot</a></li>
+<li><a href="#c">C</a></li>
+<li><a href="#c-1">C++</a></li>
+<li><a href="#csharp">C#</a></li>
+<li><a href="#d">D</a></li>
+<li><a href="#erlang-vm">Erlang VM</a></li>
+<li><a href="#go">Go</a></li>
+<li><a href="#haskell">Haskell</a></li>
+<li><a href="#java-vm">Java VM</a></li>
+<li><a href="#nodejs">Node.js</a></li>
+<li><a href="#perl">Perl</a></li>
+<li><a href="#php">PHP</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#ruby">Ruby</a></li>
+</ul>
+</li>
+<li><a href="#capabilities">Capabilities</a>
+<ul>
+<li><a href="#api-gateways--edge-services">API Gateways / Edge Services</a></li>
+<li><a href="#configuration-and-discovery">Configuration and Discovery</a></li>
+<li><a href="#coordination-and-governance">Coordination and Governance</a></li>
+<li><a href="#elasticity">Elasticity</a></li>
+<li><a href="#job-schedulers--workload-automation">Job Schedulers / Workload Automation</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#messaging">Messaging</a></li>
+<li><a href="#monitoring-and-debugging">Monitoring and Debugging</a></li>
+<li><a href="#reactivity">Reactivity</a></li>
+<li><a href="#resilience">Resilience</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#serialization">Serialization</a></li>
+<li><a href="#storage">Storage</a></li>
+<li><a href="#testing">Testing</a></li>
+</ul>
+</li>
+<li><a href="#continuous-integration-and-continuous-delivery">Continuous Integration and Continuous Delivery</a></li>
+<li><a href="#documentation--modeling">Documentation &amp; Modeling</a>
+<ul>
+<li><a href="#rest-apis">REST APIs</a></li>
+</ul>
+</li>
+<li><a href="#standards--recommendations">Standards / Recommendations</a>
+<ul>
+<li><a href="#world-wide-web">World Wide Web</a></li>
+<li><a href="#http11">HTTP/1.1</a></li>
+<li><a href="#http2">HTTP/2</a></li>
+<li><a href="#coap">CoAP</a></li>
+<li><a href="#rpc">RPC</a></li>
+<li><a href="#messaging-1">Messaging</a></li>
+<li><a href="#security-1">Security</a></li>
+<li><a href="#service-discovery">Service Discovery</a></li>
+<li><a href="#data-formats">Data Formats</a></li>
+<li><a href="#vocabularies">Vocabularies</a></li>
+<li><a href="#unicode">Unicode</a></li>
+</ul>
+</li>
+<li><a href="#real-life-stories">Real Life Stories</a></li>
+<li><a href="#enterprise--verticals">Enterprise &amp; Verticals</a></li>
+<li><a href="#theory">Theory</a>
+<ul>
+<li><a href="#articles--papers">Articles &amp; Papers</a></li>
+<li><a href="#talks">Talks</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#sites">Sites</a></li>
+</ul>
+</li>
+<li><a href="#emerging-technologies">Emerging Technologies</a></li>
+<li><a href="#license">License</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#acknowledgments">Acknowledgments</a></li>
+</ul>
+<h2><a href="#platforms" aria-hidden="true" class="anchor" id="user-content-platforms"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Platforms</h2>
+<ul>
+<li><a href="https://github.com/cocaine">Cocaine</a> - A cloud platform enabling you to build your own PaaS clouds.</li>
+<li><a href="http://deis.io/" rel="nofollow">Deis</a> - Open source application platform for public and private clouds.</li>
+<li><a href="http://fabric8.io/" rel="nofollow">Fabric8</a> - Open source microservices platform based on Docker, Kubernetes and Jenkins. Makes it easy to create, edit, deploy and manage microservices and go faster.</li>
+<li><a href="https://hook.io" rel="nofollow">Hook.io</a> - Open source provider of microservice and webhook hosting.</li>
+<li><a href="https://www.lightbend.com/" rel="nofollow">Lightbend <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Platform for building scalable reactive systems on the JVM.</li>
+<li><a href="https://github.com/mantl/mantl">Mantl</a> - Platform for rapidly deploying globally distributed services.</li>
+<li><a href="https://netflix.github.io/" rel="nofollow">Netflix OSS</a> - Netflix open source software ecosystem.</li>
+<li><a href="http://openwhisk.org/" rel="nofollow">OpenWhisk</a> - Serverless, open source cloud platform that executes functions in response to events at any scale.</li>
+<li><a href="https://stups.io/" rel="nofollow">STUPS</a> - A set of tools and components by Zalando to provide a convenient and audit-compliant PaaS for multiple autonomous teams on top of AWS.</li>
+<li><a href="http://vamp.io/" rel="nofollow">VAMP <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Build, deploy and manage microservices with power and ease.</li>
+</ul>
+<h2><a href="#frameworks--runtimes" aria-hidden="true" class="anchor" id="user-content-frameworks--runtimes"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Frameworks / Runtimes</h2>
+<ul>
+<li><a href="http://akka.io/" rel="nofollow">Akka</a> - Toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.</li>
+<li><a href="http://baratine.io/" rel="nofollow">Baratine</a> - Platform for building a network of loosely-coupled POJO microservices.</li>
+<li><a href="https://github.com/erlang/otp">Erlang/OTP</a> - Programming language used to build massively scalable soft real-time systems with requirements on high availability.</li>
+<li><a href="http://twitter.github.io/finagle" rel="nofollow">Finagle</a> - Extensible RPC system for the JVM, used to construct high-concurrency servers.</li>
+<li><a href="https://github.com/GPars/GPars">GPars</a> - Concurrency and parallelism framework for the JVM.</li>
+<li><a href="https://github.com/bitfinexcom/grenache">Grenache</a> - A Bittorent-DHT based microservices framework supporting REQ/REP and PUB/SUB patterns over multiple transports.</li>
+<li><a href="https://zeroc.com/" rel="nofollow">Ice</a> - Comprehensive RPC framework with support for C++, C#, Java, JavaScript, Python, and more.</li>
+<li><a href="https://github.com/lagom/lagom">Lagom</a> - Reactive microservices for the JVM.</li>
+<li><a href="https://github.com/networknt/light-java">Light Java</a> - A fast, lightweight and more productive microservices framework.</li>
+<li><a href="https://github.com/aol/micro-server">Microserver</a> - Java 8 native, zero configuration, standards based, battle hardened library to run Java REST microservices.</li>
+<li><a href="https://github.com/orbit/orbit">Orbit</a> - Modern framework for JVM languages that makes it easier to build and maintain distributed and scalable online services.</li>
+<li><a href="https://github.com/puniverse/quasar">Quasar</a> - Fibers, channels and actors for the JVM.</li>
+<li><a href="https://github.com/scalecube/scalecube">ScaleCube</a> - Toolkit for building reactive microservices for the JVM: low-latency, high-throughput, scalable and resilient.</li>
+<li><a href="http://vertx.io/" rel="nofollow">Vert.X</a> - Toolkit for building reactive applications on the JVM.</li>
+<li><a href="https://github.com/vert-x3/vertx-microservices-toolbox">Vert.X Toolbox</a> - A set of Vert.x components to build reactive microservice applications.</li>
+<li><a href="https://github.com/facebook/wangle">Wangle</a> - A framework providing a set of common client/server abstractions for building services in a consistent, modular, and composable way.</li>
+<li><a href="http://wildfly-swarm.io/" rel="nofollow">WildFly Swarm</a> - Microservices starting with just enough Java EE runtime, based on <a href="https://projects.eclipse.org/proposals/eclipse-microprofile" rel="nofollow">Eclipse MicroProfile</a>.</li>
+</ul>
+<h2><a href="#service-toolkits" aria-hidden="true" class="anchor" id="user-content-service-toolkits"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Service Toolkits</h2>
+<h3><a href="#polyglot" aria-hidden="true" class="anchor" id="user-content-polyglot"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Polyglot</h3>
+<ul>
+<li><a href="https://github.com/apex/apex">Apex</a> - Tool for deploying and managing AWS Lambda functions. With shims for languages not yet supported by Lambda, you can use Golang out of the box.</li>
+<li><a href="http://coap.technology/impls.html" rel="nofollow">CoAP</a> - Constrained application protocol implementations.</li>
+<li><a href="http://www.grpc.io/" rel="nofollow">GRPC</a> - A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. Libraries in C, C++, Java, Go, Node.js, Python, Ruby, Objective-C, PHP and C#.</li>
+<li><a href="http://github.com/hprose">Hprose</a> - A very newbility RPC Library, support 25+ languages now.</li>
+</ul>
+<h3><a href="#c" aria-hidden="true" class="anchor" id="user-content-c"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C</h3>
+<ul>
+<li><a href="https://kore.io/" rel="nofollow">Kore</a> - Easy to use web application framework for writing scalable web APIs in C.</li>
+<li><a href="https://github.com/wolkykim/libasyncd/">Libasyncd</a> - Embeddable event-based asynchronous HTTP server library for C.</li>
+<li><a href="http://libslack.org/" rel="nofollow">Libslack</a> -  Provides a generic agent oriented programming model, run time selection of locking strategies, functions that make writing daemons trivial and simplify the implementation of network servers and clients, &amp;c.</li>
+<li><a href="http://lwan.ws/" rel="nofollow">Lwan</a> - High-performance and scalable web server.</li>
+<li><a href="https://github.com/davidmoreno/onion">Onion</a> - C library to create simple HTTP servers and web applications.</li>
+<li><a href="https://github.com/Adaptv/ribs2">RIBS2</a> - Library which allows building high-performance internet serving systems.</li>
+</ul>
+<h3><a href="#c-1" aria-hidden="true" class="anchor" id="user-content-c-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C++</h3>
+
+<ul>
+<li><a href="https://github.com/sgieseking/anyrpc">AnyRPC</a> - Provides a common system to work with a number of different remote procedure call standards, including: JSON-RPC, XML-RPC, MessagePack-RPC.</li>
+<li><a href="https://capnproto.org/cxxrpc.html" rel="nofollow">Cap’n Proto RPC</a> - The Cap’n Proto C++ RPC implementation.</li>
+<li><a href="http://cppmicroservices.org/" rel="nofollow">C++ Micro Services</a> - An OSGi-like C++ dynamic module system and service registry.</li>
+<li><a href="https://github.com/endurox-dev/endurox/">Enduro/X</a> - XATMI based service framework for GNU/Linux.</li>
+<li><a href="https://github.com/splunk/pion">Pion</a> - C++ framework for building lightweight HTTP interfaces.</li>
+<li><a href="https://github.com/oktal/pistache">Pistache</a> - A high-performance REST toolkit written in C++.</li>
+<li><a href="http://pocoproject.org/" rel="nofollow">Poco</a> - C++ class libraries for building network-based applications and servers.</li>
+<li><a href="https://github.com/Corvusoft/restbed">Restbed</a> - Brings asynchronous RESTful functionality to C++11 applications.</li>
+<li><a href="https://github.com/datasift/served">Served</a> - C++ library for building high-performance RESTful web servers.</li>
+<li><a href="https://github.com/stefanocasazza/ULib">ULib</a> - Highly optimized class framework for writing C++ applications.</li>
+</ul>
+<h3><a href="#csharp" aria-hidden="true" class="anchor" id="user-content-csharp"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSharp</h3>
+<ul>
+<li><a href="http://getakka.net/" rel="nofollow">Akka.NET</a> - Toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on .NET &amp; Mono.</li>
+<li><a href="http://nancyfx.org/" rel="nofollow">Nancy</a> - Lightweight web framework.</li>
+</ul>
+<h3><a href="#d" aria-hidden="true" class="anchor" id="user-content-d"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>D</h3>
+<ul>
+<li><a href="http://vibed.org/" rel="nofollow">Vibe.d</a> - Asynchronous I/O that doesn’t get in your way, written in D.</li>
+</ul>
+<h3><a href="#erlang-vm" aria-hidden="true" class="anchor" id="user-content-erlang-vm"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Erlang VM</h3>
+<h4><a href="#elixir" aria-hidden="true" class="anchor" id="user-content-elixir"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Elixir</h4>
+<ul>
+<li><a href="http://www.phoenixframework.org/" rel="nofollow">Phoenix</a> - Framework for building HTML5 apps, API backends and distributed systems.</li>
+<li><a href="https://github.com/elixir-lang/plug">Plug</a> - A specification and conveniences for composable modules between web applications.</li>
+</ul>
+<h4><a href="#erlang" aria-hidden="true" class="anchor" id="user-content-erlang"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Erlang</h4>
+<ul>
+<li><a href="https://github.com/ninenines/cowboy">Cowboy</a> - Small, fast, modular HTTP server written in Erlang.</li>
+<li><a href="https://github.com/mochi/mochiweb">Mochiweb</a> - Erlang library for building lightweight HTTP servers.</li>
+</ul>
+<h3><a href="#go" aria-hidden="true" class="anchor" id="user-content-go"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Go</h3>
+<ul>
+<li><a href="https://echo.labstack.com/" rel="nofollow">Echo</a> - Fast and unfancy HTTP server framework for Go. Up to 10x faster than the rest.</li>
+<li><a href="https://github.com/nytimes/gizmo">Gizmo</a> - Microservices toolkit.</li>
+<li><a href="https://github.com/goadesign/goa">Goa</a> - Design-based HTTP microservices in Go.</li>
+<li><a href="https://github.com/gocraft/web">Gocraft</a> - A toolkit for building web apps. Includes routing, middleware stacks, logging and monitoring.</li>
+<li><a href="https://goji.io/" rel="nofollow">Goji</a> - Minimalistic and flexible request multiplexer for Go.</li>
+<li><a href="https://github.com/go-kit/kit">Go kit</a> - Distributed programming toolkit for microservices in the modern enterprise.</li>
+<li><a href="https://github.com/micro/go-micro">Go-micro</a> - A pluggable RPC microservice framework.</li>
+<li><a href="https://github.com/bndr/gopencils">Gopencils</a> - Easily consume REST APIs with Go.</li>
+<li><a href="http://www.gorillatoolkit.org/" rel="nofollow">Gorilla</a> - Web toolkit for the Go programming language.</li>
+<li><a href="https://github.com/kataras/iris">Iris</a> - Fast, simple and efficient micro web framework for Go.</li>
+<li><a href="https://github.com/koding/kite">Kite</a> - Microservices framework in Go.</li>
+<li><a href="https://github.com/docker/libchan">Libchan</a> - Ultra-lightweight networking library which lets network services communicate in the same way that goroutines communicate using channels.</li>
+<li><a href="https://github.com/micro/micro">Micro</a> - A microservices toolchain in Go.</li>
+<li><a href="https://github.com/pasztorpisti/nano">Nano</a> - A minimalistic, transport-agnostic and testing-friendly microservice framework.</li>
+<li><a href="https://github.com/codegangsta/negroni">Negroni</a> - Idiomatic HTTP middleware for Golang.</li>
+<li><a href="https://github.com/neutrinoapp/neutrino">Neutrino</a> - Realtime/REST backend service.</li>
+<li><a href="https://github.com/smallnest/rpcx">RPCX</a> - A distributed RPC service framework based on NET/RPC like Alibaba Dubbo and Weibo Motan.</li>
+<li><a href="https://github.com/dougblack/sleepy">Sleepy</a> - REST for go.</li>
+<li><a href="https://github.com/magneticio/vamp-router">Vamp-router</a> - Service routing, load balancing and filtering application.</li>
+<li><a href="https://github.com/cosiner/zerver">Zerver</a> - RESTful API framework.</li>
+</ul>
+<h3><a href="#haskell" aria-hidden="true" class="anchor" id="user-content-haskell"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Haskell</h3>
+<ul>
+<li><a href="https://github.com/scotty-web/scotty">Scotty</a> - Micro web framework inspired by Ruby's Sinatra, using WAI and Warp.</li>
+<li><a href="https://github.com/haskell-servant/servant">Servant</a> - Type-level web DSL.</li>
+<li><a href="https://github.com/yesodweb/yesod">Yesod</a> - The Haskell RESTful web framework.</li>
+</ul>
+<h3><a href="#java-vm" aria-hidden="true" class="anchor" id="user-content-java-vm"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java VM</h3>
+<h4><a href="#clojure" aria-hidden="true" class="anchor" id="user-content-clojure"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Clojure</h4>
+<ul>
+<li><a href="https://github.com/weavejester/compojure">Compojure</a> - A concise routing library for Ring/Clojure.</li>
+<li><a href="https://github.com/weavejester/duct">Duct</a> - Minimal framework for building web applications in Clojure, with a strong emphasis on simplicity.</li>
+<li><a href="https://github.com/zalando/friboo">Friboo</a> - Utility library for writing microservices in Clojure, with support for Swagger and OAuth.</li>
+<li><a href="http://clojure-liberator.github.io/liberator/" rel="nofollow">Liberator</a> - Library that helps you expose your data as resources while automatically complying with all the relevant requirements of the HTTP specification.</li>
+<li><a href="https://modularity.org/" rel="nofollow">Modularity</a> - JUXT's Clojure-based modular system.</li>
+<li><a href="https://github.com/danielsz/system">System</a> - Built on top of Stuart Sierra's component library, offers a set of readymade components.</li>
+<li><a href="https://github.com/otto-de/tesla-microservice">Tesla</a> - Common basis for some of Otto.de's Clojure microservices.</li>
+</ul>
+<h4><a href="#java" aria-hidden="true" class="anchor" id="user-content-java"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java</h4>
+<ul>
+<li><a href="https://github.com/airlift/airlift">Airlift</a> - Framework for building REST services in Java.</li>
+<li><a href="https://github.com/LMAX-Exchange/disruptor">Disruptor</a> - High-performance inter-thread messaging library.</li>
+<li><a href="https://dropwizard.github.io/" rel="nofollow">Dropwizard</a> - Java framework for developing ops-friendly, high-performance, RESTful web services.</li>
+<li><a href="https://github.com/palantir/http-remoting">HTTP Remoting</a> - Libraries for defining and creating RESTish/RPC servers and clients based on Feign or Retrofit as a client and Dropwizard/Jersey with JAX-RS service definitions as a server.</li>
+<li><a href="https://github.com/Sixt/ja-micro">Ja-micro</a> - Lightweight Java framework for building microservices (compatible with go-micro).</li>
+<li><a href="https://jersey.github.io/" rel="nofollow">Jersey</a> - RESTful services in Java. JAX-RS reference implementation.</li>
+<li><a href="https://github.com/wso2/msf4j">MSF4J</a> - High throughput &amp; low memory footprint Java microservices framework.</li>
+<li><a href="https://github.com/advantageous/qbit">QBit</a> - Reactive programming library for building microservices.</li>
+<li><a href="https://ratpack.io/" rel="nofollow">Ratpack</a> - Set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications. specific support for the Groovy language is provided.</li>
+<li><a href="http://restlet.com/" rel="nofollow">Restlet</a> - Helps Java developers build web APIs that follow the REST architecture style.</li>
+<li><a href="http://sparkjava.com/" rel="nofollow">Spark</a> - A micro-framework for creating web applications in Java 8 with minimal effort.</li>
+<li><a href="http://projects.spring.io/spring-boot/" rel="nofollow">Spring Boot</a> - Makes it easy to create stand-alone, production-grade Spring based applications.</li>
+</ul>
+<h4><a href="#scala" aria-hidden="true" class="anchor" id="user-content-scala"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scala</h4>
+<ul>
+<li><a href="http://doc.akka.io/docs/akka-http/current/scala.html" rel="nofollow">Akka HTTP</a> - Open source toolkit for building REST/HTTP-based integration layers on top of Scala and Akka.</li>
+<li><a href="https://github.com/tumblr/colossus">Colossus</a> - I/O and microservice library for Scala.</li>
+<li><a href="http://twitter.github.io/finatra/" rel="nofollow">Finatra</a> - Fast, testable, Scala HTTP services built on Twitter-Server and Finagle.</li>
+<li><a href="http://http4s.org/" rel="nofollow">Http4s</a> - A minimal, idiomatic Scala interface for HTTP</li>
+<li><a href="https://www.playframework.com/" rel="nofollow">Play</a> - The high velocity web framework for Java and Scala.</li>
+<li><a href="http://www.scalatra.org/" rel="nofollow">Scalatra</a> - Simple, accessible and free web micro-framework.</li>
+<li><a href="https://github.com/skinny-framework/skinny-micro">Skinny Micro</a> - Micro-web framework to build servlet applications in Scala.</li>
+<li><a href="http://paypal.github.io/squbs/" rel="nofollow">Squbs</a> - A suite of components enabling standardization and operationalization of Akka and Akka HTTP applications/services in a large scale, managed, cloud environment.</li>
+</ul>
+<h3><a href="#nodejs" aria-hidden="true" class="anchor" id="user-content-nodejs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Node.js</h3>
+<ul>
+<li><a href="http://www.actionherojs.com/" rel="nofollow">Actionhero</a> - Multi-transport Node.js API server with integrated cluster capabilities and delayed tasks.</li>
+<li><a href="https://github.com/wprl/baucis">Baucis</a> - To build and maintain scalable HATEOAS/Level 3 REST APIs.</li>
+<li><a href="https://github.com/dashersw/cote">Cote</a> - A Node.js library for building zero-configuration microservices.</li>
+<li><a href="http://expressjs.com/" rel="nofollow">Express</a> - Fast, unopinionated, minimalist web framework for Node.js</li>
+<li><a href="http://feathersjs.com/" rel="nofollow">FeathersJS</a> - An open source REST and realtime API layer for modern applications.</li>
+<li><a href="https://github.com/GraftJS/graft">Graft</a> - Full-stack javascript through microservices.</li>
+<li><a href="http://hapijs.com/" rel="nofollow">Hapi</a> - A rich framework for building applications and services.</li>
+<li><a href="https://github.com/hudson-taylor/hudson-taylor">Hudson Taylor</a> - Set of libraries for building automatically documented, well validated services.</li>
+<li><a href="http://koajs.com/" rel="nofollow">Koa</a> - Next generation web framework for Node.js</li>
+<li><a href="http://loopback.io/" rel="nofollow">Loopback</a> - Node.js framework for creating APIs and easily connecting to backend data sources.</li>
+<li><a href="http://github.com/zeithq/micro">Micro</a> - Asynchronous HTTP microservices.</li>
+<li><a href="https://github.com/zhaoyao91/micro-panda">Micro Panda</a> - Node.js toolkit to help build microservices.</li>
+<li><a href="https://github.com/czerwonkabartosz/Micro-Whalla">Micro-Whalla</a> - A simple, fast framework for writing microservices in Node.js communicate using RPC / IPC.</li>
+<li><a href="http://moleculer.services/" rel="nofollow">Moleculer</a> - Fast &amp; powerful microservices framework for NodeJS.</li>
+<li><a href="http://restify.com/" rel="nofollow">Restify</a> - Node.js module built specifically to enable you to build correct REST web services.</li>
+<li><a href="http://senecajs.org/" rel="nofollow">Seneca</a> - A microservices toolkit for Node.js</li>
+<li><a href="https://github.com/serverless/serverless">Serverless</a> - Build and maintain web, mobile and IoT applications running on AWS Lambda and API Gateway (formerly known as JAWS).</li>
+<li><a href="https://github.com/99xt/steroidslibrary">Steriods Framework</a> - Steroids framework simplifies the development of microservices with <a href="https://github.com/serverless/serverless">Serverless</a> using TypeScript by enabling the developer to emphasize more on business/domain logic rather than focusing too much on technical details.</li>
+<li><a href="https://stdlib.com/" rel="nofollow">StdLib</a> - Standard library for microservices.</li>
+</ul>
+<h3><a href="#perl" aria-hidden="true" class="anchor" id="user-content-perl"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Perl</h3>
+<ul>
+<li><a href="http://cro.services/" rel="nofollow">Cro</a> - Libraries for creating reactive distributed systems using Perl 6.</li>
+<li><a href="http://mojolicio.us/" rel="nofollow">Mojolicious</a> - Next generation web framework for Perl.</li>
+</ul>
+<h3><a href="#php" aria-hidden="true" class="anchor" id="user-content-php"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PHP</h3>
+<ul>
+<li><a href="https://api-platform.com/" rel="nofollow">API Platform</a> - API-first web framework on top of Symfony with JSON-LD, Schema.org and Hydra support.</li>
+<li><a href="https://fatfreeframework.com/" rel="nofollow">Fat-Free</a> - A powerful yet easy-to-use PHP micro-framework.</li>
+<li><a href="https://github.com/mikecao/flight">Flight</a> - An extensible micro-framework.</li>
+<li><a href="http://kraken-php.com/" rel="nofollow">Kraken</a> - Asynchronous and fault-tolerant PHP framework for distributed applications.</li>
+<li><a href="https://lumen.laravel.com/" rel="nofollow">Lumen</a> - Stunningly fast micro-framework.</li>
+<li><a href="https://phalconphp.com/" rel="nofollow">Phalcon</a> - Full-stack PHP framework delivered as a C-extension.</li>
+<li><a href="http://silex.sensiolabs.org/" rel="nofollow">Silex</a> - Micro-framework based on the Symfony components.</li>
+<li><a href="http://www.slimframework.com/" rel="nofollow">Slim</a> - Micro-framework that helps you quickly write simple yet powerful web applications and APIs.</li>
+<li><a href="https://github.com/Zizaco/upswarm">Upswarm</a> - Multi-processed, async, fault-tolerant micro-framework for writing service-oriented applications.</li>
+</ul>
+<h3><a href="#python" aria-hidden="true" class="anchor" id="user-content-python"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Python</h3>
+<ul>
+<li><a href="http://aiohttp.readthedocs.io/en/stable/" rel="nofollow">Aiohttp</a> - HTTP client/server for asyncio.</li>
+<li><a href="https://github.com/tomchristie/apistar">API Star</a> - A fast and expressive API framework, designed for Python 3.</li>
+<li><a href="http://flask.pocoo.org/" rel="nofollow">Flask</a> - Python framework for microservices based on Werkzeug and Jinja 2.</li>
+<li><a href="https://github.com/onefinestay/nameko">Nameko</a> - Python framework for building microservices.</li>
+<li><a href="https://github.com/channelcat/sanic">Sanic</a> - Sanic is a Flask-like Python 3.5+ web server that's written to go fast.</li>
+<li><a href="http://www.tornadoweb.org/" rel="nofollow">Tornado</a> - Web framework and asynchronous networking library.</li>
+<li><a href="https://twistedmatrix.com/trac/" rel="nofollow">Twisted</a> - Event-driven network programming engine.</li>
+<li><a href="https://github.com/webpy/webpy/">Web.py</a> - Minimalist web framework for Python.</li>
+<li><a href="https://github.com/Miserlou/Zappa">Zappa</a> - Framework for building and deploying server-less Python event-driven and web applications.</li>
+</ul>
+<h3><a href="#ruby" aria-hidden="true" class="anchor" id="user-content-ruby"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby</h3>
+<ul>
+<li><a href="https://github.com/hanami">Hanami</a> - A modern web framework for Ruby.</li>
+<li><a href="https://github.com/rightscale/praxis">Praxis</a> - Framework for both designing and implementing APIs.</li>
+<li><a href="http://edgeguides.rubyonrails.org/api_app.html" rel="nofollow">Rails API</a> - Rails as an API only.</li>
+<li><a href="https://github.com/wardrop/Scorched">Scorched</a> - Light-weight web framework for Ruby.</li>
+<li><a href="http://www.sinatrarb.com/" rel="nofollow">Sinatra</a> - Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort.</li>
+</ul>
+<h2><a href="#capabilities" aria-hidden="true" class="anchor" id="user-content-capabilities"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Capabilities</h2>
+<h3><a href="#api-gateways--edge-services" aria-hidden="true" class="anchor" id="user-content-api-gateways--edge-services"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API Gateways / Edge Services</h3>
+<ul>
+<li><a href="https://github.com/amalgam8">Amalgam8</a> - Content-based routing fabric for polyglot microservices.</li>
+<li><a href="https://github.com/nebo15/annon.api">Annon</a> - Open source API gateway with built-in API management, authentication and status pages written in Elixir.</li>
+<li><a href="https://caddyserver.com/" rel="nofollow">Caddy</a> - Extensible HTTP/2 web server with automatic HTTPS.</li>
+<li><a href="http://camel.apache.org/" rel="nofollow">Camel</a> - Empowers you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based fluent API, Spring or Blueprint XML configuration files, and a Scala DSL.</li>
+<li><a href="https://github.com/lyft/envoy">Envoy</a> - Open source edge and service proxy, from the developers at Lyft.</li>
+<li><a href="https://github.com/eBay/fabio">Fabio</a> - A fast, modern, zero-conf load balancing HTTP/S router for deploying microservices managed by Consul.</li>
+<li><a href="http://www.haproxy.org/" rel="nofollow">HAProxy</a> - Reliable, high Performance TCP/HTTP load balancer.</li>
+<li><a href="https://istio.io/" rel="nofollow">Istio</a> - An open platform to connect, manage, and secure microservices.</li>
+<li><a href="https://github.com/hellofresh/janus">Janus</a> - An API Gateway written in Go.</li>
+<li><a href="http://www.keepalived.org/" rel="nofollow">Keepalived</a> - Simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures.</li>
+<li><a href="https://getkong.org/" rel="nofollow">Kong</a> - Open source management layer for APIs.</li>
+<li><a href="https://linkerd.io/" rel="nofollow">Linkerd</a> - Resilient service mesh for cloud native apps.</li>
+<li><a href="https://github.com/eBay/Neutrino">Neutrino</a> - Extensible software load balancer.</li>
+<li><a href="http://openresty.org/" rel="nofollow">OpenResty</a> - Fast web application server built on top of Nginx.</li>
+<li><a href="https://github.com/zalando/skipper">Skipper</a> - HTTP router useful for decoupling routing from service logic.</li>
+<li><a href="https://cloud.spring.io/spring-cloud-gateway/" rel="nofollow">Spring Cloud Gateway</a> - API Gateway on top of Spring MVC. Aims to provide a simple, yet effective way to route to APIs.</li>
+<li><a href="http://tengine.taobao.org/" rel="nofollow">Tengine</a> - A distribution of Nginx with some advanced features.</li>
+<li><a href="http://traefik.io/" rel="nofollow">Træfɪk</a> - A modern HTTP reverse proxy and load balancer made to deploy microservices with ease.</li>
+<li><a href="https://github.com/apache/trafficserver">Traffic Server</a> - High-performance building block for cloud services.</li>
+<li><a href="https://tyk.io/" rel="nofollow">Tyk</a> - Open source, fast and scalable API gateway, portal and API management platform.</li>
+<li><a href="https://github.com/vulcand/vulcand">Vulcand</a> - Programmatic load balancer backed by Etcd.</li>
+<li><a href="https://github.com/Netflix/zuul">Zuul</a> - An edge service that provides dynamic routing, monitoring, resiliency, security, and more.</li>
+</ul>
+<h3><a href="#configuration-and-discovery" aria-hidden="true" class="anchor" id="user-content-configuration-and-discovery"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration and Discovery</h3>
+<ul>
+<li><a href="https://www.consul.io/" rel="nofollow">Consul</a> - Service discovery and configuration made easy. Distributed, highly available, and datacenter-aware.</li>
+<li><a href="https://github.com/joyent/containerpilot">ContainerPilot</a> - Service for autodiscovery and configuration of applications running in containers.</li>
+<li><a href="https://github.com/Netflix/denominator">Denominator</a> - Portably control DNS clouds using java or bash.</li>
+<li><a href="https://github.com/ha/doozerd">Doozer</a> - Highly-available, completely consistent store for small amounts of data. When the data changes, it can notify connected clients immediately.</li>
+<li><a href="https://github.com/coreos/etcd">Etcd</a> - Highly-available key-value store for shared configuration and service discovery.</li>
+<li><a href="https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance">Eureka</a> - REST based service that is primarily used in the AWS cloud for locating services for the purpose of load balancing and failover of middle-tier servers.</li>
+<li><a href="https://github.com/rogeralsing/Microphone">Microphone</a> - Lightweight .NET framework to run self hosting REST services using Web Api or NancyFx on top of a Consul or Etcd cluster.</li>
+<li><a href="https://github.com/gliderlabs/registrator">Registrator</a> - Service registry bridge for Docker. Supports pluggable service registries, which currently includes Consul, Etcd and SkyDNS 2.</li>
+<li><a href="https://github.com/nanopack/shaman">Shaman</a> - Small, lightweight, api-driven DNS server.</li>
+<li><a href="https://github.com/skynetservices/skydns">SkyDNS</a> - Distributed service for announcement and discovery of services built on top of etcd. It utilizes DNS queries to discover available services.</li>
+<li><a href="https://github.com/airbnb/smartstack-cookbook">SmartStack</a> - Airbnb's automated service discovery and registration framework.</li>
+<li><a href="http://cloud.spring.io/spring-cloud-config/" rel="nofollow">Spring Cloud Config</a> - Provides server and client-side support for externalized configuration in a distributed system.</li>
+<li><a href="https://zookeeper.apache.org/" rel="nofollow">ZooKeeper</a> - Open source server which enables highly reliable distributed coordination.</li>
+</ul>
+<h3><a href="#coordination-and-governance" aria-hidden="true" class="anchor" id="user-content-coordination-and-governance"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Coordination and Governance</h3>
+<ul>
+<li><a href="https://aws.amazon.com/step-functions/" rel="nofollow">AWS Step Functions <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Coordinate the components of distributed applications and microservices using visual workflows.</li>
+<li><a href="https://azuqua.com/" rel="nofollow">Azuqua <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Orchestration and governance platform for distributed applications.</li>
+<li><a href="https://github.com/Netflix/conductor">Conductor</a> - A microservices orchestration engine.</li>
+<li><a href="https://github.com/fission/fission-workflows">Fission Workflows</a> - Workflow-based, reliable function composition for serverless functions.</li>
+</ul>
+<h3><a href="#elasticity" aria-hidden="true" class="anchor" id="user-content-elasticity"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Elasticity</h3>
+<ul>
+<li><a href="http://www.paralleluniverse.co/galaxy/" rel="nofollow">Galaxy</a> - Open source high-performance in-memory data-grid.</li>
+<li><a href="http://reverbrain.com/grape/" rel="nofollow">Grape</a> - Realtime processing pipeline.</li>
+<li><a href="http://hazelcast.org/" rel="nofollow">Hazelcast</a> - Open source in-memory data-grid. Allows you to distribute data and computation across servers, clusters and geographies, and to manage very large data sets or high data ingest rates. Mature technology.</li>
+<li><a href="http://helix.apache.org/" rel="nofollow">Helix</a> - Generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes.</li>
+<li><a href="http://ignite.apache.org/" rel="nofollow">Ignite</a> - High-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies.</li>
+<li><a href="https://mesosphere.github.io/marathon/" rel="nofollow">Marathon</a> - Deploy and manage containers (including Docker) on top of Apache Mesos at scale.</li>
+<li><a href="https://mesos.apache.org/" rel="nofollow">Mesos</a> - Abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.</li>
+<li><a href="https://www.nomadproject.io/" rel="nofollow">Nomad</a> - Distributed, highly available, datacenter-aware scheduler.</li>
+<li><a href="https://github.com/onyx-platform/onyx">Onyx</a> - Distributed, masterless, high performance, fault tolerant data processing for Clojure.</li>
+<li><a href="https://github.com/boundary/ordasity">Ordasity</a> - Designed to spread persistent or long-lived workloads across several machines.</li>
+<li><a href="https://github.com/mrniko/redisson">Redisson</a> - Distributed and scalable Java data structures on top of Redis server.</li>
+<li><a href="https://www.serfdom.io/" rel="nofollow">Serf</a> - Decentralized solution for cluster membership, failure detection and orchestration.</li>
+</ul>
+<h3><a href="#job-schedulers--workload-automation" aria-hidden="true" class="anchor" id="user-content-job-schedulers--workload-automation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Job Schedulers / Workload Automation</h3>
+<ul>
+<li><a href="http://www.celeryproject.org" rel="nofollow">Celery</a> - Asynchronous task queue/job queue based on distributed message passing. Focused on real-time operation and supports scheduling.</li>
+<li><a href="https://github.com/mesos/chronos">Chronos</a> - Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules.</li>
+<li><a href="https://github.com/Netflix/Fenzo">Fenzo</a> - Extensible scheduler for Mesos frameworks.</li>
+<li><a href="http://www.sos-berlin.com/jobscheduler" rel="nofollow">JobScheduler</a> - Open Source solution for enterprise-level workload automation. It is used to launch executable files and shell scripts and to run database procedures automatically.</li>
+<li><a href="http://rundeck.org/" rel="nofollow">Rundeck</a> - Job scheduler and runbook automation. Enable self-service access to existing scripts and tools.</li>
+<li><a href="http://www.schedulix.org/en" rel="nofollow">Schedulix</a> - Open source enterprise job scheduling system lays down ground-breaking standards for the professional automation of IT processes in advanced system environments.</li>
+</ul>
+<h3><a href="#logging" aria-hidden="true" class="anchor" id="user-content-logging"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Logging</h3>
+<ul>
+<li><a href="https://github.com/trentm/node-bunyan">Bunyan</a> - Simple and fast JSON logging library for Node.js services.</li>
+<li><a href="http://www.fluentd.org/" rel="nofollow">Fluentd</a> - Open source data collector for unified logging layer.</li>
+<li><a href="https://www.graylog.org/" rel="nofollow">Graylog</a> - Fully integrated open source log management platform.</li>
+<li><a href="https://www.elastic.co/products/kibana" rel="nofollow">Kibana</a> - Flexible analytics and visualization platform.</li>
+<li><a href="https://www.elastic.co/products/logstash" rel="nofollow">Logstash</a> - Tool for managing events and logs.</li>
+<li><a href="https://github.com/Netflix/suro/wiki">Suro</a> - Distributed data pipeline which enables services for moving, aggregating, routing, storing data.</li>
+</ul>
+<h3><a href="#messaging" aria-hidden="true" class="anchor" id="user-content-messaging"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Messaging</h3>
+<ul>
+<li><a href="http://zeromq.org/" rel="nofollow">ØMQ</a> - Brokerless intelligent transport layer.</li>
+<li><a href="http://activemq.apache.org/" rel="nofollow">ActiveMQ</a> - Powerful open source messaging and integration patterns server.</li>
+<li><a href="https://github.com/real-logic/Aeron">Aeron</a> - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.</li>
+<li><a href="http://activemq.apache.org/apollo/" rel="nofollow">Apollo</a> - Faster, more reliable, easier to maintain messaging broker built from the foundations of the original ActiveMQ.</li>
+<li><a href="https://github.com/mcollina/ascoltatori">Ascoltatori</a> - Pub/sub library for Node.</li>
+<li><a href="http://kr.github.io/beanstalkd/" rel="nofollow">Beanstalk</a> - Simple, fast work queue.</li>
+<li><a href="https://github.com/antirez/disque">Disque</a> - Distributed message broker.</li>
+<li><a href="http://kafka.apache.org/" rel="nofollow">Kafka</a> - Publish-subscribe messaging rethought as a distributed commit log.</li>
+<li><a href="https://github.com/zeromq/malamute">Malamute</a> - ZeroMQ enterprise messaging broker.</li>
+<li><a href="https://github.com/nanopack/mist">Mist</a> - A distributed, tag-based pub/sub service.</li>
+<li><a href="http://www.mosca.io/" rel="nofollow">Mosca</a> - MQTT broker as a module.</li>
+<li><a href="http://mosquitto.org/" rel="nofollow">Mosquitto</a> - Open source message broker that implements the MQTT protocol.</li>
+<li><a href="http://nanomsg.org/" rel="nofollow">Nanomsg</a> - Socket library that provides several common communication patterns for building distributed systems.</li>
+<li><a href="https://nats.io/" rel="nofollow">NATS</a> - Open source, high-performance, lightweight cloud messaging system.</li>
+<li><a href="http://nsq.io/" rel="nofollow">NSQ</a> - A realtime distributed messaging platform.</li>
+<li><a href="https://qpid.apache.org/" rel="nofollow">Qpid</a> - Cross-platform messaging components built on AMQP.</li>
+<li><a href="https://www.rabbitmq.com/" rel="nofollow">RabbitMQ</a> - Open source Erlang-based message broker that just works.</li>
+<li><a href="https://github.com/apache/incubator-rocketmq">RocketMQ</a> - A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business.</li>
+<li><a href="https://verne.mq" rel="nofollow">VerneMQ</a> - Open source, scalable, Erlang-based MQTT broker.</li>
+</ul>
+<h3><a href="#monitoring-and-debugging" aria-hidden="true" class="anchor" id="user-content-monitoring-and-debugging"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Monitoring and Debugging</h3>
+<ul>
+<li><a href="https://www.elastic.co/products/beats" rel="nofollow">Beats</a> - Lightweight shippers for Elasticsearch &amp; Logstash.</li>
+<li><a href="https://collectd.org/" rel="nofollow">Collectd</a> - The system statistics collection daemon.</li>
+<li><a href="https://github.com/yelp/elastalert">Elastalert</a> - Easy &amp; flexible alerting for Elasticsearch.</li>
+<li><a href="http://ganglia.info/" rel="nofollow">Ganglia</a> - A scalable distributed monitoring system for high-performance computing systems such as clusters and grids.</li>
+<li><a href="http://grafana.org/" rel="nofollow">Grafana</a> - An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB &amp; OpenTSDB.</li>
+<li><a href="http://graphite.wikidot.com/" rel="nofollow">Graphite</a> - Scalable realtime graphing.</li>
+<li><a href="https://www.iopipe.com/" rel="nofollow">IOpipe <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Application performance monitoring for Amazon Lambda.</li>
+<li><a href="https://github.com/eBay/parallec">Parallec</a> - Fast parallel asynchronous HTTP/SSH/TCP/Ping client Java library.</li>
+<li><a href="http://prometheus.io/" rel="nofollow">Prometheus</a> - An open source service monitoring system and time series database.</li>
+<li><a href="https://github.com/eBay/restcommander">REST Commander</a> - Fast parallel asynchronous HTTP client as a service to monitor and manage HTTP endpoints.</li>
+<li><a href="http://riemann.io/" rel="nofollow">Riemann</a> - Monitors distributed systems.</li>
+<li><a href="https://github.com/sensu">Sensu</a> - Monitoring for today's infrastructure.</li>
+<li><a href="https://github.com/RisingStack/trace-nodejs">Trace</a> - A visualised stack trace platform designed for microservices.</li>
+<li><a href="https://www.elastic.co/products/watcher" rel="nofollow">Watcher</a> - Alerting for Elasticsearch.</li>
+<li><a href="http://www.zabbix.com/" rel="nofollow">Zabbix</a> - Open source enterprise-class monitoring solution.</li>
+<li><a href="http://zipkin.io" rel="nofollow">Zipkin</a> - Distributed tracing system.</li>
+</ul>
+<h3><a href="#reactivity" aria-hidden="true" class="anchor" id="user-content-reactivity"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reactivity</h3>
+<ul>
+<li><a href="http://projectreactor.io" rel="nofollow">Reactor.io</a> - A second-generation Reactive library for building non-blocking applications on the JVM based on the Reactive Streams Specification.</li>
+<li><a href="https://github.com/softwaremill/reactive-kafka">Reactive Kafka</a> - Reactive Streams API for Apache Kafka.</li>
+<li><a href="http://reactivex.io/" rel="nofollow">ReactiveX</a> - API for asynchronous programming with observable streams. Available for idiomatic Java, Scala, C#, C++, Clojure, JavaScript, Python, Groovy, JRuby, and others.</li>
+<li><a href="https://github.com/aol/simple-react">Simple React</a> - Powerful future streams &amp; asynchronous data structures for Java 8.</li>
+</ul>
+<h3><a href="#resilience" aria-hidden="true" class="anchor" id="user-content-resilience"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resilience</h3>
+<ul>
+<li><a href="https://github.com/Netflix/Hystrix">Hystrix</a> - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.</li>
+<li><a href="http://pathod.net/" rel="nofollow">Pathod</a> - Crafted malice for tormenting HTTP clients and servers.</li>
+<li><a href="http://raftconsensus.github.io/" rel="nofollow">Raft Consensus</a> - Consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance.</li>
+<li><a href="http://resilient-http.github.io/" rel="nofollow">Resilient HTTP</a> - A smart HTTP client with super powers like fault tolerance, dynamic server discovery, auto balancing and reactive recovery, designed for distributed systems.</li>
+<li><a href="https://github.com/tomakehurst/saboteur">Saboteur</a> - Causing deliberate network mayhem for better resilience.</li>
+<li><a href="https://github.com/Shopify/semian">Semian</a> - Resiliency toolkit for Ruby for failing fast.</li>
+<li><a href="https://github.com/Netflix/SimianArmy">Simian Army</a> - Suite of tools for keeping your cloud operating in top form. Chaos Monkey, the first member, is a resiliency tool that helps ensure that your applications can tolerate random instance failures.</li>
+<li><a href="https://github.com/shopify/toxiproxy">Toxiproxy</a> - TCP proxy to simulate network and system conditions for chaos and resiliency testing.</li>
+</ul>
+<h3><a href="#security" aria-hidden="true" class="anchor" id="user-content-security"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h3>
+<ul>
+<li><a href="https://github.com/spotify/crtauth">Crtauth</a> - A public key backed client/server authentication system.</li>
+<li><a href="https://github.com/coreos/dex">Dex</a> - Opinionated auth/directory service with pluggable connectors. OpenID Connect provider and third-party OAuth 2.0 delegation.</li>
+<li><a href="http://jwt.io/" rel="nofollow">JWT</a> - JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.</li>
+<li><a href="https://github.com/keycloak/keycloak">Keycloak</a> - Full-featured and extensible auth service. OpenID Connect provider and third-party OAuth 2.0 delegation.</li>
+<li><a href="https://github.com/networknt/light-oauth2">Light OAuth2</a> - A fast, lightweight and cloud native OAuth 2.0 authorization microservices based on light-java.</li>
+<li><a href="https://github.com/lipp/login-with">Login With</a> - Stateless login-with microservice for Google, FB, Github, and more.</li>
+<li><a href="http://oauth.net/2/" rel="nofollow">OAuth</a> - Provides specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. Many implementations.</li>
+<li><a href="http://openid.net/developers/libraries/" rel="nofollow">OpenID Connect</a> - Libraries, products, and tools implementing current OpenID specifications and related specs.</li>
+<li><a href="https://github.com/osiam/osiam">OSIAM</a> - Open source identity and access management implementing OAuth 2.0 and SCIMv2.</li>
+<li><a href="http://www.simplecloud.info/" rel="nofollow">SCIM</a> - System for Cross-domain Identity Management.</li>
+<li><a href="https://www.vaultproject.io/" rel="nofollow">Vault</a> - Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing.</li>
+</ul>
+<h3><a href="#serialization" aria-hidden="true" class="anchor" id="user-content-serialization"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Serialization</h3>
+<ul>
+<li><a href="https://avro.apache.org/" rel="nofollow">Avro</a> - Apache data serialization system providing rich data structures in a compact, fast, binary data format.</li>
+<li><a href="https://github.com/ochrons/boopickle">BooPickle</a> - Binary serialization library for efficient network communication. For Scala and Scala.js</li>
+<li><a href="https://capnproto.org/" rel="nofollow">Cap’n Proto</a> - Insanely fast data interchange format and capability-based RPC system.</li>
+<li><a href="http://cbor.io/" rel="nofollow">CBOR</a> - Implementations of the CBOR standard (RFC 7049) in many languages.</li>
+<li><a href="http://uscilab.github.io/cereal/" rel="nofollow">Cereal</a> - C++11 library for serialization.</li>
+<li><a href="https://github.com/dakrone/cheshire">Cheshire</a> - Clojure JSON and JSON SMILE encoding/decoding.</li>
+<li><a href="http://etch.apache.org/" rel="nofollow">Etch</a> - Cross-platform, language and transport-independent framework for building and consuming network services.</li>
+<li><a href="https://github.com/alibaba/fastjson">Fastjson</a> - Fast JSON Processor.</li>
+<li><a href="https://github.com/pquerna/ffjson">Ffjson</a> - Faster JSON serialization for Go.</li>
+<li><a href="https://github.com/RuedigerMoeller/fast-serialization">FST</a> - Fast java serialization drop in-replacemen.</li>
+<li><a href="https://github.com/FasterXML/jackson">Jackson</a> -  A multi-purpose Java library for processing JSON data format.</li>
+<li><a href="https://github.com/FasterXML/jackson-module-afterburner">Jackson Afterburner</a> - Jackson module that uses bytecode generation to further speed up data binding (+30-40% throughput for serialization, deserialization).</li>
+<li><a href="https://github.com/EsotericSoftware/kryo">Kryo</a> - Java serialization and cloning: fast, efficient, automatic.</li>
+<li><a href="http://msgpack.org/" rel="nofollow">MessagePack</a> - Efficient binary serialization format.</li>
+<li><a href="https://github.com/protostuff/protostuff">Protostuff</a> - A serialization library with built-in support for forward-backward compatibility (schema evolution) and validation.</li>
+<li><a href="https://github.com/harrah/sbinary">SBinary</a> - Library for describing binary formats for Scala types.</li>
+<li><a href="http://thrift.apache.org/" rel="nofollow">Thrift</a> - The Apache Thrift software framework, for scalable cross-language services development.</li>
+</ul>
+<h3><a href="#storage" aria-hidden="true" class="anchor" id="user-content-storage"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Storage</h3>
+<ul>
+<li><a href="https://hive.apache.org/" rel="nofollow">Apache Hive</a> - Data warehouse infrastructure built on top of Hadoop.</li>
+<li><a href="http://cassandra.apache.org" rel="nofollow">Apache Cassandra</a> - Column-oriented and providing high availability with no single point of failure.</li>
+<li><a href="http://hbase.apache.org" rel="nofollow">Apache HBase</a> - Hadoop database for big data.</li>
+<li><a href="http://www.aerospike.com/" rel="nofollow">Aerospike <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - High performance NoSQL database delivering speed at scale.</li>
+<li><a href="https://www.arangodb.com/" rel="nofollow">ArangoDB</a> - A distributed free and open source database with a flexible data model for documents, graphs, and key-values.</li>
+<li><a href="https://github.com/palantir/atlasdb">AtlasDB</a> - Transactional layer on top of a key value store.</li>
+<li><a href="https://clickhouse.yandex/" rel="nofollow">ClickHouse</a> - Column-oriented database management system that allows generating analytical data reports in real time.</li>
+<li><a href="https://www.cockroachlabs.com/product/cockroachdb-core/" rel="nofollow">CockroachDB <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - A cloud-native SQL database modelled after Google Spanner.</li>
+<li><a href="http://www.couchbase.com/" rel="nofollow">Couchbase</a> - A distributed database engineered for performance, scalability, and simplified administration.</li>
+<li><a href="https://crate.io/" rel="nofollow">Crate <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Scalable SQL database with the NoSQL goodies.</li>
+<li><a href="http://www.datomic.com/" rel="nofollow">Datomic</a> - Fully transactional, cloud-ready, distributed database.</li>
+<li><a href="http://druid.io/" rel="nofollow">Druid</a> - Fast column-oriented distributed data store.</li>
+<li><a href="https://www.elastic.co/products/elasticsearch" rel="nofollow">Elasticsearch</a> - Open source distributed, scalable, and highly available search server.</li>
+<li><a href="http://reverbrain.com/elliptics/" rel="nofollow">Elliptics</a> - Fault tolerant distributed key/value storage.</li>
+<li><a href="http://geode.incubator.apache.org/" rel="nofollow">Geode</a> - Open source, distributed, in-memory database for scale-out applications.</li>
+<li><a href="http://infinispan.org/" rel="nofollow">Infinispan</a> - Highly concurrent key/value datastore used for caching.</li>
+<li><a href="https://github.com/influxdata/influxdb">InfluxDB</a> - Scalable datastore for metrics, events, and real-time analytics.</li>
+<li><a href="https://www.joyent.com/manta" rel="nofollow">Manta</a> - Highly scalable, distributed object storage service with integrated compute.</li>
+<li><a href="http://www.memsql.com/" rel="nofollow">MemSQL <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - High-performance, in-memory database that combines the horizontal scalability of distributed systems with the familiarity of SQL.</li>
+<li><a href="http://opentsdb.net" rel="nofollow">OpenTSDB</a> - Scalable and distributed time series database written on top of Apache HBase.</li>
+<li><a href="https://parquet.apache.org/" rel="nofollow">Parquet</a> - Columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.</li>
+<li><a href="https://github.com/reborndb/reborn">Reborn</a> - Distributed database fully compatible with redis protocol.</li>
+<li><a href="http://rethinkdb.com/" rel="nofollow">RethinkDB</a> - Open source, scalable database that makes building realtime apps easier.</li>
+<li><a href="https://github.com/ssbc/docs">Secure Scuttlebutt</a> - P2P database of message-feeds.</li>
+<li><a href="http://tachyon-project.org/" rel="nofollow">Tachyon</a> - Memory-centric distributed storage system, enabling reliable data sharing at memory-speed across cluster frameworks.</li>
+<li><a href="https://github.com/voldemort/voldemort">Voldemort</a> - Open source clone of Amazon DynamoDB</li>
+<li><a href="https://www.voltdb.com/" rel="nofollow">VoltDB <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - In-Memory ACID compliant distributed database.</li>
+</ul>
+<h3><a href="#testing" aria-hidden="true" class="anchor" id="user-content-testing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Testing</h3>
+<ul>
+<li><a href="https://github.com/buger/goreplay">Goreplay</a> - A tool for capturing and replaying live HTTP traffic into a test environment.</li>
+<li><a href="https://mitmproxy.org/" rel="nofollow">Mitmproxy</a> - An interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed.</li>
+<li><a href="http://www.mbtest.org/" rel="nofollow">Mountebank</a> - Cross-platform, multi-protocol test doubles over the wire.</li>
+<li><a href="https://cloud.spring.io/spring-cloud-contract/" rel="nofollow">Spring Cloud Contract</a> - TDD to the level of software architecture.</li>
+<li><a href="https://github.com/vcr/vcr">VCR</a> - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests. See the list of ports for implementations in other languages.</li>
+<li><a href="https://github.com/epam/Wilma">Wilma</a> - Combined HTTP/HTTPS service stub and transparent proxy solution.</li>
+<li><a href="http://wiremock.org/" rel="nofollow">WireMock</a> - Flexible library for stubbing and mocking web services. Unlike general purpose mocking tools it works by creating an actual HTTP server that your code under test can connect to as it would a real web service.</li>
+</ul>
+<h2><a href="#continuous-integration-and-continuous-delivery" aria-hidden="true" class="anchor" id="user-content-continuous-integration-and-continuous-delivery"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Continuous Integration and Continuous Delivery</h2>
+<ul>
+<li><a href="https://github.com/ciandcd/awesome-ciandcd">Awesome CI/CD DevOps</a> - A curated list of awesome tools for continuous integration, continuous delivery and DevOps.</li>
+</ul>
+<h2><a href="#documentation--modeling" aria-hidden="true" class="anchor" id="user-content-documentation--modeling"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation &amp; Modeling</h2>
+<h3><a href="#rest-apis" aria-hidden="true" class="anchor" id="user-content-rest-apis"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>REST APIs</h3>
+<ul>
+<li><a href="https://github.com/danielgtaylor/aglio">Aglio</a> - API Blueprint renderer with theme support that outputs static HTML.</li>
+<li><a href="https://apiblueprint.org/" rel="nofollow">API Blueprint</a> - Tools for your whole API lifecycle. Use it to discuss your API with others. Generate documentation automatically. Or a test suite. Or even some code.</li>
+<li><a href="https://github.com/mbryzek/apidoc">Apidoc</a> - Beautiful documentation for REST services.</li>
+<li><a href="http://raml.org/" rel="nofollow">RAML</a> - RESTful API Modeling Language, a simple and succinct way of describing practically-RESTful APIs.</li>
+<li><a href="https://github.com/tripit/slate">Slate</a> - Beautiful static documentation for your API.</li>
+<li><a href="http://projects.spring.io/spring-restdocs/" rel="nofollow">Spring REST Docs</a> - Document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test.</li>
+<li><a href="http://swagger.io/" rel="nofollow">Swagger</a> - A simple yet powerful representation of your RESTful API.</li>
+</ul>
+<h2><a href="#standards--recommendations" aria-hidden="true" class="anchor" id="user-content-standards--recommendations"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Standards / Recommendations</h2>
+<h3><a href="#world-wide-web" aria-hidden="true" class="anchor" id="user-content-world-wide-web"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>World Wide Web</h3>
+<ul>
+<li><a href="http://www.w3.org/TR/webarch/" rel="nofollow">W3C.REC-Webarch</a> - Architecture of the World Wide Web, Volume One.</li>
+<li><a href="https://tools.ietf.org/html/rfc3986" rel="nofollow">RFC3986</a> - Uniform Resource Identifier (URI): Generic Syntax.</li>
+<li><a href="https://tools.ietf.org/html/rfc6570" rel="nofollow">RFC6570</a> - URI Template.</li>
+<li><a href="https://tools.ietf.org/html/rfc7320" rel="nofollow">RFC7320</a> - URI Design and Ownership.</li>
+</ul>
+<h3><a href="#http11" aria-hidden="true" class="anchor" id="user-content-http11"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTTP/1.1</h3>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc7230" rel="nofollow">RFC7230</a> - Message Syntax and Routing.</li>
+<li><a href="https://tools.ietf.org/html/rfc7231" rel="nofollow">RFC7231</a> - Semantics and Content.</li>
+<li><a href="https://tools.ietf.org/html/rfc7232" rel="nofollow">RFC7232</a> - Conditional Requests.</li>
+<li><a href="https://tools.ietf.org/html/rfc7233" rel="nofollow">RFC7233</a> - Range Requests.</li>
+<li><a href="https://tools.ietf.org/html/rfc7234" rel="nofollow">RFC7234</a> - Caching.</li>
+<li><a href="https://tools.ietf.org/html/rfc7235" rel="nofollow">RFC7235</a> - Authentication.</li>
+</ul>
+<h3><a href="#http2" aria-hidden="true" class="anchor" id="user-content-http2"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTTP/2</h3>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc7540" rel="nofollow">RFC7540</a> - Hypertext Transfer Protocol Version 2.</li>
+</ul>
+<h3><a href="#coap" aria-hidden="true" class="anchor" id="user-content-coap"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CoAP</h3>
+<ul>
+<li><a href="http://coap.technology/spec.html" rel="nofollow">RFC7252</a> - The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained networks in the Internet of Things.</li>
+</ul>
+<h3><a href="#rpc" aria-hidden="true" class="anchor" id="user-content-rpc"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RPC</h3>
+<ul>
+<li><a href="http://bert-rpc.org/" rel="nofollow">BERT-RPC 1.0</a> - An attempt to specify a flexible binary serialization and RPC protocol that are compatible with the philosophies of dynamic languages.</li>
+<li><a href="http://www.jsonrpc.org/specification" rel="nofollow">JSON-RPC 2.0</a> - A stateless, light-weight remote procedure call (RPC) protocol.</li>
+</ul>
+<h3><a href="#messaging-1" aria-hidden="true" class="anchor" id="user-content-messaging-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Messaging</h3>
+<ul>
+<li><a href="http://www.amqp.org/" rel="nofollow">AMQP</a> - Advanced Message Queuing Protocol.</li>
+<li><a href="http://mqtt.org/" rel="nofollow">MQTT</a> - MQ Telemetry Transport.</li>
+<li><a href="https://stomp.github.io/" rel="nofollow">STOMP</a> - Simple Text Oriented Messaging Protocol.</li>
+</ul>
+<h3><a href="#security-1" aria-hidden="true" class="anchor" id="user-content-security-1"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Security</h3>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc5246" rel="nofollow">RFC5246</a> - The Transport Layer Security (TLS) Protocol Version 1.2.</li>
+<li><a href="https://tools.ietf.org/html/rfc6066" rel="nofollow">RFC6066</a> - TLS Extensions.</li>
+<li><a href="https://tools.ietf.org/html/rfc6347" rel="nofollow">RFC6347</a> - Datagram Transport Layer Security Version 1.2.</li>
+<li><a href="https://tools.ietf.org/html/rfc6749" rel="nofollow">RFC6749</a> - The OAuth 2.0 authorization framework.</li>
+<li><a href="https://tools.ietf.org/html/rfc7515" rel="nofollow">RFC7515</a> - JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures.</li>
+<li><a href="https://tools.ietf.org/html/rfc7519" rel="nofollow">RFC7519</a> - JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties.</li>
+<li><a href="https://tools.ietf.org/html/rfc7642" rel="nofollow">RFC7642</a> - SCIM: Definitions, overview, concepts, and requirements.</li>
+<li><a href="https://tools.ietf.org/html/rfc7643" rel="nofollow">RFC7643</a> - SCIM: Core Schema, provides a platform-neutral schema and extension model for representing users and groups.</li>
+<li><a href="https://tools.ietf.org/html/rfc7644" rel="nofollow">RFC7644</a> - SCIM: Protocol, an application-level, REST protocol for provisioning and managing identity data on the web.</li>
+<li><a href="http://openid.net/connect/" rel="nofollow">OIDCONN</a> - OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the end-user based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner.</li>
+</ul>
+<h3><a href="#service-discovery" aria-hidden="true" class="anchor" id="user-content-service-discovery"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Service Discovery</h3>
+<ul>
+<li><a href="https://tools.ietf.org/html/draft-kelly-json-hal-07" rel="nofollow">HAL</a> - The JSON Hypertext Application Language (HAL) is a standard which establishes conventions for expressing hypermedia controls, such as links, with JSON. <sup>DRAFT</sup></li>
+<li><a href="http://www.hydra-cg.com/" rel="nofollow">Hydra</a> - Specifications for interoperable, hypermedia-driven Web APIs.</li>
+<li><a href="http://graphql.org/" rel="nofollow">GraphQL</a> - Query language designed to build client applications by providing an intuitive and flexible syntax and system for describing their data requirements and interactions. <sup>DRAFT</sup></li>
+<li><a href="http://www.w3.org/Submission/wadl/" rel="nofollow">WADL</a> - The Web Application Description Language specification.</li>
+<li><a href="http://www.w3.org/TR/wsdl20/" rel="nofollow">WSDL</a> - The Web Services Description Language Version 2.0 spec.</li>
+</ul>
+<h3><a href="#data-formats" aria-hidden="true" class="anchor" id="user-content-data-formats"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data Formats</h3>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc4627" rel="nofollow">RFC4627</a> - JavaScript Object Notation (JSON).</li>
+<li><a href="http://tools.ietf.org/search/rfc7049" rel="nofollow">RFC7049</a> - Concise Binary Object Representation (CBOR).</li>
+<li><a href="http://bsonspec.org/" rel="nofollow">BSON</a> - Binary JSON (BSON).</li>
+<li><a href="http://json-ld.org/" rel="nofollow">JSON-LD</a> - JSON for Linking Data.</li>
+<li><a href="https://github.com/FIXTradingCommunity/fix-simple-binary-encoding">SBE</a> - Simple Binary Encoding (SBE).</li>
+<li><a href="https://github.com/msgpack/msgpack/blob/master/spec.md">MSGPACK</a> - MessagePack Specification.</li>
+<li><a href="http://ubjson.org/" rel="nofollow">UBJSON</a> - Universal Binary JSON Specification.</li>
+</ul>
+<h3><a href="#vocabularies" aria-hidden="true" class="anchor" id="user-content-vocabularies"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vocabularies</h3>
+<ul>
+<li><a href="http://json-schema.org/" rel="nofollow">JSON Schema</a> - Vocabulary that allows you to annotate and validate JSON documents.</li>
+<li><a href="http://lov.okfn.org/" rel="nofollow">LOV</a> - Linked open vocabularies.</li>
+<li><a href="http://schema.org/" rel="nofollow">Schema.org</a> - Collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.</li>
+</ul>
+<h3><a href="#unicode" aria-hidden="true" class="anchor" id="user-content-unicode"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unicode</h3>
+<ul>
+<li><a href="http://www.unicode.org/versions/Unicode8.0.0/" rel="nofollow">UNIV8</a> - The Unicode Consortium. The Unicode Standard, Version 8.0.0, (Mountain View, CA: The Unicode Consortium, 2015. ISBN 978-1-936213-10-8).</li>
+<li><a href="https://tools.ietf.org/html/rfc3629" rel="nofollow">RFC3629</a> - UTF-8, a transformation format of ISO 10646.</li>
+</ul>
+<h2><a href="#real-life-stories" aria-hidden="true" class="anchor" id="user-content-real-life-stories"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Real Life Stories</h2>
+<ul>
+<li><a href="https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/" rel="nofollow">A Journey into Microservices</a></li>
+<li><a href="http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html" rel="nofollow">Clean microservice architecture</a></li>
+<li><a href="https://rclayton.silvrback.com/failing-at-microservices" rel="nofollow">Failing at microservices</a></li>
+<li><a href="https://blog.pivotal.io/labs/labs/how-to-talk-to-your-friends-about-microservices" rel="nofollow">How to talk to your friends about microservices</a></li>
+<li><a href="https://blog.yourkarma.com/building-microservices-at-karma" rel="nofollow">How we build microservices at Karma</a></li>
+<li><a href="http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html" rel="nofollow">How we ended up with microservices at SoundCloud</a></li>
+<li><a href="https://www.thoughtworks.com/insights/blog/microservices-lessons-frontline" rel="nofollow">Microservices: lessons from the frontline</a></li>
+<li><a href="http://martinfowler.com/bliki/MonolithFirst.html" rel="nofollow">Monolith first</a></li>
+<li><a href="http://www.infoq.com/news/2015/04/scaling-microservices-gilt" rel="nofollow">Scaling microservices at Gilt with Scala, Docker and AWS</a></li>
+</ul>
+<h2><a href="#enterprise--verticals" aria-hidden="true" class="anchor" id="user-content-enterprise--verticals"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enterprise &amp; Verticals</h2>
+<ul>
+<li><a href="https://interact.io/" rel="nofollow">Interact <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - CRM microservices for rapid delivery of tailored solutions.</li>
+<li><a href="https://predix.io/" rel="nofollow">Predix <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - Industrial microservices platform.</li>
+<li><a href="https://www.yaas.io" rel="nofollow">YaaS <img src="https://camo.githubusercontent.com/6a7e8d247c06103b1a50aa59b623a36c1f89c3a2/68747470733a2f2f63646e2e7261776769742e636f6d2f616b756c6c70702f32333234366361383332626461383262623530353233306266333533386532612f7261772f643962636462373639626630323532393266396336626331323930663031663166636431663836342f636f6d6d65726369616c2e737667" alt="c" data-canonical-src="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg" style="max-width:100%;"></a> - SAP Hybris microservices ecosystem.</li>
+</ul>
+<h2><a href="#theory" aria-hidden="true" class="anchor" id="user-content-theory"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Theory</h2>
+<h3><a href="#articles--papers" aria-hidden="true" class="anchor" id="user-content-articles--papers"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Articles &amp; Papers</h3>
+<ul>
+<li><a href="http://akfpartners.com/techblog/2008/05/08/splitting-applications-or-services-for-scale/" rel="nofollow">AKF Scale Cube</a> - Model depicting the dimensions to scale a service.</li>
+<li><a href="https://goo.gl/14ElnV" rel="nofollow">Benchmark Requirements for Microservices Architecture Research</a> <g-emoji class="g-emoji" alias="small_orange_diamond" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f538.png" ios-version="6.0">🔸</g-emoji><sup>PDF</sup> - Set of requirements that may be useful in selecting a community-owned architecture benchmark to support repeatable microservices research.</li>
+<li><a href="https://cloudncode.blog/2016/07/22/msa-getting-started/" rel="nofollow">Building Microservices? Here is What You Should Know</a> - A practical overview, based on real-world experience, of what one would need to know in order to build Microservices.</li>
+<li><a href="http://db.cs.berkeley.edu/papers/cidr11-bloom.pdf" rel="nofollow">CALM</a> <g-emoji class="g-emoji" alias="small_orange_diamond" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f538.png" ios-version="6.0">🔸</g-emoji><sup>PDF</sup> - Consistency as logical monotonicity.</li>
+<li><a href="http://martinfowler.com/bliki/CanaryRelease.html" rel="nofollow">Canary Release</a> - Technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.</li>
+<li><a href="http://blog.thislongrun.com/2015/03/the-cap-theorem-series.html" rel="nofollow">CAP Theorem</a> -  States that it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: Consistency, Availability and Partition tolerance.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/dn600223.aspx" rel="nofollow">Cloud Design Patterns</a> - Contains twenty-four design patterns that are useful in cloud-hosted applications. Includes: Circuit Breaker, Competing Consumers, CQRS, Event Sourcing, Gatekeeper, Cache-Aside, etc.</li>
+<li><a href="http://alistair.cockburn.us/Hexagonal+architecture" rel="nofollow">Hexagonal Architecture</a> - Allows an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.</li>
+<li><a href="http://martinfowler.com/articles/microservices.html" rel="nofollow">Microservice Architecture</a> - Particular way of designing software applications as suites of independently deployable services.</li>
+<li><a href="http://www.oracle.com/technetwork/issue-archive/2015/15-mar/o25architect-2458702.html" rel="nofollow">Microservices and SOA</a> - Similarities, differences, and where we go from here.</li>
+<li><a href="http://basho.com/posts/technical/microservices-please-dont/" rel="nofollow">Microservices – Please, don’t</a> - Critical advice about some problems regarding a microservices approach.</li>
+<li><a href="https://dzone.com/refcardz/getting-started-with-microservices" rel="nofollow">Microservices RefCard</a> - Getting started with microservices.</li>
+<li><a href="http://martinfowler.com/articles/microservice-trade-offs.html" rel="nofollow">Microservices Trade-Offs</a> - Guide to ponder costs and benefits of the mircoservices architectural style.</li>
+<li><a href="http://www.reactivemanifesto.org/" rel="nofollow">Reactive Manifesto</a> - Reactive systems definition.</li>
+<li><a href="http://www.reactive-streams.org/" rel="nofollow">Reactive Streams</a> - Initiative to provide a standard for asynchronous stream processing with non-blocking back pressure.</li>
+<li><a href="http://resources.1060research.com/docs/2015/Resource-Oriented-Computing-Adaptive-Systems-ROCAS-1.2.pdf" rel="nofollow">ROCAS</a> <g-emoji class="g-emoji" alias="small_orange_diamond" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f538.png" ios-version="6.0">🔸</g-emoji><sup>PDF</sup> - Resource Oriented Computing for Adaptive Systems.</li>
+<li><a href="http://ceur-ws.org/Vol-746/IWSECO2011-6-DengYu.pdf" rel="nofollow">SECO</a> <g-emoji class="g-emoji" alias="small_orange_diamond" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f538.png" ios-version="6.0">🔸</g-emoji><sup>PDF</sup> - Understanding software ecosystems: a strategic modeling approach.</li>
+<li><a href="https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/" rel="nofollow">Service Discovery in a Microservice Architecture</a> - Overview of discovery and registration patterns.</li>
+<li><a href="http://martinfowler.com/articles/microservice-testing/" rel="nofollow">Testing Strategies in a Microservice Architecture</a> - Approaches for managing the additional testing complexity of multiple independently deployable components.</li>
+<li><a href="http://monkey.org/%7Emarius/funsrv.pdf" rel="nofollow">Your Server as a Function</a> <g-emoji class="g-emoji" alias="small_orange_diamond" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f538.png" ios-version="6.0">🔸</g-emoji><sup>PDF</sup> - Describes three abstractions which combine to present a powerful programming model for building safe, modular, and efficient server software: Composable futures, services and filters.</li>
+</ul>
+<h3><a href="#talks" aria-hidden="true" class="anchor" id="user-content-talks"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Talks</h3>
+<ul>
+<li><a href="http://jonasboner.com/bla-bla-microservices-bla-bla/" rel="nofollow">Bla Bla Microservices Bla Bla</a> - A talk at the O’Reilly Software Architecture Conference, April 2016.</li>
+<li><a href="https://www.youtube.com/watch?v=yPf5MfOZPY0" rel="nofollow">Challenges in Implementing MicroServices</a> - A presentation at GOTO 2015 by Fred George.</li>
+<li><a href="https://www.youtube.com/watch?v=wgdBVIX9ifA" rel="nofollow">Microservices</a> - A presentation at GOTO Berlin 2014 by Martin Fowler.</li>
+</ul>
+<h3><a href="#tutorials" aria-hidden="true" class="anchor" id="user-content-tutorials"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorials</h3>
+<ul>
+<li><a href="http://www.skybert.net/python/developing-a-restful-micro-service-in-python/" rel="nofollow">Developing a RESTful Microservice in Python</a> - A story of how an aging Java project was replaced with a microservice built with Python and Flask.</li>
+<li><a href="http://mherman.org/blog/2017/04/18/developing-and-testing-microservices-with-docker" rel="nofollow">Developing and Testing Microservices With Docker</a> - An example of the processes involved in creating a simple Docker-packaged Node microservice.</li>
+<li><a href="https://game-on.org/" rel="nofollow">Game On!</a> - Microservices architecture explained in the context of an old-school text-based adventure game.</li>
+<li><a href="https://aws.amazon.com/blogs/compute/microservices-without-the-servers/" rel="nofollow">Microservices without the Servers</a> - Step by step demo-driven talk about serverless architecture.</li>
+<li>Microservices in C#: <a href="http://insidethecpu.com/2015/07/17/microservices-in-c-part-1-building-and-testing/" rel="nofollow">Part 1</a>, <a href="http://insidethecpu.com/2015/07/31/microservices-in-c-part-2-consistent-message-delivery/" rel="nofollow">Part 2</a>, <a href="http://insidethecpu.com/2015/08/14/microservices-in-c-part-3-queue-pool-sizing/" rel="nofollow">Part 3</a>, <a href="http://insidethecpu.com/2015/08/28/microservices-in-c-part-4-scaling-out/" rel="nofollow">Part 4</a>, <a href="http://insidethecpu.com/2015/09/11/microservices-in-c-part-5-autoscaling/" rel="nofollow">Part 5</a>.</li>
+<li><a href="http://brunorocha.org/python/microservices-with-python-rabbitmq-and-nameko.html" rel="nofollow">Microservices with Python, RabbitMQ and Nameko</a></li>
+<li><a href="https://github.com/theiterators/reactive-microservices">Reactive Microservices</a> - Project showcasing different microservice communication styles using Scala, Akka, Play and other tools from Scala ecosystem.</li>
+<li><a href="https://blog.codeship.com/packer-ansible/" rel="nofollow">Using Packer and Ansible to build immutable infrastructure</a></li>
+</ul>
+<h3><a href="#books" aria-hidden="true" class="anchor" id="user-content-books"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Books</h3>
+<ul>
+<li><a href="https://www.nginx.com/wp-content/uploads/2015/01/Building_Microservices_Nginx.pdf" rel="nofollow">Building Microservices</a> <g-emoji class="g-emoji" alias="small_orange_diamond" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f538.png" ios-version="6.0">🔸</g-emoji><sup>PDF</sup> - Building Microservices: Designing Fine-grained Systems. Sam Newman. Preview Edition.</li>
+<li><a href="http://shop.oreilly.com/product/0636920050308.do" rel="nofollow">Microservice Architecture: Aligning Principles, Practices, and Culture</a> - Practical advice for the strategy and design of Microservices.</li>
+<li><a href="https://www.manning.com/books/microservices-in-action" rel="nofollow">Microservices in Action</a> - A practical book about building and deploying microservice-based applications.</li>
+<li><a href="https://www.manning.com/books/microservice-patterns" rel="nofollow">Microservice Patterns</a> - Teaches how to build applications with the microservice architecture and how to refactor a monolithic application to a microservices.</li>
+<li><a href="http://www.redbooks.ibm.com/abstracts/sg248275.html?Open" rel="nofollow">Microservices from Theory to Practice</a> - Microservices from Theory to Practice: Creating Applications in IBM Bluemix Using the Microservices Approach. IBM Redbooks publication.</li>
+<li><a href="http://pivotal.io/platform/migrating-to-cloud-native-application-architectures-ebook" rel="nofollow">Migrating to Cloud Native Application Architectures</a> - This O’Reilly report defines the unique characteristics of cloud native application architectures such as microservices and twelve-factor applications.</li>
+<li><a href="https://www.manning.com/books/testing-microservices-with-mountebank" rel="nofollow">Testing Microservices with Mountebank</a> - Provides a testing strategy using mountebank for service virtualization, promoting independent releases of Microservices</li>
+<li><a href="http://theartofscalability.com/" rel="nofollow">The Art of Scalability</a> - The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise. Martin L. Abbott, Michael T. Fisher.</li>
+<li><a href="http://thenewstack.io/ebookseries/" rel="nofollow">The New Stack eBook Series</a> - A Comprehensive Overview of the Docker and Container Ecosystem.
+<ul>
+<li>Book 1: The Docker Container Ecosystem.</li>
+<li>Book 2: Applications &amp; Microservices with Docker &amp; Containers.</li>
+<li>Book 3: Automation &amp; Orchestration with Docker &amp; Containers.</li>
+<li>Book 4: Network, Security &amp; Storage with Docker &amp; Containers.</li>
+<li>Book 5: Monitoring &amp; Management with Docker &amp; Containers.</li>
+</ul>
+</li>
+<li><a href="https://www.manning.com/books/the-tao-of-microservices" rel="nofollow">The Tao of Microservices</a> - Teaches the path to understanding how to apply microservices architecture with your own real-world projects.</li>
+</ul>
+<h3><a href="#sites" aria-hidden="true" class="anchor" id="user-content-sites"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sites</h3>
+<ul>
+<li><a href="http://martinfowler.com/microservices/" rel="nofollow">Microservices Resource Guide</a> - Martin Fowler's choice of articles, videos, books, and podcasts that can teach you more about the microservices architectural style.</li>
+<li><a href="http://microservices.io/" rel="nofollow">Microservice Patterns</a> - Microservice architecture patterns and best practices.</li>
+<li><a href="https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls" rel="nofollow">Microservice Antipatterns and Pitfalls</a> - Microservice mostly known antipatterns and pitfalls.</li>
+<li><a href="http://12factor.net" rel="nofollow">The 12-Factors App</a> - A methodology for building software-as-a-service applications.</li>
+</ul>
+<h2><a href="#emerging-technologies" aria-hidden="true" class="anchor" id="user-content-emerging-technologies"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emerging Technologies</h2>
+<ul>
+<li><a href="https://www.bigchaindb.com/" rel="nofollow">BigchainDB</a> - The scalable blockchain database.</li>
+<li><a href="http://blocknet.co/" rel="nofollow">Blocknet</a> - The Blocknet makes possible to deliver microservices over a blockchain-based P2P network architecture.</li>
+<li><a href="https://blockstack.org/" rel="nofollow">Blockstack</a> - A new decentralized internet where users control their data and apps run on their devices.</li>
+<li><a href="http://ceptr.org/" rel="nofollow">CEPTR</a> - A recomposable medium for distributed social computing, a semantic self-describing protocol stack, and a cretor of fractal coherence contexts for biomimetic computing.</li>
+<li><a href="http://edgware-fabric.org/" rel="nofollow">Edgware Fabric</a> - Lightweight, agile service bus for systems at the edge of the network, in the physical world.</li>
+<li><a href="https://www.hyperledger.org/" rel="nofollow">Hyperledger</a> - Open source collaborative effort created to advance cross-industry blockchain technologies. It is a global collaboration, hosted by The Linux Foundation, including leaders in finance, banking, IoT, supply chain, manufacturing and technology.</li>
+<li><a href="http://www.luna-lang.org/" rel="nofollow">Luna</a> - Visual and textual functional programming language with a focus on productivity, collaboration and development ergonomics.</li>
+<li><a href="http://www.multichain.com/" rel="nofollow">MultiChain</a> - Open platform for building blockchains.</li>
+<li><a href="http://nodered.org/" rel="nofollow">Node-RED</a> - Visual tool for wiring together hardware devices, APIs and online services in new and interesting ways.</li>
+<li><a href="http://www.ponylang.org/" rel="nofollow">Pony</a> - Open source, object-oriented, actor-model, capabilities-secure, high performance programming language.</li>
+</ul>
+<h2><a href="#license" aria-hidden="true" class="anchor" id="user-content-license"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/c5160f944848828fa33126d9a697e9abe43ea98f/687474703a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f702f7a65726f2f312e302f38387833312e706e67" alt="CC0" data-canonical-src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+<h2><a href="#contributing" aria-hidden="true" class="anchor" id="user-content-contributing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>Please, read the <a href="https://github.com/mfornos/awesome-microservices/blob/master/CONTRIBUTING.md">Contribution Guidelines</a> before submitting your suggestion.</p>
+<p>Feel free to <a href="https://github.com/mfornos/awesome-microservices/issues">open an issue</a> or <a href="https://github.com/mfornos/awesome-microservices/pulls">create a pull request</a> with your additions.</p>
+<p><g-emoji class="g-emoji" alias="star2" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f31f.png" ios-version="6.0">🌟</g-emoji> Thank you!</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.20833s from unicorn-3835523148-qkmf8">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

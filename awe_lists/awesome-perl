@@ -1,0 +1,784 @@
+   #Recent
+   Commits to awesome-perl:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign in
+   or Sign up
+
+     * 76
+     * 393
+     * 66
+
+awesome-perl
+
+   Code
+   Pull requests 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome Perl frameworks and libraries. Come on Pull
+   Requests!
+     * 177
+       commits
+     * 0 releases
+     * Fetch
+       ing contributors
+     * MIT
+
+    1. Perl 100.0%
+
+   Perl
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/h
+   Download
+   ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * 
+       Branches
+     * 
+       Tags
+
+   master
+   [file://localhost/hachiojipm/awesome-perl/tree/move_data_dumper_to_tool
+   s]move_data_dumper_to_tools
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   Permalink
+   Failed to load latest commit information.
+   t
+   fix README.md for passing tests Jan 19, 2015
+   .trav
+   is.yml
+   add test (still failing) Jan 19, 2015
+   C
+   ONTRIBUTING.md
+   Sort alphabetically Jan 15, 2015
+   LICENSE
+   [file://localhost/hachiojipm/awesome-perl/commit/b1ab5b7bdb7a70689a8582
+   1192272189edf94aae]initial commit Jul 13, 2014
+   README.
+   md
+   [file://localhost/hachiojipm/awesome-perl/commit/fe3122670c78f5c3844088
+   c5f674f936ea4fc5d5]Merge pull request
+   [https://github.com/hachiojipm/awesome-perl/pull/72]#72
+   from salva/ssh Apr 27, 2017
+   cpanfile
+   [file://localhost/hachiojipm/awesome-perl/commit/b617547b539adf5ce71868
+   cbeefd2c031c6fa5c2]add test (still failing) Jan 19, 2015
+
+README.md
+
+Awesome
+
+   A curated list of awesome Perl5 frameworks, libraries and software.
+   Inspired by [https://github.com/avelino/awesome-go]awesome-go.
+
+   Not Perl6 modules ;-P
+
+Another module list
+
+   We also recommend these lists.
+     * [https://github.com/EnlightenedPerlOrganisation/task-kensho]Task::K
+       ensho
+     * [http://perlmaven.com/perl-based-open-source-products]PerlMaven.com
+       list of Perl Software
+     * [https://github.com/eserte/srezic-misc/blob/master/cpan_in_a_nutshe
+       ll/cpan_in_a_nutshell.pod]Slaven's CPAN in a nutshell
+     * Many Task::** Modules. (ex. Task::Plack, Task::BeLike::...)
+
+Contents
+
+     * Awesome Perl
+          + Args
+          + Audio
+          + Benchmarks
+          + Caches
+          + Class Builder
+          + CLI
+          + Cloud
+          + Container
+          + Data Format
+          + Database
+          + Database Drivers
+               o Relational Databases
+               o NoSQL Databases
+          + Date & Time
+          + Devices
+          + DevOps
+          + Email
+          + Event Loops
+          + Exception Handling
+          + File Manipulation
+          + Form Frameworks
+          + Images
+          + List Manipulation
+          + Logging
+          + Module Development
+          + Network
+          + ORM
+          + Package Management
+          + Processes and Threads
+          + Profiling
+          + Protocol
+          + Queueing
+          + REST Frameworks
+          + Science/Numerics
+          + Template Engines
+          + Testing
+               o Testing Frameworks
+               o Test Double
+               o Coverage
+          + Tools
+          + Video
+          + Web Frameworks
+               o Middlewares
+          + Web Frameworks-Like
+          + Web Scraping
+
+Args
+
+   Libraries for argument manifestation and validation.
+     * [https://metacpan.org/pod/Data::Validator]Data::Validator - Rule
+       based validator on type constraint system.
+     * [https://metacpan.org/pod/Params::Util]Params::Util - Simple,
+       compact and correct param-checking functions.
+     * [https://metacpan.org/pod/Params::Validate]Params::Validate -
+       Validate method/function parameters.
+     * [https://metacpan.org/pod/Smart::Args]Smart::Args
+
+Audio
+
+     * [https://metacpan.org/pod/Audio::CD]Audio::CD - Interface to
+       libcdaudio (cd + cddb)
+     * [https://metacpan.org/pod/Audio::Wav]Audio::Wav - Modules for
+       reading & writing Microsoft WAV files.
+
+Benchmarks
+
+   Libraries for benchmarking
+     * [https://metacpan.org/pod/Benchmark]Benchmark
+     * [https://metacpan.org/pod/Dumbbench]Dumbbench
+     * [https://metacpan.org/pod/Parallel::Benchmark]Parallel::Benchmark -
+       Benchmark in multiprocesses
+
+Caches
+
+   Libraries to talk to Cache Softwares
+     * [https://metacpan.org/pod/CHI]CHI - Unified cache handling
+       interface, think DBI for caches
+     * [https://metacpan.org/pod/CHI::Driver::DBI]CHI::Driver::DBI - DBI
+       driver for CHI
+     * [https://metacpan.org/pod/CHI::Driver::DBIC]CHI::Driver::DBIC -
+       DBIx::Class driver for CHI
+     * [https://metacpan.org/pod/CHI::Driver::Memcached]CHI::Driver::Memca
+       ched - Memcached driver for CHI
+     * [https://metacpan.org/pod/CHI::Driver::MongoDB]CHI::Driver::MongoDB
+       - MongoDB driver for CHI
+     * [https://metacpan.org/pod/CHI::Driver::Redis]CHI::Driver::Redis -
+       Redis driver for CHI
+     * [https://metacpan.org/pod/Catalyst::Plugin::Session::Store::CHI]Cat
+       alyst::Plugin::Session::Store::CHI - Use CHI module to handle
+       storage backend for session data
+     * [https://metacpan.org/pod/CGI::Application::Plugin::CHI]CGI::Applic
+       ation::Plugin::CHI - CGI-App plugin for CHI caching interface
+     * [https://metacpan.org/pod/Mojolicious::Plugin::CHI]Mojolicious::Plu
+       gin::CHI - Interact with CHI caches
+
+Class Builder
+
+   Libraries to support writing classes and meta programming
+     * [https://metacpan.org/pod/Class::Accessor::Lite]Class::Accessor::Li
+       te - Simple accessor generator.
+     * [https://metacpan.org/pod/Class::Accessor::Lite::Lazy]Class::Access
+       or::Lite::Lazy - Generate lazy accessors.
+     * [https://metacpan.org/pod/Homer]Homer - Simple Prototype-based
+       object system.
+     * [https://metacpan.org/pod/Mo]Mo - Micro Objects. Mo is less.
+     * [https://metacpan.org/pod/Moo]Moo - Class builder supporting meta
+       programming.
+     * [https://metacpan.org/pod/Moose]Moose - The one and only, Moose.
+     * [https://metacpan.org/pod/Mouse]Mouse - Yet another class builder
+       like Moo/Moose.
+     * [https://metacpan.org/pod/Object::Tiny]Object::Tiny - A class
+       builder that is terse, fast, and tiny.
+
+CLI
+
+   Libraries for developing CLI applications
+     * [https://metacpan.org/pod/App::Cmd]App::Cmd - Write command line
+       apps with less suffering.
+     * [https://metacpan.org/pod/Getopt::Long]Getopt::Long - Extended
+       processing of command line options.
+
+Cloud
+
+     * [https://metacpan.org/pod/AWS::CloudFront]AWS::CloudFront -
+       Lightweight interface to Amazon CloudFront CDN
+     * [https://metacpan.org/pod/AWS::S3]AWS::S3 - Lightweight interface
+       to Amazon S3 (Simple Storage Service)
+     * [https://metacpan.org/pod/Net::Amazon::EC2]Net::Amazon::EC2 -
+       Interface to the Amazon Elastic Compute Cloud (EC2) environment.
+     * [https://metacpan.org/pod/Net::AWS::SES]Net::AWS::SES - Perl
+       extension that implements Amazon Simple Email Service (SES) client
+     * [https://metacpan.org/pod/WebService::DigitalOcean]WebService::Digi
+       talOcean - Access the DigitalOcean RESTful API (v2)
+     * [https://metacpan.org/pod/WebService::Dropbox]WebService::Dropbox -
+       Interface to Dropbox API
+
+Container
+
+   Libraries for Singleton Pattern implementation.
+     * [https://metacpan.org/pod/Object::Container]Object::Container
+
+Data Format
+
+   Libraries for serializing, formatting and parsing
+     * [https://metacpan.org/pod/Data::Dumper::Simple]Data::Dumper::Simple
+       - Reduce and faster Data::Dumper and eval() equivalent
+     * [https://metacpan.org/pod/Data::MessagePack]Data::MessagePack
+     * [https://metacpan.org/pod/JSON::PP]JSON::PP
+     * [https://metacpan.org/pod/JSON::XS]JSON::XS
+     * [https://metacpan.org/pod/Sereal]Sereal
+     * [https://metacpan.org/pod/Storable]Storable
+     * [https://metacpan.org/pod/Text::CSV]Text::CSV
+     * [https://metacpan.org/pod/Text::CSV_XS]Text::CSV_XS
+     * [https://metacpan.org/pod/Text::Markdown]Text::Markdown
+     * [https://metacpan.org/pod/TOML]TOML
+     * [https://metacpan.org/pod/XML::LibXML]XML::LibXML
+     * [https://metacpan.org/pod/XML::Compile::Schema]XML::Compile::Schema
+       - Interpret schema elements and types: create processors for XML
+       messages.
+     * [https://metacpan.org/pod/XML::Compile::SOAP]XML::Compile::SOAP -
+       Implements the SOAP 1.1 protocol, client side.
+     * [https://metacpan.org/pod/XML::Compile::WSDL]XML::Compile::WSDL -
+       Use SOAP with a WSDL version 1.1 communication specification file.
+     * [https://metacpan.org/pod/YAML]YAML
+
+Database
+
+   Libraries for dealing with relational databases
+     * [https://metacpan.org/pod/DBI]DBI
+     * [https://metacpan.org/pod/DBIx::Connector]DBIx::Connector - Fast,
+       safe DBI connection and transaction management
+     * [https://metacpan.org/pod/DBIx::Handler]DBIx::Handler - Fork-safe
+       DBI handler
+     * [https://metacpan.org/pod/DBIx::Inspector]DBIx::Inspector
+     * [https://metacpan.org/pod/DBIx::QueryLog]DBIx::QueryLog
+     * [https://metacpan.org/pod/DBIx::Sunny]DBIx::Sunny - Useful DBI
+       Wrapper
+     * [https://metacpan.org/pod/DBIx::TransactionManager]DBIx::Transactio
+       nManager
+
+Database Drivers
+
+   Libraries for using specific database products
+
+Relational Databases
+
+     * [https://metacpan.org/pod/DBD::CSV]DBD::CSV
+     * [https://metacpan.org/pod/DBD::Firebird]DBD::Firebird
+     * [https://metacpan.org/pod/DBD::mysql]DBD::mysql
+     * [https://metacpan.org/pod/DBD::ODBC]DBD::ODBC - Any ODBC Driver.
+       MS-SQL w/ placeholders
+     * [https://metacpan.org/pod/DBD::Oracle]DBD::Oracle - Oracle database
+       driver for the DBI module
+     * [https://metacpan.org/pod/DBD::Pg]DBD::Pg - PostgreSQL driver for
+       DBI.
+     * [https://metacpan.org/pod/DBD::SQLite]DBD::SQLite
+     * [https://metacpan.org/pod/DBD::Sybase]DBD::Sybase - Sybase and
+       MS-SQL. No placeholders w/ MS-SQL though
+
+NoSQL Databases
+
+     * [https://metacpan.org/pod/Cache::Memcached::Fast]Cache::Memcached::
+       Fast
+     * [https://metacpan.org/pod/Mango]Mango - Pure-Perl non-blocking I/O
+       MongoDB driver
+     * [https://metacpan.org/pod/Redis]Redis
+     * [https://metacpan.org/pod/Redis::Fast]Redis::Fast - Perl wrapper
+       around hiredis driver
+     * [https://metacpan.org/pod/Search::Elasticsearch]Search::Elasticsear
+       ch - Offical Elasticsearch client library
+     * [https://metacpan.org/pod/UnQLite]UnQLite
+
+Date & Time
+
+   Libraries for working with dates and times
+     * [https://metacpan.org/pod/DateTime]DateTime
+     * [https://metacpan.org/pod/Time::Moment]Time::Moment
+     * [https://metacpan.org/pod/Time::Piece]Time::Piece
+
+Devices
+
+   Libraries to talk to physical devices
+     * [https://metacpan.org/pod/Device::Modem]Device::Modem - Talk to
+       modem devices conneted via serial port
+     * [https://metacpan.org/pod/Device::Onkyo]Device::Onkyo - Control
+       Onkyo/Integra AV equipment via LAN or Serial
+
+DevOps Tools
+
+   Libraries that help when you what to deploy software across networks
+   ond several hostsare working across computer networks
+     * [https://metacpan.org/pod/Rex]Rex - Remote Execution
+
+Email
+
+   Libraries that implement email creation and sending
+     * [https://metacpan.org/pod/Email::Sender]Email::Sender
+
+Event Loops
+
+   Libraries for various event loops. Asynchronous programming if you like
+     * [https://metacpan.org/pod/AE]AE - Simpler, faster, newer AnyEvent
+       API
+     * [https://metacpan.org/pod/AnyEvent]AnyEvent - the DBI of event loop
+       programming
+     * [https://metacpan.org/pod/EV]EV - Uses libev, very fast and
+       popular. Default for AnyEvent if present
+     * [https://metacpan.org/pod/Event]Event - Works well, but older
+     * [https://metacpan.org/pod/IO::Async]IO::Async - Asynchronous
+       event-driven programming
+     * [https://metacpan.org/pod/POE]POE - Common interface for several
+       event loops
+
+Exception Handling
+
+   Libraries that assist with and/or provide alternatives to eval{ die() }
+     * [https://metacpan.org/pod/autodie]autodie - Replace functions with
+       ones that succeed or die with lexical scope
+     * [https://metacpan.org/pod/Exception::Class]Exception::Class - A
+       module that allows you to declare real exception classes in Perl
+     * [https://metacpan.org/pod/Throwable]Throwable - a role for classes
+       that can be thrown
+     * [https://metacpan.org/pod/Try::Tiny]Try::Tiny - minimal try/catch
+       with proper preservation of $@
+     * [https://metacpan.org/pod/TryCatch]TryCatch - first class try catch
+       semantics for Perl, without source filters
+
+File Manipulation
+
+     * [https://metacpan.org/pod/File::Util]File::Util - Easy, versatile,
+       portable file handling.
+     * [https://metacpan.org/pod/Path::Tiny]Path::Tiny - Simple
+       object-oriented file manipulation.
+
+Form Frameworks
+
+   Libraries that take the boredom & repetition out of (web and UI) forms
+     * [https://metacpan.org/pod/Catalyst::Controller::HTML::FormFu]Cataly
+       st::Controller::HTML::FormFu - Use HTML::FormFu in Catalyst.
+     * [https://metacpan.org/pod/CGI::FormBuilder]CGI::FormBuilder -
+       Easily generate and process stateful forms.
+     * [https://metacpan.org/pod/Form::Sensible]Form::Sensible - A
+       sensible way to handle form based user interface.
+     * [https://metacpan.org/pod/Form::Toolkit]Form::Toolkit - A toolkit
+       to build Data centric Forms.
+     * [https://metacpan.org/pod/HTML::FormFu]HTML::FormFu - HTML Form
+       Creation, Rendering and Validation Framework.
+     * [https://metacpan.org/pod/HTML::FormFu::ExtJS]HTML::FormFu::ExtJS -
+       ExtJS form generation from HTML::FormFu config files.
+     * [https://metacpan.org/pod/HTML::FormHandler]HTML::FormHandler -
+       HTML forms using Moose.
+     * [https://metacpan.org/pod/Mojolicious::Plugin::FormFields]Mojolicio
+       us::Plugin::FormFields - Lightweight, flexible form builder with
+       validation and filtering.
+     * [https://metacpan.org/pod/WWW::Form]WWW::Form - Simple and
+       extendable module that allows developers to handle HTML form input
+       validation and display flexibly and consistently.
+
+Images
+
+   Libraries for manipulating images
+     * [https://metacpan.org/pod/Image::Magick]Image::Magick - An
+       object-oriented interface to ImageMagick's image composing
+       libraries.
+     * [https://metacpan.org/pod/Imager]Imager
+
+List Manipulation
+
+   Libraries for manipulation lists (arrays)
+     * [https://metacpan.org/pod/Array::Unique]Array::Unique - Tie-able
+       array that allows only unique values
+     * [https://metacpan.org/pod/List::Compare]List::Compare - Compare
+       elements of two or more lists
+     * [https://metacpan.org/pod/List::Gen]List::Gen - Provides functions
+       for generating lists
+     * [https://metacpan.org/pod/List::MoreUtils]List::MoreUtils - Provide
+       the stuff missing in List::Util
+     * [https://metacpan.org/pod/List::Util]List::Util - A selection of
+       general-utility list subroutines
+
+Logging
+
+   Libraries for generating and working with log files
+     * [https://metacpan.org/pod/Log::Dispatch]Log::Dispatch
+     * [https://metacpan.org/pod/Log::Log4perl]Log::Log4perl
+     * [https://metacpan.org/pod/Log::Minimal]Log::Minimal
+
+Module Development
+
+   Libraries that simplify and improve Perl module development
+     * [https://metacpan.org/pod/Dist::Zilla]Dist::Zilla -
+       [http://dzil.org/]http://dzil.org/
+     * [https://metacpan.org/pod/Minilla]Minilla - CPAN module authoring
+       tool
+
+Network
+
+   Libraries that help when you are dealing with computer networks
+     * [https://metacpan.org/pod/DOCSIS::ConfigFile]DOCSIS::ConfigFile -
+       Decodes and encodes DOCSIS config files
+     * [https://metacpan.org/pod/NetAddr::MAC]NetAddr::MAC - Handle MAC
+       addresses
+
+   Libraries that help when you are working across computer networks
+     * [https://metacpan.org/pod/Net::SSH::Perl]Net::SSH::Perl - SSH
+       client implemented in Perl.
+     * [https://metacpan.org/pod/Net::SSH2]Net::SSH2 - Wrapper for
+       [https://libssh2.org/]libssh2.
+     * [https://metacpan.org/pod/Net::OpenSSH]Net::OpenSSH - Run commands
+       remotely using the [http://www.openssh.com/]OpenSSH client.
+     * [https://metacpan.org/pod/Net::OpenSSH::Parallel]Net::OpenSSH::Para
+       llel - Run remote commands in parallel using the OpenSSH client.
+     * [https://metacpan.org/pod/Net::SSH::Any]Net::SSH::Any - Run remote
+       commands using any module or binary client available.
+     * [https://metacpan.org/pod/Net::SFTP::Foreign]Net::SFTP::Foreign -
+       SFTP client for remote file access.
+     * [https://metacpan.org/pod/Object::Remote]Object::Remote - Run Perl
+       code on remote machines.
+     * [https://metacpan.org/pod/Net::CLI::Interact]Net::CLI::Interact -
+       Automates interactive programs.
+     * [https://metacpan.org/pod/Net::Appliance::Session]Net::Appliance::S
+       ession - Automates interaction with appliances.
+
+ORM
+
+   Libraries that implement Object-Relational Mapping or datamapping
+   techniques
+     * [https://metacpan.org/pod/DBIx::Class]DBIx::Class
+     * [https://metacpan.org/pod/Rose::DB]Rose::DB
+     * [https://metacpan.org/pod/Teng]Teng
+
+Package Management
+
+   Libraries for package and dependency management
+     * [https://metacpan.org/pod/App::cpanminus]App::cpanminus
+     * [https://metacpan.org/pod/Carton]Carton
+     * [https://metacpan.org/pod/Pinto]Pinto - Powerful local CPAN repos
+
+Processes and Threads
+
+   Libraries for managing processes and threads
+     * [https://metacpan.org/pod/Parallel::ForkManager]Parallel::ForkManag
+       er - A simple parallel processing fork manager
+     * [https://metacpan.org/pod/Parallel::Prefork]Parallel::Prefork - A
+       simple prefork server framework
+     * [https://metacpan.org/pod/Proclet]Proclet - Minimalistic
+       supervisor, a Perl port of
+       [https://github.com/ddollar/foreman]foreman
+
+Profiling
+
+   Libraries for examining run-time activity of your program
+     * [https://metacpan.org/pod/Devel::KYTProf]Devel::KYTProf - Very
+       light profiler for I/Os such as HTTP request-responses and SQL
+       queries.
+     * [https://metacpan.org/pod/Devel::NYTProf]Devel::NYTProf - Code
+       profiler.
+
+Protocol
+
+   Protocol clients and libraries
+     * [https://metacpan.org/pod/Furl]Furl - Faster HTTP(S) Client
+     * [https://metacpan.org/pod/HTTP::Tiny]HTTP::Tiny - Minimal and fast
+       client. Included in the standard packages.
+     * [https://metacpan.org/pod/LWP::UserAgent]LWP::UserAgent - Popular
+       HTTP(S) Client
+     * [https://metacpan.org/pod/Net::DHCP]Net::DHCP - Send and recieve
+       DHCP packets
+     * [https://metacpan.org/pod/Net::DNS]Net::DNS - Resolve DNS host
+       names
+
+Queueing
+
+   Message Queue, Job Queue System..
+     * [https://metacpan.org/pod/Gearman]Gearman
+     * [https://metacpan.org/pod/Net::RabbitMQ]Net::RabbitMQ
+     * [https://metacpan.org/pod/Net::Stomp]Net::Stomp
+     * [https://metacpan.org/pod/Qudo]Qudo
+     * [https://metacpan.org/pod/Resque]Resque
+     * [https://metacpan.org/pod/TheSchwartz]TheSchwartz
+
+Science/Numerics
+
+   Hand-picked modules for research, science, numerics and hyper-computing
+     * [https://metacpan.org/pod/BioPerl]BioPerl
+     * [https://metacpan.org/pod/Chart::Clicker]Chart::Clicker - Powerful,
+       extensible charting
+     * [http://pdl.perl.org/]PDL
+     * [https://metacpan.org/pod/PDL]PDL (CPAN)
+     * [https://metacpan.org/pod/PDL::Graphics::Gnuplot]PDL::Graphics::Gnu
+       plot
+     * [https://metacpan.org/search?q=PDL%3A%3AIO&size=20]PDL::IO::*
+     * [https://metacpan.org/pod/PDL::LinearAlgebra]PDL::LinearAlgebra
+     * [https://metacpan.org/pod/PDL::Stats]PDL::Stats
+     * [https://metacpan.org/search?q=physics%3A%3A&size=20]Physics::*
+
+REST Frameworks
+
+   Libraries for developing REST applications
+     * [https://metacpan.org/pod/Catalyst::Action::REST]Catalyst::Action::
+       REST - Automated REST Method Dispatching
+     * [https://metacpan.org/pod/Dancer2::Plugin::REST]Dancer2::Plugin::RE
+       ST - A plugin for writing RESTful apps with Dancer2
+     * [https://metacpan.org/pod/Dancer::Plugin::REST]Dancer::Plugin::REST
+       - A plugin for writing RESTful apps with Dancer
+     * [https://metacpan.org/pod/Raisin]Raisin - a REST API micro
+       framework for Perl
+     * [https://metacpan.org/pod/Squatting]Squatting - A Camping-inspired
+       Web Microframework for Perl
+
+Template Engines
+
+   Libraries and tools for templating
+     * [https://metacpan.org/pod/HTML::Template]HTML::Template - Templates
+       for web pages
+     * [https://metacpan.org/pod/Template::Alloy]Template::Alloy - TT2/3,
+       HT, HTE, Tmpl, and Velocity Engine
+     * [https://metacpan.org/pod/Template::Toolkit]Template::Toolkit -
+       Very Popular Template Processing System
+     * [https://metacpan.org/pod/Text::MicroTemplate]Text::MicroTemplate -
+       Fast, simple and safe template engine written in pure-Perl and core
+       modules.
+     * [https://metacpan.org/pod/Text::MicroTemplate::Extended]Text::Micro
+       Template::Extended - Extended Text::MicroTemplate.
+     * [https://metacpan.org/pod/Text::Template]Text::Template - Templates
+       with embedded perl
+     * [https://metacpan.org/pod/Text::Xslate]Text::Xslate - Faster
+       template engine with XS. Supports multiple syntaxes.
+     * [https://metacpan.org/pod/Tiffany]Tiffany - Generic interface for
+       template engines. It makes it easy to use multiple template
+       engines.
+     * [https://metacpan.org/pod/Template::Magic]Template::Magic - Magic
+       merger of runtime values with templates.
+
+Testing
+
+   Libraries for testing codebases and generating test data.
+
+Testing Frameworks
+
+     * [https://metacpan.org/pod/Test::Base]Test::Base - A Data Driven
+       Testing Framework
+     * [https://metacpan.org/pod/Test::Base::Less]Test::Base::Less -
+       Limited version of Test::Base
+     * [https://metacpan.org/pod/Test::BDD::Cucumber]Test::BDD::Cucumber -
+       Implementation of the popular Cucumber framework in Perl
+     * [https://metacpan.org/pod/Test::Class]Test::Class - Class-based
+       testing. Support "setup" and "teardown".
+     * [https://metacpan.org/pod/Test::Deep]Test::Deep - Test deep and
+       complex data structures with great flexibility.
+     * [https://metacpan.org/pod/Test::Deep::Matcher]Test::Deep::Matcher
+     * [https://metacpan.org/pod/Test::Harness]Test::Harness - Run Perl
+       standard test scripts with statistics
+     * [https://metacpan.org/pod/Test::Kantan]Test::Kantan - simple,
+       flexible, fun "Testing framework"
+     * [https://metacpan.org/pod/Test::More]Test::More
+
+Test Double
+
+     * [https://metacpan.org/pod/Test::Exception]Test::Exception
+     * [https://metacpan.org/pod/Test::Fatal]Test::Fatal - Simple module
+       for verifying exceptions.
+     * [https://metacpan.org/pod/Test::Mock::Guard]Test::Mock::Guard -
+       Mocking package subroutines.
+     * [https://metacpan.org/pod/Test::MockTime]Test::MockTime
+     * [https://metacpan.org/pod/Test::mysqld]Test::mysqld
+     * [https://metacpan.org/pod/Test::TCP]Test::TCP - Launch temporary
+       TCP Server
+     * [https://metacpan.org/pod/Test::Time]Test::Time - Simple module for
+       faking system time.
+
+Coverage
+
+     * [https://metacpan.org/pod/Devel::Cover]Devel::Cover
+     * [https://metacpan.org/pod/Devel::Cover::Report::Coveralls]Devel::Co
+       ver::Report::Coveralls Report to Coveralls
+
+Tools
+
+   Some useful tools
+     * [https://metacpan.org/pod/App::Ack]App::Ack - ack is a tool like
+       grep, optimized for programmers.
+     * [https://metacpan.org/pod/App::Nopaste]App::Nopaste - Post to
+       various pastebins from the CLI
+     * [https://metacpan.org/pod/Daiku]Daiku - Make for Perl.
+     * [https://metacpan.org/pod/Data::Printer]Data::Printer - Colored
+       pretty-print of Perl data structures and objects.
+     * [https://metacpan.org/pod/Reply]Reply - Read-eval-print-loop(REPL)
+       command-line tool.
+     * [https://metacpan.org/pod/Riji]Riji - Static site generator using
+       markdown and git mainly for blogging.
+
+   Libraries for developping command line applications
+     * [https://metacpan.org/pod/Toolbox::Simple]Toolbox::Simple - Simplfy
+       some common tasks in Perl.
+     * [https://metacpan.org/pod/Script::Toolbox]Script::Toolbox -
+       Framework for the daily business scripts.
+     * [https://metacpan.org/pod/Devel::Kit]Devel::Kit- Handy toolbox of
+       things to ease development/debugging.
+
+   Libraries for handling configuration files
+     * [https://metacpan.org/pod/Config::Tiny]Config::Tiny - Read/Write
+       .ini style files with as little code as possible
+
+Video
+
+     * [https://metacpan.org/pod/FFmpeg]FFmpeg - Interface to FFmpeg, a
+       video converter written in C
+     * [https://metacpan.org/pod/Video::Info]Video::Info - Retrieve video
+       properties such as: height width codec fps
+
+Web Frameworks
+
+   Libraries for developing Web applications
+     * [https://metacpan.org/pod/Amon2]Amon2
+     * [https://metacpan.org/pod/Catalyst]Catalyst - Overflowing with
+       features. Very popular.
+     * [https://metacpan.org/pod/Dancer]Dancer
+       ([http://perldancer.org/]Official site)
+     * [https://metacpan.org/pod/Dancer2]Dancer2
+     * [https://metacpan.org/pod/Gantry]Gantry - Web application framework
+       for mod_perl, cgi, etc.
+     * [https://metacpan.org/pod/Kossy]Kossy - A Web framework with simple
+       interface.
+     * [https://metacpan.org/pod/Mojolicious]Mojolicious - An all in one
+       framework.
+     * [https://metacpan.org/pod/Poet]Poet - a modern Perl web framework
+       for Mason developers
+
+Middlewares
+
+   Libraries for creating HTTP middlewares
+     * [https://metacpan.org/pod/Gazelle]Gazelle - Preforked Plack Handler
+       for performance freaks
+     * [https://metacpan.org/pod/Plack]Plack - PSGI server implementation
+       and utilities for Web applications.
+     * [https://metacpan.org/pod/Server::Starter]Server::Starter - Process
+       manager with the "graceful restart" feature.
+     * [https://metacpan.org/pod/Starlet]Starlet - High-performance PSGI
+       Server
+     * [https://metacpan.org/pod/Starman]Starman - High-performance
+       preforking PSGI/Plack web server
+     * [https://metacpan.org/pod/Twiggy]Twiggy - Event-driven PSGI
+       application server
+
+Web Frameworks-Like
+
+   Somewhere between templates and full on frameworks
+     * [https://metacpan.org/pod/Embperl]Embperl - Building dynamic
+       Websites with Perl (sort of like Perl crossed with PHP)
+     * [https://metacpan.org/pod/Mason]Mason - Powerful, high-performance
+       templating for the web and beyond
+
+Web Scraping
+
+   Libraries for extracting some information from websites
+     * [https://metacpan.org/pod/Web::Scraper]Web::Scraper
+
+Other Awesome Lists
+
+   Other amazingly awesome lists can be found in:
+     * [https://github.com/bayandin/awesome-awesomeness]bayandin/awesome-a
+       wesomeness
+     * [https://github.com/emijrp/awesome-awesome]emijrp/awesome-awesome
+     * [https://github.com/fleveque/awesome-awesomes]fleveque/awesome-awes
+       omes
+     * [https://github.com/sindresorhus/awesome]sindresorhus/awesome
+     * [https://github.com/t3chnoboy/awesome-awesome-awesome]t3chnoboy/awe
+       some-awesome-awesome
+
+How to contribute?
+
+   Please read
+   C
+   ONTRIBUTING.md
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   Relo
+   ad to refresh your session. You signed out in another tab or window.
+   Relo
+   ad to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

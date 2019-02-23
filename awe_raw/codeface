@@ -1,0 +1,1502 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - chrissimpkins/codeface: Typefaces for source code beautification</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/4249591?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="chrissimpkins/codeface" /><meta property="og:url" content="https://github.com/chrissimpkins/codeface" /><meta property="og:description" content="codeface - Typefaces for source code beautification" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E29F:5D4F:3131F59:58B95DF:5AD2F772" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E29F:5D4F:3131F59:58B95DF:5AD2F772" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YzllZTZlMTlhZGM0NDY2NDA4NTgxZjM3MjU3ODdiOTU0OTUyMGE2ZWZkNzc4OGQ0MzEzOWRlMjQxNWUzNzNjOHx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTI5Rjo1RDRGOjMxMzFGNTk6NThCOTVERjo1QUQyRjc3MiIsInRpbWVzdGFtcCI6MTUyMzc3NTM0NiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="f6e63174e71a92096ba9bf7e427bef4dfac434d1">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/chrissimpkins/codeface/commits/master.atom" rel="alternate" title="Recent Commits to codeface:master" type="application/atom+xml">
+
+  <meta name="description" content="codeface - Typefaces for source code beautification">
+  <meta name="go-import" content="github.com/chrissimpkins/codeface git https://github.com/chrissimpkins/codeface.git">
+
+  <meta name="octolytics-dimension-user_id" content="4249591" /><meta name="octolytics-dimension-user_login" content="chrissimpkins" /><meta name="octolytics-dimension-repository_id" content="37382467" /><meta name="octolytics-dimension-repository_nwo" content="chrissimpkins/codeface" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="37382467" /><meta name="octolytics-dimension-repository_network_root_nwo" content="chrissimpkins/codeface" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/chrissimpkins/codeface" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/chrissimpkins/codeface/search" data-unscoped-search-url="/search" action="/chrissimpkins/codeface/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/chrissimpkins/codeface">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fchrissimpkins%2Fcodeface" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fchrissimpkins%2Fcodeface"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/chrissimpkins/codeface/watchers"
+     aria-label="188 users are watching this repository">
+    188
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fchrissimpkins%2Fcodeface"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/chrissimpkins/codeface/stargazers"
+      aria-label="4507 users starred this repository">
+      4,507
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fchrissimpkins%2Fcodeface"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/chrissimpkins/codeface/network" class="social-count"
+       aria-label="332 users forked this repository">
+      332
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/chrissimpkins">chrissimpkins</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/chrissimpkins/codeface">codeface</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /chrissimpkins/codeface" href="/chrissimpkins/codeface">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /chrissimpkins/codeface/issues" href="/chrissimpkins/codeface/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">18</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /chrissimpkins/codeface/pulls" href="/chrissimpkins/codeface/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /chrissimpkins/codeface/projects" href="/chrissimpkins/codeface/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /chrissimpkins/codeface/pulse" href="/chrissimpkins/codeface/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="phSzxYnl3EG8hfv/uypOW3dMLHXhkg2HR8SwcWDCW23qvF1VF9IWitz5aapLBbFN7h/IFtMAbnuNBPVlITIbWA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            Typefaces for source code beautification
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/chrissimpkins/codeface/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/font" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:font">
+        font
+      </a>
+      <a href="/topics/fonts" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:fonts">
+        fonts
+      </a>
+      <a href="/topics/font-face" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:font-face">
+        font-face
+      </a>
+      <a href="/topics/typeface" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:typeface">
+        typeface
+      </a>
+      <a href="/topics/typefaces" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:typefaces">
+        typefaces
+      </a>
+      <a href="/topics/otf" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:otf">
+        otf
+      </a>
+      <a href="/topics/ttf" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ttf">
+        ttf
+      </a>
+      <a href="/topics/otf-fonts" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:otf-fonts">
+        otf-fonts
+      </a>
+      <a href="/topics/developer" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:developer">
+        developer
+      </a>
+      <a href="/topics/developer-tools" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:developer-tools">
+        developer-tools
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/chrissimpkins/codeface/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                604
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/chrissimpkins/codeface/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/chrissimpkins/codeface/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/chrissimpkins/codeface/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      12
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/chrissimpkins/codeface/search?l=python"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#3572A5;"></span>
+                  <span class="lang">Python</span>
+                  <span class="percent">94.5%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chrissimpkins/codeface/search?l=shell"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#89e051;"></span>
+                  <span class="lang">Shell</span>
+                  <span class="percent">4.3%</span>
+                </a>
+            </li>
+            <li>
+                <a href="/chrissimpkins/codeface/search?l=c"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#555555;"></span>
+                  <span class="lang">C</span>
+                  <span class="percent">1.2%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Python 94.5%" style="width:94.5%; background-color:#3572A5;" itemprop="keywords">Python</span>
+      <span class="language-color" aria-label="Shell 4.3%" style="width:4.3%; background-color:#89e051;" itemprop="keywords">Shell</span>
+      <span class="language-color" aria-label="C 1.2%" style="width:1.2%; background-color:#555555;" itemprop="keywords">C</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/chrissimpkins/codeface.git" aria-label="Clone this repository at https://github.com/chrissimpkins/codeface.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/chrissimpkins/codeface.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/chrissimpkins/codeface/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/chrissimpkins/codeface/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/chrissimpkins/codeface/tree/development"
+               data-name="development"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                development
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/chrissimpkins/codeface/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/chrissimpkins/codeface/tree/font-collection"
+              data-name="font-collection"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="font-collection">
+                font-collection
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/chrissimpkins/codeface/tree/cjk-font-collection"
+              data-name="cjk-font-collection"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="cjk-font-collection">
+                cjk-font-collection
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/chrissimpkins/codeface/commit/2a584349077583695516d36aa79ae6e9961a15fa" data-pjax>
+        2a58434
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-09-18T00:23:36Z">Sep 17, 2017</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="chrissimpkins">
+
+        <a href="/chrissimpkins" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars2.githubusercontent.com/u/4249591?s=40&amp;v=4" width="20" height="20" alt="@chrissimpkins">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="/chrissimpkins/codeface/commits?author=chrissimpkins"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by chrissimpkins">chrissimpkins</a>
+
+
+  committed
+  <relative-time datetime="2017-09-18T00:23:36Z">Sep 17, 2017</relative-time>
+
+
+
+      <a href="/chrissimpkins/codeface/commit/2a584349077583695516d36aa79ae6e9961a15fa" class="message" data-pjax="true" title="new compressed images">new compressed images</a>
+
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/chrissimpkins/codeface/tree/2a584349077583695516d36aa79ae6e9961a15fa">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="cjk-fonts" id="690a54f78e5b20ccb845206a25ea365f-c0f829e3f0aaeceb51f9821139f35cb17772dee0" href="/chrissimpkins/codeface/tree/master/cjk-fonts">cjk-fonts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="added vertical metrics on CJK fonts" class="message" href="/chrissimpkins/codeface/commit/8d6f90485c367da8234f78769017f090b591a921">added vertical metrics on CJK fonts</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-03-30T00:56:37Z">Mar 30, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="fonts" id="980d14c0c85495b48b9a9134658e6121-a1a3df11a2aa4d1cf7383aca3cae2c2ce5c4bad5" href="/chrissimpkins/codeface/tree/master/fonts">fonts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated license" class="message" href="/chrissimpkins/codeface/commit/ba8a0e28cc9a45e5aeadabe5062adcdaa4929ce7">updated license</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-05T10:34:57Z">Apr 5, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="images" id="59b514174bffe4ae402b3d63aad79fe0-bc6f45a9651d4051343e4210fe1d1c62d66b74cc" href="/chrissimpkins/codeface/tree/master/images">images</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="new compressed images" class="message" href="/chrissimpkins/codeface/commit/2a584349077583695516d36aa79ae6e9961a15fa">new compressed images</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-18T00:23:36Z">Sep 18, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="samplecode" id="c389fb584dbe19dad2d5cae1e18f940d-53f3174090a0bfff85968c968a975349897bb3a3" href="/chrissimpkins/codeface/tree/master/samplecode">samplecode</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="removed duplicate ligatures from text specimen" class="message" href="/chrissimpkins/codeface/commit/ffc2450aa0efbaa2fb8a8b515db5f712d778ecf7">removed duplicate ligatures from text specimen</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-17T23:46:13Z">Sep 17, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="scripts" id="d6c5855a62cf32a4dadbc2831f0f295f-4a9a5d65c8f5bf1e41600a10e3438bf061a38e24" href="/chrissimpkins/codeface/tree/master/scripts">scripts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update nondistrib gallery images" class="message" href="/chrissimpkins/codeface/commit/ce30f44d6e81fee16aa6cf5cb6775f9bfcab9ab0">update nondistrib gallery images</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-18T00:13:32Z">Sep 18, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-711e9cc0a9354016c50aae60980d3bab8b1cc4bd" href="/chrissimpkins/codeface/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated .gitignore file" class="message" href="/chrissimpkins/codeface/commit/f8cec2ef878e807ea6548f4b3c2773ced3612cc0">updated .gitignore file</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-20T21:56:46Z">Jan 20, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="ABOUT.md" id="04b245524e2e996e7a38bbfdf3de29f8-6e011a522d6ff32d2b50c971529381411daa3f6d" href="/chrissimpkins/codeface/blob/master/ABOUT.md">ABOUT.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated about page" class="message" href="/chrissimpkins/codeface/commit/722e3dfb519aaf197b2bf62b0f155453225db57c">updated about page</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-26T23:02:34Z">Feb 26, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="BITMAP.md" id="3d205d834db84bf9a27ea7020af737ff-9ef993c8b046a621de779d45bb6717d4573adcea" href="/chrissimpkins/codeface/blob/master/BITMAP.md">BITMAP.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated path" class="message" href="/chrissimpkins/codeface/commit/c3efd944f1b83b06cffec59c8e6b0a2e7f81d199">updated path</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-30T15:41:26Z">Jan 30, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CJK.md" id="9e79db4c2b7e8c38b19f15729231be7c-b65bc4a013e18dae8f5edf72cee9fb64961ebefd" href="/chrissimpkins/codeface/blob/master/CJK.md">CJK.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="modified command line pull instructions to use curl (from wget)" class="message" href="/chrissimpkins/codeface/commit/0bc2e55d8aec13ab4c8265e4fb62ee4dc61a1c60">modified command line pull instructions to use curl (from wget)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-04-05T02:38:32Z">Apr 5, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-d3e793b2929dadf250cdfb3c9bb767b79ef7ca62" href="/chrissimpkins/codeface/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated contributing instructions" class="message" href="/chrissimpkins/codeface/commit/ea3d48c95c9ea637bb6522ccd9c76b0599f54e82">updated contributing instructions</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-06-16T13:32:46Z">Jun 16, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTORS.md" id="f0eaedffe49f98e11072394a678af7cc-0b8387c8bcc9b172154f7ad7755919d5b3bf0b96" href="/chrissimpkins/codeface/blob/master/CONTRIBUTORS.md">CONTRIBUTORS.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated contributors list" class="message" href="/chrissimpkins/codeface/commit/c9dc3f9bae8c7f18d32c77d4149110365d5a5b5b">updated contributors list</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-16T00:03:46Z">Sep 16, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE.md" id="37854d19817c792316d481f5beb93cc7-fe0f0c2aba4567260b64b6e59cda1970ff19963b" itemprop="license" href="/chrissimpkins/codeface/blob/master/LICENSE.md">LICENSE.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="minor license update" class="message" href="/chrissimpkins/codeface/commit/a1ec704f51f016e5787d7af371d2e5bf81067873">minor license update</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-06-18T15:33:53Z">Jun 18, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="NONDISTRIB.md" id="8c8994521cba87cbd3d26a3add55c0b4-5a239c029130716396b0ad8bd7ce13ba05037c3e" href="/chrissimpkins/codeface/blob/master/NONDISTRIB.md">NONDISTRIB.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updated gallery images" class="message" href="/chrissimpkins/codeface/commit/67e97ec4c596a9f57b62bbb1ed2192f8793b7723">updated gallery images</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-26T22:17:12Z">Feb 26, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-14acb6ca76776eb5493f39834ad1d48250a36364" href="/chrissimpkins/codeface/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="updating image rendering" class="message" href="/chrissimpkins/codeface/commit/2896f69bf09a043f6cd4d98d6742c5ca95d5fa40">updating image rendering</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-16T01:00:40Z">Sep 16, 2017</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><p><a href="/chrissimpkins/codeface/blob/master/images/non-gallery/codeface-HR-new.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/non-gallery/codeface-HR-new.png" alt="Codeface | Typefaces for source code beautification" width="790" style="max-width:100%;"></a></p>
+<h2><a href="#typefaces-for-source-code-beautification" aria-hidden="true" class="anchor" id="user-content-typefaces-for-source-code-beautification"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Typefaces for Source Code Beautification</h2>
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" style="max-width:100%;"></a></p>
+<ul>
+<li><a href="/chrissimpkins/codeface/blob/master/ABOUT.md">About</a></li>
+<li><a href="#the-gallery">Main Font Gallery</a></li>
+<li><a href="/chrissimpkins/codeface/blob/master/BITMAP.md">Bitmap Font Gallery</a></li>
+<li><a href="/chrissimpkins/codeface/blob/master/CJK.md">Chinese, Japanese, Korean Developer Font Gallery</a></li>
+<li><a href="/chrissimpkins/codeface/blob/master/NONDISTRIB.md">Free, Non-Distrib EULA Developer Font Gallery</a></li>
+<li><a href="/chrissimpkins/codeface/blob/master/CONTRIBUTING.md">Contribute to the Project</a></li>
+<li><a href="/chrissimpkins/codeface/blob/master/CONTRIBUTORS.md">Contributor List</a></li>
+<li><a href="/chrissimpkins/codeface/blob/master/LICENSE.md">License</a></li>
+</ul>
+<h2><a href="#new" aria-hidden="true" class="anchor" id="user-content-new"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New!</h2>
+<p>Each typeface directory in the repository now includes a vertical metrics table (<code>vertical_metrics.txt</code>).  Combine the data in these reference tables with the new <a href="https://github.com/source-foundry/font-line"><code>font-line</code> tool</a> to modify any font to the line spacing that suits your needs.  Tighten up or keep it loose.</p>
+<h2><a href="#fun-little-rant-about-font-customization" aria-hidden="true" class="anchor" id="user-content-fun-little-rant-about-font-customization"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fun Little Rant About Font Customization</h2>
+<blockquote>"Stop wasting your braintime on meaningless stuff like this and get back to coding. If you replace 'font' with some cosmetic product y'all sound like a bunch of valley girls."
+<p>-- <a href="https://www.reddit.com/r/programming/comments/39wz4l/hey_reddit_developers_what_is_your_favorite_text/cs86fnu" rel="nofollow"></a>Some Guy on Reddit</p></blockquote>
+<p><a href="https://www.reddit.com/r/programming/comments/39wz4l/hey_reddit_developers_what_is_your_favorite_text/cs86fnu" rel="nofollow">Link</a></p>
+<h2><a href="#download-font-archive" aria-hidden="true" class="anchor" id="user-content-download-font-archive"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download Font Archive</h2>
+<p><a href="https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip"><img src="/chrissimpkins/codeface/raw/master/images/non-gallery/download-button.png" alt="Download All Fonts" width="125" style="max-width:100%;"></a></p>
+<p>Click a link below to download all font binaries in the Codeface main and bitmap gallery collections:</p>
+<table>
+<thead>
+<tr>
+<th align="center">Archive</th>
+<th align="center">SHA1</th>
+<th align="center">Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip">codeface-fonts.zip</a></td>
+<td align="center"><code>4709e7b6f63d1e2c31f7af0d56b7e1f75a846476</code></td>
+<td align="center">31.4 MB</td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.tar.xz">codeface-fonts.tar.xz</a></td>
+<td align="center"><code>e4416c72e331d71e55fd56f2fba38cfda7672f85</code></td>
+<td align="center">16.5 MB</td>
+</tr></tbody></table>
+<p>or use one of the following commands to pull a font archive with <code>curl</code>:</p>
+<pre><code>$ curl -OL https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.zip
+</code></pre>
+<pre><code>$ curl -OL https://github.com/chrissimpkins/codeface/releases/download/font-collection/codeface-fonts.tar.xz
+</code></pre>
+<h2><a href="#the-gallery" aria-hidden="true" class="anchor" id="user-content-the-gallery"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Gallery</h2>
+<h3><a href="#agave" aria-hidden="true" class="anchor" id="user-content-agave"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/agave">agave</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/agave/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/agave-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/agave-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/agave-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/agave-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/agave-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/agave-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/agave-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/agave-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#anonymous-pro" aria-hidden="true" class="anchor" id="user-content-anonymous-pro"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/anonymous-pro">Anonymous Pro</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/anonymous-pro/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/anonymous-pro-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/anonymous-pro-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/anonymous-pro-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/anonymous-pro-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/anonymous-pro-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/anonymous-pro-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/anonymous-pro-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/anonymous-pro-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#aurulent-sans-mono" aria-hidden="true" class="anchor" id="user-content-aurulent-sans-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/aurulent-sans-mono">Aurulent Sans Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/aurulent-sans-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/aurulent-sans-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/aurulent-sans-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/aurulent-sans-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/aurulent-sans-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/aurulent-sans-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/aurulent-sans-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/aurulent-sans-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/aurulent-sans-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#averagemono" aria-hidden="true" class="anchor" id="user-content-averagemono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/average-mono">AverageMono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/average-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/average-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/average-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/average-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/average-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/average-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/average-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/average-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/average-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#bitstream-vera-sans-mono" aria-hidden="true" class="anchor" id="user-content-bitstream-vera-sans-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/bitstream-vera-sans-mono">Bitstream Vera Sans Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/bitstream-vera-sans-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bitstream-vera-sans-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bitstream-vera-sans-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bitstream-vera-sans-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bitstream-vera-sans-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bitstream-vera-sans-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bitstream-vera-sans-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bitstream-vera-sans-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bitstream-vera-sans-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#bpmono" aria-hidden="true" class="anchor" id="user-content-bpmono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/bp-mono">BPmono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/bp-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bp-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bp-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bp-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bp-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bp-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bp-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bp-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bp-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#bront" aria-hidden="true" class="anchor" id="user-content-bront"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/bront">Bront</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/bront/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bront-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bront-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bront-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bront-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bront-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bront-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/bront-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/bront-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#camingocode" aria-hidden="true" class="anchor" id="user-content-camingocode"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/camingo-code">CamingoCode</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/camingo-code/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/camingo-code-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/camingo-code-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/camingo-code-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/camingo-code-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/camingo-code-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/camingo-code-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/camingo-code-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/camingo-code-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#cmu-typewriter-text" aria-hidden="true" class="anchor" id="user-content-cmu-typewriter-text"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/cmu-typewriter">CMU Typewriter Text</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/cmu-typewriter/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cmu-typewriter-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cmu-typewriter-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cmu-typewriter-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cmu-typewriter-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cmu-typewriter-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cmu-typewriter-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cmu-typewriter-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cmu-typewriter-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#courier-prime-code" aria-hidden="true" class="anchor" id="user-content-courier-prime-code"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/courierprime-code">Courier Prime Code</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/courierprime-code/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/courierprime-code-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/courierprime-code-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/courierprime-code-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/courierprime-code-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/courierprime-code-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/courierprime-code-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/courierprime-code-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/courierprime-code-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#cousine" aria-hidden="true" class="anchor" id="user-content-cousine"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/cousine">Cousine</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/cousine/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cousine-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cousine-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cousine-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cousine-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cousine-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cousine-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cousine-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cousine-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#cpmono_v07" aria-hidden="true" class="anchor" id="user-content-cpmono_v07"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/cp-mono">CPMono_v07</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/cp-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cp-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cp-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cp-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cp-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cp-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cp-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cp-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cp-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#cutive-mono" aria-hidden="true" class="anchor" id="user-content-cutive-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/cutive-mono">Cutive Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/cutive-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cutive-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cutive-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cutive-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cutive-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cutive-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cutive-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/cutive-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/cutive-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#droid-sans-mono" aria-hidden="true" class="anchor" id="user-content-droid-sans-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/droid-sans-mono">Droid Sans Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/droid-sans-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/droid-sans-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/droid-sans-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/droid-sans-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/droid-sans-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/droid-sans-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/droid-sans-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/droid-sans-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/droid-sans-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#edlo" aria-hidden="true" class="anchor" id="user-content-edlo"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/edlo">Edlo</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/edlo/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/edlo-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/edlo-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/edlo-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/edlo-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/edlo-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/edlo-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/edlo-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/edlo-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#fantasque-sans-mono" aria-hidden="true" class="anchor" id="user-content-fantasque-sans-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/fantasque-sans-mono">Fantasque Sans Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/fantasque-sans-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fantasque-sans-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fantasque-sans-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fantasque-sans-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fantasque-sans-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fantasque-sans-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fantasque-sans-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fantasque-sans-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fantasque-sans-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#fira-code--" aria-hidden="true" class="anchor" id="user-content-fira-code--"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/fira-code">Fira Code</a>  <a href="#"><img src="https://camo.githubusercontent.com/bff271931cdf821c8ec8a3ef77df547ca228bc40/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c69676174757265732d2545322539432539332d677265656e2e7376673f7374796c653d666c6174" alt="Ligatures" data-canonical-src="https://img.shields.io/badge/ligatures-%E2%9C%93-green.svg?style=flat" style="max-width:100%;"></a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/fira-code/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-code-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-code-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-code-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-code-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-code-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-code-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-code-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-code-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#fira-mono" aria-hidden="true" class="anchor" id="user-content-fira-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/fira-mono">Fira Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/fira-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/fira-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/fira-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#freemono" aria-hidden="true" class="anchor" id="user-content-freemono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/free-mono">FreeMono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/free-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/free-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/free-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/free-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/free-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/free-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/free-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/free-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/free-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#generic-mono-ii" aria-hidden="true" class="anchor" id="user-content-generic-mono-ii"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/generic">Generic Mono II</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/generic/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/generic-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/generic-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/generic-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/generic-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/generic-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/generic-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/generic-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/generic-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#hack" aria-hidden="true" class="anchor" id="user-content-hack"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/hack">Hack</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/hack/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hack-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hack-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hack-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hack-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hack-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hack-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hack-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hack-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#hasklig--" aria-hidden="true" class="anchor" id="user-content-hasklig--"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/hasklig">Hasklig</a>  <a href="#"><img src="https://camo.githubusercontent.com/bff271931cdf821c8ec8a3ef77df547ca228bc40/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c69676174757265732d2545322539432539332d677265656e2e7376673f7374796c653d666c6174" alt="Ligatures" data-canonical-src="https://img.shields.io/badge/ligatures-%E2%9C%93-green.svg?style=flat" style="max-width:100%;"></a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/hasklig/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hasklig-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hasklig-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hasklig-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hasklig-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hasklig-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hasklig-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hasklig-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hasklig-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#hermit" aria-hidden="true" class="anchor" id="user-content-hermit"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/hermit">Hermit</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/hermit/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hermit-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hermit-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hermit-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hermit-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hermit-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hermit-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/hermit-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/hermit-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#inconsolata" aria-hidden="true" class="anchor" id="user-content-inconsolata"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/inconsolata">Inconsolata</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/inconsolata/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/inconsolata-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/inconsolata-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/inconsolata-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/inconsolata-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/inconsolata-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/inconsolata-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/inconsolata-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/inconsolata-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#iosevka" aria-hidden="true" class="anchor" id="user-content-iosevka"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/iosevka">Iosevka</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/iosevka/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#iosevka-slab" aria-hidden="true" class="anchor" id="user-content-iosevka-slab"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/iosevka-slab">Iosevka Slab</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/iosevka-slab/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-slab-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-slab-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-slab-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-slab-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-slab-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-slab-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/iosevka-slab-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/iosevka-slab-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#kawkab-mono" aria-hidden="true" class="anchor" id="user-content-kawkab-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/kawkab-mono">Kawkab Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/kawkab-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/kawkab-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/kawkab-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/kawkab-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/kawkab-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/kawkab-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/kawkab-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/kawkab-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/kawkab-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#lekton" aria-hidden="true" class="anchor" id="user-content-lekton"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/lekton">Lekton</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/lekton/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/lekton-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/lekton-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/lekton-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/lekton-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/lekton-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/lekton-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/lekton-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/lekton-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#liberation-mono" aria-hidden="true" class="anchor" id="user-content-liberation-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/liberation-mono">Liberation Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/liberation-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/liberation-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/liberation-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/liberation-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/liberation-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/liberation-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/liberation-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/liberation-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/liberation-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#linux-libertine-mono" aria-hidden="true" class="anchor" id="user-content-linux-libertine-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/linux-libertine-mono">Linux Libertine Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/linux-libertine-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/linux-libertine-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/linux-libertine-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/linux-libertine-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/linux-libertine-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/linux-libertine-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/linux-libertine-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/linux-libertine-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/linux-libertine-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#luculent" aria-hidden="true" class="anchor" id="user-content-luculent"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/luculent">Luculent</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/luculent/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luculent-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luculent-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luculent-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luculent-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luculent-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luculent-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luculent-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luculent-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#luxi-mono" aria-hidden="true" class="anchor" id="user-content-luxi-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/luxi-mono">Luxi Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/luxi-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luxi-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luxi-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luxi-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luxi-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luxi-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luxi-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/luxi-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/luxi-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#mensch" aria-hidden="true" class="anchor" id="user-content-mensch"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/mensch">Mensch</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/mensch/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mensch-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mensch-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mensch-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mensch-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mensch-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mensch-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mensch-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mensch-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#meslo-lg-m-dz" aria-hidden="true" class="anchor" id="user-content-meslo-lg-m-dz"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/meslo">Meslo LG M DZ</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/meslo/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/meslo-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/meslo-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/meslo-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/meslo-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/meslo-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/meslo-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/meslo-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/meslo-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#metrickal" aria-hidden="true" class="anchor" id="user-content-metrickal"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/metrickal">Metrickal</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/metrickal/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/metrickal-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/metrickal-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/metrickal-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/metrickal-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/metrickal-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/metrickal-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/metrickal-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/metrickal-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#monoone" aria-hidden="true" class="anchor" id="user-content-monoone"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/mono-one">monoOne</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/mono-one/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-one-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-one-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-one-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-one-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-one-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-one-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-one-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-one-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#monospatial" aria-hidden="true" class="anchor" id="user-content-monospatial"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/mono-spatial">MonoSpatial</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/mono-spatial/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-spatial-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-spatial-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-spatial-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-spatial-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-spatial-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-spatial-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mono-spatial-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mono-spatial-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#monofur" aria-hidden="true" class="anchor" id="user-content-monofur"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/monofur">monofur</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/monofur/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monofur-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monofur-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monofur-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monofur-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monofur-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monofur-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monofur-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monofur-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#monoid--" aria-hidden="true" class="anchor" id="user-content-monoid--"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/monoid">Monoid</a>  <a href="#"><img src="https://camo.githubusercontent.com/bff271931cdf821c8ec8a3ef77df547ca228bc40/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c69676174757265732d2545322539432539332d677265656e2e7376673f7374796c653d666c6174" alt="Ligatures" data-canonical-src="https://img.shields.io/badge/ligatures-%E2%9C%93-green.svg?style=flat" style="max-width:100%;"></a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/monoid/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monoid-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monoid-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monoid-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monoid-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monoid-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monoid-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monoid-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monoid-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#monospace" aria-hidden="true" class="anchor" id="user-content-monospace"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/monospace">Monospace</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/monospace/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#monospacetypewriter" aria-hidden="true" class="anchor" id="user-content-monospacetypewriter"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/monospace-typewriter">MonospaceTypewriter</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/monospace-typewriter/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-typewriter-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-typewriter-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-typewriter-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-typewriter-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-typewriter-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-typewriter-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/monospace-typewriter-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/monospace-typewriter-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#m-1m" aria-hidden="true" class="anchor" id="user-content-m-1m"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/mplus1m">M+ 1m</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/mplus1m/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1m-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1m-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1m-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1m-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1m-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1m-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1m-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1m-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#m-1mn" aria-hidden="true" class="anchor" id="user-content-m-1mn"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/mplus1mn">M+ 1mn</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/mplus1mn/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1mn-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1mn-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1mn-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1mn-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1mn-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1mn-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus1mn-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus1mn-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#m-2m" aria-hidden="true" class="anchor" id="user-content-m-2m"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/mplus2m">M+ 2m</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/mplus2m/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus2m-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus2m-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus2m-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus2m-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus2m-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus2m-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/mplus2m-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/mplus2m-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#nimbus-mono" aria-hidden="true" class="anchor" id="user-content-nimbus-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/nimbus-mono">Nimbus Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/nimbus-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/nimbus-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/nimbus-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/nimbus-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/nimbus-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/nimbus-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/nimbus-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/nimbus-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/nimbus-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#notcouriersans" aria-hidden="true" class="anchor" id="user-content-notcouriersans"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/not-courier-sans">NotCourierSans</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/not-courier-sans/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/not-courier-sans-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/not-courier-sans-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/not-courier-sans-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/not-courier-sans-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/not-courier-sans-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/not-courier-sans-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/not-courier-sans-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/not-courier-sans-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#office-code-pro" aria-hidden="true" class="anchor" id="user-content-office-code-pro"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/office-code-pro">Office Code Pro</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/office-code-pro/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/office-code-pro-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/office-code-pro-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/office-code-pro-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/office-code-pro-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/office-code-pro-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/office-code-pro-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/office-code-pro-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/office-code-pro-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#oxygen-mono" aria-hidden="true" class="anchor" id="user-content-oxygen-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/oxygen-mono">Oxygen Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/oxygen-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/oxygen-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/oxygen-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/oxygen-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/oxygen-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/oxygen-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/oxygen-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/oxygen-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/oxygen-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#panic-sans" aria-hidden="true" class="anchor" id="user-content-panic-sans"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/panic-sans">Panic Sans</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/panic-sans/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/panic-sans-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/panic-sans-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/panic-sans-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/panic-sans-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/panic-sans-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/panic-sans-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/panic-sans-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/panic-sans-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#pointfree" aria-hidden="true" class="anchor" id="user-content-pointfree"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/pointfree">Pointfree</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/pointfree/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pointfree-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pointfree-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pointfree-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pointfree-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pointfree-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pointfree-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pointfree-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pointfree-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#profontwindows" aria-hidden="true" class="anchor" id="user-content-profontwindows"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/pro-font-windows">ProFontWindows</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/pro-font-windows/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pro-font-windows-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pro-font-windows-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pro-font-windows-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pro-font-windows-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pro-font-windows-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pro-font-windows-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pro-font-windows-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pro-font-windows-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#pt-mono" aria-hidden="true" class="anchor" id="user-content-pt-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/pt-mono">PT Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/pt-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pt-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pt-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pt-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pt-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pt-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pt-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/pt-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/pt-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#roboto-mono" aria-hidden="true" class="anchor" id="user-content-roboto-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/roboto-mono">Roboto Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/roboto-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/roboto-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/roboto-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/roboto-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/roboto-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/roboto-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/roboto-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/roboto-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/roboto-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#saxmono" aria-hidden="true" class="anchor" id="user-content-saxmono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/sax-mono">saxMono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/sax-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sax-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sax-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sax-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sax-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sax-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sax-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sax-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sax-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#share-techmonotrue" aria-hidden="true" class="anchor" id="user-content-share-techmonotrue"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/sharetech-mono">Share-TechMonoTrue</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/sharetech-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sharetech-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sharetech-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sharetech-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sharetech-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sharetech-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sharetech-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sharetech-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sharetech-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#smalltypewriting" aria-hidden="true" class="anchor" id="user-content-smalltypewriting"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/small-type-writing">SmallTypeWriting</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/small-type-writing/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/small-type-writing-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/small-type-writing-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/small-type-writing-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/small-type-writing-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/small-type-writing-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/small-type-writing-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/small-type-writing-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/small-type-writing-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#source-code-pro" aria-hidden="true" class="anchor" id="user-content-source-code-pro"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/source-code-pro">Source Code Pro</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/source-code-pro/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/source-code-pro-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/source-code-pro-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/source-code-pro-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/source-code-pro-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/source-code-pro-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/source-code-pro-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/source-code-pro-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/source-code-pro-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#sudo" aria-hidden="true" class="anchor" id="user-content-sudo"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/sudo">Sudo</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/sudo/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sudo-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sudo-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sudo-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sudo-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sudo-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sudo-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/sudo-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/sudo-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#terminus" aria-hidden="true" class="anchor" id="user-content-terminus"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/terminus">Terminus</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/terminus/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/terminus-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/terminus-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/terminus-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/terminus-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/terminus-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/terminus-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/terminus-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/terminus-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#tex-gyre-cursor" aria-hidden="true" class="anchor" id="user-content-tex-gyre-cursor"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/tex-gyre-cursor">TeX Gyre Cursor</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/tex-gyre-cursor/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/tex-gyre-cursor-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/tex-gyre-cursor-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/tex-gyre-cursor-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/tex-gyre-cursor-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/tex-gyre-cursor-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/tex-gyre-cursor-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/tex-gyre-cursor-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/tex-gyre-cursor-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#ubuntu-mono" aria-hidden="true" class="anchor" id="user-content-ubuntu-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/ubuntu-mono">Ubuntu Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/ubuntu-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/ubuntu-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/ubuntu-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/ubuntu-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/ubuntu-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/ubuntu-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/ubuntu-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/ubuntu-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/ubuntu-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#verily-serif-mono" aria-hidden="true" class="anchor" id="user-content-verily-serif-mono"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/verily-serif-mono">Verily Serif Mono</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/verily-serif-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/verily-serif-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/verily-serif-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/verily-serif-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/verily-serif-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/verily-serif-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/verily-serif-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/verily-serif-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/verily-serif-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<h3><a href="#whois" aria-hidden="true" class="anchor" id="user-content-whois"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/chrissimpkins/codeface/blob/master/fonts/whois-mono">Whois</a></h3>
+<p>[ <a href="/chrissimpkins/codeface/blob/master/fonts/whois-mono/license.txt">License</a> ]</p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/whois-mono-STP.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/whois-mono-STP.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/whois-mono-STPC.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/whois-mono-STPC.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/whois-mono-dark.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/whois-mono-dark.png" width="725" style="max-width:100%;"></a></p>
+<p><a href="/chrissimpkins/codeface/blob/master/images/gallery/whois-mono-light.png" target="_blank"><img src="/chrissimpkins/codeface/raw/master/images/gallery/whois-mono-light.png" width="725" style="max-width:100%;"></a></p>
+<hr>
+<p>§ The End</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.25066s from unicorn-526741577-xrhnp">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

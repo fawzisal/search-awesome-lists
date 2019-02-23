@@ -1,0 +1,1038 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - dhamaniasad/awesome-postgres: A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/4560482?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="dhamaniasad/awesome-postgres" /><meta property="og:url" content="https://github.com/dhamaniasad/awesome-postgres" /><meta property="og:description" content="awesome-postgres - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E1C7:5D4F:312EF51:58B3FB3:5AD2F717" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E1C7:5D4F:312EF51:58B3FB3:5AD2F717" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YTRiZGFjY2JmYmQ1MTU0ZDA3YTlhZGI2YTEyN2I1YzcyOTNiY2NkOTRiMWYzYzQ4ODlkMTMwOWJmMjk4YTMxY3x7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTFDNzo1RDRGOjMxMkVGNTE6NThCM0ZCMzo1QUQyRjcxNyIsInRpbWVzdGFtcCI6MTUyMzc3NTI1NSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="53b518ff60fed340dfdd6b6200504716c41f54fa">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/dhamaniasad/awesome-postgres/commits/master.atom" rel="alternate" title="Recent Commits to awesome-postgres:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-postgres - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql">
+  <meta name="go-import" content="github.com/dhamaniasad/awesome-postgres git https://github.com/dhamaniasad/awesome-postgres.git">
+
+  <meta name="octolytics-dimension-user_id" content="4560482" /><meta name="octolytics-dimension-user_login" content="dhamaniasad" /><meta name="octolytics-dimension-repository_id" content="40072159" /><meta name="octolytics-dimension-repository_nwo" content="dhamaniasad/awesome-postgres" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="40072159" /><meta name="octolytics-dimension-repository_network_root_nwo" content="dhamaniasad/awesome-postgres" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/dhamaniasad/awesome-postgres" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/dhamaniasad/awesome-postgres/search" data-unscoped-search-url="/search" action="/dhamaniasad/awesome-postgres/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/dhamaniasad/awesome-postgres">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fdhamaniasad%2Fawesome-postgres" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fdhamaniasad%2Fawesome-postgres"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/dhamaniasad/awesome-postgres/watchers"
+     aria-label="244 users are watching this repository">
+    244
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fdhamaniasad%2Fawesome-postgres"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/dhamaniasad/awesome-postgres/stargazers"
+      aria-label="4163 users starred this repository">
+      4,163
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fdhamaniasad%2Fawesome-postgres"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/dhamaniasad/awesome-postgres/network" class="social-count"
+       aria-label="293 users forked this repository">
+      293
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/dhamaniasad">dhamaniasad</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/dhamaniasad/awesome-postgres">awesome-postgres</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /dhamaniasad/awesome-postgres" href="/dhamaniasad/awesome-postgres">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /dhamaniasad/awesome-postgres/issues" href="/dhamaniasad/awesome-postgres/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">6</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /dhamaniasad/awesome-postgres/pulls" href="/dhamaniasad/awesome-postgres/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">12</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /dhamaniasad/awesome-postgres/projects" href="/dhamaniasad/awesome-postgres/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /dhamaniasad/awesome-postgres/pulse" href="/dhamaniasad/awesome-postgres/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ckiQuJFb4AT6La633nGJm9RXOMWbAUGgLJj2Xco1eUOhBYdX8FhTOlplLpQPiQ0sy6nAvr45oNlf7bwXO/M4NQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://dhamaniasad.github.io/awesome-postgres">http://dhamaniasad.github.io/awesome-…</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/dhamaniasad/awesome-postgres/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/postgres" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:postgres">
+        postgres
+      </a>
+      <a href="/topics/database" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:database">
+        database
+      </a>
+      <a href="/topics/postgresql" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:postgresql">
+        postgresql
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/dhamaniasad/awesome-postgres/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                387
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/dhamaniasad/awesome-postgres/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="/dhamaniasad/awesome-postgres/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/dhamaniasad/awesome-postgres/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      75
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/dhamaniasad/awesome-postgres/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/dhamaniasad/awesome-postgres.git" aria-label="Clone this repository at https://github.com/dhamaniasad/awesome-postgres.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/dhamaniasad/awesome-postgres.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/dhamaniasad/awesome-postgres/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/dhamaniasad/awesome-postgres/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dhamaniasad/awesome-postgres/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/dhamaniasad/awesome-postgres/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/dhamaniasad/awesome-postgres/tree-commit/64613f2561c6bce419ff629f661954317e3b70cb" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/dhamaniasad/awesome-postgres/tree/64613f2561c6bce419ff629f661954317e3b70cb">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-1f0d39caedf38e6412bba6f1a8458d2509a355c5" href="/dhamaniasad/awesome-postgres/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="fix travis problems, add white-list" class="message" href="/dhamaniasad/awesome-postgres/commit/6293da099c80f75473d9941aafd8f401d0e23713">fix travis problems, add white-list</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-26T20:00:13Z">Mar 26, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-096a0106092ebd4146d29d352f4e3cdf148d5d30" href="/dhamaniasad/awesome-postgres/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update contribution guidelines for 1 PR per change" class="message" href="/dhamaniasad/awesome-postgres/commit/cedae811c9dd1e43e1f90643b23efbf0b6b9a02a">Update contribution guidelines for 1 PR per change</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-10-06T10:41:37Z">Oct 6, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-2c4afabdb632b5d68e60c9fe9fe0b0819676a729" itemprop="license" href="/dhamaniasad/awesome-postgres/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Initial commit" class="message" href="/dhamaniasad/awesome-postgres/commit/07be9f77ad22ba57611da98c1f74894665300eb9">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-08-02T07:27:17Z">Aug 2, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-65cf1c1fc80cd8f0a7084951619e1bafeb74140d" href="/dhamaniasad/awesome-postgres/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge pull request #195 from bersace/patch-1
+
+Add ldap2pg utility" class="message" href="/dhamaniasad/awesome-postgres/commit/64613f2561c6bce419ff629f661954317e3b70cb">Merge pull request</a> <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="284186108" data-permission-text="Issue title is private" data-url="https://github.com/dhamaniasad/awesome-postgres/issues/195" href="https://github.com/dhamaniasad/awesome-postgres/pull/195">#195</a> <a data-pjax="true" title="Merge pull request #195 from bersace/patch-1
+
+Add ldap2pg utility" class="message" href="/dhamaniasad/awesome-postgres/commit/64613f2561c6bce419ff629f661954317e3b70cb">from bersace/patch-1</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-23T09:15:48Z">Mar 23, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-postgres-" class="anchor" aria-hidden="true" href="#awesome-postgres-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Postgres <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p><a href="https://www.postgresql.org/" rel="nofollow"><img src="https://camo.githubusercontent.com/354ffd7244c33450d39767bbd52548f9326ee59d/68747470733a2f2f77696b692e706f737467726573716c2e6f72672f696d616765732f612f61342f506f737467726553514c5f6c6f676f2e33636f6c6f72732e737667" align="right" width="100" data-canonical-src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" style="max-width:100%;"></a></p>
+<blockquote>
+<p>A curated list of awesome <a href="https://www.postgresql.org/" rel="nofollow">PostgreSQL</a> software, libraries, tools and resources, inspired by <a href="http://shlomi-noach.github.io/awesome-mysql/" rel="nofollow">awesome-mysql</a></p>
+</blockquote>
+<p><a href="https://en.wikipedia.org/wiki/PostgreSQL" rel="nofollow">PostgreSQL</a>, often simply Postgres, is an <a href="https://en.wikipedia.org/wiki/Object-relational_database" rel="nofollow">object-relational database</a> (ORDBMS). PostgreSQL is <a href="https://en.wikipedia.org/wiki/ACID" rel="nofollow">ACID-compliant</a> and <a href="https://en.wikipedia.org/wiki/Transaction_processing" rel="nofollow">transactional</a>. (see more: <a href="https://en.wikipedia.org/wiki/PostgreSQL" rel="nofollow">wikipedia:PostgreSQL</a>, <a href="https://www.postgresql.org" rel="nofollow">PostgreSQL.org</a>)</p>
+<p><g-emoji class="g-emoji" alias="elephant" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f418.png">🐘</g-emoji> Contributions welcome. Add links through <a href="https://github.com/dhamaniasad/awesome-postgres/pulls">pull requests</a> or create an <a href="https://github.com/dhamaniasad/awesome-postgres/issues">issue</a> to start a discussion. Please take a look at the <a href="/dhamaniasad/awesome-postgres/blob/master/CONTRIBUTING.md">contribution guidelines</a>.</p>
+<h2><a id="user-content-contents" class="anchor" aria-hidden="true" href="#contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contents</h2>
+<ul>
+<li><a href="#high-availability">High-Availability</a></li>
+<li><a href="#backups">Backups</a></li>
+<li><a href="#gui">GUI</a></li>
+<li><a href="#distributions">Distributions</a></li>
+<li><a href="#cli">CLI</a></li>
+<li><a href="#server">Server</a></li>
+<li><a href="#monitoring">Monitoring</a></li>
+<li><a href="#extensions">Extensions</a></li>
+<li><a href="#optimization">Optimization</a></li>
+<li><a href="#utilities">Utilities</a></li>
+<li><a href="#language-bindings">Language bindings</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#articles">Articles</a></li>
+<li><a href="#newsletters">Newsletters</a></li>
+<li><a href="#paas-postgresql-as-a-service">PaaS (PostgreSQL as a Service)</a></li>
+<li><a href="#docker-images">Docker images</a></li>
+<li><a href="#videos">Videos</a></li>
+</ul>
+<h3><a id="user-content-high-availability" class="anchor" aria-hidden="true" href="#high-availability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>High-Availability</h3>
+<ul>
+<li><a href="https://github.com/2ndQuadrant/bdr">BDR</a> - BiDirectional Replication - a multimaster replication system for PostgreSQL</li>
+<li><a href="https://github.com/zalando/patroni">Patroni</a> - Template for PostgreSQL HA with ZooKeeper or etcd.</li>
+<li><a href="https://github.com/sorintlab/stolon">Stolon</a> - PostgreSQL HA based on Consul or etcd, with Kubernetes integration.</li>
+<li><a href="https://github.com/ohmu/pglookout">pglookout</a> - Replication monitoring and failover daemon.</li>
+<li><a href="https://github.com/2ndQuadrant/repmgr">repmgr</a> - Open-source tool suite to manage replication and failover in a cluster of PostgreSQL servers.</li>
+<li><a href="http://slony.info" rel="nofollow">Slony-I</a> - "Master to multiple slaves" replication system with cascading and failover.</li>
+<li><a href="https://github.com/dalibo/PAF">PAF</a> - PostgreSQL Automatic Failover: High-Availibility for Postgres, based on Pacemaker and Corosync.</li>
+<li><a href="https://github.com/pgq/skytools-legacy">SkyTools</a> - Replication tools, including PgQ, a queuing system, and Londiste, a replication system a bit simpler to manage than Slony.</li>
+</ul>
+<h3><a id="user-content-backups" class="anchor" aria-hidden="true" href="#backups"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Backups</h3>
+<ul>
+<li><a href="http://www.pgbarman.org/" rel="nofollow">Barman</a> - Backup and Recovery Manager for PostgreSQL by 2ndQuadrant.</li>
+<li><a href="https://github.com/omniti-labs/omnipitr">OmniPITR</a> - Advanced WAL File Management Tools for PostgreSQL.</li>
+<li><a href="https://github.com/postgrespro/pg_probackup">pg_probackup</a> – A fork of pg_arman, improved by @PostgresPro, supports incremental backups, backups from replica, multithreaded backup and restore, and anonymous backup without archive command.</li>
+<li><a href="http://pgbackrest.org/" rel="nofollow">pgBackRest</a> - Reliable PostgreSQL Backup &amp; Restore.</li>
+<li><a href="https://github.com/orgrim/pg_back/">pg_back</a> - pg_back is a simple backup script</li>
+<li><a href="https://github.com/ohmu/pghoard">pghoard</a> - Backup and restore tool for cloud object stores (AWS S3, Azure, Google Cloud, OpenStack Swift).</li>
+<li><a href="https://github.com/wal-e/wal-e">wal-e</a> - Simple Continuous Archiving for PostgreSQL to S3, Azure, or Swift by Heroku.</li>
+<li><a href="https://dalibo.github.io/pitrery/" rel="nofollow">pitrery</a> - pitrery is a set of Bash scripts to manage Point In Time Recovery (PITR) backups for PostgreSQL.</li>
+</ul>
+<h3><a id="user-content-gui" class="anchor" aria-hidden="true" href="#gui"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GUI</h3>
+<ul>
+<li><a href="https://www.adminer.org/" rel="nofollow">Adminer</a> - Full-featured database management tool written in PHP.</li>
+<li><a href="https://omnidb.org/en/" rel="nofollow">OmniDB</a> - Open Source Collaborative Environment
+For Database Management</li>
+<li><a href="https://www.jetbrains.com/datagrip/" rel="nofollow">DataGrip</a> - IDE with advanced tool sets and good cross-platform experience (Commercial Software).</li>
+<li><a href="https://datazenit.com/" rel="nofollow">Datazenit</a> - Web-based PostgreSQL GUI (Commercial Software).</li>
+<li><a href="https://dbeaver.jkiss.org" rel="nofollow">DBeaver</a> - Universal Database Manager with excellent support for PostgreSQL.</li>
+<li><a href="http://dbglass.web-pal.com" rel="nofollow">dbglass</a> - Cross-platform desktop client for PostgreSQL, built with Electron.</li>
+<li><a href="https://www.holistics.io/" rel="nofollow">Holistics</a> - Online cross platform database management tool and SQL query reporting GUI with strong PostgreSQL support (Commercial Software).</li>
+<li><a href="https://www.jackdb.com/" rel="nofollow">JackDB</a> - Web-based SQL query interface (Commercial Software).</li>
+<li><a href="https://www.metabase.com/" rel="nofollow">Metabase</a> - Simple dashboards, charts and query tool for PostgreSQL.</li>
+<li><a href="https://www.pgadmin.org/" rel="nofollow">pgAdmin</a> - PostgreSQL Administration and Management GUI.</li>
+<li><a href="https://www.pgmodeler.com.br/" rel="nofollow">pgModeler</a> - pgModeler is an open-source PostgreSQL Database Modeler.</li>
+<li><a href="https://github.com/sosedoff/pgweb">pgweb</a> - Web-based PostgreSQL database browser written in Go.</li>
+<li><a href="https://github.com/phppgadmin/phppgadmin">phpPgAdmin</a> - The Premier Web Based Administration Tool for PostgreSQL.</li>
+<li><a href="https://github.com/Paxa/postbird">Postbird</a> - PostgreSQL Client for macOS.</li>
+<li><a href="https://eggerapps.at/postico/" rel="nofollow">Postico</a> - Modern PostgreSQL Client for macOS (Commercial Software).</li>
+<li><a href="http://www.psequel.com/" rel="nofollow">PSequel</a> - Clean and simple interface to perform common PostgreSQL tasks quickly (Commercial Software).</li>
+<li><a href="http://www.sqltabs.com/" rel="nofollow">SQL Tabs</a> - Cross Platform Desktop Client for PostgreSQL written in JS.</li>
+<li><a href="http://macpostgresclient.com/" rel="nofollow">SQLPro for Postgres</a> - Simple, powerful PostgreSQL manager for macOS (Commercial Software).</li>
+<li><a href="https://github.com/dalibo/temboard">temBoard</a> - Web-based PostgreSQL GUI and monitoring.</li>
+<li><a href="https://warp.one/" rel="nofollow">Warp</a> - macOS desktop tool for by-example querying and data transfer from/to PostgreSQL (Commercial Software).</li>
+<li><a href="https://tableplus.io/" rel="nofollow">TablePlus</a> - Native App which let you edit database and structure. High-end security ensured (Commercial Software).</li>
+<li><a href="https://www.valentina-db.com/en/valentina-studio-overview" rel="nofollow">Valentina Studio</a> - Cross-platform database administration tool (Free/Commercial)</li>
+</ul>
+<h3><a id="user-content-distributions" class="anchor" aria-hidden="true" href="#distributions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Distributions</h3>
+<ul>
+<li><a href="http://postgresapp.com/" rel="nofollow">Postgres.app</a> - The Easiest Way to Get Started with PostgreSQL on macOS.</li>
+<li><a href="https://github.com/mihasic/PostgreSql.Binaries.Lite">PostgreSql.Binaries.Lite</a> - Minimum set of Windows binaries of the PostgreSQL database. Also made available through NuGet.</li>
+</ul>
+<h3><a id="user-content-cli" class="anchor" aria-hidden="true" href="#cli"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CLI</h3>
+<ul>
+<li><a href="https://github.com/dbcli/pgcli">pgcli</a> - Postgres CLI with autocompletion and syntax highlighting</li>
+<li><a href="https://www.postgresql.org/docs/current/static/app-psql.html" rel="nofollow">psql</a> - The built-in PostgreSQL CLI client</li>
+<li><a href="https://github.com/fphilipe/psql2csv">psql2csv</a> - Run a query in psql and output the result as CSV</li>
+</ul>
+<h3><a id="user-content-server" class="anchor" aria-hidden="true" href="#server"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Server</h3>
+<ul>
+<li><a href="https://www.postgres-xl.org/" rel="nofollow">Postgres-XL</a> - Scalable Open Source PostgreSQL-based Database Cluster.</li>
+<li><a href="https://github.com/citusdata/citus">Citus</a> - Scalable PostgreSQL cluster for real-time workloads.</li>
+<li><a href="https://www.pipelinedb.com/" rel="nofollow">PipelineDB</a> - Open source streaming SQL database, fork of postgres</li>
+</ul>
+<h3><a id="user-content-monitoring" class="anchor" aria-hidden="true" href="#monitoring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Monitoring</h3>
+<ul>
+<li><a href="https://github.com/OPMDG/check_pgactivity">check_pgactivity</a> - check_pgactivity is designed to monitor PostgreSQL clusters from Nagios. It offers many options to measure and monitor useful performance metrics.</li>
+<li><a href="https://github.com/bucardo/check_postgres">Check_postgres</a> - Nagios check_postgres plugin for checking status of PostgreSQL databases.</li>
+<li><a href="https://github.com/Instrumental/instrumentald">Instrumental</a> - Real-time performance monitoring, including <a href="https://instrumentalapp.com/docs/instrumentald/postgresql#suggested-graphs" rel="nofollow">pre-made graphs</a> for ease of setup (Commercial Software)</li>
+<li><a href="https://github.com/cavaliercoder/libzbxpgsql">libzbxpgsql</a> - Comprehensive PostgreSQL monitoring module for Zabbix.</li>
+<li><a href="https://github.com/rach/pome">Pome</a> - Pome stands for PostgreSQL Metrics. Pome is a PostgreSQL Metrics Dashboard to keep track of the health of your database.</li>
+<li><a href="https://github.com/zalando/pg_view">pg_view</a> - Open-source command-line tool that shows global system stats, per-partition information, memory stats and other information.</li>
+<li><a href="https://github.com/cybertec-postgresql/pgwatch2">pgwatch2</a> - Flexible and easy to get started PostgreSQL metrics monitor focusing on Grafana dashboards.</li>
+<li><a href="https://www.postgresql.org/docs/devel/static/pgbench.html" rel="nofollow">pgbench</a> - Run a benchmark test on PostgreSQL.</li>
+<li><a href="http://opm.io" rel="nofollow">opm.io</a> -  Open PostgreSQL Monitoring is a free software suite designed to help you manage your PostgreSQL servers. It can gather stats, display dashboards and send warnings when something goes wrong.</li>
+</ul>
+<h3><a id="user-content-extensions" class="anchor" aria-hidden="true" href="#extensions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extensions</h3>
+<ul>
+<li><a href="https://github.com/citusdata/cstore_fdw">cstore_fdw</a> - Columnar store for analytics with PostgreSQL.</li>
+<li><a href="https://pgxn.org/dist/cyanaudit/" rel="nofollow">cyanaudit</a> - Cyan Audit provides in-database logging of all DML activity on a column-by-column basis.</li>
+<li><a href="https://github.com/2ndQuadrant/pglogical">pglogical</a> - Extension that provides logical streaming replication.</li>
+<li><a href="https://github.com/keithf4/pg_partman">pg_partman</a> - Partition management extension for PostgreSQL.</li>
+<li><a href="https://github.com/citusdata/pg_paxos/">pg_paxos</a> - Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes.</li>
+<li><a href="https://github.com/citusdata/pg_shard">pg_shard</a> - Extension to scale out real-time reads and writes.</li>
+<li><a href="https://wiki.postgresql.org/wiki/PGStrom" rel="nofollow">PGStrom</a> - Extension to offload CPU intensive workloads to GPU.</li>
+<li><a href="https://pgxn.org/" rel="nofollow">pgxn</a> PostgreSQL Extension Network - central distribution point for many open-source PostgreSQL extensions</li>
+<li><a href="https://github.com/okbob/plpgsql_check">plpgsql_check</a> - Extension that allows to check plpgsql source code.</li>
+<li><a href="http://postgis.net/" rel="nofollow">PostGIS</a> - Spatial and Geographic objects for PostgreSQL.</li>
+<li><a href="https://github.com/cossacklabs/pg_themis">PG_Themis</a> - Postgres binding as extension for crypto library Themis, providing various security services on PgSQL's side.</li>
+<li><a href="https://github.com/zombodb/zombodb">zomboDB</a> - Extension that enables efficient full-text searching via the use of indexes backed by Elasticsearch.</li>
+<li><a href="https://github.com/pgMemento/pgMemento">pgMemento</a> - Provides an audit trail for your data inside a PostgreSQL database using triggers and server-side functions written in PL/pgSQL.</li>
+<li><a href="https://www.timescale.com/" rel="nofollow">Timescale</a> - Open-source time-series database fully compatible with Postgres, distributed as extension</li>
+<li><a href="http://pgtap.org/" rel="nofollow">pgTAP</a> - Database testing framework for Postgres</li>
+<li><a href="https://github.com/dalibo/hypopg">HypoPG</a> - HypoPG provides hypothetical/virtual indexes feature.</li>
+</ul>
+<h3><a id="user-content-optimization" class="anchor" aria-hidden="true" href="#optimization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Optimization</h3>
+<ul>
+<li><a href="https://github.com/ankane/pghero">PgHero</a> - PostgreSQL insights made easy.</li>
+<li><a href="https://github.com/gregs1104/pgtune/">pgtune</a> - PostgreSQL configuration wizard.</li>
+<li><a href="https://github.com/le0pard/pgtune">pgtune</a> - Online version of PostgreSQL configuration wizard.</li>
+<li><a href="https://github.com/sebastianwebber/pgconfig">pgconfig.org</a> - PostgreSQL Online Configuration Tool (also based on pgtune).</li>
+<li><a href="http://dalibo.github.io/powa/" rel="nofollow">PoWA</a> - PostgreSQL Workload Analyzer gathers performance stats and provides real-time charts and graphs to help monitor and tune your PostgreSQL servers.</li>
+<li><a href="https://github.com/kirs/pg_web_stats">pg_web_stats</a> - Web UI to view pg_stat_statements.</li>
+</ul>
+<h3><a id="user-content-utilities" class="anchor" aria-hidden="true" href="#utilities"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Utilities</h3>
+<ul>
+<li><a href="https://www.apgdiff.com/" rel="nofollow">apgdiff</a> - Compares two database dump files and creates output with DDL statements that can be used to update old database schema to new one.</li>
+<li><a href="https://github.com/Alexis-benoist/eralchemy">ERAlchemy</a> - ERAlchemy generates Entity Relation (ER) diagram from databases.</li>
+<li><a href="https://github.com/dalibo/ldap2pg">ldap2pg</a> - Synchronize roles and privileges from YML and LDAP.</li>
+<li><a href="https://github.com/lanyrd/mysql-postgresql-converter">mysql-postgresql-converter</a> - Lanyrd's MySQL to PostgreSQL conversion script.</li>
+<li><a href="http://ora2pg.darold.net" rel="nofollow">ora2pg</a> - Perl module to export an Oracle database schema to a PostgreSQL compatible schema.</li>
+<li><a href="https://github.com/julmon/pg_activity">pg_activity</a> - top like application for PostgreSQL server activity monitoring.</li>
+<li><a href="https://github.com/gajus/pg-formatter">pg-formatter</a> - A PostgreSQL SQL syntax beautifier (Node.js).</li>
+<li><a href="https://pganalyze.com" rel="nofollow">pganalyze</a> - PostgreSQL Performance Monitoring (Commercial Software).</li>
+<li><a href="https://github.com/dalibo/pgbadger">pgbadger</a> - Fast PostgreSQL Log Analyzer.</li>
+<li><a href="http://pgbouncer.github.io" rel="nofollow">PgBouncer</a> - Lightweight connection pooler for PostgreSQL.</li>
+<li><a href="https://github.com/lesovsky/pgcenter">pgCenter</a> - Provides convenient interface to various statistics, management task, reloading services, viewing log files and canceling or terminating database backends.</li>
+<li><a href="https://github.com/lukasmartinelli/pgclimb">pgclimb</a> - Export data from PostgreSQL into different data formats.</li>
+<li><a href="https://github.com/lukasmartinelli/pgfutter">pgfutter</a> - Import CSV and JSON into PostgreSQL the easy way.</li>
+<li><a href="http://pginsight.io/" rel="nofollow">PGInsight</a> - CLI tool to easily dig deep inside your PostgreSQL database.</li>
+<li><a href="https://github.com/dimitri/pgloader">pgloader</a> - Loads data into PostgreSQL using the COPY streaming protocol, and does so with separate threads for reading and writing data.</li>
+<li><a href="http://www.pgpool.net/mediawiki/index.php/Main_Page" rel="nofollow">pgpool-II</a> - Middleware that provides connection pooling, replication, load balancing and limiting exceeding connections.</li>
+<li><a href="https://github.com/ankane/pgsync">pgsync</a> - Tool to sync PostgreSQL data to your local machine.</li>
+<li><a href="https://github.com/dvarrazzo/pgxnclient">PGXN client</a> - Command line tool to interact with the PostgreSQL Extension Network</li>
+<li><a href="https://github.com/spotify/postgresql-metrics">postgresql-metrics</a> - Tool that extracts and provides metrics for your PostgreSQL database.</li>
+<li><a href="https://github.com/begriffs/postgrest">PostgREST</a> - Serves a fully RESTful API from any existing PostgreSQL database.</li>
+<li><a href="https://github.com/prest/prest">pREST</a> - Serve a RESTful API from any PostgreSQL database (Golang)</li>
+<li><a href="https://github.com/postgraphql/postgraphql">PostGraphQL</a> - A GraphQL schema created by reflection over a PostgreSQL schema.</li>
+<li><a href="https://github.com/nanopack/yoke">yoke</a> - PostgreSQL high-availability cluster with auto-failover and automated cluster recovery.</li>
+<li><a href="https://github.com/kabirbaidhya/pglistend">pglistend</a> - A lightweight PostgresSQL <code>LISTEN</code>/<code>NOTIFY</code> daemon built on top of <code>node-postgres</code>.</li>
+<li><a href="https://github.com/postgrespro/zson">ZSON</a> - PostgreSQL extension for transparent JSONB compression</li>
+<li><a href="http://ossc-db.github.io/pg_bulkload/index.html" rel="nofollow">pg_bulkload</a> - It's a high speed data loading utility for PostgreSQL.</li>
+<li><a href="https://github.com/jwdeitch/pg_migrate">pg_migrate</a> - Manage PostgreSQL codebases and make VCS simple.</li>
+<li><a href="https://github.com/theory/sqitch">sqitch</a> - Tool for managing versioned schema deployment</li>
+<li><a href="https://github.com/yandex/pgmigrate">pgmigrate</a> - CLI tool to evolve schema migrations, developed by Yandex.</li>
+<li><a href="https://github.com/cbbrowne/pgcmp">pgcmp</a> - Tool to compare database schemas, with capability to accept some persistent differences</li>
+</ul>
+<h3><a id="user-content-language-bindings" class="anchor" aria-hidden="true" href="#language-bindings"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Language bindings</h3>
+<ul>
+<li>Common Lisp: <a href="https://github.com/marijnh/Postmodern">Postmodern</a></li>
+<li>Elixir: <a href="https://github.com/elixir-ecto/postgrex">postgrex</a></li>
+<li>Go: <a href="https://github.com/jackc/pgx">pgx</a></li>
+<li>Java: <a href="https://jdbc.postgresql.org/" rel="nofollow">PostgreSQL JDBC Driver</a></li>
+<li>.Net/.Net Core: <a href="https://github.com/npgsql/npgsql">Npgsql</a></li>
+<li>Node: <a href="https://github.com/brianc/node-postgres">node-postgres</a>, <a href="https://github.com/vitaly-t/pg-promise">pg-promise</a></li>
+<li>Perl: <a href="http://search.cpan.org/%7Eturnstep/DBD-Pg/Pg.pm" rel="nofollow">DBD-Pg</a></li>
+<li>PHP: <a href="http://www.pomm-project.org" rel="nofollow">Pomm</a>, <a href="https://github.com/m6w6/ext-pq">pecl/pq</a></li>
+<li>Python: <a href="https://pypi.python.org/pypi/psycopg2" rel="nofollow">psycopg2</a></li>
+<li>Ruby: <a href="https://bitbucket.org/ged/ruby-pg/wiki/Home" rel="nofollow">pg</a></li>
+<li>Rust: <a href="https://github.com/sfackler/rust-postgres">rust-postgresql</a></li>
+<li>Lua: <a href="https://github.com/arcapos/luapgsql">luapgsql</a></li>
+</ul>
+<h3><a id="user-content-tutorials" class="anchor" aria-hidden="true" href="#tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorials</h3>
+<ul>
+<li><a href="https://coderwall.com/p/cwe2_a/backup-and-recover-a-postgres-db-using-wal-e" rel="nofollow">Backup and recover a PostgreSQL DB using wal-e</a> - Tutorial about setting up continuous archiving in PostgreSQL using wal-e.</li>
+<li><a href="https://www.pgcasts.com" rel="nofollow">PG Casts</a> - Free weekly PostgreSQL screencasts by Hashrocket.</li>
+<li><a href="http://postgresguide.com/" rel="nofollow">Postgres Guide</a> - Guide designed as an aid for beginners and experienced users to find specific tips and explore tools available within PostgreSQL.</li>
+<li><a href="https://pgexercises.com/" rel="nofollow">PostgreSQL Exercises</a> - Site  to make it easy to learn PostgreSQL by doing exercises.</li>
+<li><a href="http://www.tutorialspoint.com/postgresql/" rel="nofollow">tutorialspoint PostgreSQL tutorial</a> - Very extensive collection of tutorials on PostgreSQL</li>
+<li><a href="https://github.com/morenoh149/postgresDBSamples">postgresDBSamples</a> - A collection of sample postgres schemas</li>
+<li><a href="https://zaiste.net/posts/postgresql_primer_for_busy_people/" rel="nofollow">PostgreSQL Primer for Busy People</a> - A collection of the most common commands used in PostgreSQL</li>
+</ul>
+<h3><a id="user-content-blogs" class="anchor" aria-hidden="true" href="#blogs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blogs</h3>
+<ul>
+<li><a href="https://planet.postgresql.org/" rel="nofollow">Planet PostgreSQL</a> - Blog aggregation service for PostgreSQL.</li>
+<li><a href="http://adpgtech.blogspot.ru/search/label/PostgreSQL/" rel="nofollow">Andrew Dunstan's PostgreSQL and Technical blog</a></li>
+<li><a href="http://momjian.us/main/blogs/pgblog.html" rel="nofollow">Bruce Momjian's PostgreSQL blog</a></li>
+<li><a href="http://www.craigkerstiens.com/categories/postgres/" rel="nofollow">Craig Kerstiens PostgreSQL posts</a> - Set of posts on PostgreSQL cool features, tips and tricks.</li>
+<li><a href="http://www.databasesoup.com/search/label/postgresql/" rel="nofollow">Database Soup</a> - Josh Berkus' blog.</li>
+<li><a href="http://paquier.xyz/" rel="nofollow">Michael Paquier's blog</a></li>
+<li><a href="http://rhaas.blogspot.ru/search/label/postgresql/" rel="nofollow">Robert Haas' blog</a></li>
+<li><a href="https://www.depesz.com/tag/postgresql/" rel="nofollow">select * from depesz;</a> - Hubert Lubaczewski's blog.</li>
+</ul>
+<h3><a id="user-content-articles" class="anchor" aria-hidden="true" href="#articles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Articles</h3>
+<ul>
+<li><a href="https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases/" rel="nofollow">What PostgreSQL has over other open source SQL databases: Part I</a></li>
+<li><a href="https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/" rel="nofollow">Debugging PostgreSQL performance, the hard way</a></li>
+<li><a href="http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/" rel="nofollow">Why use Postgres?</a></li>
+<li><a href="https://infinum.co/the-capsized-eight/superfast-csv-imports-using-postgresqls-copy" rel="nofollow">Superfast CSV imports using PostgreSQL's COPY command</a></li>
+</ul>
+<h3><a id="user-content-newsletters" class="anchor" aria-hidden="true" href="#newsletters"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Newsletters</h3>
+<ul>
+<li><a href="https://postgresweekly.com/" rel="nofollow">Postgres Weekly</a> - Weekly newsletter that contains articles, news, and repos relevant to PostgreSQL.</li>
+</ul>
+<h3><a id="user-content-paas-postgresql-as-a-service" class="anchor" aria-hidden="true" href="#paas-postgresql-as-a-service"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PaaS <em>(PostgreSQL as a Service)</em></h3>
+<ul>
+<li><a href="https://aiven.io/postgresql" rel="nofollow">Aiven PostgreSQL</a> - PostgreSQL as a service in AWS, Azure, DigitalOcean, Google Cloud and UpCloud; plans range from $19/month single node instances to large highly-available setups, free trial for two weeks.</li>
+<li><a href="https://aws.amazon.com/rds/postgresql/" rel="nofollow">Amazon RDS for PostgreSQL</a> - Amazon Relational Database Service (RDS) for PostgreSQL</li>
+<li><a href="https://www.citusdata.com/product/cloud" rel="nofollow">Citus Cloud</a> - Production grade scaled out PostgreSQL as a service enabling real-time workloads and sharding your multi-tenant apps.</li>
+<li><a href="https://www.databaselabs.io" rel="nofollow">Database Labs</a> - Get a production-ready cloud PostgreSQL server in minutes, from $20 a month Backups, monitoring, patches, and 24/7 tech support all included.</li>
+<li><a href="https://www.elephantsql.com/" rel="nofollow">ElephantSQL</a> - Offers databases ranging from shared servers for smaller projects and proof of concepts, up to enterprise grade multi server setups. Has free plan for up to 5 DBs, 20 MB each.</li>
+<li><a href="https://cloud.google.com/sql/docs/postgres/" rel="nofollow">Google Cloud SQL for PostgreSQL</a> - Fully-managed database service that makes it easy to set up, maintain, manage, and administer your PostgreSQL relational databases on Google Cloud Platform. (Beta)</li>
+<li><a href="https://elements.heroku.com/addons/heroku-postgresql" rel="nofollow">Heroku Postgres</a> - Plans from free to huge, operated by PostgreSQL experts. Does not require running your app on Heroku. Free plan includes 10,000 rows, 20 connections, up to two backups, and has PostGIS support.</li>
+</ul>
+<h3><a id="user-content-docker-images" class="anchor" aria-hidden="true" href="#docker-images"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Docker images</h3>
+<ul>
+<li><a href="https://hub.docker.com/r/citusdata/citus/" rel="nofollow">citusdata/citus</a> - Citus official images with citus extensions. Based on the official Postgres container.</li>
+<li><a href="https://hub.docker.com/r/mdillon/postgis/" rel="nofollow">mdillon/postgis</a> - PostGIS 2.3 on Postgres 9. Based on the official Postgres container.</li>
+<li><a href="https://hub.docker.com/_/postgres/" rel="nofollow">postgres</a> -  Official postgres container (from Docker)</li>
+</ul>
+<h3><a id="user-content-videos" class="anchor" aria-hidden="true" href="#videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Videos</h3>
+<ul>
+<li><a href="https://www.youtube.com/channel/UC8jpoK1BqQhDh6HDGFnM_DA/videos" rel="nofollow">Citus Data Youtube chanel</a> - Citus related videos</li>
+<li><a href="https://www.youtube.com/channel/UCkIPoYyNr1OHgTo0KwE9HJw" rel="nofollow">EnterpriseDB Youtube chanel</a> -  EnterpriseDB related videos</li>
+<li><a href="https://www.youtube.com/pgconfus/" rel="nofollow">PGConf US Youtube chanel</a> - Conference videos</li>
+</ul>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.25204s from unicorn-526741577-jmtbv">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

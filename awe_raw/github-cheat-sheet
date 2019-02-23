@@ -1,0 +1,1753 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - tiimgreen/github-cheat-sheet: A list of cool features of Git and GitHub.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/4130574?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="tiimgreen/github-cheat-sheet" /><meta property="og:url" content="https://github.com/tiimgreen/github-cheat-sheet" /><meta property="og:description" content="github-cheat-sheet - A list of cool features of Git and GitHub." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E2BF:5D4D:188382E:2F4B88C:5AD2F780" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E2BF:5D4D:188382E:2F4B88C:5AD2F780" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NjNmYmQzZGVhZjgxYjhjNWU5NTIxNDRlYzg1ZWU1NzU1NjY4MDc2YTQ4MjljMDAyYmUzNjQzYWE3Y2QxOTg2YXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTJCRjo1RDREOjE4ODM4MkU6MkY0Qjg4Qzo1QUQyRjc4MCIsInRpbWVzdGFtcCI6MTUyMzc3NTM2MCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="d1387d4125a3ff73f0cbb42e91d7ab4482bd662f">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/tiimgreen/github-cheat-sheet/commits/master.atom" rel="alternate" title="Recent Commits to github-cheat-sheet:master" type="application/atom+xml">
+
+  <meta name="description" content="github-cheat-sheet - A list of cool features of Git and GitHub.">
+  <meta name="go-import" content="github.com/tiimgreen/github-cheat-sheet git https://github.com/tiimgreen/github-cheat-sheet.git">
+
+  <meta name="octolytics-dimension-user_id" content="4130574" /><meta name="octolytics-dimension-user_login" content="tiimgreen" /><meta name="octolytics-dimension-repository_id" content="18708860" /><meta name="octolytics-dimension-repository_nwo" content="tiimgreen/github-cheat-sheet" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="18708860" /><meta name="octolytics-dimension-repository_network_root_nwo" content="tiimgreen/github-cheat-sheet" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/tiimgreen/github-cheat-sheet" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/tiimgreen/github-cheat-sheet/search" data-unscoped-search-url="/search" action="/tiimgreen/github-cheat-sheet/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/tiimgreen/github-cheat-sheet">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Ftiimgreen%2Fgithub-cheat-sheet" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Ftiimgreen%2Fgithub-cheat-sheet"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/tiimgreen/github-cheat-sheet/watchers"
+     aria-label="1295 users are watching this repository">
+    1,295
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftiimgreen%2Fgithub-cheat-sheet"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/tiimgreen/github-cheat-sheet/stargazers"
+      aria-label="24825 users starred this repository">
+      24,825
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftiimgreen%2Fgithub-cheat-sheet"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/tiimgreen/github-cheat-sheet/network" class="social-count"
+       aria-label="3783 users forked this repository">
+      3,783
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/tiimgreen">tiimgreen</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/tiimgreen/github-cheat-sheet">github-cheat-sheet</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /tiimgreen/github-cheat-sheet" href="/tiimgreen/github-cheat-sheet">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /tiimgreen/github-cheat-sheet/issues" href="/tiimgreen/github-cheat-sheet/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">4</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /tiimgreen/github-cheat-sheet/pulls" href="/tiimgreen/github-cheat-sheet/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">8</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /tiimgreen/github-cheat-sheet/projects" href="/tiimgreen/github-cheat-sheet/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /tiimgreen/github-cheat-sheet/pulse" href="/tiimgreen/github-cheat-sheet/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tZ/RjXKa7qXzMbnmAqJk+2BcuVoB21qgwqVEsNMFqi36ur2tsH84tTarmskOdo2H3jflGQGslqLRv4zyLK6TpQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A list of cool features of Git and GitHub.
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://git.io/sheet">http://git.io/sheet</a></span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/tiimgreen/github-cheat-sheet/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/tiimgreen/github-cheat-sheet/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                474
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/tiimgreen/github-cheat-sheet/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/tiimgreen/github-cheat-sheet/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/tiimgreen/github-cheat-sheet/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      74
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="/tiimgreen/github-cheat-sheet/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                MIT
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/tiimgreen/github-cheat-sheet.git" aria-label="Clone this repository at https://github.com/tiimgreen/github-cheat-sheet.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/tiimgreen/github-cheat-sheet.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/tiimgreen/github-cheat-sheet/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/tiimgreen/github-cheat-sheet/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/tiimgreen/github-cheat-sheet/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/tiimgreen/github-cheat-sheet/tree-commit/a96f4fab81dca2e5ae6e4cfbd44f470e26c6c838" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/tiimgreen/github-cheat-sheet/tree/a96f4fab81dca2e5ae6e4cfbd44f470e26c6c838">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-74e1227532c00c9305f91c9298e043f423c6d12e" href="/tiimgreen/github-cheat-sheet/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[ci] improve travis.yml: update spacing" class="message" href="/tiimgreen/github-cheat-sheet/commit/b599173c7faa43146210a5d475df3aa5c5d3ad93">[ci] improve travis.yml: update spacing</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-02T17:25:06Z">Mar 2, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CONTRIBUTING.md" id="6a3371457528722a734f3c51d9238c13-a4f3c02c5f6a93de77d9fae73bed56b39fa6b7f8" href="/tiimgreen/github-cheat-sheet/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="CONTRIBUTING.md" class="message" href="/tiimgreen/github-cheat-sheet/commit/704d07fcc6fb72f9835ef935d9a8bcac756bf4cc">CONTRIBUTING.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-01-18T23:01:31Z">Jan 18, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-3279a496f8beb75f70fe8c9bfc764194246f6923" itemprop="license" href="/tiimgreen/github-cheat-sheet/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add LICENSE" class="message" href="/tiimgreen/github-cheat-sheet/commit/e00c588ea0682f61055c3df7625ee0bbd243d325">Add LICENSE</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-04-13T11:19:57Z">Apr 13, 2014</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.ja.md" id="5b3275674ac26beb783a8abc3aa82ff2-f41fd2b5041dd9016fc87627195ad5c2e08913bd" href="/tiimgreen/github-cheat-sheet/blob/master/README.ja.md">README.ja.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Fix failing links" class="message" href="/tiimgreen/github-cheat-sheet/commit/a78ef158aaba3be26e10c1679172aa06019a840a">Fix failing links</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-03T16:16:27Z">Jan 3, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.ko.md" id="00dcfd2983c6b04da339c95a4956a2fb-c2420f942818e1db4c677a677de163174b2f600a" href="/tiimgreen/github-cheat-sheet/blob/master/README.ko.md">README.ko.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update Korean translation to b85d914" class="message" href="/tiimgreen/github-cheat-sheet/commit/5fdd48875db1fbb406f2e1377fb3c3b6037c9eec">Update Korean translation to</a> <a href="https://github.com/tiimgreen/github-cheat-sheet/commit/b85d9146d76309c7d53deece58cbe0a018ecb2ef" class="commit-link"><tt>b85d914</tt></a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-03-02T05:50:00Z">Mar 2, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-a5c01cb519af996eea41342a61ca6b1c0e84f8ca" href="/tiimgreen/github-cheat-sheet/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Git God to git resources" class="message" href="/tiimgreen/github-cheat-sheet/commit/a96f4fab81dca2e5ae6e4cfbd44f470e26c6c838">Add Git God to git resources</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-14T15:24:21Z">Mar 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.zh-cn.md" id="08355cd3837efce3b48b0c0e09d1f252-6ad60e50c3e64d78c823908672157e318eb124dc" href="/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md">README.zh-cn.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove erroring links" class="message" href="/tiimgreen/github-cheat-sheet/commit/75b034d4d080bb0940775f738e155435c94fb4d8">Remove erroring links</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-29T22:17:53Z">Feb 29, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.zh-tw.md" id="6759b2482f2577ec52783fdaae850173-241f6bd6be959b7d28c4e74a9a80ee2fe6add606" href="/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md">README.zh-tw.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Remove erroring links" class="message" href="/tiimgreen/github-cheat-sheet/commit/75b034d4d080bb0940775f738e155435c94fb4d8">Remove erroring links</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-02-29T22:17:53Z">Feb 29, 2016</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-github-cheat-sheet-" class="anchor" aria-hidden="true" href="#github-cheat-sheet-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub Cheat Sheet <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A collection of cool hidden and not so hidden features of Git and GitHub. This cheat sheet was inspired by <a href="https://github.com/holman">Zach Holman</a>'s <a href="http://confreaks.tv/videos/aloharuby2012-git-and-github-secrets" rel="nofollow">Git and GitHub Secrets</a> talk at Aloha Ruby Conference 2012 (<a href="https://speakerdeck.com/holman/git-and-github-secrets" rel="nofollow">slides</a>) and his <a href="https://vimeo.com/72955426" rel="nofollow">More Git and GitHub Secrets</a> talk at WDCNZ 2013 (<a href="https://speakerdeck.com/holman/more-git-and-github-secrets" rel="nofollow">slides</a>).</p>
+<p><em>Shortlink: <a href="http://git.io/sheet" rel="nofollow"><code>http://git.io/sheet</code></a></em></p>
+<p><em>Read this in other languages: <a href="/tiimgreen/github-cheat-sheet/blob/master/README.md">English</a>, <a href="/tiimgreen/github-cheat-sheet/blob/master/README.ko.md">한국어</a>, <a href="/tiimgreen/github-cheat-sheet/blob/master/README.ja.md">日本語</a>, <a href="/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md">简体中文</a>, <a href="/tiimgreen/github-cheat-sheet/blob/master/README.zh-tw.md">正體中文</a>.</em></p>
+<h2><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h2>
+<ul>
+<li><a href="#github">GitHub</a>
+<ul>
+<li><a href="#ignore-whitespace">Ignore Whitespace</a></li>
+<li><a href="#adjust-tab-space">Adjust Tab Space</a></li>
+<li><a href="#commit-history-by-author">Commit History by Author</a></li>
+<li><a href="#cloning-a-repository">Cloning a Repository</a></li>
+<li><a href="#branch">Branch</a>
+<ul>
+<li><a href="#compare-all-branches-to-another-branch">Compare all Branches to Another Branch</a></li>
+<li><a href="#comparing-branches">Comparing Branches</a></li>
+<li><a href="#compare-branches-across-forked-repositories">Compare Branches across Forked Repositories</a></li>
+</ul>
+</li>
+<li><a href="#gists">Gists</a></li>
+<li><a href="#gitio">Git.io</a></li>
+<li><a href="#keyboard-shortcuts">Keyboard Shortcuts</a></li>
+<li><a href="#line-highlighting-in-repositories">Line Highlighting in Repositories</a></li>
+<li><a href="#closing-issues-via-commit-messages">Closing Issues via Commit Messages</a></li>
+<li><a href="#cross-link-issues">Cross-Link Issues</a></li>
+<li><a href="#locking-conversations">Locking Conversations</a></li>
+<li><a href="#ci-status-on-pull-requests">CI Status on Pull Requests</a></li>
+<li><a href="#filters">Filters</a></li>
+<li><a href="#syntax-highlighting-in-markdown-files">Syntax Highlighting in Markdown Files</a></li>
+<li><a href="#emojis">Emojis</a></li>
+<li><a href="#imagesgifs">Images/GIFs</a>
+<ul>
+<li><a href="#embedding-images-in-github-wiki">Embedding Images in GitHub Wiki</a></li>
+</ul>
+</li>
+<li><a href="#quick-quoting">Quick Quoting</a></li>
+<li><a href="#pasting-clipboard-image-to-comments">Pasting Clipboard Image to Comments</a></li>
+<li><a href="#quick-licensing">Quick Licensing</a></li>
+<li><a href="#task-lists">Task Lists</a>
+<ul>
+<li><a href="#task-lists-in-markdown-documents">Task Lists in Markdown Documents</a></li>
+</ul>
+</li>
+<li><a href="#relative-links">Relative Links</a></li>
+<li><a href="#metadata-and-plugin-support-for-github-pages">Metadata and Plugin Support for GitHub Pages</a></li>
+<li><a href="#viewing-yaml-metadata-in-your-documents">Viewing YAML Metadata in your Documents</a></li>
+<li><a href="#rendering-tabular-data">Rendering Tabular Data</a></li>
+<li><a href="#rendering-pdf">Rendering PDF</a></li>
+<li><a href="#revert-a-pull-request">Revert a Pull Request</a></li>
+<li><a href="#diffs">Diffs</a>
+<ul>
+<li><a href="#rendered-prose-diffs">Rendered Prose Diffs</a></li>
+<li><a href="#diffable-maps">Diffable Maps</a></li>
+<li><a href="#expanding-context-in-diffs">Expanding Context in Diffs</a></li>
+<li><a href="#diff-or-patch-of-pull-request">Diff or Patch of Pull Request</a></li>
+<li><a href="#rendering-and-diffing-images">Rendering and diffing images</a></li>
+</ul>
+</li>
+<li><a href="#hub">Hub</a></li>
+<li><a href="#contribution-guidelines">Contribution Guidelines</a>
+<ul>
+<li><a href="#contributing-file">CONTRIBUTING file</a></li>
+<li><a href="#issue_template-file">ISSUE_TEMPLATE file</a></li>
+<li><a href="#pull_request_template-file">PULL_REQUEST_TEMPLATE file</a></li>
+</ul>
+</li>
+<li><a href="#octicons">Octicons</a></li>
+<li><a href="#github-student-developer-pack">GitHub Student Developer Pack</a></li>
+<li><a href="#github-resources">GitHub Resources</a>
+<ul>
+<li><a href="#github-talks">GitHub Talks</a></li>
+</ul>
+</li>
+<li><a href="#ssh-keys">SSH keys</a></li>
+</ul>
+</li>
+<li><a href="#git">Git</a>
+<ul>
+<li><a href="#remove-all-deleted-files-from-the-working-tree">Remove All Deleted Files from the Working Tree</a></li>
+<li><a href="#previous-branch">Previous Branch</a></li>
+<li><a href="#stripspace">Stripspace</a></li>
+<li><a href="#checking-out-pull-requests">Checking out Pull Requests</a></li>
+<li><a href="#empty-commits">Empty Commits</a></li>
+<li><a href="#styled-git-status">Styled Git Status</a></li>
+<li><a href="#styled-git-log">Styled Git Log</a></li>
+<li><a href="#git-query">Git Query</a></li>
+<li><a href="#git-grep">Git Grep</a></li>
+<li><a href="#merged-branches">Merged Branches</a></li>
+<li><a href="#fixup-and-autosquash">Fixup and Autosquash</a></li>
+<li><a href="#web-server-for-browsing-local-repositories">Web Server for Browsing Local Repositories</a></li>
+<li><a href="#git-configurations">Git Configurations</a>
+<ul>
+<li><a href="#aliases">Aliases</a></li>
+<li><a href="#auto-correct">Auto-Correct</a></li>
+<li><a href="#color">Color</a></li>
+</ul>
+</li>
+<li><a href="#git-resources">Git Resources</a>
+<ul>
+<li><a href="#git-books">Git Books</a></li>
+<li><a href="#git-videos">Git Videos</a></li>
+<li><a href="#git-articles">Git Articles</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2><a id="user-content-github" class="anchor" aria-hidden="true" href="#github"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub</h2>
+<h3><a id="user-content-ignore-whitespace" class="anchor" aria-hidden="true" href="#ignore-whitespace"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ignore Whitespace</h3>
+<p>Adding <code>?w=1</code> to any diff URL will remove any changes only in whitespace, enabling you to see only the code that has changed.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/797184940defadec00393e6559b835358a863eeb/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f776869746573706163652e706e67"><img src="https://camo.githubusercontent.com/797184940defadec00393e6559b835358a863eeb/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f776869746573706163652e706e67" alt="Diff without whitespace" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/967-github-secrets"><em>Read more about GitHub secrets.</em></a></p>
+<h3><a id="user-content-adjust-tab-space" class="anchor" aria-hidden="true" href="#adjust-tab-space"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adjust Tab Space</h3>
+<p>Adding <code>?ts=4</code> to a diff or file URL will display tab characters as 4 spaces wide instead of the default 8. The number after <code>ts</code> can be adjusted to suit your preference. This does not work on Gists, or raw file views, but a <a href="https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn" rel="nofollow">Chrome</a> or <a href="https://addons.opera.com/en/extensions/details/github-tab-size/" rel="nofollow">Opera extension</a> can automate this.</p>
+<p>Here is a Go source file before adding <code>?ts=4</code>:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/b52541f4421a753d80462f3ca35ab8cd0b2d2814/687474703a2f2f692e696d6775722e636f6d2f474954314672302e706e67"><img src="https://camo.githubusercontent.com/b52541f4421a753d80462f3ca35ab8cd0b2d2814/687474703a2f2f692e696d6775722e636f6d2f474954314672302e706e67" alt="Before, tab space example" data-canonical-src="http://i.imgur.com/GIT1Fr0.png" style="max-width:100%;"></a></p>
+<p>...and this is after adding <code>?ts=4</code>:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/fe1043f0996f491d6eea37ef068535f087e00c83/687474703a2f2f692e696d6775722e636f6d2f3730464c3448392e706e67"><img src="https://camo.githubusercontent.com/fe1043f0996f491d6eea37ef068535f087e00c83/687474703a2f2f692e696d6775722e636f6d2f3730464c3448392e706e67" alt="After, tab space example" data-canonical-src="http://i.imgur.com/70FL4H9.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-commit-history-by-author" class="anchor" aria-hidden="true" href="#commit-history-by-author"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commit History by Author</h3>
+<p>To view all commits on a repo by author add <code>?author={user}</code> to the URL.</p>
+<pre><code>https://github.com/rails/rails/commits/master?author=dhh
+</code></pre>
+<p><a target="_blank" href="https://camo.githubusercontent.com/d4af886fa80d5b63d1884338a8566ad009a1021d/687474703a2f2f692e696d6775722e636f6d2f533741453239622e706e67"><img src="https://camo.githubusercontent.com/d4af886fa80d5b63d1884338a8566ad009a1021d/687474703a2f2f692e696d6775722e636f6d2f533741453239622e706e67" alt="DHH commit history" data-canonical-src="http://i.imgur.com/S7AE29b.png" style="max-width:100%;"></a></p>
+<p><a href="https://help.github.com/articles/differences-between-commit-views/"><em>Read more about the differences between commits views.</em></a></p>
+<h3><a id="user-content-cloning-a-repository" class="anchor" aria-hidden="true" href="#cloning-a-repository"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cloning a Repository</h3>
+<p>When cloning a repository the <code>.git</code> can be left off the end.</p>
+<div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/tiimgreen/github-cheat-sheet</pre></div>
+<p><a href="http://git-scm.com/docs/git-clone" rel="nofollow"><em>Read more about the Git <code>clone</code> command.</em></a></p>
+<h3><a id="user-content-branch" class="anchor" aria-hidden="true" href="#branch"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Branch</h3>
+<h4><a id="user-content-compare-all-branches-to-another-branch" class="anchor" aria-hidden="true" href="#compare-all-branches-to-another-branch"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compare all Branches to Another Branch</h4>
+<p>If you go to the repo's <a href="https://github.com/tiimgreen/github-cheat-sheet/branches">Branches</a> page, next to the Commits button:</p>
+<pre><code>https://github.com/{user}/{repo}/branches
+</code></pre>
+<p>... you would see a list of all branches which are not merged into the main branch.</p>
+<p>From here you can access the compare page or delete a branch with a click of a button.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/ae7a4633f0d28244736c6d85c1a86709b6df2166/687474703a2f2f692e696d6775722e636f6d2f3046456533307a2e706e67"><img src="https://camo.githubusercontent.com/ae7a4633f0d28244736c6d85c1a86709b6df2166/687474703a2f2f692e696d6775722e636f6d2f3046456533307a2e706e67" alt="Compare branches not merged into master in rails/rails repo - https://github.com/rails/rails/branches" data-canonical-src="http://i.imgur.com/0FEe30z.png" style="max-width:100%;"></a></p>
+<h4><a id="user-content-comparing-branches" class="anchor" aria-hidden="true" href="#comparing-branches"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Comparing Branches</h4>
+<p>To use GitHub to compare branches, change the URL to look like this:</p>
+<pre><code>https://github.com/{user}/{repo}/compare/{range}
+</code></pre>
+<p>where <code>{range} = master...4-1-stable</code></p>
+<p>For example:</p>
+<pre><code>https://github.com/rails/rails/compare/master...4-1-stable
+</code></pre>
+<p><a target="_blank" href="https://camo.githubusercontent.com/66b48236ec6fdc4f1112da35764d3d89939fa0a2/687474703a2f2f692e696d6775722e636f6d2f744952434f734b2e706e67"><img src="https://camo.githubusercontent.com/66b48236ec6fdc4f1112da35764d3d89939fa0a2/687474703a2f2f692e696d6775722e636f6d2f744952434f734b2e706e67" alt="Rails branch compare example" data-canonical-src="http://i.imgur.com/tIRCOsK.png" style="max-width:100%;"></a></p>
+<p><code>{range}</code> can be changed to things like:</p>
+<pre><code>https://github.com/rails/rails/compare/master@{1.day.ago}...master
+https://github.com/rails/rails/compare/master@{2014-10-04}...master
+</code></pre>
+<p><em>Here, dates are in the format <code>YYYY-MM-DD</code></em></p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/e9d634ff7da136f67279a183f3e73baafec61ef8/687474703a2f2f692e696d6775722e636f6d2f3564747a45537a2e706e67"><img src="https://camo.githubusercontent.com/e9d634ff7da136f67279a183f3e73baafec61ef8/687474703a2f2f692e696d6775722e636f6d2f3564747a45537a2e706e67" alt="Another compare example" data-canonical-src="http://i.imgur.com/5dtzESz.png" style="max-width:100%;"></a></p>
+<p>Branches can also be compared in <code>diff</code> and <code>patch</code> views:</p>
+<pre><code>https://github.com/rails/rails/compare/master...4-1-stable.diff
+https://github.com/rails/rails/compare/master...4-1-stable.patch
+</code></pre>
+<p><a href="https://help.github.com/articles/comparing-commits-across-time/"><em>Read more about comparing commits across time.</em></a></p>
+<h4><a id="user-content-compare-branches-across-forked-repositories" class="anchor" aria-hidden="true" href="#compare-branches-across-forked-repositories"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Compare Branches across Forked Repositories</h4>
+<p>To use GitHub to compare branches across forked repositories, change the URL to look like this:</p>
+<pre><code>https://github.com/{user}/{repo}/compare/{foreign-user}:{branch}...{own-branch}
+</code></pre>
+<p>For example:</p>
+<pre><code>https://github.com/rails/rails/compare/byroot:master...master
+</code></pre>
+<p><a target="_blank" href="https://camo.githubusercontent.com/19e6a90dd1814243b90871fafb98a8b60a923ec9/687474703a2f2f692e696d6775722e636f6d2f513157367163422e706e67"><img src="https://camo.githubusercontent.com/19e6a90dd1814243b90871fafb98a8b60a923ec9/687474703a2f2f692e696d6775722e636f6d2f513157367163422e706e67" alt="Forked branch compare" data-canonical-src="http://i.imgur.com/Q1W6qcB.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-gists" class="anchor" aria-hidden="true" href="#gists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Gists</h3>
+<p><a href="https://gist.github.com/">Gists</a> are an easy way to work with small bits of code without creating a fully fledged repository.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/2577712c9a05afec55930e914c38aed69f85c221/687474703a2f2f692e696d6775722e636f6d2f566b4b49314c432e706e673f31"><img src="https://camo.githubusercontent.com/2577712c9a05afec55930e914c38aed69f85c221/687474703a2f2f692e696d6775722e636f6d2f566b4b49314c432e706e673f31" alt="Gist" data-canonical-src="http://i.imgur.com/VkKI1LC.png?1" style="max-width:100%;"></a></p>
+<p>Add <code>.pibb</code> to the end of any Gist URL (<a href="https://gist.github.com/tiimgreen/10545817.pibb">like this</a>) in order to get the <em>HTML-only</em> version suitable for embedding in any other site.</p>
+<p>Gists can be treated as a repository so they can be cloned like any other:</p>
+<div class="highlight highlight-source-shell"><pre>$ git clone https://gist.github.com/tiimgreen/10545817</pre></div>
+<p><a target="_blank" href="https://camo.githubusercontent.com/6f44827b994777e311cb4d4e0b1163adaaa5f190/687474703a2f2f692e696d6775722e636f6d2f4263467a6162702e706e67"><img src="https://camo.githubusercontent.com/6f44827b994777e311cb4d4e0b1163adaaa5f190/687474703a2f2f692e696d6775722e636f6d2f4263467a6162702e706e67" alt="Gists" data-canonical-src="http://i.imgur.com/BcFzabp.png" style="max-width:100%;"></a></p>
+<p>This means you also can modify and push updates to Gists:</p>
+<div class="highlight highlight-source-shell"><pre>$ git commit
+$ git push
+Username <span class="pl-k">for</span> <span class="pl-s"><span class="pl-pds">'</span>https://gist.github.com<span class="pl-pds">'</span></span>:
+Password <span class="pl-k">for</span> <span class="pl-s"><span class="pl-pds">'</span>https://tiimgreen@gist.github.com<span class="pl-pds">'</span></span>:</pre></div>
+<p>However, Gists do not support directories. All files need to be added to the repository root.
+<a href="https://help.github.com/articles/creating-gists/"><em>Read more about creating Gists.</em></a></p>
+<h3><a id="user-content-gitio" class="anchor" aria-hidden="true" href="#gitio"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git.io</h3>
+<p><a href="http://git.io" rel="nofollow">Git.io</a> is a simple URL shortener for GitHub.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/44e4c7861337bea3d61eac724c9bfac446fb5d37/687474703a2f2f692e696d6775722e636f6d2f364a55666263472e706e673f31"><img src="https://camo.githubusercontent.com/44e4c7861337bea3d61eac724c9bfac446fb5d37/687474703a2f2f692e696d6775722e636f6d2f364a55666263472e706e673f31" alt="Git.io" data-canonical-src="http://i.imgur.com/6JUfbcG.png?1" style="max-width:100%;"></a></p>
+<p>You can also use it via pure HTTP using Curl:</p>
+<div class="highlight highlight-source-shell"><pre>$ curl -i http://git.io -F <span class="pl-s"><span class="pl-pds">"</span>url=https://github.com/...<span class="pl-pds">"</span></span>
+HTTP/1.1 201 Created
+Location: http://git.io/abc123
+
+$ curl -i http://git.io/abc123
+HTTP/1.1 302 Found
+Location: https://github.com/...</pre></div>
+<p><a href="https://github.com/blog/985-git-io-github-url-shortener"><em>Read more about Git.io.</em></a></p>
+<h3><a id="user-content-keyboard-shortcuts" class="anchor" aria-hidden="true" href="#keyboard-shortcuts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keyboard Shortcuts</h3>
+<p>When on a repository page, keyboard shortcuts allow you to navigate easily.</p>
+<ul>
+<li>Pressing <code>t</code> will bring up a file explorer.</li>
+<li>Pressing <code>w</code> will bring up the branch selector.</li>
+<li>Pressing <code>s</code> will focus the search field for the current repository. Pressing Backspace to delete the “This repository” pill changes the field to search all of GitHub.</li>
+<li>Pressing <code>l</code> will edit labels on existing Issues.</li>
+<li>Pressing <code>y</code> <strong>when looking at a file</strong> (e.g., <code>https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md</code>) will change your URL to one which, in effect, freezes the page you are looking at. If this code changes, you will still be able to see what you saw at that current time.</li>
+</ul>
+<p>To see all of the shortcuts for the current page press <code>?</code>:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/e8444fa30f6994ed634c623d7ac7b30dc82fb46c/687474703a2f2f692e696d6775722e636f6d2f79355a664e456d2e706e67"><img src="https://camo.githubusercontent.com/e8444fa30f6994ed634c623d7ac7b30dc82fb46c/687474703a2f2f692e696d6775722e636f6d2f79355a664e456d2e706e67" alt="Keyboard shortcuts" data-canonical-src="http://i.imgur.com/y5ZfNEm.png" style="max-width:100%;"></a></p>
+<p><a href="https://help.github.com/articles/search-syntax/">Read more about search syntax you can use.</a></p>
+<h3><a id="user-content-line-highlighting-in-repositories" class="anchor" aria-hidden="true" href="#line-highlighting-in-repositories"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Line Highlighting in Repositories</h3>
+<p>Either adding, e.g., <code>#L52</code> to the end of a code file URL or simply clicking the line number will highlight that line number.</p>
+<p>It also works with ranges, e.g., <code>#L53-L60</code>, to select ranges, hold <code>shift</code> and click two lines:</p>
+<pre><code>https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L60
+</code></pre>
+<p><a target="_blank" href="https://camo.githubusercontent.com/da8b01ee726d25c787bcc5791ef1ba0d92ce4d7d/687474703a2f2f692e696d6775722e636f6d2f3841686a72437a2e706e67"><img src="https://camo.githubusercontent.com/da8b01ee726d25c787bcc5791ef1ba0d92ce4d7d/687474703a2f2f692e696d6775722e636f6d2f3841686a72437a2e706e67" alt="Line Highlighting" data-canonical-src="http://i.imgur.com/8AhjrCz.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-closing-issues-via-commit-messages" class="anchor" aria-hidden="true" href="#closing-issues-via-commit-messages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Closing Issues via Commit Messages</h3>
+<p>If a particular commit fixes an issue, any of the keywords <code>fix/fixes/fixed</code>, <code>close/closes/closed</code> or <code>resolve/resolves/resolved</code>, followed by the issue number, will close the issue once it is committed to the master branch.</p>
+<div class="highlight highlight-source-shell"><pre>$ git commit -m <span class="pl-s"><span class="pl-pds">"</span>Fix screwup, fixes #12<span class="pl-pds">"</span></span></pre></div>
+<p>This closes the issue and references the closing commit.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/ade6142e7353dabecc199411dec63973eb6fa5df/687474703a2f2f692e696d6775722e636f6d2f556831675a64782e706e67"><img src="https://camo.githubusercontent.com/ade6142e7353dabecc199411dec63973eb6fa5df/687474703a2f2f692e696d6775722e636f6d2f556831675a64782e706e67" alt="Closing Repo" data-canonical-src="http://i.imgur.com/Uh1gZdx.png" style="max-width:100%;"></a></p>
+<p><a href="https://help.github.com/articles/closing-issues-via-commit-messages/"><em>Read more about closing Issues via commit messages.</em></a></p>
+<h3><a id="user-content-cross-link-issues" class="anchor" aria-hidden="true" href="#cross-link-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cross-Link Issues</h3>
+<p>If you want to link to another issue in the same repository, simply type hash <code>#</code> then the issue number, and it will be auto-linked.</p>
+<p>To link to an issue in another repository, <code>{user}/{repo}#ISSUE_NUMBER</code>, e.g., <code>tiimgreen/toc#12</code>.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/447e39ab8d96b553cadc8d31799100190df230a8/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f7265666572656e6365732e706e67"><img src="https://camo.githubusercontent.com/447e39ab8d96b553cadc8d31799100190df230a8/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f7265666572656e6365732e706e67" alt="Cross-Link Issues" style="max-width:100%;"></a></p>
+<h3><a id="user-content-locking-conversations" class="anchor" aria-hidden="true" href="#locking-conversations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Locking Conversations</h3>
+<p>Pull Requests and Issues can now be locked by owners or collaborators of the repo.</p>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/2723/3221693/bf54dd44-f00d-11e3-8eb6-bb51e825bc2c.png"><img src="https://cloud.githubusercontent.com/assets/2723/3221693/bf54dd44-f00d-11e3-8eb6-bb51e825bc2c.png" alt="Lock conversation" style="max-width:100%;"></a></p>
+<p>This means that users who are not collaborators on the project will no longer be able to comment.</p>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/2723/3221775/d6e513b0-f00e-11e3-9721-2131cb37c906.png"><img src="https://cloud.githubusercontent.com/assets/2723/3221775/d6e513b0-f00e-11e3-9721-2131cb37c906.png" alt="Comments locked" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1847-locking-conversations"><em>Read more about locking conversations.</em></a></p>
+<h3><a id="user-content-ci-status-on-pull-requests" class="anchor" aria-hidden="true" href="#ci-status-on-pull-requests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CI Status on Pull Requests</h3>
+<p>If set up correctly, every time you receive a Pull Request, <a href="https://travis-ci.org/" rel="nofollow">Travis CI</a> will build that Pull Request just like it would every time you make a new commit. Read more about how to <a href="http://docs.travis-ci.com/user/getting-started/" rel="nofollow">get started with Travis CI</a>.</p>
+<p><a href="https://github.com/octokit/octokit.rb/pull/452"><img src="https://cloud.githubusercontent.com/assets/1687642/2700187/3a88838c-c410-11e3-9a46-e65e2a0458cd.png" alt="Travis CI status" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1227-commit-status-api"><em>Read more about the commit status API.</em></a></p>
+<h3><a id="user-content-filters" class="anchor" aria-hidden="true" href="#filters"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Filters</h3>
+<p>Both issues and pull requests allow filtering in the user interface.</p>
+<p>For the Rails repo: <a href="https://github.com/rails/rails/issues">https://github.com/rails/rails/issues</a>, the following filter is built by selecting the label "activerecord":</p>
+<p><code>is:issue label:activerecord</code></p>
+<p>But, you can also find all issues that are NOT labeled activerecord:</p>
+<p><code>is:issue -label:activerecord</code></p>
+<p>Additionally, this also works for pull requests:</p>
+<p><code>is:pr -label:activerecord</code></p>
+<p>Github has tabs for displaying open or closed issues and pull requests but you
+can also see merged pull requests.  Just put the following in the filter:</p>
+<p><code>is:merged</code></p>
+<p><a href="https://help.github.com/articles/searching-issues/"><em>Read more about searching issues.</em></a></p>
+<p>Finally, github now allows you to filter by the Status API's status.</p>
+<p>Pull requests with only successful statuses:</p>
+<p><code>status:success</code></p>
+<p><a href="https://github.com/blog/2014-filter-pull-requests-by-status"><em>Read more about searching on the Status API.</em></a></p>
+<h3><a id="user-content-syntax-highlighting-in-markdown-files" class="anchor" aria-hidden="true" href="#syntax-highlighting-in-markdown-files"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Syntax Highlighting in Markdown Files</h3>
+<p>For example, to syntax highlight Ruby code in your Markdown files write:</p>
+<pre><code>```ruby
+require 'tabbit'
+table = Tabbit.new('Name', 'Email')
+table.add_row('Tim Green', 'tiimgreen@gmail.com')
+puts table.to_s
+```
+</code></pre>
+<p>This will produce:</p>
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">require</span> <span class="pl-s"><span class="pl-pds">'</span>tabbit<span class="pl-pds">'</span></span>
+table <span class="pl-k">=</span> <span class="pl-c1">Tabbit</span>.<span class="pl-k">new</span>(<span class="pl-s"><span class="pl-pds">'</span>Name<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>Email<span class="pl-pds">'</span></span>)
+table.add_row(<span class="pl-s"><span class="pl-pds">'</span>Tim Green<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>tiimgreen@gmail.com<span class="pl-pds">'</span></span>)
+<span class="pl-c1">puts</span> table.to_s</pre></div>
+<p>GitHub uses <a href="https://github.com/github/linguist">Linguist</a> to perform language detection and syntax highlighting. You can find out which keywords are valid by perusing the <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml">languages YAML file</a>.</p>
+<p><a href="https://help.github.com/articles/github-flavored-markdown/"><em>Read more about GitHub Flavored Markdown.</em></a></p>
+<h3><a id="user-content-emojis" class="anchor" aria-hidden="true" href="#emojis"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emojis</h3>
+<p>Emojis can be added to Pull Requests, Issues, commit messages, repository descriptions, etc. using <code>:name_of_emoji:</code>.</p>
+<p>The full list of supported Emojis on GitHub can be found at <a href="http://www.emoji-cheat-sheet.com/" rel="nofollow">emoji-cheat-sheet.com</a> or <a href="https://github.com/scotch-io/All-Github-Emoji-Icons">scotch-io/All-Github-Emoji-Icons</a>.
+A handy emoji search engine can be found at <a href="http://emoji.muan.co/" rel="nofollow">emoji.muan.co</a>.</p>
+<p>The top 5 used Emojis on GitHub are:</p>
+<ol>
+<li><code>:shipit:</code></li>
+<li><code>:sparkles:</code></li>
+<li><code>:-1:</code></li>
+<li><code>:+1:</code></li>
+<li><code>:clap:</code></li>
+</ol>
+<h3><a id="user-content-imagesgifs" class="anchor" aria-hidden="true" href="#imagesgifs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Images/GIFs</h3>
+<p>Images and GIFs can be added to comments, READMEs etc.:</p>
+<pre><code>![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
+</code></pre>
+<p>Raw images from the repo can be used by calling them directly.:</p>
+<pre><code>![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/image.gif)
+</code></pre>
+<p><a target="_blank" href="https://camo.githubusercontent.com/fca1eaa46baa3573f6e2d993f6fe1f95a6329ae9/687474703a2f2f7777772e73686561776f6e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30382f6b656570686174696e2e676966"><img src="https://camo.githubusercontent.com/fca1eaa46baa3573f6e2d993f6fe1f95a6329ae9/687474703a2f2f7777772e73686561776f6e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30382f6b656570686174696e2e676966" alt="Peter don't care" data-canonical-src="http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif" style="max-width:100%;"></a></p>
+<p>All images are cached on GitHub, so if your host goes down, the image will remain available.</p>
+<h4><a id="user-content-embedding-images-in-github-wiki" class="anchor" aria-hidden="true" href="#embedding-images-in-github-wiki"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Embedding Images in GitHub Wiki</h4>
+<p>There are multiple ways of embedding images in Wiki pages. There's the standard Markdown syntax (shown above). But there's also a syntax that allows things like specifying the height or width of the image:</p>
+<div class="highlight highlight-source-gfm"><pre>[[ http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif | height = 100px ]]</pre></div>
+<p>Which produces:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/cf2e557009192c63d6accbdf14bcf4b78e9ed97b/687474703a2f2f692e696d6775722e636f6d2f4a35624d6637532e706e67"><img src="https://camo.githubusercontent.com/cf2e557009192c63d6accbdf14bcf4b78e9ed97b/687474703a2f2f692e696d6775722e636f6d2f4a35624d6637532e706e67" alt="Just a screenshot" data-canonical-src="http://i.imgur.com/J5bMf7S.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-quick-quoting" class="anchor" aria-hidden="true" href="#quick-quoting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quick Quoting</h3>
+<p>When on a comment thread and you want to quote something someone previously said, highlight the text and press <code>r</code>, this will copy it into your text box in the block-quote format.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/df4de1519cc0c3cc4d394f309f1d5c7c92297e03/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3239363433322f3132343438332f62306661363230342d366566302d313165322d383363332d3235366333376661376162632e676966"><img src="https://camo.githubusercontent.com/df4de1519cc0c3cc4d394f309f1d5c7c92297e03/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3239363433322f3132343438332f62306661363230342d366566302d313165322d383363332d3235366333376661376162632e676966" alt="Quick Quote" data-canonical-src="https://f.cloud.github.com/assets/296432/124483/b0fa6204-6ef0-11e2-83c3-256c37fa7abc.gif" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1399-quick-quotes"><em>Read more about quick quoting.</em></a></p>
+<h3><a id="user-content-pasting-clipboard-image-to-comments" class="anchor" aria-hidden="true" href="#pasting-clipboard-image-to-comments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pasting Clipboard Image to Comments</h3>
+<p><em>(Works on Chrome browsers only)</em></p>
+<p>After taking a screenshot and adding it to the clipboard (mac: <code>cmd-ctrl-shift-4</code>), you can simply paste (<code>cmd-v / ctrl-v</code>) the image into the comment section and it will be auto-uploaded to github.</p>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/39191/5794265/39c9b65a-9f1b-11e4-9bc7-04e41f59ea5f.png"><img src="https://cloud.githubusercontent.com/assets/39191/5794265/39c9b65a-9f1b-11e4-9bc7-04e41f59ea5f.png" alt="Pasting Clipboard Image to Comments" style="max-width:100%;"></a></p>
+<p><a href="https://help.github.com/articles/issue-attachments/"><em>Read more about issue attachments.</em></a></p>
+<h3><a id="user-content-quick-licensing" class="anchor" aria-hidden="true" href="#quick-licensing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quick Licensing</h3>
+<p>When creating a repository, GitHub gives you the option of adding in a pre-made license:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/a3b95ac4cfc8bec5d4fdc007fe5b12655a3f25a5/687474703a2f2f692e696d6775722e636f6d2f4368716a3446672e706e67"><img src="https://camo.githubusercontent.com/a3b95ac4cfc8bec5d4fdc007fe5b12655a3f25a5/687474703a2f2f692e696d6775722e636f6d2f4368716a3446672e706e67" alt="License" data-canonical-src="http://i.imgur.com/Chqj4Fg.png" style="max-width:100%;"></a></p>
+<p>You can also add them to existing repositories by creating a new file through the web interface. When the name <code>LICENSE</code> is typed in you will get an option to use a template:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/74e0a5fea1880745908b53ff06536fd721908a86/687474703a2f2f692e696d6775722e636f6d2f66546a516963742e706e67"><img src="https://camo.githubusercontent.com/74e0a5fea1880745908b53ff06536fd721908a86/687474703a2f2f692e696d6775722e636f6d2f66546a516963742e706e67" alt="License" data-canonical-src="http://i.imgur.com/fTjQict.png" style="max-width:100%;"></a></p>
+<p>Also works for <code>.gitignore</code>.</p>
+<p><a href="https://help.github.com/articles/open-source-licensing/"><em>Read more about open source licensing.</em></a></p>
+<h3><a id="user-content-task-lists" class="anchor" aria-hidden="true" href="#task-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Task Lists</h3>
+<p>In Issues and Pull requests check boxes can be added with the following syntax (notice the space):</p>
+<pre><code>- [ ] Be awesome
+- [ ] Prepare dinner
+  - [ ] Research recipe
+  - [ ] Buy ingredients
+  - [ ] Cook recipe
+- [ ] Sleep
+</code></pre>
+<p><a target="_blank" href="https://camo.githubusercontent.com/e0ca04595f493cd02e6da43402b028cbaf631fae/687474703a2f2f692e696d6775722e636f6d2f6a4a42586873592e706e67"><img src="https://camo.githubusercontent.com/e0ca04595f493cd02e6da43402b028cbaf631fae/687474703a2f2f692e696d6775722e636f6d2f6a4a42586873592e706e67" alt="Task List" data-canonical-src="http://i.imgur.com/jJBXhsY.png" style="max-width:100%;"></a></p>
+<p>When they are clicked, they will be updated in the pure Markdown:</p>
+<pre><code>- [x] Be awesome
+- [ ] Prepare dinner
+  - [x] Research recipe
+  - [x] Buy ingredients
+  - [ ] Cook recipe
+- [ ] Sleep
+</code></pre>
+<p><a href="https://help.github.com/articles/writing-on-github/#task-lists"><em>Read more about task lists.</em></a></p>
+<h4><a id="user-content-task-lists-in-markdown-documents" class="anchor" aria-hidden="true" href="#task-lists-in-markdown-documents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Task Lists in Markdown Documents</h4>
+<p>In full Markdown documents <strong>read-only</strong> checklists can now be added using the following syntax:</p>
+<pre><code>- [ ] Mercury
+- [x] Venus
+- [x] Earth
+  - [x] Moon
+- [x] Mars
+  - [ ] Deimos
+  - [ ] Phobos
+</code></pre>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Mercury</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Venus</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Earth
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Moon</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Mars
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Deimos</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Phobos</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://github.com/blog/1825-task-lists-in-all-markdown-documents"><em>Read more about task lists in markdown documents.</em></a></p>
+<h3><a id="user-content-relative-links" class="anchor" aria-hidden="true" href="#relative-links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Relative Links</h3>
+<p>Relative links are recommended in your Markdown files when linking to internal content.</p>
+<div class="highlight highlight-source-gfm"><pre>[<span class="pl-e">Link to a header</span>](#awesome-section)
+[<span class="pl-e">Link to a file</span>](docs/readme)</pre></div>
+<p>Absolute links have to be updated whenever the URL changes (e.g., repository renamed, username changed, project forked). Using relative links makes your documentation easily stand on its own.</p>
+<p><a href="https://help.github.com/articles/relative-links-in-readmes/"><em>Read more about relative links.</em></a></p>
+<h3><a id="user-content-metadata-and-plugin-support-for-github-pages" class="anchor" aria-hidden="true" href="#metadata-and-plugin-support-for-github-pages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Metadata and Plugin Support for GitHub Pages</h3>
+<p>Within Jekyll pages and posts, repository information is available within the <code>site.github</code> namespace, and can be displayed, for example, using <code>{{ site.github.project_title }}</code>.</p>
+<p>The Jemoji and jekyll-mentions plugins enable <a href="#emojis">emoji</a> and <a href="https://github.com/blog/821">@mentions</a> in your Jekyll posts and pages to work just like you'd expect when interacting with a repository on GitHub.com.</p>
+<p><a href="https://github.com/blog/1797-repository-metadata-and-plugin-support-for-github-pages"><em>Read more about repository metadata and plugin support for GitHub Pages.</em></a></p>
+<h3><a id="user-content-viewing-yaml-metadata-in-your-documents" class="anchor" aria-hidden="true" href="#viewing-yaml-metadata-in-your-documents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Viewing YAML Metadata in your Documents</h3>
+<p>Many blogging websites, like <a href="http://jekyllrb.com/" rel="nofollow">Jekyll</a> with <a href="https://pages.github.com">GitHub Pages</a>, depend on some YAML-formatted metadata at the beginning of your post. GitHub will render this metadata as a horizontal table, for easier reading</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/47245aa16728e242f74a9a324ce0d24c0b916075/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f36343035302f313232383236372f65303439643063362d323761302d313165332d396464382d6131636432323539393334342e706e67"><img src="https://camo.githubusercontent.com/47245aa16728e242f74a9a324ce0d24c0b916075/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f36343035302f313232383236372f65303439643063362d323761302d313165332d396464382d6131636432323539393334342e706e67" alt="YAML metadata" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1647-viewing-yaml-metadata-in-your-documents"><em>Read more about viewing YAML metadata in your documents.</em></a></p>
+<h3><a id="user-content-rendering-tabular-data" class="anchor" aria-hidden="true" href="#rendering-tabular-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering Tabular Data</h3>
+<p>GitHub supports rendering tabular data in the form of <code>.csv</code> (comma-separated) and <code>.tsv</code> (tab-separated) files.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/1b6dd0157ffb45d9939abf14233a0cb13b3b4dfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f3937363436322f33323038336463652d303638642d313165332d393262322d3566323863313061353035392e706e67"><img src="https://camo.githubusercontent.com/1b6dd0157ffb45d9939abf14233a0cb13b3b4dfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f3937363436322f33323038336463652d303638642d313165332d393262322d3566323863313061353035392e706e67" alt="Tabular data" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1601-see-your-csvs"><em>Read more about rendering tabular data.</em></a></p>
+<h3><a id="user-content-rendering-pdf" class="anchor" aria-hidden="true" href="#rendering-pdf"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering PDF</h3>
+<p>GitHub supports rendering PDF:</p>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/1000669/7492902/f8493160-f42e-11e4-8cea-1cb4f02757e7.png"><img src="https://cloud.githubusercontent.com/assets/1000669/7492902/f8493160-f42e-11e4-8cea-1cb4f02757e7.png" alt="PDF" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1974-pdf-viewing"><em>Read more about rendering PDF.</em></a></p>
+<h3><a id="user-content-revert-a-pull-request" class="anchor" aria-hidden="true" href="#revert-a-pull-request"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Revert a Pull Request</h3>
+<p>After a pull request is merged, you may find it does not help anything or it was a bad decision to merge the pull request.</p>
+<p>You can revert it by clicking the <strong>Revert</strong> button on the right side of a commit in the pull request page to create a pull request with reverted changes to this specific pull request.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67"><img src="https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67" alt="Revert button" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1857-introducing-the-revert-button"><em>Read more about reverting pull requests</em></a></p>
+<h3><a id="user-content-diffs" class="anchor" aria-hidden="true" href="#diffs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Diffs</h3>
+<h4><a id="user-content-rendered-prose-diffs" class="anchor" aria-hidden="true" href="#rendered-prose-diffs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendered Prose Diffs</h4>
+<p>Commits and pull requests, including rendered documents supported by GitHub (e.g., Markdown), feature <em>source</em> and <em>rendered</em> views.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/d13da922ee5d1185db29b193d454f5b397a8da89/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f7265706f7369746f72792f72656e64657265645f70726f73655f646966662e706e67"><img src="https://camo.githubusercontent.com/d13da922ee5d1185db29b193d454f5b397a8da89/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f7265706f7369746f72792f72656e64657265645f70726f73655f646966662e706e67" alt="Source / Rendered view" data-canonical-src="https://github-images.s3.amazonaws.com/help/repository/rendered_prose_diff.png" style="max-width:100%;"></a></p>
+<p>Click the "rendered" button to see the changes as they'll appear in the rendered document. Rendered prose view is handy when you're adding, removing, and editing text:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/1c4a52738b52038653e37bb1e51d0dcf7dd3cc18/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f31373731352f323030333035362f33393937656462342d383632622d313165332d393062652d3565393538366564656364372e706e67"><img src="https://camo.githubusercontent.com/1c4a52738b52038653e37bb1e51d0dcf7dd3cc18/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f31373731352f323030333035362f33393937656462342d383632622d313165332d393062652d3565393538366564656364372e706e67" alt="Rendered Prose Diffs" data-canonical-src="https://f.cloud.github.com/assets/17715/2003056/3997edb4-862b-11e3-90be-5e9586edecd7.png" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1784-rendered-prose-diffs"><em>Read more about rendered prose diffs.</em></a></p>
+<h4><a id="user-content-diffable-maps" class="anchor" aria-hidden="true" href="#diffable-maps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Diffable Maps</h4>
+<p>Any time you view a commit or pull request on GitHub that includes geodata, GitHub will render a visual representation of what was changed.</p>
+<p><a href="https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5"><img src="https://camo.githubusercontent.com/42b45b92a88b8f271945cf01c1fddc24239efcfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f323039303636302f36336632653435612d386539372d313165332d396438622d6434633830373862303034652e676966" alt="Diffable Maps" data-canonical-src="https://f.cloud.github.com/assets/282759/2090660/63f2e45a-8e97-11e3-9d8b-d4c8078b004e.gif" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1772-diffable-more-customizable-maps"><em>Read more about diffable maps.</em></a></p>
+<h4><a id="user-content-expanding-context-in-diffs" class="anchor" aria-hidden="true" href="#expanding-context-in-diffs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Expanding Context in Diffs</h4>
+<p>Using the <em>unfold</em> button in the gutter of a diff, you can reveal additional lines of context with a click. You can keep clicking <em>unfold</em> until you've revealed the whole file, and the feature is available anywhere GitHub renders diffs.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/0e02bc17ce408657ba14c164b9f9edac432685a4/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f32323633352f313631303533392f38363363316636342d353538342d313165332d383262662d3135316234303661323732662e676966"><img src="https://camo.githubusercontent.com/0e02bc17ce408657ba14c164b9f9edac432685a4/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f32323633352f313631303533392f38363363316636342d353538342d313165332d383262662d3135316234303661323732662e676966" alt="Expanding Context in Diffs" data-canonical-src="https://f.cloud.github.com/assets/22635/1610539/863c1f64-5584-11e3-82bf-151b406a272f.gif" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1705-expanding-context-in-diffs"><em>Read more about expanding context in diffs.</em></a></p>
+<h4><a id="user-content-diff-or-patch-of-pull-request" class="anchor" aria-hidden="true" href="#diff-or-patch-of-pull-request"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Diff or Patch of Pull Request</h4>
+<p>You can get the diff of a Pull Request by adding a <code>.diff</code> or <code>.patch</code>
+extension to the end of the URL. For example:</p>
+<pre><code>https://github.com/tiimgreen/github-cheat-sheet/pull/15
+https://github.com/tiimgreen/github-cheat-sheet/pull/15.diff
+https://github.com/tiimgreen/github-cheat-sheet/pull/15.patch
+</code></pre>
+<p>The <code>.diff</code> extension would give you this in plain text:</p>
+<pre><code>diff --git a/README.md b/README.md
+index 88fcf69..8614873 100644
+--- a/README.md
++++ b/README.md
+@@ -28,6 +28,7 @@ All the hidden and not hidden features of Git and GitHub. This cheat sheet was i
+ - [Merged Branches](#merged-branches)
+ - [Quick Licensing](#quick-licensing)
+ - [TODO Lists](#todo-lists)
++- [Relative Links](#relative-links)
+ - [.gitconfig Recommendations](#gitconfig-recommendations)
+     - [Aliases](#aliases)
+     - [Auto-correct](#auto-correct)
+@@ -381,6 +382,19 @@ When they are clicked, they will be updated in the pure Markdown:
+ - [ ] Sleep
+
+(...)
+</code></pre>
+<h4><a id="user-content-rendering-and-diffing-images" class="anchor" aria-hidden="true" href="#rendering-and-diffing-images"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rendering and diffing images</h4>
+<p>GitHub can display several common image formats, including PNG, JPG, GIF, and PSD. In addition, there are several ways to compare differences between versions of those image formats.</p>
+<p><a href="https://github.com/blog/1845-psd-viewing-diffing"><img src="https://cloud.githubusercontent.com/assets/2546/3165594/55f2798a-eb56-11e3-92e7-b79ad791a697.gif" alt="Diffable PSD" style="max-width:100%;"></a></p>
+<p><a href="https://help.github.com/articles/rendering-and-diffing-images/"><em>Read more about rendering and diffing images.</em></a></p>
+<h3><a id="user-content-hub" class="anchor" aria-hidden="true" href="#hub"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hub</h3>
+<p><a href="https://github.com/github/hub">Hub</a> is a command line Git wrapper that gives you extra features and commands that make working with GitHub easier.</p>
+<p>This allows you to do things like:</p>
+<div class="highlight highlight-source-shell"><pre>$ hub clone tiimgreen/toc</pre></div>
+<p><a href="https://github.com/github/hub#commands"><em>Check out some more cool commands Hub has to offer.</em></a></p>
+<h3><a id="user-content-contribution-guidelines" class="anchor" aria-hidden="true" href="#contribution-guidelines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contribution Guidelines</h3>
+<p>GitHub supports adding 3 different files which help users contribute to your project.
+These files can either be placed in the root of your repository or a <code>.github</code> directory under the root.</p>
+<h4><a id="user-content-contributing-file" class="anchor" aria-hidden="true" href="#contributing-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CONTRIBUTING File</h4>
+<p>Adding a <code>CONTRIBUTING</code> or <code>CONTRIBUTING.md</code> file to either the root of your repository or a <code>.github</code> directory will add a link to your file when a contributor creates an Issue or opens a Pull Request.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/71995d6b0e620a9ef1ded00a04498241c69dd1bf/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f736b697463682f6973737565732d32303132303931332d3136323533392e6a7067"><img src="https://camo.githubusercontent.com/71995d6b0e620a9ef1ded00a04498241c69dd1bf/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f736b697463682f6973737565732d32303132303931332d3136323533392e6a7067" alt="Contributing Guidelines" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/blog/1184-contributing-guidelines"><em>Read more about contributing guidelines.</em></a></p>
+<h4><a id="user-content-issue_template-file" class="anchor" aria-hidden="true" href="#issue_template-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ISSUE_TEMPLATE file</h4>
+<p>You can define a template for all new issues opened in your project. The content of this file will pre-populate the new issue box when users create new issues. Add an <code>ISSUE_TEMPLATE</code> or <code>ISSUE_TEMPLATE.md</code> file to either the root of your repository or a <code>.github</code> directory.</p>
+<p><a href="https://github.com/blog/2111-issue-and-pull-request-templates"><em>Read more about issue templates.</em></a></p>
+<p><a href="https://www.talater.com/open-source-templates/" rel="nofollow">Issue template file generator</a></p>
+<p><a target="_blank" href="https://cloud.githubusercontent.com/assets/25792/13120859/733479fe-d564-11e5-8a1f-a03f95072f7a.png"><img src="https://cloud.githubusercontent.com/assets/25792/13120859/733479fe-d564-11e5-8a1f-a03f95072f7a.png" alt="GitHub Issue template" style="max-width:100%;"></a></p>
+<h4><a id="user-content-pull_request_template-file" class="anchor" aria-hidden="true" href="#pull_request_template-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PULL_REQUEST_TEMPLATE file</h4>
+<p>You can define a template for all new pull requests opened in your project. The content of this file will pre-populate the text area when users create pull requests. Add a <code>PULL_REQUEST_TEMPLATE</code> or <code>PULL_REQUEST_TEMPLATE.md</code> file to either the root of your repository or a <code>.github</code> directory.</p>
+<p><a href="https://github.com/blog/2111-issue-and-pull-request-templates"><em>Read more about pull request templates.</em></a></p>
+<p><a href="https://www.talater.com/open-source-templates/" rel="nofollow">Pull request template file generator</a></p>
+<h3><a id="user-content-octicons" class="anchor" aria-hidden="true" href="#octicons"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Octicons</h3>
+<p>GitHubs icons (Octicons) have now been open sourced.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/2f4f450830accbd44062add083885eadc0f791c7/68747470733a2f2f6f672e6769746875622e636f6d2f6f637469636f6e732f6f637469636f6e734031323030783633302e706e67"><img src="https://camo.githubusercontent.com/2f4f450830accbd44062add083885eadc0f791c7/68747470733a2f2f6f672e6769746875622e636f6d2f6f637469636f6e732f6f637469636f6e734031323030783633302e706e67" alt="Octicons" data-canonical-src="https://og.github.com/octicons/octicons@1200x630.png" style="max-width:100%;"></a></p>
+<p><a href="https://octicons.github.com"><em>Read more about GitHub's Octicons</em></a></p>
+<h3><a id="user-content-github-student-developer-pack" class="anchor" aria-hidden="true" href="#github-student-developer-pack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub Student Developer Pack</h3>
+<p>If you are a student you will be eligible for the GitHub Student Developer Pack. This gives you free credit, free trials and early access to software that will help you when developing.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/f6b7a562d52dac859be4318b6d952bbe4756652f/687474703a2f2f692e696d6775722e636f6d2f397275334b34332e706e67"><img src="https://camo.githubusercontent.com/f6b7a562d52dac859be4318b6d952bbe4756652f/687474703a2f2f692e696d6775722e636f6d2f397275334b34332e706e67" alt="GitHub Student Developer Pack" data-canonical-src="http://i.imgur.com/9ru3K43.png" style="max-width:100%;"></a></p>
+<p><a href="https://education.github.com/pack"><em>Read more about GitHub's Student Developer Pack</em></a></p>
+<h3><a id="user-content-github-resources" class="anchor" aria-hidden="true" href="#github-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub Resources</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub Explore</td>
+<td><a href="https://github.com/explore">https://github.com/explore</a></td>
+</tr>
+<tr>
+<td>GitHub Blog</td>
+<td><a href="https://github.com/blog">https://github.com/blog</a></td>
+</tr>
+<tr>
+<td>GitHub Help</td>
+<td><a href="https://help.github.com/">https://help.github.com/</a></td>
+</tr>
+<tr>
+<td>GitHub Training</td>
+<td><a href="https://training.github.com/">https://training.github.com/</a></td>
+</tr>
+<tr>
+<td>GitHub Developer</td>
+<td><a href="https://developer.github.com/">https://developer.github.com/</a></td>
+</tr>
+<tr>
+<td>Github Education (Free Micro Account and other stuff for students)</td>
+<td><a href="https://education.github.com/">https://education.github.com/</a></td>
+</tr></tbody></table>
+<h4><a id="user-content-github-talks" class="anchor" aria-hidden="true" href="#github-talks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GitHub Talks</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>How GitHub Uses GitHub to Build GitHub</td>
+<td><a href="https://www.youtube.com/watch?v=qyz3jkOBbQY" rel="nofollow">https://www.youtube.com/watch?v=qyz3jkOBbQY</a></td>
+</tr>
+<tr>
+<td>Introduction to Git with Scott Chacon of GitHub</td>
+<td><a href="https://www.youtube.com/watch?v=ZDR433b0HJY" rel="nofollow">https://www.youtube.com/watch?v=ZDR433b0HJY</a></td>
+</tr>
+<tr>
+<td>How GitHub No Longer Works</td>
+<td><a href="https://www.youtube.com/watch?v=gXD1ITW7iZI" rel="nofollow">https://www.youtube.com/watch?v=gXD1ITW7iZI</a></td>
+</tr>
+<tr>
+<td>Git and GitHub Secrets</td>
+<td><a href="https://www.youtube.com/watch?v=Foz9yvMkvlA" rel="nofollow">https://www.youtube.com/watch?v=Foz9yvMkvlA</a></td>
+</tr>
+<tr>
+<td>More Git and GitHub Secrets</td>
+<td><a href="https://www.youtube.com/watch?v=p50xsL-iVgU" rel="nofollow">https://www.youtube.com/watch?v=p50xsL-iVgU</a></td>
+</tr></tbody></table>
+<h3><a id="user-content-ssh-keys" class="anchor" aria-hidden="true" href="#ssh-keys"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSH keys</h3>
+<p>You can get a list of public ssh keys in plain text format by visiting:</p>
+<pre><code>https://github.com/{user}.keys
+</code></pre>
+<p>e.g. <a href="https://github.com/tiimgreen.keys">https://github.com/tiimgreen.keys</a></p>
+<p><a href="https://changelog.com/github-exposes-public-ssh-keys-for-its-users/" rel="nofollow"><em>Read more about accessing public ssh keys.</em></a></p>
+<h2><a id="user-content-git" class="anchor" aria-hidden="true" href="#git"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git</h2>
+<h3><a id="user-content-remove-all-deleted-files-from-the-working-tree" class="anchor" aria-hidden="true" href="#remove-all-deleted-files-from-the-working-tree"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remove All Deleted Files from the Working Tree</h3>
+<p>When you delete a lot of files using <code>/bin/rm</code> you can use the following command to remove them from the working tree and from the index, eliminating the need to remove each one individually:</p>
+<div class="highlight highlight-source-shell"><pre>$ git rm <span class="pl-s"><span class="pl-pds">$(</span>git ls-files -d<span class="pl-pds">)</span></span></pre></div>
+<p>For example:</p>
+<div class="highlight highlight-source-shell"><pre>$ git status
+On branch master
+Changes not staged <span class="pl-k">for</span> commit:
+	deleted:    a
+	deleted:    c
+
+$ git rm <span class="pl-s"><span class="pl-pds">$(</span>git ls-files -d<span class="pl-pds">)</span></span>
+rm <span class="pl-s"><span class="pl-pds">'</span>a<span class="pl-pds">'</span></span>
+rm <span class="pl-s"><span class="pl-pds">'</span>c<span class="pl-pds">'</span></span>
+
+$ git status
+On branch master
+Changes to be committed:
+	deleted:    a
+	deleted:    c</pre></div>
+<h3><a id="user-content-previous-branch" class="anchor" aria-hidden="true" href="#previous-branch"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Previous Branch</h3>
+<p>To move to the previous branch in Git:</p>
+<div class="highlight highlight-source-shell"><pre>$ git checkout -
+<span class="pl-c"><span class="pl-c">#</span> Switched to branch 'master'</span>
+
+$ git checkout -
+<span class="pl-c"><span class="pl-c">#</span> Switched to branch 'next'</span>
+
+$ git checkout -
+<span class="pl-c"><span class="pl-c">#</span> Switched to branch 'master'</span></pre></div>
+<p><a href="http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging" rel="nofollow"><em>Read more about Git branching.</em></a></p>
+<h3><a id="user-content-stripspace" class="anchor" aria-hidden="true" href="#stripspace"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stripspace</h3>
+<p>Git Stripspace:</p>
+<ul>
+<li>Strips trailing whitespace</li>
+<li>Collapses newlines</li>
+<li>Adds newline to end of file</li>
+</ul>
+<p>A file must be passed when calling the command, e.g.:</p>
+<div class="highlight highlight-source-shell"><pre>$ git stripspace <span class="pl-k">&lt;</span> README.md</pre></div>
+<p><a href="http://git-scm.com/docs/git-stripspace" rel="nofollow"><em>Read more about the Git <code>stripspace</code> command.</em></a></p>
+<h3><a id="user-content-checking-out-pull-requests" class="anchor" aria-hidden="true" href="#checking-out-pull-requests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Checking out Pull Requests</h3>
+<p>Pull Requests are special branches on the GitHub repository which can be retrieved locally in several ways:</p>
+<p>Retrieve a specific Pull Request and store it temporarily in <code>FETCH_HEAD</code> for quickly <code>diff</code>-ing or <code>merge</code>-ing:</p>
+<div class="highlight highlight-source-shell"><pre>$ git fetch origin refs/pull/[PR-Number]/head</pre></div>
+<p>Acquire all Pull Request branches as local remote branches by refspec:</p>
+<div class="highlight highlight-source-shell"><pre>$ git fetch origin <span class="pl-s"><span class="pl-pds">'</span>+refs/pull/*/head:refs/remotes/origin/pr/*<span class="pl-pds">'</span></span></pre></div>
+<p>Or setup the remote to fetch Pull Requests automatically by adding these corresponding lines in your repository's <code>.git/config</code>:</p>
+<pre><code>[remote "origin"]
+    fetch = +refs/heads/*:refs/remotes/origin/*
+    url = git@github.com:tiimgreen/github-cheat-sheet.git
+</code></pre>
+<pre><code>[remote "origin"]
+    fetch = +refs/heads/*:refs/remotes/origin/*
+    url = git@github.com:tiimgreen/github-cheat-sheet.git
+    fetch = +refs/pull/*/head:refs/remotes/origin/pr/*
+</code></pre>
+<p>For Fork-based Pull Request contributions, it's useful to <code>checkout</code> a remote branch representing the Pull Request and create a local branch from it:</p>
+<div class="highlight highlight-source-shell"><pre>$ git checkout pr/42 pr-42</pre></div>
+<p>Or should you work on more repositories, you can globally configure fetching pull requests in the global git config instead.</p>
+<div class="highlight highlight-source-shell"><pre>git config --global --add remote.origin.fetch <span class="pl-s"><span class="pl-pds">"</span>+refs/pull/*/head:refs/remotes/origin/pr/*<span class="pl-pds">"</span></span></pre></div>
+<p>This way, you can use the following short commands in all your repositories:</p>
+<div class="highlight highlight-source-shell"><pre>git fetch origin</pre></div>
+<div class="highlight highlight-source-shell"><pre>git checkout pr/42</pre></div>
+<p><a href="https://help.github.com/articles/checking-out-pull-requests-locally/"><em>Read more about checking out pull requests locally.</em></a></p>
+<h3><a id="user-content-empty-commits" class="anchor" aria-hidden="true" href="#empty-commits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Empty Commits</h3>
+<p>Commits can be pushed with no code changes by adding <code>--allow-empty</code>:</p>
+<div class="highlight highlight-source-shell"><pre>$ git commit -m <span class="pl-s"><span class="pl-pds">"</span>Big-ass commit<span class="pl-pds">"</span></span> --allow-empty</pre></div>
+<p>Some use-cases for this (that make sense), include:</p>
+<ul>
+<li>Annotating the start of a new bulk of work or a new feature.</li>
+<li>Documenting when you make changes to the project that aren't code related.</li>
+<li>Communicating with people using your repository.</li>
+<li>The first commit of a repository: <code>git commit -m "Initial commit" --allow-empty</code>.</li>
+</ul>
+<h3><a id="user-content-styled-git-status" class="anchor" aria-hidden="true" href="#styled-git-status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Styled Git Status</h3>
+<p>Running:</p>
+<div class="highlight highlight-source-shell"><pre>$ git status</pre></div>
+<p>produces:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/8318c88e25e3d6c1eb2a9ba73b8c508447fea00e/687474703a2f2f692e696d6775722e636f6d2f716a50797658622e706e67"><img src="https://camo.githubusercontent.com/8318c88e25e3d6c1eb2a9ba73b8c508447fea00e/687474703a2f2f692e696d6775722e636f6d2f716a50797658622e706e67" alt="git status" data-canonical-src="http://i.imgur.com/qjPyvXb.png" style="max-width:100%;"></a></p>
+<p>By adding <code>-sb</code>:</p>
+<div class="highlight highlight-source-shell"><pre>$ git status -sb</pre></div>
+<p>this is produced:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/a2d692c06a0d296cbf8258d546f996e47fd13229/687474703a2f2f692e696d6775722e636f6d2f4b304f59336e6d2e706e67"><img src="https://camo.githubusercontent.com/a2d692c06a0d296cbf8258d546f996e47fd13229/687474703a2f2f692e696d6775722e636f6d2f4b304f59336e6d2e706e67" alt="git status -sb" data-canonical-src="http://i.imgur.com/K0OY3nm.png" style="max-width:100%;"></a></p>
+<p><a href="http://git-scm.com/docs/git-status" rel="nofollow"><em>Read more about the Git <code>status</code> command.</em></a></p>
+<h3><a id="user-content-styled-git-log" class="anchor" aria-hidden="true" href="#styled-git-log"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Styled Git Log</h3>
+<p>Running:</p>
+<div class="highlight highlight-source-shell"><pre>$ git log --all --graph --pretty=format:<span class="pl-s"><span class="pl-pds">'</span>%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset<span class="pl-pds">'</span></span> --abbrev-commit --date=relative</pre></div>
+<p>produces:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/a698d31838cd57e7910c8b2922b7c9aae261b152/687474703a2f2f692e696d6775722e636f6d2f3538654f746b572e706e67"><img src="https://camo.githubusercontent.com/a698d31838cd57e7910c8b2922b7c9aae261b152/687474703a2f2f692e696d6775722e636f6d2f3538654f746b572e706e67" alt="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --date=relative" data-canonical-src="http://i.imgur.com/58eOtkW.png" style="max-width:100%;"></a></p>
+<p>Credit to <a href="http://stackoverflow.com/users/88355/palesz" rel="nofollow">Palesz</a></p>
+<p><em>This can be aliased using the instructions found <a href="https://github.com/tiimgreen/github-cheat-sheet#aliases">here</a>.</em></p>
+<p><a href="http://git-scm.com/docs/git-log" rel="nofollow"><em>Read more about the Git <code>log</code> command.</em></a></p>
+<h3><a id="user-content-git-query" class="anchor" aria-hidden="true" href="#git-query"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Query</h3>
+<p>A Git query allows you to search all your previous commit messages and find the most recent one matching the query.</p>
+<div class="highlight highlight-source-shell"><pre>$ git show :/query</pre></div>
+<p>where <code>query</code> (case-sensitive) is the term you want to search, this then finds the last one and gives details on the lines that were changed.</p>
+<div class="highlight highlight-source-shell"><pre>$ git show :/typo</pre></div>
+<p><a target="_blank" href="https://camo.githubusercontent.com/dd367971caed2480a98cab383b542cd9f36aca0c/687474703a2f2f692e696d6775722e636f6d2f69636147694e742e706e67"><img src="https://camo.githubusercontent.com/dd367971caed2480a98cab383b542cd9f36aca0c/687474703a2f2f692e696d6775722e636f6d2f69636147694e742e706e67" alt="git show :/query" data-canonical-src="http://i.imgur.com/icaGiNt.png" style="max-width:100%;"></a></p>
+<p><em>Press <code>q</code> to quit.</em></p>
+<h3><a id="user-content-git-grep" class="anchor" aria-hidden="true" href="#git-grep"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Grep</h3>
+<p>Git Grep will return a list of lines matching a pattern.</p>
+<p>Running:</p>
+<div class="highlight highlight-source-shell"><pre>$ git grep aliases</pre></div>
+<p>will show all the files containing the string <em>aliases</em>.</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/da30968c6afc0a4cd65baa5ec579dab10e578670/687474703a2f2f692e696d6775722e636f6d2f444c327a7051392e706e67"><img src="https://camo.githubusercontent.com/da30968c6afc0a4cd65baa5ec579dab10e578670/687474703a2f2f692e696d6775722e636f6d2f444c327a7051392e706e67" alt="git grep aliases" data-canonical-src="http://i.imgur.com/DL2zpQ9.png" style="max-width:100%;"></a></p>
+<p><em>Press <code>q</code> to quit.</em></p>
+<p>You can also use multiple flags for more advanced search. For example:</p>
+<ul>
+<li><code>-e</code> The next parameter is the pattern (e.g., regex)</li>
+<li><code>--and</code>, <code>--or</code> and <code>--not</code> Combine multiple patterns.</li>
+</ul>
+<p>Use it like this:</p>
+<div class="highlight highlight-source-shell"><pre> $ git grep -e pattern --and -e anotherpattern</pre></div>
+<p><a href="http://git-scm.com/docs/git-grep" rel="nofollow"><em>Read more about the Git <code>grep</code> command.</em></a></p>
+<h3><a id="user-content-merged-branches" class="anchor" aria-hidden="true" href="#merged-branches"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Merged Branches</h3>
+<p>Running:</p>
+<div class="highlight highlight-source-shell"><pre>$ git branch --merged</pre></div>
+<p>will give you a list of all branches that have been merged into your current branch.</p>
+<p>Conversely:</p>
+<div class="highlight highlight-source-shell"><pre>$ git branch --no-merged</pre></div>
+<p>will give you a list of branches that have not been merged into your current branch.</p>
+<p><a href="http://git-scm.com/docs/git-branch" rel="nofollow"><em>Read more about the Git <code>branch</code> command.</em></a></p>
+<h3><a id="user-content-fixup-and-autosquash" class="anchor" aria-hidden="true" href="#fixup-and-autosquash"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fixup and Autosquash</h3>
+<p>If there is something wrong with a previous commit (can be one or more from HEAD), for example <code>abcde</code>, run the following command after you've amended the problem:</p>
+<div class="highlight highlight-source-shell"><pre>$ git commit --fixup=abcde
+$ git rebase abcde^ --autosquash -i</pre></div>
+<p><a href="http://git-scm.com/docs/git-commit" rel="nofollow"><em>Read more about the Git <code>commit</code> command.</em></a>
+<a href="http://git-scm.com/docs/git-rebase" rel="nofollow"><em>Read more about the Git <code>rebase</code> command.</em></a></p>
+<h3><a id="user-content-web-server-for-browsing-local-repositories" class="anchor" aria-hidden="true" href="#web-server-for-browsing-local-repositories"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Server for Browsing Local Repositories</h3>
+<p>Use the Git <code>instaweb</code> command to instantly browse your working repository in <code>gitweb</code>. This command is a simple script to set up <code>gitweb</code> and a web server for browsing the local repository.</p>
+<div class="highlight highlight-source-shell"><pre>$ git instaweb</pre></div>
+<p>opens:</p>
+<p><a target="_blank" href="https://camo.githubusercontent.com/96e740c09fa676f180273cb52fd9bfc2df1f77e6/687474703a2f2f692e696d6775722e636f6d2f4478656b6d71632e706e67"><img src="https://camo.githubusercontent.com/96e740c09fa676f180273cb52fd9bfc2df1f77e6/687474703a2f2f692e696d6775722e636f6d2f4478656b6d71632e706e67" alt="Git instaweb" data-canonical-src="http://i.imgur.com/Dxekmqc.png" style="max-width:100%;"></a></p>
+<p><a href="http://git-scm.com/docs/git-instaweb" rel="nofollow"><em>Read more about the Git <code>instaweb</code> command.</em></a></p>
+<h3><a id="user-content-git-configurations" class="anchor" aria-hidden="true" href="#git-configurations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Configurations</h3>
+<p>Your <code>.gitconfig</code> file contains all your Git configurations.</p>
+<h4><a id="user-content-aliases" class="anchor" aria-hidden="true" href="#aliases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aliases</h4>
+<p>Aliases are helpers that let you define your own git calls. For example you could set <code>git a</code> to run <code>git add --all</code>.</p>
+<p>To add an alias, either navigate to <code>~/.gitconfig</code> and fill it out in the following format:</p>
+<pre><code>[alias]
+  co = checkout
+  cm = commit
+  p = push
+  # Show verbose output about tags, branches or remotes
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+</code></pre>
+<p>...or type in the command-line:</p>
+<div class="highlight highlight-source-shell"><pre>$ git config --global alias.new_alias git_function</pre></div>
+<p>For example:</p>
+<div class="highlight highlight-source-shell"><pre>$ git config --global alias.cm commit</pre></div>
+<p>For an alias with multiple functions use quotes:</p>
+<div class="highlight highlight-source-shell"><pre>$ git config --global alias.ac <span class="pl-s"><span class="pl-pds">'</span>add -A . &amp;&amp; commit<span class="pl-pds">'</span></span></pre></div>
+<p>Some useful aliases include:</p>
+<table>
+<thead>
+<tr>
+<th>Alias</th>
+<th>Command</th>
+<th>What to Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git cm</code></td>
+<td><code>git commit</code></td>
+<td><code>git config --global alias.cm commit</code></td>
+</tr>
+<tr>
+<td><code>git co</code></td>
+<td><code>git checkout</code></td>
+<td><code>git config --global alias.co checkout</code></td>
+</tr>
+<tr>
+<td><code>git ac</code></td>
+<td><code>git add . -A</code> <code>git commit</code></td>
+<td><code>git config --global alias.ac '!git add -A &amp;&amp; git commit'</code></td>
+</tr>
+<tr>
+<td><code>git st</code></td>
+<td><code>git status -sb</code></td>
+<td><code>git config --global alias.st 'status -sb'</code></td>
+</tr>
+<tr>
+<td><code>git tags</code></td>
+<td><code>git tag -l</code></td>
+<td><code>git config --global alias.tags 'tag -l'</code></td>
+</tr>
+<tr>
+<td><code>git branches</code></td>
+<td><code>git branch -a</code></td>
+<td><code>git config --global alias.branches 'branch -a'</code></td>
+</tr>
+<tr>
+<td><code>git cleanup</code></td>
+<td>`git branch --merged</td>
+<td>grep -v '*'</td>
+</tr>
+<tr>
+<td><code>git remotes</code></td>
+<td><code>git remote -v</code></td>
+<td><code>git config --global alias.remotes 'remote -v'</code></td>
+</tr>
+<tr>
+<td><code>git lg</code></td>
+<td><code>git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --</code></td>
+<td><code>git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset' --abbrev-commit --"</code></td>
+</tr></tbody></table>
+<p><em>Some Aliases are taken from <a href="https://github.com/mathiasbynens">@mathiasbynens</a> dotfiles: <a href="https://github.com/mathiasbynens/dotfiles/blob/master/.gitconfig">https://github.com/mathiasbynens/dotfiles/blob/master/.gitconfig</a></em></p>
+<h4><a id="user-content-auto-correct" class="anchor" aria-hidden="true" href="#auto-correct"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Auto-Correct</h4>
+<p>If you type <code>git comit</code> you will get this:</p>
+<div class="highlight highlight-source-shell"><pre>$ git comit -m <span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> git: 'comit' is not a git command. See 'git --help'.</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Did you mean this?</span>
+<span class="pl-c"><span class="pl-c">#</span>   commit</span></pre></div>
+<p>To call <code>commit</code> when <code>comit</code> is typed, just enable auto-correct:</p>
+<div class="highlight highlight-source-shell"><pre>$ git config --global help.autocorrect 1</pre></div>
+<p>So now you will get this:</p>
+<div class="highlight highlight-source-shell"><pre>$ git comit -m <span class="pl-s"><span class="pl-pds">"</span>Message<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> WARNING: You called a Git command named 'comit', which does not exist.</span>
+<span class="pl-c"><span class="pl-c">#</span> Continuing under the assumption that you meant 'commit'</span>
+<span class="pl-c"><span class="pl-c">#</span> in 0.1 seconds automatically...</span></pre></div>
+<h4><a id="user-content-color" class="anchor" aria-hidden="true" href="#color"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Color</h4>
+<p>To add more color to your Git output:</p>
+<div class="highlight highlight-source-shell"><pre>$ git config --global color.ui 1</pre></div>
+<p><a href="http://git-scm.com/docs/git-config" rel="nofollow"><em>Read more about the Git <code>config</code> command.</em></a></p>
+<h3><a id="user-content-git-resources" class="anchor" aria-hidden="true" href="#git-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Resources</h3>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Official Git Site</td>
+<td><a href="http://git-scm.com/" rel="nofollow">http://git-scm.com/</a></td>
+</tr>
+<tr>
+<td>Official Git Video Tutorials</td>
+<td><a href="http://git-scm.com/videos" rel="nofollow">http://git-scm.com/videos</a></td>
+</tr>
+<tr>
+<td>Code School Try Git</td>
+<td><a href="http://try.github.com/">http://try.github.com/</a></td>
+</tr>
+<tr>
+<td>Introductory Reference &amp; Tutorial for Git</td>
+<td><a href="http://gitref.org/" rel="nofollow">http://gitref.org/</a></td>
+</tr>
+<tr>
+<td>Official Git Tutorial</td>
+<td><a href="http://git-scm.com/docs/gittutorial" rel="nofollow">http://git-scm.com/docs/gittutorial</a></td>
+</tr>
+<tr>
+<td>Everyday Git</td>
+<td><a href="http://git-scm.com/docs/everyday" rel="nofollow">http://git-scm.com/docs/everyday</a></td>
+</tr>
+<tr>
+<td>Git Immersion</td>
+<td><a href="http://gitimmersion.com/" rel="nofollow">http://gitimmersion.com/</a></td>
+</tr>
+<tr>
+<td>Git God</td>
+<td><a href="https://github.com/gorosgobe/git-god">https://github.com/gorosgobe/git-god</a></td>
+</tr>
+<tr>
+<td>Ry's Git Tutorial</td>
+<td><a href="http://rypress.com/tutorials/git/index" rel="nofollow">http://rypress.com/tutorials/git/index</a></td>
+</tr>
+<tr>
+<td>Git for Computer Scientists</td>
+<td><a href="http://eagain.net/articles/git-for-computer-scientists/" rel="nofollow">http://eagain.net/articles/git-for-computer-scientists/</a></td>
+</tr>
+<tr>
+<td>Git Magic</td>
+<td><a href="http://www-cs-students.stanford.edu/%7Eblynn/gitmagic/" rel="nofollow">http://www-cs-students.stanford.edu/~blynn/gitmagic/</a></td>
+</tr>
+<tr>
+<td>GitHub Training Kit</td>
+<td><a href="https://training.github.com/kit/">https://training.github.com/kit/</a></td>
+</tr>
+<tr>
+<td>Git Visualization Playground</td>
+<td><a href="http://onlywei.github.io/explain-git-with-d3/#freeplay" rel="nofollow">http://onlywei.github.io/explain-git-with-d3/#freeplay</a></td>
+</tr>
+<tr>
+<td>Learn Git Branching</td>
+<td><a href="http://pcottle.github.io/learnGitBranching/" rel="nofollow">http://pcottle.github.io/learnGitBranching/</a></td>
+</tr>
+<tr>
+<td>A collection of useful .gitignore templates</td>
+<td><a href="https://github.com/github/gitignore">https://github.com/github/gitignore</a></td>
+</tr>
+<tr>
+<td>Unixorn's git-extra-commands collection of git scripts</td>
+<td><a href="https://github.com/unixorn/git-extra-commands">https://github.com/unixorn/git-extra-commands</a></td>
+</tr></tbody></table>
+<h4><a id="user-content-git-books" class="anchor" aria-hidden="true" href="#git-books"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Books</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pragmatic Version Control Using Git</td>
+<td><a href="https://pragprog.com/titles/tsgit/pragmatic-version-control-using-git" rel="nofollow">https://pragprog.com/titles/tsgit/pragmatic-version-control-using-git</a></td>
+</tr>
+<tr>
+<td>Pro Git</td>
+<td><a href="http://git-scm.com/book" rel="nofollow">http://git-scm.com/book</a></td>
+</tr>
+<tr>
+<td>Git Internals PluralSight</td>
+<td><a href="https://github.com/pluralsight/git-internals-pdf">https://github.com/pluralsight/git-internals-pdf</a></td>
+</tr>
+<tr>
+<td>Git in the Trenches</td>
+<td><a href="http://cbx33.github.io/gitt/" rel="nofollow">http://cbx33.github.io/gitt/</a></td>
+</tr>
+<tr>
+<td>Version Control with Git</td>
+<td><a href="http://www.amazon.com/Version-Control-Git-collaborative-development/dp/1449316387" rel="nofollow">http://www.amazon.com/Version-Control-Git-collaborative-development/dp/1449316387</a></td>
+</tr>
+<tr>
+<td>Pragmatic Guide to Git</td>
+<td><a href="https://pragprog.com/titles/pg_git/pragmatic-guide-to-git" rel="nofollow">https://pragprog.com/titles/pg_git/pragmatic-guide-to-git</a></td>
+</tr>
+<tr>
+<td>Git: Version Control for Everyone</td>
+<td><a href="https://www.packtpub.com/application-development/git-version-control-everyone" rel="nofollow">https://www.packtpub.com/application-development/git-version-control-everyone</a></td>
+</tr></tbody></table>
+<h4><a id="user-content-git-videos" class="anchor" aria-hidden="true" href="#git-videos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Videos</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linus Torvalds on Git</td>
+<td><a href="https://www.youtube.com/watch?v=4XpnKHJAok8" rel="nofollow">https://www.youtube.com/watch?v=4XpnKHJAok8</a></td>
+</tr>
+<tr>
+<td>Introduction to Git with Scott Chacon</td>
+<td><a href="https://www.youtube.com/watch?v=ZDR433b0HJY" rel="nofollow">https://www.youtube.com/watch?v=ZDR433b0HJY</a></td>
+</tr>
+<tr>
+<td>Git From the Bits Up</td>
+<td><a href="https://www.youtube.com/watch?v=MYP56QJpDr4" rel="nofollow">https://www.youtube.com/watch?v=MYP56QJpDr4</a></td>
+</tr>
+<tr>
+<td>Graphs, Hashes, and Compression, Oh My!</td>
+<td><a href="https://www.youtube.com/watch?v=ig5E8CcdM9g" rel="nofollow">https://www.youtube.com/watch?v=ig5E8CcdM9g</a></td>
+</tr>
+<tr>
+<td>GitHub Training &amp; Guides</td>
+<td><a href="https://www.youtube.com/watch?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&amp;v=FyfwLX4HAxM" rel="nofollow">https://www.youtube.com/watch?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-&amp;v=FyfwLX4HAxM</a></td>
+</tr></tbody></table>
+<h4><a id="user-content-git-articles" class="anchor" aria-hidden="true" href="#git-articles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git Articles</h4>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub Flow</td>
+<td><a href="http://scottchacon.com/2011/08/31/github-flow.html" rel="nofollow">http://scottchacon.com/2011/08/31/github-flow.html</a></td>
+</tr></tbody></table>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.27944s from unicorn-3835523148-7dt4w">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

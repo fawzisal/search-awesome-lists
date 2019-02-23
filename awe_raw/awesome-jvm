@@ -1,0 +1,1224 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - deephacks/awesome-jvm: A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/910009?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="deephacks/awesome-jvm" /><meta property="og:url" content="https://github.com/deephacks/awesome-jvm" /><meta property="og:description" content="awesome-jvm - A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E151:5D4E:264FF1B:4711EFF:5AD2F6E6" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E151:5D4E:264FF1B:4711EFF:5AD2F6E6" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="NzY4ZTBhOTg2Mjg0MDg1NzA3ZTFmY2NjMjFmMjIzNDNmOTIyMjI1NmZhMjdjYWFkY2RkOTg2NTllYWMwYzEyYXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTE1MTo1RDRFOjI2NEZGMUI6NDcxMUVGRjo1QUQyRjZFNiIsInRpbWVzdGFtcCI6MTUyMzc3NTIwNywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="ad7f908e4855ad952309df76a18592c6bdbcfc0c">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/deephacks/awesome-jvm/commits/master.atom" rel="alternate" title="Recent Commits to awesome-jvm:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-jvm - A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python.">
+  <meta name="go-import" content="github.com/deephacks/awesome-jvm git https://github.com/deephacks/awesome-jvm.git">
+
+  <meta name="octolytics-dimension-user_id" content="910009" /><meta name="octolytics-dimension-user_login" content="deephacks" /><meta name="octolytics-dimension-repository_id" content="40659091" /><meta name="octolytics-dimension-repository_nwo" content="deephacks/awesome-jvm" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="40659091" /><meta name="octolytics-dimension-repository_network_root_nwo" content="deephacks/awesome-jvm" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/deephacks/awesome-jvm" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/deephacks/awesome-jvm/search" data-unscoped-search-url="/search" action="/deephacks/awesome-jvm/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/deephacks/awesome-jvm">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fdeephacks%2Fawesome-jvm" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fdeephacks%2Fawesome-jvm"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/deephacks/awesome-jvm/watchers"
+     aria-label="103 users are watching this repository">
+    103
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fdeephacks%2Fawesome-jvm"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/deephacks/awesome-jvm/stargazers"
+      aria-label="795 users starred this repository">
+      795
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fdeephacks%2Fawesome-jvm"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/deephacks/awesome-jvm/network" class="social-count"
+       aria-label="74 users forked this repository">
+      74
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/deephacks">deephacks</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/deephacks/awesome-jvm">awesome-jvm</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /deephacks/awesome-jvm" href="/deephacks/awesome-jvm">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /deephacks/awesome-jvm/issues" href="/deephacks/awesome-jvm/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /deephacks/awesome-jvm/pulls" href="/deephacks/awesome-jvm/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /deephacks/awesome-jvm/projects" href="/deephacks/awesome-jvm/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /deephacks/awesome-jvm/pulse" href="/deephacks/awesome-jvm/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="u+yQotVqJkyHYrD1aiOO1Au0aB5EV76LOEzX8p3aRDx1VFT8YFGdoAt4DqDq4W/ewWdqFssq59deTE971whUkg==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python.
+          </span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/deephacks/awesome-jvm/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                407
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/deephacks/awesome-jvm/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/deephacks/awesome-jvm/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <include-fragment src="/deephacks/awesome-jvm/contributors_size">
+              <a href="/deephacks/awesome-jvm/graphs/contributors">
+                <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+                <span class="num text-emphasized"></span>
+                Fetching contributors
+              </a>
+</include-fragment>        </li>
+          <li>
+            <a href="/deephacks/awesome-jvm/blob/master/license">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                CC0-1.0
+            </a>
+          </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/deephacks/awesome-jvm.git" aria-label="Clone this repository at https://github.com/deephacks/awesome-jvm.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/deephacks/awesome-jvm.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/deephacks/awesome-jvm/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/deephacks/awesome-jvm/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/deephacks/awesome-jvm/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/deephacks/awesome-jvm/tree-commit/f99a8281f564f7d512510760775bcaea8c431056" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/deephacks/awesome-jvm/tree/f99a8281f564f7d512510760775bcaea8c431056">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-fb1220cdf19da964e6e5d128ed53947565c5cb10" href="/deephacks/awesome-jvm/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add travis with awesome-bot" class="message" href="/deephacks/awesome-jvm/commit/661f588ca5a267d61e7761a38ac0e40df21ceff0">add travis with awesome-bot</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-23T11:25:03Z">Mar 23, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="contributing.md" id="cc4aac3e9be04e0413c9520f223b493c-6ce3b9121c6ece0aaf1732ec16988d7078de0db1" href="/deephacks/awesome-jvm/blob/master/contributing.md">contributing.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add contributing.md" class="message" href="/deephacks/awesome-jvm/commit/4d676632825190e0334a425ef21704e38320eeb3">add contributing.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-08-13T19:55:13Z">Aug 13, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="license" id="718779752b851ac0dc6281a8c8d77e7e-3bbbc1ee92562e6a2eebfc6a366f4309d06c7d54" itemprop="license" href="/deephacks/awesome-jvm/blob/master/license">license</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="CC0 1.0 Universal license" class="message" href="/deephacks/awesome-jvm/commit/324053adefc39feb8090adbd67608772d24ece2a">CC0 1.0 Universal license</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-08-13T19:58:25Z">Aug 13, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="readme.md" id="0730bb7c2e8f9ea2438b52e419dd86c9-650c72668c06005992d8f5d28a41f4c0f0a80bca" href="/deephacks/awesome-jvm/blob/master/readme.md">readme.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="jvm-profiler" class="message" href="/deephacks/awesome-jvm/commit/f99a8281f564f7d512510760775bcaea8c431056">jvm-profiler</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-06T04:38:43Z">Apr 6, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      readme.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-jvm-" class="anchor" aria-hidden="true" href="#awesome-jvm-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome JVM <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<p>A curated list of awesome JVM low level, performance and non-framework related stuff.</p>
+<ul>
+<li><a href="#awesome-jvm">Awesome JVM</a>
+<ul>
+<li><a href="#bytecode">Bytecode</a></li>
+<li><a href="#garbage-collectors">Garbage collectors</a></li>
+<li><a href="#load-tools">Load tools</a></li>
+<li><a href="#languages">Languages</a></li>
+<li><a href="#machine-learning">Machine Learning</a></li>
+<li><a href="#memory-and-concurrency">Memory and Concurrency</a></li>
+<li><a href="#metaprogramming">Metaprogramming</a></li>
+<li><a href="#native">Native</a></li>
+<li><a href="#network">Network</a></li>
+<li><a href="#nix-tools">Nix tools</a></li>
+<li><a href="#profilers">Profilers</a></li>
+<li><a href="#runtimes">Runtimes</a></li>
+<li><a href="#virtual-machines">Virtual Machines</a></li>
+</ul>
+</li>
+<li><a href="#resources">Resources</a>
+<ul>
+<li><a href="#communities">Communities</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#people">People</a></li>
+</ul>
+</li>
+<li><a href="#contributing">Contributing</a></li>
+</ul>
+<h2><a id="user-content-bytecode" class="anchor" aria-hidden="true" href="#bytecode"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bytecode</h2>
+<p><em>Tools for bytecode manipulation and analysis.</em></p>
+<ul>
+<li><a href="https://wiki.openjdk.java.net/display/CodeTools/asmtools" rel="nofollow">asmtools</a> - Used to develop tools for the production of Java .class files.</li>
+<li><a href="http://bytebuddy.net" rel="nofollow">Byte Buddy</a> - Code generation library creating Java classes at runtime without the help of a compiler.</li>
+<li><a href="https://github.com/qmx/jitescript">Jitescript</a> - Bytecode generation library similar to BiteScript.</li>
+</ul>
+<h2><a id="user-content-garbage-collectors" class="anchor" aria-hidden="true" href="#garbage-collectors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Garbage collectors</h2>
+<p><em>Garbage collectors for the JVM.</em></p>
+<ul>
+<li><a href="https://www.azul.com/files/wp_pgc_zing_v52.pdf" rel="nofollow">Azul Pauseless Garbage Collection</a> - Providing continuous, pauseless operation for Java applications.</li>
+<li><a href="http://www.ibm.com/developerworks/websphere/techjournal/1108_sciampacone/1108_sciampacone.html" rel="nofollow">Balanced GC</a> - GC policy available in the Java Virtual Machine for IBM WebSphere Application Server V8.</li>
+<li><a href="http://openjdk.java.net/jeps/318" rel="nofollow">Epsilon GC</a> - Completely passive GC implementation with bounded allocation limit, and lowest runtime performance overhead possible.</li>
+<li><a href="http://www.oracle.com/technetwork/java/javase/tech/g1-intro-jsp-135488.html" rel="nofollow">G1</a> - The Garbage-First Garbage Collector.</li>
+<li><a href="http://openjdk.java.net/jeps/189" rel="nofollow">Shenandoah</a> - Ultra-Low-Pause-Time Garbage Collector.</li>
+<li><a href="http://gchandbook.org" rel="nofollow">The Garbage Collection Handbook</a> - Book that addresses new challenges to garbage collection made by recent advances in hardware and software.</li>
+<li><a href="http://mail.openjdk.java.net/pipermail/announce/2017-October/000237.html" rel="nofollow">ZGC</a> - Garbage collector optimized for low latency and very large heaps.</li>
+</ul>
+<h2><a id="user-content-load-tools" class="anchor" aria-hidden="true" href="#load-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Load tools</h2>
+<p><em>Tools that generate load and measure the system accurately without coordinated omission</em></p>
+<ul>
+<li><a href="http://gatling.io" rel="nofollow">Gatling</a> - Asynchronous non-blocking scenario driven load testing tool for testing HTTP servers.</li>
+<li><a href="https://github.com/giltene/wrk2">wrk2</a> - A constant throughput, correct latency recording variant of wrk.</li>
+</ul>
+<h2><a id="user-content-languages" class="anchor" aria-hidden="true" href="#languages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Languages</h2>
+<p><em>Languages running on the JVM.</em></p>
+<ul>
+<li><a href="http://ceylon-lang.org/" rel="nofollow">Ceylon</a> - Object-oriented, strong and static programming language with an emphasis on immutability, created by Red Hat.</li>
+<li><a href="http://clojure.org/" rel="nofollow">Clojure</a> - Dialect of Lisp created by Rich Hickey. Dynamically typed with emphasis on functional programming.</li>
+<li><a href="http://www.erjang.org" rel="nofollow">Erjang</a> - A JVM-based Erlang VM.</li>
+<li><a href="http://eta-lang.org/" rel="nofollow">Eta</a> - Pure, lazy, strongly typed functional programming language on the JVM.</li>
+<li><a href="https://github.com/Frege/frege">Frege</a> - Pure functional programming language in the spirit of Haskell.</li>
+<li><a href="https://github.com/sridharv/gojava">gojava</a> - Java bindings for Go packages.</li>
+<li><a href="http://golo-lang.org/" rel="nofollow">Golo</a> - A simple dynamic language that makes extensive usage of <code>invokedynamic</code>.</li>
+<li><a href="http://www.groovy-lang.org/" rel="nofollow">Groovy</a> - Optionally typed and dynamic language, with static-typing and static compilation capabilities.</li>
+<li><a href="http://www.oracle.com/technetwork/java/javase/overview/index.html" rel="nofollow">Java</a> - General-purpose, concurrent, strongly typed, class-based object-oriented language.</li>
+<li><a href="http://jruby.org" rel="nofollow">JRuby</a> - Implementation of the Ruby language on the JVM.</li>
+<li><a href="http://j-php.net" rel="nofollow">JPHP</a> - PHP on the Java VM.</li>
+<li><a href="http://www.jython.org" rel="nofollow">Jython</a> - Python for the Java Platform.</li>
+<li><a href="http://www.gnu.org/software/kawa/" rel="nofollow">Kawa</a> - Extension of the Scheme language, which is in the Lisp family of programming languages.</li>
+<li><a href="http://kotlinlang.org/" rel="nofollow">Kotlin</a> - Statically typed programming language for the JVM, Android and the browser.</li>
+<li><a href="http://www.luaj.org/luaj/3.0/README.html" rel="nofollow">LuaJ</a> - Java-centric implementation of lua vm built to leverage standard Java features.</li>
+<li><a href="http://openjdk.java.net/projects/nashorn/" rel="nofollow">Nashorn</a> - Lightweight high-performance JavaScript runtime in Java with a native JVM.</li>
+<li><a href="http://www.ocamljava.org/" rel="nofollow">OCaml-Java</a> - Supports OCaml language v4. Generates plain Java bytecode and have seamless integration with Java.</li>
+<li><a href="https://github.com/mjanicek/rembulan">Rembulan</a> - Rembulan is an implementation of Lua 5.3 for the JVM, written in pure Java with minimal dependencies.</li>
+<li><a href="http://www.renjin.org/" rel="nofollow">Renjin</a> - JVM-based interpreter for the R language for the statistical analysis</li>
+<li><a href="http://www.scala-lang.org/" rel="nofollow">Scala</a> - Strong and static programming language that combine object-oriented and functional programming ideas.</li>
+<li><a href="http://www.eclipse.org/xtend/" rel="nofollow">Xtend</a> - Flexible and expressive dialect of Java, which compiles into Java 5 source code.</li>
+</ul>
+<h2><a id="user-content-machine-learning" class="anchor" aria-hidden="true" href="#machine-learning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Machine Learning</h2>
+<ul>
+<li><a href="https://deeplearning4j.org/" rel="nofollow">Deeplearning4j</a> - Open-Source, Distributed, Deep Learning Library for the JVM.</li>
+<li><a href="https://www.h2o.ai/" rel="nofollow">H2O</a> - Fast statistical, machine learning &amp; math runtime.</li>
+<li><a href="https://github.com/haifengl/smile">Smile</a> - Statistical Machine Intelligence &amp; Learning Engine.</li>
+</ul>
+<h2><a id="user-content-memory-and-concurrency" class="anchor" aria-hidden="true" href="#memory-and-concurrency"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Memory and concurrency</h2>
+<p><em>Tools and data structures for efficient memory layout and concurrent access.</em></p>
+<ul>
+<li><a href="https://github.com/google/agera">Agera</a> - Reactive Programming for Android by Google.</li>
+<li><a href="https://github.com/real-logic/Agrona">Agrona</a> - Library of data structures and utility methods that are a common need when building high-performance applications.</li>
+<li><a href="http://arrow.apache.org/" rel="nofollow">Apache Arrow</a> - A high-performance cross-system data layer for columnar in-memory analytics.</li>
+<li><a href="https://github.com/lemire/bloofi">bloofi</a> - Java implementation of multidimensional Bloom filters</li>
+<li><a href="https://capnproto.org/" rel="nofollow">Cap’n Proto</a> - Insanely fast data interchange format and capability-based RPC system.</li>
+<li><a href="https://github.com/ben-manes/caffeine">caffeine</a> - A high performance caching library for Java 8.</li>
+<li><a href="https://github.com/OpenHFT/Chronicle-Bytes">Chronicle-Bytes</a> - Low level memory access wrappers.</li>
+<li><a href="https://github.com/OpenHFT/Chronicle-Queue">Chronicle-Queue</a> - Micro second messaging that stores everything to disk.</li>
+<li><a href="https://github.com/OpenHFT/Chronicle-Map">Chronicle-Map</a> - In-memory key-value store designed for low-latency and/or multi-process applications.</li>
+<li><a href="https://github.com/krukow/clj-ds">clj-ds</a> - Clojure's data structures modified for use outside of Clojure.</li>
+<li><a href="https://github.com/pascaldekloe/colfer">colfer</a> - Binary serialization format and class generator.</li>
+<li><a href="http://commons.apache.org/proper/commons-math" rel="nofollow">commons-math</a> - Library of lightweight, self-contained mathematics and statistics components.</li>
+<li><a href="https://github.com/MGunlogson/CuckooFilter4J">CuckooFilter4J</a> - Bloom filter replacement for approximated set-membership queries.</li>
+<li><a href="https://github.com/aol/cyclops">cyclops</a> - Integration modules for RxJava, Reactor, FunctionalJava, Guava &amp; Javaslang.</li>
+<li><a href="https://github.com/eclipse/eclipse-collections">Eclipse Collections</a> - Collections framework for Java.</li>
+<li><a href="https://github.com/lemire/externalsortinginjava">externalsortinginjava</a> - Sort very large files using multiple cores and an external-memory algorithm.</li>
+<li><a href="https://github.com/jhalterman/failsafe">failsafe</a> - A lightweight, zero-dependency library for handling failures.</li>
+<li><a href="https://github.com/boundary/fasttuple">fasttuple</a> - Collections that are laid out adjacently in both on- and off-heap memory.</li>
+<li><a href="https://github.com/jchambers/fast-uuid">fast-uuid</a> - Java library for quickly and efficiently parsing and writing UUIDs.</li>
+<li><a href="http://google.github.io/flatbuffers/" rel="nofollow">FlatBuffers</a> - Efficient cross platform serialization library for C++, C#, Go, Java, JavaScript, PHP, and Python.</li>
+<li><a href="https://github.com/davidmoten/geo">geohash</a> - Java utility methods for geohashing.</li>
+<li><a href="https://github.com/goldmansachs/gs-collections">gs-collections</a> - Goldman Sachs collections framework.</li>
+<li><a href="https://github.com/Netflix/hollow">hollow</a> - Java library and comprehensive toolset for harnessing small to moderately sized in-memory datasets.</li>
+<li><a href="https://github.com/boundary/high-scale-lib">high-scale-lib</a> - Cliff Click's High Scale Library.</li>
+<li><a href="https://github.com/carrotsearch/hppc">hppc</a> - High Performance Primitive Collections.</li>
+<li><a href="https://github.com/belliottsmith/injector">injector</a> - A new Executor for Java.</li>
+<li><a href="https://github.com/romix/java-concurrent-hash-trie-map">java-concurrent-hash-trie-map</a> - Java port of a concurrent trie hash map implementation from Scala collections.</li>
+<li><a href="https://github.com/aggregateknowledge/java-hll">java-hll</a> - Java library for the HyperLogLog algorithm.</li>
+<li><a href="https://github.com/lemire/JavaFastPFOR">JavaFastPFOR</a> - Library to compress and uncompress arrays of integers very fast.</li>
+<li><a href="https://github.com/tdebatty/java-string-similarity">java-string-similarity</a> - String similarity and distance measures, including Levenshtein edit distance and sibblings, Jaro-Winkler, Longest Common Subsequence, cosine similarity etc.</li>
+<li><a href="http://jctools.github.io/JCTools/" rel="nofollow">JCTools</a> - Concurrent data structures currently missing from the JDK.</li>
+<li><a href="http://jsoniter.com/" rel="nofollow">jsoniter</a> - Claims to be the fastest JSON parser ever.</li>
+<li><a href="https://github.com/jOOQ/jOOL">jOOL</a> - Useful extensions to Java 8 lambdas.</li>
+<li><a href="https://github.com/OpenHFT/Koloboke">Koloboke</a> - Java Collections til the last breadcrumb of memory and performance.</li>
+<li><a href="https://github.com/dain/leveldb">LevelDB</a> - Rewrite (port) of LevelDB in Java.</li>
+<li><a href="https://github.com/bryanduxbury/lightweight_trie">lightweight_trie</a> - A very memory-efficient trie (radix tree) implementation.</li>
+<li><a href="https://github.com/deephacks/lmdbjni">lmdbjni</a> - Java API to LMDB (HawtJNI) which is an ultra-fast, ultra-compact key-value embedded data store written in C.</li>
+<li><a href="https://github.com/lmdbjava/lmdbjava">lmdbjava</a> - Java API to LMDB (JNR) which is an ultra-fast, ultra-compact key-value embedded data store written in C.</li>
+<li><a href="https://github.com/cowtowncoder/low-gc-membuffers">low-gc-membuffers</a> - In-memory circular buffers that use direct ByteBuffers to minimize GC overhead.</li>
+<li><a href="https://github.com/LWJGL/lwjgl3">lwjgl3</a> - Java library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL), audio (OpenAL) and parallel computing (OpenCL) applications.</li>
+<li><a href="http://www.mapdb.org" rel="nofollow">MapDB</a> - Collections backed by off-heap or on-disk storage.</li>
+<li><a href="https://github.com/indeedeng/mph-table">mph-table</a> - Minimal Perfect Hash Tables are an immutable key/value store with efficient space utilization and fast reads.</li>
+<li><a href="https://google.github.io/mug/" rel="nofollow">mug</a> - A small, zero-dep functional util library originating from Google.</li>
+<li><a href="http://netty.io/wiki/using-as-a-generic-library.html#wiki-h2-1" rel="nofollow">netty-buffers</a> - Memory buffer pool implementation similar to jemalloc.</li>
+<li><a href="http://objectlayout.org" rel="nofollow">ObjectLayout</a> - A layout-optimized Java data structure package.</li>
+<li><a href="https://github.com/snazy/ohc">ohc</a> - Java large off heap cache developed for Apache Cassandra 3.0.</li>
+<li><a href="https://github.com/square/okio">okio</a> - Modern Java IO library that do clever things to save CPU and memory.</li>
+<li><a href="https://github.com/onyx-platform/onyx-java">onyx-java</a> - Mirrors the Onyx Platform core API by providing a Java equivalent for each component of an Onyx workflow.</li>
+<li><a href="https://parquet.apache.org/" rel="nofollow">parquet</a> - Columnar storage format that uses the record shredding and assembly algorithm described in the Dremel paper.</li>
+<li><a href="https://github.com/giltene/PauselessHashMap">PauselessHashMap</a> - A java.util.HashMap compatible map that won't stall puts or gets when resizing.</li>
+<li><a href="https://github.com/hrldcpr/pcollections">pcollections</a> - A Persistent Java Collections Library.</li>
+<li><a href="https://developers.google.com/protocol-buffers" rel="nofollow">protobuf</a> - Google's data interchange format.</li>
+<li><a href="http://www.paralleluniverse.co/quasar/" rel="nofollow">Quasar</a> - Lightweight threads and actors for the JVM.</li>
+<li><a href="https://github.com/davidmoten/rtree">rtree</a> - Immutable in-memory R-tree and R*-tree implementations in Java with reactive api.</li>
+<li><a href="http://www.reactive-streams.org/" rel="nofollow">Reactive Streams</a> - Standard for asynchronous stream processing with non-blocking back pressure.</li>
+<li><a href="https://github.com/lightbend/reactive-streams-utils">Reactive Streams Utilities</a> - Future standard utilities library for Reactive Streams.</li>
+<li><a href="https://github.com/RoaringBitmap/RoaringBitmap">RoaringBitmap</a> - A better compressed bitset in Java.</li>
+<li><a href="https://github.com/lemire/rollinghashjava">rollinghashjava</a> - Rolling hash functions in Java.</li>
+<li><a href="http://projectreactor.io/" rel="nofollow">Reactor</a> - Reactive data applications on the JVM for Java, Groovy, Clojure and other.</li>
+<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a> - Library for composing asynchronous and event-based programs using observable sequences.</li>
+<li><a href="https://github.com/OpenHFT/SmoothieMap">SmoothieMap</a> - java.util.Map impl with worst put latencies more than 100 times smaller than java.util.HashMap.</li>
+<li><a href="https://github.com/real-logic/simple-binary-encoding">Simple Binary Encoding</a> - High Performance Message Codec.</li>
+<li><a href="https://github.com/richardstartin/splitmap/">splitmap</a> - A parallel bitmap implementation.</li>
+<li><a href="https://datasketches.github.io/" rel="nofollow">DataSketches</a> - A Java software library of stochastic streaming algorithms.</li>
+<li><a href="https://github.com/chrisvest/stormpot">stormpot</a> - A fast object pool for the JVM.</li>
+<li><a href="https://github.com/addthis/stream-lib">stream-lib</a> - A Java library for summarizing data in streams for which it is infeasible to store all events.</li>
+<li><a href="https://github.com/lemire/streamvbyte">streamvbyte</a> - Fast integer compression in C using the StreamVByte codec.</li>
+<li><a href="http://trane.io/" rel="nofollow">TraneIO</a> - High-performance implementation of the Future abstraction.</li>
+<li><a href="https://github.com/cognitect-labs/transducers-java">transducers-java</a> - Composable algorithmic transformations independent from the context of their input and output sources.</li>
+<li><a href="https://github.com/bazelbuild/bazel/blob/master/src/main/java/com/google/devtools/build/lib/util/VarInt.java">VarInt</a> - No-deps variable int implementation without deps (by Bazel).</li>
+<li><a href="http://www.vavr.io/" rel="nofollow">vavr</a> - Functional Library for Java 8+.</li>
+<li><a href="https://github.com/square/wire">wire</a> - Clean, lightweight protocol buffers for Android and Java.</li>
+<li><a href="https://github.com/OpenHFT/Zero-Allocation-Hashing">Zero-Allocation-Hashing</a> - Hashing any sequences of bytes in Java, including all kinds of primitive arrays, buffers, CharSequences and more.</li>
+</ul>
+<h2><a id="user-content-metaprogramming" class="anchor" aria-hidden="true" href="#metaprogramming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Metaprogramming</h2>
+<p><em>Parsers, interpreters, compilers and source generation targeted for the JVM.</em></p>
+<ul>
+<li><a href="http://www.antlr.org/" rel="nofollow">Antlr</a> - Parser generator for reading, processing, executing, or translating structured text or binary files.</li>
+<li><a href="https://github.com/google/auto">auto</a> - A collection of source code generators for Java.</li>
+<li><a href="http://calcite.apache.org/docs/" rel="nofollow">Apache Calcite</a> - Dynamic data management framework and SQL parser plugin.</li>
+<li><a href="http://types.cs.washington.edu/checker-framework/" rel="nofollow">Checker Framework</a> - Compiler plug-ins that find bugs or verify their absence.</li>
+<li><a href="https://github.com/google/compile-testing">compile-testing</a> - Testing tools for javac and annotation processors.</li>
+<li><a href="https://github.com/derive4j/derive4j">derive4j</a> - Algebraic data types constructors, pattern-matching, morphisms, optics and typeclasses.</li>
+<li><a href="https://github.com/google/error-prone">error-prone</a> - Catch common Java mistakes as compile-time errors.</li>
+<li><a href="https://github.com/rahulmutt/ghcvm">GHCVM</a> - A Haskell to JVM compiler that supports GHC Haskell.</li>
+<li><a href="http://openjdk.java.net/projects/graal/" rel="nofollow">Graal</a> - New experimental just-in-time compiler for Java that is integrated with the HotSpot virtual machine.</li>
+<li><a href="https://github.com/fge/grappa">grappa</a> - Java fork of Parboiled. Write grammars with no preprocessing phase.</li>
+<li><a href="http://immutables.github.io/" rel="nofollow">immutables</a> - Generate simple, safe and consistent value objects.</li>
+<li><a href="https://javacc.java.net/" rel="nofollow">javacc</a> - Parser generator for use with Java.</li>
+<li><a href="https://github.com/javaparser/javaparser">javaparser</a> - Java 1.8 Parser and Abstract Syntax Tree for Java.</li>
+<li><a href="https://github.com/square/javapoet">JavaPoet</a> - A Java API for generating .java source files.</li>
+<li><a href="https://github.com/jparsec/jparsec">jparsec</a> - Builds mini parsers in pure Java a la Haskell Parsec.</li>
+<li><a href="http://www.jsweet.org/" rel="nofollow">JSweet</a> - A transpiler from Java to TypeScript/JavaScript.</li>
+<li><a href="https://www.jetbrains.com/mps/" rel="nofollow">MPS</a> - Design and build extensible DSLs and editors.</li>
+<li><a href="https://projectlombok.org/" rel="nofollow">lombok</a> - Reduce the amount of boilerplate code that is commonly written for Java classes.</li>
+<li><a href="https://github.com/sirthias/parboiled">parboiled</a> - Parsing of arbitrary input text based on parsing expression grammars.</li>
+<li><a href="https://github.com/graalvm/sulong">Sulong</a> - LLVM IR interpreter written in Java using Truffle and Graal.</li>
+<li><a href="https://github.com/konsoletyper/teavm">TeaVM</a> - Ahead-of-time translating compiler (transpiler) from Java bytecode to JavaScript.</li>
+<li><a href="https://github.com/graalvm/truffle">Truffle</a> - Framework for implementing languages as simple interpreters.</li>
+<li><a href="https://eclipse.org/Xtext/" rel="nofollow">Xtext</a> - Framework for development of programming languages and DSLs.</li>
+</ul>
+<h2><a id="user-content-native" class="anchor" aria-hidden="true" href="#native"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Native</h2>
+<p><em>Interconnecting JVM and native code</em></p>
+<ul>
+<li><a href="https://github.com/fusesource/hawtjni">hawtjni</a> - A JNI code generator based on the JNI generator used in Eclipse SWT.</li>
+<li><a href="https://github.com/mikeakohn/java_grinder">Java Grinder</a> - Compile Java bytecode to microcontroller assembly.</li>
+<li><a href="https://github.com/eclipsesource/j2v8">j2v8</a> - Java API for Google's V8 JavaScript engine.</li>
+<li><a href="https://github.com/bytedeco/javacpp">JavaCPP</a> - JavaCPP provides efficient access to native C++ inside Java.</li>
+<li><a href="https://github.com/jnr/jnr-ffi">jnr-ffi</a> - Load native libraries without writing JNI code by hand.</li>
+<li><a href="https://github.com/dvx/jssembly">jssembly</a> - Execution of native assembly from Java.</li>
+<li><a href="https://github.com/brettwooldridge/NuProcess">NuProcess</a> - A low-overhead, non-blocking I/O, external Process execution implementation for Java.</li>
+<li><a href="http://openjdk.java.net/projects/panama/" rel="nofollow">Project Panama</a> - Enriching the connections between the JVM and APIs used by C programmers.</li>
+</ul>
+<h2><a id="user-content-network" class="anchor" aria-hidden="true" href="#network"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Network</h2>
+<p><em>Tools for network programming, packet capture, monitoring, testing and resiliency.</em></p>
+<ul>
+<li><a href="https://github.com/real-logic/Aeron">Aeron</a> - Efficient reliable UDP unicast, UDP multicast, and IPC message transport.</li>
+<li><a href="https://github.com/line/armeria">armeria</a> - Asynchronous RPC/API client/server library built on top of Java 8, Netty 4.1, HTTP/2, and Thrift.</li>
+<li><a href="https://github.com/OpenHFT/Chronicle-Network">Chronicle-Network</a> - A High Performance Network library.</li>
+<li><a href="https://github.com/tylertreat/comcast">comcast</a> - Simulating shitty network connections.</li>
+<li><a href="https://github.com/buger/gor">gor</a> - HTTP traffic replay in real-time.</li>
+<li><a href="http://www.grpc.io/" rel="nofollow">gRPC</a> - A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.</li>
+<li><a href="https://github.com/LatencyUtils/jRT">jRT</a> - Measures response time of a java application to socket-based requests.</li>
+<li><a href="https://github.com/accelio/JXIO">JXIO</a> - Java API over AccelIO (C library), a high-performance asynchronous reliable messaging and RPC library optimized for hardware acceleration.</li>
+<li><a href="https://github.com/k3po/k3po">K3PO</a> - Create arbitrary network traffic and behavior to certify whether a network endpoint behaves correctly.</li>
+<li><a href="https://github.com/mefellows/muxy">muxy</a> - Simulating real-world distributed system failures.</li>
+<li><a href="http://netty.io/" rel="nofollow">Netty</a> - Async event-driven network library for high performance protocol servers &amp; clients.</li>
+<li><a href="https://github.com/square/okhttp">okhttp</a> - An HTTP+HTTP/2 client for Android and Java applications.</li>
+<li><a href="https://github.com/odnoklassniki/one-nio">one-nio</a> - library for building high performance Java servers.</li>
+<li><a href="https://github.com/netifi-proteus/proteus-java">proteus-java</a> - Proteus Java Client based on RSocket.</li>
+<li><a href="https://github.com/salesforce/reactive-grpc">reactive-grpc</a> - Reactive gRPC is a suite of libraries for using gRPC with Reactive Streams programming libraries.</li>
+<li><a href="http://rsocket.io/" rel="nofollow">RSocket</a> - RSocket is a binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron.</li>
+<li><a href="https://github.com/Netflix/SimianArmy">SimianArmy</a> - Resiliency tool that helps ensure that your applications can tolerate random instance failures.</li>
+<li><a href="https://github.com/kaitoy/pcap4j">pcap4j</a> - Java library for capturing, crafting, and sending packets using libpcap.</li>
+<li><a href="https://github.com/rafael-santiago/pig">pig</a> - A Linux packet crafting tool.</li>
+<li><a href="http://www.tcpdump.org/" rel="nofollow">tcpdump</a> - Packet analyzer for network traffic capture.</li>
+<li><a href="https://github.com/simsong/tcpflow">tcpflow</a> - Captures TCP connections flows in a way that is convenient for protocol analysis and debugging.</li>
+<li><a href="https://github.com/appneta/tcpreplay">tcpreplay</a> - Pcap editing and replay tools.</li>
+</ul>
+<h2><a id="user-content-nix-tools" class="anchor" aria-hidden="true" href="#nix-tools"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nix tools</h2>
+<p>*Useful <em>nix tools when profiling the JVM and interaction with the host environment</em></p>
+<ul>
+<li><a href="http://www.atoptool.nl/" rel="nofollow">atoptool</a> - Logging of system and process activity for long-term analysis, highlighting overloaded system.</li>
+<li><a href="https://github.com/iovisor/bcc">bcc</a> - Tools for BPF-based Linux IO analysis, networking, monitoring, and more.</li>
+<li><a href="http://www.brendangregg.com/flamegraphs.html" rel="nofollow">Flame Graphs</a> - Visualization of profiled software, allowing the most frequent code-paths to be identified quickly and accurately.</li>
+<li><a href="https://github.com/koct9i/ioping">ioping</a> - Simple disk I/0 latency measuring tool.</li>
+<li><a href="http://docs.oracle.com/javase/8/docs/technotes/tools/unix/javap.html" rel="nofollow">javap</a> - Disassembles class files into code that reflects the java bytecode.</li>
+<li><a href="http://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html" rel="nofollow">jhat</a> - Java Heap Analysis Tool</li>
+<li><a href="https://docs.oracle.com/javase/9/tools/jhsdb.htm" rel="nofollow">jhsdb</a> - Launch a postmortem debugger to analyze the content of a core-dump from a crashed JVM.</li>
+<li><a href="http://docs.oracle.com/javase/8/docs/technotes/tools/unix/jinfo.html" rel="nofollow">jinfo</a> - Prints configuration information for a given process.</li>
+<li><a href="http://docs.oracle.com/javase/8/docs/technotes/tools/unix/jstack.html" rel="nofollow">jstack</a> - Prints stack traces of threads for a given Java process.</li>
+<li><a href="https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jstat.html" rel="nofollow">jstat</a> - Monitors GC and compiler statistics in the JVM.</li>
+<li><a href="http://linux.die.net/man/7/hwloc" rel="nofollow">hwloc</a> - Reports the structure of the processor, number of cores, hyperthreads and cache size.</li>
+<li><a href="https://github.com/RRZE-HPC/likwid">likwid</a> - Read hardware performance counters on Intel and AMD processors.</li>
+<li><a href="http://linux.die.net/man/8/numactl" rel="nofollow">numactl</a> - Control NUMA policy for processes or shared memory.</li>
+<li><a href="http://oprofile.sourceforge.net/news/" rel="nofollow">oprofile</a> - System-wide hardware performance monitoring with easy-to-use interface at low overhead.</li>
+<li><a href="https://perf.wiki.kernel.org/index.php/Main_Page" rel="nofollow">perf</a> - Linux profiling with performance counters.</li>
+<li><a href="https://github.com/brendangregg/perf-tools">perf-tools</a> - Performance analysis tools based on Linux perf_events (aka perf) and ftrace.</li>
+<li><a href="http://www.sysdig.org/" rel="nofollow">sysdig</a> - Capture system state and activity from a running Linux instance, then save, filter and analyze.</li>
+<li><a href="http://sebastien.godard.pagesperso-orange.fr" rel="nofollow">sysstat</a> - Performance monitoring tools for Linux.</li>
+<li><a href="https://www.glennklockwood.com/hpc-howtos/process-affinity.html" rel="nofollow">taskset/process-affinity</a> - Retrieve or set a processes’s CPU affinity.</li>
+<li><a href="http://tiptop.gforge.inria.fr/" rel="nofollow">tiptop</a> - Like top but also shows instructions per cycle (IPC).</li>
+</ul>
+<h2><a id="user-content-profilers" class="anchor" aria-hidden="true" href="#profilers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Profilers</h2>
+<p><em>Tools that provide profiling and tracing information to aid program optimization</em></p>
+<ul>
+<li><a href="https://github.com/google/allocation-instrumenter">allocation-instrumenter</a> - Java agent that rewrites bytecode to instrument allocation sites.</li>
+<li><a href="https://github.com/Devexperts/aprof">aprof</a> - Java memory allocation profiler.</li>
+<li><a href="https://github.com/jvm-profiling-tools/async-profiler">async-profiler</a> - Sampling CPU profiler for Java featuring AsyncGetCallTrace + perf_events.</li>
+<li><a href="https://github.com/jbachorik/btrace">BTrace</a> - a safe, dynamic tracing tool for the Java platform.</li>
+<li><a href="http://byteman.jboss.org/" rel="nofollow">Byteman</a> - tracing, monitoring and testing tool for Java</li>
+<li><a href="https://github.com/cl4es/bytestacks">bytestacks</a> - Turn JVM bytecode execution into flame graphs.</li>
+<li><a href="http://chrononsystems.com" rel="nofollow">Chronon</a> - Record your entire java program. Replay on any machine.</li>
+<li><a href="http://gceasy.io/" rel="nofollow">GCeasy</a> - Machine learning guided Garbage collection log analysis tool. Auto-detect problems in the JVM GC logs and recommend solutions to it.</li>
+<li><a href="https://github.com/chewiebug/GCViewer">GCViewer</a> - GCViewer is a tool that visualizes verbose GC output.</li>
+<li><a href="https://github.com/epickrram/grav">grav</a> - A collection of tools to help visualise process execution.</li>
+<li><a href="https://github.com/jClarity/hawkshaw">hawkshaw</a> - Tools for tracking down memory / JVM problems &amp; generating predictable-as-possible VM behaviour.</li>
+<li><a href="http://hdrhistogram.github.io/HdrHistogram/" rel="nofollow">HdrHistogram</a> - A Histogram that supports recording and analyzing sampled data value counts.</li>
+<li><a href="https://bitbucket.org/marshallpierce/hdrhistogram-metrics-reservoir" rel="nofollow">hdrhistogram-metrics-reservoir</a> - A Metrics Reservoir implementation backed by HdrHistogram.</li>
+<li><a href="https://github.com/nitsanw/HdrLogProcessing">HdrLogProcessing</a> - Utilities for HDR Histogram logs manipulation.</li>
+<li><a href="https://github.com/mariusae/heapster">heapster</a> - Production heap profiling for the JVM.</li>
+<li><a href="https://github.com/RichardWarburton/honest-profiler">honest-profiler</a> - Sampling JVM profiler without the safepoint sample bias.</li>
+<li><a href="https://github.com/jbellis/jamm">jamm</a> - Measure actual object memory use including JVM overhead.</li>
+<li><a href="http://www.oracle.com/technetwork/java/javaseproducts/mission-control/java-mission-control-1998576.html" rel="nofollow">Java Flight Recorder (JFR)</a> - Tool for collecting diagnostic and profiling data about a running Java application with almost no performance overhead.</li>
+<li><a href="https://github.com/dweiss/java-sizeof">java-sizeof</a> - Memory consumption estimator for Java.</li>
+<li><a href="http://openjdk.java.net/projects/code-tools/jcstress/" rel="nofollow">jcstress</a> - Experimental harness and tests to aid the research in the correctness of concurrency support in the JVM, class libraries, and hardware.</li>
+<li><a href="https://github.com/chrishantha/jfr-flame-graph">jfr-flame-graph</a> - Converting JFR Method Profiling Samples to FlameGraph compatible format.</li>
+<li><a href="https://github.com/lhotari/jfr-report-tool">jfr-report-tool</a> - Tool for creating reports from Java Flight Recorder dumps.</li>
+<li><a href="https://github.com/AdoptOpenJDK/jitwatch">jitwatch</a> - Log analyser / visualiser for Java HotSpot JIT compiler.</li>
+<li><a href="https://github.com/yole/jitwatch-intellij">jitwatch-intellij</a> - JITWatch plugin for IntelliJ IDEA.</li>
+<li><a href="http://www.azul.com/jhiccup/" rel="nofollow">jHiccup</a> - jHiccup is an open source tool designed to measure the pauses and stalls associated with an application’s underlying Java runtime platform.</li>
+<li><a href="http://openjdk.java.net/projects/code-tools/jmh/" rel="nofollow">jmh</a> - Micro benchmarks written in Java and other languages targetting the JVM.</li>
+<li><a href="https://github.com/akarnokd/jmh-compare-gui">jmh-compare-gui</a> - GUI for comparing JMH results.</li>
+<li><a href="http://openjdk.java.net/projects/code-tools/jol/" rel="nofollow">JOL</a> - Analyze actual object layout schemes, footprint, and references in JVMs.</li>
+<li><a href="https://www.ej-technologies.com/products/jprofiler/overview.html" rel="nofollow">JProfiler</a> - Helps resolve performance bottlenecks, pin down memory leaks and understand threading issues.</li>
+<li><a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jvmti/" rel="nofollow">JVMTI</a> - Provide a native API to inspect the state and to control the execution of applications running in the JVM.</li>
+<li><a href="https://github.com/patric-r/jvmtop">jvmtop</a> - Lightweight console application to monitor running jvms on a machine in top-like manner.</li>
+<li><a href="https://github.com/uber-common/jvm-profiler">jvm-profiler</a> - Java Agent to collect various metrics and stacktraces for Hadoop/Spark JVM processes in a distributed way.</li>
+<li><a href="https://eclipse.org/mat/" rel="nofollow">MAT</a> - Java heap analyzer that help find memory leaks and reduce memory consumption.</li>
+<li><a href="https://github.com/square/leakcanary">leakcanary</a> - A memory leak detection library for Android and Java.</li>
+<li><a href="http://metrics.dropwizard.io/" rel="nofollow">metrics</a> - Measure the behavior of critical components in production environment.</li>
+<li><a href="https://github.com/micrometer-metrics/micrometer">micrometer</a> - An application metrics facade for the most popular monitoring tools.</li>
+<li><a href="https://osquery.io/" rel="nofollow">osquery</a> - osquery is an instrumentation framework that expose the operating system as a high-performance relational database.</li>
+<li><a href="http://www.peternier.com/projects/overseer/overseer.php" rel="nofollow">Overseer</a> - Low-Level Hardware Monitoring and Management for Java.</li>
+<li><a href="http://opentracing.io/" rel="nofollow">OpenTracing</a> - A vendor-neutral open standard for distributed tracing.</li>
+<li><a href="https://github.com/jrudolph/perf-map-agent">perf-map-agent</a> - Generate method mappings to use with the linux <code>perf</code> tool.</li>
+<li><a href="https://github.com/coderplay/perfj">perfj</a> - Linux perf for java programs.</li>
+<li><a href="https://github.com/Cue/polarbear">polarbear</a> - A tool to help diagnose OutOfMemoryError conditions.</li>
+<li><a href="https://github.com/riemann/riemann-jvm-profiler">Riemann JVM Profiler</a> - JVM agent which sends function-level profiler telemetry to a Riemann server for analysis, visualization, and storage.</li>
+<li><a href="https://github.com/etsy/statsd-jvm-profiler">statsd-jvm-profiler</a> - JVM agent profiler that sends profiling data to StatsD.</li>
+<li><a href="https://github.com/aragozin/jvm-tools">Swiss Java Knife</a> - Small set of tools for JVM troublshooting, monitoring and profiling.</li>
+<li><a href="https://www.takipi.com/" rel="nofollow">Takipi</a> - Tells you when and why code breaks in production.</li>
+<li><a href="https://github.com/zalando/tracer">Tracer</a> - Manages custom trace identifiers and carries them through distributed systems.</li>
+<li><a href="https://www.yourkit.com/" rel="nofollow">YourKit</a> - Fully featured, easy to use, low overhead profiler.</li>
+<li><a href="https://github.com/openzipkin/zipkin">Zipkin</a> - A distributed tracing system gather timing data for disparate services developed by Twitter.</li>
+</ul>
+<h2><a id="user-content-runtimes" class="anchor" aria-hidden="true" href="#runtimes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Runtimes</h2>
+<p><em>Tools for managing jvm runtime processes</em></p>
+<ul>
+<li><a href="https://github.com/puniverse/capsule">Capsule</a> - Dead-Simple Packaging and Deployment for JVM Apps.</li>
+<li><a href="http://www.crashub.org/" rel="nofollow">CRaSH</a> - The shell for the Java Platform.</li>
+<li><a href="https://github.com/ninjudd/drip">Drip</a> - Fast JVM launching without the hassle of persistent JVMs.</li>
+<li><a href="https://github.com/HotswapProjects/HotswapAgent">HotswapAgent</a> - Redefine classes at runtime and skip the redeploy process.</li>
+<li><a href="https://github.com/airlift/jvmkill">jvmkill</a> - Agent that forcibly terminates the JVM when it is unable to allocate memory or create a thread.</li>
+<li><a href="http://martiansoftware.com/nailgun/" rel="nofollow">Nailgun</a> - Nailgun is a client, protocol, and server for running Java programs from the command line without incurring the JVM startup overhead.</li>
+</ul>
+<h2><a id="user-content-virtual-machines" class="anchor" aria-hidden="true" href="#virtual-machines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Virtual Machines</h2>
+<p><em>Virtual machines that implement the JVM specification or parts of it.</em></p>
+<ul>
+<li><a href="https://github.com/ReadyTalk/avian">Avian</a> - Lightweight highly portable JVM with an option for AOT compilation.</li>
+<li><a href="https://source.android.com/devices/tech/dalvik/" rel="nofollow">Dalvik</a> - Android runtime (ART) is the managed runtime used by applications and some system services on Android.</li>
+<li><a href="http://dcevm.github.io" rel="nofollow">DCEVM</a> - Modification of Java HotSwap VM with unlimited support for reloading classes at runtime.</li>
+<li><a href="http://openjdk.java.net/groups/hotspot/" rel="nofollow">HotSpot</a> - HotSpot virtual machine maintained and distributed by Oracle Corporation.</li>
+<li><a href="http://www.ibm.com/developerworks/java/jdk/" rel="nofollow">IBM J9</a> - JVM developed by IBM.</li>
+<li><a href="https://github.com/eclipse/openj9">Eclipse OpenJ9</a> - Eclipse OpenJ9.</li>
+<li><a href="https://github.com/google/j2objc">J2ObjC</a> - Translator from Java source to Objective-C code. Keeps shared code between iOS native apps and Android native apps.</li>
+<li><a href="https://github.com/zxh0/jvm.go">jvm.go</a> - A JVM written in Go.</li>
+<li><a href="https://github.com/codenameone/CodenameOne/tree/master/vm">ParparVM</a> - An Open Source Java bytecode to C translator for iOS native development. Designed as a part of the <a href="https://www.codenameone.com/" rel="nofollow">Codename One</a> WORA for mobile project.</li>
+<li><strike><a href="https://robovm.com/" rel="nofollow">RoboVM</a> - Create native iOS and Android apps in Java.</strike> - Discontinued</li>
+<li><a href="https://www.azul.com/products/zing/" rel="nofollow">Zing</a> - The only JVM that eliminates Java garbage collection pauses for large heap sizes.</li>
+<li><a href="https://www.azul.com/products/zulu/" rel="nofollow">Zulu</a> - The only certified multi-platform build of OpenJDK: Free, 100% open source Java.</li>
+</ul>
+<h1><a id="user-content-resources" class="anchor" aria-hidden="true" href="#resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h1>
+<h2><a id="user-content-documentation" class="anchor" aria-hidden="true" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<p><em>Documentation related to JVM</em></p>
+<ul>
+<li><a href="http://www.brendangregg.com/blog/2018-03-22/tcp-tracepoints.html" rel="nofollow">TCP Tracepoints</a> Linux bcc/BPF using tcplife by Brendan Gregg</li>
+<li><a href="https://github.com/goldshtn/linux-tracing-workshop">Linux tracing workshop</a> - JVM monitoring with BPF, examples and hands-on labs for Linux tracing tools workshops.</li>
+<li><a href="https://shipilev.net/jvm-anatomy-park/" rel="nofollow">JVM Anatomy Park</a> - mini-post series where every post goes deep for only a single topic by Aleksey Shipilёv.</li>
+<li><a href="https://groups.google.com/forum/#!msg/mechanical-sympathy/icNZJejUHfE/BfDekfBEs_sJ" rel="nofollow">Coordinated Omission problem</a> - Discussion on Mechanical Sympathy.</li>
+<li><a href="http://mechanical-sympathy.blogspot.se/2011/07/false-sharing.html" rel="nofollow">False sharing</a> - Threads impact the performance of each other while modifying independent variables sharing the same cache line. Martin Thompson.</li>
+<li><a href="https://docs.oracle.com/javase/specs/jvms/se8/jvms8.pdf" rel="nofollow">The JVM specification</a> - The Java Virtual
+Machine Specification Java SE 8 Edition.</li>
+<li><a href="http://www.cs.umd.edu/%7Epugh/java/memoryModel/" rel="nofollow">The Java Memory Model</a> - Starting point for discussions of and information concerning the Java Memory Model.</li>
+<li><a href="http://gee.cs.oswego.edu/dl/jmm/cookbook.html" rel="nofollow">The JSR-133 Cookbook for Compiler Writers</a> - Unofficial guide to implementing the new Java Memory Model (JMM) specified by JSR-133.</li>
+<li><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/" rel="nofollow">Garbage Collection Tuning Guide</a> - HotSpot Virtual Machine Garbage Collection Tuning Guide.</li>
+<li><a href="http://psy-lob-saw.blogspot.se/2014/03/where-is-my-safepoint.html" rel="nofollow">Safepoints</a> - Where is my safepoint? Nitsan Wakart.</li>
+<li><a href="https://www.informatica.com/downloads/1568_high_perf_messaging_wp/Topics-in-High-Performance-Messaging.htm" rel="nofollow">Topics in High-Performance Messaging</a> - Design decisions, experience and constraints explained in high performance messaging systems.</li>
+<li><a href="http://www.infoq.com/articles/top-10-performance-mistakes" rel="nofollow">Top 10 Performance Mistakes</a> - Digest of the top 10 performance related mistakes Martin Thompson has seen in production.</li>
+<li><a href="http://www.brendangregg.com/usemethod.html" rel="nofollow">The USE method</a> - The Utilization Saturation and Errors (USE) Method is a methodology for analyzing the performance of any system. Brendan Gregg.</li>
+<li><a href="https://github.com/aphyr/distsys-class">An introduction to distributed systems</a> - Kyle Kingsbury (author of Jepsen).</li>
+<li><a href="http://gee.cs.oswego.edu/dl/html/j9mm.html" rel="nofollow">Using JDK 9 Memory Order Modes</a> - For expert programmers familiar with Java concurrency, but unfamiliar with the memory order modes available in JDK 9 provided by VarHandles.</li>
+<li><a href="http://www.brendangregg.com/blog/2017-05-09/cpu-utilization-is-wrong.html" rel="nofollow">CPU Utilization is Wrong</a> - Measure instructions per cycle (IPC) for CPU utilization. Brendan Gregg.</li>
+<li><a href="http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html" rel="nofollow">Linux Load Averages: Solving the Mystery</a> - Brendan Gregg.</li>
+<li><a href="http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives/" rel="nofollow">What every programmer should know about solid-state drives</a> - Emmanuel Goossaert.</li>
+<li><a href="https://gist.github.com/djspiewak/464c11307cabc80171c90397d4ec34ef">Quick Tips for Fast Code on the JVM</a> - Daniel Spiewak.</li>
+</ul>
+<h2><a id="user-content-communities" class="anchor" aria-hidden="true" href="#communities"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Communities</h2>
+<p><em>Active discussions.</em></p>
+<ul>
+<li><a href="http://altair.cs.oswego.edu/mailman/listinfo/concurrency-interest" rel="nofollow">concurrency-interest</a> - Discussion list for JSR-166.</li>
+<li><a href="http://mail.openjdk.java.net/mailman/listinfo/hotspot-compiler-dev" rel="nofollow">hotspot-compiler-dev</a> - Technical discussion about the development of the HotSpot bytecode compilers.</li>
+<li><a href="http://mail.openjdk.java.net/mailman/listinfo/hotspot-dev" rel="nofollow">hotspot-dev</a> - HotSpot development mailing list.</li>
+<li><a href="http://mail.openjdk.java.net/mailman/listinfo/hotspot-gc-dev" rel="nofollow">hotspot-gc-dev</a> - Technical discussion about the development of the HotSpot garbage collectors.</li>
+<li><a href="https://groups.google.com/forum/#!forum/mechanical-sympathy" rel="nofollow">mechanical-sympathy</a> - Discussing how to code sympathetically to and measure the underlying stack/platform so good performance can be extracted.</li>
+<li><a href="https://plus.google.com/u/0/communities/107178245817384004088/" rel="nofollow">Performance Java User's Group</a> - For expert Java <em>developers</em> who want to push their systems to the next level</li>
+<li><a href="http://vmmeetup.github.io/2017/" rel="nofollow">Virtual Machine Meetup 2017</a> - Venue for discussing the latest research and developments in the area of managed language execution.</li>
+</ul>
+<h2><a id="user-content-media" class="anchor" aria-hidden="true" href="#media"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Media</h2>
+<p><em>Videos, podcasts and other media related to JVMs</em></p>
+<ul>
+<li><a href="https://fosdem.org/2018/schedule/track/free_java/" rel="nofollow">FOSDEM 2018</a> - FOSDEM 2018 Free Java devroom.</li>
+<li><a href="https://www.youtube.com/playlist?list=PL2ekzZZrxVUkhrcMKuPMbiKoghc777plr" rel="nofollow">JFokus 2018</a> - The GC edition. Shenandoah, ZGC, Zing, Fibers, Falcon etc.</li>
+<li><a href="http://nighthacking.com/g1-gc-with-kirk-pepperdine/" rel="nofollow">G1 Garbage Collector in Java 8/9</a> - Kirk Pepperdine.</li>
+<li><a href="https://youtu.be/7PkkxDaFDj8?list=PLKuh52zVrL6l6jzeSwNce77yLdfKmHAgD" rel="nofollow">Extreme Profiling: Digging Into Hotspots</a> - Nitsan Wakart.</li>
+<li><a href="http://www.infoq.com/presentations/java-vs-c-performance" rel="nofollow">Java vs. C Performance</a> - Cliff Click.</li>
+<li><a href="https://www.youtube.com/watch?v=LoyBTqkSkZk" rel="nofollow">Why JNI is slow?</a> - Cliff Click</li>
+<li><a href="https://www.youtube.com/watch?v=OFgxAFdxYAQ" rel="nofollow">A Crash Course in Modern Hardware</a> - Cliff Click</li>
+<li><a href="https://www.youtube.com/watch?v=_6vJyciXkwo" rel="nofollow">Java Profiling from the Ground Up</a> - Nitsan Wakart.</li>
+<li><a href="https://www.youtube.com/watch?v=3g9R-RVIkOE" rel="nofollow">The Illusion of Execution</a> - Nitsan Wakart.</li>
+<li><a href="https://www.youtube.com/watch?v=MC1EKLQ2Wmg" rel="nofollow">Mythbusting Modern Hardware to Gain 'Mechanical Sympathy'</a> - Martin Thompson.</li>
+<li><a href="https://www.youtube.com/watch?v=fDGWWpHlzvw" rel="nofollow">Designing for Performance</a> - Martin Thompson.</li>
+<li><a href="https://www.youtube.com/watch?v=lJ8ydIuPFeU" rel="nofollow">How NOT to Measure Latency</a> - Gil Tene.</li>
+<li><a href="http://openjdk.java.net/projects/mlvm/jvmlangsummit/" rel="nofollow">JVM Language Summit 2015</a> - JVM Language Summit 2015.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLX8CzqL3ArzUY6rQAQTwI_jKvqJxrRrP_" rel="nofollow">JVM Language Summit 2016</a> - JVM Language Summit 2016.</li>
+<li><a href="https://www.youtube.com/playlist?list=PLX8CzqL3ArzXJ2EGftrmz4SzS6NRr6p2n" rel="nofollow">JVM Language Summit 2017</a> - JVM Language Summit 2017.</li>
+<li><a href="https://www.youtube.com/watch?v=vzzABBxo44g" rel="nofollow">Bits of advice for VM writers</a> - Cliff Click.</li>
+<li><a href="https://www.youtube.com/watch?v=_e5hujoTkgY" rel="nofollow">Understanding Java garbage collection ...</a> - Gil Tene.</li>
+<li><a href="https://www.youtube.com/watch?v=bZuPTCaciLU" rel="nofollow">Faster Object Arrays</a> - Gil Tene at GOTO Conferences.</li>
+<li><a href="https://www.youtube.com/watch?v=TxqsKzxyySo" rel="nofollow">Java Memory Model Pragmatics</a> - Aleksey Shipilev.</li>
+<li><a href="https://www.youtube.com/watch?v=Y39kllzX1P8" rel="nofollow">With GC Solved, What Else Makes a JVM Pause?</a> - John Cuthbertson.</li>
+<li><a href="https://vimeo.com/120533011" rel="nofollow">JVM Mechanics</a> - Douglas Hawkins.</li>
+<li><a href="https://www.youtube.com/watch?v=GsMs3n8CB6g" rel="nofollow">Give me 15 minutes and I'll change your view of Linux tracing</a> - Brendan Gregg.</li>
+<li><a href="https://www.slideshare.net/brendangregg/kernel-recipes-2017-performance-analysis-with-bpf" rel="nofollow">Kernel Recipes 2017: Performance Analysis with BPF</a> - Brendan Gregg.</li>
+<li><a href="https://shipilev.net/talks/vmm-Sep2017-shenandoah.pdf" rel="nofollow">Shenandoah deep talk</a> - Aleksey Shipilëv slightly-deeper-than-usual Shenandoah talk from Virtual Machine Meetup 2017.</li>
+<li><a href="https://www.youtube.com/watch?v=VCeHkcwfF9Q" rel="nofollow">Shenandoah: The Garbage Collector That Could</a> - Aleksey Shipilev - Devoxx 2017/11</li>
+<li><a href="https://www.youtube.com/watch?v=k7IX_diKCEo" rel="nofollow">Analyzing and Debugging the Java HotSpot VM at the OS Level</a> - Volker Simonis.</li>
+<li><a href="http://www.cliffc.org/blog/2017/09/16/programming-and-performance-intro/" rel="nofollow">Cliff Click podcast 2017/09/16</a> - Programming and Performance Intro.</li>
+<li><a href="http://www.cliffc.org/blog/2017/09/16/of-bugs-and-coding-styles/" rel="nofollow">Cliff Click podcast 2017/09/16</a> - Bugs and Coding Styles.</li>
+<li><a href="http://www.cliffc.org/blog/2017/09/18/java-vs-cc-the-podcast/" rel="nofollow">Cliff Click podcast 2017/09/18</a> - Java vs C/C++.</li>
+<li><a href="http://www.cliffc.org/blog/2017/09/21/debugging-data-races/" rel="nofollow">Cliff Click podcast 2017/09/21</a> - Debugging Data Races.</li>
+<li><a href="http://www.cliffc.org/blog/2017/09/24/fast-bytecodes-for-funny-languages/" rel="nofollow">Cliff Click podcast 2017/09/24</a> - Fast Bytecodes for Funny Languages.</li>
+<li><a href="http://www.cliffc.org/blog/2017/09/28/struct-of-arrays-vs-array-of-structs/" rel="nofollow">Cliff Click podcast 2017/09/28</a> - Struct of Arrays vs Array of Structs.</li>
+<li><a href="http://www.cliffc.org/blog/2017/10/04/the-3-hardest-problems-in-programming/" rel="nofollow">Cliff Click podcast 2017/10/04</a> - The 3 Hardest Problems in Programming.</li>
+<li><a href="http://cliffc.org/blog/2017/11/05/modern-hardware-performance-cache-lines/" rel="nofollow">Cliff Click podcast 2017/11/05</a> - Modern Hardware Performance and Cache Lines.</li>
+<li><a href="http://cliffc.org/blog/2017/11/09/queuing-in-practice/" rel="nofollow">Cliff Click podcast 2017/11/09</a> - Queuing In Practice.</li>
+<li><a href="https://www.quora.com/Which-technique-do-programming-language-parsers-and-interpreters-use/answer/Cliff-Click-1?srid=dZAx" rel="nofollow">Which technique do programming language parsers and interpreters use?</a> - Cliff Click.</li>
+<li><a href="https://vimeo.com/233820012" rel="nofollow">Everything about Stack Traces and Heap Dumps</a> - Andrei Pangin.</li>
+<li><a href="http://s.sashag.net/velny17-jvm" rel="nofollow">Fast and safe production monitoring of JVM with BPF tools</a> - Sasha Goldshtein.</li>
+<li><a href="https://www.youtube.com/watch?time_continue=1&amp;v=xxWaa-lPR-8" rel="nofollow">The Future of the Linux Page Cache</a> - Matthew Wilcox.</li>
+</ul>
+<h2><a id="user-content-people" class="anchor" aria-hidden="true" href="#people"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>People</h2>
+<p><em>People that share hard-earned, often undocumented, knowledge and data of the inner workings of the JVM</em></p>
+<ul>
+<li><a href="http://shipilev.net/" rel="nofollow">Aleksey Shipilëv</a> - Developing Oracle/Open JDK/Hotspot and other Java-related technologies.</li>
+<li><a href="https://twitter.com/abreslav" rel="nofollow">Andrey Breslav</a> - Lead Language Designer of Kotlin @ JetBrains.</li>
+<li><a href="https://twitter.com/BrianGoetz" rel="nofollow">Brian Goetz</a> - Java Language Architect at Oracle.</li>
+<li><a href="https://twitter.com/benjchristensen" rel="nofollow">Ben Christensen</a> - Facebook, Netflix, Apple engineering.</li>
+<li><a href="http://www.brendangregg.com" rel="nofollow">Brendan Gregg</a> - Cloud performance, kernel engineer, speaker, author.</li>
+<li><a href="https://twitter.com/headius" rel="nofollow">Charles Nutter</a> - JRuby guy.</li>
+<li><a href="https://twitter.com/cl4es" rel="nofollow">Claes Redestad</a> - Working with OpenJDK stuff @ Oracle.</li>
+<li><a href="http://www.cliffc.org/blog/" rel="nofollow">Cliff Click</a> - Creator of the HotSpot Server Compiler.</li>
+<li><a href="https://blogs.oracle.com/dave/" rel="nofollow">Dave Dice</a> - Senior research scientist in the Scalable Synchronization Research Group within Oracle.</li>
+<li><a href="http://akarnokd.blogspot.se/" rel="nofollow">Dávid Karnok</a> - RxJava committer that blogs about advanced RxJava.</li>
+<li><a href="http://g.oswego.edu/" rel="nofollow">Doug Lea</a> - Author of the Java memory model.</li>
+<li><a href="https://twitter.com/giltene" rel="nofollow">Gil Tene</a> - Azul Systems.</li>
+<li><a href="https://twitter.com/heinzkabutz" rel="nofollow">Heinz Kabutz</a> - Author of 250+ Java Specialists' Newsletters.</li>
+<li><a href="https://twitter.com/JohnWings" rel="nofollow">Ivan Krylov</a> - JVM expert.</li>
+<li><a href="https://twitter.com/JakeWharton" rel="nofollow">Jake Wharton</a> - Square, Google, open source hacker.</li>
+<li><a href="https://blogs.oracle.com/jrose/" rel="nofollow">John Rose</a> - HotSpot developer.</li>
+<li><a href="https://twitter.com/jboner" rel="nofollow">Jonas Bonér</a> - Founder &amp; CTO of Lightbend.</li>
+<li><a href="https://twitter.com/lukaseder" rel="nofollow">Lukas Eder</a> - Blogger. Author of JOOQ.</li>
+<li><a href="https://twitter.com/lagergren" rel="nofollow">Marcus Lagergren</a> - Java language team alumnus.</li>
+<li><a href="https://twitter.com/mreinhold" rel="nofollow">Mark Reinhold</a> - Chief Architect, Java Platform Group, Oracle.</li>
+<li><a href="http://mechanical-sympathy.blogspot.se/" rel="nofollow">Martin Thompson</a> - Pasty faced performance gangster.</li>
+<li><a href="https://twitter.com/karianna" rel="nofollow">Martijn Verburg</a> - Java Champion.</li>
+<li><a href="https://twitter.com/javaperftuning" rel="nofollow">Kirk Pepperdine</a> - Working in high performance and distributed computing for nearly 20 years.</li>
+<li><a href="http://psy-lob-saw.blogspot.se/2014/03/where-is-my-safepoint.html" rel="nofollow">Nitsan Wakart</a> - Azul Systems.</li>
+<li><a href="https://twitter.com/normanmaurer" rel="nofollow">Norman Maurer</a> - Netty developer.</li>
+<li><a href="https://twitter.com/contrarivariant" rel="nofollow">Paul Phillips</a> - Forever undisputed SLOC Scala compiler dev.</li>
+<li><a href="https://twitter.com/perliden" rel="nofollow">Per Liden</a> - Hacking on the HotSpot JVM at Oracle.</li>
+<li><a href="https://twitter.com/PeterLawrey" rel="nofollow">Peter Lawrey</a> - Innovative developer of high performance Java systems for competitive advantage.</li>
+<li><a href="https://twitter.com/rafaelcodes" rel="nofollow">Rafael Winterhalter</a> - Author of ByteBuddy.</li>
+<li><a href="https://twitter.com/RichardWarburto" rel="nofollow">Richard Warburton</a> - Developer, Speaker, Author.</li>
+<li><a href="http://richardstartin.uk/" rel="nofollow">Richard Startin</a> - Performance Analyst, developer, blogger.</li>
+<li><a href="https://twitter.com/pressron" rel="nofollow">Ron Pressler</a> - Parallel Universe. Leading Fibers and Continuations for the JVM.</li>
+<li><a href="https://twitter.com/jodastephen" rel="nofollow">Stephen Colebourne</a> - Java Champion. Occasional blogger and speaker. Best known for Joda projects and JSR-310.</li>
+<li><a href="https://twitter.com/toddlmontgomery" rel="nofollow">Todd L. Montgomery</a> - Ex-CTO, Ex-NASA researcher, network geek, messaging middleware designer.</li>
+<li><a href="https://twitter.com/smaldini" rel="nofollow">Stéphane Maldini</a> - Project Reactor Lead @Pivotal.</li>
+<li><a href="https://twitter.com/stuartmarks" rel="nofollow">Stuart Marks</a> - Doctor Deprecator. Java/JDK/OpenJDK developer</li>
+<li><a href="https://twitter.com/iwan0www" rel="nofollow">Vladimir Ivanov</a> - hacking HotSpot JVM @ Oracle.</li>
+<li><a href="https://twitter.com/viktorklang" rel="nofollow">Viktor Klang</a> - Deputy CTO at Typesafe Inc.</li>
+</ul>
+<h1><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h1>
+<p>Contributions are very welcome!</p>
+<p>Please have a look at <a href="https://github.com/deephacks/awesome-jvm/blob/master/contributing.md">contributing.md</a> for guidelines.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.19954s from unicorn-3751571531-bvx8l">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

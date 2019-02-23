@@ -1,0 +1,353 @@
+   #Rece
+   nt Commits to awesome-fortran:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sign
+   in or Sign up
+
+     * 24
+     * 145
+     * 31
+
+awesome-fortran
+
+   Code
+   Pull requests 1
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   Awesome list of Fortran libs
+     * 34
+       commits
+     * 2 branches
+     * Fe
+       tching contributors
+     * MI
+       T
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/r
+   Downloa
+   d ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * Branches
+     * Tags
+
+   master
+   ra
+   bbiabram-patch-1
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/rabbiabram/awesome-fortran/tree/276267ea05e60b36f1e6a
+   19df63659c33653ca92]Permalink
+   Failed to load latest commit information.
+   .t
+   ravis.yml
+   Added travis.ci README validation Jan 14, 2016
+   LICENS
+   E
+   Initial commit Jul 16, 2014
+   READ
+   ME.md
+   ¢ Added docker container Nov 30, 2016
+
+README.md
+
+Build Status
+
+   A curated list of awesome Fortran frameworks, libraries and software.
+   Inspired by [https://github.com/Wolg/awesome-swift]awesome-swift by
+   @Wolg.
+     * Awesome Fortran
+          + Functional Libraries
+          + Graphics Libraries
+          + Math libs
+          + JSON Manipulation
+          + XML Manipulation
+          + Date and time manipulation
+          + Testing
+          + Encoding-Decoding
+          + Portability enabling
+          + Command-Line parsing
+          + Compiling and building
+          + Preprocessor
+          + Automatic documentation
+          + Computational Fluid
+            Dynamics
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            fortran#docker]Docker
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fortr
+       an#resources]Resources
+          + [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-
+            fortran#fortran-websites]Fortran Websites
+               o [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awe
+                 some-fortran#fortran-videos]Fortran Videos
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fortr
+       an#other-awesome-lists]Other Awesome Lists
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-fortr
+       an#contributing]Contributing
+
+Functional Libraries
+
+     * [https://github.com/wavebitscientific/functional-fortran]Functional
+       Frotran - Functional programming for modern Fortran.
+
+Graphics Libraries
+
+   Libraries for graphing, graphics, and GUIs
+     * [http://www.mps.mpg.de/dislin/]DISLIN - a high-level graphing and
+       user-interface library.
+     * [http://math.nist.gov/f90gl/]f90gl - public domain implementation
+       of the official NIST Fortran 90 bindings for OpenGL.
+     * [http://www-stone.ch.cam.ac.uk/pub/f03gl/index.xhtml]F03GL - a
+       Fortran 2003 interface to the OpenGL library, along with the GLU
+       and GLUT toolkits.
+     * [https://github.com/jerryd/gtk-fortran/wiki]gtk-fortran - a
+       cross-platform library to build Graphical User Interfaces (GUI)
+       using [https://www.gtk.org/]GTK+. Very useful when combined with
+       the [https://glade.gnome.org/]Glade RAD tool.
+     * [http://www.astro.caltech.edu/%7Etjp/pgplot/]PGPLOT -
+       cross-platform scientific graphing library.
+     * [https://github.com/szaghi/VTKFortran]VTKFortran - Pure Fortran
+       (2003+) library to write and read data conforming the VTK standard.
+
+Math Libs
+
+   Libraries for calculating and other mathematical operations.
+     * [http://www.netlib.org/blas/]BLAS - application programming
+       interface standard for publishing libraries to perform basic linear
+       algebra operations such as vector and matrix multiplication.
+     * [http://cernlib.web.cern.ch/cernlib/]CERNLIB - The CERN Program
+       Library is a large collection of general purpose libraries and
+       modules maintained and offered in both source and object code form
+       on the CERN central computers
+     * [http://www.netlib.org/eispack/]EISPACK - a software library for
+       numerical computation of eigenvalues and eigenvectors of matrices,
+       written in FORTRAN
+     * [http://www.lrz.de/services/software/mathematik/gsl/fortran/index.h
+       tml]FGSL - portable, object-based Fortran interface to the
+       [http://www.lrz.de/services/software/mathematik/gsl/]GNU scientific
+       library
+     * [http://www.roguewave.com/products-services/imsl-numerical-librarie
+       s/fortran-libraries]IMSL - The IMSL Fortran Numerical Library is
+       the standard for high performance computing commercial mathematics
+       and statistics libraries
+     * [http://www.ssisc.org/lis/index.en.html#download]Lis - a Library of
+       Iterative Solvers for Linear Systems
+     * [http://www.nag.co.uk/nag-fortran-library]NAG Fortran Library -
+       Produced by experts for use in a variety of applications, the NAG
+       Fortran Library has a global reputation for its excellence and,
+       with hundreds of fully documented and tested routines, is the
+       largest collection of mathematical and statistical algorithms
+       available
+     * [https://github.com/Unidata/netcdf-fortran]netCDF - a set of
+       software libraries and self-describing, machine-independent data
+       formats that support the creation, access, and sharing of
+       array-oriented scientific data.
+     * [https://github.com/xianyi/OpenBLAS]OpenBLAS - one of the fastest
+       open source BLAS libraries available. Almost as fast as Intel MKL.
+     * [http://paw.web.cern.ch/paw/]PAW - conceived as an instrument to
+       assist physicists in the analysis and presentation of their data
+
+JSON Manipulation
+
+   Libraries for JSON data manipulating with Fortran language.
+     * [https://github.com/josephalevin/fson]FSON - Fortran 95 JSON
+       Parser.
+     * [https://github.com/jacobwilliams/json-fortran]json-fortran - A
+       Fortran 2008 JSON API.
+
+XML Manipulation
+
+   Libraries for XML data manipulating with Fortran language.
+     * [https://github.com/andreww/fox]fox - Fortran XML library
+     * [https://sourceforge.net/projects/xml-fortran/]xml-fortran - an
+       all-Fortran solution for reading and writing XML files.
+
+Date and time manipulation
+
+   Libraries for date and time manipulation with Fortran language.
+     * [https://github.com/wavebitscientific/datetime-fortran]datetime-for
+       tran - A Fortran 2003 date and time manipulation library, modeled
+       after Python's datetime library.
+
+Testing
+
+   Libraries for testing codebases and generating test data.
+     * [https://sourceforge.net/projects/fortranxunit/]FRUIT - FORTRAN
+       Unit Test Framework, written in FORTRAN 95
+     * [http://flibs.sourceforge.net/ftnunit.html]Ftunit - Fortran unit
+       testing framework by Arjen Markus
+     * [https://sourceforge.net/projects/pfunit/]pFUnit - Unit testing
+       framework for Fortran with MPI extensions by developers from NASA
+       and NGC TASC. Uses parallel codes and object-oriented design.
+
+Encoding-Decoding
+
+   Libraries for encoding and decoding data with Fortran language.
+     * [https://github.com/szaghi/BeFoR64]BeFoR64 - Base64
+       encoding/decoding library for FoRtran poor men. A KISS library for
+       base64 encoding/decoding for modern (2003+) Fortran projects.
+
+Portability enabling
+
+   Libraries for enabling codes portability.
+     * [https://github.com/szaghi/PENF]PENF - Pure Fortran (2003+) library
+       for ensuring codes portability.
+
+Command-Line parsing
+
+   Libraries for parsing command-line and building user interfaces.
+     * [https://github.com/szaghi/FLAP]FLAP - Fortran command Line
+       Arguments Parser for poor men. A KISS library for building easily
+       nice Command Line Interfaces (CLI) for modern (2003+) Fortran
+       projects.
+     * [https://github.com/cngilbreth/optionsf90]options.f90 - Options &
+       input processing for modern Fortran.
+
+Compiling and building
+
+   Libraries for compiling and building Fortran projects.
+     * [https://github.com/szaghi/FoBiS]FoBiS - Fortran Building System
+       for poor men. A KISS tool for automatic building modern Fortran
+       projects.
+
+Preprocessor
+
+   Libraries for conditional-compilation, macros for code simplification,
+   and inclusion of additional source files, templating systems.
+     * [http://blockit.sourceforge.net/]Blockit/PyF95++ - A fairly simple
+       Python framework used to block parse your code (or any text file)
+       into nested blocks. The BlockIt framework has already been used to
+       create a templating capability for the Fortran 95/2003 language
+       along with some language extensions.
+     * [https://github.com/szaghi/PreForM]PreForM - Preprocessor for
+       Fortran poor Men.
+
+Automatic documentation
+
+   Libraries for building documentation.
+     * [https://github.com/cmacmackin/ford]FORD - An automatic
+       documentation generator for modern Fortran programs.
+
+Computational Fluid Dynamics
+
+   Libraries for CFD computations
+     * [https://github.com/szaghi/OFF/tree/testing]OFF - Open source
+       Finite volume Fluid dynamics code.
+
+Docker
+
+     * [https://hub.docker.com/r/baekjoon/onlinejudge-fortran/]Unoficial
+       Image - docker image provided by @baekjoon
+
+Resources
+
+   Various resources, such as books, websites and articles, for improving
+   your Fortran development skills and knowledge.
+
+Fortran Websites
+
+     * [http://www.fortran.com/]The Fortran Company - A home page of
+       FORTRAN programming language.
+     * [https://fortrandev.wordpress.com/]Fortran Dev - Fortran
+       development blog.
+     * [http://fortranwiki.org/fortran/show/HomePage]Fortran WIKI - An
+       open venue for discussing all aspects of the Fortran programming
+       language and scientific computing.
+
+Fortran Videos
+
+     * [https://www.youtube.com/watch?v=qUy8M10uZRU]GNU FORTRAN Lesson 1 -
+       Videos about the Fortran programming language.
+
+Other Awesome Lists
+
+   Other amazingly awesome lists can be found in the
+   [https://github.com/bayandin/awesome-awesomeness]awesome-awesomeness
+   list.
+
+Contributing
+
+   Your contributions are always welcome! Please submit a pull request or
+   create an issue to add a new framework, library or software to the
+   list. Do not submit a project, which hasn't been updated in the past 6
+   months or is not awesome.
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   R
+   eload to refresh your session. You signed out in another tab or window.
+   R
+   eload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

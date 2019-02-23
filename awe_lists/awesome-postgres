@@ -1,0 +1,615 @@
+   #Re
+   cent Commits to awesome-postgres:master
+
+   Skip to content
+   [https://github.com/]
+     * Features
+     * Explore
+     * Pricing
+
+   This repository
+   ____________________
+   Sig
+   n in or Sign up
+
+     * 244
+     * Star
+       4,163
+     * [file://localhost/login?return_to=%2Fdhamaniasad%2Fawesome-postgres
+       ]Fork 293
+
+awesome-postgres
+
+   Issues 6
+   Projects 0
+   Insights
+   (BUTTON) Dismiss
+
+Join GitHub today
+
+   GitHub is home to over 20 million developers working together to host
+   and review code, manage projects, and build software together.
+
+   Sign up
+   A curated list of awesome PostgreSQL software, libraries, tools and
+   resources, inspired by awesome-mysql
+   [http://dhamaniasad.github.io/awesome-postgres]http://dhamaniasad.githu
+   b.io/awesome-...
+   postgres
+   postgresql
+     * 387
+       commits
+     * 0 releases
+     * 
+       75 contributors
+     * 
+       CC0-1.0
+
+   Clone or download
+
+Clone with HTTPS [https://help.github.com/articles/which-remote-url-should-i-use]
+
+   Use Git or checkout with SVN using the web URL.
+   https://github.com/d
+   Downl
+   oad ZIP
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching GitHub Desktop...
+
+   If nothing happens, [https://desktop.github.com/]download GitHub
+   Desktop and try again.
+
+   (BUTTON) Go back
+
+Launching Xcode...
+
+   If nothing happens, [https://developer.apple.com/xcode/]download Xcode
+   and try again.
+
+   (BUTTON) Go back
+
+Launching Visual Studio...
+
+   If nothing happens, [https://visualstudio.github.com/]download the
+   GitHub extension for Visual Studio and try again.
+
+   (BUTTON) Go back
+   Find file
+   (BUTTON) Branch: master
+   Switch branches/tags
+   ____________________
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res]Branches
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res]Tags
+
+   master
+   Nothing to show
+   Nothing to show
+   (BUTTON) New pull request
+   Fetching latest commit...
+   Cannot retrieve the latest commit at this time.
+   [file://localhost/dhamaniasad/awesome-postgres/tree/64613f2561c6bce419f
+   f629f661954317e3b70cb]Permalink
+   Failed to load latest commit information.
+   
+   .travis.yml
+   fix travis problems, add white-list Mar 26,
+   2017
+   [file://localhost/dhamaniasad/awesome-postgres/blob/master/CONTRIBUTING
+   .md]CONTRIBUTING.md
+   [file://localhost/dhamaniasad/awesome-postgres/commit/cedae811c9dd1e43e
+   1f90643b23efbf0b6b9a02a]Update contribution guidelines for 1 PR per
+   change Oct 6, 2016
+   LICE
+   NSE
+   Initial commit Aug 2, 2015
+   RE
+   ADME.md
+   Merge pull request
+   [https://github.com/dhamaniasad/awesome-postgres/pull/195]#195
+   [file://localhost/dhamaniasad/awesome-postgres/commit/64613f2561c6bce41
+   9ff629f661954317e3b70cb]from bersace/patch-1 Mar 23, 2018
+
+README.md
+
+awesome
+
+   [https://www.postgresql.org/][68747470733a2f2f77696b692e706f73746772657
+   3716c2e6f72672f696d616765732f612f61342f506f737467726553514c5f6c6f676f2e
+   33636f6c6f72732e737667]
+
+     A curated list of awesome [https://www.postgresql.org/]PostgreSQL
+     software, libraries, tools and resources, inspired by
+     [http://shlomi-noach.github.io/awesome-mysql/]awesome-mysql
+
+   [https://en.wikipedia.org/wiki/PostgreSQL]PostgreSQL, often simply
+   Postgres, is an
+   [https://en.wikipedia.org/wiki/Object-relational_database]object-relati
+   onal database (ORDBMS). PostgreSQL is
+   [https://en.wikipedia.org/wiki/ACID]ACID-compliant and
+   [https://en.wikipedia.org/wiki/Transaction_processing]transactional.
+   (see more:
+   [https://en.wikipedia.org/wiki/PostgreSQL]wikipedia:PostgreSQL,
+   [https://www.postgresql.org/]PostgreSQL.org)
+
+   Contributions welcome. Add links through
+   [https://github.com/dhamaniasad/awesome-postgres/pulls]pull requests or
+   create an [https://github.com/dhamaniasad/awesome-postgres/issues]issue
+   to start a discussion. Please take a look at the
+   contribution guidelines.
+
+Contents
+
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#high-availability]High-Availability
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#backups]Backups
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#gui]GUI
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#distributions]Distributions
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#cli]CLI
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#server]Server
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#monitoring]Monitoring
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#extensions]Extensions
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#optimization]Optimization
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#utilities]Utilities
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#language-bindings]Language bindings
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#tutorials]Tutorials
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#blogs]Blogs
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#articles]Articles
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#newsletters]Newsletters
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#paas-postgresql-as-a-service]PaaS (PostgreSQL as a Service)
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#docker-images]Docker images
+     * [file://localhost/Users/admin/Pros/sh/awesome/awe_raw/awesome-postg
+       res#videos]Videos
+
+High-Availability
+
+     * [https://github.com/2ndQuadrant/bdr]BDR - BiDirectional Replication
+       - a multimaster replication system for PostgreSQL
+     * [https://github.com/zalando/patroni]Patroni - Template for
+       PostgreSQL HA with ZooKeeper or etcd.
+     * [https://github.com/sorintlab/stolon]Stolon - PostgreSQL HA based
+       on Consul or etcd, with Kubernetes integration.
+     * [https://github.com/ohmu/pglookout]pglookout - Replication
+       monitoring and failover daemon.
+     * [https://github.com/2ndQuadrant/repmgr]repmgr - Open-source tool
+       suite to manage replication and failover in a cluster of PostgreSQL
+       servers.
+     * [http://slony.info/]Slony-I - "Master to multiple slaves"
+       replication system with cascading and failover.
+     * [https://github.com/dalibo/PAF]PAF - PostgreSQL Automatic Failover:
+       High-Availibility for Postgres, based on Pacemaker and Corosync.
+     * [https://github.com/pgq/skytools-legacy]SkyTools - Replication
+       tools, including PgQ, a queuing system, and Londiste, a replication
+       system a bit simpler to manage than Slony.
+
+Backups
+
+     * [http://www.pgbarman.org/]Barman - Backup and Recovery Manager for
+       PostgreSQL by 2ndQuadrant.
+     * [https://github.com/omniti-labs/omnipitr]OmniPITR - Advanced WAL
+       File Management Tools for PostgreSQL.
+     * [https://github.com/postgrespro/pg_probackup]pg_probackup - A fork
+       of pg_arman, improved by @PostgresPro, supports incremental
+       backups, backups from replica, multithreaded backup and restore,
+       and anonymous backup without archive command.
+     * [http://pgbackrest.org/]pgBackRest - Reliable PostgreSQL Backup &
+       Restore.
+     * [https://github.com/orgrim/pg_back/]pg_back - pg_back is a simple
+       backup script
+     * [https://github.com/ohmu/pghoard]pghoard - Backup and restore tool
+       for cloud object stores (AWS S3, Azure, Google Cloud, OpenStack
+       Swift).
+     * [https://github.com/wal-e/wal-e]wal-e - Simple Continuous Archiving
+       for PostgreSQL to S3, Azure, or Swift by Heroku.
+     * [https://dalibo.github.io/pitrery/]pitrery - pitrery is a set of
+       Bash scripts to manage Point In Time Recovery (PITR) backups for
+       PostgreSQL.
+
+GUI
+
+     * [https://www.adminer.org/]Adminer - Full-featured database
+       management tool written in PHP.
+     * [https://omnidb.org/en/]OmniDB - Open Source Collaborative
+       Environment For Database Management
+     * [https://www.jetbrains.com/datagrip/]DataGrip - IDE with advanced
+       tool sets and good cross-platform experience (Commercial Software).
+     * [https://datazenit.com/]Datazenit - Web-based PostgreSQL GUI
+       (Commercial Software).
+     * [https://dbeaver.jkiss.org/]DBeaver - Universal Database Manager
+       with excellent support for PostgreSQL.
+     * [http://dbglass.web-pal.com/]dbglass - Cross-platform desktop
+       client for PostgreSQL, built with Electron.
+     * [https://www.holistics.io/]Holistics - Online cross platform
+       database management tool and SQL query reporting GUI with strong
+       PostgreSQL support (Commercial Software).
+     * [https://www.jackdb.com/]JackDB - Web-based SQL query interface
+       (Commercial Software).
+     * [https://www.metabase.com/]Metabase - Simple dashboards, charts and
+       query tool for PostgreSQL.
+     * [https://www.pgadmin.org/]pgAdmin - PostgreSQL Administration and
+       Management GUI.
+     * [https://www.pgmodeler.com.br/]pgModeler - pgModeler is an
+       open-source PostgreSQL Database Modeler.
+     * [https://github.com/sosedoff/pgweb]pgweb - Web-based PostgreSQL
+       database browser written in Go.
+     * [https://github.com/phppgadmin/phppgadmin]phpPgAdmin - The Premier
+       Web Based Administration Tool for PostgreSQL.
+     * [https://github.com/Paxa/postbird]Postbird - PostgreSQL Client for
+       macOS.
+     * [https://eggerapps.at/postico/]Postico - Modern PostgreSQL Client
+       for macOS (Commercial Software).
+     * [http://www.psequel.com/]PSequel - Clean and simple interface to
+       perform common PostgreSQL tasks quickly (Commercial Software).
+     * [http://www.sqltabs.com/]SQL Tabs - Cross Platform Desktop Client
+       for PostgreSQL written in JS.
+     * [http://macpostgresclient.com/]SQLPro for Postgres - Simple,
+       powerful PostgreSQL manager for macOS (Commercial Software).
+     * [https://github.com/dalibo/temboard]temBoard - Web-based PostgreSQL
+       GUI and monitoring.
+     * [https://warp.one/]Warp - macOS desktop tool for by-example
+       querying and data transfer from/to PostgreSQL (Commercial
+       Software).
+     * [https://tableplus.io/]TablePlus - Native App which let you edit
+       database and structure. High-end security ensured (Commercial
+       Software).
+     * [https://www.valentina-db.com/en/valentina-studio-overview]Valentin
+       a Studio - Cross-platform database administration tool
+       (Free/Commercial)
+
+Distributions
+
+     * [http://postgresapp.com/]Postgres.app - The Easiest Way to Get
+       Started with PostgreSQL on macOS.
+     * [https://github.com/mihasic/PostgreSql.Binaries.Lite]PostgreSql.Bin
+       aries.Lite - Minimum set of Windows binaries of the PostgreSQL
+       database. Also made available through NuGet.
+
+CLI
+
+     * [https://github.com/dbcli/pgcli]pgcli - Postgres CLI with
+       autocompletion and syntax highlighting
+     * [https://www.postgresql.org/docs/current/static/app-psql.html]psql
+       - The built-in PostgreSQL CLI client
+     * [https://github.com/fphilipe/psql2csv]psql2csv - Run a query in
+       psql and output the result as CSV
+
+Server
+
+     * [https://www.postgres-xl.org/]Postgres-XL - Scalable Open Source
+       PostgreSQL-based Database Cluster.
+     * [https://github.com/citusdata/citus]Citus - Scalable PostgreSQL
+       cluster for real-time workloads.
+     * [https://www.pipelinedb.com/]PipelineDB - Open source streaming SQL
+       database, fork of postgres
+
+Monitoring
+
+     * [https://github.com/OPMDG/check_pgactivity]check_pgactivity -
+       check_pgactivity is designed to monitor PostgreSQL clusters from
+       Nagios. It offers many options to measure and monitor useful
+       performance metrics.
+     * [https://github.com/bucardo/check_postgres]Check_postgres - Nagios
+       check_postgres plugin for checking status of PostgreSQL databases.
+     * [https://github.com/Instrumental/instrumentald]Instrumental -
+       Real-time performance monitoring, including
+       [https://instrumentalapp.com/docs/instrumentald/postgresql#suggeste
+       d-graphs]pre-made graphs for ease of setup (Commercial Software)
+     * [https://github.com/cavaliercoder/libzbxpgsql]libzbxpgsql -
+       Comprehensive PostgreSQL monitoring module for Zabbix.
+     * [https://github.com/rach/pome]Pome - Pome stands for PostgreSQL
+       Metrics. Pome is a PostgreSQL Metrics Dashboard to keep track of
+       the health of your database.
+     * [https://github.com/zalando/pg_view]pg_view - Open-source
+       command-line tool that shows global system stats, per-partition
+       information, memory stats and other information.
+     * [https://github.com/cybertec-postgresql/pgwatch2]pgwatch2 -
+       Flexible and easy to get started PostgreSQL metrics monitor
+       focusing on Grafana dashboards.
+     * [https://www.postgresql.org/docs/devel/static/pgbench.html]pgbench
+       - Run a benchmark test on PostgreSQL.
+     * [http://opm.io/]opm.io - Open PostgreSQL Monitoring is a free
+       software suite designed to help you manage your PostgreSQL servers.
+       It can gather stats, display dashboards and send warnings when
+       something goes wrong.
+
+Extensions
+
+     * [https://github.com/citusdata/cstore_fdw]cstore_fdw - Columnar
+       store for analytics with PostgreSQL.
+     * [https://pgxn.org/dist/cyanaudit/]cyanaudit - Cyan Audit provides
+       in-database logging of all DML activity on a column-by-column
+       basis.
+     * [https://github.com/2ndQuadrant/pglogical]pglogical - Extension
+       that provides logical streaming replication.
+     * [https://github.com/keithf4/pg_partman]pg_partman - Partition
+       management extension for PostgreSQL.
+     * [https://github.com/citusdata/pg_paxos/]pg_paxos - Basic
+       implementation of Paxos and Paxos-based table replication for a
+       cluster of PostgreSQL nodes.
+     * [https://github.com/citusdata/pg_shard]pg_shard - Extension to
+       scale out real-time reads and writes.
+     * [https://wiki.postgresql.org/wiki/PGStrom]PGStrom - Extension to
+       offload CPU intensive workloads to GPU.
+     * [https://pgxn.org/]pgxn PostgreSQL Extension Network - central
+       distribution point for many open-source PostgreSQL extensions
+     * [https://github.com/okbob/plpgsql_check]plpgsql_check - Extension
+       that allows to check plpgsql source code.
+     * [http://postgis.net/]PostGIS - Spatial and Geographic objects for
+       PostgreSQL.
+     * [https://github.com/cossacklabs/pg_themis]PG_Themis - Postgres
+       binding as extension for crypto library Themis, providing various
+       security services on PgSQL's side.
+     * [https://github.com/zombodb/zombodb]zomboDB - Extension that
+       enables efficient full-text searching via the use of indexes backed
+       by Elasticsearch.
+     * [https://github.com/pgMemento/pgMemento]pgMemento - Provides an
+       audit trail for your data inside a PostgreSQL database using
+       triggers and server-side functions written in PL/pgSQL.
+     * [https://www.timescale.com/]Timescale - Open-source time-series
+       database fully compatible with Postgres, distributed as extension
+     * [http://pgtap.org/]pgTAP - Database testing framework for Postgres
+     * [https://github.com/dalibo/hypopg]HypoPG - HypoPG provides
+       hypothetical/virtual indexes feature.
+
+Optimization
+
+     * [https://github.com/ankane/pghero]PgHero - PostgreSQL insights made
+       easy.
+     * [https://github.com/gregs1104/pgtune/]pgtune - PostgreSQL
+       configuration wizard.
+     * [https://github.com/le0pard/pgtune]pgtune - Online version of
+       PostgreSQL configuration wizard.
+     * [https://github.com/sebastianwebber/pgconfig]pgconfig.org -
+       PostgreSQL Online Configuration Tool (also based on pgtune).
+     * [http://dalibo.github.io/powa/]PoWA - PostgreSQL Workload Analyzer
+       gathers performance stats and provides real-time charts and graphs
+       to help monitor and tune your PostgreSQL servers.
+     * [https://github.com/kirs/pg_web_stats]pg_web_stats - Web UI to view
+       pg_stat_statements.
+
+Utilities
+
+     * [https://www.apgdiff.com/]apgdiff - Compares two database dump
+       files and creates output with DDL statements that can be used to
+       update old database schema to new one.
+     * [https://github.com/Alexis-benoist/eralchemy]ERAlchemy - ERAlchemy
+       generates Entity Relation (ER) diagram from databases.
+     * [https://github.com/dalibo/ldap2pg]ldap2pg - Synchronize roles and
+       privileges from YML and LDAP.
+     * [https://github.com/lanyrd/mysql-postgresql-converter]mysql-postgre
+       sql-converter - Lanyrd's MySQL to PostgreSQL conversion script.
+     * [http://ora2pg.darold.net/]ora2pg - Perl module to export an Oracle
+       database schema to a PostgreSQL compatible schema.
+     * [https://github.com/julmon/pg_activity]pg_activity - top like
+       application for PostgreSQL server activity monitoring.
+     * [https://github.com/gajus/pg-formatter]pg-formatter - A PostgreSQL
+       SQL syntax beautifier (Node.js).
+     * [https://pganalyze.com/]pganalyze - PostgreSQL Performance
+       Monitoring (Commercial Software).
+     * [https://github.com/dalibo/pgbadger]pgbadger - Fast PostgreSQL Log
+       Analyzer.
+     * [http://pgbouncer.github.io/]PgBouncer - Lightweight connection
+       pooler for PostgreSQL.
+     * [https://github.com/lesovsky/pgcenter]pgCenter - Provides
+       convenient interface to various statistics, management task,
+       reloading services, viewing log files and canceling or terminating
+       database backends.
+     * [https://github.com/lukasmartinelli/pgclimb]pgclimb - Export data
+       from PostgreSQL into different data formats.
+     * [https://github.com/lukasmartinelli/pgfutter]pgfutter - Import CSV
+       and JSON into PostgreSQL the easy way.
+     * [http://pginsight.io/]PGInsight - CLI tool to easily dig deep
+       inside your PostgreSQL database.
+     * [https://github.com/dimitri/pgloader]pgloader - Loads data into
+       PostgreSQL using the COPY streaming protocol, and does so with
+       separate threads for reading and writing data.
+     * [http://www.pgpool.net/mediawiki/index.php/Main_Page]pgpool-II -
+       Middleware that provides connection pooling, replication, load
+       balancing and limiting exceeding connections.
+     * [https://github.com/ankane/pgsync]pgsync - Tool to sync PostgreSQL
+       data to your local machine.
+     * [https://github.com/dvarrazzo/pgxnclient]PGXN client - Command line
+       tool to interact with the PostgreSQL Extension Network
+     * [https://github.com/spotify/postgresql-metrics]postgresql-metrics -
+       Tool that extracts and provides metrics for your PostgreSQL
+       database.
+     * [https://github.com/begriffs/postgrest]PostgREST - Serves a fully
+       RESTful API from any existing PostgreSQL database.
+     * [https://github.com/prest/prest]pREST - Serve a RESTful API from
+       any PostgreSQL database (Golang)
+     * [https://github.com/postgraphql/postgraphql]PostGraphQL - A GraphQL
+       schema created by reflection over a PostgreSQL schema.
+     * [https://github.com/nanopack/yoke]yoke - PostgreSQL
+       high-availability cluster with auto-failover and automated cluster
+       recovery.
+     * [https://github.com/kabirbaidhya/pglistend]pglistend - A
+       lightweight PostgresSQL LISTEN/NOTIFY daemon built on top of
+       node-postgres.
+     * [https://github.com/postgrespro/zson]ZSON - PostgreSQL extension
+       for transparent JSONB compression
+     * [http://ossc-db.github.io/pg_bulkload/index.html]pg_bulkload - It's
+       a high speed data loading utility for PostgreSQL.
+     * [https://github.com/jwdeitch/pg_migrate]pg_migrate - Manage
+       PostgreSQL codebases and make VCS simple.
+     * [https://github.com/theory/sqitch]sqitch - Tool for managing
+       versioned schema deployment
+     * [https://github.com/yandex/pgmigrate]pgmigrate - CLI tool to evolve
+       schema migrations, developed by Yandex.
+     * [https://github.com/cbbrowne/pgcmp]pgcmp - Tool to compare database
+       schemas, with capability to accept some persistent differences
+
+Language bindings
+
+     * Common Lisp: [https://github.com/marijnh/Postmodern]Postmodern
+     * Elixir: [https://github.com/elixir-ecto/postgrex]postgrex
+     * Go: [https://github.com/jackc/pgx]pgx
+     * Java: [https://jdbc.postgresql.org/]PostgreSQL JDBC Driver
+     * .Net/.Net Core: [https://github.com/npgsql/npgsql]Npgsql
+     * Node: [https://github.com/brianc/node-postgres]node-postgres,
+       [https://github.com/vitaly-t/pg-promise]pg-promise
+     * Perl: [http://search.cpan.org/%7Eturnstep/DBD-Pg/Pg.pm]DBD-Pg
+     * PHP: [http://www.pomm-project.org/]Pomm,
+       [https://github.com/m6w6/ext-pq]pecl/pq
+     * Python: [https://pypi.python.org/pypi/psycopg2]psycopg2
+     * Ruby: [https://bitbucket.org/ged/ruby-pg/wiki/Home]pg
+     * Rust: [https://github.com/sfackler/rust-postgres]rust-postgresql
+     * Lua: [https://github.com/arcapos/luapgsql]luapgsql
+
+Tutorials
+
+     * [https://coderwall.com/p/cwe2_a/backup-and-recover-a-postgres-db-us
+       ing-wal-e]Backup and recover a PostgreSQL DB using wal-e - Tutorial
+       about setting up continuous archiving in PostgreSQL using wal-e.
+     * [https://www.pgcasts.com/]PG Casts - Free weekly PostgreSQL
+       screencasts by Hashrocket.
+     * [http://postgresguide.com/]Postgres Guide - Guide designed as an
+       aid for beginners and experienced users to find specific tips and
+       explore tools available within PostgreSQL.
+     * [https://pgexercises.com/]PostgreSQL Exercises - Site to make it
+       easy to learn PostgreSQL by doing exercises.
+     * [http://www.tutorialspoint.com/postgresql/]tutorialspoint
+       PostgreSQL tutorial - Very extensive collection of tutorials on
+       PostgreSQL
+     * [https://github.com/morenoh149/postgresDBSamples]postgresDBSamples
+       - A collection of sample postgres schemas
+     * [https://zaiste.net/posts/postgresql_primer_for_busy_people/]Postgr
+       eSQL Primer for Busy People - A collection of the most common
+       commands used in PostgreSQL
+
+Blogs
+
+     * [https://planet.postgresql.org/]Planet PostgreSQL - Blog
+       aggregation service for PostgreSQL.
+     * [http://adpgtech.blogspot.ru/search/label/PostgreSQL/]Andrew
+       Dunstan's PostgreSQL and Technical blog
+     * [http://momjian.us/main/blogs/pgblog.html]Bruce Momjian's
+       PostgreSQL blog
+     * [http://www.craigkerstiens.com/categories/postgres/]Craig Kerstiens
+       PostgreSQL posts - Set of posts on PostgreSQL cool features, tips
+       and tricks.
+     * [http://www.databasesoup.com/search/label/postgresql/]Database Soup
+       - Josh Berkus' blog.
+     * [http://paquier.xyz/]Michael Paquier's blog
+     * [http://rhaas.blogspot.ru/search/label/postgresql/]Robert Haas'
+       blog
+     * [https://www.depesz.com/tag/postgresql/]select * from depesz; -
+       Hubert Lubaczewski's blog.
+
+Articles
+
+     * [https://www.compose.com/articles/what-postgresql-has-over-other-op
+       en-source-sql-databases/]What PostgreSQL has over other open source
+       SQL databases: Part I
+     * [https://www.justwatch.com/blog/post/debugging-postgresql-performan
+       ce-the-hard-way/]Debugging PostgreSQL performance, the hard way
+     * [http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-l
+       ater/]Why use Postgres?
+     * [https://infinum.co/the-capsized-eight/superfast-csv-imports-using-
+       postgresqls-copy]Superfast CSV imports using PostgreSQL's COPY
+       command
+
+Newsletters
+
+     * [https://postgresweekly.com/]Postgres Weekly - Weekly newsletter
+       that contains articles, news, and repos relevant to PostgreSQL.
+
+PaaS (PostgreSQL as a Service)
+
+     * [https://aiven.io/postgresql]Aiven PostgreSQL - PostgreSQL as a
+       service in AWS, Azure, DigitalOcean, Google Cloud and UpCloud;
+       plans range from $19/month single node instances to large
+       highly-available setups, free trial for two weeks.
+     * [https://aws.amazon.com/rds/postgresql/]Amazon RDS for PostgreSQL -
+       Amazon Relational Database Service (RDS) for PostgreSQL
+     * [https://www.citusdata.com/product/cloud]Citus Cloud - Production
+       grade scaled out PostgreSQL as a service enabling real-time
+       workloads and sharding your multi-tenant apps.
+     * [https://www.databaselabs.io/]Database Labs - Get a
+       production-ready cloud PostgreSQL server in minutes, from $20 a
+       month Backups, monitoring, patches, and 24/7 tech support all
+       included.
+     * [https://www.elephantsql.com/]ElephantSQL - Offers databases
+       ranging from shared servers for smaller projects and proof of
+       concepts, up to enterprise grade multi server setups. Has free plan
+       for up to 5 DBs, 20 MB each.
+     * [https://cloud.google.com/sql/docs/postgres/]Google Cloud SQL for
+       PostgreSQL - Fully-managed database service that makes it easy to
+       set up, maintain, manage, and administer your PostgreSQL relational
+       databases on Google Cloud Platform. (Beta)
+     * [https://elements.heroku.com/addons/heroku-postgresql]Heroku
+       Postgres - Plans from free to huge, operated by PostgreSQL experts.
+       Does not require running your app on Heroku. Free plan includes
+       10,000 rows, 20 connections, up to two backups, and has PostGIS
+       support.
+
+Docker images
+
+     * [https://hub.docker.com/r/citusdata/citus/]citusdata/citus - Citus
+       official images with citus extensions. Based on the official
+       Postgres container.
+     * [https://hub.docker.com/r/mdillon/postgis/]mdillon/postgis -
+       PostGIS 2.3 on Postgres 9. Based on the official Postgres
+       container.
+     * [https://hub.docker.com/_/postgres/]postgres - Official postgres
+       container (from Docker)
+
+Videos
+
+     * [https://www.youtube.com/channel/UC8jpoK1BqQhDh6HDGFnM_DA/videos]Ci
+       tus Data Youtube chanel - Citus related videos
+     * [https://www.youtube.com/channel/UCkIPoYyNr1OHgTo0KwE9HJw]Enterpris
+       eDB Youtube chanel - EnterpriseDB related videos
+     * [https://www.youtube.com/pgconfus/]PGConf US Youtube chanel -
+       Conference videos
+
+     * © 2018 GitHub, Inc.
+     * [https://github.com/site/terms]Terms
+     * [https://github.com/site/privacy]Privacy
+     * [https://help.github.com/articles/github-security/]Security
+     * [https://status.github.com/]Status
+     * [https://help.github.com/]Help
+
+   [https://github.com/]
+     * [https://github.com/contact]Contact GitHub
+     * [https://developer.github.com/]API
+     * [https://training.github.com/]Training
+     * [https://shop.github.com/]Shop
+     * [https://blog.github.com/]Blog
+     * [https://github.com/about]About
+
+   (BUTTON) You can't perform that action at this time.
+
+   You signed in with another tab or window.
+   
+   Reload to refresh your session. You signed out in another tab or
+   window.
+   
+   Reload to refresh your session.
+
+   (BUTTON)
+
+   Press h to open a hovercard with more details.

@@ -1,0 +1,977 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - sindresorhus/amas: Awesome &amp; Marvelous Amas</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/170270?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="sindresorhus/amas" /><meta property="og:url" content="https://github.com/sindresorhus/amas" /><meta property="og:description" content="amas - Awesome &amp; Marvelous Amas" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E294:5D4F:3131C9B:58B9105:5AD2F76D" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E294:5D4F:3131C9B:58B9105:5AD2F76D" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MzJmZTliOTdkM2ZjZjg2NDBmMDY1NTU2YzY4OWMyM2QzYzYyZGY5YmY0MDk4YTk0ZjIzY2Q2MzFkNzUyYmRhYnx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTI5NDo1RDRGOjMxMzFDOUI6NThCOTEwNTo1QUQyRjc2RCIsInRpbWVzdGFtcCI6MTUyMzc3NTM0MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="cc685d9ad826d4702543d23d123aeb724f35e130">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/sindresorhus/amas/commits/master.atom" rel="alternate" title="Recent Commits to amas:master" type="application/atom+xml">
+
+  <meta name="description" content="amas - Awesome &amp; Marvelous Amas">
+  <meta name="go-import" content="github.com/sindresorhus/amas git https://github.com/sindresorhus/amas.git">
+
+  <meta name="octolytics-dimension-user_id" content="170270" /><meta name="octolytics-dimension-user_login" content="sindresorhus" /><meta name="octolytics-dimension-repository_id" content="38531345" /><meta name="octolytics-dimension-repository_nwo" content="sindresorhus/amas" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="38531345" /><meta name="octolytics-dimension-repository_network_root_nwo" content="sindresorhus/amas" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/sindresorhus/amas" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/sindresorhus/amas/search" data-unscoped-search-url="/search" action="/sindresorhus/amas/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/sindresorhus/amas">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Fsindresorhus%2Famas" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Fsindresorhus%2Famas"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/sindresorhus/amas/watchers"
+     aria-label="43 users are watching this repository">
+    43
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fsindresorhus%2Famas"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/sindresorhus/amas/stargazers"
+      aria-label="945 users starred this repository">
+      945
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fsindresorhus%2Famas"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/sindresorhus/amas/network" class="social-count"
+       aria-label="180 users forked this repository">
+      180
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/sindresorhus">sindresorhus</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/sindresorhus/amas">amas</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /sindresorhus/amas" href="/sindresorhus/amas">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /sindresorhus/amas/issues" href="/sindresorhus/amas/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /sindresorhus/amas/pulls" href="/sindresorhus/amas/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">1</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /sindresorhus/amas/pulse" href="/sindresorhus/amas/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tCCdsB+IMQxzWWlETtur5NJs0AaVQ/JHvgmi/skDSzMAzgfRoXYC4J/0ihIgYKmmtBlWU0RtsW7NOs+p79zBuA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            Awesome &amp; Marvelous Amas
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/sindresorhus/amas/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/ama" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ama">
+        ama
+      </a>
+      <a href="/topics/ask-me-anything" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ask-me-anything">
+        ask-me-anything
+      </a>
+      <a href="/topics/question-answering" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:question-answering">
+        question-answering
+      </a>
+      <a href="/topics/meta" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:meta">
+        meta
+      </a>
+      <a href="/topics/ask" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ask">
+        ask
+      </a>
+      <a href="/topics/list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:list">
+        list
+      </a>
+      <a href="/topics/awesome" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome">
+        awesome
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary ">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/sindresorhus/amas/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                237
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/sindresorhus/amas/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/sindresorhus/amas/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/sindresorhus/amas/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      155
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/sindresorhus/amas.git" aria-label="Clone this repository at https://github.com/sindresorhus/amas.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/sindresorhus/amas.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/sindresorhus/amas/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/sindresorhus/amas/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/sindresorhus/amas/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/sindresorhus/amas/tree-commit/e3fa8adcd6ab758ebc0de25cbfef88094c782068" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/sindresorhus/amas/tree/e3fa8adcd6ab758ebc0de25cbfef88094c782068">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".editorconfig" id="1e70daafb475c0ce3fef7d2728279182-92318180cd2471ddeaf99a0ad74d7200a4bfb709" href="/sindresorhus/amas/blob/master/.editorconfig">.editorconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="init" class="message" href="/sindresorhus/amas/commit/5b06ec8115f13c80ab38e2f0b87de8ae0b03057e">init</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-07-04T11:19:38Z">Jul 4, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitattributes" id="fc723d30b02a4cca7a534518111c1a66-176a458f94e0ea5272ce67c36bf30b6be9caf623" href="/sindresorhus/amas/blob/master/.gitattributes">.gitattributes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="init" class="message" href="/sindresorhus/amas/commit/5b06ec8115f13c80ab38e2f0b87de8ae0b03057e">init</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-07-04T11:19:38Z">Jul 4, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="contributing.md" id="cc4aac3e9be04e0413c9520f223b493c-13be609cb8c64c0f353b26de478acd74148c00f7" href="/sindresorhus/amas/blob/master/contributing.md">contributing.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Tweak Readme to remove things for Lists of Awesome Lists. (#144)" class="message" href="/sindresorhus/amas/commit/316391cc3f6eec850f892fba5a19157a575bce03">Tweak Readme to remove things for Lists of Awesome Lists. (</a><a href="https://github.com/sindresorhus/amas/pull/144" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="189335753" data-permission-text="Issue title is private" data-url="https://github.com/sindresorhus/amas/issues/144">#144</a><a data-pjax="true" title="Tweak Readme to remove things for Lists of Awesome Lists. (#144)" class="message" href="/sindresorhus/amas/commit/316391cc3f6eec850f892fba5a19157a575bce03">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-11-15T09:11:48Z">Nov 15, 2016</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="create-ama.md" id="5de674bfab74e9af7f84eca656c63048-65ff805c30bfff44e320758f5f8d5a8d31a80511" href="/sindresorhus/amas/blob/master/create-ama.md">create-ama.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Update create-ama.md" class="message" href="/sindresorhus/amas/commit/db4aa717c87652c7fd620146775f2415113715b1">Update create-ama.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-07T17:23:38Z">Oct 7, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="readme.md" id="0730bb7c2e8f9ea2438b52e419dd86c9-7f80592fdbb900a2cf211baaf49feb3c58c4baa2" href="/sindresorhus/amas/blob/master/readme.md">readme.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add Chaitanya Giri (#194)" class="message" href="/sindresorhus/amas/commit/e3fa8adcd6ab758ebc0de25cbfef88094c782068">Add Chaitanya Giri (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="312212336" data-permission-text="Issue title is private" data-url="https://github.com/sindresorhus/amas/issues/194" href="https://github.com/sindresorhus/amas/pull/194">#194</a><a data-pjax="true" title="Add Chaitanya Giri (#194)" class="message" href="/sindresorhus/amas/commit/e3fa8adcd6ab758ebc0de25cbfef88094c782068">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-08T08:43:48Z">Apr 8, 2018</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      readme.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome--marvelous-amas-" class="anchor" aria-hidden="true" href="#awesome--marvelous-amas-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome &amp; Marvelous Amas <a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="Awesome" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a></h1>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Reddit#IAmA_and_AMA" rel="nofollow">AMA</a> → Ask Me Anything</p>
+</blockquote>
+<h4><a id="user-content-ask-these-people-anything" class="anchor" aria-hidden="true" href="#ask-these-people-anything"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ask these people anything!</h4>
+<ul>
+<li><a href="https://github.com/sindresorhus/ama">Sindre Sorhus</a> - Aspiring rebel. Fabulously quirky. Creator of <a href="https://ava.li" rel="nofollow">AVA</a>, <a href="http://todomvc.com" rel="nofollow">TodoMVC</a>, <a href="http://yeoman.io" rel="nofollow">Yeoman</a>.</li>
+<li><a href="https://github.com/passy/ama">Pascal Hartig</a> - Polyglot. Engineer at Twitter. Contributor to Yeoman, TodoMVC, WSK.</li>
+<li><a href="https://github.com/stephenplusplus/ama">Stephen Sawchuk</a> - Just having fun. Creator of wiredep, youmeyou. Helper of ^.</li>
+<li><a href="https://github.com/mdo/ama">Mark Otto</a> - Designer at GitHub. Creator of Bootstrap.</li>
+<li><a href="https://github.com/holman/feedback">Zach Holman</a> - Developer and speaker. Previously worked at GitHub.</li>
+<li><a href="https://github.com/kentcdodds/ama">Kent C. Dodds</a> - JavaScript dev, open source contributor, community builder, and speaker.</li>
+<li><a href="https://github.com/SBoudrias/ama">Simon Boudrias</a> - Yeoman, Inquirer.js and a bunch of other node modules. Software engineer at Yelp.</li>
+<li><a href="https://github.com/jedireza/ama">Reza Akhavan</a> - Engineer at Mozilla. Co-organizer at NodeSchoolSF. Creator of Drywall, Frame, Aqua.</li>
+<li><a href="https://github.com/wesbos/ama">Wes Bos</a> - Full stack developer, independent author, speaker, teacher and JavaScripter.</li>
+<li><a href="https://github.com/anselmh/AMA">Anselm Hannemann</a> - Freelance front-end developer, author of WDRL, co-organizer of Nightlybuild.io.</li>
+<li><a href="https://github.com/blainsmith/ama">Blain Smith</a> - Partner/Engineer at MadGlory and Odd Networks. Rebel Geek.</li>
+<li><a href="https://github.com/lewiscowper/ama">Lewis Cowper</a> - Former forklift driver. Now web developer.</li>
+<li><a href="https://github.com/bwinton/ama">Blake Winton</a> - UX Engineer for Mozilla Firefox, and the author of Whimsy.</li>
+<li><a href="https://github.com/darrinhenein/ama">Darrin Henein</a> - Design Lead for Firefox Mobile at Mozilla, creator of Lastronaut.</li>
+<li><a href="https://github.com/cassiemc/ama">Cassie McDaniel</a> - Design Director for Mozilla Foundation, cofounder of Women&amp;&amp;Tech, speaker and writer.</li>
+<li><a href="https://github.com/DIYgod/ama">Wenjie Fan</a> - Front-end engineer for Linux Deepin, blogger of anotherhome.net.</li>
+<li><a href="https://github.com/xem/ama">Maxime Euzière</a> - Front-end hacker and JS code-golfer.</li>
+<li><a href="https://github.com/operatino/ama">Robert Haritonov</a> - Front-end team lead, <a href="http://sourcejs.com" rel="nofollow">SourceJS</a> maintainer and Living Style Guide evangelist.</li>
+<li><a href="https://github.com/cheeaun/ama">Lim Chee Aun</a> - Product engineer. GitHub stargazer. Anime lover.</li>
+<li><a href="https://github.com/darcyclarke/ama">Darcy Clarke</a> - Developer, Designer, Founder, Mentor &amp; Speaker.</li>
+<li><a href="https://github.com/hackerkid/ama">Vishnu Ks</a> - Student at IIIT Allahabad. Experimentalist.</li>
+<li><a href="https://github.com/nickdesaulniers/ama">Nick Desaulniers</a> - Open Source Zealot at Mozilla.</li>
+<li><a href="https://github.com/hhsnopek/ama">Henry Snopek</a> - Front-end developer, university student.</li>
+<li><a href="https://github.com/mikolalysenko/ama">Mikola Lysenko</a> - Geometry vagrant.</li>
+<li><a href="https://github.com/drewminns/ama">Drew Minns</a> - Designer/Developer and Educator. Lead Developer and Instructor with <a href="http://hackeryou.com" rel="nofollow">HackerYou</a>.</li>
+<li><a href="https://github.com/heatherpayne/ama">Heather Payne</a> - CEO of <a href="http://hackeryou.com" rel="nofollow">HackerYou</a>, founder of <a href="http://ladieslearningcode.com" rel="nofollow">Ladies Learning Code</a>.</li>
+<li><a href="https://github.com/Rchristiani/ama">Ryan Christiani</a> - Lead Instructor and Developer at <a href="http://hackeryou.com" rel="nofollow">HackerYou</a> in Toronto.</li>
+<li><a href="https://github.com/ahmadnassri/ama">Ahmad Nassri</a> - Head of Engineering at <a href="https://www.mashape.com" rel="nofollow">Mashape</a>. Technology Entrepreneur &amp; Dog Lover. Toronto ✈ San Francisco.</li>
+<li><a href="https://github.com/partydelgado/ama">Patty Delgado</a> - Engineering lead at <a href="http://www.refinery29.com" rel="nofollow">Refinery29</a>. Avid mentor and developer evangelist, especially for women and minorities.</li>
+<li><a href="https://github.com/nzakas/ama">Nicholas C. Zakas</a> - Architect at Box, author, creator of ESLint.</li>
+<li><a href="https://github.com/indigofeather/ama">Lance He</a> - Full stack developer and speaker.</li>
+<li><a href="https://github.com/derickbailey/ama">Derick Bailey</a> - Developer and entrepreneur, <a href="http://derickbailey.com/publications" rel="nofollow">author</a> and <a href="http://watchmecode.com" rel="nofollow">screencaster</a>.</li>
+<li><a href="https://github.com/lambtron/ama/">Andy Jiang</a> - Customer Acquisition and Evangelist at <a href="https://segment.com" rel="nofollow">Segment</a>, maker of <a href="http://blog.andyjiang.com" rel="nofollow">things</a>.</li>
+<li><a href="https://github.com/virtueme/ama/">Benny Thomas</a> - Full stack developer caring about children reading.</li>
+<li><a href="https://github.com/sebmck/ama">Sebastian McKenzie</a> - Creator of Babel.</li>
+<li><a href="https://github.com/rishabhp/ama">Rishabh Pugalia</a> - Full stack engineer. Creator of <a href="http://cssdeck.com" rel="nofollow">CSSDeck</a>.</li>
+<li><a href="https://github.com/matthewmueller/ama">Matthew Mueller</a> - Creator of Cheerio, Duo, and a few other node modules.</li>
+<li><a href="https://github.com/insanehong/ama">DeokHong Kim</a> - Front-end engineer at NAVER, founder of <a href="https://github.com/hackrslab">hackrslab</a>.</li>
+<li><a href="https://github.com/hugogiraudel/ama">Hugo Giraudel</a> - CSS goblin, Sass hacker, margin psycho.</li>
+<li><a href="https://github.com/wbinnssmith/ama">Will Binns-Smith</a> - JavaScript at Bitbucket. Makes internet things.</li>
+<li><a href="https://github.com/mollikka/ama">Lauri Tervonen</a> - CS &amp; SE university student in Finland.</li>
+<li><a href="https://github.com/silvenon/ama">Matija Marohnić</a> - From modding Warcraft to frontend design/development and nerdiness for Node.js build tools.</li>
+<li><a href="https://github.com/shama/ama">Kyle Robinson Young</a> - Makes stuff and likes bears.</li>
+<li><a href="https://github.com/therebelrobot/ama">Trent Oswald</a> - Maker of web things <a href="http://mashape.com" rel="nofollow">@Mashape</a> and <a href="https://github.com/nodejs/iojs.org">nodejs/website</a>.</li>
+<li><a href="https://github.com/una/ama">Una Kravets</a> - Front-end developer, Sass things, Dev communities &amp; Open Source Design.</li>
+<li><a href="https://github.com/chrismissal/ama">Chris Missal</a> - Maker of Internet things in Austin, TX. A goofball, nerd, and OSS lover.</li>
+<li><a href="https://github.com/najela/ama">Acho Arnold</a> - Full stack web developer with great passion in <a href="https://en.wikipedia.org/wiki/Social_psychology" rel="nofollow">Social Psychology</a>.</li>
+<li><a href="https://github.com/robbbz/ama">Rob Furlong</a> - Maker of cool things with the web, freelancer.</li>
+<li><a href="https://github.com/tenhobi/ama">Honza Bittner</a> - Student at <a href="http://fit.cvut.cz/en" rel="nofollow">FIT CTU</a>, Dart lover.</li>
+<li><a href="https://github.com/jansanchez/ama">Jan Sanchez</a> - Front-end developer. Creator of css-url-versioner, open source contributor.</li>
+<li><a href="https://github.com/AdrianArroyoCalle/ama">Adrián Arroyo Calle</a> - Currently a student in Spain doing any kind of development which uses C++, Rust, JavaScript and TypeScript.</li>
+<li><a href="https://github.com/RichardLitt/ama">Richard Littauer</a> - Full stack developer, linguist, and sometime digital nomad. Creating with the MIT Media Lab, wrote the Na'vi Dictionary, NodeSchool organizer, The User Is Drunk.</li>
+<li><a href="https://github.com/Widdershin/ama">Nick Johnstone</a> - Web developer from New Zealand, currently working as a Rails developer full-time. As a side project, I'm making a tool for developing games with no coding required.</li>
+<li><a href="https://github.com/Qix-/ama">JD Ballard</a> - Idaho native, Chalk collaborator, sunshine burns us. Likes hypotheticals, dislikes bees.</li>
+<li><a href="https://github.com/tunnckoCore/ama">Charlike Mike Reagent</a> - Passionate full stack developer, hacking on <a href="https://www.archlinux.org/" rel="nofollow">ArchLinux</a>. Perfectionist. Revolutionist. Founder of <a href="https://github.com/regexhq">@RegexHQ</a>, core member at <a href="https://github.com/jstransformers">@JSTransformers</a> and part of <a href="https://twitter.com/dwylhq" rel="nofollow">@dwylhq</a>.</li>
+<li><a href="https://github.com/mamal72/ama">Mohamad Jahani</a> - Software developer from Iran, mostly working on web backends, *nix servers, electronic devices and most cool stuff you can imagine! A knowledge addict, who's reading and working 24/7.</li>
+<li><a href="https://github.com/incanus/ama">Justin Miller</a> - Mobile lead at Mapbox, formerly Code Sorcery Workshop (Pukka/Meerkat), photographer, traveler.</li>
+<li><a href="https://github.com/coderabbi/ama">Yitzchok Willroth</a> - Coder &amp; Rabbi (though seldom at the same time!); Engineering Practice Manager, Grovo; Organizer, ShorePHP &amp; NYPHP; Conference Speaker; Mentor.</li>
+<li><a href="https://github.com/greydnls/ama">Graham Daniels</a> - Sr Software Engineer at <a href="http://refinery29.com" rel="nofollow">Refinery29</a>, US Lead for PHPWomen, Host of #NoCapes, Single dad. Brooklyn, NY.</li>
+<li><a href="https://github.com/jcarouth/ama">Jeff Carouth</a> - Lead Platform Engineer at <a href="http://www.liftopia.com" rel="nofollow">Liftopia</a>, Co-host of the <a href="http://looselycoupled.info" rel="nofollow">Loosely Coupled Podcast</a>, mentor, and conference speaker.</li>
+<li><a href="https://github.com/elazar/amas">Matthew Turland</a> - Full Stack Engineer at <a href="http://wheniwork.com" rel="nofollow">When I Work</a>, author, mentor, and conference speaker.</li>
+<li><a href="https://github.com/svpernova09/ama">Joe Ferguson</a> - PHP Dev, Sys Admin, Community Builder, Conf Organizer &amp; Speaker, Maker, Hacker, Tinkerer, Space Geek, Husband. Enjoys craft beers and whiskey. Owned by cats.</li>
+<li><a href="https://github.com/hafriedlander/ama">Hamish Friedlander</a> - Developer, CTO at <a href="http://www.silverstripe.org" rel="nofollow">SilverStripe</a>, human (presumed).</li>
+<li><a href="https://github.com/dragonmantank/ama">Chris Tankersley</a> - PHP developer, system admin, speaker, teacher, sometimes writer, and I play video games on YouTube.</li>
+<li><a href="https://github.com/deepaknverma/ama">Deepak Verma</a> - Full stack developer at <a href="http://hometrack.com" rel="nofollow">Hometrack Australia</a>, AWS Solution Architect, and passionate about <a href="https://www.flickr.com/photos/deepak-verma" rel="nofollow">photography</a>.</li>
+<li><a href="https://github.com/gaearon/ama">Dan Abramov</a> - JavaScript and React hobbyist, creator of <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> and <a href="https://github.com/rackt/redux">Redux</a>.</li>
+<li><a href="https://github.com/wasabeef/ama">Daichi Furiya</a> - Software developer in Japan. I love Android, JavaScript and iOS.</li>
+<li><a href="https://github.com/MoOx/ama">Maxime Thirouin</a> - Freelance front-end/UI/UX developer. Open Source addict &amp; compulsive coder.</li>
+<li><a href="https://github.com/ChristopherBiscardi/ama">Chris Biscardi</a> - UI lead at <a href="https://www.docker.com/" rel="nofollow">Docker</a>. <a href="https://github.com/future-ui/future-ui">JavaScript</a>. <a href="https://github.com/ChristopherBiscardi/snap-for-beginners">Haskell</a>. Builder of products and tooling.</li>
+<li><a href="https://github.com/mourner/ama">Vladimir Agafonkin</a> - Engineer at <a href="https://www.mapbox.com/" rel="nofollow">Mapbox</a>, creator of <a href="http://leafletjs.com/" rel="nofollow">Leaflet</a> and a bunch of <a href="https://github.com/mourner/projects">other open source libraries</a>. Building the future of interactive maps.</li>
+<li><a href="https://github.com/claudiopro/ama">Claudio Procida</a> - Full stack web developer, mentor, evangelist and speaker. Passionate about painting and photography.</li>
+<li><a href="https://github.com/zenorocha/ama">Zeno Rocha</a> - Developer Advocate at <a href="http://www.liferay.com/" rel="nofollow">Liferay</a>.</li>
+<li><a href="https://github.com/kahlil/ama">Kahlil Lechelt</a> - JavaScript developer, organizes KarlsruheJS, co-host of the <a href="http://descriptive.audio" rel="nofollow">Descriptive Podcast</a> and the <a href="http://reactive.audio" rel="nofollow">Reactive Podcast</a>, vocalist.</li>
+<li><a href="https://github.com/vdemedes/ama">Vadim Demedes</a> - Node.js addict.</li>
+<li><a href="https://github.com/rclanan/ama">Raymond Clanan</a> - Freelance full stack developer at <a href="http://utopianconcept.com/" rel="nofollow">Utopian Concept LLC</a>.</li>
+<li><a href="https://github.com/fengmk2/ama">MK Yuan</a> - Node.js developer at <a href="https://www.alipay.com" rel="nofollow">Alipay</a>.</li>
+<li><a href="https://github.com/honglio/ama">Hong Liu</a> - Freelance full stack web developer and founder of <a href="http://www.niukj.com" rel="nofollow">PresentBook</a>.</li>
+<li><a href="https://github.com/arnaudbenard/ama">Arnaud Benard</a> - Freelance JS developer and digital nomad.</li>
+<li><a href="https://github.com/tonyynot/ama">Anthony Ramella</a> - I went from zero to hired web developer in 5 months. I <a href="http://anthonyramella.com" rel="nofollow">blog</a> about my experiences learning code and working as a junior developer.</li>
+<li><a href="https://github.com/dikiaap/ama">Diki Andriansyah</a> - Freelance full stack developer. Laravel addict.</li>
+<li><a href="https://github.com/steelbrain/ama">Steel Brain</a> - The Rebel™, also a Node.js, PHP and HackLang developer.</li>
+<li><a href="https://github.com/cjpatoilo/ama">CJ Patoilo</a> - Front-end engineer, JavaScript evangelist, <a href="https://github.com/deviofoundation">DEV IO</a> Co-Founder.</li>
+<li><a href="https://github.com/dashersw/ama">Armagan Amcalar</a> - Head of Software Engineering at <a href="http://unumotors.com" rel="nofollow">unu GmbH</a>. Software architect, entrepreneur, conference speaker, mentor, electronics engineer, guitar lover, singer.</li>
+<li><a href="https://github.com/brenopolanski/ama">Breno Polanski</a> - Front-end software engineer at <a href="http://www.meteorite.bi" rel="nofollow">Meteorite BI</a>.</li>
+<li><a href="https://github.com/camilonova/ama">Camilo Nova</a> - Full stack software developer in Colombia.</li>
+<li><a href="https://github.com/maclover7/ama">Jon Moss</a> - Rails developer. Average teen. Member of the Ruby on Rails Issues Team.</li>
+<li><a href="https://github.com/itzsaga/ama">Seth Alexander</a> - Free Code Camper, Burgeoning Dev, all things JavaScript.</li>
+<li><a href="https://github.com/ariya/ama">Ariya Hidayat</a> - VP of Engineering <a href="https://shapesecurity.com/" rel="nofollow">Shape Security</a>, Author of <a href="https://github.com/jquery/esprima">Esprima</a> and <a href="http://phantomjs.org" rel="nofollow">PhantomJS</a>.</li>
+<li><a href="https://github.com/xrobau/ama">Rob Thomas</a> - VoIP Developer, IPv6 and Security Evangelist, DevOps proponent. Currently at <a href="https://www.sangoma.com" rel="nofollow">Sangoma</a>.</li>
+<li><a href="https://github.com/amitmerchant1990/ama">Amit Merchant</a> - Full-stack developer working with JavaScript, PHP and Java.</li>
+<li><a href="https://github.com/woliveiras/ama">William Oliveira</a> - Front-end developer (Brazilian) working with JavaScript, Angular, Stylus, Gulp, Git, etc. Read more about me on <a href="http://woliveiras.com.br" rel="nofollow">my blog</a>.</li>
+<li><a href="https://github.com/unbug/ama">Unbug Lee</a> - Author of <a href="http://www.mihtool.com" rel="nofollow">MIHTool</a> and <a href="http://unbug.github.io/codelf/" rel="nofollow">Codelf</a>.</li>
+<li><a href="https://github.com/tiborsimon/ama">Tibor Simon</a> - Electrical engineer, software geek, DSP, iOS, vimmer, guitarist, biker, runner, <a href="https://tiborsimon.io" rel="nofollow">tiborsimon.io</a>.</li>
+<li><a href="https://github.com/danilovaz/ama">Danilo Vaz</a> - Front-end developer (Brazilian), working at <a href="https://www.mlabs.com.br/" rel="nofollow">mLabs</a> with JavaScript, EmberJS, APIs and other cool stuffs. I'm also <a href="https://github.com/beerjs/sjc">BeerJS/SJC</a> organizer.</li>
+<li><a href="https://github.com/amejiarosario/ama">Adrian Mejia</a> - Software engineer at Cisco. Blogger at <a href="http://adrianmejia.com" rel="nofollow">adrianmejia.com</a>. Author of <a href="https://github.com/amejiarosario/meanshop">"E-commerce Application built with the MEAN stack"</a>. JavaScript lover. Boston located.</li>
+<li><a href="https://github.com/jkup/ama">Jon Kuperman</a> - I love JavaScript! I blog at <a href="https://codeplanet.io" rel="nofollow">Codeplanet</a>, make videos at <a href="https://nodecasts.io" rel="nofollow">Nodecasts</a> and podcast at <a href="https://webbehind.com" rel="nofollow">The Web Behind</a>.</li>
+<li><a href="https://github.com/mxstbr/ama">Max Stoiber</a> - Open source developer advocate at Thinkmill, developing <a href="https://github.com/keystonejs/keystone">KeystoneJS</a> and <a href="https://github.com/elementalui/elemental">ElementalUI</a>. Creator of <a href="https://github.com/mxstbr/react-boilerplate">react-boilerplate</a>, part of React Vienna.</li>
+<li><a href="https://github.com/lencioni/ama">Joe Lencioni</a> - Building <a href="https://github.com/Galooshi/import-js">ImportJS</a> and <a href="https://medium.com/brigade-engineering/the-end-of-visual-regressions-b6b5c3d810f" rel="nofollow">Diffux CI</a>. Web infra at <a href="https://www.airbnb.com" rel="nofollow">Airbnb</a>.</li>
+<li><a href="https://github.com/lindseyb/ama">Lindsey Bieda</a> - Back-end developer, game maker, and hardware hacker.</li>
+<li><a href="https://github.com/jfmengels/ama">Jeroen Engels</a> - JS developer and open source enthusiast.</li>
+<li><a href="https://github.com/smithtimmytim/ama">Tim Smith</a> - Front-end designer, nerd, and recovering coffee addict.</li>
+<li><a href="https://github.com/SamVerschueren/ama">Sam Verschueren</a> - Full stack JavaScript developer and open source contributor.</li>
+<li><a href="https://github.com/Haroenv/ama">Haroen Viaene</a> - Student mostly doing JS, open source everything, creating <g-emoji class="g-emoji" alias="cow" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f42e.png">🐮</g-emoji><g-emoji class="g-emoji" alias="hankey" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a9.png">💩</g-emoji> at <a href="https://bullg.it" rel="nofollow">bullgit</a>.</li>
+<li><a href="https://github.com/arjunmayilvaganan/ama">Arjun Mayilvaganan</a> - Senior Year Student at <a href="https://en.wikipedia.org/wiki/College_of_Engineering,_Guindy" rel="nofollow">CEG</a>. Striving to make it as a Full stack developer.</li>
+<li><a href="https://github.com/kundansingh1/ama">Kundan Singh</a> - Full Stack Javascript Developer, Biker, Traveller, Photographer.</li>
+<li><a href="https://github.com/manovotny/ama">Michael Novotny</a> - JavaScript developer. Open source contributor. Insatiable learner. Standards and best practices enthusiast. Development is a lifestyle, not a job.</li>
+<li><a href="https://github.com/sapegin/ama">Artem Sapegin</a> - Frontend developer at Here, creator of <a href="https://github.com/sapegin/react-styleguidist">React Styleguidist</a> and passionate photographer.</li>
+<li><a href="https://github.com/miduga/ama">Miguel Durán</a> - Developer of things and stuff at Typeform, creator of <a href="https://github.com/miduga/react-slidy">React Slidy</a>. Love videogames, embrace StandardJS. Living in Barcelona.</li>
+<li><a href="https://github.com/elderfo/ama">Chris 'Freddy' Getsfred</a> - Black hoodie aficionado, full-stack developer, JavaScript lover, new open source contributer, former script nerd, former technology instructor.</li>
+<li><a href="https://github.com/sholladay/ama">Seth Holladay</a> - A human seeking a full stack of pancakes and software, bug free.</li>
+<li><a href="https://github.com/nikitavoloboev/ama">Nikita Voloboev</a> - <a href="https://github.com/nikitavoloboev/my-mac-os">macOS enthusiast</a>, <a href="https://github.com/nikitavoloboev/my-notes">open knowledge</a> evangelist, <a href="https://medium.com/@NikitaVoloboev" rel="nofollow">writer</a> and an aspiring web developer.</li>
+<li><a href="https://github.com/SITZ/ama">Sitesh Shrivastava</a> - About Technology, Quantitative Finance, Products &amp; Extreme Sports.</li>
+<li><a href="https://github.com/zachleat/ama">Zach Leatherman</a> - I have a beard sometimes.</li>
+<li><a href="https://github.com/codehakase/ama">Francis Sunday</a> - Software Developer based in Port Harcourt, Nigeria.</li>
+<li><a href="https://github.com/tnorthcutt/ama">Travis Northcutt</a> - Husband, dad, nomad, PHP developer.</li>
+<li><a href="https://github.com/olpeh/ama">Olavi Haapala</a> - Web and mobile developer from Finland.</li>
+<li><a href="https://github.com/manupsunny/ama">Manu Sunny</a> - Indian. ThoughtWorker. Backend Java Developer. Android enthusiast.</li>
+<li><a href="https://github.com/kenwheeler/ama">Ken Wheeler</a> - Professional American. Manchild.</li>
+<li><a href="https://github.com/helenvholmes/ama">Helen V. Holmes</a> - Freelance designer and UI engineer.</li>
+<li><a href="https://github.com/rachelandrew/cssgrid-ama">Rachel Andrew</a> - CSS Grid Ask Me Anything. Rachel Andrew is a UK web developer, writer, public speaker and co-founder of Perch CMS.</li>
+<li><a href="https://github.com/bodrovis/ama">Ilya Bodrov</a> - Author, teacher, consulting developer. Fan of Ruby and Elixir.</li>
+<li><a href="https://github.com/mattseemon/ama">Matt Seemon</a> - Voice-over artist, karaoke jockey, amateur actor, IT enthusiast.</li>
+<li><a href="https://github.com/gauravmehla/ama">Gaurav Mehla</a> - Full-stack developer, JS coder, open source contributor.</li>
+<li><a href="https://github.com/EmpireWorld/ama">Hasan Bayat</a> - Awesome developer. Loves open source.</li>
+<li><a href="https://github.com/shulard/ama">Stéphane Hulard</a> - Open source lover, dad, husband, speaker, teacher, remote worker, full-stack developer who loves playing with PHP.</li>
+<li><a href="https://github.com/shanselman/ama">Scott Hanselman</a> - Teacher, Podcaster, OSCON Chair, Developer, Open Source C# and .NET at Microsoft.</li>
+<li><a href="https://github.com/JuergenGutsch/ama">Jürgen Gutsch</a> - .NET junkie, addicted to web and software development, clean coder, MVP for Visual Studio and Development Technologies.</li>
+<li><a href="https://github.com/elizabethsiegle/ama">Lizzie Siegle</a> - iOS and web developer, developer evangelist, hackathon hacker and judge, <a href="http://sospectra.com" rel="nofollow">Spectra</a> organizer, racially ambiguous.</li>
+<li><a href="https://github.com/chniter/ama">Sami CHNITER</a> - Microsoft Exchange, Office, Skype For Business, PowerShell developer, blogger, and software geek.</li>
+<li><a href="https://M-ZUBER/AMA" rel="nofollow">Mordechai Zuber</a> - Developer, Maintainer, Open Sourcer. Passionate about development.</li>
+<li><a href="https://github.com/Krzysztof-Cieslak/AMA">Krzysztof Cieslak</a> - Software developer, consultant, founder of <a href="http://lambdafactory.io" rel="nofollow">Lambda Factory</a>, author of <a href="http://ionide.io" rel="nofollow">Ionide</a>, <a href="http://forge.run" rel="nofollow">Forge</a>, <a href="https://gitlab.com/Krzysztof-Cieslak/Fornax" rel="nofollow">Fornax</a>, project owner and maintainer of <a href="https://marketplace.visualstudio.com/items?itemName=sbrink.elm" rel="nofollow">VSCode-Elm</a>, contributor to many OSS projects, international speaker.</li>
+<li><a href="https://github.com/benjmin-r/ama">Benjamin Reitzammer</a> - Developer, ex-CTO, Engineering Manager, Communities.</li>
+<li><a href="https://github.com/clarkhacks/ama">Clark Weckmann</a> - Web Developer, Designer, and Programmer. Specializing in small business websites and blogs.</li>
+<li><a href="https://github.com/kevinjalbert/ama">Kevin Jalbert</a> - Software Engineer coding with React/Rails at <a href="http://mobile.thescore.com/careers/" rel="nofollow">theScore</a>.</li>
+<li><a href="https://github.com/SeanKilleen/ama">Sean Killeen</a> - Senior consultant, speaker, tech lead, and .NET Xpert @excellaco. Would love to talk .NET, modernization, distributed systems, public speaking, musical theatre, and really pretty much anything else.</li>
+<li><a href="https://github.com/zommuter/ama">Tobias Kienzler</a> - Physicist, programmer, parent.</li>
+<li><a href="https://github.com/pakastin/ama">Juha Lindstedt</a> - Web architect at <a href="https://www.idid.fi" rel="nofollow">iDiD</a>. Creator of <a href="https://redom.js.org" rel="nofollow">RE:DOM</a>, <a href="https://deck-of-cards.js.org" rel="nofollow">Deck of Cards</a> and other open source projects.</li>
+<li><a href="https://github.com/YoginthS/AMA">Yoginth</a> - Creator of <a href="https://github.com/VotePen">VotePen</a>. Open-source &amp; infrastructure enthusiast. Issue resolver. Loves Spotify and code.</li>
+<li><a href="https://github.com/torifat/ama">Rifat Nabi</a> - Front-end developer and open-source enthusiast.</li>
+<li><a href="https://github.com/eftakhairul/ama">Md Eftakhairul Islam</a> - Software engineer, hacker, open source enthusiast and tech blogger at <a href="https://eftakhairul.com" rel="nofollow">eftakhairul.com</a>.</li>
+<li><a href="https://github.com/chaitanyagiri/ama">Chaitanya Giri</a> - Full-stack developer, JavaScript &lt;3, tabs over spaces, open source enthusiast.</li>
+</ul>
+<h4><a id="user-content-ask-these-organizations-anything" class="anchor" aria-hidden="true" href="#ask-these-organizations-anything"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ask these organizations anything!</h4>
+<ul>
+<li><a href="https://github.com/edenspiekermann/ama">Edenspiekermann</a> - Design agency based in Berlin and around the world.</li>
+<li><a href="https://github.com/codemonkeyhealth/ama">Code Monkey Health</a> - Helping developers and others with tips, tricks, recipes and programs focused on Lifestyle, Exercise, Attitude and Food <a href="http://codemonkeyhealth.com" rel="nofollow">LEAF</a>.</li>
+<li><a href="https://github.com/rubytaiwan/AMA">Ruby Taiwan</a> - Helping developers in Taiwan with any questions. Can ask in English or Chinese.</li>
+<li><a href="https://github.com/DevOpsTW/AMA">DevOps Taiwan</a> - Helping DevOps engineers with any questions.</li>
+<li><a href="https://github.com/vim-tw/ama">Vim Taiwan</a> - Helping vimmers in Taiwan with any questions.</li>
+<li><a href="https://github.com/fromthefront/ama">From the Front</a> - Nonprofit organization behind the "From the Front" conference series in Italy.</li>
+<li><a href="https://github.com/HackCU/ama">HackCU</a> - A collegiate hackathon at the University of Colorado that operates a free bi-annual event for students to learn coding or push their skills building things.</li>
+<li><a href="https://github.com/ansible-tw/ama">Ansible Taiwan</a> - Helping Ansible users in Taiwan with any questions.</li>
+<li><a href="https://github.com/iiitv/aua">IIIT Vadodara</a> - Open-source organization maintained by college students.</li>
+</ul>
+<hr>
+<h4><a id="user-content-create-your-own-ama" class="anchor" aria-hidden="true" href="#create-your-own-ama"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="/sindresorhus/amas/blob/master/create-ama.md">Create your own AMA!</a></h4>
+<hr>
+<p><em>Fun: AMAs is a <a href="https://en.wikipedia.org/wiki/Recursive_acronym" rel="nofollow">recursive acronym</a>.</em></p>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667" alt="CC0" data-canonical-src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="http://sindresorhus.com" rel="nofollow">Sindre Sorhus</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.21275s from unicorn-3835523148-cd71t">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+

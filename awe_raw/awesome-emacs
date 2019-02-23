@@ -1,0 +1,1752 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-592c4aa40e940d1b0607a3cf272916ff.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-96ebb1551fc5dba84c6d2a0fa7b1cfcf.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others.</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/7908858?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="emacs-tw/awesome-emacs" /><meta property="og:url" content="https://github.com/emacs-tw/awesome-emacs" /><meta property="og:description" content="awesome-emacs - A community driven list of useful Emacs packages, libraries and others." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E0D0:5D4F:312B89C:58ADDE2:5AD2F6B0" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E0D0:5D4F:312B89C:58ADDE2:5AD2F6B0" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZWVjNTE4MjE5OWM0MjVjYmRhYzdlMjdmNWJlOTNkNWM0YThhYzU0ZWI2YjZkOTg3NzI1NmMzNDAzODUwMDEyOXx7InJlbW90ZV9hZGRyZXNzIjoiMTA4LjE2OC4zNS4xOTkiLCJyZXF1ZXN0X2lkIjoiRTBEMDo1RDRGOjMxMkI4OUM6NThBRERFMjo1QUQyRjZCMCIsInRpbWVzdGFtcCI6MTUyMzc3NTE1MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="54e824e703f66b34e3f866fcc48cd0700cbc8b1d">
+
+  <meta http-equiv="x-pjax-version" content="402da7acb22ff2e9e7f63736b021d40d">
+  
+
+      <link href="https://github.com/emacs-tw/awesome-emacs/commits/master.atom" rel="alternate" title="Recent Commits to awesome-emacs:master" type="application/atom+xml">
+
+  <meta name="description" content="awesome-emacs - A community driven list of useful Emacs packages, libraries and others.">
+  <meta name="go-import" content="github.com/emacs-tw/awesome-emacs git https://github.com/emacs-tw/awesome-emacs.git">
+
+  <meta name="octolytics-dimension-user_id" content="7908858" /><meta name="octolytics-dimension-user_login" content="emacs-tw" /><meta name="octolytics-dimension-repository_id" content="22493222" /><meta name="octolytics-dimension-repository_nwo" content="emacs-tw/awesome-emacs" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="22493222" /><meta name="octolytics-dimension-repository_network_root_nwo" content="emacs-tw/awesome-emacs" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/emacs-tw/awesome-emacs" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/emacs-tw/awesome-emacs/search" data-unscoped-search-url="/search" action="/emacs-tw/awesome-emacs/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+          <a class="header-search-scope no-underline" href="/emacs-tw/awesome-emacs">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="/login?return_to=%2Femacs-tw%2Fawesome-emacs" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="/login?return_to=%2Femacs-tw%2Fawesome-emacs"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/emacs-tw/awesome-emacs/watchers"
+     aria-label="320 users are watching this repository">
+    320
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Femacs-tw%2Fawesome-emacs"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/emacs-tw/awesome-emacs/stargazers"
+      aria-label="3687 users starred this repository">
+      3,687
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Femacs-tw%2Fawesome-emacs"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/emacs-tw/awesome-emacs/network" class="social-count"
+       aria-label="322 users forked this repository">
+      322
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/emacs-tw">emacs-tw</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/emacs-tw/awesome-emacs">awesome-emacs</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /emacs-tw/awesome-emacs" href="/emacs-tw/awesome-emacs">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /emacs-tw/awesome-emacs/issues" href="/emacs-tw/awesome-emacs/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /emacs-tw/awesome-emacs/pulls" href="/emacs-tw/awesome-emacs/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /emacs-tw/awesome-emacs/projects" href="/emacs-tw/awesome-emacs/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /emacs-tw/awesome-emacs/pulse" href="/emacs-tw/awesome-emacs/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2hEY1Y7lpdSEjkF0zxuL0zPP5XoNwy6pfJ8posgMsV0jMr7LiZ5fcVfxeH9fBfnVFgf6ygZlFKD7YqSsvNIhWA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A community driven list of useful Emacs packages, libraries and others.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/emacs-tw/awesome-emacs/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="/topics/emacs" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:emacs">
+        emacs
+      </a>
+      <a href="/topics/awesome-list" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:awesome-list">
+        awesome-list
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="/emacs-tw/awesome-emacs/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                531
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="/emacs-tw/awesome-emacs/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              1
+            </span>
+            branch
+          </a>
+        </li>
+
+        <li>
+          <a href="/emacs-tw/awesome-emacs/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              0
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="/emacs-tw/awesome-emacs/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      102
+    </span>
+    contributors
+</a>
+
+        </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="/emacs-tw/awesome-emacs/search?l=emacs-lisp"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#c065db;"></span>
+                  <span class="lang">Emacs Lisp</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Emacs Lisp 100.0%" style="width:100.0%; background-color:#c065db;" itemprop="keywords">Emacs Lisp</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/emacs-tw/awesome-emacs.git" aria-label="Clone this repository at https://github.com/emacs-tw/awesome-emacs.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/emacs-tw/awesome-emacs.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="/emacs-tw/awesome-emacs/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="/emacs-tw/awesome-emacs/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/emacs-tw/awesome-emacs/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+<include-fragment src="/emacs-tw/awesome-emacs/tree-commit/18473ff53a7f04f063453df31fcee06665898f7c" class="commit-tease commit-loader">
+  <div class="blank">
+    <img alt="" class="loader" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+    Fetching latest commit…
+  </div>
+  <div class="loader-error">
+    Cannot retrieve the latest commit at this time.
+  </div>
+</include-fragment>
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/emacs-tw/awesome-emacs/tree/18473ff53a7f04f063453df31fcee06665898f7c">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-9cc7728b5a4fc9d3a1d50d28986f6246f3cc18b0" href="/emacs-tw/awesome-emacs/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add gitignore." class="message" href="/emacs-tw/awesome-emacs/commit/fbf1ab80ebf58152dfdadd2ccec1e054f5eca52c">Add gitignore.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2014-10-06T08:08:37Z">Oct 6, 2014</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-43e4c2b2f9821e7231a086914e5b8e4fef5a4ec3" href="/emacs-tw/awesome-emacs/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Edits, intro and fixes in response to travis checks (#234)
+
+* Edit introduction, add reference to elisp-maintainers
+
+* Travis CI fixes" class="message" href="/emacs-tw/awesome-emacs/commit/6c2821a1eedf296ad3fcd3b14ea79d580f38395d">Edits, intro and fixes in response to travis checks (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="306298256" data-permission-text="Issue title is private" data-url="https://github.com/emacs-tw/awesome-emacs/issues/234" href="https://github.com/emacs-tw/awesome-emacs/pull/234">#234</a><a data-pjax="true" title="Edits, intro and fixes in response to travis checks (#234)
+
+* Edit introduction, add reference to elisp-maintainers
+
+* Travis CI fixes" class="message" href="/emacs-tw/awesome-emacs/commit/6c2821a1eedf296ad3fcd3b14ea79d580f38395d">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-03-18T23:52:48Z">Mar 18, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.org" id="aacb4ce123f9200898dff4a35e6a8461-d85da4863df336e5604db4772afa399db6420a98" href="/emacs-tw/awesome-emacs/blob/master/README.org">README.org</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="add better-defaults (#246)" class="message" href="/emacs-tw/awesome-emacs/commit/18473ff53a7f04f063453df31fcee06665898f7c">add better-defaults (</a><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="314296981" data-permission-text="Issue title is private" data-url="https://github.com/emacs-tw/awesome-emacs/issues/246" href="https://github.com/emacs-tw/awesome-emacs/pull/246">#246</a><a data-pjax="true" title="add better-defaults (#246)" class="message" href="/emacs-tw/awesome-emacs/commit/18473ff53a7f04f063453df31fcee06665898f7c">)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2018-04-14T04:52:56Z">Apr 14, 2018</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="gen-toc.el" id="fda51bfb9cae85bffa8976220a82af60-a9659466acc81ecf7ecf1ed1c501a124c627d87d" href="/emacs-tw/awesome-emacs/blob/master/gen-toc.el">gen-toc.el</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Revert &quot;Don&#39;t quote table of contents, use org comments instead.&quot;
+
+This reverts commit a918794f9abc01b005ac975e782f9d8e24da9442." class="message" href="/emacs-tw/awesome-emacs/commit/8e7c2cf125908b299765a9b5a1eb0d2763799e6c">Revert "Don't quote table of contents, use org comments instead."</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-10-26T13:42:32Z">Oct 26, 2015</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body org">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.org
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-awesome-emacs" class="anchor" aria-hidden="true" href="#awesome-emacs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Awesome Emacs</h1>
+<p><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" alt="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" data-canonical-src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" style="max-width:100%;"></a> <a href="https://travis-ci.org/emacs-tw/awesome-emacs" rel="nofollow"><img src="https://camo.githubusercontent.com/abd942343aa825749e713b173f361797edc2ffbc/68747470733a2f2f6170692e7472617669732d63692e6f72672f656d6163732d74772f617765736f6d652d656d6163732e7376673f6272616e63683d6d6173746572" alt="https://api.travis-ci.org/emacs-tw/awesome-emacs.svg?branch=master" data-canonical-src="https://api.travis-ci.org/emacs-tw/awesome-emacs.svg?branch=master" style="max-width:100%;"></a></p>
+<p>Welcome to Awesome Emacs, a community driven list of useful Emacs packages, utilities and libraries. Most of the following packages are available in <a href="https://github.com/melpa/melpa">MELPA</a>. We recommend installing packages with it.</p>
+<p>Also, please do consider contributing back to the Emacs community. One major way is by financially sponsoring the lead developers and teams of developers that create and maintain the wonderful Emacs packages that so many of us use. <a href="https://github.com/tarsius/elisp-maintainers">Elisp Maintainers</a> provides a fantastic collection of ways that one can donate to several prolific Emacs package developers. Please do so donate.</p>
+<p>Above, all enjoy using Emacs. The community, that more than anything, makes Emacs a great ecosystem and place to develop, learn and grow.</p>
+<blockquote>
+  <p><b>Table of Contents</b></p>
+  <ul>
+    <li><a href="#awesome-emacs">Awesome Emacs</a>
+      <ul>
+        <li><a href="#interface-enhancement">Interface Enhancement</a></li>
+        <li><a href="#file-manager">File Manager</a></li>
+        <li><a href="#navigation">Navigation</a></li>
+        <li><a href="#visual">Visual</a></li>
+        <li><a href="#editing">Editing</a>
+          <ul>
+            <li><a href="#kill-ring">Kill-ring</a></li>
+          </ul>
+        </li>
+        <li><a href="#project-management">Project management</a></li>
+        <li><a href="#programming">Programming</a>
+          <ul>
+            <li><a href="#completion">Completion</a></li>
+            <li><a href="#document">Document</a></li>
+            <li><a href="#code-folding">Code Folding</a></li>
+            <li><a href="#error-checking">Error Checking</a></li>
+            <li><a href="#jump-to-definition">Jump to Definition</a></li>
+          </ul>
+        </li>
+        <li><a href="#programming-language">Programming Language</a>
+          <ul>
+            <li><a href="#cc">C/C++</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#ruby">Ruby</a></li>
+            <li><a href="#lisp-family">Lisp Family</a>
+              <ul>
+                <li><a href="#common-lisp">Common Lisp</a></li>
+                <li><a href="#scheme">Scheme</a></li>
+                <li><a href="#clojure">Clojure</a></li>
+                <li><a href="#emacs-lisp">Emacs Lisp</a></li>
+              </ul>
+            </li>
+            <li><a href="#web-development">Web Development</a>
+              <ul>
+                <li><a href="#javascript">JavaScript</a>
+                  <ul>
+                    <li><a href="#coffeescript">CoffeeScript</a></li>
+                    <li><a href="#typescript">TypeScript</a></li>
+                    <li><a href="#purescript">PureScript</a></li>
+                  </ul>
+                </li>
+                <li><a href="#php">PHP</a></li>
+              </ul>
+            </li>
+            <li><a href="#java">Java</a></li>
+            <li><a href="#go">Go</a></li>
+            <li><a href="#c">C#</a></li>
+            <li><a href="#rust">Rust</a></li>
+            <li><a href="#erlang">Erlang</a></li>
+            <li><a href="#elixir">Elixir</a></li>
+            <li><a href="#haskell">Haskell</a></li>
+            <li><a href="#swift">Swift</a></li>
+            <li><a href="#scala">Scala</a></li>
+            <li><a href="#lua">Lua</a></li>
+            <li><a href="#makefile">Makefile</a></li>
+            <li><a href="#sml">SML</a></li>
+            <li><a href="#groovy">Groovy</a></li>
+            <li><a href="#ocaml">OCaml</a></li>
+            <li><a href="#nim">Nim</a></li>
+            <li><a href="#d">D</a></li>
+            <li><a href="#elm">Elm</a></li>
+            <li><a href="#stan">Stan</a></li>
+            <li><a href="#mips-assembly">MIPS Assembly</a></li>
+            <li><a href="#riscv-assembly">RISCV Assembly</a></li>
+            <li><a href="#verilog">Verilog</a></li>
+          </ul>
+        </li>
+        <li><a href="#keys-cheat-sheet">Keys Cheat Sheet</a></li>
+        <li><a href="#note">Note</a>
+          <ul>
+            <li><a href="#org-mode">Org-mode</a></li>
+          </ul>
+        </li>
+        <li><a href="#version-control">Version control</a></li>
+        <li><a href="#integration">Integration</a>
+          <ul>
+            <li><a href="#console">Console</a></li>
+            <li><a href="#operating-system">Operating System</a></li>
+            <li><a href="#search">Search</a>
+              <ul>
+                <li><a href="#ack">Ack</a></li>
+                <li><a href="#ag">Ag</a></li>
+                <li><a href="#pt">Pt</a></li>
+                <li><a href="#sift">Sift</a></li>
+                <li><a href="#ripgrep">Ripgrep</a></li>
+              </ul>
+            </li>
+            <li><a href="#pastebin">Pastebin</a></li>
+            <li><a href="#google">Google</a></li>
+            <li><a href="#blog-system">Blog System</a></li>
+          </ul>
+        </li>
+        <li><a href="#markdown">Markdown</a></li>
+        <li><a href="#latex">LaTeX</a></li>
+        <li><a href="#pdf">PDF</a></li>
+        <li><a href="#internet">Internet</a>
+          <ul>
+            <li><a href="#browser">Browser</a></li>
+            <li><a href="#mail">Mail</a></li>
+            <li><a href="#irc">IRC</a></li>
+            <li><a href="#chat">Chat</a></li>
+            <li><a href="#social-network">Social Network</a></li>
+            <li><a href="#web-feed">Web Feed</a></li>
+          </ul>
+        </li>
+        <li><a href="#devops">DevOps</a></li>
+        <li><a href="#package-management">Package Management</a>
+          <ul>
+            <li><a href="#package-manager">Package Manager</a></li>
+            <li><a href="#package-configuration">Package Configuration</a></li>
+            <li><a href="#package-updates">Package Updates</a></li>
+          </ul>
+        </li>
+        <li><a href="#library">Library</a></li>
+        <li><a href="#appearance">Appearance</a></li>
+        <li><a href="#theme">Theme</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+        <li><a href="#finance">Finance</a></li>
+        <li><a href="#fun">Fun</a></li>
+        <li><a href="#starter-kit">Starter Kit</a></li>
+        <li><a href="#noteworthy-configurations">Noteworthy Configurations</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#links-and-resources">Links and resources</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a>
+      <ul>
+        <li><a href="#the-order-of-items">The Order of Items</a></li>
+        <li><a href="#emacs-built-in-packages">Emacs Built-In Packages</a></li>
+        <li><a href="#generate-table-of-contents">Generate “Table of Contents”</a></li>
+      </ul>
+    </li>
+    <li><a href="#other-awesome-lists">Other Awesome Lists</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</blockquote>
+<h2><a id="user-content-interface-enhancement" class="anchor" aria-hidden="true" href="#interface-enhancement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Interface Enhancement</h2>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/InteractivelyDoThings" rel="nofollow">IDO</a> - <code>[built-in]</code> Interactively do things with buffers and files.
+    <ul>
+      <li><a href="https://github.com/DarwinAwardWinner/ido-completing-read-plus">ido-completing-read+</a> - Enhance the built-in ido for completion all over Emacs.</li>
+      <li><a href="https://github.com/creichert/ido-vertical-mode.el">ido-vertical-mode</a> - Make ido display vertically.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/emacs-helm/helm">Helm</a> - (Formerly ‘Anything’) A powerful completion and selection narrowing framework. ( External Guides <a href="http://tuhdo.github.io/helm-intro.html" rel="nofollow">1</a> )</li>
+  <li><a href="https://github.com/abo-abo/swiper">Ivy</a> - flexible, simple tools for minibuffer completion in Emacs.
+    <ul>
+      <li>Ivy, a generic completion mechanism for Emacs.</li>
+      <li>Counsel, a collection of Ivy-enhanced versions of common Emacs commands.</li>
+      <li>Swiper, an Ivy-enhanced alternative to isearch.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.emacswiki.org/emacs/Icicles" rel="nofollow">Icicles</a> - An Emacs library that enhances minibuffer completion.</li>
+  <li><a href="https://github.com/nonsequitur/smex/">smex</a> - A smart M-x enhancement for Emacs.</li>
+  <li><a href="https://github.com/dholm/tabbar">tabbar</a> - Display a tab bar in the header line.</li>
+  <li><a href="https://www.emacswiki.org/emacs/WinnerMode" rel="nofollow">winner</a> - <code>[built-in]</code> “Undo”(and “redo”) changes in the window configuration with the key commands.</li>
+  <li><a href="https://github.com/emacs-evil/evil">Evil</a> - An <b>e</b> xtensible <b>vi</b> <b>l</b> ayer: manipulate Emacs with Vi key binding.
+    <ul>
+      <li><a href="https://github.com/emacs-evil/evil-collection">Evil Collection</a> - A collection of Evil bindings.</li>
+      <li><a href="https://github.com/emacs-evil/evil-ediff">Evil Ediff</a> - Evil bindings for Ediff.</li>
+      <li><a href="https://github.com/emacs-evil/evil-magit">Evil Magit</a> - Evil bindings for Magit.</li>
+      <li><a href="https://github.com/JorisE/evil-mu4e">Evil mu4e</a> - Evil bindings for mu4e.</li>
+      <li><a href="https://github.com/noctuid/lispyville">LispyVille</a> - Evil bindings for lispy-mode.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/abo-abo/hydra">Hydra</a> - Make bindings that stick around.</li>
+  <li><a href="https://github.com/zk-phi/sublimity">sublimity</a> - smooth-scrolling, minimap inspired by the sublime editor.</li>
+  <li><a href="https://github.com/knu/elscreen">ElScreen</a> - Utility for multiple screens.</li>
+  <li><a href="https://github.com/chrisdone/god-mode">god-mode</a> - Global minor mode for entering Emacs commands without modifier keys.</li>
+  <li><a href="https://github.com/ergoemacs/ergoemacs-mode">ergoemacs-mode</a> - Global minor mode to use both common interface keys and ergonomic keys for emacs.</li>
+  <li><a href="https://github.com/pashinin/workgroups2">workgroups2</a> - Session manager, saves all your opened buffers, their location and sizes on disk to restore later.</li>
+  <li><a href="https://github.com/mrkkrp/modalka">modalka</a> - Introduce native modal editing of your own design.</li>
+  <li><a href="https://github.com/mrkkrp/ace-popup-menu">ace-popup-menu</a> - Replace GUI popup menu with something more efficient.</li>
+  <li><a href="https://github.com/ReanGD/emacs-multi-compile">multi-compile</a> - Multi target interface to compile.</li>
+  <li><a href="https://github.com/rakanalh/emacs-dashboard">Dashboard</a> - A startup dashboard which provides certain information about your recent Emacs activities.</li>
+  <li><a href="HTTPS://github.com/ch11ng/exwm">EXWM</a> - EXWM turns Emacs into a full-featured tiling X window manager.
+    <ul>
+      <li><a href="https://github.com/emacs-helm/helm-exwm">Helm-EXWM</a> - EXWM-specific sources for Helm together with an application launchers and switches.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/cyrus-and/zoom">Zoom</a> - Fixed and automatic balanced window layout for Emacs.</li>
+</ul>
+<h2><a id="user-content-file-manager" class="anchor" aria-hidden="true" href="#file-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>File Manager</h2>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/DiredMode" rel="nofollow">Dired</a> - <code>[built-in]</code> <b>Dir</b> ectory <b>Ed</b> itor. A customizable great file manager.
+    <ul>
+      <li><a href="https://www.emacswiki.org/emacs/DiredPlus" rel="nofollow">Dired+</a> - Functional &amp; interface extensions for Dired.</li>
+      <li><a href="https://github.com/Fuco1/dired-hacks">dired-hacks</a> - Collection of useful Dired additions.</li>
+      <li><a href="https://github.com/syohex/emacs-dired-k">dired-k</a> - Highlight Dired buffer by file size, modified time, git status.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jaypei/emacs-neotree">NeoTree</a> - A emacs tree plugin like NERD tree for Vim.</li>
+  <li><a href="https://www.emacswiki.org/emacs/SrSpeedbar" rel="nofollow">Sr Speedbar</a> - Same frame speedbar.
+    <ul>
+      <li><a href="https://github.com/anshulverma/projectile-speedbar">projectile-speedbar</a> - Speedbar and Projectile integration.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/m2ym/direx-el">Direx</a> - directory tree explorer.</li>
+  <li><a href="https://github.com/fourier/ztree">ztree</a> - Directory tree comparison mode.</li>
+  <li><a href="https://github.com/ralesi/ranger.el">Ranger</a> - <a href="http://ranger.nongnu.org/" rel="nofollow">ranger</a> like file manager based on Dired.</li>
+  <li><a href="https://github.com/escherdragon/sunrise-commander">Sunrise Commander</a> - Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander.</li>
+  <li><a href="https://github.com/Alexander-Miller/treemacs">Treemacs</a> - a tree layout file explorer for Emacs.</li>
+  <li><a href="https://github.com/sebastiencs/sidebar.el">Sidebar.el</a> - A customizable file explorer with git integration for emacs.</li>
+</ul>
+<h2><a id="user-content-navigation" class="anchor" aria-hidden="true" href="#navigation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Navigation</h2>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/WindMove" rel="nofollow">windmove</a> - <code>[built-in]</code> Tired with <code>C-x o</code>? Now you can use <code>shift+arrows</code> to jump between windows.</li>
+  <li><a href="https://github.com/winterTTr/ace-jump-mode">Ace jump</a> - A quick cursor jump mode.</li>
+  <li><a href="https://github.com/abo-abo/avy">Avy</a> - Jump to visible text using a char-based decision tree.</li>
+  <li><a href="https://github.com/doitian/iy-go-to-char">iy-go-to-char</a> - Go to next CHAR which is similar to “f” and “t” in vim, works well with Multiple Cursors.</li>
+  <li><a href="https://github.com/camdez/goto-last-change.el">goto-last-change</a> - Move point through buffer-undo-list positions.</li>
+  <li><a href="https://github.com/ShingoFukuyama/helm-swoop">Helm-swoop</a> - Efficiently jump between matched string/lines.</li>
+  <li><a href="https://github.com/syohex/emacs-anzu">anzu</a> - displays current match and total matches.</li>
+  <li><a href="https://www.emacswiki.org/emacs/ImenuMode" rel="nofollow">imenu</a> - <code>[built-in]</code> Menus for accessing locations in documents.</li>
+  <li><a href="https://github.com/vspinu/imenu-anywhere">imenu-anywhere</a> - IDO/Helm imenu tag selection across all buffers with the same mode.</li>
+  <li><a href="https://www.emacswiki.org/emacs/MiniMap" rel="nofollow">Minimap</a> - A SublimeText-style minimap sidebar.</li>
+  <li><a href="https://github.com/dimitri/switch-window">switch-window</a> - A visual replacement for <code>C-x o</code>.</li>
+  <li><a href="https://github.com/abo-abo/ace-window">ace-window</a> - Quickly switch windows.</li>
+  <li><a href="https://github.com/abo-abo/ace-link">ace-link</a> - Quickly follow links in <code>org-mode</code>, <code>help-mode</code>, <code>Info-mode</code>, and several other modes.</li>
+  <li><a href="https://github.com/rolandwalker/back-button">back-button</a> - Visual navigation through mark rings.</li>
+  <li><a href="https://github.com/joodland/bm">bm</a> - Visual Bookmarks, provides an easy way to navigate in a buffer.</li>
+  <li><a href="https://github.com/lukhas/buffer-move">buffer-move</a> - Move or swap buffer to other window.</li>
+  <li><a href="https://github.com/aki2o/emacs-pophint">emacs-pophint</a> - Provide navigation like the Vimperator/KeySnail Hint Mode of Firefox.</li>
+  <li><a href="https://github.com/noctuid/vertigo.el">vertigo.el</a> - Jump lines using the home row.</li>
+</ul>
+<h2><a id="user-content-visual" class="anchor" aria-hidden="true" href="#visual"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Visual</h2>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/UndoTree" rel="nofollow">undo-tree</a> - Visualize the whole undo history in buffer as a tree, and you can access anywhere in it.</li>
+  <li><a href="https://github.com/nschum/highlight-symbol.el">highlight-symbol</a> - Auto/manually highlight the same symbols in code, navigate in them, or replace string.</li>
+  <li><a href="https://github.com/Fanael/rainbow-delimiters">rainbow-delimiters</a> - Highlights parentheses, brackets, and braces according to their depth.</li>
+  <li><a href="https://github.com/emacsmirror/rainbow-mode">rainbow-mode</a> - Colorize color names in buffers.</li>
+  <li><a href="https://github.com/benma/visual-regexp.el">visual-regexp</a> - Replace via RegExp, with real-time visual feedback directly in the buffer.
+    <ul>
+      <li><a href="https://github.com/benma/visual-regexp-steroids.el/">visual-regexp-steroids</a> - The same as visual-regexp, but use modern regular expressions instead of Emacs-style.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.emacswiki.org/emacs/WhiteSpace" rel="nofollow">whitespace</a> - <code>[built-in]</code> Visualize blanks (tab/space/newline).</li>
+  <li><a href="https://github.com/coldnew/linum-relative">linum-relative</a> - display relative line number in the left margin in emacs.</li>
+  <li><a href="http://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/" rel="nofollow">prettify-symbol-mode</a> - <code>[built-in]</code> displaying characters as fancy symbols (e.g. <code>lambda</code> -&gt; <code>λ</code>).</li>
+  <li><a href="https://github.com/jorgenschaefer/typoel">typo.el</a> - Emacs extension for typographical editing.</li>
+  <li><a href="https://github.com/fgeller/highlight-thing.el">highlight-thing</a> - Light-weight minor mode to highlight thing under point using built-ins.</li>
+  <li><a href="https://github.com/larstvei/Focus">focus</a> - Dim the font color of text in surrounding paragraphs.</li>
+  <li><a href="https://github.com/Malabarba/beacon">beacon</a> - Never lose your cursor again.</li>
+  <li><a href="https://github.com/gonewest818/dimmer.el">dimmer.el</a> - Interactively highlight which buffer is active by dimming the others.</li>
+  <li><a href="https://github.com/k-talo/volatile-highlights.el">volatile-highlights.el</a> - Minor mode for visual feedback on some operations in Emacs.</li>
+</ul>
+<h2><a id="user-content-editing" class="anchor" aria-hidden="true" href="#editing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Editing</h2>
+<ul>
+  <li><a href="https://github.com/magnars/multiple-cursors.el">Multiple cursors</a> - Mark, edit multiple lines at once.</li>
+  <li><a href="https://github.com/coldnew/pangu-spacing">pangu-spacing</a> - Minor-mode to automatically add space between CJK and Latin characters.</li>
+  <li><a href="https://github.com/soutaro/hungry-delete.el">hungry-delete</a> - Delete an entire block of whitespace at point.</li>
+  <li><a href="https://github.com/rejeep/drag-stuff.el">Drag Stuff</a> - Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs.</li>
+  <li><a href="https://github.com/magnars/expand-region.el">expand-region.el</a> - Increase selected region by semantic units.</li>
+  <li><a href="https://github.com/magnars/multifiles.el">multifiles.el</a> - View and edit parts of multiple files in one buffer.</li>
+  <li><a href="https://github.com/phillord/lentic">lentic</a> -  Create views of the same content in two Emacs buffers.</li>
+  <li><a href="https://github.com/mrkkrp/fix-word">fix-word</a> - Transform words in Emacs (upcase, downcase, capitalize).</li>
+  <li><a href="https://github.com/akicho8/string-inflection">string-inflection</a> - Conversion of text between lowercase, uppercase, camelcase etc.</li>
+  <li><a href="https://github.com/mrkkrp/zzz-to-char">zzz-to-char</a> - Fancy replacement for `zap-to-char`.</li>
+  <li><a href="https://github.com/mkcms/interactive-align">ialign</a> - Interactively align lines using a regular expression.</li>
+  <li><a href="http://www.lysator.liu.se/~tab/artist/" rel="nofollow">artist-mode</a> - <code>[built-in]</code> Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard.</li>
+  <li><a href="https://github.com/bbatsov/crux">crux</a> - A Collection of Ridiculously Useful eXtensions for Emacs.</li>
+</ul>
+<h3><a id="user-content-kill-ring" class="anchor" aria-hidden="true" href="#kill-ring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Kill-ring</h3>
+<ul>
+  <li><a href="https://github.com/waymondo/popup-kill-ring">Popup-killring</a> - Browse kill-ring with popup menu.</li>
+  <li><a href="https://github.com/browse-kill-ring/browse-kill-ring">Browse-kill-ring</a> - Visually navigate kill-ring.</li>
+  <li><a href="https://github.com/leoliu/easy-kill">easy-kill</a> - Kill &amp; Mark Things Easily in Emacs.</li>
+  <li><a href="https://github.com/bburns/clipmon">clipmon</a> - Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change.</li>
+  <li><a href="https://github.com/rolandwalker/simpleclip">simpleclip</a> - Simplified access to the system clipboard.</li>
+</ul>
+<h2><a id="user-content-project-management" class="anchor" aria-hidden="true" href="#project-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Project management</h2>
+<ul>
+  <li><a href="https://github.com/bbatsov/projectile">Projectile</a> - Project Interaction Library for Emacs.</li>
+  <li><a href="https://github.com/rejeep/prodigy.el">Prodigy</a> - Manage external services from within Emacs.</li>
+  <li><a href="https://github.com/grizzl/fiplr">Fiplr</a> - An Emacs Fuzzy Find in Project Package.</li>
+  <li><a href="https://github.com/sabof/project-explorer">Project-Explorer</a> - a tree project explorer (integrates with projectile).</li>
+  <li><a href="https://github.com/technomancy/find-file-in-project">Find-file-in-project</a> - Quick access to project files in Emacs.</li>
+</ul>
+<h2><a id="user-content-programming" class="anchor" aria-hidden="true" href="#programming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programming</h2>
+<ul>
+  <li><a href="http://cedet.sourceforge.net/" rel="nofollow">CEDET</a> - <code>[built-in]</code> an advanced development environment in Emacs.</li>
+  <li><a href="https://github.com/thoni56/c-xrefactory">C-xrefactory</a> - refactoring tool and code browser for C and Java.</li>
+  <li><a href="https://github.com/joaotavora/yasnippet">YASnippets</a> - A template system that allows you to type an abbreviation and automatically expand it into function templates.
+    <ul>
+      <li><a href="https://github.com/abo-abo/auto-yasnippet">auto-yasnippet</a> - Advanced copy-paste using Yasnippet.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/abo-abo/tiny">tiny</a> - Templates based on linear range transformations.</li>
+  <li><a href="https://github.com/redguardtoo/evil-nerd-commenter">evil-nerd-commenter</a> - Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode.</li>
+  <li><a href="https://github.com/purcell/mmm-mode">mmm-mode</a> - allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS &amp; JS in HTML file).</li>
+  <li><a href="https://github.com/Fuco1/smartparens">SmartParens</a> - Deals with parens pairs and tries to be smart about it.</li>
+  <li><a href="https://github.com/Malabarba/aggressive-indent-mode">Aggressive-indent</a> - Keeps your code always indented automatically.</li>
+  <li><a href="https://github.com/zk-phi/indent-guide">indent-guide</a> - Show vertical lines to guide indentation.</li>
+  <li><a href="http://doxymacs.sourceforge.net/" rel="nofollow">Doxymacs</a> - Doxymacs is Doxygen + {X}Emacs.</li>
+  <li><a href="https://github.com/purcell/whitespace-cleanup-mode">whitespace-cleanup-mode</a> - Intelligently call whitespace-cleanup on save.</li>
+  <li><a href="https://github.com/realgud">realgud</a> - A modular front-end for interacting with external debuggers.</li>
+  <li><a href="https://github.com/leoliu/ggtags">ggtags</a> - Emacs frontend to GNU Global source code tagging system.</li>
+</ul>
+<h3><a id="user-content-completion" class="anchor" aria-hidden="true" href="#completion"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Completion</h3>
+<ul>
+  <li><a href="https://github.com/auto-complete/auto-complete">Auto-Complete</a> - An intelligent auto-completion extension with great interface.</li>
+  <li><a href="https://company-mode.github.io/" rel="nofollow">Company</a> - A text completion framework.
+    <ul>
+      <li><a href="https://github.com/expez/company-quickhelp">company-quickhelp</a> - Documentation popups for company.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/lewang/flx">flx</a> - Fuzzy matching for Emacs like Sublime Text.</li>
+  <li><a href="https://www.emacswiki.org/emacs/AbbrevMode" rel="nofollow">abbrev</a> - <code>[built-in]</code> Abbreviation expander.</li>
+  <li><a href="https://github.com/abingham/emacs-ycmd">emacs-ycmd</a> - Emacs client for YCM.</li>
+</ul>
+<h3><a id="user-content-document" class="anchor" aria-hidden="true" href="#document"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Document</h3>
+<ul>
+  <li><a href="https://github.com/areina/helm-dash">Helm-dash</a> - Browse <a href="https://kapeli.com/dash" rel="nofollow">Dash</a> docsets via Helm interface.</li>
+  <li><a href="https://www.emacswiki.org/emacs/ElDoc" rel="nofollow">eldoc</a> - <code>[built-in]</code> shows function arguments / variable doc in minibuffer when coding.</li>
+</ul>
+<h3><a id="user-content-code-folding" class="anchor" aria-hidden="true" href="#code-folding"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code Folding</h3>
+<ul>
+  <li><a href="https://github.com/mrkkrp/vimish-fold">vimish-fold</a> - Vim-like text folding.</li>
+  <li><a href="https://www.emacswiki.org/emacs/HideShow" rel="nofollow">hideshow</a> - <code>[built-in]</code> Folding regions by balanced-expression code.
+    <ul>
+      <li><a href="https://www.emacswiki.org/emacs/download/hideshowvis.el" rel="nofollow">hideshowvis</a> - Based on <code>hideshow</code>, just display its nodes on fringe.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/gregsexton/origami.el">Origami.el</a> - Feature rich text folding minor mode.</li>
+</ul>
+<h3><a id="user-content-error-checking" class="anchor" aria-hidden="true" href="#error-checking"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Error Checking</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/FlyMake" rel="nofollow">FlyMake</a> - <code>[built-in]</code> on-the-fly syntax checks on files using external tools.</li>
+  <li><a href="https://github.com/flycheck/flycheck">Flycheck</a> - Modern on-the-fly syntax checking meant to be a replacement to <code>FlyMake</code>.</li>
+</ul>
+<h3><a id="user-content-jump-to-definition" class="anchor" aria-hidden="true" href="#jump-to-definition"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Jump to Definition</h3>
+<ul>
+  <li><a href="http://www.gnu.org/software/global/" rel="nofollow">GNU Global</a> - advanced source code tagging system with jump to definition functionality.</li>
+  <li><a href="https://github.com/jacktasia/dumb-jump">Dumb Jump</a> - easy jump to definition package for multiple languages using <code>ag</code> or <code>grep</code>.</li>
+</ul>
+<h2><a id="user-content-programming-language" class="anchor" aria-hidden="true" href="#programming-language"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programming Language</h2>
+<h3><a id="user-content-cc" class="anchor" aria-hidden="true" href="#cc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C/C++</h3>
+<ul>
+  <li><a href="http://cc-mode.sourceforge.net/" rel="nofollow">CC Mode</a> - <code>[built-in]</code> An Emacs and XEmacs mode for editing C and other languages with similar syntax.</li>
+  <li><a href="https://github.com/Andersbakken/rtags">rtags</a> - A C/C++ client/server indexer with for integration with emacs based on clang.</li>
+  <li><a href="https://github.com/cquery-project/emacs-cquery">emacs-cquery</a> - Emacs client of <a href="https://github.com/cquery-project/cquery">cquery</a>, a C/C++/Objective-C language server powered by clang.</li>
+  <li><a href="https://github.com/Sarcasm/irony-mode">irony-mode</a> - A C/C++ minor mode for Emacs powered by libclang.</li>
+  <li><a href="https://github.com/Lindydancer/cmake-font-lock">cmake-font-lock</a> - Enhanced font-lock rules for CMake.</li>
+  <li><a href="https://github.com/abo-abo/function-args">function-args</a> - visual CEDET enhancements for C++.</li>
+  <li><a href="https://www.gnu.org/software/emacs/manual/html_node/ebrowse/index.html" rel="nofollow">Ebrowse</a> - <code>[built-in]</code> A C++ class browser.</li>
+</ul>
+<h3><a id="user-content-python" class="anchor" aria-hidden="true" href="#python"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Python</h3>
+<ul>
+  <li><a href="https://github.com/jorgenschaefer/elpy">Elpy</a> - An Emacs Python development environment.</li>
+  <li><a href="https://github.com/proofit404/anaconda-mode">anaconda-mode</a> - Code navigation, documentation lookup and completion for Python.</li>
+  <li><a href="https://github.com/porterjamesj/virtualenvwrapper.el">virtualenvwrapper.el</a> - Manage virtualenv from inside Emacs.</li>
+</ul>
+<h3><a id="user-content-ruby" class="anchor" aria-hidden="true" href="#ruby"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby</h3>
+<ul>
+  <li><a href="https://github.com/senny/rvm.el">rvm</a>  Ruby versions manager within Emacs.</li>
+  <li><a href="https://github.com/endofunky/bundler.el">bundler</a> Interact with gem Bundler from Emacs.</li>
+  <li><a href="https://github.com/nonsequitur/inf-ruby">inf-ruby</a> REPL buffer connected to a Ruby subprocess.</li>
+  <li><a href="https://github.com/zenspider/enhanced-ruby-mode">enhanced-ruby-mode</a> Enhanced Ruby Mode replaces the emacs ruby mode that
+    comes with ruby. It uses the Ripper class found in ruby 1.9.2 (and later)
+    to parse and indent the source code.</li>
+  <li><a href="https://www.emacswiki.org/emacs/yari.el" rel="nofollow">yari</a> Yet Another RI interface for Emacs.</li>
+  <li><a href="https://github.com/dgutov/robe">robe</a> Code navigation, documentation lookup and completion for Ruby.</li>
+  <li><a href="https://github.com/bbatsov/rubocop">rubocop</a> A Ruby static code analyzer, based on the community Ruby style guide.</li>
+  <li><a href="https://github.com/ainame/motion-mode">motion-mode</a>  A package to provide emacs’ major mode for RubyMotion enviroment.</li>
+  <li><a href="https://github.com/pezra/rspec-mode">rspec-mode</a> An RSpec minor mode for Emacs.</li>
+  <li><a href="https://github.com/michaelklishin/cucumber.el">feature-mode</a> Emacs mode for editing Cucumber plain text stories.</li>
+  <li><a href="https://github.com/eschulte/rinari">rinari</a> - Rinari Is Not A Rails IDE (it is an Emacs minor mode for Rails).</li>
+</ul>
+<h3><a id="user-content-lisp-family" class="anchor" aria-hidden="true" href="#lisp-family"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lisp Family</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/ParEdit" rel="nofollow">Paredit</a> - Minor mode for editing parentheses. Strict parenthesis auto-pairing and easy depth adjustment. Compatible with Lisp/Scheme/Clojure.</li>
+  <li><a href="https://github.com/abo-abo/lispy">lispy</a> - Minor mode for editing parenthesis, evaluating and refactoring LISP code with extremely short key bindings. Compatible with Lisp/Scheme/Clojure.</li>
+  <li><a href="https://github.com/DogLooksGood/parinfer-mode">Parinfer</a> - <a href="https://shaunlebron.github.io/parinfer/" rel="nofollow">Parinfer</a> for Emacs, simpler Lisp editing.</li>
+</ul>
+<h4><a id="user-content-common-lisp" class="anchor" aria-hidden="true" href="#common-lisp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Common Lisp</h4>
+<ul>
+  <li><a href="https://common-lisp.net/project/slime/" rel="nofollow">SLIME</a> - A fully-functional IDE for Common Lisp development, with debugger, REPL.
+    <ul>
+      <li><a href="https://github.com/joaotavora/sly">SLY</a> - A fork of SLIME.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/mrkkrp/common-lisp-snippets">common-lisp-snippets</a> - Yasnippets for Common Lisp.</li>
+</ul>
+<h4><a id="user-content-scheme" class="anchor" aria-hidden="true" href="#scheme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scheme</h4>
+<ul>
+  <li><a href="http://www.neilvandyke.org/quack/" rel="nofollow">Quack</a> - Enhanced Emacs Support for Editing and Running Scheme Code.</li>
+  <li><a href="http://www.nongnu.org/geiser/" rel="nofollow">Geiser</a> - Intergrated development with Guile and Racket.</li>
+  <li><a href="https://github.com/greghendershott/racket-mode">racket-mode</a> - major modes for Racket: Edit and REPL.</li>
+</ul>
+<h4><a id="user-content-clojure" class="anchor" aria-hidden="true" href="#clojure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Clojure</h4>
+<ul>
+  <li><a href="https://github.com/clojure-emacs/clojure-mode">Clojure mode</a> - A major mode for clojure.</li>
+  <li><a href="https://github.com/clojure-emacs/cider">Cider</a> - Clojure IDE and REPL.</li>
+  <li><a href="https://github.com/mpenet/clojure-snippets">Clojure snippets</a> - Clojure snippets with yasnippet.</li>
+  <li><a href="https://github.com/clojure-emacs/clj-refactor.el">clj-refactor.el</a> - A collection of Clojure refactoring functions for Emacs.</li>
+</ul>
+<h4><a id="user-content-emacs-lisp" class="anchor" aria-hidden="true" href="#emacs-lisp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emacs Lisp</h4>
+<ul>
+  <li><a href="https://github.com/Fanael/highlight-defined">highlight-defined</a> - Highlight defined functions’ / variables’ name.</li>
+  <li><a href="https://www.emacswiki.org/emacs/InferiorEmacsLispMode" rel="nofollow">ielm</a> - <code>[built-in]</code> A simple Emacs Lisp REPL.</li>
+  <li><a href="https://github.com/Silex/elmacro">elmacro</a> - Display keyboard macros or latest interactive commands as Emacs Lisp.</li>
+  <li><a href="https://github.com/Wilfred/suggest.el">suggest.el</a> - Discover elisp functions that do what you want.</li>
+</ul>
+<h3><a id="user-content-web-development" class="anchor" aria-hidden="true" href="#web-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Development</h3>
+<ul>
+  <li><a href="http://web-mode.org/" rel="nofollow">web-mode</a> - major mode for editing various html templates (PHP, JSP, ASP, ERB…etc).</li>
+  <li><a href="https://github.com/smihica/emmet-mode">emmet</a> - <a href="https://emmet.io/" rel="nofollow">Emmet</a> support for Emacs.</li>
+  <li><a href="https://github.com/yasuyk/web-beautify">web-beautify</a> - Format HTML, CSS and JavaScript/JSON by js-beautify.</li>
+  <li><a href="https://github.com/skeeto/skewer-mode">skewer-mode</a> - live interact with JavaScript, CSS, and HTML in a web-browser.</li>
+  <li><a href="https://github.com/skeeto/impatient-mode">impatient-mode</a> - See your changes in the browser as you type.</li>
+  <li><a href="https://github.com/pashky/restclient.el">restclient.el</a> - HTTP REST client tool for emacs.</li>
+  <li><a href="https://github.com/nicferrier/elnode">elnode</a> - An evented IO webserver in Emacs Lisp.</li>
+</ul>
+<h4><a id="user-content-javascript" class="anchor" aria-hidden="true" href="#javascript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript</h4>
+<ul>
+  <li><a href="https://github.com/mooz/js2-mode/">js2-mode</a> - Improved JavaScript editing mode.</li>
+  <li><a href="http://js-comint-el.sourceforge.net/" rel="nofollow">js-comint.el</a> - Run an inferior javascript REPL process in Emacs.</li>
+  <li><a href="http://ternjs.net/doc/manual.html#emacs" rel="nofollow">tern</a> - Emacs flavor of the popular JavaScript analysis engine.</li>
+  <li><a href="https://github.com/joshwnj/json-mode">json-mode</a> - Major mode for editing JSON files.</li>
+  <li><a href="https://github.com/NicolasPetton/indium">indium</a> - A JavaScript development environment for Emacs.</li>
+  <li><a href="https://github.com/magnars/js2-refactor.el">js2-refactor</a> - A JavaScript refactoring library for emacs.</li>
+  <li><a href="https://github.com/felipeochoa/rjsx-mode">rjsx-mode</a> - A JSX major mode for Emacs.</li>
+</ul>
+<h5><a id="user-content-coffeescript" class="anchor" aria-hidden="true" href="#coffeescript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CoffeeScript</h5>
+<ul>
+  <li><a href="https://github.com/defunkt/coffee-mode">coffee-mode</a> - An Emacs major mode for CoffeeScript and IcedCoffeeScript.</li>
+</ul>
+<h5><a id="user-content-typescript" class="anchor" aria-hidden="true" href="#typescript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TypeScript</h5>
+<ul>
+  <li><a href="https://github.com/ananthakumaran/tide">Tide</a> - TypeScript Interactive Development Environment for Emacs.</li>
+</ul>
+<h5><a id="user-content-purescript" class="anchor" aria-hidden="true" href="#purescript"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PureScript</h5>
+<ul>
+  <li><a href="https://github.com/dysinger/purescript-mode">purescript-mode</a> - An Emacs major mode for PureScript.</li>
+  <li><a href="https://github.com/purescript-emacs/emacs-psci">emacs-psci</a> - An Emacs major mode for psci.</li>
+  <li><a href="https://github.com/epost/psc-ide-emacs">psc-ide-emacs</a> - Emacs integration for PureScript’s psc-ide tool.</li>
+</ul>
+<h4><a id="user-content-php" class="anchor" aria-hidden="true" href="#php"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PHP</h4>
+<ul>
+  <li><a href="https://github.com/ejmr/php-mode">php-mode</a> - Major mode for PHP programming.</li>
+  <li><a href="https://github.com/nlamirault/phpunit.el">phpunit.el</a> - Launch PHP unit tests using phpunit.</li>
+</ul>
+<h3><a id="user-content-java" class="anchor" aria-hidden="true" href="#java"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Java</h3>
+<ul>
+  <li><a href="https://github.com/emacs-eclim/emacs-eclim">emacs-eclim</a> - An Eclipse plugin which exposes Eclipse features through a server interface.</li>
+  <li><a href="https://github.com/m0smith/malabar-mode">malabar-mode</a> - A better Java mode for Emacs.</li>
+  <li><a href="https://github.com/jdee-emacs/jdee">JDEE</a> - The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications.</li>
+  <li><a href="https://github.com/mopemope/meghanada-emacs">meghanada-emacs</a> - A Better Java Development Environment for Emacs.</li>
+</ul>
+<h3><a id="user-content-go" class="anchor" aria-hidden="true" href="#go"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Go</h3>
+<ul>
+  <li><a href="https://github.com/dominikh/go-mode.el">Gomode</a> - Go mode rewrite for Emacs. Provides Go toolchain integration.</li>
+  <li><a href="https://github.com/dougm/goflymake">Goflymake</a> - Go syntax checker. Wrapper around Emacs flymake for Go.</li>
+  <li><a href="https://github.com/nsf/gocode">Gocode</a> - An autocompletion daemon for the Go programming language.</li>
+  <li><a href="https://github.com/dominikh/go-errcheck.el">Goerrcheck</a> - go-errcheck provides an easy way to invoke errcheck from within Emacs.</li>
+  <li><a href="https://github.com/grafov/go-playground">Go-playground</a> - Local playground for Go code snippets.</li>
+  <li><a href="https://github.com/manute/gorepl-mode">GoRepl</a> - A minor emacs mode for Go REPL.</li>
+  <li><a href="https://github.com/nlamirault/gotest.el">gotest.el</a> - Launch GO unit tests.</li>
+</ul>
+<h3><a id="user-content-c" class="anchor" aria-hidden="true" href="#c"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C#</h3>
+<ul>
+  <li><a href="https://github.com/josteink/csharp-mode">csharp-mode</a> - Major mode for C#.</li>
+  <li><a href="https://github.com/OmniSharp/omnisharp-emacs">omnisharp-emacs</a> - IDE-like features for editing C# code.</li>
+</ul>
+<h3><a id="user-content-rust" class="anchor" aria-hidden="true" href="#rust"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rust</h3>
+<ul>
+  <li><a href="https://github.com/rust-lang/rust-mode">rust-mode</a> - An Emacs major mode for editing Rust code.</li>
+  <li><a href="https://github.com/flycheck/flycheck-rust">flycheck-rust</a> - Better Rust/Cargo support for Flycheck.</li>
+  <li><a href="https://github.com/racer-rust/emacs-racer">emacs-racer</a> - Racer support for Emacs.</li>
+  <li><a href="https://github.com/kwrooijen/cargo.el">cargo.el</a> - Cargo support for Emacs.</li>
+</ul>
+<h3><a id="user-content-erlang" class="anchor" aria-hidden="true" href="#erlang"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Erlang</h3>
+<ul>
+  <li><a href="http://erlang.org/doc/apps/tools/erlang_mode_chapter.html" rel="nofollow">erlang</a> - The official Erlang mode for Emacs.</li>
+  <li><a href="https://github.com/massemanet/distel">distel</a> - Distel is a library for Emacs&lt;-&gt;Erlang communication, plus a suite of tools built on top of it, such as a debugger front-end.</li>
+  <li><a href="https://github.com/tjarvstrand/edts">EDTS</a> - EDTS is meant to be a able to replace Distel but only provides part of the most commonly used of Distel’s features.</li>
+  <li><a href="https://github.com/RefactoringTools/Wrangler">Wrangler</a> - Wrangler is a mode that supports interactive refactoring of Erlang programs.</li>
+</ul>
+<h3><a id="user-content-elixir" class="anchor" aria-hidden="true" href="#elixir"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Elixir</h3>
+<ul>
+  <li><a href="https://github.com/elixir-editors/emacs-elixir">elixir-mode</a> - Emacs major mode for Elixir.</li>
+  <li><a href="https://github.com/tonini/alchemist.el">alchemist</a> - Elixir Tooling Integration Into Emacs.</li>
+</ul>
+<h3><a id="user-content-haskell" class="anchor" aria-hidden="true" href="#haskell"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Haskell</h3>
+<ul>
+  <li><a href="https://github.com/haskell/haskell-mode">haskell-mode</a> - Major mode for Haskell.</li>
+  <li><a href="https://github.com/chrisdone/structured-haskell-mode">structured-haskell-mode</a> - Minor mode for structured editing of Haskell.</li>
+  <li><a href="https://github.com/alanz/HaRe">HaRe</a> - Haskell refactoring tool with emacs integration.</li>
+  <li><a href="http://www.mew.org/~kazu/proj/ghc-mod/en/" rel="nofollow">ghc-mod</a> - Backend to provide e.g. type information with an emacs frontend.</li>
+  <li><a href="https://github.com/commercialhaskell/intero">intero</a> - Complete interactive development program for Haskell.</li>
+</ul>
+<blockquote>
+  <p>External Guides:</p>
+  <ul>
+    <li><a href="https://github.com/serras/emacs-haskell-tutorial/blob/master/tutorial.md">Using Emacs for Haskell development</a></li>
+  </ul>
+</blockquote>
+<h3><a id="user-content-swift" class="anchor" aria-hidden="true" href="#swift"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Swift</h3>
+<ul>
+  <li><a href="https://github.com/swift-emacs/swift-mode">swift-mode</a> - Emacs support for Apple’s Swift programming language.</li>
+  <li><a href="https://github.com/nathankot/company-sourcekit">company-sourcekit</a> - Completion for Swift projects via SourceKit with the help of SourceKitten.</li>
+</ul>
+<h3><a id="user-content-scala" class="anchor" aria-hidden="true" href="#scala"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Scala</h3>
+<ul>
+  <li><a href="http://ensime.github.io//editors/emacs/scala-mode/" rel="nofollow">scala-mode</a> - The definitive scala-mode for emacs.</li>
+  <li><a href="http://ensime.github.io/" rel="nofollow">Ensime</a> - ENhanced Scala Interaction Mode for Emacs.</li>
+  <li><a href="https://github.com/hvesalai/sbt-mode">sbt-mode</a> - An emacs mode for interacting with scala sbt and projects.</li>
+</ul>
+<h3><a id="user-content-lua" class="anchor" aria-hidden="true" href="#lua"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lua</h3>
+<ul>
+  <li><a href="https://github.com/immerrr/lua-mode/">lua-mode</a> - A major mode for editing Lua sources in Emacs.</li>
+</ul>
+<h3><a id="user-content-makefile" class="anchor" aria-hidden="true" href="#makefile"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Makefile</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/MakefileMode" rel="nofollow">Makefile Mode</a> - <code>[built-in]</code> A major mode for editing Makefiles.</li>
+  <li><a href="https://github.com/abo-abo/helm-make">helm-make</a> - Select a Makefile target with helm.</li>
+  <li><a href="https://github.com/nick96/basic-c-compile">basic-c-compile</a> - Emacs package to create a Makefile, compile and run a C file.</li>
+  <li><a href="https://github.com/thiderman/makefile-executor.el">makefile-executor</a> - Emacs helpers to run things from Makefiles.</li>
+  <li><a href="https://github.com/danamlund/emacs-makefile-runner">emacs-makefile-runner</a> - Searches for Makefile and fetches targets.</li>
+</ul>
+<h3><a id="user-content-sml" class="anchor" aria-hidden="true" href="#sml"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SML</h3>
+<ul>
+  <li><a href="http://www.iro.umontreal.ca/~monnier/elisp/" rel="nofollow">SML mode</a> - a major Emacs mode for editing Standard ML source code.</li>
+</ul>
+<h3><a id="user-content-groovy" class="anchor" aria-hidden="true" href="#groovy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Groovy</h3>
+<ul>
+  <li><a href="https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes">groovy-emacs-modes</a> - A collection of modes for use with Groovy-related technology – Groovy, Grails, etc.</li>
+  <li><a href="https://github.com/lifeisfoo/emacs-grails">grails.el</a> - A minor mode for Grails projects.</li>
+</ul>
+<h3><a id="user-content-ocaml" class="anchor" aria-hidden="true" href="#ocaml"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>OCaml</h3>
+<ul>
+  <li><a href="https://github.com/ocaml/tuareg">tuareg</a> - a Caml mode for Emacs.</li>
+  <li><a href="https://www.typerex.org/" rel="nofollow">TypeRex</a> - a set of tools for developing in OCaml.</li>
+  <li><a href="https://github.com/ocaml/merlin">Merlin</a> - an assistant for editing OCaml code.</li>
+</ul>
+<h3><a id="user-content-nim" class="anchor" aria-hidden="true" href="#nim"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nim</h3>
+<ul>
+  <li><a href="https://github.com/nim-lang/nim-mode">nim-mode</a> - An Emacs major mode for editing Nim code.</li>
+</ul>
+<h3><a id="user-content-d" class="anchor" aria-hidden="true" href="#d"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>D</h3>
+<ul>
+  <li><a href="https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode">Emacs-D-Mode</a> - An Emacs major mode for editing D code.</li>
+</ul>
+<h3><a id="user-content-elm" class="anchor" aria-hidden="true" href="#elm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Elm</h3>
+<ul>
+  <li><a href="https://github.com/jcollard/elm-mode">elm-mode</a> - An Emacs major mode for editing Elm code.</li>
+</ul>
+<h3><a id="user-content-stan" class="anchor" aria-hidden="true" href="#stan"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stan</h3>
+<ul>
+  <li><a href="https://github.com/stan-dev/stan-mode">stan-mode</a> - An Emacs major mode for editing Stan code.</li>
+</ul>
+<h3><a id="user-content-mips-assembly" class="anchor" aria-hidden="true" href="#mips-assembly"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MIPS Assembly</h3>
+<ul>
+  <li><a href="https://github.com/hlissner/emacs-mips-mode">mips-mode</a> - An emacs major mode for editing MIPS assembly.</li>
+</ul>
+<h3><a id="user-content-riscv-assembly" class="anchor" aria-hidden="true" href="#riscv-assembly"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RISCV Assembly</h3>
+<ul>
+  <li><a href="https://github.com/AdamNiederer/riscv-mode">riscv-mode</a> - An emacs major mode for editing RISCV assembly.</li>
+</ul>
+<h3><a id="user-content-verilog" class="anchor" aria-hidden="true" href="#verilog"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Verilog</h3>
+<ul>
+  <li><a href="https://github.com/veripool/verilog-mode">verilog-mode</a> - Emacs major mode for verilog with Indentation, Hightlighting and AUTOs.</li>
+</ul>
+<h2><a id="user-content-keys-cheat-sheet" class="anchor" aria-hidden="true" href="#keys-cheat-sheet"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Keys Cheat Sheet</h2>
+<ul>
+  <li><a href="https://github.com/mickeynp/discover.el">discover.el</a> - Discover more of emacs with well-categorized context menus.</li>
+  <li><a href="https://github.com/steckerhalter/discover-my-major">discover-my-major</a> - Discover key bindings and their meaning for the current Emacs major mode.</li>
+  <li><a href="https://github.com/kai2nenobu/guide-key">guide-key</a> - Displays the available key bindings automatically and dynamically.</li>
+  <li><a href="https://github.com/aki2o/guide-key-tip">guide-key-tip</a> - Tooltip version of guide-key.</li>
+  <li><a href="https://github.com/justbur/emacs-which-key">which-key</a> - Display available key bindings in popup. Rewrite of guide-key with added features to improve display.</li>
+  <li><a href="https://github.com/darksmile/cheatsheet">cheatsheet</a> - Create your own customized cheatsheet.</li>
+  <li><a href="https://github.com/emacs-helm/helm-descbinds">helm-descbinds</a> - Helm interface for Emacs’ <code>describe-bindings</code>.</li>
+</ul>
+<h2><a id="user-content-note" class="anchor" aria-hidden="true" href="#note"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Note</h2>
+<ul>
+  <li><a href="http://www.gnu.org/software/emacs-muse/" rel="nofollow">Emacs Muse</a> - a publishing environment for Emacs.</li>
+  <li><a href="https://github.com/rnkn/fountain-mode/">Fountain Mode</a> - a full-featured screenwriting environment for GNU Emacs using the Fountain markup format.</li>
+  <li><a href="https://github.com/tmalsburg/guess-language.el">guess-language</a> - Robust automatic language detection (e.g. Arabic, Czech, Danish, etc).</li>
+</ul>
+<h3><a id="user-content-org-mode" class="anchor" aria-hidden="true" href="#org-mode"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Org-mode</h3>
+<ul>
+  <li><a href="https://orgmode.org/" rel="nofollow">Org</a> - <code>[built-in]</code> Write notes, GTD, authoring, publish and wash dishes.
+    <ul>
+      <li><a href="https://github.com/kelvinh/org-page">org-page</a> - A static site generator based on org-mode files.</li>
+      <li><a href="https://github.com/coldnew/org-ioslide">org-ioslide</a> - Export Org document into Google I/O HTML5 slide.</li>
+      <li><a href="https://github.com/sabof/org-bullets">org-bullets</a> - Shows org-mode bullets as pretty UTF-8 characters.</li>
+      <li><a href="https://github.com/org-trello/org-trello">org-trello</a> - Minor mode to synchronize org-mode buffer and <a href="https://trello.com" rel="nofollow">trello</a> board.</li>
+      <li><a href="https://github.com/alphapapa/org-protocol-capture-html">org-protocol-capture-html</a> - Capture HTML from the browser selection into Emacs as org-mode content.</li>
+      <li><a href="https://github.com/Kungsgeten/org-brain">org-brain</a> - Org-mode wiki + concept-mapping.</li>
+      <li><a href="https://github.com/rexim/org-cliplink">org-cliplink</a> - Insert org-mode links from clipboard.</li>
+      <li><a href="https://github.com/alphapapa/helm-org-rifle">helm-org-rifle</a> - Rifle through your Org buffers and acquire your target.</li>
+      <li><a href="https://github.com/abo-abo/org-download">org-download</a> - Drag and drop images to Emacs org-mode</li>
+      <li><a href="https://github.com/fniessen/org-html-themes">org-html-themes</a> - Export Org mode files into awesome HTML in 2 minutes.</li>
+    </ul>
+  </li>
+</ul>
+<h2><a id="user-content-version-control" class="anchor" aria-hidden="true" href="#version-control"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Version control</h2>
+<ul>
+  <li><a href="https://magit.vc/" rel="nofollow">Magit</a> - Interacting with git.
+    <ul>
+      <li><a href="https://github.com/vermiculus/magithub">magithub</a> - Magit interfaces for GitHub.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Version-Control.html" rel="nofollow">VC</a> - <code>[built-in]</code> Emacs version control interface works with several different version control systems including Bazaar, CVS, Git, Mercurial, Monotone, RCS, SCCS/CSSC, and Subversion.</li>
+  <li><a href="https://github.com/dgtized/github-clone.el">github-clone.el</a> - Fork and clone Github projects from Emacs.</li>
+  <li><a href="https://github.com/magit/git-modes">git-rebase-mode</a> - Major mode for editing git rebase files.</li>
+  <li><a href="https://github.com/pidu/git-timemachine">git-timemachine</a> - Step through historic versions of git controlled files.</li>
+  <li><a href="https://github.com/syohex/emacs-git-gutter">git-gutter</a> - Indicator the modified lines via git diff.</li>
+  <li><a href="https://github.com/syohex/emacs-git-messenger">git-messenger</a> - popup commit message at current line to know why this line was changed.</li>
+  <li><a href="https://github.com/rmuslimov/browse-at-remote">browse-at-remote</a> - Open page at github/bitbucket from emacs buffers.</li>
+  <li><a href="https://github.com/sshaw/git-link">git-link</a> - Get the GitHub/Bitbucket/GitLab etc… URL for a buffer location.</li>
+  <li><a href="https://github.com/ananthakumaran/monky">monky</a> - An interactive interface for mercurial.</li>
+  <li><a href="https://bitbucket.org/agriggio/ahg/" rel="nofollow">aHg</a> - An Emacs front-end for the Mercurial SCM.</li>
+  <li><a href="https://github.com/jwiegley/git-undo-el">git-undo</a> - A command for Emacs to regress or “undo” a region back through its Git history.</li>
+</ul>
+<h2><a id="user-content-integration" class="anchor" aria-hidden="true" href="#integration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integration</h2>
+<h3><a id="user-content-console" class="anchor" aria-hidden="true" href="#console"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Console</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/CategoryEshell" rel="nofollow">EShell</a> - <code>[built-in]</code> A shell-like command interpreter implemented in Emacs Lisp.</li>
+  <li><a href="https://www.emacswiki.org/emacs/AnsiTerm" rel="nofollow">Term</a> - <code>[built-in]</code> A terminal emulator in Emacs.</li>
+  <li><a href="https://github.com/purcell/exec-path-from-shell">exec-path-from-shell</a> - Get environment variables such as $PATH from the shell for Mac user.</li>
+  <li><a href="https://github.com/kaihaosw/eshell-prompt-extras">eshell-prompt-extras</a> - Display extra information and color for your eshell prompt.</li>
+  <li><a href="https://www.emacswiki.org/emacs/download/multi-term.el" rel="nofollow">multi-term</a> - Managing multiple terminal buffers in Emacs.</li>
+  <li><a href="https://github.com/kyagi/shell-pop-el">shell-pop</a> - Quickly toggle a shell with one key action.</li>
+  <li><a href="https://github.com/peterwvj/eshell-up">eshell-up</a> - Quickly navigate to a specific parent directory in eshell without having to repeatedly typing <code>cd ..</code>.</li>
+  <li><a href="https://github.com/steckerhalter/emacs-fasd">fasd</a> - Emacs integration for the command-line productivity booster fasd.</li>
+  <li><a href="https://github.com/dieggsy/esh-autosuggest/">esh-autosuggest</a> - Fish-like history autosuggestions in Eshell.</li>
+  <li><a href="https://github.com/Ambrevar/emacs-fish-completion">fish-completion</a> - Fallback on <a href="http://fishshell.com/" rel="nofollow">fish shell</a> completion for <code>M-x shell</code> and Eshell.</li>
+</ul>
+<h3><a id="user-content-operating-system" class="anchor" aria-hidden="true" href="#operating-system"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Operating System</h3>
+<ul>
+  <li><a href="https://github.com/zk-phi/symon/">Symon</a> - Tiny graphical system monitor.</li>
+  <li><a href="https://github.com/jabranham/system-packages">system-packages</a> - Manage your installed packages with emacs.</li>
+  <li><a href="https://github.com/emacs-helm/helm-system-packages">Helm System Packages</a> - A Helm interface to the package manager of your operating system.</li>
+</ul>
+<h3><a id="user-content-search" class="anchor" aria-hidden="true" href="#search"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Search</h3>
+<ul>
+  <li><a href="https://github.com/mhayashi1120/Emacs-wgrep">wgrep</a> -  Writable grep/ack/ag/pt buffer and apply the changes to files.</li>
+</ul>
+<h4><a id="user-content-ack" class="anchor" aria-hidden="true" href="#ack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ack</h4>
+<ul>
+  <li><a href="http://nschum.de/src/emacs/full-ack/" rel="nofollow">full-ack</a> - An Emacs front-end for ack.</li>
+  <li><a href="https://github.com/leoliu/ack-el">ack-el</a> - Emacs Interface to Ack-like Tools.</li>
+</ul>
+<h4><a id="user-content-ag" class="anchor" aria-hidden="true" href="#ag"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ag</h4>
+<ul>
+  <li><a href="https://github.com/Wilfred/ag.el">ag.el</a> - An Emacs frontend to Ag (“the silver searcher” ack replacment).</li>
+  <li><a href="https://github.com/syohex/emacs-helm-ag">helm-ag</a> - Ag with helm interface.</li>
+</ul>
+<h4><a id="user-content-pt" class="anchor" aria-hidden="true" href="#pt"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pt</h4>
+<ul>
+  <li><a href="https://github.com/bling/pt.el">pt.el</a> - An emacs front-end for Pt, the <a href="https://github.com/monochromegane/the_platinum_searcher">Platinum Searcher</a>.</li>
+</ul>
+<h4><a id="user-content-sift" class="anchor" aria-hidden="true" href="#sift"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sift</h4>
+<ul>
+  <li><a href="https://github.com/nlamirault/sift.el">sift.el</a> - Front-end for <a href="https://github.com/svent/sift">sift</a>, a fast and powerful grep alternative.</li>
+</ul>
+<h4><a id="user-content-ripgrep" class="anchor" aria-hidden="true" href="#ripgrep"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ripgrep</h4>
+<ul>
+  <li><a href="https://github.com/nlamirault/ripgrep.el">ripgrep.el</a> - Emacs front-end for <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a>, a command line search tool.</li>
+</ul>
+<h3><a id="user-content-pastebin" class="anchor" aria-hidden="true" href="#pastebin"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pastebin</h3>
+<ul>
+  <li><a href="https://github.com/defunkt/gist.el">gist.el</a> - Paste Gist in Emacs.</li>
+  <li><a href="https://github.com/mhayashi1120/yagist.el">yagist.el</a> - Yet another Gist integration.</li>
+  <li><a href="https://github.com/gregnewman/dpaste.el">dpaste.el</a> - Emacs mode to post to dpaste.com.</li>
+  <li><a href="https://github.com/emacs-pe/jist.el">jist.el</a> - Yet another gist client for Emacs.</li>
+  <li><a href="https://github.com/theanalyst/ix.el">ix.el</a> - Paste to <a href="http://ix.io/" rel="nofollow">ix.io</a> pastebin.</li>
+  <li><a href="https://github.com/etu/webpaste.el">webpaste.el</a> - Paste to pastebin-like services.</li>
+</ul>
+<h3><a id="user-content-google" class="anchor" aria-hidden="true" href="#google"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Google</h3>
+<ul>
+  <li><a href="https://github.com/Malabarba/emacs-google-this">google-this</a> - A set of functions and bindings to google under point.</li>
+  <li><a href="https://github.com/atykhonov/google-translate">google-translate</a> - Interface to Google Translate.</li>
+</ul>
+<h3><a id="user-content-blog-system" class="anchor" aria-hidden="true" href="#blog-system"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Blog System</h3>
+<ul>
+  <li><a href="https://github.com/nibrahim/Hyde">Hyde</a> - An Emacs mode to manage <a href="https://jekyllrb.com/" rel="nofollow">Jekyll</a> blogs.</li>
+  <li><a href="https://github.com/kuanyui/hexo.el">hexo.el</a> - A frontend UI of <a href="https://hexo.io/" rel="nofollow">Hexo</a> for Emacs.</li>
+  <li><a href="https://github.com/CodeFalling/blog-admin">blog-admin</a> - Write blog in emacs with hexo/org-page/nikola.</li>
+  <li><a href="https://github.com/thiefuniverse/blog-minimal">blog-minimal</a> - A simple static site generator based on org mode.</li>
+  <li><a href="https://ox-hugo.scripter.co" rel="nofollow">ox-hugo</a> - Export Org subtrees/files to Markdown with front-matter for <a href="https://gohugo.io" rel="nofollow">Hugo</a> static site generator.</li>
+</ul>
+<h2><a id="user-content-markdown" class="anchor" aria-hidden="true" href="#markdown"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Markdown</h2>
+<ul>
+  <li><a href="https://jblevins.org/projects/markdown-mode/" rel="nofollow">Markdown-mode</a> - markdown-mode is a major mode for editing Markdown-formatted text files in GNU Emacs.</li>
+  <li><a href="https://github.com/milkypostman/markdown-mode-plus">markdown-mode+</a> - Additional functions for Emacs [markdown-mode].</li>
+  <li><a href="https://github.com/ardumont/markdown-toc">markdown-toc</a> - Generate TOC for markdown files.</li>
+  <li><a href="https://github.com/nlamirault/emacs-markdownfmt">markdownfmt</a> - Format markdown using <a href="https://github.com/shurcooL/markdownfmt">markdownfmt</a>.</li>
+</ul>
+<h2><a id="user-content-latex" class="anchor" aria-hidden="true" href="#latex"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LaTeX</h2>
+<ul>
+  <li><a href="https://www.gnu.org/software/auctex/" rel="nofollow">AUCTeX</a> - an extensible package for writing and formatting TeX files.</li>
+  <li><a href="https://www.emacswiki.org/emacs/LaTeXPreviewPane" rel="nofollow">latex-preview-pane</a> is a minor mode for Emacs that enables you to preview your LaTeX files directly in Emacs.</li>
+  <li><a href="https://www.gnu.org/software/auctex/reftex.html" rel="nofollow">RefTeX</a> - <code>[built-in]</code> Adds support for labels, references, citations, and index entries.</li>
+</ul>
+<h2><a id="user-content-pdf" class="anchor" aria-hidden="true" href="#pdf"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PDF</h2>
+<ul>
+  <li><a href="https://github.com/politza/pdf-tools">PDF Tools</a> - major mode for rendering PDF files, much better than DocView, and has much richer set of features.</li>
+</ul>
+<h2><a id="user-content-internet" class="anchor" aria-hidden="true" href="#internet"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Internet</h2>
+<h3><a id="user-content-browser" class="anchor" aria-hidden="true" href="#browser"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Browser</h3>
+<ul>
+  <li><a href="https://www.gnu.org/software/emacs/manual/html_mono/eww.html" rel="nofollow">EWW</a> - <code>[built-in]</code> EWW, the Emacs Web Wowser, is a web browser for Emacs.</li>
+  <li><a href="https://www.emacswiki.org/emacs/WebKit" rel="nofollow">emacs-webkit</a> - Emacs-webkit, a webkit browser inside Emacs.</li>
+</ul>
+<h3><a id="user-content-mail" class="anchor" aria-hidden="true" href="#mail"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mail</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/CategoryGnus" rel="nofollow">Gnus</a> - <code>[built-in]</code> Reading e-mail and Usenet news.</li>
+  <li><a href="https://www.emacswiki.org/emacs/MessageMode" rel="nofollow">Messages</a> - <code>[built-in]</code> Composing and sending e-mail inside Emacs.</li>
+  <li><a href="http://www.djcbsoftware.nl/code/mu/mu4e.html" rel="nofollow">mu4e</a> - An e-mail client for Emacs.</li>
+  <li><a href="https://notmuchmail.org/" rel="nofollow">notmuch</a> - A mail indexer which can serve as a complete client with its emacs integration.</li>
+  <li><a href="https://www.emacswiki.org/emacs/WanderLust" rel="nofollow">Wanderlust</a> - A powerful email and Usenet client for Emacs (IMAP4rev1, NNTP, POP(POP3/APOP), MH/Maildir).</li>
+  <li><a href="http://www.mew.org/en/" rel="nofollow">mew</a> - A very easy to use e-mail reader and client for Emacs.</li>
+</ul>
+<h3><a id="user-content-irc" class="anchor" aria-hidden="true" href="#irc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IRC</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/ERC" rel="nofollow">ERC</a> - <code>[built-in]</code> A powerful, modular, and extensible IRC client.</li>
+  <li><a href="http://www.nongnu.org/riece/index.html.en" rel="nofollow">Riece</a> - An IRC client for Emacs.</li>
+  <li><a href="https://www.emacswiki.org/emacs/rcirc" rel="nofollow">Rcirc</a> - <code>[built-in]</code> Next generation IRC client.</li>
+  <li><a href="https://github.com/jorgenschaefer/circe">Circe</a> - A Client for IRC in Emacs.</li>
+</ul>
+<h3><a id="user-content-chat" class="anchor" aria-hidden="true" href="#chat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Chat</h3>
+<ul>
+  <li><a href="https://github.com/the-kenny/weechat.el">Weechat.el</a> - A Weechat-relay client for Emacs.</li>
+  <li><a href="https://github.com/yuya373/emacs-slack">slack</a> - slack client for Emacs.</li>
+</ul>
+<h3><a id="user-content-social-network" class="anchor" aria-hidden="true" href="#social-network"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Social Network</h3>
+<ul>
+  <li><a href="http://twmode.sourceforge.net/" rel="nofollow">Twittering mode</a> - Major mode for Twitter.</li>
+  <li><a href="https://github.com/vermiculus/sx.el/">SX</a> - Stack Exchange for Emacs.
+    <ul>
+      <li><a href="https://github.com/atykhonov/emacs-howdoi">howdoi</a> - Instant coding answers via Emacs, a way to query Stack Overflow directly from within Emacs.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/austin-----/weibo.emacs">weibo.emacs</a> - Sina weibo client in Emacs.</li>
+</ul>
+<h3><a id="user-content-web-feed" class="anchor" aria-hidden="true" href="#web-feed"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web Feed</h3>
+<ul>
+  <li><a href="https://github.com/skeeto/elfeed">Elfeed</a> - RSS/Atom Reader for Emacs.</li>
+  <li><a href="https://www.gnu.org/software/emacs/manual/html_node/newsticker/index.html" rel="nofollow">Newsticker</a> - <code>[built-in]</code> RSS/Atom Reader for Emacs.</li>
+</ul>
+<h2><a id="user-content-devops" class="anchor" aria-hidden="true" href="#devops"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DevOps</h2>
+<ul>
+  <li><a href="https://github.com/mpasternacki/chef-mode">chef-mode</a> - Emacs mode to edit Chef repositories.</li>
+  <li><a href="https://github.com/k1LoW/emacs-ansible">emacs-ansible</a> - Ansible minor mode.</li>
+  <li><a href="https://github.com/voxpupuli/puppet-mode">puppet-mode</a> - Edit Puppet 3 manifests with GNU Emacs 24.</li>
+  <li><a href="https://github.com/emacsmirror/salt-mode">salt-mode</a> - Edit Salt States with GNU Emacs 24.</li>
+  <li><a href="https://github.com/Silex/docker.el">docker</a> - Emacs interface to Docker, manipulate docker images, containers &amp; more from Emacs.</li>
+  <li><a href="https://github.com/syohex/emacs-terraform-mode">terraform-mode</a> - Terraform mode to edit terraform files.</li>
+</ul>
+<h2><a id="user-content-package-management" class="anchor" aria-hidden="true" href="#package-management"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package Management</h2>
+<h3><a id="user-content-package-manager" class="anchor" aria-hidden="true" href="#package-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package Manager</h3>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/ELPA" rel="nofollow">package.el</a> - <code>[built-in]</code> Install and manage Emacs packages easily.
+    <ul>
+      <li><a href="https://github.com/Malabarba/paradox">paradox</a> - Modernizing Emacs’ Package Menu with package ratings, usage statistics, customizability &amp; more.</li>
+      <li><a href="https://github.com/Silex/package-utils">package-utils</a> - Interactive extensions for package.el .</li>
+      <li><a href="https://github.com/larstvei/Try">try</a> - Try out Emacs packages.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/dimitri/el-get">el-get</a> - apt-get style Emacs packages manager.</li>
+  <li><a href="https://github.com/cask/cask">cask</a> - Manage dependencies for your local Emacs configuration and automate the package development cycle.
+    <ul>
+      <li><a href="https://github.com/rdallasgray/pallet">pallet</a> - A package management tool for Emacs, built on Cask.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/quelpa/quelpa">quelpa</a> - Build and install your Emacs Lisp packages on-the-fly directly from source.</li>
+  <li><a href="https://github.com/dunn/homebrew-emacs">homebrew-emacs</a> - <a href="https://brew.sh" rel="nofollow">Homebrew</a> tap for installing Emacs packages.</li>
+  <li><a href="https://github.com/emacscollective/borg">borg</a> - Assimilate Emacs packages as Git submodules.</li>
+  <li><a href="https://github.com/raxod502/straight.el">straight.el</a> - Next-generation, purely functional package manager for the Emacs hacker.</li>
+</ul>
+<h3><a id="user-content-package-configuration" class="anchor" aria-hidden="true" href="#package-configuration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package Configuration</h3>
+<ul>
+  <li><a href="https://github.com/jwiegley/use-package">use-package</a> - A declaration macro to isolate package configuration in a way that is performance-oriented and tidy.
+    <ul>
+      <li><a href="https://github.com/edvorg/req-package">req-package</a> - A use-package wrapper for package runtime dependencies management.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jschaf/esup">ESUP</a> - Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs.</li>
+  <li><a href="https://github.com/technomancy/better-defaults">better-defaults</a> - A small number of better defaults for Emacs.</li>
+  <li><a href="https://github.com/emacscollective/no-littering">no-littering</a> - Help keeping ~/.emacs.d clean.</li>
+</ul>
+<h3><a id="user-content-package-updates" class="anchor" aria-hidden="true" href="#package-updates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Package Updates</h3>
+<ul>
+  <li><a href="https://github.com/rranelli/auto-package-update.el">auto-package-update.el</a> - Automatically update Emacs packages.</li>
+  <li><a href="https://github.com/mola-T/SPU">SPU</a> - Emacs Silent Package Upgrader.</li>
+</ul>
+<h2><a id="user-content-library" class="anchor" aria-hidden="true" href="#library"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Library</h2>
+<ul>
+  <li><a href="https://github.com/magnars/dash.el">dash.el</a> - A modern list library.</li>
+  <li><a href="https://elpa.gnu.org/packages/seq.html" rel="nofollow">seq.el</a> - <code>[built-in]</code> Sequence manipulation functions.</li>
+  <li><a href="https://elpa.gnu.org/packages/cl-lib.html" rel="nofollow">cl-lib.el</a> - <code>[built-in]</code> Common Lisp extensions for Emacs.</li>
+  <li><a href="https://github.com/magnars/s.el">s.el</a> - String manipulation library.</li>
+  <li><a href="https://github.com/Wilfred/ht.el">ht.el</a> - The missing hash table library for Emacs.</li>
+  <li><a href="https://github.com/rejeep/f.el">f.el</a> - Modern API for working with files and directories in Emacs.</li>
+  <li><a href="https://github.com/jwiegley/emacs-async">emacs-async</a> - Simple library for asynchronous processing in Emacs.</li>
+  <li><a href="https://github.com/grizzl/grizzl">Grizzl</a> - A small utility library to be used in other Elisp code needing fuzzy search behaviour.</li>
+  <li><a href="https://github.com/ShingoFukuyama/ov.el">ov.el</a> - Overlay library for Emacs Lisp.</li>
+  <li><a href="https://github.com/Malabarba/names">Names</a> - A Namespace implementation for Emacs Lisp.</li>
+  <li><a href="https://github.com/kiwanami/emacs-deferred">emacs-deferred</a> - Simple asynchronous functions for Emacs Lisp.</li>
+  <li><a href="https://www.gnu.org/software/emacs/manual/html_node/eieio/" rel="nofollow">EIEIO</a> - <code>[built-in]</code> EIEIO (“Enhanced Implementation of Emacs Interpreted Objects”) provides an Object Oriented layer for Emacs Lisp.</li>
+  <li><a href="https://github.com/auto-complete/popup-el">popup.el</a> - Visual Popup Interface Library for Emacs.</li>
+  <li><a href="https://github.com/jwiegley/alert">alert</a> - A Growl-like alerts notifier for Emacs.</li>
+  <li><a href="https://github.com/sigma/gh.el">gh.el</a> - GitHub API library for Emacs.</li>
+  <li><a href="https://github.com/tkf/emacs-request">request</a> - A HTTP request library with multiple backends.</li>
+  <li><a href="https://github.com/ahyatt/emacs-websocket">websocket</a> - A websocket implementation in elisp, for emacs.</li>
+</ul>
+<h2><a id="user-content-appearance" class="anchor" aria-hidden="true" href="#appearance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Appearance</h2>
+<ul>
+  <li><a href="https://github.com/milkypostman/powerline">powerline</a> - Emacs version of the Vim powerline.</li>
+  <li><a href="https://github.com/raugturi/powerline-evil">powerline-evil</a> - Utilities for better Evil support for Powerline.</li>
+  <li><a href="https://github.com/Malabarba/smart-mode-line">smart-mode-line</a> - A sexy mode-line for Emacs.</li>
+  <li><a href="https://github.com/TheBB/spaceline">spaceline</a> - Powerline theme from Spacemacs.</li>
+  <li><a href="https://github.com/dbordak/telephone-line">telephone-line</a> - A new implementation of Powerline for Emacs.</li>
+  <li><a href="https://github.com/ryuslash/mode-icons">mode-icons</a> - Show icons instead of mode names.</li>
+  <li><a href="https://github.com/iqbalansari/emacs-emojify">emojify</a> - Display emojis in Emacs.</li>
+</ul>
+<h2><a id="user-content-theme" class="anchor" aria-hidden="true" href="#theme"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Theme</h2>
+<ul>
+  <li><a href="https://github.com/bbatsov/zenburn-emacs">Zenburn</a> - <i>(dark)</i> Vim’s “Zenburn theme” ported to Emacs.</li>
+  <li><a href="https://github.com/bbatsov/solarized-emacs">Solarized</a> - <i>(light/dark)</i> Solarized color theme.</li>
+  <li><a href="https://github.com/hlissner/emacs-doom-themes">Doom-themes</a> - <i>(dark)</i> Inspired by the One Dark/Light UI and syntax themes in Atom.</li>
+  <li><a href="https://github.com/purcell/color-theme-sanityinc-tomorrow">Sanityinc-tomorrow</a> - <i>(light/dark)</i> An Emacs version of “Tomorrow-themes”.</li>
+  <li><a href="https://github.com/oneKelvinSmith/monokai-emacs">Monokai</a> - <i>(dark)</i> A port of the popular TextMate theme Monokai.</li>
+  <li><a href="https://github.com/n3mo/cyberpunk-theme.el">Cyberpunk-theme</a> - <i>(dark)</i> <b>[256color]</b> Mostly a direct port of the “Cyberpunk Overtone theme”.</li>
+  <li><a href="https://github.com/jordonbiondo/ample-theme">Ample-theme</a> - <i>(light/dark)</i> <b>[256color]</b> A low-contrast theme for Emacs.</li>
+  <li><a href="https://github.com/kuanyui/moe-theme.el">Moe-theme</a>- <i>(light/dark)</i> <b>[256color]</b> A customizable colorful eye-candy theme. Moe, moe, kyun!</li>
+  <li><a href="https://github.com/fniessen/emacs-leuven-theme">Leuven-theme</a> - <code>[built-in]</code> <i>(light)</i> Awesome Emacs color theme for white backgrounds.</li>
+  <li><a href="https://github.com/steckerhalter/grandshell-theme">Grandshell-theme</a> - <i>(dark)</i> <b>[256color]</b> Theme with intensive colors.</li>
+</ul>
+<blockquote>
+  <p>The above list contains some of the most popular/installed themes. If still unsatisfied, you can also take a look at <a href="https://pawelbx.github.io/emacs-theme-gallery/" rel="nofollow">GNU Emacs Themes Gallery</a> for screenshots of almost all available Emacs themes.</p>
+</blockquote>
+<h2><a id="user-content-multimedia" class="anchor" aria-hidden="true" href="#multimedia"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multimedia</h2>
+<ul>
+  <li><a href="https://www.emacswiki.org/emacs/Mpc" rel="nofollow">mpc</a> - <code>[built-in]</code> An Emacs front end to the Music Player Daemon.</li>
+  <li><a href="https://www.gnu.org/software/emms/" rel="nofollow">EMMS</a> - The Emacs Multimedia System.</li>
+  <li><a href="https://github.com/dbrock/bongo/">Bongo</a> - A flexible and usable media player for GNU Emacs.</li>
+  <li><a href="https://github.com/nlamirault/dionysos">Dionysos</a> - A simple music player for Emacs.</li>
+  <li><a href="https://github.com/pft/mingus">Mingus</a> - An Emacs front end to the Music Player Daemon with an interface that resembles ncmpc.</li>
+</ul>
+<h2><a id="user-content-finance" class="anchor" aria-hidden="true" href="#finance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Finance</h2>
+<ul>
+  <li><a href="https://github.com/NicolasPetton/elbank">Elbank</a> - Personal finances application for Emacs.</li>
+  <li><a href="https://github.com/ledger/ledger-mode">ledger-mode</a> - Plain text double-entry accounting in Emacs with <a href="https://www.ledger-cli.org/" rel="nofollow">ledger</a>.</li>
+</ul>
+<h2><a id="user-content-fun" class="anchor" aria-hidden="true" href="#fun"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fun</h2>
+<ul>
+  <li><a href="https://github.com/TeMPOraL/nyan-mode">Nyan-mode</a> - Let Nyan Cat show you your buffer position in mode line.</li>
+  <li><a href="https://www.emacswiki.org/emacs/ZoneMode" rel="nofollow">Zone Mode</a> - <code>[built-in]</code> A buffer obfuscator, or a screensaver.</li>
+  <li><a href="https://bitbucket.org/zck/minesweeper.el" rel="nofollow">minesweeper.el</a> - An implementation of minesweeper in emacs.</li>
+  <li><a href="https://bitbucket.org/zck/2048.el" rel="nofollow">2048-game.el</a> - An implementation of 2048 in emacs.</li>
+  <li><a href="https://github.com/vibhavp/emacs-xkcd">emacs-xkcd</a> -  Read xkcd from emacs.</li>
+  <li><a href="http://www.gnuvola.org/software/gnugo/" rel="nofollow">gnugo.el</a> - The official Emacs Lisp interface to GNU Go.</li>
+  <li><a href="https://github.com/codingteam/pacmacs.el">Pacmacs</a> - Pacman-like game for Emacs.</li>
+  <li><a href="https://github.com/hagleitn/speed-type">speed-type</a> - Practice speed/touch typing in Emacs.</li>
+  <li><a href="https://gitlab.com/iankelling/spray" rel="nofollow">spray</a> - A speed reading mode for Emacs.</li>
+  <li><a href="https://github.com/kuanyui/fsc.el">fsc.el</a> - Fuck the Speeching Censorship!</li>
+  <li><a href="https://github.com/bcbcarl/emacs-wttrin">wttrin</a> - Emacs frontend for weather web service wttr.in.</li>
+  <li><a href="https://github.com/johanvts/emacs-fireplace">fireplace</a> - A cozy fireplace for emacs.</li>
+  <li><a href="https://github.com/Fuco1/clippy.el">clippy</a> - Show tooltip with function documentation at point.</li>
+</ul>
+<h2><a id="user-content-starter-kit" class="anchor" aria-hidden="true" href="#starter-kit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Starter Kit</h2>
+<ul>
+  <li><a href="https://github.com/bbatsov/prelude">Prelude</a> - Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful.</li>
+  <li><a href="https://github.com/overtone/emacs-live">Emacs-live</a> - M-x start-hacking <a href="http://overtone.github.io/emacs-live/">http://overtone.github.io/emacs-live/</a>.</li>
+  <li><a href="https://github.com/purcell/emacs.d">Purcell’s .emacs.d</a> - An Emacs configuration bundle with batteries included.</li>
+  <li><a href="https://github.com/eschulte/emacs24-starter-kit">Emacs24 Starter Kit</a> - A cleaner version of the literate starter kit based on Emacs24 <a href="http://eschulte.github.io/emacs24-starter-kit/">http://eschulte.github.io/emacs24-starter-kit/</a>.</li>
+  <li><a href="https://github.com/xiaohanyu/oh-my-emacs">Oh-My-Emacs</a> - Provide an awesome, out-of-box, literate dotemacs for both newbies and nerds.</li>
+  <li><a href="https://github.com/senny/cabbage">Cabbage</a> - Get the maximum out of emacs <a href="http://senny.github.io/cabbage/">http://senny.github.io/cabbage/</a>.</li>
+  <li><a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a> - A slick Evil focused starter kit: do not fear RSI anymore.</li>
+  <li><a href="https://github.com/rdallasgray/graphene">Graphene</a> - A set of defaults for Emacs, for refugees from GUI text editors.</li>
+  <li><a href="https://github.com/bodil/ohai-emacs">Ohai Emacs</a> - The finest hand crafted artisanal emacs.d for your editing pleasure.</li>
+  <li><a href="http://emacs-bootstrap.com/" rel="nofollow">Emacs-Bootstrap</a> - Your on-the-fly Emacs development environment!</li>
+  <li><a href="https://github.com/jkitchin/scimax">Scimax</a> - An Emacs starter kit for scientists and engineers with a focus on Org-Mode.</li>
+  <li><a href="https://github.com/thefrontside/frontmacs">Frontmacs</a> - A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution.</li>
+  <li><a href="https://github.com/technomancy/better-defaults">better-defaults</a> - A small number of better defaults for Emacs.</li>
+</ul>
+<h2><a id="user-content-noteworthy-configurations" class="anchor" aria-hidden="true" href="#noteworthy-configurations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Noteworthy Configurations</h2>
+<ul>
+  <li><a href="https://github.com/emacsmirror/emacswiki.org/blob/master/emacs-init.el">init.el</a> - Drew Adams : Icicles, bookmark+ to name a few.</li>
+  <li><a href="https://github.com/jwiegley/dot-emacs">dot-emacs</a> - John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package.</li>
+  <li><a href="https://github.com/howardabrams/dot-files/blob/master/emacs.org">emacs.org</a> - Howard Abrams (@howardabrams).</li>
+  <li><a href="https://github.com/magnars/.emacs.d">.emacs.d</a> - Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region.</li>
+  <li><a href="https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org">Sacha.org</a> - Sacha Chua (@sachac).</li>
+  <li><a href="https://github.com/rejeep/emacs/">emacs</a> - Johan Andersson (@rejeep).</li>
+  <li><a href="https://github.com/hlissner/doom-emacs">doom</a> - Henrik Lissner’s (@hlissner) Emacs configuration for the stubborn martian vimmer.</li>
+  <li><a href="https://github.com/redguardtoo/emacs.d">emacs.d</a> - Chen Bin (@redguardtoo).</li>
+  <li><a href="https://github.com/defunkt/emacs">emacs</a> - Chris Wanstrath (@defunkt).</li>
+  <li><a href="https://github.com/lunaryorn/old-emacs-configuration">.emacs.d</a> - Sebastian Wiesner (@lunaryorn): Flycheck.</li>
+  <li><a href="https://github.com/grettke/home">home</a> - Grant Rhettke (@grettke).</li>
+  <li><a href="https://github.com/abo-abo/oremacs">oremacs</a> - Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra, Avy.</li>
+  <li><a href="https://github.com/kaushalmodi/.emacs.d">.emacs.d</a> - Kaushal Modi (@kaushalmodi).</li>
+  <li><a href="https://github.com/ejmr/DotEmacs">DotEmacs</a> - Eric James Michael Ritz (@ejmr).</li>
+  <li><a href="https://github.com/thierryvolpiatto/emacs-tv-config">emacs-tv-config</a> - Thierry Volpiatto (@thierryvolpiatto) : Helm Maintainer.</li>
+  <li><a href="https://github.com/jorgenschaefer/Config/blob/master/emacs.el">emacs.el</a> - Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe.</li>
+  <li><a href="https://ogbe.net/emacsconfig.html" rel="nofollow">emacsconfig.html</a> - Dennis Ogbe.</li>
+  <li><a href="https://github.com/joedicastro/dotfiles/tree/master/emacs">emacs</a> - Joe di Castro @joedicastro.</li>
+  <li><a href="https://github.com/julienfantin/.emacs.d">emacs.d</a> - Julien Fantin : use-package, good config organisation system.</li>
+</ul>
+<h2><a id="user-content-tutorials" class="anchor" aria-hidden="true" href="#tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tutorials</h2>
+<ul>
+  <li><a href="https://www.gnu.org/software/emacs/tour/" rel="nofollow">A Guided Tour of Emacs</a> - An official guided tour of Emacs.</li>
+  <li><a href="https://github.com/pierre-lecocq/emacs4developers">Emacs for developers</a> -  A document to help developers to use Emacs as a developer.</li>
+  <li><a href="http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html" rel="nofollow">Emacs for writers</a> - The Woodnotes Guide to Emacs for Writers.</li>
+  <li><a href="http://cestlaz.github.io/stories/emacs/" rel="nofollow">C’est la Z - Using Emacs Series</a> - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky).</li>
+</ul>
+<h2><a id="user-content-links-and-resources" class="anchor" aria-hidden="true" href="#links-and-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Links and resources</h2>
+<ul>
+  <li><a href="http://planet.emacsen.org/" rel="nofollow">Planet Emacsen</a> - A community driven mashup of Emacs articles.</li>
+  <li><a href="https://www.reddit.com/r/emacs/" rel="nofollow">Emacs subreddit</a> - The reddit Emacs channel.</li>
+  <li><a href="http://oremacs.com/" rel="nofollow">(or emacs</a> - An (ir)relevant blog about Emacs.</li>
+  <li><a href="http://emacsredux.com/" rel="nofollow">Emacs Redux</a> - Return to the Essence of Text Editing.</li>
+  <li><a href="http://emacsrocks.com/" rel="nofollow">Emacs Rocks</a> - Some episodes to prove that Emacs rocks.</li>
+  <li><a href="https://www.masteringemacs.org/" rel="nofollow">Mastering Emacs</a> - Mastering the world’s best text editor.</li>
+  <li><a href="http://endlessparentheses.com/" rel="nofollow">Endless Parentheses</a> - Concise ramblings on Emacs productivity.</li>
+  <li><a href="http://whattheemacsd.com/" rel="nofollow">What the .emacs.d!?</a> - Sharing Emacs snippets and pastes with others.</li>
+  <li><a href="https://hackr.io/tutorials/learn-emacs" rel="nofollow">Community Curated Emacs Resources</a> - Top Recommended Resources.</li>
+</ul>
+<h1><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h1>
+<p><b>Your contributions are always welcome!</b> Please submit a pull request or create an issue to add a new package, library or software to the list.</p>
+<p>Before contributing, please read this tiny guideline:</p>
+<h2><a id="user-content-the-order-of-items" class="anchor" aria-hidden="true" href="#the-order-of-items"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Order of Items</h2>
+<p><b>Please don’t rearrange the package ordering without any reason!</b> The items should be sorted by its popularity ( <i>roughly, because it’s impossible to have a precious standard.</i> e.g. most of people would use it; recommended for every newbie…), instead of your personal preference.</p>
+<p>For example, <code>Evil</code> is obviously not a package that every Emacser needs. So please don’t move it onto the top of its category.</p>
+<p>In contrast, if you think a package is recommended for every Emacser (especially for a newbie), just place it at a higher place in the list.</p>
+<h2><a id="user-content-emacs-built-in-packages" class="anchor" aria-hidden="true" href="#emacs-built-in-packages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Emacs Built-In Packages</h2>
+<p>If a package is available in the latest version of Emacs, please remember to add a <code>[built-in]</code> tag in the front of the description.</p>
+<h2><a id="user-content-generate-table-of-contents" class="anchor" aria-hidden="true" href="#generate-table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generate “Table of Contents”</h2>
+<p>After you have added a package or edited the <code>README.org</code>, and before committing and issuing a pull request on this awesome list, use <code>gen-toc.el</code> to update the Table of Contents.</p>
+<p>Open <code>gen-toc.el</code> and <code>M-x eval-buffer</code>. Then change buffers to <code>README.org</code>. Subsequently, issue <code>M-x awesome-emacs-gen-toc</code> in the <code>README.org</code> buffer. If a new category of packages has been added in your commit, the Table of Contents section will be revised and updated.</p>
+<h1><a id="user-content-other-awesome-lists" class="anchor" aria-hidden="true" href="#other-awesome-lists"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Other Awesome Lists</h1>
+<p>A curated list of awesome lists can be found at <a href="https://awesome.re" rel="nofollow">awesome.re</a>.</p>
+<h1><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h1>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/4df6de8c11e31c357bf955b12ab8c55f55c48823/68747470733a2f2f6c6963656e7365627574746f6e732e6e65742f702f7a65726f2f312e302f38387833312e706e67" alt="https://licensebuttons.net/p/zero/1.0/88x31.png" data-canonical-src="https://licensebuttons.net/p/zero/1.0/88x31.png" style="max-width:100%;"></a></p>
+<p>To the extent possible under law, <a href="https://github.com/emacs-tw">emacs.tw</a> has waived all copyright and related or neighboring rights to this work.</p>
+</article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.26470s from unicorn-3751571531-5lftz">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-d941de838fad400fb91238d23684a777.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-d19623a69cc756b5a2cbda89154a69e9.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
